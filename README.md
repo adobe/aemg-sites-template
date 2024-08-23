@@ -15,7 +15,7 @@ It can serve as a most basic starting point for creating a new site, or as a sta
 
 ## Install on AEMaaCS
 
-* Go to <https://github.com/adobe/aemg-docs/releases/latest> and download `aemg-docs-{version}.zip`
+* Go to <https://github.com/adobe/aemg-docs/releases/latest](https://github.com/adobe/aemg-sites-template/releases/latest> and download `aemg-docs-{version}.zip`
 * Upload `aemg-docs-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
 
 ## Build locally
@@ -23,6 +23,7 @@ It can serve as a most basic starting point for creating a new site, or as a sta
 Alternatively you can build `aemg-docs-{version}.zip` locally.
 
 1. Install Maven (to be able to use the packaging script).
+2. Install node version 16.15.1.
 1. Initialize the project with following command executed at the template root:
 
    ```bash
@@ -42,13 +43,6 @@ Alternatively you can build `aemg-docs-{version}.zip` locally.
 
 See: <https://github.com/adobe/aem-site-template-builder>
 
-## Release
-
-Run `Build and release` GitHub workflow and provide the semantic version you're about to release. The workflow executes the following steps:
-
-* Build Site Template
-* Release latest version on github
-* Commit, build and release latest Site Theme related changes in [Site Theme E2E Repo](https://github.com/adobe/aemg-docs-theme-e2e).
 
 ## Contributing
 
