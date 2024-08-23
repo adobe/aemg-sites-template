@@ -1,0 +1,28 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+//== Font
+
+$font-family:           Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+//== Color
+
+$color-foreground:      #202020;
+$color-background:      #FFFFFF;
+$color-link:            #2020E0;
+
+$search-border-color:   #CACACA;
+$search-text-color:     #8E8E8E;
+
+
+//== Grid
+
+$max_col: 12;

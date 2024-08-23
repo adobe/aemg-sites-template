@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v1 jcr:primaryType="nt:unstructured">
+    <separator jcr:primaryType="nt:unstructured">
+      <policy_default
+          jcr:description="Style options for the v1 Separator component"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Default Separator Policy"
+          sling:resourceType="wcm/core/components/policy/policy">
+        <cq:styleGroups jcr:primaryType="nt:unstructured">
+          <item0
+            cq:styleGroupLabel="Phone Height"
+            jcr:primaryType="nt:unstructured">
+            <cq:styles jcr:primaryType="nt:unstructured">
+              <item0
+                cq:styleClasses="separator--default-phone-height"
+                cq:styleId="separator--default-phone-height"
+                cq:styleLabel="Default"
+                jcr:primaryType="nt:unstructured"/>
+              <item1
+                cq:styleClasses="my-4 sm:my-0"
+                cq:styleId="separator--1rem"
+                cq:styleLabel="1rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item2
+                cq:styleClasses="my-8 sm:my-0"
+                cq:styleId="separator--2rem"
+                cq:styleLabel="2rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item3
+                cq:styleClasses="my-12 sm:my-0"
+                cq:styleId="separator--3rem"
+                cq:styleLabel="3rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item4
+                cq:styleClasses="my-16 sm:my-0"
+                cq:styleId="separator--4rem"
+                cq:styleLabel="4rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item5
+                cq:styleClasses="my-20 sm:my-0"
+                cq:styleId="separator--5rem"
+                cq:styleLabel="5rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item6
+                cq:styleClasses="my-24 sm:my-0"
+                cq:styleId="separator--6rem"
+                cq:styleLabel="6rem"
+                jcr:primaryType="nt:unstructured"/>
+            </cq:styles>
+          </item0>
+          <item1
+            cq:styleGroupLabel="Large Height"
+            jcr:primaryType="nt:unstructured">
+            <cq:styles jcr:primaryType="nt:unstructured">
+              <item0
+                cq:styleClasses="separator--default-height"
+                cq:styleId="separator--default-height"
+                cq:styleLabel="Default"
+                jcr:primaryType="nt:unstructured"/>
+              <item1
+                cq:styleClasses="sm:my-4"
+                cq:styleId="separator--sm:1rem"
+                cq:styleLabel="1rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item2
+                cq:styleClasses="sm:my-8"
+                cq:styleId="separator--sm:2rem"
+                cq:styleLabel="2rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item3
+                cq:styleClasses="sm:my-12"
+                cq:styleId="separator--sm:3rem"
+                cq:styleLabel="3rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item4
+                cq:styleClasses="sm:my-16"
+                cq:styleId="separator--sm:4rem"
+                cq:styleLabel="4rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item5
+                cq:styleClasses="sm:my-20"
+                cq:styleId="separator--sm:5rem"
+                cq:styleLabel="5rem"
+                jcr:primaryType="nt:unstructured"/>
+              <item6
+                cq:styleClasses="sm:my-24"
+                cq:styleId="separator--sm:6rem"
+                cq:styleLabel="6rem"
+                jcr:primaryType="nt:unstructured"/>
+            </cq:styles>
+          </item1>
+          <item2
+            cq:styleGroupLabel="Color"
+            jcr:primaryType="nt:unstructured">
+            <cq:styles jcr:primaryType="nt:unstructured">
+              <item0
+                cq:styleClasses="separator--default-color"
+                cq:styleId="separator--default-color"
+                cq:styleLabel="Default"
+                jcr:primaryType="nt:unstructured"/>
+              <item1
+                cq:styleClasses="separator--transparent"
+                cq:styleId="separator--transparent"
+                cq:styleLabel="Transparent"
+                jcr:primaryType="nt:unstructured"/>
+              <item2
+                cq:styleClasses="separator--gray-300"
+                cq:styleId="separator--gray-300"
+                cq:styleLabel="Light Gray"
+                jcr:primaryType="nt:unstructured"/>
+              <item3
+                cq:styleClasses="separator--gray-600"
+                cq:styleId="separator--gray-600"
+                cq:styleLabel="Dark Gray"
+                jcr:primaryType="nt:unstructured"/>
+            </cq:styles>
+          </item2>
+        </cq:styleGroups>
+      </policy_default>
+      <policy_xf
+          jcr:primaryType="nt:unstructured"
+          jcr:title="My Site Language Navigation - Experience Fragment"
+          sling:resourceType="wcm/core/components/policy/policy"
+          navigationRoot="/content/aemg-docs"
+          structureDepth="1">
+          <jcr:content jcr:primaryType="nt:unstructured"/>
+      </policy_xf>
+    </separator>
+  </v1>
+</jcr:root>

@@ -1,0 +1,18 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-accordion {}
+.cmp-accordion__item {}
+.cmp-accordion__header {}
+.cmp-accordion__button {}
+.cmp-accordion__button--expanded {}
+.cmp-accordion__title {}
+.cmp-accordion__icon {}
+.cmp-accordion__panel {}
+.cmp-accordion__panel--expanded {}
+.cmp-accordion__panel--hidden {}

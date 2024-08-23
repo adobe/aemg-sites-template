@@ -1,0 +1,24 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import './site/grid';
+@import './site/base.css';
+@import './site/fonts.css';
+@import './site/typography.css';
+@import './components/**/**/*.css';
+
+@import './aemg-docs/default.css';
+@import './aemg-docs/book.css';
+@import './aemg-docs/text.css';
+@import './aemg-docs/topic.css';
+@import './aemg-docs/contentpage.css';
+@import './aemg-docs/sectionpage.css';

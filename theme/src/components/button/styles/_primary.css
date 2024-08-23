@@ -1,0 +1,16 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.button--primary {
+  .cmp-button {
+    @apply px-4 py-2 m-0 font-semibold text-white bg-blue-500 rounded-full;
+
+    @apply hover:bg-blue-700;
+    @apply focus:bg-blue-700;
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+      <v2 jcr:primaryType="nt:unstructured">
+          <page jcr:primaryType="nt:unstructured">
+              <policy_default
+                  jcr:description="Includes the required client libraries."
+                  jcr:primaryType="nt:unstructured"
+                  jcr:title="Generic Page"
+                  sling:resourceType="wcm/core/components/policy/policy"
+                  clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1,guides-components.components]">
+                  <jcr:content jcr:primaryType="nt:unstructured"/>
+              </policy_default>
+          </page>
+      </v2>
+</jcr:root>

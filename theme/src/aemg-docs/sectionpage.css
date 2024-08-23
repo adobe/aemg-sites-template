@@ -1,0 +1,27 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+#section-page-content .list{
+    ul{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 34.2px;
+        text-align: left;
+    }
+
+    li{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 34.2px;
+        text-align: left;
+        color: #1532AD;
+    }
+
+}

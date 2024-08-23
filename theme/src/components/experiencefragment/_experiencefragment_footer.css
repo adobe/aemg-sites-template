@@ -1,0 +1,88 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-experiencefragment--footer {
+    border-top: 1px solid #4B75FF;
+    font-size: .8rem;
+    background-color: #ffffff !important;
+    color: #1532AD;
+    height: 12.875rem;
+    .root{
+        margin-bottom: 0 !important;
+    }
+    .root .button {
+        margin-left: 1rem;
+    }
+    #mainDiv {
+        border-right: 2px solid;
+        height: 8.5rem;
+        border-color: #22222240;
+    }
+    .xf-content-height .root .cmp-container {
+        height: 8.5rem;
+    }
+    #mainDiv .button {
+        margin-left: 0rem !important;
+    }
+
+    .cmp-text__paragraph {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .button .cmp-button__text{
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .container.responsivegrid {
+        @apply px-4 mx-auto;
+        max-width: 100%;
+
+        > .cmp-container > .aem-Grid {
+            @apply flex flex-col items-center gap-4 pt-4 pb-12;
+            @apply sm:grid sm:grid-cols-4;
+
+            @screen sm {
+                grid-template-columns: 4fr 4fr 4fr 4fr;
+            }
+
+            &::before,
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+    .xf-content-height {
+        @apply m-0;
+    }
+
+
+    .languagenavigation {
+        @apply flex items-center;
+    }
+
+    .text {
+        display: inline-flex;
+        ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            li{
+                margin-right: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .cmp-experiencefragment--footer #mainDiv {
+        border-right: none;
+        border-bottom: 2px solid;
+        border-color: #22222240;
+    }
+  }

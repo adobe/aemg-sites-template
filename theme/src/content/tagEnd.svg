@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 6 13">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="24" height="13"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_2">
+      <rect width="6" height="13"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="tag_svg" data-name="tag svg" clip-path="url(#clip-path)">
+      <path id="Path_19" data-name="Path 19" d="M-18166.727-7800.95H-18150v-12h-16.729l-5.271,5.993Z" transform="translate(18173.004 7813.45)" fill="#dddddd" stroke="#dddddd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

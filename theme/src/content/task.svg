@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-16" fill="#4B4B4B">
+            <rect id="Rectangle" x="5" y="3" width="10" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" x="5" y="5" width="6" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" x="5" y="7" width="10" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" x="5" y="9" width="6" height="1" rx="0.5"></rect>
+            <circle id="Oval" cx="3.5" cy="3.5" r="1"></circle>
+            <circle id="Oval" cx="3.5" cy="7.5" r="1"></circle>
+            <circle id="Oval" cx="3.5" cy="11.5" r="1"></circle>
+            <rect id="Rectangle" x="5" y="11" width="10" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" x="5" y="13" width="6" height="1" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

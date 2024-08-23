@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v1 jcr:primaryType="nt:unstructured">
+      <languagenavigation jcr:primaryType="nt:unstructured">
+          <policy_xf
+              jcr:primaryType="nt:unstructured"
+              jcr:title="My Site Language Navigation - Experience Fragment"
+              sling:resourceType="wcm/core/components/policy/policy"
+              navigationRoot="/content/aemg-docs"
+              structureDepth="1">
+              <jcr:content jcr:primaryType="nt:unstructured"/>
+          </policy_xf>
+      </languagenavigation>
+  </v1>
+</jcr:root>

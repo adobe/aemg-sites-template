@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v2 jcr:primaryType="nt:unstructured">
+    <title jcr:primaryType="nt:unstructured">
+      <policy_page
+          jcr:description="Allows only H1 and disallows links for the main page title."
+          jcr:lastModified="{Date}2020-10-03T09:12:11.228+02:00"
+          jcr:lastModifiedBy="admin"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Page Title"
+          sling:resourceType="wcm/core/components/policy/policy"
+          allowedTypes="h1"
+          linkDisabled="true"
+          type="h1">
+          <cq:styleGroups jcr:primaryType="nt:unstructured">
+              <item0
+                  cq:styleGroupLabel="Display As"
+                  jcr:primaryType="nt:unstructured">
+                  <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                          cq:styleClasses="title--h1"
+                          cq:styleId="display-as-h1"
+                          cq:styleLabel="H1"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item1
+                          cq:styleClasses="title--h2"
+                          cq:styleId="display-as-h2"
+                          cq:styleLabel="H2"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item2
+                          cq:styleClasses="title--h3"
+                          cq:styleId="display-as-h3"
+                          cq:styleLabel="H3"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item3
+                          cq:styleClasses="title--h4"
+                          cq:styleId="display-as-h4"
+                          cq:styleLabel="H4"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item4
+                          cq:styleClasses="title--h5"
+                          cq:styleId="display-as-h5"
+                          cq:styleLabel="H5"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item5
+                          cq:styleClasses="title--h6"
+                          cq:styleId="display-as-h6"
+                          cq:styleLabel="H6"
+                          jcr:primaryType="nt:unstructured"/>
+                  </cq:styles>
+              </item0>
+              <item1
+                  cq:styleGroupLabel="Alignment"
+                  jcr:primaryType="nt:unstructured">
+                  <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                          cq:styleClasses="text-left"
+                          cq:styleId="text-left"
+                          cq:styleLabel="Left"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item1
+                          cq:styleClasses="text-center"
+                          cq:styleId="text-center"
+                          cq:styleLabel="Center"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item2
+                          cq:styleClasses="text-right"
+                          cq:styleId="text-right"
+                          cq:styleLabel="Right"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item3
+                          cq:styleClasses="text-justify"
+                          cq:styleId="text-justify"
+                          cq:styleLabel="Justify"
+                          jcr:primaryType="nt:unstructured"/>
+                    </cq:styles>
+                </item1>
+          </cq:styleGroups>
+      </policy_page>
+      <policy_default
+          jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Content Title"
+          sling:resourceType="wcm/core/components/policy/policy"
+          allowedTypes="[h2,h3,h4,h5,h6]"
+          linkDisabled="false"
+          type="h2">
+          <cq:styleGroups jcr:primaryType="nt:unstructured">
+              <item0
+                  cq:styleGroupLabel="Display As"
+                  jcr:primaryType="nt:unstructured">
+                  <cq:styles jcr:primaryType="nt:unstructured">
+                      <item0
+                          cq:styleClasses="title--h1"
+                          cq:styleId="display-as-h1"
+                          cq:styleLabel="H1"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item1
+                          cq:styleClasses="title--h2"
+                          cq:styleId="display-as-h2"
+                          cq:styleLabel="H2"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item2
+                          cq:styleClasses="title--h3"
+                          cq:styleId="display-as-h3"
+                          cq:styleLabel="H3"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item3
+                          cq:styleClasses="title--h4"
+                          cq:styleId="display-as-h4"
+                          cq:styleLabel="H4"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item4
+                          cq:styleClasses="title--h5"
+                          cq:styleId="display-as-h5"
+                          cq:styleLabel="H5"
+                          jcr:primaryType="nt:unstructured"/>
+                      <item5
+                          cq:styleClasses="title--h6"
+                          cq:styleId="display-as-h6"
+                          cq:styleLabel="H6"
+                          jcr:primaryType="nt:unstructured"/>
+                  </cq:styles>
+              </item0>
+          </cq:styleGroups>
+      </policy_default>
+    </title>
+  </v2>
+</jcr:root>

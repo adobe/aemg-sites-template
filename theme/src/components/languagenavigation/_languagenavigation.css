@@ -1,0 +1,17 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-languagenavigation {}
+/* .cmp-languagenavigation--countrycode-US */
+/* .cmp-languagenavigation--langcode-en-US */
+.cmp-languagenavigation__group {}
+.cmp-languagenavigation__item {}
+.cmp-languagenavigation__item--active {}
+/* .cmp-languagenavigation__item--level-0 {} */
+.cmp-languagenavigation__item-link {}
+.cmp-languagenavigation__item-title {}

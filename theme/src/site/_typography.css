@@ -1,0 +1,43 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.h1,
+.title--h1,
+h1 {
+  @apply mb-6 text-3xl;
+}
+
+.h2,
+.title--h2,
+h2 {
+  @apply mb-6 text-2xl;
+}
+
+.h3,
+.title--h3,
+h3 {
+  @apply mb-6 text-xl;
+}
+
+.h4,
+.title--h4,
+h4 {
+  @apply mb-4 text-lg;
+}
+
+.h5,
+.title--h5,
+h5 {
+  @apply mb-4 text-base;
+}
+
+.h6,
+.title--h6,
+h6 {
+  @apply mb-4 text-sm;
+}

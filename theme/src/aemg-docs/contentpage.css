@@ -1,0 +1,168 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+#refs-title-container {
+    padding: 3rem 8rem;
+    .title{
+        display: flex;
+        justify-content: center;
+        color: #4B4B4B;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.5px;
+        text-align: center;
+    }
+
+    .cmp-container {
+        max-height: 6rem;
+        li {
+        padding: 0.25rem 0;
+        }
+    }
+}
+
+#welcome-container{
+    padding: 2rem 10rem;
+    gap: 10rem;
+    .container.responsivegrid{
+        width: 100%;
+    }
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        display: flex;
+        justify-content: center;
+        color: #1532AD;
+        .cmp-title__text{
+            font-weight: 600;
+            font-size: 36px;
+        }
+    }
+    #search-container{
+        width: 100%;
+        .searchbar{
+            background: white;
+            border-radius: 0.5rem;
+            border: 0;
+            .cmp-search-bar__field{
+                height: 2.5rem;
+                border: 2px solid #4B75FF;
+                background-color: #F5F9FF80;
+            }
+        }
+    }
+
+}
+
+
+#tiles-container, #tiles-container2{
+
+    .cmp-container{
+        background: rgba(20,115,230,0.2) 0% 0% no-repeat padding-box;
+        border-radius: 0.5rem;
+        /* opacity:0.3; */
+        max-width: 20rem;
+        margin: 1rem 2rem;
+        display:flex;
+        height:8rem;
+        justify-content: center;
+        align-items: center;
+        .text{
+            font-size:1.1rem;
+            .cmp-text{
+                color: #4B4B4B;
+                display: flex;
+                align-items: center;
+                z-index: 1000;
+                p{
+                    margin:0;
+                }
+            }    
+        }
+    }
+
+    a{
+        color:inherit;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
+
+
+#category-page #table-of-contents {
+    width: 100%;
+}
+
+#page-content .cmp-experiencefragment--header , #category-page .cmp-experiencefragment--header{
+    .searchbar{
+        visibility: hidden;
+    }
+}
+
+#cp-root-container{
+}
+
+#cp-testers-container{
+    .teaser--large-card-bg{
+        min-height: 20rem;
+    }
+}
+
+#community-details{
+    background-color: #F4F4F4;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+#community-info{
+    a{
+        text-decoration: none;
+    }
+}
+
+#category-page #table-of-contents .text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+
+@media (max-width: 768px) {
+    #welcome-container {
+        padding: 2rem 2rem;
+
+        #search-container{
+            .searchbar{
+                .cmp-search-bar__field{
+                    height: 2.5rem;
+                }
+            }
+        }
+        
+    }
+    #welcome-container .title .cmp-title__text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.3px;
+        text-align: left;
+    }
+
+    #category-page #table-of-contents .text {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21.6px;
+        text-align: left;
+        margin-bottom: 2rem;
+      }
+  }

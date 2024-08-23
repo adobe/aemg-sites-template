@@ -1,0 +1,236 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+/* Base styles */
+html {
+  @apply text-gray-700;
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: Roboto;
+}
+.root {
+  height: 100%;
+}
+
+button,
+select,
+a {
+  @apply focus:ring focus:ring-blue-400 focus:ring-opacity-75 focus:outline-none;
+}
+
+select {
+  @apply p-1 mx-0 my-2 text-base text-gray-600 bg-transparent border border-gray-400 rounded;
+  @apply focus:border-gray-600 focus:text-gray-800;
+}
+
+.cmp-dita-topic-content .newpar{
+  display: none;
+}
+
+.editor-panel .cmp-dita-topic-content .newpar{
+  display: unset;
+}
+
+
+#topic-title{
+  font-weight: 900;
+}
+#section-page {
+  min-height: calc(100% - 18.375rem);
+}
+#section-page-content .title {
+  font-weight: 900;
+}
+
+#section-page .title .cmp-title {
+}
+#section-page-content {
+  width: 90%;
+}
+
+#topic-container {
+  width: 90%;
+  min-height: calc(100% - 18.375rem);
+  display: flex;
+  flex-direction: column;
+}
+#topic-container .title h1 {
+  margin-bottom : 0.75rem;
+}
+
+.cmp-languagenavigation--langnavtoggle{
+  /* border: 2px solid black; */
+  border-radius: .5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+#langNavToggleHeader a{
+  margin-right: 1rem
+}
+
+.cmp-languagenavigation {
+  position: fixed;
+  z-index: 1000;
+  width: fit-content;
+  display: none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 4px #00000026;
+  border: 1px solid #CACACA;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.cmp-languagenavigation.showMenu{
+  display: block;
+  li {
+    min-height: 2rem;
+    padding: 0.25rem 1rem; 
+  }
+  li:hover{
+    @apply text-gray-800;
+    background-color: #2C2C2C0F; 
+  }
+
+}
+
+#page-details {
+  /*height: 2.25rem;*/
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+
+  /*display: grid;*/
+  /*grid-template-rows: auto auto auto;*/
+  /*grid-template-columns: auto 1fr;*/
+  /*gap: 10px;*/
+
+  .cmp-title{
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .cmp-title::before {
+    /*content: '';*/
+    /*width: 0.3rem;*/
+    /*height: 0.3rem;*/
+    /*background-color: #6E6E6E;*/
+    /*border-radius: 0.3rem;*/
+    /*margin-right: 0.75rem;*/
+    }
+    :first-child{
+      margin-left: 0;
+    }
+    :first-child::before {
+      width: 0;
+      height: 0;
+      margin:0
+    }
+    .cmp.cmp-title div:first-child {
+      height: 1rem;
+    }
+}
+
+#topic-container #page-details > .container .cmp-container {
+  margin-bottom: 0rem !important;
+  margin-top: 0rem !important;
+}
+
+#topic-container #page-details #authorBox {
+  display: flex;
+  margin-bottom: 0.5rem !important;
+
+}
+#lastUpdateBox {
+  display: flex;
+}
+#authorLabel {
+  height: 1rem;
+  margin-right: 0.5rem !important;
+  font-weight: 600 !important;
+
+}
+#lastUpdateLabel {
+  height: 1rem;
+  margin-right: 0.5rem !important;
+  font-weight: 600 !important;
+}
+
+.new.newpar.section.aem-Grid-newComponent {
+  display: none;
+}
+.new.newpar.section {
+  display: none;
+}
+#topic-page{
+  height: 100%;
+}
+
+*[data-tcx-rotate = '270deg'] {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  vertical-align: middle !important;
+}
+
+.linkpool a {
+  display: block;
+}
+
+#topic-page > .aem-Grid{
+  height: 100%;
+
+}
+
+
+
+@media (min-width: 768px) {
+  .injected-center-wrapper {
+    width: calc(100% - 41.5rem) !important;
+    min-height: calc(100% - 18.375rem) !important;
+  }
+
+  .injected-toc-wrapper {
+    width: 19.25rem !important;
+    margin-left: 3rem !important;
+  }
+}
+
+.cmp.cmp-mini-toc{
+  width: 14.25rem !important;
+  margin-right: 2rem !important;
+  margin-top: 1.5rem !important;
+  margin-left: 3rem !important;;
+  position: relative;
+}
+
+.mini-toc-main {
+  position: sticky;
+  top: 1.5rem;
+}
+
+.cmp-page-helpful-feedback {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.root .cmp-container {
+  height: 100%;
+}
+
+.root .cmp-container .main {
+  min-height: calc(100% - 17.0rem);
+}

@@ -1,0 +1,1046 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+@charset "UTF-8";
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) {
+  line-height: 1.5em;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  counter-reset: fn;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tcx-hide {
+  display: none !important;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) abbr, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) article, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) aside, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) audio, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) b, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) big, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) canvas, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) caption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) center, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) cite, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) code, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) del, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) details, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dfn, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) div, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dl, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dt, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) em, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) embed, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) fieldset, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figcaption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figure, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) footer, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) form, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h1, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h2, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h3, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h4, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h5, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h6, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) header, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) hgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) html, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) i, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) iframe, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) img, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ins, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) kbd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) label, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) legend, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) li, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) mark, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) menu, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) nav, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) object, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) output, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) p, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) pre, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) q, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ruby, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) s, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) samp, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) section, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) small, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) span, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) strike, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) strong, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sub, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) summary, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tbody, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) td, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tfoot, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) th, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) thead, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) time, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tr, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tt, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) u, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) var, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) article, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) aside, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) details, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figcaption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figure, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) footer, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) header, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) hgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) menu, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) nav, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) section {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul {
+  list-style: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) q {
+  quotes: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) q:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) q:before {
+  content: '';
+  content: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a {
+  color: #0074D9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a:hover {
+  text-decoration: underline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) i, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .i {
+  font-style: italic;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) b, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .b {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .linethrough {
+  text-decoration: line-through;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sup {
+  vertical-align: super;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sub, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sub {
+  vertical-align: sub;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tt {
+  font-family: monospace;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .u {
+  text-decoration: underline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .overline {
+  text-decoration: overline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tm {
+  font-size: 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tm::after {
+  content: '\2122';
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote {
+  background: #fff;
+  padding: 1em;
+  font-style: italic;
+  line-height: 1.5em;
+  border-left: 4px solid #eee;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote::before {
+  content: "\"";
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote::after {
+  content: "\"";
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foundation-layout-panel-content {
+  overflow: hidden;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol {
+  margin-top: 0.5em;
+  padding-bottom: 0em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) li {
+  margin-left: 1.4em;
+  margin-bottom: 0.8em;
+  padding-left: 0.3em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo > ul > li:last-child, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo > ol > li:last-child {
+  margin-bottom: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul {
+  list-style-type: disc;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol {
+  list-style-type: decimal;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol ul {
+  list-style-type: disc;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul ul {
+  list-style-type: circle;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul ol, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol ol {
+  list-style-type: lower-alpha;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol ol ol {
+  list-style-type: lower-roman;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl {
+  margin-bottom: 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dt {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dd {
+  margin-bottom: 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dthd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .ddhd {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section {
+  margin-bottom: 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .p {
+  margin-bottom: 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .title {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: normal;
+  margin-top: 0.2em;
+  margin-bottom: 0.8em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section > .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .example > .title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig .title, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table .title {
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table .title {
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .shortdesc {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding: 1em 0;
+  margin-bottom: 0.5em;
+  padding-top: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note {
+  background: #eee;
+  padding: 18px 24px;
+  border-left: 4px solid #ddd;
+  margin-bottom: 1em;
+  font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo .note {
+  margin-bottom: 0.3em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution::before {
+  color: #b18f39;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution {
+  background-color: #fff9e5;
+  border-left-color: #f5c823;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger::before {
+  color: #ff2f27;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger {
+  background-color: #fff0f0;
+  border-left-color: #ffd7d6;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning::before {
+  color: #ff8222;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning {
+  background-color: #ffeddf;
+  border-left-color: #ffb47b;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.notice::before {
+  color: #0f64cd;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.notice {
+  background-color: #f6f9fc;
+  border-left-color: #e4edf6;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note .ul, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note .ol {
+  margin-left: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
+  margin-bottom: 1em;
+  border: 1px solid #eee;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .choicetable, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
+  table-layout: fixed;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table + .table {
+  margin-top: 2em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child {
+  font-size: 12px;
+  text-align: left;
+  background: #fafafa;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  color: #888;
+  line-height: 14px;
+  padding: 0.5em 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .strow {
+  vertical-align: top;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .sthead .stentry {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .rowsep .row, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.rowsep, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .strow {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.top, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody.top {
+  vertical-align: top;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.bottom, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody.bottom {
+  vertical-align: bottom;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.middle, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody.middle {
+  vertical-align: middle;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stentry {
+  padding: 0.5em 1em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry {
+  padding: 0.5em 1em;
+  vertical-align: top;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li.stepsection {
+  display: block;
+  margin-left: -0.3em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stepresult {
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .result {
+  padding: 1em 0;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .postreq {
+  padding: 0 0 1em 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) img, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .image {
+  max-width: 100%;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig {
+  padding: 5px;
+  border: none;
+  display: block;
+  vertical-align: top;
+  text-align: center;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig.left {
+  text-align: left;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig.right {
+  text-align: right;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .image.scalefit {
+  width: 100%;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .uicontrol {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .menucascade .uicontrol + .uicontrol:before {
+  content: "\00a0\203a\00a0";
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .userinput {
+  font-family: monospace;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .filepath, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .term {
+  font-style: italic;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xmlatt, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xmlelement {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .state, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .boolean {
+  font-style: italic;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeblock {
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin-bottom: 0.8em;
+  font-family: monospace;
+  white-space: normal;
+  word-break: break-word;
+  /* for Internet Explorer */
+  word-break: break-all;
+  /* For Chrome and all */
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .footnotes {
+  margin: 0 -30px;
+  margin-top: 4em;
+  padding: 18px 45px;
+  padding-bottom: 0px;
+  color: #777;
+  font-size: 12px;
+  list-style-position: outside;
+  border-top: 1px solid #eee;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .footnotes .fn {
+  max-width: 600px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relatedlinks {
+  margin-top: 2em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relatedlinks .link {
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .link > .desc {
+  display: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relatedlinks::before {
+  display: block;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  margin-bottom: 0em;
+  font-size: 16px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li > .info, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li > .tutorialinfo {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .info, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li:last-child > .info, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li > .tutorialinfo {
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .info::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stepresult::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .result::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .postreq::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prereq::before {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.notice::before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.attention:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.fastpath:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.remember:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.restriction:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.other:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig .title::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relatedlinks::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .result::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .postreq::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prereq::before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .info::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table .title::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stepresult::before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo::before {
+  content: attr(data-label);
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .footnotes {
+  list-style: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .related-links {
+  margin-top: 2em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .related-links .link {
+  margin-bottom: 0.2em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .booktitlealt {
+  font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
+  text-align: start;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .varname {
+  font-style: italic;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .cmdname {
+  font-weight: bold;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .line-through {
+  text-decoration: line-through;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .draft-comment {
+  background-color: #FFDC00;
+  margin-bottom: 0.5rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) video {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xref {
+  color: #0074D9;
+  text-decoration: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .mathml {
+  display: inline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .missing-rendition {
+  padding: 1px;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-inline {
+  display: inline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-break {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prodinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .data-about:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .vrmlist:before {
+  margin-left: -1rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prodinfo, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .data-about, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .vrmlist {
+  padding: 0.625rem 1rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeph {
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 0.2rem 0.1rem;
+  font-family: monospace;
+  white-space: normal;
+  word-break: break-word;
+  /* for Internet Explorer */
+  word-break: break-all;
+  /* For Chrome and all */
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeblock, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .pre, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign {
+  background: #f5f5f5;
+  font-family: monospace;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeblock:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeblock:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .pre:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .pre:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign:not(.collapsible-tags):not(.svg-container) {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 0.625rem 1rem;
+  margin-bottom: 0.8em;
+  white-space: normal;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeblock .codeph, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .pre .codeph, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .codeph, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta .codeph, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign .codeph {
+  border: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicmeta:not(.collapsible-tags):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign:not(.collapsed-tag):not(.svg-container), #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .foreign:not(.collapsible-tags):not(.svg-container) {
+  word-break: break-word;
+  /* for Internet Explorer */
+  word-break: break-all;
+  /* For Chrome and all */
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .imagemap {
+  padding: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .imagemap .area {
+  display: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) li {
+  margin-bottom: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) li:not(:last-child) {
+  margin-bottom: 0.8em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .align-left {
+  text-align: left;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .align-right {
+  text-align: right;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .align-center {
+  text-align: center;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .align-justify {
+  text-align: justify;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .valign-bottom {
+  vertical-align: bottom;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .valign-middle {
+  vertical-align: middle;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .valign-top {
+  vertical-align: top;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .hide-conditions-content {
+  display: none !important;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .auto-width {
+  width: auto;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .comment-block {
+  background-color: yellow;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup.too-many-columns, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .choicetable.too-many-columns, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable.too-many-columns, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .reltable.too-many-columns {
+  table-layout: auto;
+  word-break: unset;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .booktitlealt {
+  margin-left: 0.25rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tm.tmtype-tm::after {
+  content: '™';
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tm.tmtype-reg::after {
+  content: '®';
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tm.tmtype-service::after {
+  content: '℠';
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .ddhd {
+  margin-left: 1.4em;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-flex {
+  display: flex;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-inline-flex {
+  display: inline-flex;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-inline {
+  display: inline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-block {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-inline-block {
+  display: inline-block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .flex-grow-full {
+  flex-grow: 1;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .full-width {
+  width: 100%;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .full-height {
+  height: 100%;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .no-padding {
+  padding: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .separated-block {
+  margin-bottom: 0.5rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .overflow-ellipses {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.notice:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.attention:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.fastpath:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.remember:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.restriction:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.other:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig .title:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .footnotes:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relatedlinks:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .result:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .postreq:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prereq:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .info:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stepresult:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tutorialinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fn:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .cmdname:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .keyword:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .kwd:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .term:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .ph:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .topicref:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .varname:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .link:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xref:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .longdescref:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .author:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .source:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .publisher:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyrholder:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyryear:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .created:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .revised:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .permissions:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .keywords:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .resourceid:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .relcolspec:before {
+  content: attr(data-tcx-prefix);
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .audience:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .category:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .prodinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .prodname:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .vrmlist:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .vrm:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .brand:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .series:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .component:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .featnum:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .platform:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .prognum:before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .data:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog .data-about:before {
+  content: attr(data-tcx-prefix);
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xref.inserted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .xref.deleted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .link.inserted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .link.deleted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .longdescref.inserted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .longdescref.deleted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .term.inserted-block.tcx-missing-url:after, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .term.deleted-block.tcx-missing-url:after {
+  color: #FF4136;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .collapsible-tags:before {
+  content: attr(data-tcx-prefix);
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fn:before {
+  color: #0074D9;
+  vertical-align: super;
+  font-size: smaller;
+  display: inline-block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fn:not(.fn-callout):before {
+  counter-increment: fn;
+  content: counter(fn);
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fn:before {
+  margin-right: 0.2rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .page-footnotes-link sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .indexterm, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prolog {
+  display: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .link {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .object {
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) audio.object {
+  min-height: 2rem;
+  min-width: 10rem;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content article, #topic-container .cmp-dita-topic-content .markdown-content aside, #topic-container .cmp-dita-topic-content .markdown-content footer, #topic-container .cmp-dita-topic-content .markdown-content header, #topic-container .cmp-dita-topic-content .markdown-content nav, #topic-container .cmp-dita-topic-content .markdown-content section {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content h1 {
+  font-size: 2em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content figcaption, #topic-container .cmp-dita-topic-content .markdown-content figure {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content figure {
+  margin: 1em 40px;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content main {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content a {
+  background-color: transparent;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content b, #topic-container .cmp-dita-topic-content .markdown-content strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content code, #topic-container .cmp-dita-topic-content .markdown-content kbd, #topic-container .cmp-dita-topic-content .markdown-content samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content dfn {
+  font-style: italic;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content small {
+  font-size: 80%;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content sub, #topic-container .cmp-dita-topic-content .markdown-content sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content sub {
+  bottom: -.25em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content sup {
+  top: -.5em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content audio, #topic-container .cmp-dita-topic-content .markdown-content video {
+  display: inline-block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content img {
+  border-style: none;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content svg:not(:root) {
+  overflow: hidden;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content details {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content summary {
+  display: list-item;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content menu {
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content canvas {
+  display: inline-block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content [hidden], #topic-container .cmp-dita-topic-content .markdown-content template {
+  display: none;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content blockquote, #topic-container .cmp-dita-topic-content .markdown-content dl, #topic-container .cmp-dita-topic-content .markdown-content ol, #topic-container .cmp-dita-topic-content .markdown-content p, #topic-container .cmp-dita-topic-content .markdown-content pre, #topic-container .cmp-dita-topic-content .markdown-content ul {
+  margin: 1.2em 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content h1, #topic-container .cmp-dita-topic-content .markdown-content h2, #topic-container .cmp-dita-topic-content .markdown-content h3, #topic-container .cmp-dita-topic-content .markdown-content h4, #topic-container .cmp-dita-topic-content .markdown-content h5, #topic-container .cmp-dita-topic-content .markdown-content h6 {
+  margin: 0.75em 0;
+  line-height: 1.33;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content ol ol, #topic-container .cmp-dita-topic-content .markdown-content ol ul, #topic-container .cmp-dita-topic-content .markdown-content ul ol, #topic-container .cmp-dita-topic-content .markdown-content ul ul {
+  margin: 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content dt {
+  font-weight: 700;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content a {
+  color: #0c93e4;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content a:focus, #topic-container .cmp-dita-topic-content .markdown-content a:hover {
+  text-decoration: none;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content code, #topic-container .cmp-dita-topic-content .markdown-content pre, #topic-container .cmp-dita-topic-content .markdown-content samp {
+  font-family: Roboto Mono,Lucida Sans Typewriter,Lucida Console,monaco,Courrier,monospace;
+  font-size: .85em;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content code *, #topic-container .cmp-dita-topic-content .markdown-content pre *, #topic-container .cmp-dita-topic-content .markdown-content samp * {
+  font-size: inherit;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content blockquote {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 1.5em;
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content hr {
+  border: 0;
+  border-top: 1px solid rgba(128, 127, 127, 0.33);
+  margin: 2em 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content pre > code {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: block;
+  padding: .5em;
+  -webkit-text-size-adjust: none;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content .toc ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content td, #topic-container .cmp-dita-topic-content .markdown-content th {
+  border-right: 1px solid #dcdcdc;
+  padding: 8px 12px;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content td:last-child, #topic-container .cmp-dita-topic-content .markdown-content th:last-child {
+  border-right: 0;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content td {
+  border-top: 1px solid #dcdcdc;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content mark {
+  background-color: #f8f840;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content abbr[title] {
+  border-bottom: 1px dotted #777;
+  cursor: help;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content img {
+  max-width: 100%;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content body {
+  background-color: #fff;
+  tab-size: 4;
+  text-rendering: auto;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content * {
+  box-sizing: border-box;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content :focus {
+  outline: none;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content input[type=checkbox] {
+  outline: 5px auto #349be8;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content .icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content .icon * {
+  fill: currentColor;
+}
+
+#topic-container .cmp-dita-topic-content .markdown-content .table-wrapper {
+  max-width: 100%;
+  overflow: auto;
+}

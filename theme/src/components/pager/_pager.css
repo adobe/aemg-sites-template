@@ -1,0 +1,56 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-pager {
+  @apply flex w-full mx-0 justify-evenly;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cmp-pager__prev,
+.cmp-pager__next {
+  @apply text-lg ;
+  color: #378EF0;
+  font-size: 16px;
+}
+
+  
+.cmp-pager__prev span,
+.cmp-pager__next span {
+  @apply hidden;
+}
+
+.cmp-pager__prev a,
+.cmp-pager__next a {
+  /*text-decoration: underline;*/
+}
+
+.cmp-pager__prev::before,
+.cmp-pager__next::after {
+  @apply relative inline-block w-4 h-4 font-bold text-gray-600;
+  content: "";
+  top: 2px;
+}
+
+.cmp-pager__next {
+  @apply flex-1 text-right ;
+}
+
+.cmp-pager__next::after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23222222"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>');
+  margin: -3px -5px 0 2px;
+}
+
+.cmp-pager__prev {
+  @apply flex-1 text-left;
+}
+
+.cmp-pager__prev::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23222222"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>');
+  margin: -3px 2px 0 -5px;
+}

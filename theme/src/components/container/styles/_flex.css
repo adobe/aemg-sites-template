@@ -1,0 +1,14 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.container--flex {
+  .cmp-container {
+    @apply grid grid-flow-row gap-6 justify-items-stretch auto-cols-fr;
+    @apply sm:grid-flow-col;
+  }
+}

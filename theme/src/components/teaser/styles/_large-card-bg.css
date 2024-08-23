@@ -1,0 +1,31 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.teaser--large-card-bg {
+  @apply sm:mb-6;
+
+  &:last-child {
+    @apply mb-6;
+  }
+  
+  .cmp-teaser {
+    @apply h-full p-6 rounded;
+    background-color: rgb(20,115,230, 0.15);
+    &__content {}
+    &__pretitle {
+      @apply text-sm text-gray-600 uppercase;
+    }
+    &__title {
+      @apply my-4 text-xl font-semibold text-gray-700;
+      @apply hover:text-gray-900;
+    }
+    &__description {
+      @apply mb-10 text-gray-600;
+    }
+  }
+}

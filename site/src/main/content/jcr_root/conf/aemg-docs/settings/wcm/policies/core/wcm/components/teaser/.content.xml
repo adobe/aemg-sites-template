@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v1 jcr:primaryType="nt:unstructured">
+      <teaser jcr:primaryType="nt:unstructured">
+          <policy_default
+              jcr:description="Sets the title size to H3."
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Content Teaser"
+              sling:resourceType="wcm/core/components/policy/policy"
+              titleType="h3">
+              <jcr:content jcr:primaryType="nt:unstructured"/>
+            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                <item0
+                    cq:styleGroupLabel="Styles"
+                    jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleId="teaser--default"
+                            cq:styleLabel="Default"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item1
+                            cq:styleClasses="teaser--large-card-bg"
+                            cq:styleId="teaser--large-card-bg"
+                            cq:styleLabel="Large Card w BG"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item2
+                            cq:styleClasses="teaser--w-full-side-by-side"
+                            cq:styleId="teaser--w-full-side-by-side"
+                            cq:styleLabel="Full Width, Side by Side"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item3
+                            cq:styleClasses="teaser--stacked-card-border"
+                            cq:styleId="teaser--stacked-card-border"
+                            cq:styleLabel="Stacked Card with Border"
+                            jcr:primaryType="nt:unstructured"/>
+                    </cq:styles>
+                </item0>
+            </cq:styleGroups>
+          </policy_default>
+      </teaser>
+  </v1>
+</jcr:root>

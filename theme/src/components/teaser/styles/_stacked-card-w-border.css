@@ -1,0 +1,26 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.teaser.teaser--stacked-card-border {
+  @apply sm:mb-8;
+  .cmp-teaser {
+    @apply flex flex-col items-center justify-center h-full p-6 text-center border border-gray-300 rounded gap-y-8;
+  }
+  .cmp-teaser__image {
+    @apply w-16 h-16;
+  }
+  .cmp-image__link {
+    @apply block;
+  }
+  .cmp-image__image {
+    @apply block w-16 h-16;
+  }
+  .cmp-teaser__title {
+    @apply mb-0;
+  }
+}

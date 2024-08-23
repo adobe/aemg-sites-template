@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v1 jcr:primaryType="nt:unstructured">
+      <download jcr:primaryType="nt:unstructured">
+          <policy_default
+              jcr:description="Sets the title size to H3."
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Content Download"
+              sling:resourceType="wcm/core/components/policy/policy"
+              allowUpload="false"
+              displayFilename="true"
+              displayFormat="true"
+              displaySize="true"
+              titleType="h3">
+              <jcr:content jcr:primaryType="nt:unstructured"/>
+          </policy_default>
+      </download>
+  </v1>
+</jcr:root>

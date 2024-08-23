@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aemg-docs" mode="merge"/>
+    <filter root="/content/aemg-docs" mode="merge"/>
+    <filter root="/content/dam/aemg-docs" mode="merge"/>
+    <filter root="/content/experience-fragments/aemg-docs" mode="merge"/>
+</workspaceFilter>

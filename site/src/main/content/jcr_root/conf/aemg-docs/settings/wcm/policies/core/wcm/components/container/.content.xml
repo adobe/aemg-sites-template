@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+    <v1 jcr:primaryType="nt:unstructured">
+        <container jcr:primaryType="nt:unstructured">
+            <policy_root
+                jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Page Root"
+                sling:resourceType="wcm/core/components/policy/policy"
+                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]">
+                <jcr:content jcr:primaryType="nt:unstructured"/>
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <mapping_1575024218483
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="core/wcm/components/image/v2/image"/>
+                        <mapping_1575030843388
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="content"
+                            assetMimetype="text/html"
+                            droptarget="experiencefragment"
+                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                        <mapping_1575030853128
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                            droptarget="contentfragment"
+                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+            </policy_root>
+            <policy_default
+                jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Page Content"
+                sling:resourceType="wcm/core/components/policy/policy"
+                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                layoutDisabled="false">
+                <jcr:content jcr:primaryType="nt:unstructured"/>
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <mapping_1575030255082
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="core/wcm/components/image/v2/image"/>
+                        <mapping_1575030260142
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="content"
+                            assetMimetype="text/html"
+                            droptarget="experiencefragment"
+                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                        <mapping_1575030269139
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                            droptarget="contentfragment"
+                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                    <item0
+                    cq:styleGroupLabel="Grid Type"
+                    jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleId="container--aemGrid"
+                            cq:styleLabel="Default AEM Grid"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item1
+                            cq:styleClasses="container--flex"
+                            cq:styleId="container--flex"
+                            cq:styleLabel="Equal Width/Height Children"
+                            jcr:primaryType="nt:unstructured"/>
+                    </cq:styles>
+                    </item0>
+                </cq:styleGroups>
+            </policy_default>
+            <policy_topic_content
+                jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Page Topic Content"
+                sling:resourceType="wcm/core/components/policy/policy"
+                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                cq:styleDefaultClasses="cmp-dita-topic-content"
+                layoutDisabled="false">
+                <jcr:content jcr:primaryType="nt:unstructured"/>
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <mapping_1575030255082
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="core/wcm/components/image/v2/image"/>
+                        <mapping_1575030260142
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="content"
+                            assetMimetype="text/html"
+                            droptarget="experiencefragment"
+                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                        <mapping_1575030269139
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                            droptarget="contentfragment"
+                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                    <item0
+                    cq:styleGroupLabel="Grid Type"
+                    jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleId="container--aemGrid"
+                            cq:styleLabel="Default AEM Grid"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item1
+                            cq:styleClasses="container--flex"
+                            cq:styleId="container--flex"
+                            cq:styleLabel="Equal Width/Height Children"
+                            jcr:primaryType="nt:unstructured"/>
+                    </cq:styles>
+                    </item0>
+                </cq:styleGroups>
+            </policy_topic_content>
+            <policy_main
+                cq:styleDefaultClasses="main"
+                jcr:description="Sets a &lt;main> element on the page content area."
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Page Main"
+                sling:resourceType="wcm/core/components/policy/policy">
+                <jcr:content jcr:primaryType="nt:unstructured"/>
+            </policy_main>
+            <policy_center_wrapper
+                    cq:styleDefaultClasses="center_wrapper"
+                    jcr:description="Sets a &lt;main> element on the page content area."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Main"
+                    sling:resourceType="wcm/core/components/policy/policy">
+            <jcr:content jcr:primaryType="nt:unstructured"/>
+            </policy_center_wrapper>
+            <policy_xf_root
+                jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                jcr:primaryType="nt:unstructured"
+                jcr:title="XF Root"
+                sling:resourceType="wcm/core/components/policy/policy"
+                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                layoutDisabled="false">
+                <jcr:content jcr:primaryType="nt:unstructured"/>
+                <cq:authoring jcr:primaryType="nt:unstructured">
+                    <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                        <mapping_1575024218483
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="image/*"
+                            droptarget="image"
+                            resourceType="core/wcm/components/image/v2/image"/>
+                        <mapping_1575030843388
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="content"
+                            assetMimetype="text/html"
+                            droptarget="experiencefragment"
+                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                        <mapping_1575030853128
+                            jcr:primaryType="nt:unstructured"
+                            assetGroup="media"
+                            assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                            droptarget="contentfragment"
+                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                    </assetToComponentMapping>
+                </cq:authoring>
+            </policy_xf_root>
+        </container>
+    </v1>
+</jcr:root>

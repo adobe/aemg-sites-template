@@ -1,0 +1,20 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-separator {}
+.cmp-separator__horizontal-rule {}
+
+.separator--transparent hr {
+  @apply border-transparent;
+}
+.separator--gray-300 hr {
+  @apply border-gray-300;
+}
+.separator--gray-600 hr {
+  @apply border-gray-600;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+  <rep:policy/>
+  <v1 jcr:primaryType="nt:unstructured">
+      <button jcr:primaryType="nt:unstructured">
+          <policy_default
+              jcr:description="Default Policy for the v1 Button Component"
+              jcr:primaryType="nt:unstructured"
+              jcr:title="Page Content"
+              sling:resourceType="wcm/core/components/policy/policy">
+              <jcr:content jcr:primaryType="nt:unstructured"/>
+            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                <item0
+                    cq:styleGroupLabel="Styles"
+                    jcr:primaryType="nt:unstructured">
+                    <cq:styles jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleId="button--default"
+                            cq:styleLabel="Default - Unstyled"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item1
+                            cq:styleClasses="button--primary"
+                            cq:styleId="button--Primary"
+                            cq:styleLabel="Primary"
+                            jcr:primaryType="nt:unstructured"/>
+                        <item2
+                            cq:styleClasses="button--secondary"
+                            cq:styleId="button--secondary"
+                            cq:styleLabel="Secondary"
+                            jcr:primaryType="nt:unstructured"/>
+                    </cq:styles>
+                </item0>
+            </cq:styleGroups>
+          </policy_default>
+      </button>
+  </v1>
+</jcr:root>

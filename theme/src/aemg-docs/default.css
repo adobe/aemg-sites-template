@@ -1,0 +1,64 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+/*Created with Adobe RoboHelp.*/
+a.dropspot,
+a.expandspot {
+  @apply italic text-green-600 no-underline cursor-pointer;
+}
+span.expandtext {
+  @apply italic font-normal text-red-600;
+}
+a.glossterm {
+  @apply italic text-red-800 no-underline cursor-pointer;
+}
+span.glosstext {
+  @apply italic font-normal text-blue-700;
+}
+ul,
+ol {
+  @apply my-0;
+}
+a.minitoc-caption {
+  @apply font-bold no-underline;
+  color: initial;
+}
+a.breadcrumbs-topic,
+a.seealso-list-item,
+p.seealso-caption,
+p.reltopics-caption,
+p.minitoc-caption {
+  @apply text-lg font-bold;
+}
+ol.reltopics-list,
+ol.seealso-list,
+ol.minitoc-list {
+  @apply pl-0 ml-0 list-none;
+}
+ol.minitoc-list ol {
+  @apply list-none;
+}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcurmbs-home-prefix {}
+a.breadcurmbs-home {}
+.breadcurmbs-separator {}
+a.reltopics-list-item {}
+ul.Disc {
+  @apply list-disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+ol.Decimal {
+  @apply list-decimal;
+}
+
+::marker{
+  color: #1473E6;
+}

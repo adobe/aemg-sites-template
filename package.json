@@ -1,0 +1,24 @@
+{
+  "name": "aemg-docs",
+  "version": "1.0.5",
+  "description": "AEMG Docs site template",
+  "license": "MIT License, Copyright 2022 Adobe Systems Incorporated",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "deploy": "curl -u admin:admin -F 'file=@aemg-docs-4.0.68.zip' http://localhost:4502/conf/global/site-templates.import.html",
+    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/aemg-docs-4.0.68"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "^2.2.1"
+  },
+  "siteTemplate": {
+    "title": "AEMG Docs",
+    "createdBy": "Adobe",
+    "useCases": [
+      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
+    ],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/adobe/aemg-docs"
+  }
+}

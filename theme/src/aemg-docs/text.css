@@ -1,0 +1,61 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+.cmp-text {
+  .emphasis1 {
+    @apply p-4 mb-6 text-gray-900 border border-blue-300 rounded bg-blue-50;
+    img {
+      @apply inline-block;
+    }
+  }
+  
+  .emphasis2 {
+    @apply p-4 mb-6 text-gray-900 border border-green-300 rounded bg-green-50;
+
+    img {
+      @apply inline-block;
+    }
+  }
+
+  .tableheading {
+    @apply font-bold;
+  }
+
+  td {
+    @apply p-2;
+  }
+  
+  table td {
+    @apply align-top;
+  }
+  table td,
+  table.gray td {
+    @apply border border-gray-300;
+  }
+  table.red td {
+    @apply border border-red-300;
+  }
+  table.yellow td {
+    @apply border border-yellow-300;
+  }
+  table.green td {
+    @apply border border-green-300;
+  }
+  table.blue td {
+    @apply border border-blue-300;
+  }
+  table.indigo td {
+    @apply border border-indigo-300;
+  }
+  table.purple td {
+    @apply border border-purple-300;
+  }
+  table.pink td {
+    @apply border border-pink-300;
+  }
+}
