@@ -15,7 +15,7 @@ It can serve as a most basic starting point for creating a new site, or as a sta
 
 ## Install on AEMaaCS
 
-* Go to <https://github.com/adobe/aemg-docs/releases/latest](https://github.com/adobe/aemg-sites-template/releases/latest> and download `aemg-docs-{version}.zip`
+* Go to <https://github.com/adobe/aemg-sites-template/releases/latest> and download `aemg-docs-{version}.zip`
 * Upload `aemg-docs-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
 
 ## Build locally
