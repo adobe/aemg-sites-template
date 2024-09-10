@@ -96,7 +96,6 @@ it.
 
 .search__field--results {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   flex-shrink: 0;
   width: 17rem;
@@ -154,10 +153,6 @@ it.
   display: inline-block;
   margin-right: 0.25rem;
   margin-left: 0.25rem;
-}
-
-#js-searchResults-endData {
-  display: none !important;
 }
 
 
