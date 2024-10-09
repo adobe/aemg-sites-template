@@ -114,7 +114,7 @@
                             jcr:lastModified="{Date}2021-06-17T17:55:46.893+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/pagehelpfulfeedback"
+                            sling:resourceType="guides-components/components/feedback"
                             id="tiles-container2"
                             layout="responsiveGrid">
                     </container_copy>
