@@ -83,15 +83,15 @@ const fixCSS = () => {
 }
 
 function openNavigation(tocWrapper, button) {
-  const isExpanded = tocWrapper.getAttribute('aria-expanded') === 'true';
+  const isExpanded = tocWrapper.getAttribute('data-expanded') === 'true';
   if (isExpanded) {
     console.log('Navigation closed');
-    tocWrapper.setAttribute('aria-expanded', 'false');
+    tocWrapper.setAttribute('data-expanded', 'false');
     button.innerHTML = toc_btn_collapse_svg
   } else {
     console.log('Navigation opened');
     button.innerHTML = toc_btn_expand_svg 
-    tocWrapper.setAttribute('aria-expanded', 'true');
+    tocWrapper.setAttribute('data-expanded', 'true');
   }
 }
 

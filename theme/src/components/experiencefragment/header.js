@@ -43,20 +43,20 @@ const toc_btn_expand_svg = `<svg width=2rem xmlns="http://www.w3.org/2000/svg" f
   }
 
   function openNavigation() {
-    const isExpanded = header.getAttribute('aria-expanded') === 'true';
+    const isExpanded = header.getAttribute('data-expanded') === 'true';
     if (isExpanded) {
       console.log('Navigation closed');
-      header.setAttribute('aria-expanded', 'false');
+      header.setAttribute('data-expanded', 'false');
       hamburgerButton.innerHTML = toc_btn_expand_svg
     } else {
       console.log('Navigation opened');
       hamburgerButton.innerHTML = toc_btn_collapse_svg
-      header.setAttribute('aria-expanded', 'true');
+      header.setAttribute('data-expanded', 'true');
     }
   }
 
   const isDesktop = window.matchMedia('(min-width: 768px)');
-  header.setAttribute('aria-expanded', 'false');
+  header.setAttribute('data-expanded', 'false');
   toggleMenu(isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(isDesktop.matches));
   hamburgerButton.addEventListener("click", () => openNavigation())
