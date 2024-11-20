@@ -155,11 +155,11 @@ it.
     color: #000000;
 }
 
-.experiencefragment.header.desktop #mobileview-button-container, .experiencefragment.header.desktop #side-drawer, .experiencefragment.header.mobile[aria-expanded="false"] #side-drawer {
+.experiencefragment.header.desktop #mobileview-button-container, .experiencefragment.header.desktop #side-drawer, .experiencefragment.header.mobile[data-expanded="false"] #side-drawer {
     display: none;
 }
 
-.experiencefragment.header.mobile #mobileview-button-container, .experiencefragment.header.mobile[aria-expanded="true"] #side-drawer {
+.experiencefragment.header.mobile #mobileview-button-container, .experiencefragment.header.mobile[data-expanded="true"] #side-drawer {
     display: flex;
 }
 

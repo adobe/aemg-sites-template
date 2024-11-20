@@ -458,7 +458,7 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     display: none;
   }
 
-  #section-page .injected-toc-wrapper #table-of-contents[aria-expanded="true"] .guides-navigation{
+  #section-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
     display: block;
     min-height: 100vh;
   }
@@ -525,17 +525,17 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     display: none;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents[aria-expanded="true"] .guides-navigation{
+  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
     display: block;
     min-height: 100vh;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents[aria-expanded="true"] .toc-trigger-button{
+  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .toc-trigger-button{
     background-color: #1532AD;
   }
 
   @media (max-width: 768px) {
-    #topic-page #table-of-contents[aria-expanded="true"] .cmp-guides-navigation{
+    #topic-page #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
       padding: 0 1rem;
     }
   }
