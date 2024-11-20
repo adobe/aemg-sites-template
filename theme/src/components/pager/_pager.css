@@ -15,7 +15,7 @@ it.
 .cmp-pager__prev,
 .cmp-pager__next {
   @apply text-lg ;
-  color: #378EF0;
+  color: #165bb3;
   font-size: 16px;
 }
 

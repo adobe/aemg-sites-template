@@ -5,6 +5,6 @@
         cq:templateType="/conf/aemg-docs/settings/wcm/template-types/xf"
         jcr:description="My Site Experience Fragment Template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Web Variation"
+        jcr:title="Header footer"
         status="enabled"/>
 </jcr:root>

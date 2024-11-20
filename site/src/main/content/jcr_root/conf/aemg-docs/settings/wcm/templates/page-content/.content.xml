@@ -5,6 +5,6 @@
         cq:templateType="/conf/aemg-docs/settings/wcm/template-types/page"
         jcr:description="My Site Page Template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Page"
+        jcr:title="Blank Page"
         status="enabled"/>
 </jcr:root>
