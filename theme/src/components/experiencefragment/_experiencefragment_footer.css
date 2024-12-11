@@ -26,6 +26,11 @@ it.
     .xf-content-height .root .cmp-container {
         height: 8.5rem;
     }
+    .xf-content-height {
+        & > .root > .cmp-container {
+            height: 100%;
+        }
+    }
     #mainDiv .button {
         margin-left: 0rem !important;
     }
