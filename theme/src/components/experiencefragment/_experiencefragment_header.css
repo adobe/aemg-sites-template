@@ -18,6 +18,9 @@ it.
     .xf-content-height {
         margin:0;
         height: 4rem;
+        & > .root > .cmp-container {
+            height: 100%;
+        }
     }
     
     #header-end .cmp-button {
