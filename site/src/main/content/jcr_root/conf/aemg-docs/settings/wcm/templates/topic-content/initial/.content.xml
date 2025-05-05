@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-12-22T16:09:24.658-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/page-content1"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/topic-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="guides-components/components/page">
         <root
