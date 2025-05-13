@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-24T10:05:35.895Z"
+        cq:lastModifiedBy="krishna.mulik@deptagency.com"
+        cq:lastReplicated="{Date}2025-03-24T10:08:47.222Z"
+        cq:lastReplicated_publish="{Date}2025-03-24T10:08:47.222Z"
+        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/conf/aemguidesDALP/settings/wcm/template-types/dita-topic"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Hi-Tech Topic"
+        status="enabled"/>
+</jcr:root>

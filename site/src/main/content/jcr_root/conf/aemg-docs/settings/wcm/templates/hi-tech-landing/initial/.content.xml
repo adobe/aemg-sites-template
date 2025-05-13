@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-02-07T13:53:38.260+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemguidesDALP/settings/wcm/templates/hi-tech-landing"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemguidesDALP/components/page"
+        id="category-page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemguidesDALP/components/container"
+            layout="responsiveGrid">
+            <text
+                jcr:created="{Date}2025-02-07T13:53:26.152+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-02-07T13:53:26.152+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/text/v2/text"
+                text="$category.html$"
+                textIsRich="true"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemguidesDALP/components/container"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2025-02-07T13:53:38.255+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+</jcr:root>

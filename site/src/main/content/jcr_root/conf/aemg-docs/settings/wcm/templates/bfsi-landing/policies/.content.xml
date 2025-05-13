@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-10T06:13:49.621Z"
+        cq:lastModifiedBy="krishna.mulik@deptagency.com"
+        cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+        cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:policy="aemguidesDALP/components/page/policy_1741447172327"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="24a39f27-0fe3-44ea-b3e8-0317a9b3a37a"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <core jcr:primaryType="nt:unstructured">
+                    <wcm jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <container jcr:primaryType="nt:unstructured">
+                                <v1 jcr:primaryType="nt:unstructured">
+                                    <container
+                                        cq:policy="core/wcm/components/container/v1/container/policy_1739193808878"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v1>
+                            </container>
+                            <text jcr:primaryType="nt:unstructured">
+                                <v2 jcr:primaryType="nt:unstructured">
+                                    <text
+                                        cq:policy="core/wcm/components/text/v2/text/policy_106980115418574"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                </v2>
+                            </text>
+                        </components>
+                    </wcm>
+                </core>
+                <aemguidesDALP jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <container
+                            cq:policy="aemguidesDALP/components/container/policy_106168327536131"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                    </components>
+                </aemguidesDALP>
+            </container>
+            <container_1523931462
+                cq:policy="core/wcm/components/container/v1/container/policy_1739193808878"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <container
+                    cq:policy="core/wcm/components/container/v1/container/policy_1739193808878"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <text_11628994
+                        cq:policy="core/wcm/components/text/v2/text/policy_1740379396465"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    <text
+                        cq:policy="core/wcm/components/text/v2/text/policy_1740379396465"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </container>
+                <text_2087032859
+                    cq:policy="core/wcm/components/text/v2/text/policy_106980115418574"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_2108602903 jcr:primaryType="nt:unstructured">
+                    <text
+                        cq:policy="core/wcm/components/text/v2/text/policy_1740379396465"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    <list
+                        cq:policy="core/wcm/components/list/v4/list/policy_1740380522335"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </container_2108602903>
+            </container_1523931462>
+            <container_2080561308 jcr:primaryType="nt:unstructured">
+                <container
+                    cq:policy="core/wcm/components/container/v1/container/policy_1739193808878"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container_2080561308>
+            <container_2108602903
+                cq:policy="core/wcm/components/container/v1/container/policy_1739193808878"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <text
+                    cq:policy="core/wcm/components/text/v2/text/policy_1740379396465"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <list
+                    cq:policy="core/wcm/components/list/v4/list/policy_1740380522335"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container_2108602903>
+            <experiencefragment
+                cq:policy="aemguidesDALP/components/experiencefragment/policy_header"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <experiencefragment_12846346
+                cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_1741088963464"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+        </root>
+    </jcr:content>
+</jcr:root>
