@@ -4,16 +4,16 @@
     <jcr:content
         cq:lastModified="{Date}2025-02-10T18:18:37.468+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/dita-topic"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/dita-topic"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 layout="responsiveGrid"/>
             <container_689917996
                 jcr:created="{Date}2025-02-07T14:55:59.253+05:30"

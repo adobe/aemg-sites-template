@@ -12,15 +12,15 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/automotive-topic"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/automotive-topic"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="ee24877f-c1eb-46ac-bef4-6c0b29c7a1c0"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <experiencefragment_159506602
                 cq:styleIds="[1741176410970]"
@@ -39,7 +39,7 @@
                 jcr:lastModified="{Date}2025-03-04T10:29:49.772Z"
                 jcr:lastModifiedBy="uman.ali@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/breadcrumb"
+                sling:resourceType="guides-components/components/breadcrumb"
                 disableShadowing="false"
                 hideCurrent="false"
                 showHidden="false"
@@ -67,7 +67,7 @@
                     jcr:lastModified="{Date}2025-02-24T16:45:26.714+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aemguidesDALP/components/sites-components/cover-img"
+                    sling:resourceType="guides-components/components/sites-components/cover-img"
                     alt="automative-banner"
                     altValueFromDAM="false"
                     displayPopupTitle="true"
@@ -79,7 +79,7 @@
             </container_126130863>
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <readingprogressbar
@@ -88,7 +88,7 @@
                 jcr:lastModified="{Date}2025-03-10T06:18:48.258Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/readingprogressbar"/>
+                sling:resourceType="guides-components/components/sites-components/readingprogressbar"/>
             <container_689917996
                 cq:styleIds="[1739193905757,1739353947627]"
                 jcr:created="{Date}2025-02-07T14:49:19.492+05:30"
@@ -113,7 +113,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="   Table of Content"
-                        sling:resourceType="aemguidesDALP/components/button"
+                        sling:resourceType="guides-components/components/button"
                         linkTarget="_self"/>
                     <toc_search
                         jcr:created="{Date}2025-02-12T14:49:46.409+05:30"
@@ -122,7 +122,7 @@
                         jcr:lastModifiedBy="sadhna.singh@deptagency.com"
                         jcr:primaryType="nt:unstructured"
                         jcr:title=" "
-                        sling:resourceType="aemguidesDALP/components/sites-components/toc-search"
+                        sling:resourceType="guides-components/components/sites-components/toc-search"
                         helpMessage="search through the toc"
                         hideTitle="true"
                         id="toc-search"
@@ -136,14 +136,14 @@
                         jcr:lastModified="{Date}2025-02-11T16:46:27.226+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/guidessidenavigation"/>
+                        sling:resourceType="guides-components/components/guidessidenavigation"/>
                     <guides_toc
                         jcr:created="{Date}2025-02-26T11:19:31.118+05:30"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2025-02-26T11:19:31.118+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-toc"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-toc"/>
                     <container
                         cq:styleIds="[1740238876095]"
                         jcr:created="{Date}2025-02-26T11:19:11.643+05:30"
@@ -174,7 +174,7 @@
                             jcr:lastModified="{Date}2025-03-04T10:04:37.028Z"
                             jcr:lastModifiedBy="uman.ali@deptagency.com"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/sharepopup"/>
+                            sling:resourceType="guides-components/components/sites-components/sharepopup"/>
                     </container_175572521>
                     <text
                         jcr:created="{Date}2025-02-26T12:43:27.223+05:30"
@@ -210,7 +210,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Download Owner’s Manual"
-                            sling:resourceType="aemguidesDALP/components/sites-components/pdf-download"
+                            sling:resourceType="guides-components/components/sites-components/pdf-download"
                             linkTarget="_self"/>
                         <bookmark
                             cq:styleIds="[1741286190937]"
@@ -219,14 +219,14 @@
                             jcr:lastModified="{Date}2025-02-12T13:06:18.759+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/bookmark"/>
+                            sling:resourceType="guides-components/components/sites-components/bookmark"/>
                         <share
                             jcr:created="{Date}2025-02-12T14:39:27.635+05:30"
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2025-02-12T14:39:27.635+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/share"/>
+                            sling:resourceType="guides-components/components/sites-components/share"/>
                     </container>
                     <injected-container
                         jcr:primaryType="nt:unstructured"
@@ -238,7 +238,7 @@
                         jcr:lastModified="{Date}2025-02-28T11:11:30.662Z"
                         jcr:lastModifiedBy="uman.ali@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-pager"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-pager"/>
                 </container1>
                 <container_708278119
                     cq:styleIds="[1739266406174]"
@@ -254,7 +254,7 @@
                         jcr:lastModified="{Date}2025-02-26T11:21:19.977+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-mini-toc"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-mini-toc"/>
                     <relatedarticles
                         cq:styleIds="[1742810035381,1742810322038]"
                         jcr:created="{Date}2025-03-24T10:06:46.079Z"
@@ -262,14 +262,14 @@
                         jcr:lastModified="{Date}2025-03-24T10:06:46.079Z"
                         jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/relatedarticles"/>
+                        sling:resourceType="guides-components/components/sites-components/relatedarticles"/>
                     <content_feedback
                         jcr:created="{Date}2025-03-04T11:09:48.846Z"
                         jcr:createdBy="uman.ali@deptagency.com"
                         jcr:lastModified="{Date}2025-03-05T09:38:18.233Z"
                         jcr:lastModifiedBy="uman.ali@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/content-feedback"
+                        sling:resourceType="guides-components/components/sites-components/content-feedback"
                         contentSubText="Your feedback will help us improve our articles."
                         contentText="Was this content helpful ?"/>
                 </container_708278119>
@@ -280,7 +280,7 @@
                 jcr:lastModified="{Date}2025-03-10T06:18:35.745Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/accessibility"/>
+                sling:resourceType="guides-components/components/sites-components/accessibility"/>
             <experiencefragment
                 jcr:created="{Date}2025-02-25T13:00:31.257+05:30"
                 jcr:createdBy="admin"

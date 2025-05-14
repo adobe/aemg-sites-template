@@ -4,15 +4,15 @@
     <jcr:content
         cq:lastModified="{Date}2025-02-11T18:11:00.324+05:30"
         cq:lastModifiedBy="admin"
-        cq:policy="aemguidesDALP/components/page/policy_1739193201043"
+        cq:policy="guides-components/components/page/policy_1739193201043"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+            cq:policy="guides-components/components/container/policy_1574694950110"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+                cq:policy="guides-components/components/container/policy_1574694950110"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <container1 jcr:primaryType="nt:unstructured">

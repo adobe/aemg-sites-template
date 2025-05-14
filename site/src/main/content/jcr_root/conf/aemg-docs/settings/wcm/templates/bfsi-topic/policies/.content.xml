@@ -11,18 +11,18 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:policy="aemguidesDALP/components/page/policy_104501219829274"
+        cq:policy="guides-components/components/page/policy_104501219829274"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="nt:unstructured"
         jcr:uuid="f6bd7b1d-3daa-4f8b-af9b-a930c8ec8dd2"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+            cq:policy="guides-components/components/container/policy_1574694950110"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+                cq:policy="guides-components/components/container/policy_1574694950110"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <container1 jcr:primaryType="nt:unstructured">
@@ -43,7 +43,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping">
                         <time_to_read
-                            cq:policy="aemguidesDALP/components/sites-components/time-to-read/policy_1739873732092"
+                            cq:policy="guides-components/components/sites-components/time-to-read/policy_1739873732092"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </container>
@@ -52,11 +52,11 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <button
-                        cq:policy="aemguidesDALP/components/button/policy_1740378686006"
+                        cq:policy="guides-components/components/button/policy_1740378686006"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <button_copy
-                        cq:policy="aemguidesDALP/components/button/policy_1740378686006"
+                        cq:policy="guides-components/components/button/policy_1740378686006"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </container1>
@@ -69,11 +69,11 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <button_copy
-                        cq:policy="aemguidesDALP/components/button/policy_1740049057356"
+                        cq:policy="guides-components/components/button/policy_1740049057356"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <button
-                        cq:policy="aemguidesDALP/components/button/policy_1740378686006"
+                        cq:policy="guides-components/components/button/policy_1740378686006"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </container>
@@ -82,11 +82,11 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping">
                     <button
-                        cq:policy="aemguidesDALP/components/button/policy_1740049057356"
+                        cq:policy="guides-components/components/button/policy_1740049057356"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <relatedarticles
-                        cq:policy="aemguidesDALP/components/sites-components/relatedarticles/policy_1742810016985"
+                        cq:policy="guides-components/components/sites-components/relatedarticles/policy_1742810016985"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </container_708278119>
@@ -96,11 +96,11 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment
-                cq:policy="aemguidesDALP/components/experiencefragment/policy_header"
+                cq:policy="guides-components/components/experiencefragment/policy_header"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <readingprogressbar
-                cq:policy="aemguidesDALP/components/sites-components/readingprogressbar/policy_1741585674229"
+                cq:policy="guides-components/components/sites-components/readingprogressbar/policy_1741585674229"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>

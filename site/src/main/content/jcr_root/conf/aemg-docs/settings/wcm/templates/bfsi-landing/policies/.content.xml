@@ -11,18 +11,18 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:policy="aemguidesDALP/components/page/policy_1741447172327"
+        cq:policy="guides-components/components/page/policy_1741447172327"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="nt:unstructured"
         jcr:uuid="24a39f27-0fe3-44ea-b3e8-0317a9b3a37a"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+            cq:policy="guides-components/components/container/policy_1574694950110"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+                cq:policy="guides-components/components/container/policy_1574694950110"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
                 <core jcr:primaryType="nt:unstructured">
@@ -50,7 +50,7 @@
                 <aemguidesDALP jcr:primaryType="nt:unstructured">
                     <components jcr:primaryType="nt:unstructured">
                         <container
-                            cq:policy="aemguidesDALP/components/container/policy_106168327536131"
+                            cq:policy="guides-components/components/container/policy_106168327536131"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </components>
@@ -108,7 +108,7 @@
                     sling:resourceType="wcm/core/components/policies/mapping"/>
             </container_2108602903>
             <experiencefragment
-                cq:policy="aemguidesDALP/components/experiencefragment/policy_header"
+                cq:policy="guides-components/components/experiencefragment/policy_header"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment_12846346

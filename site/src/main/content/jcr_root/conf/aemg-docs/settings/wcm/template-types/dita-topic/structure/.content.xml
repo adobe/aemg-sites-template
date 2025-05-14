@@ -5,16 +5,16 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2025-02-12T11:01:37.306+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/dita-topic"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/dita-topic"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <container_689917996
@@ -39,7 +39,7 @@
                         jcr:lastModified="{Date}2025-02-11T16:46:27.226+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/guidessidenavigation"/>
+                        sling:resourceType="guides-components/components/guidessidenavigation"/>
                 </container>
                 <container1
                     jcr:lastModified="{Date}2025-02-11T15:06:05.971+05:30"

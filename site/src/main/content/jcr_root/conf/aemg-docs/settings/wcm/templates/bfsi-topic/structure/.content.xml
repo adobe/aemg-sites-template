@@ -12,15 +12,15 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/bfsi-topic"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/bfsi-topic"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="a2e092f6-4494-4b24-814b-3b5cfad00092"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <experiencefragment
                 cq:styleIds="[1741087917108]"
@@ -29,11 +29,11 @@
                 jcr:lastModified="{Date}2025-03-04T13:23:44.444Z"
                 jcr:lastModifiedBy="prashant.singh@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/experiencefragment"
+                sling:resourceType="guides-components/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemguidesDALP/us/en/site/BFSI/guides-header/guides-header"/>
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <readingprogressbar
@@ -42,7 +42,7 @@
                 jcr:lastModified="{Date}2025-03-10T05:46:41.815Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/readingprogressbar"/>
+                sling:resourceType="guides-components/components/sites-components/readingprogressbar"/>
             <container_689917996
                 cq:styleIds="[1739193905757,1739353947627]"
                 jcr:created="{Date}2025-02-07T14:49:19.492+05:30"
@@ -67,7 +67,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="   Table of Content"
-                        sling:resourceType="aemguidesDALP/components/button"
+                        sling:resourceType="guides-components/components/button"
                         linkTarget="_self"/>
                     <toc_search
                         jcr:created="{Date}2025-02-12T14:49:46.409+05:30"
@@ -76,7 +76,7 @@
                         jcr:lastModifiedBy="sadhna.singh@deptagency.com"
                         jcr:primaryType="nt:unstructured"
                         jcr:title=" "
-                        sling:resourceType="aemguidesDALP/components/sites-components/toc-search"
+                        sling:resourceType="guides-components/components/sites-components/toc-search"
                         helpMessage="Search"
                         hideTitle="true"
                         id="toc-search"
@@ -90,7 +90,7 @@
                         jcr:lastModified="{Date}2025-02-11T16:46:27.226+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/guidessidenavigation"/>
+                        sling:resourceType="guides-components/components/guidessidenavigation"/>
                     <container
                         cq:styleIds="[1740238876095]"
                         jcr:created="{Date}2025-02-19T20:12:55.066+05:30"
@@ -106,7 +106,7 @@
                         jcr:lastModified="{Date}2025-02-17T11:16:17.689+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-toc"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-toc"/>
                 </container>
                 <container1
                     cq:styleIds="[1739949452985]"
@@ -121,7 +121,7 @@
                         jcr:lastModified="{Date}2025-02-20T16:26:32.261+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/button"
+                        sling:resourceType="guides-components/components/button"
                         linkTarget="_self"/>
                     <button
                         cq:styleIds="[1740378731170]"
@@ -130,7 +130,7 @@
                         jcr:lastModified="{Date}2025-02-20T17:04:04.255+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/button"/>
+                        sling:resourceType="guides-components/components/button"/>
                     <breadcrumb
                         jcr:created="{Date}2025-02-12T19:07:53.001+05:30"
                         jcr:createdBy="admin"
@@ -157,7 +157,7 @@
                             jcr:lastModified="{Date}2025-02-20T21:25:00.021+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/time-to-read"
+                            sling:resourceType="guides-components/components/sites-components/time-to-read"
                             text="&lt;p>_&amp;nbsp; &amp;nbsp;&lt;/p>&#xd;&#xa;"
                             textIsRich="true"/>
                         <bookmark
@@ -166,7 +166,7 @@
                             jcr:lastModified="{Date}2025-02-18T13:15:27.447+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/bookmark"
+                            sling:resourceType="guides-components/components/sites-components/bookmark"
                             alt="bookmark"
                             displayPopupTitle="true"
                             fileName="Vector.png"
@@ -181,7 +181,7 @@
                             jcr:lastModified="{Date}2025-02-19T11:08:08.214+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/pdf-download"
+                            sling:resourceType="guides-components/components/sites-components/pdf-download"
                             linkTarget="_self"/>
                         <share
                             jcr:created="{Date}2025-02-12T14:39:27.635+05:30"
@@ -189,7 +189,7 @@
                             jcr:lastModified="{Date}2025-02-18T13:18:05.573+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/sites-components/share"
+                            sling:resourceType="guides-components/components/sites-components/share"
                             alt="share"
                             displayPopupTitle="true"
                             fileName="Vector (1).png"
@@ -220,7 +220,7 @@
                         jcr:lastModified="{Date}2025-02-20T21:30:58.210+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-pager"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-pager"/>
                 </container1>
                 <container_708278119
                     cq:styleIds="[1739266406174]"
@@ -236,14 +236,14 @@
                         jcr:lastModified="{Date}2025-02-12T19:24:07.334+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/pagetoc"/>
+                        sling:resourceType="guides-components/components/pagetoc"/>
                     <guides_mini_toc
                         jcr:created="{Date}2025-02-19T15:27:01.532+05:30"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2025-02-19T15:27:34.586+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/guides-mini-toc"/>
+                        sling:resourceType="guides-components/components/sites-components/guides-mini-toc"/>
                     <relatedarticles
                         cq:styleIds="[1742810035381,1742810322038]"
                         jcr:created="{Date}2025-03-24T09:53:02.859Z"
@@ -251,14 +251,14 @@
                         jcr:lastModified="{Date}2025-03-24T09:53:02.859Z"
                         jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/relatedarticles"/>
+                        sling:resourceType="guides-components/components/sites-components/relatedarticles"/>
                     <content_feedback
                         jcr:created="{Date}2025-03-06T10:49:50.962Z"
                         jcr:createdBy="sadhna.singh@deptagency.com"
                         jcr:lastModified="{Date}2025-03-06T10:50:56.414Z"
                         jcr:lastModifiedBy="sadhna.singh@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/content-feedback"
+                        sling:resourceType="guides-components/components/sites-components/content-feedback"
                         contentSubText="Your feedback will help us improve our articles."
                         contentText="Was this content helpful ?"/>
                 </container_708278119>
@@ -269,21 +269,21 @@
                 jcr:lastModified="{Date}2025-02-22T20:46:20.502+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/sharepopup"/>
+                sling:resourceType="guides-components/components/sites-components/sharepopup"/>
             <accessibility
                 jcr:created="{Date}2025-03-10T05:50:45.347Z"
                 jcr:createdBy="krishna.mulik@deptagency.com"
                 jcr:lastModified="{Date}2025-03-10T05:50:45.347Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/accessibility"/>
+                sling:resourceType="guides-components/components/sites-components/accessibility"/>
             <experiencefragment_368812681
                 jcr:created="{Date}2025-02-20T21:35:57.178+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2025-03-04T13:24:01.766Z"
                 jcr:lastModifiedBy="prashant.singh@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/experiencefragment"
+                sling:resourceType="guides-components/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemguidesDALP/us/en/site/BFSI/guides-footer/guides-footer"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

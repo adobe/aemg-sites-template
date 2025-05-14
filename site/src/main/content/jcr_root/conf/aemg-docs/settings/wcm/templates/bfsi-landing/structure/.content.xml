@@ -12,15 +12,15 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/bfsi-landing"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/bfsi-landing"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="ced5e92c-7475-4ba3-9250-f1793a99a0e6"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <experiencefragment
                 cq:styleIds="[1741087917108]"
@@ -29,11 +29,11 @@
                 jcr:lastModified="{Date}2025-03-04T13:21:06.483Z"
                 jcr:lastModifiedBy="prashant.singh@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/experiencefragment"
+                sling:resourceType="guides-components/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemguidesDALP/us/en/site/BFSI/guides-header/guides-header"/>
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <guidessidenavigation
@@ -141,7 +141,7 @@
                         jcr:lastModified="{Date}2025-03-04T10:37:32.990Z"
                         jcr:lastModifiedBy="prashant.singh@deptagency.com"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/leveloneprops"
+                        sling:resourceType="guides-components/components/sites-components/leveloneprops"
                         propscsv="jcr:title ,&#xd;&#xa;tp_icon ,&#xd;&#xa;dc:description,&#xd;&#xa;tp_button"/>
                 </container_2108602903>
                 <text_2087032859
@@ -160,7 +160,7 @@
                 jcr:lastModified="{Date}2025-03-10T06:14:10.610Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/accessibility"/>
+                sling:resourceType="guides-components/components/sites-components/accessibility"/>
             <experiencefragment_12846346
                 cq:styleIds="[1741088977428]"
                 jcr:created="{Date}2025-02-24T07:02:30.038Z"

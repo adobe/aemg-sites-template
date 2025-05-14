@@ -12,19 +12,19 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/automotive-landing"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/automotive-landing"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="1cd5835d-ddd0-4f7f-8405-65e3ba25a9b9"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <experiencefragment_5
@@ -105,7 +105,7 @@
                     jcr:lastModified="{Date}2025-03-05T11:41:26.064Z"
                     jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aemguidesDALP/components/automotives/vehicleproductcategory"
+                    sling:resourceType="guides-components/components/automotives/vehicleproductcategory"
                     propscsv="tp_category"/>
                 <button
                     cq:styleIds="[1741175337702]"
@@ -137,7 +137,7 @@
                             jcr:lastModified="{Date}2025-03-03T21:17:20.301+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/automotives/vehicletype"
+                            sling:resourceType="guides-components/components/automotives/vehicletype"
                             propscsv="tp_vehicletype"
                             title="Vehicle Type"/>
                         <vehiclemodel
@@ -146,7 +146,7 @@
                             jcr:lastModified="{Date}2025-03-03T20:43:33.985+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="aemguidesDALP/components/automotives/vehiclemodel"
+                            sling:resourceType="guides-components/components/automotives/vehiclemodel"
                             propscsv="tp_carmodel"
                             title="Model"/>
                     </container_1120389843>
@@ -157,7 +157,7 @@
                         jcr:lastModified="{Date}2025-03-04T17:57:16.629+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemguidesDALP/components/sites-components/leveloneprops"
+                        sling:resourceType="guides-components/components/sites-components/leveloneprops"
                         propscsv="jcr:title, tp_category, tp_vehicletype, tp_carmodel, tp_coverimage"/>
                 </container>
             </container_525836674>
@@ -167,7 +167,7 @@
                 jcr:lastModified="{Date}2025-03-10T06:23:17.791Z"
                 jcr:lastModifiedBy="krishna.mulik@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/sites-components/accessibility"/>
+                sling:resourceType="guides-components/components/sites-components/accessibility"/>
             <experiencefragment
                 jcr:created="{Date}2025-02-25T20:14:38.750+05:30"
                 jcr:createdBy="admin"

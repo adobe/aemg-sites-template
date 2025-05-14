@@ -12,25 +12,25 @@
         cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemguidesDALP/settings/wcm/templates/hi-tec-search"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/hi-tec-search"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="95d53bb3-3b89-4da9-81e1-10dd9321ea2b"
-        sling:resourceType="aemguidesDALP/components/page">
+        sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguidesDALP/components/container"
+            sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
             <experiencefragment-header
                 jcr:lastModified="{Date}2025-03-08T14:34:11.435Z"
                 jcr:lastModifiedBy="sadhna.singh@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/experiencefragment"
+                sling:resourceType="guides-components/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemguidesDALP/us/en/site/Hi-Tech/guides-header/guides-header"/>
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/container"
+                sling:resourceType="guides-components/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <experiencefragment
@@ -39,7 +39,7 @@
                 jcr:lastModified="{Date}2025-03-08T14:35:17.182Z"
                 jcr:lastModifiedBy="sadhna.singh@deptagency.com"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemguidesDALP/components/experiencefragment"
+                sling:resourceType="guides-components/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemguidesDALP/us/en/site/Hi-Tech/guides-footer/guides-footer"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

@@ -11,18 +11,18 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:policy="aemguidesDALP/components/page/policy_1720322783664500"
+        cq:policy="guides-components/components/page/policy_1720322783664500"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="nt:unstructured"
         jcr:uuid="fa3c5be6-7de4-4da0-b6be-bda82ec66c2b"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+            cq:policy="guides-components/components/container/policy_1574694950110"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <container
-                cq:policy="aemguidesDALP/components/container/policy_1574694950110"
+                cq:policy="guides-components/components/container/policy_1574694950110"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
                 <core jcr:primaryType="nt:unstructured">
@@ -42,7 +42,7 @@
                 <aemguidesDALP jcr:primaryType="nt:unstructured">
                     <components jcr:primaryType="nt:unstructured">
                         <button
-                            cq:policy="aemguidesDALP/components/button/policy_1740378686006"
+                            cq:policy="guides-components/components/button/policy_1740378686006"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </components>
@@ -67,7 +67,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping">
                         <bookmark
-                            cq:policy="aemguidesDALP/components/sites-components/bookmark/policy_1741286173129"
+                            cq:policy="guides-components/components/sites-components/bookmark/policy_1741286173129"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </container>
@@ -89,7 +89,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                     <button
-                        cq:policy="aemguidesDALP/components/button/policy_1740378686006"
+                        cq:policy="guides-components/components/button/policy_1740378686006"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </container>
@@ -98,7 +98,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping">
                     <relatedarticles
-                        cq:policy="aemguidesDALP/components/sites-components/relatedarticles/policy_1742810016985"
+                        cq:policy="guides-components/components/sites-components/relatedarticles/policy_1742810016985"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </container_708278119>
@@ -108,7 +108,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <breadcrumb
-                cq:policy="aemguidesDALP/components/breadcrumb/policy_1740739101151"
+                cq:policy="guides-components/components/breadcrumb/policy_1740739101151"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment_159506602
@@ -116,7 +116,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <readingprogressbar
-                cq:policy="aemguidesDALP/components/sites-components/readingprogressbar/policy_1741585674229"
+                cq:policy="guides-components/components/sites-components/readingprogressbar/policy_1741585674229"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
