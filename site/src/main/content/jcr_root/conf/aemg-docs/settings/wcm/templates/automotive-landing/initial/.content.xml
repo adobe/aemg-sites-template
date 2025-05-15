@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2025-02-07T13:53:38.260+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/automotive-landing"
+        cq:template="/conf/aemguidesDALP/settings/wcm/templates/automotive-landing"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="guides-components/components/page"
         id="category-page"

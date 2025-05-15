@@ -5,7 +5,7 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2025-02-12T11:01:37.306+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/dita-topic"
+        cq:template="/conf/aemguidesDALP/settings/wcm/templates/dita-topic"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="guides-components/components/page">
         <root

@@ -11,7 +11,7 @@
         cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:templateType="/conf/aemg-docs/settings/wcm/template-types/page"
+        cq:templateType="/conf/aemguidesDALP/settings/wcm/template-types/page"
         jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Automotive Search"

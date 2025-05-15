@@ -12,7 +12,7 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/automotive-topic"
+        cq:template="/conf/aemguidesDALP/settings/wcm/templates/automotive-topic"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"

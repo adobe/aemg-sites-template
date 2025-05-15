@@ -11,7 +11,7 @@
         cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:templateType="/conf/aemg-docs/settings/wcm/template-types/dita-topic"
+        cq:templateType="/conf/aemguidesDALP/settings/wcm/template-types/dita-topic"
         jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="cq:PageContent"
         jcr:title="BFSI Topic"

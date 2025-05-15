@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2025-02-10T18:18:37.468+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/dita-topic"
+        cq:template="/conf/aemguidesDALP/settings/wcm/templates/dita-topic"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="guides-components/components/page">
         <root
