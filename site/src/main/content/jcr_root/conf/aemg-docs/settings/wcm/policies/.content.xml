@@ -1,6 +1,2084 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
+    <aemguidesDALP jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:description="Allows the form components to be dropped into this core form container."
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Content Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/guides-components/components/form/button,/apps/guides-components/components/form/hidden,/apps/guides-components/components/form/options,/apps/guides-components/components/form/text]">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-05T12:14:02.246Z"
+                            cq:lastReplicated_publish="{Date}2025-03-05T12:14:02.246Z"
+                            cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                            cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+            <languagenavigation jcr:primaryType="nt:unstructured">
+                <policy_xfm
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="AEM Guides DALP Language Navigation - Experience Fragment"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    navigationRoot="/content/aemguidesDALP"
+                    structureDepth="1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_xfm>
+            </languagenavigation>
+            <image jcr:primaryType="nt:unstructured">
+                <policy_651483963895698
+                    jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Image"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
+                    allowUpload="false"
+                    altValueFromDAM="true"
+                    disableLazyLoading="false"
+                    displayPopupTitle="true"
+                    enableAssetDelivery="true"
+                    isDecorative="false"
+                    jpegQuality="{Long}85"
+                    titleValueFromDAM="true"
+                    uuidDisabled="true">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <plugins jcr:primaryType="nt:unstructured">
+                        <crop
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <aspectRatios jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Wide Landscape"
+                                    ratio="0.6180"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Landscape"
+                                    ratio="0.8284"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Square"
+                                    ratio="1"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Portrait"
+                                    ratio="1.6180"/>
+                            </aspectRatios>
+                        </crop>
+                        <rotate
+                            jcr:primaryType="nt:unstructured"
+                            features="right"/>
+                        <flip
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                    </plugins>
+                </policy_651483963895698>
+            </image>
+            <text jcr:primaryType="nt:unstructured">
+                <policy_641562756958017
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Text"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <paraformat
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <formats
+                                jcr:primaryType="nt:unstructured"
+                                override="true">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Paragraph"
+                                    tag="p"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Quote"
+                                    tag="blockquote"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Preformatted"
+                                    tag="pre"/>
+                            </formats>
+                        </paraformat>
+                        <misctools
+                            jcr:primaryType="nt:unstructured"
+                            features="-">
+                            <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                <chars
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;copy;"
+                                        name="copyright"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;euro;"
+                                        name="euro"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;reg;"
+                                        name="registered"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;trade;"
+                                        name="trademark"/>
+                                </chars>
+                            </specialCharsConfig>
+                        </misctools>
+                        <edit
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <findreplace
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <undo
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <spellcheck
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <table
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <lists
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <justify
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <format
+                            jcr:primaryType="nt:unstructured"
+                            features="bold,italic"/>
+                        <links
+                            jcr:primaryType="nt:unstructured"
+                            features="modifylink,unlink"/>
+                        <subsuperscript
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                    </rtePlugins>
+                </policy_641562756958017>
+            </text>
+            <title jcr:primaryType="nt:unstructured">
+                <policy_641475696923109
+                    jcr:description="Allows only H1 and disallows links for the main page title."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Title"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="h1"
+                    linkDisabled="true"
+                    type="h1">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicated_publish="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_641475696923109>
+                <policy_641528232375303
+                    jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Title"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h2">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_641528232375303>
+            </title>
+            <experiencefragment jcr:primaryType="nt:unstructured">
+                <policy_header
+                    cq:styleDefaultElement="header"
+                    jcr:description="Sets a &lt;header> element on the page header experience fragment."
+                    jcr:lastModified="{Date}2025-03-04T11:46:18.845Z"
+                    jcr:lastModifiedBy="sadhna.singh@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Header"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-05T11:34:54.696Z"
+                        cq:lastReplicated_publish="{Date}2025-03-05T11:34:54.696Z"
+                        cq:lastReplicatedBy="workflow-process-service"
+                        cq:lastReplicatedBy_publish="workflow-process-service"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Sticky Header"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="sticky_header"
+                                    cq:styleId="1741087917108"
+                                    cq:styleLabel="sticky header"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_header>
+                <policy_footer
+                    cq:styleDefaultElement="footer"
+                    jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Footer"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicated_publish="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_footer>
+            </experiencefragment>
+            <container jcr:primaryType="nt:unstructured">
+                <policy_1574694950110
+                    jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2025-02-24T06:59:37.559Z"
+                    jcr:lastModifiedBy="uman.ali@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Root"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:AEM Guides DALP - Content,/apps/guides-components/components/form/container,group:AEM Guides DALP - Structure,group:Core Content]"
+                    layoutDisabled="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:authoring jcr:primaryType="nt:unstructured">
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                            <mapping_1575024218483
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="image/*"
+                                droptarget="image"
+                                resourceType="guides-components/components/image"/>
+                            <mapping_1575030843388
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="content"
+                                assetMimetype="text/html"
+                                droptarget="experiencefragment"
+                                resourceType="guides-components/components/experiencefragment"/>
+                            <mapping_1575030853128
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                droptarget="contentfragment"
+                                resourceType="guides-components/components/contentfragment"/>
+                        </assetToComponentMapping>
+                    </cq:authoring>
+                </policy_1574694950110>
+                <policy_1574695586800
+                    jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Content"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:AEM Guides DALP - Content,/apps/guides-components/components/form/container]">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T14:39:58.268Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T14:39:58.268Z"
+                        cq:lastReplicatedBy="pooja.pashte@deptagency.com"
+                        cq:lastReplicatedBy_publish="pooja.pashte@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:authoring jcr:primaryType="nt:unstructured">
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                            <mapping_1575030255082
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="image/*"
+                                droptarget="image"
+                                resourceType="guides-components/components/image"/>
+                            <mapping_1575030260142
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="content"
+                                assetMimetype="text/html"
+                                droptarget="experiencefragment"
+                                resourceType="guides-components/components/experiencefragment"/>
+                            <mapping_1575030269139
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                droptarget="contentfragment"
+                                resourceType="guides-components/components/contentfragment"/>
+                        </assetToComponentMapping>
+                    </cq:authoring>
+                </policy_1574695586800>
+                <policy_649128221558427
+                    cq:styleDefaultElement="main"
+                    jcr:description="Sets a &lt;main> element on the page content area."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Main"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicated_publish="{Date}2025-03-05T12:14:02.246Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_649128221558427>
+                <policy_1575040440977
+                    jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="XF Root"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:AEM Guides DALP - Content,/apps/guides-components/components/form/container]">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:authoring jcr:primaryType="nt:unstructured">
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                            <mapping_1575024218483
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="image/*"
+                                droptarget="image"
+                                resourceType="guides-components/components/image"/>
+                            <mapping_1575030843388
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="content"
+                                assetMimetype="text/html"
+                                droptarget="experiencefragment"
+                                resourceType="guides-components/components/experiencefragment"/>
+                            <mapping_1575030853128
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="media"
+                                assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                droptarget="contentfragment"
+                                resourceType="guides-components/components/contentfragment"/>
+                        </assetToComponentMapping>
+                    </cq:authoring>
+                </policy_1575040440977>
+                <policy_106168327536131
+                    jcr:lastModified="{Date}2025-02-24T06:55:12.546Z"
+                    jcr:lastModifiedBy="uman.ali@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FSI Landing Page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    backgroundColorEnabled="true"
+                    backgroundImageEnabled="true"
+                    layoutDisabled="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_106168327536131>
+            </container>
+            <teaser jcr:primaryType="nt:unstructured">
+                <policy_1575031387650
+                    jcr:description="Sets the title size to H3."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Teaser"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    titleType="h3">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_1575031387650>
+            </teaser>
+            <download jcr:primaryType="nt:unstructured">
+                <policy_1575032193319
+                    jcr:description="Sets the title size to H3."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Download"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowUpload="false"
+                    displayFilename="true"
+                    displayFormat="true"
+                    displaySize="true"
+                    titleType="h3">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                        cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_1575032193319>
+            </download>
+            <page jcr:primaryType="nt:unstructured">
+                <policy
+                    jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2025-03-08T15:09:03.732Z"
+                    jcr:lastModifiedBy="sadhna.singh@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="BFSI Search"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,clientlib-fontawesome,aemguidesDALP.guides-header,aemguidesDALP.guides-footer,aemguidesDALP.global-search,aemguidesDALP.search]"
+                    clientlibsAsync="false"
+                    clientlibsJsHead="aemguidesDALP.dependencies">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy>
+                <policy_104501219829274
+                    jcr:lastModified="{Date}2025-03-24T09:53:32.000Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="bfsi-tpoic"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,chartjs,aemguidesDALP.site,aemguidesDALP.components,aemguidesDALP.fsi_topic-body,clientlib-fontawesome,aemguidesDALP.fsi_toc,aemguidesDALP.guides_mini_toc,aemguidesDALP.fsi_mini-toc,aemguidesDALP.guides-footer,aemguidesDALP.guides-header,aemguidesDALP.content-feedback,aemguidesDALP.fsi_global,aemguidesDALP.related-articles,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-24T10:09:06.789Z"
+                        cq:lastReplicated_publish="{Date}2025-03-24T10:09:06.789Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_104501219829274>
+                <policy_157278447782436
+                    jcr:lastModified="{Date}2025-03-24T10:02:36.113Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="hi-tech-topic"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.components,aemguidesDALP.site,aemguidesDALP.dependencies,clientlib-fontawesome,aemguidesDALP.guides-header,aemguidesDALP.guides-footer,highlightjs,aemguidesDALP.hi-tech_global,aemguidesDALP.hi-tech_topic-body,aemguidesDALP.guides_mini_toc,aemguidesDALP.hi-tech_toc,aemguidesDALP.hi-tech_mini_toc,aemguidesDALP.related-articles,aemguidesDALP.content-feedback,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-24T10:08:47.222Z"
+                        cq:lastReplicated_publish="{Date}2025-03-24T10:08:47.222Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_157278447782436>
+                <policy_1720322783664500
+                    jcr:lastModified="{Date}2025-03-24T10:07:13.528Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="automotive policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.site,aemguidesDALP.dependencies,clientlib-fontawesome,aemguidesDALP.guides-header,aemguidesDALP.guides-footer,aemguidesDALP.components,aemguidesDALP.automotive_global,aemguidesDALP.automotive_topic-body,aemguidesDALP.automoitve_toc,aemguidesDALP.automative_toc-banner,aemguidesDALP.guides_mini_toc,aemguidesDALP.content-feedback,aemguidesDALP.related-articles,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-24T10:08:27.959Z"
+                        cq:lastReplicated_publish="{Date}2025-03-24T10:08:27.959Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_1720322783664500>
+                <policy_1740563852797
+                    jcr:lastModified="{Date}2025-03-10T06:22:45.001Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="automotive landing page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,aemguidesDALP.site,aemguidesDALP.singleproplist,guides-components.components,aemguidesDALP.guides-header,aemguidesDALP.guides-footer,clientlib-fontawesome,aemguidesDALP.automotive_landing,aemguidesDALP.fsi_topic-body,aemguidesDALP.automotive_filter,aemguidesDALP.automotive_global,aemguidesDALP.global-search,aemguidesDALP.search,clientlib-qrcode,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false"
+                    clientlibsJsHead="aemguidesDALP.dependencies">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_1740563852797>
+                <policy_37458321585674
+                    jcr:lastModified="{Date}2025-03-10T06:27:50.668Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hi-tech landing Page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.guides-header,aemguidesDALP.guides-footer,clientlib-fontawesome,aemguidesDALP.hi-tech_topic-body,aemguidesDALP.hi-tech_global,aemguidesDALP.landing-banner,aemguidesDALP.hi-tech-landing-list,aemguidesDALP.global-search,aemguidesDALP.search,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_37458321585674>
+                <policy_1741447172327
+                    jcr:lastModified="{Date}2025-03-10T06:13:49.604Z"
+                    jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="bfsi landing page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[aemguidesDALP.dependencies,clientlib-fontawesome,aemguidesDALP.fsi-landing-banner,aemguidesDALP.fsi_global,aemguidesDALP.fsi_landing,aemguidesDALP.fsi_topic-body,aemguidesDALP.guides-header,aemguidesDALP.guides-footer,aemguidesDALP.global-search,aemguidesDALP.search,clientlib-qrcode,aemguidesDALP.accessibility]"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+                        cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                        cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                </policy_1741447172327>
+            </page>
+            <button jcr:primaryType="nt:unstructured">
+                <policy_1740378686006
+                    jcr:lastModified="{Date}2025-03-03T11:58:41.500Z"
+                    jcr:lastModifiedBy="uman.ali@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="button-policy"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-04T07:49:15.416Z"
+                        cq:lastReplicated_publish="{Date}2025-03-04T07:49:15.416Z"
+                        cq:lastReplicatedBy="prashant.singh@deptagency.com"
+                        cq:lastReplicatedBy_publish="prashant.singh@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Arrow btn class"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="arrow-btn-left"
+                                    cq:styleId="1740378721615"
+                                    cq:styleLabel="Arrow btn left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="arrow-btn-right"
+                                    cq:styleId="1740378731170"
+                                    cq:styleLabel="Arrow btn right"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="TOC-Button"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="toc-popup-init"
+                                    cq:styleId="1740378745030"
+                                    cq:styleLabel="toc button"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                    </cq:styleGroups>
+                </policy_1740378686006>
+            </button>
+            <breadcrumb jcr:primaryType="nt:unstructured">
+                <policy_1740739101151
+                    jcr:lastModified="{Date}2025-02-28T10:39:25.285Z"
+                    jcr:lastModifiedBy="uman.ali@deptagency.com"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Breadcrumb Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="2">
+                    <jcr:content
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2025-03-05T11:15:44.044Z"
+                        cq:lastReplicated_publish="{Date}2025-03-05T11:15:44.044Z"
+                        cq:lastReplicatedBy="uman.ali@deptagency.com"
+                        cq:lastReplicatedBy_publish="uman.ali@deptagency.com"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Breadcrumb Container"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="box-container"
+                                    cq:styleId="1740739121450"
+                                    cq:styleLabel="Breadcrumb Box Container"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1740739101151>
+            </breadcrumb>
+            <sites-components jcr:primaryType="nt:unstructured">
+                <guides-toc jcr:primaryType="nt:unstructured">
+                    <policy_1740982353615
+                        jcr:lastModified="{Date}2025-03-03T06:13:34.040Z"
+                        jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Guides-toc-list"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        altValueFromDAM="true"
+                        disableLazyLoading="false"
+                        displayPopupTitle="true"
+                        enableAssetDelivery="false"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                            cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                            cq:lastReplicatedBy="workflow-process-service"
+                            cq:lastReplicatedBy_publish="workflow-process-service"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="toc-list-meta"
+                                        cq:styleId="1740982385456"
+                                        cq:styleLabel="toc-list-meta"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1740982353615>
+                </guides-toc>
+                <leveloneprops jcr:primaryType="nt:unstructured">
+                    <policy_1741103231152
+                        jcr:lastModified="{Date}2025-03-04T15:48:08.276Z"
+                        jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="vehicles list policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-04T16:47:24.121Z"
+                            cq:lastReplicated_publish="{Date}2025-03-04T16:47:24.121Z"
+                            cq:lastReplicatedBy="pooja.pashte@deptagency.com"
+                            cq:lastReplicatedBy_publish="pooja.pashte@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="vehicles_list"
+                                        cq:styleId="1741103248644"
+                                        cq:styleLabel="Vehicles List"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1741103231152>
+                    <policy_30655776660332
+                        jcr:lastModified="{Date}2025-03-07T16:16:22.352Z"
+                        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="bookmeta-list"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-07T18:58:35.475Z"
+                            cq:lastReplicated_publish="{Date}2025-03-07T18:58:35.475Z"
+                            cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                            cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses=".toc-list-meta"
+                                        cq:styleId="1741364133060"
+                                        cq:styleLabel=".toc-list-meta"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_30655776660332>
+                </leveloneprops>
+                <bookmark jcr:primaryType="nt:unstructured">
+                    <policy_1741286173129
+                        jcr:lastModified="{Date}2025-03-06T18:37:14.723Z"
+                        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="button policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-06T18:37:45.814Z"
+                            cq:lastReplicated_publish="{Date}2025-03-06T18:37:45.814Z"
+                            cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                            cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Common"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="ml-auto"
+                                        cq:styleId="1741286190937"
+                                        cq:styleLabel="Margin Left Auto"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1741286173129>
+                </bookmark>
+                <content-feedback jcr:primaryType="nt:unstructured">
+                    <policy_1741287958041
+                        jcr:lastModified="{Date}2025-03-10T09:45:38.949Z"
+                        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="feedback-show-hide"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        altValueFromDAM="true"
+                        disableLazyLoading="false"
+                        displayPopupTitle="true"
+                        enableAssetDelivery="false"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-10T10:37:14.435Z"
+                            cq:lastReplicated_publish="{Date}2025-03-10T10:37:14.435Z"
+                            cq:lastReplicatedBy="workflow-process-service"
+                            cq:lastReplicatedBy_publish="workflow-process-service"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Show-Hide"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="screen-md-hide"
+                                        cq:styleId="1741287972689"
+                                        cq:styleLabel="Hide-md"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="screen-md-show"
+                                        cq:styleId="1741287980140"
+                                        cq:styleLabel="Show-md"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1741287958041>
+                </content-feedback>
+                <readingprogressbar jcr:primaryType="nt:unstructured">
+                    <policy_1741585674229
+                        cq:styleDefaultClasses="progress-bar-container "
+                        jcr:lastModified="{Date}2025-03-10T06:25:21.409Z"
+                        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="reading progress bar"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        layoutDisabled="false">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-10T07:15:04.340Z"
+                            cq:lastReplicated_publish="{Date}2025-03-10T07:15:04.340Z"
+                            cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                            cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1741585674229>
+                </readingprogressbar>
+                <relatedarticles jcr:primaryType="nt:unstructured">
+                    <policy_1742810016985
+                        jcr:lastModified="{Date}2025-03-24T10:07:37.763Z"
+                        jcr:lastModifiedBy="krishna.mulik@deptagency.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="related articles"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content
+                            cq:isDelivered="{Boolean}false"
+                            cq:lastReplicated="{Date}2025-03-24T10:08:27.959Z"
+                            cq:lastReplicated_publish="{Date}2025-03-24T10:08:27.959Z"
+                            cq:lastReplicatedBy="krishna.mulik@deptagency.com"
+                            cq:lastReplicatedBy_publish="krishna.mulik@deptagency.com"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Common"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="mr-tp-40"
+                                        cq:styleId="1742810035381"
+                                        cq:styleLabel="Margin Top 40px"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="screen-md-hide"
+                                        cq:styleId="1742810322038"
+                                        cq:styleLabel="Mobile Hide"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1742810016985>
+                </relatedarticles>
+            </sites-components>
+        </components>
+    </aemguidesDALP>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured"/>
+            </components>
+        </foundation>
+    </wcm>
+    <core jcr:primaryType="nt:unstructured">
+        <wcm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <container jcr:primaryType="nt:unstructured">
+                            <policy_1739193808878
+                                jcr:lastModified="{Date}2025-03-06T13:20:09.749Z"
+                                jcr:lastModifiedBy="sadhna.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="container policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                backgroundColorEnabled="true"
+                                backgroundImageEnabled="true"
+                                components="[group:AEM Guides DALP - Content,group:AEM Guides DALP - Form,group:Core Content,group:Core Form,group:Core Structure]"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-06T13:25:46.262Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-06T13:25:46.262Z"
+                                    cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                                    cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Box Container"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="box-container"
+                                                cq:styleId="1739193905757"
+                                                cq:styleLabel="Box Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Topic Body"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="left-container"
+                                                cq:styleId="1739265684209"
+                                                cq:styleLabel="Left Panel"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="topic-container"
+                                                cq:styleId="1739353947627"
+                                                cq:styleLabel="Topic Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="right-container"
+                                                cq:styleId="1739266406174"
+                                                cq:styleLabel="Right Panel"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="middle-container"
+                                                cq:styleId="1739949452985"
+                                                cq:styleLabel="Middle Panel "
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item4
+                                                cq:styleClasses="topic-body"
+                                                cq:styleId="1740381413467"
+                                                cq:styleLabel="Topic Body"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                    <item2
+                                        cq:styleGroupLabel="Topic Header"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="topic-header"
+                                                cq:styleId="1739861554667"
+                                                cq:styleLabel="topic header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item2>
+                                    <item3
+                                        cq:styleGroupLabel="TOC Search"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="toc-search-container"
+                                                cq:styleId="1740238876095"
+                                                cq:styleLabel="TOC Search Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item3>
+                                    <item4
+                                        cq:styleGroupLabel="FSI Landing Page"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="fsi-banner-wrapper"
+                                                cq:styleId="1740379227514"
+                                                cq:styleLabel="FSI Banner Wrapper"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="objectives-text-wrapper"
+                                                cq:styleId="1740379281662"
+                                                cq:styleLabel="Objective Text Wrapper"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="dark:bg-img-monochrome"
+                                                cq:styleId="1740636325679"
+                                                cq:styleLabel="Dark Bg Image Style"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item4>
+                                    <item5
+                                        cq:styleGroupLabel="Download Manual Button"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="download-manual-button"
+                                                cq:styleId="1741267171904"
+                                                cq:styleLabel="Download Manual Button"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item5>
+                                </cq:styleGroups>
+                            </policy_1739193808878>
+                            <policy_1739430397665
+                                cq:styleDefaultClasses="topic-body"
+                                jcr:lastModified="{Date}2025-02-13T12:37:48.997+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="topic-body"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-02-27T11:01:33.412Z"
+                                    cq:lastReplicated_publish="{Date}2025-02-27T11:01:33.412Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </policy_1739430397665>
+                            <policy_608946634052072
+                                jcr:lastModified="{Date}2025-03-05T11:08:39.272Z"
+                                jcr:lastModifiedBy="uman.ali@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Automotive Container Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                backgroundColorEnabled="true"
+                                backgroundImageEnabled="true"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-05T11:15:44.044Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-05T11:15:44.044Z"
+                                    cq:lastReplicatedBy="uman.ali@deptagency.com"
+                                    cq:lastReplicatedBy_publish="uman.ali@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Box Container"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="box-container"
+                                                cq:styleId="1740652625124"
+                                                cq:styleLabel="Box Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Automotive Landing Page"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="hero_banner"
+                                                cq:styleId="1740652822037"
+                                                cq:styleLabel="Hero Banner Wrapper"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="hero_text"
+                                                cq:styleId="1740652842651"
+                                                cq:styleLabel="Hero Banner Text"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="content_container"
+                                                cq:styleId="1740652868525"
+                                                cq:styleLabel="Content Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="vehicles_list_wrapper"
+                                                cq:styleId="1741102931137"
+                                                cq:styleLabel="Vehicles Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item4
+                                                cq:styleClasses="vehicles_type"
+                                                cq:styleId="1741102943082"
+                                                cq:styleLabel="Vehicles Type "
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item5
+                                                cq:styleClasses="vehicles_list"
+                                                cq:styleId="1741102964192"
+                                                cq:styleLabel="Vehicles List"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                    <item2
+                                        cq:styleGroupLabel="Automotives Topic Page"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="automotives-toc-banner"
+                                                cq:styleId="1740738304431"
+                                                cq:styleLabel="Automotive TOC Banner"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="download-manual-button"
+                                                cq:styleId="1740738974178"
+                                                cq:styleLabel="Download Manual Button"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="sharePopup-container"
+                                                cq:styleId="1741172852180"
+                                                cq:styleLabel="Share Popup Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item2>
+                                </cq:styleGroups>
+                            </policy_608946634052072>
+                            <policy_59282961388748
+                                jcr:lastModified="{Date}2025-02-28T09:37:10.593Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Breadcrumb "
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="breadcrumb-container"
+                                                cq:styleId="1740735404942"
+                                                cq:styleLabel="breadcrumb-container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_59282961388748>
+                            <policy_59434020066883
+                                jcr:lastModified="{Date}2025-02-28T09:43:23.412Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="time-share icon"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                layoutDisabled="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="time-share-Container"
+                                                cq:styleId="1740735780267"
+                                                cq:styleLabel="time-share-Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_59434020066883>
+                        </container>
+                    </v1>
+                </container>
+                <button jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <button jcr:primaryType="nt:unstructured">
+                            <policy_1740125506785
+                                jcr:lastModified="{Date}2025-02-21T13:43:09.186+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="button policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="toc"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="toc-popup-init"
+                                                cq:styleId="1740125524474"
+                                                cq:styleLabel="TOC PopopUp Init"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1740125506785>
+                            <policy_817221315911987
+                                jcr:lastModified="{Date}2025-03-05T11:49:38.363Z"
+                                jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Button Policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="vehicle_search_btn"
+                                                cq:styleId="1741175337702"
+                                                cq:styleLabel="Vehicle Search Button"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_817221315911987>
+                        </button>
+                    </v2>
+                </button>
+                <text jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <text jcr:primaryType="nt:unstructured">
+                            <policy_1740379396465
+                                jcr:lastModified="{Date}2025-02-24T08:07:00.816Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="bfsi landing text"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                                    cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                                    cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                                    cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="FSI Landing Page"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="objective-text-left"
+                                                cq:styleId="1740379417772"
+                                                cq:styleLabel="Objective Text Left"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="objective-text-right"
+                                                cq:styleId="1740379419296"
+                                                cq:styleLabel="Objective Text Right"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                    <item1 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="card-upper-discription-cont"
+                                                cq:styleId="1740380508764"
+                                                cq:styleLabel="card-upper-discription-cont"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
+                                </cq:styleGroups>
+                            </policy_1740379396465>
+                            <policy_106980115418574
+                                jcr:lastModified="{Date}2025-02-27T19:51:29.383Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="hitech-text"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="sourceedit">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="hitech banner text"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="banner-title "
+                                                cq:styleId="1740685397674"
+                                                cq:styleLabel="Banner Title"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="banner-description"
+                                                cq:styleId="1740685439706"
+                                                cq:styleLabel="Banner Description"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_106980115418574>
+                            <policy_43751135331566
+                                jcr:lastModified="{Date}2025-03-04T15:51:05.328Z"
+                                jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Automotive text policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-04T16:47:24.121Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-04T16:47:24.121Z"
+                                    cq:lastReplicatedBy="pooja.pashte@deptagency.com"
+                                    cq:lastReplicatedBy_publish="pooja.pashte@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 1"
+                                                tag="h1"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 2"
+                                                tag="h2"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 3"
+                                                tag="h3"/>
+                                            <item4
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 4"
+                                                tag="h4"/>
+                                            <item5
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 5"
+                                                tag="h5"/>
+                                            <item6
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Heading 6"
+                                                tag="h6"/>
+                                            <item7
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item8
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Horizontal Rule (visual line break)"
+                                                tag="hr"/>
+                                            <item9
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Automotive Landing Page"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="vehicles_text_wrapper"
+                                                cq:styleId="1740737352234"
+                                                cq:styleLabel="Vehicles Text Wrapper"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_43751135331566>
+                        </text>
+                    </v2>
+                </text>
+                <list jcr:primaryType="nt:unstructured">
+                    <v4 jcr:primaryType="nt:unstructured">
+                        <list jcr:primaryType="nt:unstructured">
+                            <policy_1740380522335
+                                jcr:lastModified="{Date}2025-02-25T08:10:10.228Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="BFSI list"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                disableChildren="false"
+                                disableSearch="false"
+                                disableStatic="false"
+                                disableTags="false"
+                                linkItems="false"
+                                showDescription="false"
+                                showModificationDate="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-02-27T09:38:27.799Z"
+                                    cq:lastReplicated_publish="{Date}2025-02-27T09:38:27.799Z"
+                                    cq:lastReplicatedBy="sadhna.singh@deptagency.com"
+                                    cq:lastReplicatedBy_publish="sadhna.singh@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="bfsi-list-cont"
+                                                cq:styleId="1740380552545"
+                                                cq:styleLabel="bfsi-list-cont"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1740380522335>
+                            <policy_612761812414140
+                                jcr:lastModified="{Date}2025-02-27T11:37:03.466Z"
+                                jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Automotive List Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                disableChildren="false"
+                                disableSearch="false"
+                                disableStatic="false"
+                                disableTags="false"
+                                linkItems="false"
+                                showDescription="false"
+                                showModificationDate="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-02-27T14:39:58.268Z"
+                                    cq:lastReplicated_publish="{Date}2025-02-27T14:39:58.268Z"
+                                    cq:lastReplicatedBy="pooja.pashte@deptagency.com"
+                                    cq:lastReplicatedBy_publish="pooja.pashte@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Automotive List Policy"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="vehicles_list"
+                                                cq:styleId="1740656176534"
+                                                cq:styleLabel="Vehicles List Container"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_612761812414140>
+                            <policy_38189269465412
+                                jcr:lastModified="{Date}2025-02-27T19:49:24.345Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="hitech-list"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                disableChildren="false"
+                                disableSearch="false"
+                                disableStatic="false"
+                                disableTags="false"
+                                linkItems="false"
+                                showDescription="false"
+                                showModificationDate="false">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="hitech list"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="hitech-landing-list"
+                                                cq:styleId="1740685707308"
+                                                cq:styleLabel="Hitech Landing List"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_38189269465412>
+                        </list>
+                    </v4>
+                </list>
+                <image jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
+                        <image jcr:primaryType="nt:unstructured">
+                            <policy_1740685473780
+                                jcr:lastModified="{Date}2025-02-27T19:47:04.539Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="hitech-image"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                altValueFromDAM="true"
+                                disableLazyLoading="false"
+                                displayPopupTitle="true"
+                                enableAssetDelivery="false"
+                                isDecorative="false"
+                                titleValueFromDAM="true">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="hi-tech banner image"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="banner-img"
+                                                cq:styleId="1740685511268"
+                                                cq:styleLabel="Banner Image"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1740685473780>
+                        </image>
+                    </v3>
+                </image>
+                <teaser jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <teaser jcr:primaryType="nt:unstructured">
+                            <policy_1740685615182
+                                jcr:lastModified="{Date}2025-02-27T19:48:09.715Z"
+                                jcr:lastModifiedBy="prashant.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="hitech-teaser"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                allowedHeadingElements="[h1,h2,h3,h4,h5,h6]"
+                                showTitleType="false"
+                                titleType="h2">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-03T08:32:35.840Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="hi tech note part"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="hitech-landing-note"
+                                                cq:styleId="1740685644058"
+                                                cq:styleLabel="Hitech Landing Note"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1740685615182>
+                        </teaser>
+                    </v2>
+                </teaser>
+                <experiencefragment jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <experiencefragment jcr:primaryType="nt:unstructured">
+                            <policy_1741088940975
+                                jcr:lastModified="{Date}2025-03-04T11:54:15.031Z"
+                                jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="XF policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-04T11:58:34.251Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-04T11:58:34.251Z"
+                                    cq:lastReplicatedBy="prashant.singh@deptagency.com"
+                                    cq:lastReplicatedBy_publish="prashant.singh@deptagency.com"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Header"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="sticky_header"
+                                                cq:styleId="1741088956729"
+                                                cq:styleLabel="Sticky Header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1741088940975>
+                            <policy_83588032856073
+                                jcr:lastModified="{Date}2025-03-06T13:27:10.276Z"
+                                jcr:lastModifiedBy="pooja.pashte@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="XF policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Header "
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="sticky_header"
+                                                cq:styleId="1741267559291"
+                                                cq:styleLabel="Sticky Header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_83588032856073>
+                        </experiencefragment>
+                    </v2>
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <experiencefragment jcr:primaryType="nt:unstructured">
+                            <policy_1741088963464
+                                jcr:lastModified="{Date}2025-03-04T11:50:14.484Z"
+                                jcr:lastModifiedBy="sadhna.singh@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Footer"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-05T11:34:54.696Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-05T11:34:54.696Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Margin"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="margin-top"
+                                                cq:styleId="1741088977428"
+                                                cq:styleLabel="Margin Top"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1741088963464>
+                            <policy_817102373897705
+                                jcr:lastModified="{Date}2025-03-05T12:07:45.945Z"
+                                jcr:lastModifiedBy="uman.ali@deptagency.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Page Header"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}false"
+                                    cq:lastReplicated="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicated_publish="{Date}2025-03-06T13:43:05.931Z"
+                                    cq:lastReplicatedBy="workflow-process-service"
+                                    cq:lastReplicatedBy_publish="workflow-process-service"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Sticky Header"
+                                        cq:styleGroupMultiple="true"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="sticky_header"
+                                                cq:styleId="1741176410970"
+                                                cq:styleLabel="Sticky Header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_817102373897705>
+                        </experiencefragment>
+                    </v1>
+                </experiencefragment>
+            </components>
+        </wcm>
+    </core>
     <rep:policy/>
 </jcr:root>
