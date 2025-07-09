@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2024-12-24T08:15:02.717+05:30"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/settings/wcm/template-types/page"
+        cq:templateType="/conf/aemg-docs/settings/wcm/template-types/page"
         jcr:description="Hi-Tech Guides Page Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hi-Tech Guides Topic Page Template"

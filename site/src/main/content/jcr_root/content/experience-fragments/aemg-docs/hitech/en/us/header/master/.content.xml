@@ -15,7 +15,7 @@
             layout="simple">
             <header
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="guides-components/components/guides-components/header"
+                sling:resourceType="guides-components/components/header"
                 darkLogo="/content/dam/aemg-docs/hitech/common-images/icons/Logo-dark-theme.svg"
                 languageIcon="/content/dam/aemg-docs/hitech/asset.jpg"
                 lightLogo="/content/dam/aemg-docs/hitech/common-images/icons/Logo.svg"

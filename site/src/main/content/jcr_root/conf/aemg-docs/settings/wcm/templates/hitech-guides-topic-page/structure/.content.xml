@@ -29,10 +29,6 @@
                     colLayout="twoColumn">
                 <gu22 jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/parsys">
-                    <injected-container
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            editable="{Boolean}true"/>
                     <topic_renderer
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/guides-components/topic-renderer"/>
