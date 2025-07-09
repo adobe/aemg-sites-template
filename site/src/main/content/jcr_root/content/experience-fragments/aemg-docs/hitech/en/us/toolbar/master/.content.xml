@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/aemg-docs/hitech/settings/wcm/templates/hi-tech-component-config-xf-web-variation"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/hitech-component-config-xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
