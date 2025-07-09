@@ -3,12 +3,12 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[]"
-        cq:template="/conf/hitech/settings/wcm/templates/hi-tech-xf-web-variation"
+        cq:template="/conf/aemg-docs/hitech/settings/wcm/templates/hitech-xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        sling:resourceType="guides-components/components/guides-pages/hi-tech/hi-tech-guides-xfpage">
+        sling:resourceType="guides-components/components/guides-pages/hitech/hitech-guides-xfpage">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="guides-components/components/container"
@@ -18,17 +18,17 @@
                 sling:resourceType="guides-components/components/guides-components/header"
                 darkLogo="/content/dam/hitech/common-images/icons/Logo-dark-theme.svg"
                 languageIcon="/content/dam/hitech/asset.jpg"
-                lightLogo="/content/dam/hitech/common-images/icons/Logo.svg"
-                logo="/content/dam/hitech/common-images/icons/logo.svg"
+                lightLogo="/content/dam/aemg-docs/hitech/common-images/icons/Logo.svg"
+                logo="/content/dam/aemg-docs/hitech/common-images/icons/logo.svg"
                 logoLink="#"
                 placeholderText="Search Here"
-                profileIcon="/content/dam/hitech/asset.jpg"
-                searchIcon="/content/dam/hitech/common-images/icons/search.svg"
-                themeIcon="/content/dam/hitech/asset.jpg">
+                profileIcon="/content/dam/aemg-docs/hitech/asset.jpg"
+                searchIcon="/content/dam/aemg-docs/hitech/common-images/icons/search.svg"
+                themeIcon="/content/dam/aemg-docs/hitech/asset.jpg">
                 <search
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aemguides/components/search"
-                    searchIcon="/content/dam/hitech/common-images/icons/search.svg"
+                    sling:resourceType="guides-components/components/search"
+                    searchIcon="/content/dam/aemg-docs/hitech/common-images/icons/search.svg"
                     searchRoot="/content"/>
                 <ctaList jcr:primaryType="nt:unstructured">
                     <item0

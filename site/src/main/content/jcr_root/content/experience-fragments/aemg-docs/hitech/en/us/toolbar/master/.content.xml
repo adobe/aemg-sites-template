@@ -3,12 +3,12 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/guides/templates/hitech/settings/wcm/templates/hi-tech-component-config-xf-web-variation"
+        cq:template="/conf/aemg-docs/hitech/settings/wcm/templates/hi-tech-component-config-xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Toolbar Experience Fragment"
-        sling:resourceType="guides-components/components/guides-pages/hi-tech/hi-tech-guides-component-config-xfpage">
+        sling:resourceType="guides-components/components/guides-pages/hitech/hitech-guides-component-config-xfpage">
         <root
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/container"
@@ -26,8 +26,8 @@
                 embedCopyLinkComponent="true"
                 embedThemeSelector="true"
                 embedVersionSelector="true"
-                searchIcon="/content/dam/guides/templates/common-images/icons/search-icon.png"
-                mobNavIcon="/content/dam/guides/templates/common-images/icons/navigation-section.svg">
+                searchIcon="/content/dam/aemg-docs/hitech/common-images/icons/search-icon.png"
+                mobNavIcon="/content/dam/aemg-docs/hitech/common-images/icons/navigation-section.svg">
             <navigation
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/navigation"
@@ -36,56 +36,56 @@
                     filterSearchIcon="/content/dam/hitech/common-images/icons/search.svg"
                     arrowIcon="/content/dam/hitech/common-images/icons/ch-right-arrow.svg"
                     collapseIcon="/content/dam/hitech/common-images/icons/collapse-icon.png"
-                    navigationRoot="/content/guides/hitech"
+                    navigationRoot="/content/aemg-docs/hitech"
                     structureStart="4"/>
             <version-selector
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/version-selector"
-                    rootPagePath="/content/guides/hitech"
+                    rootPagePath="/content/aemg-docs/hitech"
                     skipLevels="3"/>
             <social-share
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/social-share"
-                    shareIconPath="/content/dam/guides/templates/common-images/icons/share.svg"
+                    shareIconPath="/content/dam/aemg-docs/hitech/common-images/icons/share.svg"
                     social="[linkedin,twitter,facebook,email]"/>
             <language-navigation
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/languagenavigation"
-                    languageNavIcon="/content/dam/guides/templates/common-images/icons/language.svg"
-                    navigationRoot="/content/guides/hitech"
+                    languageNavIcon="/content/dam/aemg-docs/hitech/common-images/icons/language.svg"
+                    navigationRoot="/content/aemg-docs/hitech"
                     structureDepth="2"/>
             <pdf-export
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/pdf-export"
-                    downloadIconPath="/content/dam/guides/templates/common-images/icons/pdf.svg"
+                    downloadIconPath="/content/dam/aemg-docs/hitech/common-images/icons/pdf.svg"
                     pdfPath="/content/dam/fmdita-outputs/pdfs/smart-security-latest.pdf"/>
             <copy-link-component
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/copy-link-component"
-                    copyLinkIcon="/content/dam/guides/templates/common-images/icons/link.svg"/>
+                    copyLinkIcon="/content/dam/aemg-docs/hitech/common-images/icons/link.svg"/>
             <theme-selector
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/theme-selector"
-                    darkTheme="/content/dam/guides/templates/common-images/icons/dark-theme.svg"
-                    lightTheme="/content/dam/guides/templates/common-images/icons/light-theme.svg"/>
+                    darkTheme="/content/dam/aemg-docs/hitech/common-images/icons/dark-theme.svg"
+                    lightTheme="/content/dam/aemg-docs/hitech/common-images/icons/light-theme.svg"/>
             <accessibility
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/accessibility"
-                    textSizeIcon="/content/dam/guides/templates/common-images/icons/text-size.svg"
-                    textSpaceIcon="/content/dam/guides/templates/common-images/icons/letter-spacing.svg"
-                    highContrastIcon="/content/dam/guides/templates/common-images/icons/high.svg"
-                    lowContrastIcon="/content/dam/guides/templates/common-images/icons/low.svg"
-                    resetIcon="/content/dam/guides/templates/common-images/icons/reset-btn.svg"
-                    accessibilityIcon="/content/dam/guides/templates/common-images/icons/accessibility.svg"/>
+                    textSizeIcon="/content/dam/aemg-docs/hitech/common-images/icons/text-size.svg"
+                    textSpaceIcon="/content/dam/aemg-docs/hitech/common-images/icons/letter-spacing.svg"
+                    highContrastIcon="/content/dam/aemg-docs/hitech/common-images/icons/high.svg"
+                    lowContrastIcon="/content/dam/aemg-docs/hitech/common-images/icons/low.svg"
+                    resetIcon="/content/dam/aemg-docs/hitech/common-images/icons/reset-btn.svg"
+                    accessibilityIcon="/content/dam/aemg-docs/hitech/common-images/icons/accessibility.svg"/>
             <feedback-component
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/feedback-component"
-                    dislikeIcon="/content/dam/guides/templates/common-images/icons/thumbs-down-grey.svg"
-                    likeIcon="/content/dam/guides/templates/common-images/icons/thumbs-up-grey.svg"/>
+                    dislikeIcon="/content/dam/aemg-docs/hitech/common-images/icons/thumbs-down-grey.svg"
+                    likeIcon="/content/dam/aemg-docs/hitech/common-images/icons/thumbs-up-grey.svg"/>
             <backToTop
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/guides-components/back-to-top-button"
-                    buttonIcon="/content/dam/guides/templates/common-images/icons/backtotop.svg"/>
+                    buttonIcon="/content/dam/aemg-docs/hitech/common-images/icons/backtotop.svg"/>
         </toolbar>
     </jcr:content>
 </jcr:root>

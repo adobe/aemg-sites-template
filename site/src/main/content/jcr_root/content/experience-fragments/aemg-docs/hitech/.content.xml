@@ -1,10 +1,10 @@
 
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     cq:allowedTemplates="/conf/guides/templates/settings/wcm/templates/.*-xf-web-variation"
-    cq:conf="/conf/guides/templates/hitech"
+    cq:conf="/conf/aemg-docs/hitech"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="AEM Guides Hitech experience fragments"
-    sling:configRef="/conf/guides/templates/hitech">
+    sling:configRef="/conf/aemg-docs/hitech">
     <en/>
     <jcr:content/>
 </jcr:root>
