@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:templateType="/conf/aemg-docs/settings/wcm/template-types/hi-tech-guides-topic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Guides Product Page Template"
+        status="enabled"/>
+</jcr:root>
