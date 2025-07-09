@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4fa3b584-2c85-4fdf-8b0f-e87801072faa">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="01c5bc1b-999c-49b6-b1a6-263b29180329"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:24.576Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-02-13T14:06:45.807+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        dxmlSkipVersionCreation="{Boolean}true"
+        fmPostProcessedAt="2025-02-13T14:06:37.878+05:30|4fa3b584-2c85-4fdf-8b0f-e87801072faa|2025-02-13T14:06:37.523+05:30|14|0"
+        fmUuid="GUID-7b252a45-3f58-4646-af30-749f37939d2f">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for tpl files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-02-13T14:06:42.942+05:30"
+            dam:sha1="6e74164ad0ab4e51b0ca4cd4a46dad92a27cd1a3"
+            dam:size="{Long}5199"
+            dc:format="application/vnd.groove-tool-template"
+            dc:modified="{Date}2024-11-24T18:25:02.845+05:30"
+            jcr:lastModified="{Date}2024-11-24T18:25:02.906+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

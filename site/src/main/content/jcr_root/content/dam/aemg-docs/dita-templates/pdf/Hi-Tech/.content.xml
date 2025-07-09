@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Hi-Tech"
+        description="Hi-Tech is an advanced template. It has front and back covers with images and complex formatting. All page layouts are separately defined, including a blank page template. Chapters, Tables, and Figures are auto-numbered. The first, left, and right chapter pages have different layouts, with chapter TOC on the first page. A continuation marker is there if any table splits across pages. Headers and footers have advanced formatting. The page header has the chapter title, and the footer has the page number and company name."
+        title="Hi-Tech">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

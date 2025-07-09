@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e97c03e9-51de-4521-b657-7cdef3b2c163">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="231c34d6-9830-43cb-b2c8-749353f3b051"
+        dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png,cqdam.text.txt,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2022-06-06T16:55:17.348Z"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-02-13T14:06:33.692+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlCreateVersion="{Boolean}true"
+        dxmlLastCreatedVersion="1.0"
+        dxmlSkipVersionCreation="{Boolean}true"
+        fmPostProcessedAt="2025-02-13T14:06:22.030+05:30|e97c03e9-51de-4521-b657-7cdef3b2c163|2025-02-13T14:06:21.931+05:30|14|0"
+        fmUuid="GUID-766afe03-b1b1-40c8-93ac-4d7ff769e026">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.zoom.2048.2048.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for bin files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2025-02-13T14:06:29.702+05:30"
+            dam:sha1="bbe64379f999c7dc868dbcdec05276da08d18e22"
+            dam:size="{Long}1906"
+            dc:format="application/octet-stream"
+            dc:modified="{Date}2024-11-24T18:25:03.611+05:30"
+            jcr:lastModified="{Date}2024-11-24T18:25:05.644+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
