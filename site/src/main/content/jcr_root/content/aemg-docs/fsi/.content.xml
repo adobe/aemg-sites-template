@@ -10,7 +10,7 @@
         sling:resourceType="aemguides/components/guides-pages/base/guides-site-page"
         footerXFPath="/content/experience-fragments/fsi/en/us/footer/master"
         headerXFPath="/content/experience-fragments/fsi/en/us/header/master"
-        toolbarXFPath="/content/experience-fragments/fsi/en/us/toolbar-experience-fragment/master">
+        toolbarXFPath="/content/experience-fragments/fsi/en/us/toolbar/master">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="aemguides/components/container"

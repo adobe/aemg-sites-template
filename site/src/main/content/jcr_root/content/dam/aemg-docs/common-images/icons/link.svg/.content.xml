@@ -6,7 +6,7 @@
     jcr:uuid="893259fb-d4b4-433a-b6e0-2401e9891765">
     <jcr:content
         cq:name="link.svg"
-        cq:parentPath="/content/dam/aemguides/common-images/icons"
+        cq:parentPath="/content/dam/aemg-docs/common-images/icons"
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-02-11T22:59:11.777+05:30"
         jcr:lastModifiedBy="admin"

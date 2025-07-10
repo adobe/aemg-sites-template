@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/conf/fsi/settings/wcm/templates/(?!xf-).*]"
-        cq:template="/conf/fsi/settings/wcm/templates/guides-site-root-template"
+        cq:template="/conf/fsi/settings/wcm/templates/guides-site-landing"
         jcr:description="Comprehensive guides ensuring seamless integration, optimal performance, and efficient troubleshooting of advanced technologies"
         jcr:primaryType="cq:PageContent"
         jcr:title="en_us"

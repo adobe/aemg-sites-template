@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/conf/aemg-docs/settings/wcm/templates/(?!xf-).*]"
-        cq:template="/conf/aemg-docs/settings/wcm/templates/guides-site-root-template"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/guides-site-landing"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
         jcr:uuid="50863988-5b3c-4d9c-9961-d0b76d31a83e"

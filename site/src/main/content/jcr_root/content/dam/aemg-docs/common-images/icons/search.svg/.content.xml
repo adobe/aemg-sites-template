@@ -13,7 +13,7 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:name="search.svg"
-        cq:parentPath="/content/dam/aemguides/common-images/icons"
+        cq:parentPath="/content/dam/aemg-docs/common-images/icons"
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-02-11T23:02:30.389+05:30"
         jcr:lastModifiedBy="admin"

@@ -10,7 +10,7 @@
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction_publish="Activate"
         cq:name="searchheader.svg"
-        cq:parentPath="/content/dam/manufacturing/common-images/icons"
+        cq:parentPath="/content/dam/aemg-docs/common-images/icons"
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-02-28T09:51:37.491+05:30"
         jcr:lastModifiedBy="admin"

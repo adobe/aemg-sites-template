@@ -12,8 +12,8 @@
             <breadcrumb
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/breadcrumb2"
-                    arrowIcon="/content/dam/aemg-docs/hitech/common-images/icons/right-arrow-gray.svg"
-                    homeIcon="/content/dam/aemg-docs/hitech/common-images/icons/home.svg"
+                    arrowIcon="/content/dam/aemg-docs/common-images/icons/right-arrow-gray.svg"
+                    homeIcon="/content/dam/aemg-docs/common-images/icons/home.svg"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -35,8 +35,8 @@
                     <pre_next_component
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/pre-next"
-                            nextIcon="/content/dam/aemg-docs/hitech/common-images/icons/next.svg"
-                            previousIcon="/content/dam/aemg-docs/hitech/common-images/icons/previous.svg"
+                            nextIcon="/content/dam/aemg-docs/common-images/icons/next.svg"
+                            previousIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
                             nextLabel="Next Topic"
                             previousLabel="Previous Topic"/>
                 </gu22>
