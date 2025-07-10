@@ -32,7 +32,7 @@
                     jcr:lastModified="{Date}2025-02-17T07:13:51.228-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/search"
+                    sling:resourceType="guides-components/components/search2"
                     searchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
                     searchRoot="/content/output/sites/smart-security/v1/en_us/smart-security-ditamap"/>
                 <ctaList jcr:primaryType="nt:unstructured">

@@ -27,7 +27,7 @@
                 themeIcon="/content/dam/aemg-docs/asset.jpg">
                 <search
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/search"
+                    sling:resourceType="guides-components/components/search2"
                     searchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
                     searchRoot="/content"/>
                 <ctaList jcr:primaryType="nt:unstructured">
