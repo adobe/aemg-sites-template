@@ -4,7 +4,8 @@
     <jcr:content
         cq:conf="/conf/aemg-docs/hitech"
         jcr:primaryType="nt:unstructured"
-        jcr:title="AEM Guides">
+        jcr:title="hitech"
+		jcr:description="AEM Guides hitech template assets">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>

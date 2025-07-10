@@ -4,7 +4,8 @@
     <jcr:content
         cq:conf="/conf/aemg-docs"
         jcr:primaryType="nt:unstructured"
-        jcr:title="AEM Guides">
+        jcr:title="fsi"
+		jcr:description="AEM Guides fsi template assets">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>

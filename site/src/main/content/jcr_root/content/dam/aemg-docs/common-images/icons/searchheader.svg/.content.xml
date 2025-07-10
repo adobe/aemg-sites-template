@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="91b9ae02-87c9-4d63-8dd1-188345b49838">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated_publish="{Date}2025-05-19T09:35:47.112-04:00"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="searchheader.svg"
+        cq:parentPath="/content/dam/manufacturing/common-images/icons"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-02-28T09:51:37.491+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2025-02-28T09:51:35.421+05:30|91b9ae02-87c9-4d63-8dd1-188345b49838|2025-02-28T09:51:35.420+05:30|14|0"
+        fmUuid="GUID-f1c3d65e-e95e-42d4-9afa-4c18e3844c00">
+        <metadata
+            dam:extracted="{Date}2025-02-28T09:51:35.877+05:30"
+            dam:sha1="5b9af346d7748ebad21c66906051afcf72e76fa5"
+            dam:size="{Long}1343"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
