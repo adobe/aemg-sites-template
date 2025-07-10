@@ -16,14 +16,14 @@
                 fragmentVariationPath="/content/experience-fragments/hitech/en/us/header/master"/>
             <banner_component
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/banner-component"
+                    sling:resourceType="guides-components/components/banner"
                     ctaLabel="Get Started"
                     ctaLink="#"
                     description="Comprehensive guides ensuring seamless integration, optimal performance, and efficient troubleshooting of advanced technologies"
                     title="Product Documentation"/>
             <toc_component
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/toc-component"/>
+                    sling:resourceType="guides-components/components/toc"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/container"

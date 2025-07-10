@@ -19,7 +19,7 @@
                     jcr:lastModified="{Date}2024-12-19T23:22:35.251+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/breadcrumb"
+                    sling:resourceType="guides-components/components/breadcrumb2"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -37,7 +37,7 @@
                         jcr:lastModified="{Date}2025-01-02T10:04:21.879+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/guides-components/toc-component"/>
+                        sling:resourceType="guides-components/components/toc"/>
             </container>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

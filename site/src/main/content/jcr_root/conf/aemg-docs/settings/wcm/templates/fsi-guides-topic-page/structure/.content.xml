@@ -17,7 +17,7 @@
                     jcr:lastModified="{Date}2024-12-19T23:22:35.251+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/breadcrumb"
+                    sling:resourceType="guides-components/components/breadcrumb2"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -29,14 +29,14 @@
                     layout="responsiveGrid"/>
             <custom_container
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/custom-container"
+                    sling:resourceType="guides-components/components/custom-container"
                     colLayout="threeColumn">
                 <gu1
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/parsys">
                     <related_tags
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/guides-components/related-tags"
+                            sling:resourceType="guides-components/components/related-tags"
                             headline="Related Tags"/>
                 </gu1>
                 <gu2
@@ -44,7 +44,7 @@
                         sling:resourceType="wcm/foundation/components/parsys">
                     <topic_renderer
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/guides-components/topic-renderer"/>
+                            sling:resourceType="guides-components/components/topic-renderer"/>
                     <container
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/container"
@@ -57,7 +57,7 @@
                                 sling:resourceType="guides-components/components/guides-components/feedback-component"/>
                         <pre_next_component
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/guides-components/pre-next-component"
+                                sling:resourceType="guides-components/components/pre-next"
                                 nextLabel="Next Topic"
                                 previousLabel="Previous Topic"/>
                     </container>

@@ -11,7 +11,7 @@
                 layout="responsiveGrid">
             <breadcrumb
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/breadcrumb"
+                    sling:resourceType="guides-components/components/breadcrumb2"
                     disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
@@ -23,7 +23,7 @@
                     layout="responsiveGrid"/>
             <custom_container
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/guides-components/custom-container"
+                    sling:resourceType="guides-components/components/custom-container"
                     colLayout="threeColumn">
                 <gu1
                         jcr:primaryType="nt:unstructured"
@@ -34,16 +34,16 @@
                         sling:resourceType="wcm/foundation/components/parsys">
                     <topic_renderer
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/guides-components/topic-renderer"/>
+                            sling:resourceType="guides-components/components/topic-renderer"/>
                     <pre_next_component
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/guides-components/pre-next-component"
+                            sling:resourceType="guides-components/components/pre-next"
                             nextLabel="Next Topic"
                             previousLabel="Previous Topic"/>
                     <feedback_component
                             jcr:primaryType="nt:unstructured"
                             title="Was this information helpful?"
-                            sling:resourceType="guides-components/components/guides-components/feedback-component"/>
+                            sling:resourceType="guides-components/components/feedback"/>
                 </gu2>
                 <gu3
                         jcr:primaryType="nt:unstructured"
@@ -56,7 +56,7 @@
                             stopLevel="h2"/>
                     <related_tags
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/guides-components/related-tags"
+                            sling:resourceType="guides-components/components/related-tags"
                             headline="Related Tags"/>
                 </gu3>
             </custom_container>

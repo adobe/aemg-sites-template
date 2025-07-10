@@ -5,10 +5,10 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:template="/conf/aemg-docs/settings/wcm/templates/fsi-component-config-xf-web-variation"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="aemguides/components/guides-pages/fsi/fsi-guides-component-config-xfpage">
+        sling:resourceType="guides-components/components/guides-pages/fsi/fsi-guides-component-config-xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemguides/components/container"
+            sling:resourceType="guides-components/components/container"
             editable="{Boolean}true"
             layout="responsiveGrid"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
