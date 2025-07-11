@@ -34,7 +34,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/search2"
                     searchIcon="/content/dam/aemg-docs/common-images/icons/searchheader.svg"
-                    searchRoot="/content/output/sites/smart-security/v1/en_us/smart-security-ditamap"/>
+                    searchRoot="/content/aemg-docs/manufacturing"/>
                 <ctaList jcr:primaryType="nt:unstructured">
                     <item0
                         jcr:primaryType="nt:unstructured"

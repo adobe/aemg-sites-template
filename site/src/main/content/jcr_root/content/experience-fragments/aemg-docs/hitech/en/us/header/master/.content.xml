@@ -29,7 +29,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/search2"
                     searchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
-                    searchRoot="/content"/>
+                    searchRoot="/content/aemg-docs/hitech"/>
                 <ctaList jcr:primaryType="nt:unstructured">
                     <item0
                         jcr:primaryType="nt:unstructured"
