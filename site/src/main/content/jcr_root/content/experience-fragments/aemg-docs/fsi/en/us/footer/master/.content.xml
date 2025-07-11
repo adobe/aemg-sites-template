@@ -31,7 +31,7 @@
                 companyLinksTitle="Company"
                 contactLinksTitle="Support"
                 darkLogo="/content/dam/aemg-docs/common-images/icons/Logo-dark-theme.svg"
-                lightLogo="/content/dam/common-images/icons/Logo.svg"
+                lightLogo="/content/dam/aemg-docs/common-images/icons/Logo.svg"
                 logo="/content/dam/aemg-docs/common-images/icons/Logo.svg"
                 logoLink="#"
                 pageLinksTitle="Quick Links"

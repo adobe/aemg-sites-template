@@ -33,9 +33,9 @@
                     sling:resourceType="guides-components/components/navigation2"
                     collectAllPages="true"
                     disableShadowing="false"
-                    filterSearchIcon="/content/dam/common-images/icons/search.svg"
-                    arrowIcon="/content/dam/common-images/icons/ch-right-arrow.svg"
-                    collapseIcon="/content/dam/common-images/icons/collapse-icon.png"
+                    filterSearchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
+                    arrowIcon="/content/dam/aemg-docs/common-images/icons/ch-right-arrow.svg"
+                    collapseIcon="/content/dam/aemg-docs/common-images/icons/collapse-icon.png"
                     navigationRoot="/content/aemg-docs/hitech"
                     structureStart="4"/>
             <version-selector
