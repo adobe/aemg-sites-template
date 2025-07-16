@@ -61,8 +61,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/pdf-export"
                 downloadIconPath="/content/dam/aemg-docs/common-images/icons/manufacturing-export.svg"
-                pdfPath="/content/dam/fmdita-outputs/pdfs/smart-security-latest.pdf"/>
-            <copy-link-component
+                pdfPath=""/>
+            <copy-link
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/copy-link"
                 copyLinkIcon="/content/dam/aemg-docs/common-images/icons/manufacturing-copy.svg"/>
