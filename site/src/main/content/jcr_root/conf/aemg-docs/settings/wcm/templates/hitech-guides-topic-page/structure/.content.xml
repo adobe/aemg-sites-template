@@ -32,9 +32,9 @@
                     <topic_renderer
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/topic-renderer"/>
-                    <pre_next_component
+                    <prev_next_topic
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/pre-next"
+                            sling:resourceType="guides-components/components/prev-next-topic"
                             nextIcon="/content/dam/aemg-docs/common-images/icons/next.svg"
                             previousIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
                             nextLabel="Next Topic"

@@ -49,15 +49,15 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/container"
                             layout="responsiveGrid">
-                        <feedback_component
+                        <feedback
                                 jcr:primaryType="nt:unstructured"
                                 title="Did you find what you needed?"
                                 dislikeIcon="/content/dam/aemg-docs/common-images/icons/thumbs-down-grey.svg"
                                 likeIcon="/content/dam/aemg-docs/common-images/icons/thumbs-up-grey.svg"
-                                sling:resourceType="guides-components/components/guides-components/feedback-component"/>
-                        <pre_next_component
+                                sling:resourceType="guides-components/components/guides-components/feedback"/>
+                        <prev_next_topic
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/pre-next"
+                                sling:resourceType="guides-components/components/prev-next-topic"
                                 nextLabel="Next Topic"
                                 previousLabel="Previous Topic"/>
                     </container>
