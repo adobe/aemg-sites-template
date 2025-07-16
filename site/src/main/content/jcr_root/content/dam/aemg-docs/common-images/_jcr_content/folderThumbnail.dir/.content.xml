@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        dam:folderThumbnailPaths="[/content/dam/aemg-docs/common-images/icons/language-selector.svg,/content/dam/aemguides/common-images/icons/email.svg,/content/dam/aemguides/common-images/icons/linkedin0.svg]"
+        dam:folderThumbnailPaths="[/content/dam/aemg-docs/common-images/icons/language-selector.svg,/content/dam/aemg-docs/common-images/icons/email.svg,/content/dam/aemg-docs/common-images/icons/linkedin0.svg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"
