@@ -37,18 +37,18 @@
                 filterSearchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
                 arrowIcon="/content/dam/aemg-docs/common-images/icons/ch-right-arrow.svg"
                 collapseIcon="/content/dam/aemg-docs/common-images/icons/collapse-icon.png"
-                navigationRoot="/content/aemg-docs"
+                navigationRoot="/content/aemg-docs/fsi"
                 structureStart="4"/>
             <version-selector
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/version-selector"
-                rootPagePath="/content/aemg-docs"
+                rootPagePath="/content/aemg-docs/fsi"
                 skipLevels="3"/>
             <language-navigation
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/languagenavigation2"
                 languageNavIcon="/content/dam/aemg-docs/common-images/icons/language.svg"
-                navigationRoot="/content/aemg-docs"
+                navigationRoot="/content/aemg-docs/fsi"
                 structureDepth="2"/>
             <social-share
                 jcr:primaryType="nt:unstructured"
