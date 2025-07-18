@@ -26,8 +26,14 @@
             embedPdfExport="true"
             embedSocialShare="true"
             embedThemeSelector="true"
+			homeIcon="/content/dam/aemg-docs/common-images/icons/home.svg"
             searchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
             mobNavIcon="/content/dam/aemg-docs/common-images/icons/navigation-section.svg"
+            tocIcon="/content/dam/aemg-docs/common-images/icons/toc.svg"
+            latButtonIcon="/content/dam/aemg-docs/common-images/icons/Kebab.svg"
+			latCloseIcon="/content/dam/aemg-docs/common-images/icons/cross.svg"
+			accessibilityIcon="/content/dam/aemg-docs/common-images/icons/accessibility.svg"
+			languageIcon="/content/dam/aemg-docs/common-images/icons/language.svg"           
             embedVersionSelector="true">
             <navigation
                 jcr:primaryType="nt:unstructured"

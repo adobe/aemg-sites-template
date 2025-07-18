@@ -26,10 +26,14 @@
             embedPdfExport="true"
             embedSocialShare="true"
             embedThemeSelector="true"
+			homeIcon="/content/dam/aemg-docs/common-images/icons/home.svg"
             searchIcon="/content/dam/aemg-docs/common-images/icons/search.svg"
             mobNavIcon="/content/dam/aemg-docs/common-images/icons/manufacturinng-navigation-icon.svg"
             tocIcon="/content/dam/aemg-docs/common-images/icons/manufacturinng-toc-icon.svg"
-            latButton="/content/dam/aemg-docs/common-images/icons/manufacturing-kebab.svg"
+            latButtonIcon="/content/dam/aemg-docs/common-images/icons/manufacturing-kebab.svg"
+			latCloseIcon="/content/dam/aemg-docs/common-images/icons/cross.svg"
+			accessibilityIcon="/content/dam/aemg-docs/common-images/icons/accessibility.svg"
+			languageIcon="/content/dam/aemg-docs/common-images/icons/language.svg"
             embedVersionSelector="true">
             <navigation
                 jcr:primaryType="nt:unstructured"

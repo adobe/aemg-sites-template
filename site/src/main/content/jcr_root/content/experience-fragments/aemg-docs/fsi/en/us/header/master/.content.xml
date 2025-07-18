@@ -16,7 +16,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="guides-components/components/container"
             layout="responsiveGrid">
-            <header_copy_copy_cop
+            <header
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/header"
                 darkLogo="/content/dam/aemg-docs/common-images/icons/Logo-dark-theme.svg"

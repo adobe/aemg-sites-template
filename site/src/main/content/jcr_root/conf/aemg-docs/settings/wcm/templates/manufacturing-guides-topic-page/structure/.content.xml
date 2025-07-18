@@ -12,7 +12,9 @@
             <breadcrumb
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/breadcrumb2"
-                    disableShadowing="false"
+                    arrowIcon="/content/dam/aemg-docs/common-images/icons/right-arrow-gray.svg"
+                    homeIcon="/content/dam/aemg-docs/common-images/icons/home.svg"
+					disableShadowing="false"
                     hideCurrent="false"
                     showHidden="false"
                     startLevel="5"/>
