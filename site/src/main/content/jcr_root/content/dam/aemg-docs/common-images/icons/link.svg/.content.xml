@@ -7,16 +7,12 @@
     <jcr:content
         cq:name="link.svg"
         cq:parentPath="/content/dam/aemg-docs/common-images/icons"
-        dam:assetState="processed"
+        dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-11T22:59:11.777+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.2"
-        fmPostProcessedAt="2025-02-11T22:59:10.439+05:30|21d75141-0d93-4344-9827-2bb54233e062|2025-02-11T17:26:42.143+05:30|14|0"
-        fmUuid="GUID-57953a31-890b-4308-ad8d-1d9c2a0ec9e7">
         <metadata
-            dam:extracted="{Date}2025-02-11T22:59:10.658+05:30"
-            dam:sha1="f22bdfac4f88ef8110dc6d731d49a531fefd086c"
             dam:size="{Long}2315"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"
