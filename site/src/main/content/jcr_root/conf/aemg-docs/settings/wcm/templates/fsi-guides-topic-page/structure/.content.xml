@@ -56,11 +56,13 @@
                                 title="Did you find what you needed?"
                                 dislikeIcon="/content/dam/aemg-docs/common-images/icons/thumbs-down-grey.svg"
                                 likeIcon="/content/dam/aemg-docs/common-images/icons/thumbs-up-grey.svg"
-                                sling:resourceType="guides-components/components/guides-components/feedback"/>
+                                sling:resourceType="guides-components/components/feedback"/>
                         <prev_next_topic
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/prev-next-topic"
-                                nextLabel="Next Topic"
+                                nextIcon="/content/dam/aemg-docs/common-images/icons/next.svg"
+								previousIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
+								nextLabel="Next Topic"
                                 previousLabel="Previous Topic"/>
                     </container>
                 </gu2>

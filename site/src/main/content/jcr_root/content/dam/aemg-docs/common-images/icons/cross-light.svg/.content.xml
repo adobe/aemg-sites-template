@@ -9,12 +9,8 @@
         jcr:lastModified="{Date}2025-04-04T22:48:23.100-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-04-04T22:48:22.777-04:00|61eb6964-1b2c-4c77-946f-ed87d2652c23|2025-04-04T22:48:22.777-04:00|14|0"
-        fmUuid="GUID-c5849546-a487-4bc8-afa7-651cc73aa6f5">
+        dxmlLastCreatedVersion="1.0">
         <metadata
-            dam:extracted="{Date}2025-04-04T22:48:22.848-04:00"
-            dam:sha1="5ec304c3624de78f57c753c61b74a6921a1bc514"
             dam:size="{Long}1411"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"

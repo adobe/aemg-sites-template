@@ -14,17 +14,13 @@
         cq:lastReplicationAction_publish="Activate"
         cq:name="search.svg"
         cq:parentPath="/content/dam/aemg-docs/common-images/icons"
-        dam:assetState="processed"
+        dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-11T23:02:30.389+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-02-11T23:02:29.067+05:30|35305046-7ab5-405b-b66f-3e64b377a8fc|2025-02-08T15:25:14.393+05:30|14|0"
-        fmUuid="GUID-d0b03343-60b4-4e7e-b898-a8e898cdd318">
+        dxmlLastCreatedVersion="1.0">
         <metadata
-            dam:extracted="{Date}2025-02-11T23:02:29.628+05:30"
-            dam:sha1="20ad57eaf989b2791fe8dc35611fef31a3f0f6de"
             dam:size="{Long}1318"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"

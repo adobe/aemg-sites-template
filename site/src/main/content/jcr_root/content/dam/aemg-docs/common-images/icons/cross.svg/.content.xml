@@ -12,17 +12,13 @@
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        dam:assetState="processed"
+        dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-11T22:57:13.158+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-02-11T22:57:11.293+05:30|fe81d0e6-1e4a-425e-bc1a-3abb70e27e7d|2025-02-11T22:57:11.290+05:30|14|0"
-        fmUuid="GUID-480f885e-4d37-46e7-be8c-646f2f726602">
+        dxmlLastCreatedVersion="1.0">
         <metadata
-            dam:extracted="{Date}2025-02-11T22:57:11.767+05:30"
-            dam:sha1="d669bc382eea5ed00b659581d2ef089771119f31"
             dam:size="{Long}1389"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"

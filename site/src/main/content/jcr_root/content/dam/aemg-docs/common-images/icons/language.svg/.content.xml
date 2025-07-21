@@ -9,17 +9,13 @@
         cq:lastReplicated_publish="{Date}2025-03-06T05:08:42.871-05:00"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction_publish="Activate"
-        dam:assetState="processed"
+        dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-11T22:58:53.784+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-02-11T22:58:52.138+05:30|6e004868-9ace-446a-a007-7271f8910b57|2025-02-11T22:58:52.132+05:30|14|0"
-        fmUuid="GUID-6cfa9ae5-8d5d-468e-b1ae-6e232fd66cc1">
+        dxmlLastCreatedVersion="1.0">
         <metadata
-            dam:extracted="{Date}2025-02-11T22:58:52.474+05:30"
-            dam:sha1="5ef960eb49e4a034c8fcb241b6c082ec41ce0d3c"
             dam:size="{Long}1487"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"

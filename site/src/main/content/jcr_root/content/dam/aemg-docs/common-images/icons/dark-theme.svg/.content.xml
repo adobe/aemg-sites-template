@@ -5,16 +5,12 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="53036828-651b-4bf4-b421-7fef3f602f65">
     <jcr:content
-        dam:assetState="processed"
+        dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-28T16:50:54.496+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-02-28T16:50:54.019+05:30|53036828-651b-4bf4-b421-7fef3f602f65|2025-02-28T16:50:54.011+05:30|14|0"
-        fmUuid="GUID-ab4594a1-a918-4983-a113-6f6bdffecf5f">
+        dxmlLastCreatedVersion="1.0">
         <metadata
-            dam:extracted="{Date}2025-02-28T16:50:54.136+05:30"
-            dam:sha1="88c2fb4bd19aca7cb4ca662b0a0ffea3d8677dc0"
             dam:size="{Long}1576"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"
