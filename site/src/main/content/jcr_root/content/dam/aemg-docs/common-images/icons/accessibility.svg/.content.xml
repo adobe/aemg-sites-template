@@ -14,7 +14,7 @@
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
+        dxmlLastCreatedVersion="1.0">
         <metadata
             dam:size="{Long}3253"
             dc:format="image/svg+xml"

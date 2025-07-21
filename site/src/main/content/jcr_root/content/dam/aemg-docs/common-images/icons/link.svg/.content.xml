@@ -11,7 +11,7 @@
         jcr:lastModified="{Date}2025-02-11T22:59:11.777+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.2"
+        dxmlLastCreatedVersion="1.2">
         <metadata
             dam:size="{Long}2315"
             dc:format="image/svg+xml"
