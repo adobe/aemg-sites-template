@@ -57,7 +57,8 @@
                     <tableofcontents
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/tableofcontents"
-                            listType="bulleted"
+                            collapseIcon="/content/dam/aemg-docs/common-images/icons/collapse-icon.png"
+							listType="bulleted"
                             startLevel="h2"
                             stopLevel="h2"/>
                     <related_tags
