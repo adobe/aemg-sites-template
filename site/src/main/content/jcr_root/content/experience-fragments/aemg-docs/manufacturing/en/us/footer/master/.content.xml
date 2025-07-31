@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-04-01T03:35:30.321-04:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2025-03-12T06:11:22.439-04:00"
+        cq:lastReplicated_publish="{Date}2025-03-12T06:11:22.439-04:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/manufacturing-xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        jcr:uuid="4b29879f-2912-426e-b283-9c215d26f1d5"
+        sling:resourceType="guides-components/components/guides-pages/manufacturing/manufacturing-guides-xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="guides-components/components/container"
+            layout="responsiveGrid">
+            <footer_copy_copy_cop
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="guides-components/components/footer"
+                companyLinksTitle="Company"
+                contactLinksTitle="Support"
+                darkLogo="/content/dam/aemg-docs/common-images/icons/Logo-dark-theme.svg"
+                lightLogo="/content/dam/aemg-docs/common-images/icons/Logo.svg"
+                logo="/content/dam/aemg-docs/common-images/icons/Logo.svg"
+                logoLink="#"
+                pageLinksTitle="Quick Links"
+                socialLinksTitle="Social">
+                <socialList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/linkein dark.svg"
+                        ctaLink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/youtube dark.svg"
+                        ctaLink="#"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/facebook dark.svg"
+                        ctaLink="#"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/twitter dark.svg"
+                        ctaLink="#"/>
+                </socialList>
+                <contactList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/uil_phone-alt.svg"
+                        ctaLabel="1-800-622-9761"
+                        ctaLink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        ctaIcon="/content/dam/aemg-docs/common-images/icons/uil_envelope-alt.svg"
+                        ctaLabel="support@adobeguides.com"
+                        ctaLink="#"/>
+                </contactList>
+                <legalList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabel="Terms &amp; Conditions"
+                        ctaLink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabel="Privacy Policy"
+                        ctaLink="#"/>
+                </legalList>
+                <companyList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabel="Our Values"
+                        ctaLink="#"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabel="Careers"
+                        ctaLink="#"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabel="About Us"
+                        ctaLink="#"/>
+                </companyList>
+                <pagesList jcr:primaryType="nt:unstructured">
+                    <item0 jcr:primaryType="nt:unstructured">
+                        <pageList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Contact Us"
+                                ctaLink="#"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Customers"
+                                ctaLink="#"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Community"
+                                ctaLink="#"/>
+                        </pageList>
+                    </item0>
+                    <item1 jcr:primaryType="nt:unstructured">
+                        <pageList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Support"
+                                ctaLink="#"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Our Blog"
+                                ctaLink="#"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                ctaLabel="Partners"
+                                ctaLink="#"/>
+                        </pageList>
+                    </item1>
+                </pagesList>
+            </footer_copy_copy_cop>
+        </root>
+    </jcr:content>
+</jcr:root>

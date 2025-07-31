@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:policy="guides-components/components/page/policy"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="guides-components/components/container/policy_1574694950110"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <tableofcontents
+                    cq:policy="guides-components/components/tableofcontents/policy_1736307569736"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container
+                    cq:policy="guides-components/components/container/policy_1574695586800"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            <custom_container jcr:primaryType="nt:unstructured">
+                <gu1
+                        cq:policy="guides-components/components/container/policy_213685269277900"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                <gu2
+                        cq:policy="guides-components/components/container/policy_213685269277900"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping">
+                    <container
+                            cq:policy="guides-components/components/container/policy_213685269277900"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                </gu2>
+                <gu3
+                        cq:policy="guides-components/components/container/policy_213685269277900"
+                        sling:resourceType="wcm/core/components/policies/mapping"
+                        jcr:primaryType="nt:unstructured">
+                    <tableofcontents
+                            cq:policy="guides-components/components/tableofcontents/policy_1740104968094"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                </gu3>
+            </custom_container>
+        </root>
+    </jcr:content>
+</jcr:root>
