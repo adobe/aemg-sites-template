@@ -6,22 +6,22 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-.cmp-breadcrumb {
+#topic-page .cmp-breadcrumb {
   @apply relative w-full pl-12 overflow-hidden;
 }
 
 @screen sm {
-  .cmp-breadcrumb {
+  #topic-page .cmp-breadcrumb {
     @apply pl-0;
   }
 }
 
-.cmp-breadcrumb::after {
+#topic-page .cmp-breadcrumb::after {
   @apply absolute top-0 bottom-0 right-0 z-10 block w-6 h-full bg-gradient-to-r from-transparent to-white;
   content: "";
 }
 
-.cmp-breadcrumb__list {
+#topic-page .cmp-breadcrumb__list {
   @apply p-0 pr-8 m-0 overflow-x-scroll text-base whitespace-nowrap;
   @apply sm:whitespace-normal sm:overflow-x-auto sm:pr-0;
   padding: 16px 40px 8px 0px;
@@ -30,12 +30,12 @@ it.
   overflow-x: auto;
 }
 
-.cmp-breadcrumb__item {
+#topic-page .cmp-breadcrumb__item {
   @apply inline-block px-1 py-2;
   &:first-child {
     @apply pl-0;
   }
-   .cmp-breadcrumb__item-link {
+   #topic-page .cmp-breadcrumb__item-link {
      color: #001938;
      font-family: Roboto;
      font-size: 16px;
@@ -45,17 +45,17 @@ it.
    }
 }
 
-.cmp-breadcrumb__item--active {
+#topic-page .cmp-breadcrumb__item--active {
   font-weight: bold;
   color: #001938;
 }
 
-.cmp-breadcrumb__item-link {
+#topic-page .cmp-breadcrumb__item-link {
   @apply text-gray-600;
   @apply hover:text-gray-800;
 }
 
-.cmp-breadcrumb__item-link::after {
+#topic-page .cmp-breadcrumb__item-link::after {
   @apply relative inline-block w-4 h-4 font-bold text-gray-600;
   content: "";
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23001938"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>');
