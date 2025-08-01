@@ -6,7 +6,7 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-.searchresult {
+#topic-page .searchresult {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 1rem;
@@ -21,25 +21,25 @@ it.
     }
   }
 
-  .cmp-searchresult-title {
+  #topic-page .cmp-searchresult-title {
     @apply m-0 text-lg;
   }
 
-  .cmp-searchresult-description {
+  #topic-page .cmp-searchresult-description {
     @apply m-0;
   }
 
-  .cmp-searchresult-link {
+  #topic-page .cmp-searchresult-link {
     &::after {
       content: none;
     }
   }
 
-  .cmp-searchresult-date {
+  #topic-page .cmp-searchresult-date {
     @apply hidden;
   }
 
-  .cmp-searchresult-item {
+  #topic-page .cmp-searchresult-item {
     @apply px-0 py-4;
     padding: 15px 0;
     a {
@@ -52,7 +52,7 @@ it.
     }
 }
 
-  .search__results--footer {
+  #topic-page .search__results--footer {
     grid-row: 2;
     grid-column: 2;
 
@@ -62,14 +62,14 @@ it.
   }
 }
 
-.cmp-sort__heading .sort-select select,
-.cmp-sort__heading .sort-options-select select{
+#topic-page .cmp-sort__heading .sort-select select,
+#topic-page .cmp-sort__heading .sort-options-select select{
   padding: 0px 12px 0px 12px;
 }
 
-.cmp-sort__heading span,
-.cmp-sort__heading .sort-select,
-.cmp-search__total-records {
+#topic-page .cmp-sort__heading span,
+#topic-page .cmp-sort__heading .sort-select,
+#topic-page .cmp-search__total-records {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -77,7 +77,7 @@ it.
   text-align: left;
 }
 
-.cmp-sort__heading {
+#topic-page .cmp-sort__heading {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -94,7 +94,7 @@ it.
   }
 }
 
-.search__field--results {
+#topic-page .search__field--results {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -168,11 +168,11 @@ it.
   #cmp-search-page-result {
     padding: 2rem;
   }
-  .cmp-sort__heading {
+  #topic-page .cmp-sort__heading {
     flex-direction: row;
     justify-content: flex-start;
   }
-  .searchresult {
+  #topic-page .searchresult {
     flex-direction: column;
   }
 }
