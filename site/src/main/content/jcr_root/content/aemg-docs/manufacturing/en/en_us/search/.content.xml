@@ -7,9 +7,9 @@
         jcr:title="Search"
         sling:resourceType="guides-components/components/guides-pages/hitech/hitech-guides-search-page"
         hideInNav="{Boolean}true"
-		searchRoot="/content/aemg-docs/manufacturing/en/en_us"
-		guessTotal="100"
-		resultsSize="100(Long)">
+        searchRoot="/content/aemg-docs/manufacturing/en/en_us"
+        guessTotal="100"
+        resultsSize="100(Long)">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="guides-components/components/container"
