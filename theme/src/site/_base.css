@@ -18,9 +18,9 @@ body {
   height: 100%;
 }
 
-button,
-select,
-a {
+#topic-page button,
+#topic-page select,
+#topic-page a {
   @apply focus:ring focus:ring-blue-400 focus:ring-opacity-75 focus:outline-none;
 }
 
