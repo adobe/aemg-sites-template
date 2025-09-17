@@ -198,6 +198,14 @@ select {
 .linkpool a {
   display: block;
 }
+.guides-base-topic-page .gu-breadcrumb_home-icon {
+  vertical-align: baseline;
+}
+
+.guides-base-topic-page .breadcrumb .gu-breadcrumb_arrow-icon {
+  display: inline-block;
+  vertical-align: baseline;
+}
 
 #topic-page > .aem-Grid{
   /* height: 100%; */
