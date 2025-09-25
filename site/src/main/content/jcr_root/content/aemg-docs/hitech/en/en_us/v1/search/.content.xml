@@ -6,7 +6,10 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Search"
         sling:resourceType="guides-components/components/guides-pages/hitech/hitech-guides-search-page"
-        hideInNav="{Boolean}true">
+        hideInNav="{Boolean}true"
+        searchRoot="/content/aemg-docs/hitech/en/en_us/v1"
+        guessTotal="100"
+        resultsSize="100(Long)">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="guides-components/components/container"

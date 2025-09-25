@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="768cc2d4-8221-49ad-a885-e51dc0c0f261">
     <jcr:content
-        dam:assetState="unprocessed"
-        jcr:lastModified="{Date}2025-04-04T22:48:10.082-04:00"
+        dam:assetState="processed"
+        guides:assetState="SUCCESS"
+        guides:lastProcessedAt="{Date}2025-09-14T18:00:21.050-04:00"
+        jcr:lastModified="{Date}2025-09-14T18:00:16.121-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0">
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2025-09-14T17:59:41.090-04:00|768cc2d4-8221-49ad-a885-e51dc0c0f261|2025-09-14T17:59:40.956-04:00|14|0"
+        fmUuid="GUID-02caaa6a-18d8-46e4-8f21-97be723d618d">
         <metadata
+            dam:extracted="{Date}2025-09-14T18:00:15.326-04:00"
+            dam:sha1="a5462edb41f10e81400bc26763eaf3f7d64c8314"
             dam:size="{Long}1576"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"

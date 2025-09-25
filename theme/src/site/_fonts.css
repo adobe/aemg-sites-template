@@ -117,4 +117,8 @@ it.
     font-weight: bold;
     font-style: normal;
   }
+
+}
+.hi-tech, .manufacturing-guides-topic-page, .fsi-guides-topic-page, .guides-product-page {
+  font-family: 'Inter', sans-serif !important;
 }

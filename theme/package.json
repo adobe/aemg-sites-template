@@ -1,6 +1,6 @@
 {
     "name": "aemg-docs-theme",
-    "version": "1.0.15",
+    "version": "1.0.24",
     "description": "Basic AEM site theme",
     "private": true,
     "main": "src/main.ts",
