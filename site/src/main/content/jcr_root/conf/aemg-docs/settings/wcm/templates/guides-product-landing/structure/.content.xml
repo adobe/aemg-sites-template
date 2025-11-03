@@ -26,7 +26,7 @@
                     sling:resourceType="guides-components/components/product-card"
                     rootPath="/content/output/sites/guides/en/en_us"
                     nextIcon="/content/dam/aemg-docs/common-images/icons/next.svg"
-                    previousIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
+                    prevIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
                     productIconPath="/content/dam/aemg-docs/common-images/icons/product-icon.svg"/>
             <container
                 jcr:primaryType="nt:unstructured"
