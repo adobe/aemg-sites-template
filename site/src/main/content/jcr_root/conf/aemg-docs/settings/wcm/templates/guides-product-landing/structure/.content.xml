@@ -20,7 +20,8 @@
                     ctaLabel="Get Started"
                     ctaLink="#"
                     description="Comprehensive guides ensuring seamless integration, optimal performance, and efficient troubleshooting of advanced technologies"
-                    title="Product Documentation"/>
+                    title="Product Documentation"
+                    bannerImage="/content/dam/aemg-docs/common-images/banner-cover.svg"/>
             <product_card
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/product-card"
