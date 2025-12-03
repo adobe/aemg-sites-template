@@ -12,10 +12,6 @@
                 sling:resourceType="guides-components/components/container"
                 layout="responsiveGrid">
             <breadcrumb
-                    jcr:created="{Date}2024-12-19T23:13:24.180+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2024-12-19T23:22:35.251+05:30"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/breadcrumb2"
 					arrowIcon="/content/dam/aemg-docs/common-images/icons/right-arrow-gray.svg"
@@ -24,11 +20,6 @@
                     hideCurrent="false"
                     showHidden="false"
                     startLevel="5"/>
-            <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="guides-components/components/container"
-                    editable="{Boolean}true"
-                    layout="responsiveGrid"/>
             <custom_container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/custom-container"
