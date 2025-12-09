@@ -9,9 +9,7 @@
         jcr:lastModified="{Date}2025-08-11T07:17:38.745Z"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-08-11T07:17:31.044Z|bab80454-35e8-4074-a883-b150979339fc|2025-08-11T07:17:31.033Z|14|0"
-        fmUuid="GUID-63c3b168-2e33-4c6c-8cd3-a0d9660c39b7">
+        dxmlLastCreatedVersion="1.0">
         <metadata
             dam:extracted="{Date}2025-08-11T07:17:38.425Z"
             dam:sha1="574649cf9ad1e349e120653bfbabe50a98a03cc6"

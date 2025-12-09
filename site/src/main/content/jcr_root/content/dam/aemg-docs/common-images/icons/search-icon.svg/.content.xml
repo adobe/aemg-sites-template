@@ -7,9 +7,7 @@
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-08-25T09:28:31.225Z"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        fmPostProcessedAt="2025-08-25T09:28:30.444Z|fbf952b9-9a33-40f8-872c-041f2edf878c|2025-08-25T09:28:30.444Z|14|0"
-        fmUuid="GUID-7ccf00a1-cef4-4280-8f3d-2e3257022166">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             dam:extracted="{Date}2025-08-25T09:28:30.794Z"
             dam:sha1="7fa809a758d9f55a58426310688397bc2979f8b2"
