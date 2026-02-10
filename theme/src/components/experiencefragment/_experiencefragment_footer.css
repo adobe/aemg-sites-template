@@ -6,88 +6,347 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
+
+/* =============================================
+   Footer Experience Fragment — Base
+   ============================================= */
 .cmp-experiencefragment--footer {
-    border-top: 1px solid #4B75FF;
-    font-size: .8rem;
     background-color: #ffffff !important;
-    color: #1532AD;
-    height: 12.875rem;
-    .root{
+    color: #2c2c2c;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+
+    .root {
         margin-bottom: 0 !important;
-    }
-    .root .button {
-        margin-left: 1rem;
-    }
-    #mainDiv {
-        border-right: 2px solid;
-        height: 8.5rem;
-        border-color: #22222240;
-    }
-    .xf-content-height .root .cmp-container {
-        height: 8.5rem;
-    }
-    .xf-content-height {
-        & > .root > .cmp-container {
-            height: 100%;
-        }
-    }
-    #mainDiv .button {
-        margin-left: 0rem !important;
-    }
-
-    .cmp-text__paragraph {
-        font-weight: 500;
-        font-size: 20px;
-    }
-    .button .cmp-button__text{
-        font-weight: 300;
-        font-size: 16px;
-    }
-    .container.responsivegrid {
-        @apply px-4 mx-auto;
-        max-width: 100%;
-
-        > .cmp-container > .aem-Grid {
-            @apply flex flex-col items-center gap-4 pt-4 pb-12;
-            @apply sm:grid sm:grid-cols-4;
-
-            @screen sm {
-                grid-template-columns: 4fr 4fr 4fr 4fr;
-            }
-
-            &::before,
-            &::after {
-                content: none;
-            }
-        }
     }
 
     .xf-content-height {
         @apply m-0;
-    }
-
-
-    .languagenavigation {
-        @apply flex items-center;
-    }
-
-    .text {
-        display: inline-flex;
-        ul{
-            display: flex;
-            text-decoration: none;
-            list-style: none;
-            li{
-                margin-right: 2rem;
-            }
+        & > .root > .cmp-container {
+            height: 100%;
         }
+    }
+
+    /* Remove default AEM grid clearfix pseudo-elements everywhere */
+    .aem-Grid::before,
+    .aem-Grid::after {
+        content: none;
+    }
+
+    .aem-GridColumn {
+        clear: none;
+        float: none;
     }
 }
 
+/* =============================================
+   ROW 1: Footer Links — 4 Column Grid
+   ============================================= */
+.cmp-experiencefragment--footer #footer-links {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmp-experiencefragment--footer #footer-links > .cmp-container > .aem-Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* Column headings */
+.cmp-experiencefragment--footer #footer-links .container > .cmp-container > .aem-Grid > .text:first-child .cmp-text p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+/* Sub-heading (e.g. "Adobe Account") */
+.cmp-experiencefragment--footer #footer-links #col-resources .text:not(:first-child) .cmp-text p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer link buttons — styled as plain text links */
+.cmp-experiencefragment--footer #footer-links .button {
+    margin: 0;
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 0.8125rem;
+    line-height: 2;
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button:hover {
+    text-decoration: underline;
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button__text {
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+/* =============================================
+   ROW 2: Featured Products
+   ============================================= */
+.cmp-experiencefragment--footer #footer-products {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cmp-experiencefragment--footer #footer-products > .cmp-container > .aem-Grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* "Featured products" label */
+.cmp-experiencefragment--footer #footer-products .text .cmp-text p {
+    font-weight: 700;
+    font-size: 0.8125rem;
+    color: #2c2c2c;
+    white-space: nowrap;
+    margin: 0;
+}
+
+/* Product buttons */
+.cmp-experiencefragment--footer #footer-products .button {
+    margin: 0;
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button::before {
+    content: "";
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #2c2c2c;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button:hover {
+    text-decoration: underline;
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button__text {
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+/* =============================================
+   ROW 3: Bottom Bar
+   ============================================= */
+.cmp-experiencefragment--footer #footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmp-experiencefragment--footer #footer-bottom > .cmp-container > .aem-Grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* --- Left side: Region + Social Icons --- */
+.cmp-experiencefragment--footer #footer-bottom-left {
+    flex-shrink: 0;
+    display: flex;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left > .cmp-container > .aem-Grid {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Globe icon before "Change region" text */
+.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.75rem;
+    color: #4b4b4b;
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234b4b4b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p::after {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 1.5px solid #4b4b4b;
+    border-bottom: 1.5px solid #4b4b4b;
+    transform: rotate(45deg);
+    margin-left: 0.125rem;
+    margin-bottom: 0.125rem;
+}
+
+/* Social icons */
+.cmp-experiencefragment--footer #footer-bottom-left .image {
+    flex-shrink: 0;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left .image .cmp-image__image {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+    display: block;
+}
+
+/* Add a small left-separator before social icons group */
+.cmp-experiencefragment--footer #footer-bottom-left .image:first-of-type {
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+    border-left: 1px solid #e0e0e0;
+}
+
+/* --- Right side: Copyright + Legal Links --- */
+.cmp-experiencefragment--footer #footer-bottom-right {
+    flex-shrink: 0;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right > .cmp-container > .aem-Grid {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p {
+    font-size: 0.6875rem;
+    color: #6e6e6e;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p a {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p a:hover {
+    text-decoration: underline;
+}
+
+/* AdChoices — with a small triangle icon */
+.cmp-experiencefragment--footer #footer-bottom-right .text:last-child .cmp-text p {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text:last-child .cmp-text p::before {
+    content: "";
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23508BC9' d='M8 0l8 16H0z'/%3E%3Cpath fill='%23fff' d='M7.3 6h1.4v5H7.3zM7.3 4h1.4v1.4H7.3z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* =============================================
+   RESPONSIVE: Tablet / Mobile (max-width: 768px)
+   ============================================= */
 @media (max-width: 768px) {
-    .cmp-experiencefragment--footer #mainDiv {
-        border-right: none;
-        border-bottom: 2px solid;
-        border-color: #22222240;
+    /* Row 1: Stack columns vertically */
+    .cmp-experiencefragment--footer #footer-links > .cmp-container > .aem-Grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
-  }
+
+    .cmp-experiencefragment--footer #footer-links {
+        padding: 2rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Row 2: Stack products vertically */
+    .cmp-experiencefragment--footer #footer-products > .cmp-container > .aem-Grid {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .cmp-experiencefragment--footer #footer-products {
+        padding: 1rem 1.5rem;
+    }
+
+    /* Row 3: Stack bottom bar vertically */
+    .cmp-experiencefragment--footer #footer-bottom > .cmp-container > .aem-Grid {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom {
+        padding: 1rem 1.5rem;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-left > .cmp-container > .aem-Grid {
+        flex-wrap: wrap;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-right > .cmp-container > .aem-Grid {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p {
+        white-space: normal;
+    }
+}
