@@ -75,6 +75,140 @@
                         id="refs-title-container"
                         layout="responsiveGrid">
                     </container>
+                    <getstarted_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="getstarted-section"
+                        layout="responsiveGrid">
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Get started with ColdFusion"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="getstarted-heading"
+                            type="h2"/>
+                        <tiles_container
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="getstarted-tiles"
+                            layout="responsiveGrid">
+                            <tile_tutorials
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-tutorials"
+                                layout="responsiveGrid">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="getstarted-icon-tutorials"
+                                    alt="Tutorials icon"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Tutorials"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-tutorials"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-tutorials"
+                                    text="&lt;p>Watch quick tutorials, video playlists, and how-to's created by experts&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-tutorials"
+                                    jcr:title="Explore tutorials"
+                                    link="/content/aemg-docs/en/docs"/>
+                            </tile_tutorials>
+                            <tile_documentation
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-documentation"
+                                layout="responsiveGrid">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="getstarted-icon-documentation"
+                                    alt="Documentation icon"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Documentation"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-documentation"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-documentation"
+                                    text="&lt;p>Access expert-made documentation, articles, and release notes&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-documentation"
+                                    jcr:title="Explore documentation"
+                                    link="/content/aemg-docs/en/docs"/>
+                            </tile_documentation>
+                            <tile_community
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-community"
+                                layout="responsiveGrid">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="getstarted-icon-community"
+                                    alt="Community icon"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Community"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-community"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-community"
+                                    text="&lt;p>Connect with others to troubleshoot and grow your knowledge&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-community"
+                                    jcr:title="Explore community"
+                                    link="/content/aemg-docs/en/docs"/>
+                            </tile_community>
+                            <tile_certifications
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-certifications"
+                                layout="responsiveGrid">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="getstarted-icon-certifications"
+                                    alt="Certifications icon"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Certifications"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-certifications"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-certifications"
+                                    text="&lt;p>Prove your expertise and prep for your next career move&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-certifications"
+                                    jcr:title="Explore certifications"
+                                    link="/content/aemg-docs/en/docs"/>
+                            </tile_certifications>
+                        </tiles_container>
+                    </getstarted_section>
                     <faq_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
