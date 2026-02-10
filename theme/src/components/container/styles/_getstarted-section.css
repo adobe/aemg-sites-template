@@ -1,0 +1,256 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+/* ===== Get Started with ColdFusion - Tiles Section ===== */
+
+/* Main container */
+#getstarted-section {
+  width: 100%;
+  padding: 0rem 3rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+#getstarted-section > .cmp-container,
+#getstarted-section > .aem-Grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 2rem;
+}
+
+/* ===== Heading ===== */
+#getstarted-heading,
+#getstarted-heading .cmp-title,
+#getstarted-heading .cmp-title__text,
+#getstarted-heading h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: #1a1a2e !important;
+  line-height: 1.3 !important;
+  text-align: center !important;
+}
+
+/* ===== Tiles Grid ===== */
+#getstarted-tiles {
+  width: 100%;
+}
+
+#getstarted-tiles > .cmp-container,
+#getstarted-tiles > .aem-Grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 1.25rem !important;
+  width: 100% !important;
+}
+
+#getstarted-tiles > .aem-Grid::before,
+#getstarted-tiles > .aem-Grid::after {
+  display: none !important;
+}
+
+/* ===== Individual Tile ===== */
+[id^="getstarted-tile-"] {
+  background-color: #1a1a2e;
+  border-radius: 0.75rem;
+  padding: 1.75rem 1.5rem;
+  box-sizing: border-box;
+  min-height: 220px;
+}
+
+[id^="getstarted-tile-"] > .cmp-container,
+[id^="getstarted-tile-"] > .aem-Grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.75rem !important;
+  height: 100% !important;
+}
+
+/* ===== Tile Icons ===== */
+[id^="getstarted-icon-"] {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+[id^="getstarted-icon-"] .cmp-image,
+[id^="getstarted-icon-"] .cmp-image__image {
+  width: 48px !important;
+  height: 48px !important;
+  object-fit: contain !important;
+  border-radius: 0.625rem !important;
+}
+
+/* Icon fallback using CSS background with inline SVGs */
+/* Each icon gets a rounded square background with the icon centered */
+
+#getstarted-icon-tutorials .cmp-image,
+#getstarted-icon-documentation .cmp-image,
+#getstarted-icon-community .cmp-image,
+#getstarted-icon-certifications .cmp-image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 0.625rem !important;
+  background-color: #2a2a40 !important;
+}
+
+/* When no image src is available, use ::before pseudo-element as icon */
+#getstarted-icon-tutorials .cmp-image::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='5 3 19 12 5 21 5 3'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#getstarted-icon-documentation .cmp-image::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a8c4e0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#getstarted-icon-community .cmp-image::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M23 21v-2a4 4 0 0 0-3-3.87'/%3E%3Cpath d='M16 3.13a4 4 0 0 1 0 7.75'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#getstarted-icon-certifications .cmp-image::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='8' r='7'/%3E%3Cpolyline points='8.21 13.89 7 23 12 20 17 23 15.79 13.88'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Hide the actual img tag when using CSS icons */
+[id^="getstarted-icon-"] .cmp-image__image {
+  display: none !important;
+}
+
+/* ===== Tile Titles ===== */
+[id^="getstarted-title-"],
+[id^="getstarted-title-"] .cmp-title,
+[id^="getstarted-title-"] .cmp-title__text,
+[id^="getstarted-title-"] h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1.0625rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  line-height: 1.4 !important;
+}
+
+/* ===== Tile Description Text ===== */
+[id^="getstarted-desc-"],
+[id^="getstarted-desc-"] .cmp-text,
+[id^="getstarted-desc-"] .cmp-text p,
+[id^="getstarted-desc-"] p {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #a1a1aa !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.6 !important;
+  flex-grow: 1;
+}
+
+/* ===== Tile CTA Buttons ===== */
+[id^="getstarted-btn-"] {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+[id^="getstarted-btn-"] .cmp-button,
+[id^="getstarted-btn-"] a,
+[id^="getstarted-btn-"] button {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.375rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid white !important;
+  text-align: center !important;
+  padding: 2px !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+[id^="getstarted-btn-"] .cmp-button:hover,
+[id^="getstarted-btn-"] a:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Arrow icon after button text */
+[id^="getstarted-btn-"] .cmp-button::after,
+[id^="getstarted-btn-"] a::after {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 18 15 12 9 6'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+/* ===== Responsive - Tablet (2x2 grid) ===== */
+@media (max-width: 1024px) {
+  #getstarted-tiles > .cmp-container,
+  #getstarted-tiles > .aem-Grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ===== Responsive - Mobile (single column) ===== */
+@media (max-width: 768px) {
+  #getstarted-section {
+    padding: 0rem 1.5rem;
+  }
+
+  #getstarted-heading,
+  #getstarted-heading .cmp-title,
+  #getstarted-heading .cmp-title__text,
+  #getstarted-heading h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #getstarted-tiles > .cmp-container,
+  #getstarted-tiles > .aem-Grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  [id^="getstarted-tile-"] {
+    min-height: auto;
+  }
+}
