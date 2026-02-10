@@ -1,0 +1,252 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+/* ===== Join the Conversation - Community Section ===== */
+
+/* Main container - dark background */
+#community-section {
+  width: 100%;
+  padding: 3.5rem 3rem;
+  background-color: #1a1a2e;
+  box-sizing: border-box;
+}
+
+#community-section > .cmp-container,
+#community-section > .aem-Grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 5rem;
+}
+
+/* Left content area with violet accent border */
+#community-left {
+  flex: 0 1 auto;
+  padding-left: 1.25rem;
+  border-left: 3px solid #8b5cf6;
+  box-sizing: border-box;
+}
+
+#community-left > .cmp-container,
+#community-left > .aem-Grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.875rem;
+}
+
+/* Title - "Join the Conversation" */
+#community-heading,
+#community-heading .cmp-title,
+#community-heading .cmp-title__text,
+#community-heading h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1.625rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  line-height: 1.3 !important;
+}
+
+/* Description text */
+#community-description,
+#community-description .cmp-text,
+#community-description .cmp-text p,
+#community-description p {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #a1a1aa !important;
+  font-size: 0.875rem !important;
+  line-height: 1.6 !important;
+  max-width: 340px;
+}
+
+/* Buttons container */
+#community-buttons {
+  margin-top: 0.5rem;
+}
+
+#community-buttons > .cmp-container,
+#community-buttons > .aem-Grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  align-items: center !important;
+}
+
+/* Visit community forum - white outline button */
+#btn-community-forum,
+#btn-community-forum .cmp-button,
+#btn-community-forum a,
+#btn-community-forum button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1.125rem !important;
+  font-size: 0.8125rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  border-radius: 9999px !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+#btn-community-forum:hover .cmp-button,
+#btn-community-forum .cmp-button:hover,
+#btn-community-forum a:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Contact support - dark charcoal filled button */
+#btn-contact-support,
+#btn-contact-support .cmp-button,
+#btn-contact-support a,
+#btn-contact-support button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1.125rem !important;
+  font-size: 0.8125rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  border-radius: 9999px !important;
+  background-color: #3f3f46 !important;
+  color: #ffffff !important;
+  border: 1px solid #3f3f46 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+#btn-contact-support:hover .cmp-button,
+#btn-contact-support .cmp-button:hover,
+#btn-contact-support a:hover {
+  background-color: #52525b !important;
+  border-color: #52525b !important;
+}
+
+/* ===== Right content - Popular topics ===== */
+#community-right {
+  flex: 0 0 auto;
+}
+
+#community-right > .cmp-container,
+#community-right > .aem-Grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.875rem;
+}
+
+/* Popular topics heading */
+#topics-heading,
+#topics-heading .cmp-title,
+#topics-heading .cmp-title__text,
+#topics-heading h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  color: #e4e4e7 !important;
+}
+
+/* Tags container */
+#topics-tags > .cmp-container,
+#topics-tags > .aem-Grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  max-width: 380px;
+}
+
+/* All topic tag buttons - white border pills */
+#tag-server-admin,
+#tag-server-admin .cmp-button,
+#tag-server-admin a,
+#tag-coldfusion-builder,
+#tag-coldfusion-builder .cmp-button,
+#tag-coldfusion-builder a,
+#tag-advanced-techniques,
+#tag-advanced-techniques .cmp-button,
+#tag-advanced-techniques a,
+#tag-security,
+#tag-security .cmp-button,
+#tag-security a,
+#tag-performance,
+#tag-performance .cmp-button,
+#tag-performance a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.375rem 0.875rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  border-radius: 9999px !important;
+  background-color: transparent !important;
+  color: #e4e4e7 !important;
+  border: 1px solid #a1a1aa !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+#tag-server-admin:hover .cmp-button,
+#tag-server-admin .cmp-button:hover,
+#tag-server-admin a:hover,
+#tag-coldfusion-builder:hover .cmp-button,
+#tag-coldfusion-builder .cmp-button:hover,
+#tag-coldfusion-builder a:hover,
+#tag-advanced-techniques:hover .cmp-button,
+#tag-advanced-techniques .cmp-button:hover,
+#tag-advanced-techniques a:hover,
+#tag-security:hover .cmp-button,
+#tag-security .cmp-button:hover,
+#tag-security a:hover,
+#tag-performance:hover .cmp-button,
+#tag-performance .cmp-button:hover,
+#tag-performance a:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  #community-section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  #community-section > .cmp-container,
+  #community-section > .aem-Grid {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+
+  #community-description .cmp-text,
+  #community-description .cmp-text p {
+    max-width: 100%;
+  }
+
+  #topics-tags > .cmp-container,
+  #topics-tags > .aem-Grid {
+    max-width: 100%;
+  }
+}

@@ -75,6 +75,91 @@
                         id="refs-title-container"
                         layout="responsiveGrid">
                     </container>
+                    <community_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="community-section"
+                        layout="responsiveGrid">
+                        <community_left
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-left">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Join the Conversation"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="community-heading"
+                                type="h2"/>
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="community-description"
+                                text="Connect with the Adobe ColdFusion community. Post questions and get answers from experts."/>
+                            <buttons_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="community-buttons">
+                                <button_forum
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Visit community forum"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-community-forum"
+                                    link="#"/>
+                                <button_support
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Contact support"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-contact-support"
+                                    link="#"/>
+                            </buttons_container>
+                        </community_left>
+                        <community_right
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-right">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Popular topics"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="topics-heading"
+                                type="h3"/>
+                            <tags_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="topics-tags">
+                                <tag_server
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Server Administration"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-server-admin"
+                                    link="#"/>
+                                <tag_builder
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="ColdFusion Builder"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-coldfusion-builder"
+                                    link="#"/>
+                                <tag_advanced
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Advanced Techniques"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-advanced-techniques"
+                                    link="#"/>
+                                <tag_security
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Security"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-security"
+                                    link="#"/>
+                                <tag_performance
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Performance"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-performance"
+                                    link="#"/>
+                            </tags_container>
+                        </community_right>
+                    </community_section>
                 </container>
             </container>
         </root>
