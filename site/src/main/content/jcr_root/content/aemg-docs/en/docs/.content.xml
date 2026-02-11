@@ -24,10 +24,41 @@
                     cq:styleIds="[text-center]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title"/>
+                
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
+                    <announcement
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    id="announcement-banner"
+                    text="&lt;p>&#x1f4e6; Learn what's new in ColdFusion (2025 release). &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
+                    textIsRich="true"/>
+                    <hero_banner
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="hero-banner">
+                            <brand_row
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="hero-brand-row">
+                                <brand_icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Adobe ColdFusion"
+                                    fileReference="/content/dam/aemg-docs/coldfusion-icon.png"/>
+                                <brand_text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="Adobe ColdFusion"/>
+                            </brand_row>
+                            <hero_title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                jcr:title="Learn &amp; Support"
+                                type="h1"/>
+                        </hero_banner>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
                         jcr:createdBy="admin"
@@ -50,31 +81,42 @@
                                 jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Welcome to AEMG Documentation"
+                                jcr:title="Do you need help finding the right answers? "
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h1"/>
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="Search through all our assets instantly"/>
                             <searchbar
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/searchbar"
                                 hideButton="true"
                                 resultpage="/content/aemg-docs/en/search"
                                 searchRoot="/content/aemg-docs/en/docs/product1"/>
+                            <search_presets
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-presets">
+                                <text1
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="What solutions help with code supply chain demands"/>
+                                <text2
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How does ColdFusion help in integrating my server with my client's"/>
+                                <text3
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How can I create professional quality codeblocks"/>
+                                <text4
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How can I export the code library"/>
+                            </search_presets>
                         </container>
                     </container_482659403_>
-                    <container_copy
-                        jcr:lastModified="{Date}2021-06-17T17:55:46.893+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/categorylist"
-                        id="tiles-container2"
-                        layout="responsiveGrid">
-                    </container_copy>
-                    <container
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/container/v1/container"
-                        id="refs-title-container"
-                        layout="responsiveGrid">
-                    </container>
                     <getstarted_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
@@ -568,6 +610,71 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="faq-item-u4">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Are updates backward compatible?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Most updates are backward compatible. Check the &lt;a href='#'>compatibility notes&lt;/a> in each release for any breaking changes or deprecated features.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_u4>
+                        </faq_panel_updates>
+                         <faq_panel_updates
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-updates">
+                            <faq_item_u1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-u1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I update ColdFusion?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Use the built-in updater in ColdFusion Administrator or download updates from the &lt;a href='#'>Adobe Updates page&lt;/a>. Always back up your server before applying updates.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_u1>
+                            <faq_item_u2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-u2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="What is included in the latest update?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Review the &lt;a href='#'>release notes&lt;/a> for a detailed list of new features, bug fixes, and security patches in each update.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_u2>
+                            <faq_item_u3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-u4">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I check my current ColdFusion version?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Open the ColdFusion Administrator and check the System Information page, or use &lt;code>server.coldfusion.productversion&lt;/code> in your code.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_u3>
+                            <faq_item_u4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-u5">
                                 <question
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Are updates backward compatible?"
