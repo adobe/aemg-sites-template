@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>&#x1f4e6; Learn what's new in ColdFusion (2025 release). &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
+                    text="&lt;p>&#x1f4e6; Learn what's new in ColdFusion (2025 release)!&#xa0; &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
                     textIsRich="true"/>
                     <hero_banner
                             jcr:primaryType="nt:unstructured"
@@ -45,18 +45,18 @@
                                 id="hero-brand-row">
                                 <brand_icon
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/image/v2/image"
-                                    alt="Adobe ColdFusion"
-                                    fileReference="/content/dam/aemg-docs/coldfusion-icon.png"/>
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="brand-icon"/>
                                 <brand_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     text="Adobe ColdFusion"/>
                             </brand_row>
-                            <hero_title
+                            <hero_text
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/title/v2/title"
-                                jcr:title="Learn &amp; Support"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="Learn &amp; Support"
+                                id="hero-banner-text"
                                 type="h1"/>
                         </hero_banner>
                     <container_482659403_
@@ -76,17 +76,14 @@
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="search-container">
                             <title
-                                jcr:created="{Date}2021-06-17T17:09:47.762+05:30"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Do you need help finding the right answers? "
-                                sling:resourceType="core/wcm/components/title/v2/title"
-                                type="h1"/>
+                                text="Do you need help finding the right answers? "
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-title"/>
                             <text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-text"
                                 text="Search through all our assets instantly"/>
                             <searchbar
                                 jcr:primaryType="nt:unstructured"
@@ -140,9 +137,8 @@
                                 layout="responsiveGrid">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/image/v2/image"
-                                    id="getstarted-icon-tutorials"
-                                    alt="Tutorials icon"/>
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-tutorials"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Tutorials"
@@ -169,9 +165,8 @@
                                 layout="responsiveGrid">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/image/v2/image"
-                                    id="getstarted-icon-documentation"
-                                    alt="Documentation icon"/>
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-documentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Documentation"
@@ -198,9 +193,8 @@
                                 layout="responsiveGrid">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/image/v2/image"
-                                    id="getstarted-icon-community"
-                                    alt="Community icon"/>
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-community"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Community"
@@ -227,9 +221,8 @@
                                 layout="responsiveGrid">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/image/v2/image"
-                                    id="getstarted-icon-certifications"
-                                    alt="Certifications icon"/>
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-certifications"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Certifications"
@@ -267,12 +260,6 @@
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="trending-heading"
                                 type="h2"/>
-                            <viewall
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="trending-viewall"
-                                jcr:title="View all"
-                                link="/content/aemg-docs/en/docs"/>
                         </trending_header>
                         <trending_tiles
                             jcr:primaryType="nt:unstructured"
@@ -287,6 +274,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/Image-213h-1.png"
                                     id="trending-img-1"
                                     alt="Introduction to ColdFusion"/>
                                 <category
@@ -331,6 +319,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/Image-213h-2.png"
                                     id="trending-img-2"
                                     alt="CFML Reference Guide"/>
                                 <category
@@ -375,6 +364,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/Image-213h.png"
                                     id="trending-img-3"
                                     alt="Building REST APIs"/>
                                 <category
