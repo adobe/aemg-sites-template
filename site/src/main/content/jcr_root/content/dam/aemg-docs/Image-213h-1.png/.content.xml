@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="dbc0d47e-925d-43a6-92ef-4c04e484afe1">
+    <jcr:content
+        dam:assetState="processed"
+        guides:assetState="SUCCESS"
+        guides:lastProcessedAt="{Date}2026-02-12T01:15:49.362+05:30"
+        jcr:lastModified="{Date}2026-02-12T01:15:49.284+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmPostProcessedAt="2026-02-12T01:15:49.129+05:30|dbc0d47e-925d-43a6-92ef-4c04e484afe1|2026-02-12T01:15:49.129+05:30|14|0"
+        fmUuid="GUID-7cbf07a4-e70e-4a46-88a9-1a8d9720d96e"
+        guidesNewAsset="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2026-02-12T01:15:49.207+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}2.957963705062866"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}5.263230800628662"
+            dam:Progressive="no"
+            dam:sha1="76f2b1c32fee73afe9d966151bc496d34b1d4be0"
+            dam:size="{Long}56467"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}213"
+            tiff:ImageWidth="{Long}379"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -12,9 +12,10 @@ it.
 /* Main container */
 #getstarted-section {
   width: 100%;
-  padding: 0rem 3rem;
+  padding: 5rem 0rem 5rem 0rem;
   background-color: #ffffff;
   box-sizing: border-box;
+  background: var(--C1-Background-off-color, #F8F8F8);
 }
 
 #getstarted-section > .cmp-container,
@@ -61,11 +62,29 @@ it.
 
 /* ===== Individual Tile ===== */
 [id^="getstarted-tile-"] {
-  background-color: #1a1a2e;
-  border-radius: 0.75rem;
-  padding: 1.75rem 1.5rem;
-  box-sizing: border-box;
-  min-height: 220px;
+  display: flex;
+  width: 17.25rem !important;
+  min-width: var(--Cards-card-width-min, 17.25rem) !important;
+  max-width: var(--Cards-card-width-max, 23.625rem) !important;
+  padding: 2rem;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1rem;
+  height: 19.8125rem;
+  border-radius: var(--Media-radius-large, 1rem);
+  border: var(--stroke-weight, 1px) solid var(--C1-Stroke-card-merch, #E8E8E8) !important;
+  background: #141826 !important;
+
+  .button {
+    border: 2px solid white;
+    border-radius: 1.25rem;
+    padding: 0.3125rem 1.125rem 0.375rem 1.125rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+  }
 }
 
 [id^="getstarted-tile-"] > .cmp-container,
@@ -83,74 +102,44 @@ it.
   flex-shrink: 0;
 }
 
-[id^="getstarted-icon-"] .cmp-image,
-[id^="getstarted-icon-"] .cmp-image__image {
-  width: 48px !important;
-  height: 48px !important;
-  object-fit: contain !important;
-  border-radius: 0.625rem !important;
-}
-
-/* Icon fallback using CSS background with inline SVGs */
-/* Each icon gets a rounded square background with the icon centered */
-
-#getstarted-icon-tutorials .cmp-image,
-#getstarted-icon-documentation .cmp-image,
-#getstarted-icon-community .cmp-image,
-#getstarted-icon-certifications .cmp-image {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  width: 48px !important;
-  height: 48px !important;
-  border-radius: 0.625rem !important;
-  background-color: #2a2a40 !important;
-}
-
-/* When no image src is available, use ::before pseudo-element as icon */
-#getstarted-icon-tutorials .cmp-image::before {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='5 3 19 12 5 21 5 3'/%3E%3C/svg%3E");
+/* Icon rendered via container + CSS data URI SVG */
+#getstarted-icon-tutorials {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0_296_4398)'><rect width='48' height='48' rx='10' fill='%23FEF6FF'/><mask id='mask0_296_4398' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='11' y='11' width='26' height='26'><path d='M17.1737 34.405C16.6564 34.405 16.1397 34.2654 15.6744 33.9873C14.7826 33.4541 14.25 32.5147 14.25 31.4762V16.5237C14.25 15.4852 14.7826 14.5457 15.6744 14.0125C16.5656 13.4806 17.6441 13.4539 18.5594 13.9478L32.4709 21.4241C33.4206 21.9344 34.0102 22.9221 34.0102 23.9999C34.0102 25.0778 33.4206 26.0655 32.4709 26.5758L18.5594 34.0521C18.1221 34.2882 17.6473 34.405 17.1737 34.405ZM17.1782 15.5449C16.9465 15.5449 16.7643 15.6337 16.6748 15.687C16.532 15.7721 16.2 16.0247 16.2 16.5237V31.4762C16.2 31.9751 16.532 32.2278 16.6748 32.3128C16.8176 32.3979 17.1966 32.5705 17.6365 32.3357L31.5474 24.8594C32.0101 24.6093 32.0602 24.1751 32.0602 23.9999C32.0602 23.8247 32.0101 23.3905 31.5474 23.1405L17.6365 15.6642C17.4721 15.5766 17.3166 15.5449 17.1782 15.5449Z' fill='%23292929'/></mask><g mask='url(%23mask0_296_4398)'><rect x='11' y='11' width='26' height='26' fill='%23292929'/></g></g><defs><clipPath id='clip0_296_4398'><rect width='48' height='48' rx='10' fill='white'/></clipPath></defs></svg>");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
-#getstarted-icon-documentation .cmp-image::before {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a8c4e0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+/* Icon rendered via container + CSS data URI SVG — REPLACE the background-image URL with your actual SVG */
+#getstarted-icon-documentation {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0_296_4398)'><rect width='48' height='48' rx='10' fill='%23FEF6FF'/><mask id='mask0_296_4398' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='11' y='11' width='26' height='26'><path d='M17.1737 34.405C16.6564 34.405 16.1397 34.2654 15.6744 33.9873C14.7826 33.4541 14.25 32.5147 14.25 31.4762V16.5237C14.25 15.4852 14.7826 14.5457 15.6744 14.0125C16.5656 13.4806 17.6441 13.4539 18.5594 13.9478L32.4709 21.4241C33.4206 21.9344 34.0102 22.9221 34.0102 23.9999C34.0102 25.0778 33.4206 26.0655 32.4709 26.5758L18.5594 34.0521C18.1221 34.2882 17.6473 34.405 17.1737 34.405ZM17.1782 15.5449C16.9465 15.5449 16.7643 15.6337 16.6748 15.687C16.532 15.7721 16.2 16.0247 16.2 16.5237V31.4762C16.2 31.9751 16.532 32.2278 16.6748 32.3128C16.8176 32.3979 17.1966 32.5705 17.6365 32.3357L31.5474 24.8594C32.0101 24.6093 32.0602 24.1751 32.0602 23.9999C32.0602 23.8247 32.0101 23.3905 31.5474 23.1405L17.6365 15.6642C17.4721 15.5766 17.3166 15.5449 17.1782 15.5449Z' fill='%23292929'/></mask><g mask='url(%23mask0_296_4398)'><rect x='11' y='11' width='26' height='26' fill='%23292929'/></g></g><defs><clipPath id='clip0_296_4398'><rect width='48' height='48' rx='10' fill='white'/></clipPath></defs></svg>");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
-#getstarted-icon-community .cmp-image::before {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M23 21v-2a4 4 0 0 0-3-3.87'/%3E%3Cpath d='M16 3.13a4 4 0 0 1 0 7.75'/%3E%3C/svg%3E");
+/* Icon rendered via container + CSS data URI SVG — REPLACE the background-image URL with your actual SVG */
+#getstarted-icon-community {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0_296_4398)'><rect width='48' height='48' rx='10' fill='%23FEF6FF'/><mask id='mask0_296_4398' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='11' y='11' width='26' height='26'><path d='M17.1737 34.405C16.6564 34.405 16.1397 34.2654 15.6744 33.9873C14.7826 33.4541 14.25 32.5147 14.25 31.4762V16.5237C14.25 15.4852 14.7826 14.5457 15.6744 14.0125C16.5656 13.4806 17.6441 13.4539 18.5594 13.9478L32.4709 21.4241C33.4206 21.9344 34.0102 22.9221 34.0102 23.9999C34.0102 25.0778 33.4206 26.0655 32.4709 26.5758L18.5594 34.0521C18.1221 34.2882 17.6473 34.405 17.1737 34.405ZM17.1782 15.5449C16.9465 15.5449 16.7643 15.6337 16.6748 15.687C16.532 15.7721 16.2 16.0247 16.2 16.5237V31.4762C16.2 31.9751 16.532 32.2278 16.6748 32.3128C16.8176 32.3979 17.1966 32.5705 17.6365 32.3357L31.5474 24.8594C32.0101 24.6093 32.0602 24.1751 32.0602 23.9999C32.0602 23.8247 32.0101 23.3905 31.5474 23.1405L17.6365 15.6642C17.4721 15.5766 17.3166 15.5449 17.1782 15.5449Z' fill='%23292929'/></mask><g mask='url(%23mask0_296_4398)'><rect x='11' y='11' width='26' height='26' fill='%23292929'/></g></g><defs><clipPath id='clip0_296_4398'><rect width='48' height='48' rx='10' fill='white'/></clipPath></defs></svg>");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
-#getstarted-icon-certifications .cmp-image::before {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4c5a9' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='8' r='7'/%3E%3Cpolyline points='8.21 13.89 7 23 12 20 17 23 15.79 13.88'/%3E%3C/svg%3E");
+/* Icon rendered via container + CSS data URI SVG — REPLACE the background-image URL with your actual SVG */
+#getstarted-icon-certifications {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0_296_4398)'><rect width='48' height='48' rx='10' fill='%23FEF6FF'/><mask id='mask0_296_4398' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='11' y='11' width='26' height='26'><path d='M17.1737 34.405C16.6564 34.405 16.1397 34.2654 15.6744 33.9873C14.7826 33.4541 14.25 32.5147 14.25 31.4762V16.5237C14.25 15.4852 14.7826 14.5457 15.6744 14.0125C16.5656 13.4806 17.6441 13.4539 18.5594 13.9478L32.4709 21.4241C33.4206 21.9344 34.0102 22.9221 34.0102 23.9999C34.0102 25.0778 33.4206 26.0655 32.4709 26.5758L18.5594 34.0521C18.1221 34.2882 17.6473 34.405 17.1737 34.405ZM17.1782 15.5449C16.9465 15.5449 16.7643 15.6337 16.6748 15.687C16.532 15.7721 16.2 16.0247 16.2 16.5237V31.4762C16.2 31.9751 16.532 32.2278 16.6748 32.3128C16.8176 32.3979 17.1966 32.5705 17.6365 32.3357L31.5474 24.8594C32.0101 24.6093 32.0602 24.1751 32.0602 23.9999C32.0602 23.8247 32.0101 23.3905 31.5474 23.1405L17.6365 15.6642C17.4721 15.5766 17.3166 15.5449 17.1782 15.5449Z' fill='%23292929'/></mask><g mask='url(%23mask0_296_4398)'><rect x='11' y='11' width='26' height='26' fill='%23292929'/></g></g><defs><clipPath id='clip0_296_4398'><rect width='48' height='48' rx='10' fill='white'/></clipPath></defs></svg>");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* Hide the actual img tag when using CSS icons */
-[id^="getstarted-icon-"] .cmp-image__image {
-  display: none !important;
 }
 
 /* ===== Tile Titles ===== */
@@ -158,12 +147,12 @@ it.
 [id^="getstarted-title-"] .cmp-title,
 [id^="getstarted-title-"] .cmp-title__text,
 [id^="getstarted-title-"] h3 {
-  margin: 0 !important;
-  padding: 0 !important;
-  font-size: 1.0625rem !important;
-  font-weight: 600 !important;
-  color: #ffffff !important;
-  line-height: 1.4 !important;
+  color: var(--C1-Text-inverted, #FFF);
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: var(--Typography-Heading-m, 1.5rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem  !important;
 }
 
 /* ===== Tile Description Text ===== */
@@ -171,18 +160,26 @@ it.
 [id^="getstarted-desc-"] .cmp-text,
 [id^="getstarted-desc-"] .cmp-text p,
 [id^="getstarted-desc-"] p {
-  margin: 0 !important;
-  padding: 0 !important;
-  color: #a1a1aa !important;
-  font-size: 0.8125rem !important;
-  line-height: 1.6 !important;
+  margin-bottom: 1rem !important;
   flex-grow: 1;
+  color: var(--C1-Text-inverted, #FFF) !important;
+  font-family: var(--Font-adobe-clean, "Adobe Clean") !important;
+  font-size: 1.125rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.6875rem !important;
 }
 
 /* ===== Tile CTA Buttons ===== */
 [id^="getstarted-btn-"] {
   margin-top: auto;
   align-self: flex-start;
+}
+
+[id^="getstarted-btn-"] .button {
+  border: 2px solid white;
+  border-radius: 1.25rem;
+
 }
 
 [id^="getstarted-btn-"] .cmp-button,
