@@ -251,6 +251,168 @@
                             </tile_certifications>
                         </tiles_container>
                     </getstarted_section>
+                    <trending_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="trending-section"
+                        layout="responsiveGrid">
+                        <trending_header
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-header"
+                            layout="responsiveGrid">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Trending Resources"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="trending-heading"
+                                type="h2"/>
+                            <viewall
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="trending-viewall"
+                                jcr:title="View all"
+                                link="/content/aemg-docs/en/docs"/>
+                        </trending_header>
+                        <trending_tiles
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-tiles"
+                            layout="responsiveGrid">
+                            <tile_intro_cf
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-1"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="trending-img-1"
+                                    alt="Introduction to ColdFusion"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-1"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Introduction to ColdFusion"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-1"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-1"
+                                    text="&lt;p>Explore what's new in ColdFusion 2025, system requirements, and getting started guides.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-1"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-1"
+                                        text="User guide"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-1"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_intro_cf>
+                            <tile_cfml_ref
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-2"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="trending-img-2"
+                                    alt="CFML Reference Guide"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-2"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="CFML Reference Guide"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-2"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-2"
+                                    text="&lt;p>Complete reference for all CFML tags, functions, and reserved variables.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-2"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-2"
+                                        text="User guide"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-2"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_cfml_ref>
+                            <tile_rest_apis
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-3"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    id="trending-img-3"
+                                    alt="Building REST APIs"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-3"
+                                    text="TUTORIAL"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Building REST APIs"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-3"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-3"
+                                    text="&lt;p>Create and publish RESTful services with ColdFusion step by step.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-3"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-3"
+                                        text="30 min"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-3"
+                                        text="Intermediate"/>
+                                </meta_row>
+                            </tile_rest_apis>
+                        </trending_tiles>
+                    </trending_section>
                     <faq_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
