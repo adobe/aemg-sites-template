@@ -278,11 +278,11 @@ it.
     width: 100%;
 }
 
-#page-content .cmp-experiencefragment--header , #category-page .cmp-experiencefragment--header{
+/* # #category-page .cmp-experiencefragment--header{
     .searchbar{
         visibility: hidden;
     }
-}
+} */
 
 #cp-root-container{
 }

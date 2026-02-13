@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // The second .button in #header-left is "Adobe Coldfusion Family"
     const buttons = headerLeft.querySelectorAll(':scope > .button');
     if (buttons.length >= 2) {
-      const cfFamilyBtn = buttons[1]; // 0 = brand "AEMG", 1 = "Adobe Coldfusion Family"
+      const cfFamilyBtn = buttons[0]; // 0 = brand "AEMG", 1 = "Adobe Coldfusion Family"
       const btnLink = cfFamilyBtn.querySelector('.cmp-button');
       if (btnLink) {
         btnLink.insertAdjacentHTML('beforeend', chevronDownSvg);

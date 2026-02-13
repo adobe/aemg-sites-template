@@ -30,7 +30,7 @@ it.
 .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
     display: flex;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 0 15rem;
     height: 100%;
     flex-wrap: nowrap;
 }
@@ -62,31 +62,19 @@ it.
     flex-shrink: 0;
 }
 
-#header-left > .image {
+#adobe-logo {
+    width: 5.3125rem;
+    height: 1.4375rem;
     flex-shrink: 0;
-    width: 2rem;
-}
-
-#header-left > .image .cmp-image__image {
-    max-width: 2rem;
-    max-height: 2rem;
-    display: block;
-}
-
-#header-left > .button:first-of-type {
-    flex-shrink: 0;
-}
-
-#header-left > .button:first-of-type .cmp-button {
-    font-weight: 700;
-    font-size: 1.125rem;
-    color: #eb1000;
-    text-decoration: none;
-    white-space: nowrap;
+    background-image: url("data:image/svg+xml;utf8,<svg width='85' height='23' viewBox='0 0 85 23' fill='none' xmlns='http://www.w3.org/2000/svg'><rect y='0.4375' width='25' height='22.1239' fill='white'/><path d='M15.7589 0.4375H24.9992V22.5614L15.7589 0.4375Z' fill='%23EB1000'/><path d='M9.24779 0.4375H0V22.5614L9.24779 0.4375Z' fill='%23EB1000'/><path d='M12.5034 8.5918L18.3908 22.5618H14.5321L12.7713 18.1131H8.46301L12.5034 8.5918Z' fill='%23EB1000'/><path d='M42.488 14.886H38.186L37.196 17.856C37.16 17.964 37.106 18 36.998 18H35.198C35.09 18 35.054 17.946 35.072 17.82L38.78 7.272C38.852 7.092 38.906 6.912 38.942 6.3C38.942 6.228 38.978 6.174 39.05 6.174H41.552C41.642 6.174 41.66 6.192 41.678 6.282L45.836 17.838C45.854 17.946 45.836 18 45.728 18H43.712C43.622 18 43.568 17.964 43.532 17.892L42.488 14.886ZM38.762 12.924H41.912C41.534 11.736 40.688 9.234 40.328 7.974H40.31C40.022 9.18 39.302 11.286 38.762 12.924ZM51.1 18.18C48.49 18.18 46.492 16.668 46.492 13.644C46.492 11.034 48.436 8.946 51.604 8.946C51.856 8.946 52.072 8.964 52.378 9V5.31C52.378 5.22 52.414 5.184 52.486 5.184H54.448C54.538 5.184 54.538 5.22 54.538 5.292V16.164C54.538 16.524 54.574 16.992 54.61 17.316C54.61 17.406 54.592 17.442 54.502 17.478C53.332 17.982 52.18 18.18 51.1 18.18ZM52.378 16.164V10.89C52.144 10.8 51.856 10.764 51.532 10.764C49.93 10.764 48.724 11.79 48.724 13.536C48.724 15.498 49.894 16.308 51.334 16.308C51.694 16.308 52.054 16.272 52.378 16.164ZM60.6395 8.946C63.4115 8.946 64.9235 11.052 64.9235 13.518C64.9235 16.308 63.1415 18.18 60.6035 18.18C57.5975 18.18 56.2655 15.858 56.2655 13.572C56.2655 11.016 57.9395 8.946 60.6395 8.946ZM60.5315 10.764C59.3255 10.764 58.4615 11.826 58.4615 13.536C58.4615 15.192 59.2715 16.344 60.6395 16.344C61.7555 16.344 62.7095 15.426 62.7095 13.572C62.7095 12.078 62.0615 10.764 60.5315 10.764ZM66.7405 5.184H68.6305C68.7565 5.184 68.7925 5.202 68.7925 5.328L68.8105 9.198C69.2965 9.036 69.8545 8.946 70.4485 8.946C73.0405 8.946 74.6965 10.782 74.6965 13.194C74.6965 16.524 72.1045 18.18 69.4405 18.18C68.5045 18.18 67.6045 18.054 66.7405 17.784C66.6685 17.766 66.6145 17.676 66.6145 17.622V5.31C66.6145 5.22 66.6685 5.184 66.7405 5.184ZM72.4825 13.41C72.4825 11.7 71.4925 10.8 70.0705 10.8C69.4405 10.8 69.0985 10.89 68.8105 10.998V16.254C69.0625 16.326 69.3325 16.344 69.6385 16.344C71.1145 16.344 72.4825 15.408 72.4825 13.41ZM81.8205 14.058H78.1665C78.2205 15.318 79.0485 16.326 80.8845 16.326C81.6945 16.326 82.4325 16.182 83.1165 15.894C83.1705 15.858 83.2245 15.876 83.2245 15.966V17.46C83.2245 17.568 83.1885 17.622 83.1165 17.658C82.4325 17.982 81.6405 18.18 80.4165 18.18C77.1405 18.18 75.9705 15.876 75.9705 13.662C75.9705 11.16 77.4825 8.946 80.2005 8.946C82.8645 8.946 83.8905 11.034 83.8905 12.744C83.8905 13.248 83.8725 13.662 83.8185 13.86C83.8005 13.932 83.7645 13.968 83.6745 13.986C83.4225 14.04 82.7025 14.058 81.8205 14.058ZM78.1665 12.51H80.8485C81.5325 12.51 81.7665 12.51 81.8385 12.492C81.8385 12.438 81.8385 12.366 81.8385 12.348C81.8385 11.826 81.4785 10.674 80.1105 10.674C78.8685 10.674 78.3105 11.628 78.1665 12.51Z' fill='%23EB1000'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Nav buttons (not brand, not Free trial) */
 #header-left > .button .cmp-button {
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 0.875rem;
     color: #2c2c2c;
@@ -104,7 +92,7 @@ it.
 }
 
 /* "Adobe Coldfusion Family" button with chevron */
-#header-left > .button:nth-of-type(2) .cmp-button {
+#header-left > .button:first-of-type .cmp-button {
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -142,11 +130,10 @@ it.
 }
 
 #header-right .cmp-search-bar__field {
-    border: 1px solid #d0d0d0;
-    color: #8E8E8E;
-    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid var(--Palette-gray-300, #DADADA);
+    background: var(--Palette-gray-25, #FFF);
     height: 2rem;
-    border-radius: 4px;
     align-items: center;
     min-width: 10rem;
 }
@@ -269,8 +256,8 @@ it.
     display: none !important;
 }
 
-/* Mobile: hide nav buttons (keep logo + brand), hide right column, show mobile containers */
-.experiencefragment.header.mobile #header-left > .button:nth-of-type(n+2) {
+/* Mobile: hide nav buttons (keep logo), hide right column, show mobile containers */
+.experiencefragment.header.mobile #header-left > .button {
     display: none;
 }
 
@@ -311,13 +298,9 @@ it.
         }
     }
 
-    #header-left > .image .cmp-image__image {
-        max-width: 1.5rem;
-        max-height: 1.5rem;
-    }
-
-    #header-left > .button:first-of-type .cmp-button {
-        font-size: 1rem;
+    #adobe-logo {
+        width: 4.25rem;
+        height: 1.15rem;
     }
 
     .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
