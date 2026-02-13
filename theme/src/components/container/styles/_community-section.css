@@ -12,8 +12,10 @@ it.
 /* Main container - dark background */
 #community-section {
   width: 100%;
-  padding: 3.5rem 3rem;
-  background-color: #1a1a2e;
+  display: flex;
+  padding: 5rem 15% 5rem 15% !important;
+  gap: 5rem !important;
+  background: var(--C1-Background-standard, #1E1E1E);
   box-sizing: border-box;
 }
 
@@ -31,10 +33,25 @@ it.
 
 /* Left content area with violet accent border */
 #community-left {
-  flex: 0 1 auto;
-  padding-left: 1.25rem;
-  border-left: 3px solid #8b5cf6;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem; 
+
+  title {
+    color: var(--C1-Text-inverted, #FFF);
+    text-align: center;
+
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-size: var(--Typography-Heading-2xl, 2.75rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.4375rem;
+  }
+  .text {
+    width: 36.75rem;
+  }
 }
 
 #community-left > .cmp-container,
@@ -62,17 +79,20 @@ it.
 #community-description .cmp-text,
 #community-description .cmp-text p,
 #community-description p {
-  margin: 0 !important;
-  padding: 0 !important;
-  color: #a1a1aa !important;
-  font-size: 0.875rem !important;
-  line-height: 1.6 !important;
-  max-width: 340px;
+  color: var(--C1-Text-inverted, #FFF);
+  font-family: var(--Font-family-Sans-serif, "Adobe Clean Spectrum VF");
+  font-size: var(--Font-size-200, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: var(--Letter-spacing, 0);
 }
 
 /* Buttons container */
 #community-buttons {
   margin-top: 0.5rem;
+  display: flex !important;
+  gap: 2.5rem !important;
 }
 
 #community-buttons > .cmp-container,
@@ -85,25 +105,16 @@ it.
 }
 
 /* Visit community forum - white outline button */
-#btn-community-forum,
-#btn-community-forum .cmp-button,
-#btn-community-forum a,
-#btn-community-forum button {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 0.5rem 1.125rem !important;
-  font-size: 0.8125rem !important;
-  font-weight: 500 !important;
-  line-height: 1.4 !important;
-  border-radius: 9999px !important;
-  background-color: transparent !important;
-  color: #ffffff !important;
-  border: 1px solid #ffffff !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  white-space: nowrap !important;
+#btn-community-forum {
+  .cmp-button__text {
+    color: var(--C1-Text-inverted, #2C2C2C);
+    text-align: center;
+    font-family: "Adobe Clean";
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+  }
 }
 
 #btn-community-forum:hover .cmp-button,
@@ -112,26 +123,38 @@ it.
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Contact support - dark charcoal filled button */
-#btn-contact-support,
-#btn-contact-support .cmp-button,
-#btn-contact-support a,
-#btn-contact-support button {
-  display: inline-flex !important;
-  align-items: center !important;
+/* First button in community buttons - filled style */
+#community-buttons > :nth-child(1) {
+  background: white;
+  border-radius: 1.25rem;
+  display: flex !important;
   justify-content: center !important;
-  padding: 0.5rem 1.125rem !important;
-  font-size: 0.8125rem !important;
-  font-weight: 500 !important;
-  line-height: 1.4 !important;
-  border-radius: 9999px !important;
-  background-color: #3f3f46 !important;
-  color: #ffffff !important;
-  border: 1px solid #3f3f46 !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  white-space: nowrap !important;
+  width: 12rem;
+  height: 2.5rem;
+  align-items: center !important;
+}
+
+/* Second button in community buttons - outlined style */
+#community-buttons > :nth-child(2) {
+  border: 2px solid white;
+  border-radius: 1.25rem;
+  display: flex !important;
+  justify-content: center !important;
+  width: 10rem;
+  height: 2.5rem;
+  align-items: center !important;
+}
+
+#btn-contact-support {
+  .cmp-button__text {
+    color: var(--C1-Text-inverted, #FFF);
+    text-align: center;
+    font-family: "Adobe Clean";
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+  }
 }
 
 #btn-contact-support:hover .cmp-button,
@@ -144,6 +167,9 @@ it.
 /* ===== Right content - Popular topics ===== */
 #community-right {
   flex: 0 0 auto;
+  .title {
+    margin-bottom: 1.5rem;
+  }
 }
 
 #community-right > .cmp-container,
@@ -160,69 +186,70 @@ it.
 #topics-heading h3 {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 0.875rem !important;
-  font-weight: 500 !important;
-  color: #e4e4e7 !important;
+  color: var(--C1-Text-inverted, #FFF) !important;
+  text-align: left;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: 1.125rem !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 150%;
 }
 
-/* Tags container */
+/* Tags container - override inline styles on #topics-tags itself */
+#topics-tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.625rem !important;
+  height: auto !important;
+  max-width: 28rem;
+}
+
 #topics-tags > .cmp-container,
 #topics-tags > .aem-Grid {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
-  gap: 0.5rem !important;
-  max-width: 380px;
+  gap: 0.625rem !important;
+  max-width: 28rem;
 }
 
 /* All topic tag buttons - white border pills */
-#tag-server-admin,
-#tag-server-admin .cmp-button,
-#tag-server-admin a,
-#tag-coldfusion-builder,
-#tag-coldfusion-builder .cmp-button,
-#tag-coldfusion-builder a,
-#tag-advanced-techniques,
-#tag-advanced-techniques .cmp-button,
-#tag-advanced-techniques a,
-#tag-security,
-#tag-security .cmp-button,
-#tag-security a,
-#tag-performance,
-#tag-performance .cmp-button,
-#tag-performance a {
+#topics-tags > .button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  padding: 0.375rem 0.875rem !important;
-  font-size: 0.75rem !important;
+}
+
+#topics-tags > .button .cmp-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.875rem !important;
   font-weight: 400 !important;
   line-height: 1.4 !important;
   border-radius: 9999px !important;
   background-color: transparent !important;
-  color: #e4e4e7 !important;
-  border: 1px solid #a1a1aa !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.7) !important;
   text-decoration: none !important;
   cursor: pointer !important;
   transition: all 0.2s ease !important;
   white-space: nowrap !important;
 }
 
-#tag-server-admin:hover .cmp-button,
-#tag-server-admin .cmp-button:hover,
-#tag-server-admin a:hover,
-#tag-coldfusion-builder:hover .cmp-button,
-#tag-coldfusion-builder .cmp-button:hover,
-#tag-coldfusion-builder a:hover,
-#tag-advanced-techniques:hover .cmp-button,
-#tag-advanced-techniques .cmp-button:hover,
-#tag-advanced-techniques a:hover,
-#tag-security:hover .cmp-button,
-#tag-security .cmp-button:hover,
-#tag-security a:hover,
-#tag-performance:hover .cmp-button,
-#tag-performance .cmp-button:hover,
-#tag-performance a:hover {
+#topics-tags > .button .cmp-button .cmp-button__text {
+  color: var(--C1-Text-text, #FFF);
+  text-align: center;
+  font-family: "Adobe Clean";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1875rem; /* 126.667% */
+}
+
+#topics-tags > .button .cmp-button:hover {
   background-color: rgba(255, 255, 255, 0.1) !important;
   border-color: #ffffff !important;
   color: #ffffff !important;
@@ -245,6 +272,7 @@ it.
     max-width: 100%;
   }
 
+  #topics-tags,
   #topics-tags > .cmp-container,
   #topics-tags > .aem-Grid {
     max-width: 100%;

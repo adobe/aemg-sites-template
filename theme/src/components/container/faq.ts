@@ -35,11 +35,23 @@ const activateTab = (tabEl: Element, tabs: Element[], panels: Element[]) => {
   tabs.forEach((t) => t.classList.remove(TAB_ACTIVE_CLASS));
   tabEl.classList.add(TAB_ACTIVE_CLASS);
 
-  // Toggle panel visibility
-  panels.forEach((p) => p.classList.remove(PANEL_ACTIVE_CLASS));
+  // Toggle panel visibility – also hide the parent .aem-GridColumn wrapper
+  // so that inactive panels don't occupy any space in the layout.
+  panels.forEach((p) => {
+    p.classList.remove(PANEL_ACTIVE_CLASS);
+    const parentCol = p.closest('.aem-GridColumn');
+    if (parentCol) {
+      (parentCol as HTMLElement).style.display = 'none';
+    }
+  });
+
   const targetPanel = document.getElementById(`${PANEL_PREFIX}${key}`);
   if (targetPanel) {
     targetPanel.classList.add(PANEL_ACTIVE_CLASS);
+    const parentCol = targetPanel.closest('.aem-GridColumn');
+    if (parentCol) {
+      (parentCol as HTMLElement).style.display = '';
+    }
   }
 };
 
