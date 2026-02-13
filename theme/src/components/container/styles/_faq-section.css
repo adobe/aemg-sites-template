@@ -241,9 +241,13 @@ it.
 #faq-help-banner {
   width: 100%;
   display: flex;
-  width: 100%;
+  width: 33.625rem;
+  margin: auto;
   align-items: center;
   justify-content: center;
+  border-radius: 0.75rem;
+  height: 3.375rem;
+  background: var(--C1-Web-Accent-info-accent-light, #DEDEF9);
 }
 
 #faq-help-banner > .cmp-container,
@@ -253,12 +257,12 @@ it.
   align-items: center !important;
   justify-content: center !important;
   gap: 0.25rem;
-  background-color: #f9fafb;
-  border-radius: 0.5rem;
+  background-color: transparent;
+  border-radius: 0.75rem;
   padding: 1rem 1.5rem;
 }
 
-/* Headphone icon via pseudo-element */
+/* Help icon via pseudo-element */
 #faq-help-banner > .cmp-container::before,
 #faq-help-banner > .aem-Grid::before {
   content: "";
@@ -266,7 +270,7 @@ it.
   width: 1.25rem;
   height: 1.25rem;
   margin-right: 0.5rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 18v-6a9 9 0 0 1 18 0v6'/%3E%3Cpath d='M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 15 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20.3414 22.498H18.7977C18.3203 19.0787 15.454 16.4395 11.9901 16.4395C11.9861 16.4395 11.9829 16.4416 11.9789 16.4418C11.975 16.4416 11.9717 16.4395 11.9678 16.4395C8.50438 16.4395 5.63849 19.0778 5.16036 22.498H3.65861C2.30275 22.498 1.20001 23.6008 1.20001 24.9566V29.3313C1.20001 30.6754 2.29337 31.7793 3.64044 31.7899L5.69298 31.7992H5.69708C5.75077 31.7992 5.79736 31.7777 5.84848 31.7688C5.8996 31.7777 5.94625 31.7992 6.00001 31.7992H6.00235C6.49922 31.798 6.90118 31.3938 6.90001 30.8969L6.88243 23.5012C6.88243 20.5996 9.16349 18.2395 11.9678 18.2395C11.9717 18.2395 11.975 18.2373 11.9789 18.2371C11.9829 18.2373 11.9861 18.2395 11.9901 18.2395C14.7943 18.2395 17.0754 20.5996 17.0754 23.5012V31.4992C17.0754 31.503 17.0775 31.506 17.0775 31.5098C16.8111 32.6125 15.9323 33.5743 14.6641 34.1729C14.2593 33.4732 13.5281 32.9992 12.6861 32.9992H11.3139C10.0383 32.9992 9.00001 34.0762 9.00001 35.3992C9.00001 36.7223 10.0383 37.7992 11.3139 37.7992H12.6861C13.7554 37.7992 14.6493 37.0387 14.9132 36.0146C16.9844 35.2087 18.4524 33.6684 18.8543 31.8344C18.8571 31.8215 18.8527 31.8095 18.855 31.7967L20.3631 31.7899C21.7066 31.7793 22.8 30.6754 22.8 29.3313V24.9566C22.8 23.6008 21.6973 22.498 20.3414 22.498ZM3.00001 29.3313V24.9566C3.00001 24.5934 3.29532 24.298 3.65861 24.298H5.08456L5.09759 29.9964L3.65215 29.9899C3.29239 29.9875 3.00001 29.691 3.00001 29.3313ZM12.6861 35.9992H11.3139C11.0303 35.9992 10.8 35.7297 10.8 35.3992C10.8 35.0688 11.0303 34.7992 11.3139 34.7992H12.6861C12.9697 34.7992 13.2 35.0688 13.2 35.3992C13.2 35.7297 12.9697 35.9992 12.6861 35.9992ZM21 29.3313C21 29.691 20.7076 29.9875 20.3514 29.9899L18.8754 29.9966V24.2981H20.3414C20.7047 24.2981 21 24.5934 21 24.9567V29.3313Z' fill='%23686DF4'/></svg>");
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -274,22 +278,43 @@ it.
 
 #faq-help-text,
 #faq-help-text .cmp-text,
-#faq-help-text .cmp-text p {
+#faq-help-text .cmp-text {
+ p {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 0.875rem !important;
+  font-size: 1rem !important;
   color: #6b7280 !important;
   line-height: 1.4 !important;
-}
+  color: var(--Content-neutral-default, #222);
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
 
-#faq-help-text .cmp-text a {
-  color: #6366f1 !important;
-  font-weight: 500 !important;
-  text-decoration: underline !important;
-}
-
-#faq-help-text .cmp-text a:hover {
-  color: #4f46e5 !important;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M16.9512 6.24903H15.6647C15.2669 3.39954 12.8784 1.2002 9.9917 1.2002C9.9884 1.2002 9.98572 1.20203 9.98242 1.20215C9.97912 1.20203 9.97644 1.2002 9.97314 1.2002C7.08697 1.2002 4.69873 3.39881 4.30029 6.24903H3.04883C1.91895 6.24903 1 7.16797 1 8.29785V11.9434C1 13.0635 1.91113 13.9834 3.03369 13.9922L4.74414 14H4.74756C4.7923 14 4.83112 13.9821 4.87372 13.9746C4.91632 13.9821 4.9552 14 5 14H5.00195C5.41601 13.999 5.75097 13.6621 5.75 13.2481L5.73535 7.08497C5.73535 4.667 7.63623 2.7002 9.97314 2.7002C9.97644 2.7002 9.97912 2.69837 9.98242 2.69825C9.98572 2.69837 9.9884 2.7002 9.9917 2.7002C12.3286 2.7002 14.2295 4.667 14.2295 7.08497V13.75C14.2295 13.7532 14.2312 13.7556 14.2313 13.7588C14.0093 14.6777 13.2769 15.4793 12.2201 15.978C11.8827 15.395 11.2734 15 10.5718 15H9.42822C8.36523 15 7.5 15.8975 7.5 17C7.5 18.1025 8.36523 19 9.42822 19H10.5718C11.4628 19 12.2077 18.3662 12.4277 17.5128C14.1536 16.8412 15.377 15.5576 15.7119 14.0293C15.7142 14.0186 15.7106 14.0086 15.7125 13.9979L16.9692 13.9922C18.0889 13.9834 19 13.0635 19 11.9434V8.29785C19 7.16797 18.0811 6.24903 16.9512 6.24903ZM2.5 11.9434V8.29785C2.5 7.99512 2.74609 7.74903 3.04883 7.74903H4.23712L4.24798 12.4977L3.04345 12.4922C2.74365 12.4902 2.5 12.2432 2.5 11.9434ZM10.5718 17.5H9.42823C9.1919 17.5 9.00001 17.2754 9.00001 17C9.00001 16.7246 9.1919 16.5 9.42823 16.5H10.5718C10.8081 16.5 11 16.7246 11 17C11 17.2754 10.8081 17.5 10.5718 17.5ZM17.5 11.9434C17.5 12.2432 17.2564 12.4902 16.9595 12.4922L15.7295 12.4978V7.74904H16.9512C17.2539 7.74904 17.5 7.99513 17.5 8.29787V11.9434Z' fill='%23292929'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+  }
+  a {
+    color: rgba(39, 77, 234, 1) !important;
+    text-decoration: underline !important;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 1.5rem !important;
+  }
+ }
 }
 
 /* ===== Responsive ===== */

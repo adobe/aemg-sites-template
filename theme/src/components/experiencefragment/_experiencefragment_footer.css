@@ -46,18 +46,13 @@ it.
     max-width: 1200px;
     margin: 0 auto;
     padding: 2.5rem 2rem 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cmp-experiencefragment--footer #footer-links > .cmp-container > .aem-Grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-/* Column headings */
-.cmp-experiencefragment--footer #footer-links .container > .cmp-container > .aem-Grid > .text:first-child .cmp-text p {
+/* Column headings (first .text in each column container) */
+.cmp-experiencefragment--footer #footer-links [id^="col-"] > .text:first-child .cmp-text p {
     font-weight: 700;
     font-size: 0.875rem;
     color: #2c2c2c;
@@ -65,8 +60,8 @@ it.
     line-height: 1.4;
 }
 
-/* Sub-heading (e.g. "Adobe Account") */
-.cmp-experiencefragment--footer #footer-links #col-resources .text:not(:first-child) .cmp-text p {
+/* Sub-heading (e.g. "Adobe Account" in Resources column) */
+.cmp-experiencefragment--footer #col-resources > .text:not(:first-child) .cmp-text p {
     font-weight: 700;
     font-size: 0.875rem;
     color: #2c2c2c;
@@ -106,16 +101,11 @@ it.
    ROW 2: Featured Products
    ============================================= */
 .cmp-experiencefragment--footer #footer-products {
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-.cmp-experiencefragment--footer #footer-products > .cmp-container > .aem-Grid {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,17 +114,21 @@ it.
 }
 
 /* "Featured products" label */
-.cmp-experiencefragment--footer #footer-products .text .cmp-text p {
+.cmp-experiencefragment--footer #footer-products > .text .cmp-text p {
     font-weight: 700;
     font-size: 0.8125rem;
     color: #2c2c2c;
     white-space: nowrap;
     margin: 0;
+    line-height: 1;
 }
 
 /* Product buttons */
-.cmp-experiencefragment--footer #footer-products .button {
+.cmp-experiencefragment--footer #footer-products > .button {
     margin: 0;
+    a {
+        display: flex !important;
+    }
 }
 
 .cmp-experiencefragment--footer #footer-products .button .cmp-button {
@@ -151,14 +145,36 @@ it.
     white-space: nowrap;
 }
 
+/* Shared icon styles for product buttons */
 .cmp-experiencefragment--footer #footer-products .button .cmp-button::before {
     content: "";
     display: inline-block;
     width: 1.25rem;
     height: 1.25rem;
-    background-color: #2c2c2c;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 4px;
     flex-shrink: 0;
+}
+
+/* AEM Guides icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(2) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M9.80144 5.73399C9.80144 5.44578 9.73906 5.10142 9.45348 5.10142C9.34263 5.10704 9.24321 5.17124 9.19268 5.27C8.95885 6.0919 9.04253 6.97154 9.42706 7.73472C9.63751 7.08665 9.76329 6.41416 9.80144 5.73399Z' fill='%23292929'/><path d='M5.01662 14.4256C4.99526 14.5294 5.03365 14.6365 5.11611 14.703C5.16903 14.7506 5.23861 14.7755 5.30971 14.7723C5.74379 14.7723 6.48647 14.0045 7.24111 12.7896C5.95901 13.3624 5.09939 13.9903 5.01662 14.4256Z' fill='%23292929'/><path d='M9.8767 9.71275C9.75707 10.0403 9.62676 10.3752 9.48809 10.7101C9.38287 10.9635 9.26202 11.2302 9.13049 11.4992C9.37799 11.4239 9.62567 11.3532 9.86956 11.2887C10.209 11.1992 10.544 11.1202 10.8681 11.052L10.8946 11.0457C10.6475 10.7747 10.4162 10.4898 10.2019 10.1922C10.0906 10.0379 9.98223 9.87803 9.8767 9.71275Z' fill='%23292929'/><path d='M14.1136 11.3712C13.847 11.3255 13.5768 11.3047 13.3063 11.3091C12.9008 11.3099 12.4959 11.3412 12.095 11.4024C12.5731 11.7958 13.1321 12.0787 13.7321 12.2311C13.8166 12.2523 13.9034 12.263 13.9905 12.2635C14.2966 12.2635 14.5202 12.1234 14.562 11.907C14.6302 11.5554 14.3564 11.4215 14.1136 11.3712Z' fill='%23292929'/><path d='M15.785 0.96983H4.27527C2.48303 0.96983 1.03015 2.42271 1.03015 4.21495V15.7247C1.03015 17.517 2.48303 18.9698 4.27527 18.9698H15.785C17.5773 18.9698 19.0302 17.517 19.0302 15.7247V4.21495C19.0302 2.42271 17.5773 0.96983 15.785 0.96983ZM15.8066 12.3634C15.569 12.9132 14.9924 13.2355 14.3998 13.1495C13.2872 13.1056 12.2265 12.6676 11.4071 11.9137C10.9995 11.9899 10.5645 12.089 10.1118 12.2086C9.69268 12.3194 9.27245 12.4454 8.86102 12.5831C7.69262 14.63 6.57257 15.6676 5.531 15.6676C5.16949 15.6764 4.81799 15.5484 4.54717 15.3087C4.25908 15.047 4.12761 14.6549 4.2 14.2726C4.39995 13.2047 6.2127 12.3058 7.33989 11.8439C7.62425 11.3204 7.88127 10.7828 8.11003 10.233C8.37535 9.5958 8.59672 9.01328 8.80272 8.40733C8.20116 7.31993 8.0822 6.03087 8.47478 4.85167C8.68077 4.49913 9.05571 4.2794 9.4641 4.27159C10.3721 4.27159 10.9588 5.03721 10.9588 6.22179C10.9174 7.11486 10.7479 7.99718 10.4556 8.8424C10.6133 9.11193 10.7869 9.37804 10.9731 9.63586C11.2202 9.98205 11.4944 10.3077 11.7933 10.6105C13.6549 10.337 14.9837 10.5177 15.5731 11.1505C15.8694 11.4806 15.9592 11.9469 15.8066 12.3634Z' fill='%23292929'/></svg>");
+}
+
+/* Adobe Captivate icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(3) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M9.80144 5.73399C9.80144 5.44578 9.73906 5.10142 9.45348 5.10142C9.34263 5.10704 9.24321 5.17124 9.19268 5.27C8.95885 6.0919 9.04253 6.97154 9.42706 7.73472C9.63751 7.08665 9.76329 6.41416 9.80144 5.73399Z' fill='%23292929'/><path d='M5.01662 14.4256C4.99526 14.5294 5.03365 14.6365 5.11611 14.703C5.16903 14.7506 5.23861 14.7755 5.30971 14.7723C5.74379 14.7723 6.48647 14.0045 7.24111 12.7896C5.95901 13.3624 5.09939 13.9903 5.01662 14.4256Z' fill='%23292929'/><path d='M9.8767 9.71275C9.75707 10.0403 9.62676 10.3752 9.48809 10.7101C9.38287 10.9635 9.26202 11.2302 9.13049 11.4992C9.37799 11.4239 9.62567 11.3532 9.86956 11.2887C10.209 11.1992 10.544 11.1202 10.8681 11.052L10.8946 11.0457C10.6475 10.7747 10.4162 10.4898 10.2019 10.1922C10.0906 10.0379 9.98223 9.87803 9.8767 9.71275Z' fill='%23292929'/><path d='M14.1136 11.3712C13.847 11.3255 13.5768 11.3047 13.3063 11.3091C12.9008 11.3099 12.4959 11.3412 12.095 11.4024C12.5731 11.7958 13.1321 12.0787 13.7321 12.2311C13.8166 12.2523 13.9034 12.263 13.9905 12.2635C14.2966 12.2635 14.5202 12.1234 14.562 11.907C14.6302 11.5554 14.3564 11.4215 14.1136 11.3712Z' fill='%23292929'/><path d='M15.785 0.96983H4.27527C2.48303 0.96983 1.03015 2.42271 1.03015 4.21495V15.7247C1.03015 17.517 2.48303 18.9698 4.27527 18.9698H15.785C17.5773 18.9698 19.0302 17.517 19.0302 15.7247V4.21495C19.0302 2.42271 17.5773 0.96983 15.785 0.96983ZM15.8066 12.3634C15.569 12.9132 14.9924 13.2355 14.3998 13.1495C13.2872 13.1056 12.2265 12.6676 11.4071 11.9137C10.9995 11.9899 10.5645 12.089 10.1118 12.2086C9.69268 12.3194 9.27245 12.4454 8.86102 12.5831C7.69262 14.63 6.57257 15.6676 5.531 15.6676C5.16949 15.6764 4.81799 15.5484 4.54717 15.3087C4.25908 15.047 4.12761 14.6549 4.2 14.2726C4.39995 13.2047 6.2127 12.3058 7.33989 11.8439C7.62425 11.3204 7.88127 10.7828 8.11003 10.233C8.37535 9.5958 8.59672 9.01328 8.80272 8.40733C8.20116 7.31993 8.0822 6.03087 8.47478 4.85167C8.68077 4.49913 9.05571 4.2794 9.4641 4.27159C10.3721 4.27159 10.9588 5.03721 10.9588 6.22179C10.9174 7.11486 10.7479 7.99718 10.4556 8.8424C10.6133 9.11193 10.7869 9.37804 10.9731 9.63586C11.2202 9.98205 11.4944 10.3077 11.7933 10.6105C13.6549 10.337 14.9837 10.5177 15.5731 11.1505C15.8694 11.4806 15.9592 11.9469 15.8066 12.3634Z' fill='%23292929'/></svg>");
+}
+
+/* Adobe Learning Manager icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(4) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M7.6568 7.9165H6.5968V9.93982H7.60681C8.31018 9.93982 8.80347 9.65649 8.80347 8.93982C8.80347 8.2865 8.38349 7.9165 7.6568 7.9165Z' fill='%23292929'/><path d='M15.7835 0.969849H4.27682C2.48373 0.969849 1.03018 2.42346 1.03018 4.21643V15.7231C1.03018 17.5162 2.48373 18.9698 4.27682 18.9698H15.7835C17.5766 18.9698 19.0302 17.5162 19.0302 15.7231V4.21644C19.0302 2.42347 17.5766 0.969849 15.7835 0.969849ZM7.73019 11.9032H6.59683V14.2231H4.3035V5.95643H7.53354C9.87686 5.95643 11.1969 7.05311 11.1969 8.8932C11.1969 11.0399 9.40682 11.9032 7.73019 11.9032ZM14.1135 14.3331C13.2502 14.3331 12.4369 14.1865 11.7702 13.8165L11.7635 13.8131L11.7768 11.8998C12.4302 12.3331 13.3435 12.6032 13.9736 12.6032C14.4035 12.6032 14.6036 12.4799 14.6036 12.2565C14.6036 12.0099 14.3335 11.9098 13.8135 11.7499C12.8135 11.4533 11.7168 11.0465 11.7168 9.73988C11.7168 8.43324 12.8135 7.66652 14.4068 7.66652C15.1602 7.66652 15.7768 7.77651 16.3202 8.0132L16.3069 9.83986C15.8769 9.57985 15.0235 9.34657 14.4702 9.34657C14.0635 9.34657 13.9035 9.46986 13.9035 9.65651C13.9035 9.87978 14.1002 9.93984 14.6935 10.1266C15.8402 10.4732 16.8035 10.8431 16.8035 12.1865C16.8035 13.5299 15.7535 14.3331 14.1135 14.3331Z' fill='%23292929'/></svg>");
+}
+
+/* Adobe Connect icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(5) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M8.14087 8.22649L9.04126 11.0016H7.24048L8.14087 8.22649ZM19.0302 4.21489V15.7248C19.0302 17.517 17.5773 18.9698 15.7851 18.9698H4.27521C2.48303 18.9698 1.03015 17.517 1.03015 15.7248V4.21489C1.03015 2.42265 2.48303 0.969833 4.27521 0.969833H15.7851C17.5773 0.969833 19.0302 2.42265 19.0302 4.21489ZM12.5071 14.2209L9.54681 5.95695H6.90734L3.86077 14.2209H6.17962L6.58666 12.9628H9.68255L10.0896 14.2209H12.5071ZM15.1755 7.7824H13.017V14.2209H15.1755V7.7824ZM15.2125 6.49968C15.2125 5.91991 14.7809 5.52525 14.1025 5.52525C13.4118 5.52525 12.9553 5.90764 12.9553 6.49968C12.9553 7.10399 13.387 7.4987 14.1025 7.4987C14.7809 7.4987 15.2125 7.09172 15.2125 6.49968Z' fill='%23292929'/></svg>");
 }
 
 .cmp-experiencefragment--footer #footer-products .button .cmp-button:hover {
@@ -168,6 +184,7 @@ it.
 .cmp-experiencefragment--footer #footer-products .button .cmp-button__text {
     font-weight: 400;
     font-size: 0.8125rem;
+    line-height: 1;
 }
 
 /* =============================================
@@ -178,11 +195,6 @@ it.
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
-}
-
-.cmp-experiencefragment--footer #footer-bottom > .cmp-container > .aem-Grid {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -191,18 +203,14 @@ it.
 
 /* --- Left side: Region + Social Icons --- */
 .cmp-experiencefragment--footer #footer-bottom-left {
-    flex-shrink: 0;
-    display: flex;
-}
-
-.cmp-experiencefragment--footer #footer-bottom-left > .cmp-container > .aem-Grid {
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-shrink: 0;
 }
 
 /* Globe icon before "Change region" text */
-.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p {
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p {
     display: inline-flex;
     align-items: center;
     gap: 0.375rem;
@@ -213,7 +221,7 @@ it.
     cursor: pointer;
 }
 
-.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p::before {
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -223,7 +231,7 @@ it.
     background-repeat: no-repeat;
 }
 
-.cmp-experiencefragment--footer #footer-bottom-left .text .cmp-text p::after {
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p::after {
     content: "";
     display: inline-block;
     width: 0.5rem;
@@ -236,7 +244,7 @@ it.
 }
 
 /* Social icons */
-.cmp-experiencefragment--footer #footer-bottom-left .image {
+.cmp-experiencefragment--footer #footer-bottom-left > .image {
     flex-shrink: 0;
 }
 
@@ -248,7 +256,7 @@ it.
 }
 
 /* Add a small left-separator before social icons group */
-.cmp-experiencefragment--footer #footer-bottom-left .image:first-of-type {
+.cmp-experiencefragment--footer #footer-bottom-left > .image:first-of-type {
     margin-left: 0.5rem;
     padding-left: 1rem;
     border-left: 1px solid #e0e0e0;
@@ -256,18 +264,15 @@ it.
 
 /* --- Right side: Copyright + Legal Links --- */
 .cmp-experiencefragment--footer #footer-bottom-right {
-    flex-shrink: 0;
-}
-
-.cmp-experiencefragment--footer #footer-bottom-right > .cmp-container > .aem-Grid {
     display: flex;
     align-items: center;
     gap: 0.25rem;
     flex-wrap: wrap;
     justify-content: flex-end;
+    flex-shrink: 0;
 }
 
-.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p {
+.cmp-experiencefragment--footer #footer-bottom-right > .text .cmp-text p {
     font-size: 0.6875rem;
     color: #6e6e6e;
     margin: 0;
@@ -284,13 +289,13 @@ it.
 }
 
 /* AdChoices — with a small triangle icon */
-.cmp-experiencefragment--footer #footer-bottom-right .text:last-child .cmp-text p {
+.cmp-experiencefragment--footer #footer-bottom-right > .text:last-child .cmp-text p {
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
 }
 
-.cmp-experiencefragment--footer #footer-bottom-right .text:last-child .cmp-text p::before {
+.cmp-experiencefragment--footer #footer-bottom-right > .text:last-child .cmp-text p::before {
     content: "";
     display: inline-block;
     width: 0.875rem;
@@ -305,48 +310,37 @@ it.
    ============================================= */
 @media (max-width: 768px) {
     /* Row 1: Stack columns vertically */
-    .cmp-experiencefragment--footer #footer-links > .cmp-container > .aem-Grid {
+    .cmp-experiencefragment--footer #footer-links {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-    }
-
-    .cmp-experiencefragment--footer #footer-links {
         padding: 2rem 1.5rem;
-        display: flex;
-        justify-content: space-between;
     }
 
     /* Row 2: Stack products vertically */
-    .cmp-experiencefragment--footer #footer-products > .cmp-container > .aem-Grid {
+    .cmp-experiencefragment--footer #footer-products {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.75rem;
-    }
-
-    .cmp-experiencefragment--footer #footer-products {
         padding: 1rem 1.5rem;
     }
 
     /* Row 3: Stack bottom bar vertically */
-    .cmp-experiencefragment--footer #footer-bottom > .cmp-container > .aem-Grid {
+    .cmp-experiencefragment--footer #footer-bottom {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .cmp-experiencefragment--footer #footer-bottom {
         padding: 1rem 1.5rem;
     }
 
-    .cmp-experiencefragment--footer #footer-bottom-left > .cmp-container > .aem-Grid {
+    .cmp-experiencefragment--footer #footer-bottom-left {
         flex-wrap: wrap;
     }
 
-    .cmp-experiencefragment--footer #footer-bottom-right > .cmp-container > .aem-Grid {
+    .cmp-experiencefragment--footer #footer-bottom-right {
         justify-content: flex-start;
         flex-wrap: wrap;
     }
 
-    .cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p {
+    .cmp-experiencefragment--footer #footer-bottom-right > .text .cmp-text p {
         white-space: normal;
     }
 }
