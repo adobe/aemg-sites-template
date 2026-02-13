@@ -20,21 +20,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     id="header-left">
-                <image
+                <adobe_logo
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/image/v2/image"
-                        alt="AEMG"
-                        altValueFromDAM="false"
-                        displayPopupTitle="true"
-                        fileReference="/content/dam/aemg-docs/tragopan.svg"
-                        isDecorative="false"
-                        linkURL="/content/aemg-docs/en/docs"
-                        titleValueFromDAM="true"/>
-                <button
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="AEMG"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/docs"/>
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="adobe-logo"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Coldfusion Family"
