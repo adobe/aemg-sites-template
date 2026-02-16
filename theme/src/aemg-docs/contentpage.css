@@ -54,6 +54,69 @@ it.
     }
 }
 
+#status-banner {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 3.3755rem;
+    background-color: #F8F8F8;
+    justify-content: center;
+
+    .container {
+        display: flex;
+    
+    }
+
+    > .cmp-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.5rem 1rem;
+    }
+
+    #status-dot-icon {
+        width: 1.5rem;
+        height: 1.625rem;
+        flex-shrink: 0;
+        background-image: url("data:image/svg+xml;utf8,<svg width='50' height='54' viewBox='0 0 50 54' fill='none' xmlns='http://www.w3.org/2000/svg'><g filter='url(%23filter0_d_496_2050)'><circle cx='25' cy='27' r='5' fill='%23079355'/></g><defs><filter id='filter0_d_496_2050' x='0' y='2' width='50' height='50' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/><feOffset/><feGaussianBlur stdDeviation='10'/><feComposite in2='hardAlpha' operator='out'/><feColorMatrix type='matrix' values='0 0 0 0 0.027451 0 0 0 0 0.576471 0 0 0 0 0.333333 0 0 0 1 0'/><feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_496_2050'/><feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_496_2050' result='shape'/></filter></defs></svg>");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #status-banner-text {
+        p {
+            margin-bottom: 0rem !important;
+            color: var(--C1-Text-text, #2C2C2C);
+            font-family: var(--Font-adobe-clean, "Adobe Clean");
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #status-banner > .cmp-container {
+        padding: 0.5rem 0.75rem;
+        gap: 0.125rem;
+    }
+
+    #status-banner #status-banner-text .cmp-text p {
+        font-size: 0.75rem;
+    }
+}
+
 #hero-banner {
     display: flex;
     flex-direction: column;
@@ -185,17 +248,22 @@ it.
             background: white;
             border-radius: 2rem;
             border: 0;
+            display: flex;
             margin-top: 1.5rem;
+            justify-content: center;
             .cmp-search-bar__field{
                 height: 3rem;
-                border: 2px solid #B8C9FF;
+                border: 2px solid #7A6AFD;
                 border-radius: 2rem;
                 background-color: #F5F9FF80;
-                padding: 0 1rem;
                 &:focus-within{
                     border-color: #4B75FF;
                     box-shadow: 0 0 0 3px rgba(75, 117, 255, 0.15);
                 }
+            }
+            .cmp-search-bar {
+                min-width: 12.5rem;
+                width: 48rem;
             }
         }
         #search-presets{
