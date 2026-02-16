@@ -177,16 +177,16 @@ select {
 }
 #topic-page{
   /* height: 100%; */
-  font-family: Roboto;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
 }
 #category-page {
-  font-family: Roboto;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
 }
 #search-page-content {
-  font-family: Roboto;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
 }
 #refs-title-container {
-  font-family: Roboto;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
 }
 
 *[data-tcx-rotate = '270deg'] {
