@@ -72,9 +72,14 @@ const fixCSS = () => {
     if(centerWrapper != null) {
       let height = centerWrapper.getBoundingClientRect().height
 
-      const mini_toc: any = document.querySelector('.cmp-mini-toc');
-      if(mini_toc !== null) {
-        mini_toc.style.height = `${height}px`;
+      const minitoc_wrapper: any = document.querySelector('#minitoc-wrapper');
+      if(minitoc_wrapper !== null) {
+        minitoc_wrapper.style.height = `${height}px`;
+      } else {
+        const mini_toc: any = document.querySelector('.cmp-mini-toc');
+        if(mini_toc !== null) {
+          mini_toc.style.height = `${height}px`;
+        }
       }
       parent_toc_container.style.minHeight = `${height}px`;
     }

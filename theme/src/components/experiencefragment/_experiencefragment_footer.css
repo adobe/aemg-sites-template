@@ -10,9 +10,17 @@ it.
 /* =============================================
    Footer Experience Fragment — Base
    ============================================= */
+
+.experiencefragment.footer {
+    background-color: var(--color-gray-100, #F8F8F8) !important;
+
+    .container {
+        background-color: var(--color-gray-100, #F8F8F8) !important;
+    }
+}
+
 .cmp-experiencefragment--footer {
-    background-color: #ffffff !important;
-    color: #2c2c2c;
+    background-color: var(--color-gray-100, #F8F8F8) !important;
     font-size: 0.8125rem;
     line-height: 1.6;
 

@@ -17,6 +17,21 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/header/master"/>
+            <status-banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="status-banner">
+                <status-dot-icon
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="status-dot-icon"/>
+                <status-banner-text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>Whatever message this page gives is out now!  &lt;a href='#'>Go check it out!&lt;/a>&lt;/p>"
+                    textIsRich="true"
+                    id="status-banner-text"/>
+            </status-banner>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
@@ -119,14 +134,85 @@
                             layout="responsiveGrid">
                     </container_copy>
                 </container1>
-                <toc_2
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="guides-components/components/minitoc"
-                collectAllPages="true"
-                disableShadowing="false"
-                structureDepth="4"
-                structureStart="1"
-                templateNavigationRoot="/conf/aemg-docs/settings/wcm/templates/kb-content"/>
+                <minitoc_wrapper
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="minitoc-wrapper">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
+                    </cq:responsive>
+                    <toc_2
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/minitoc"
+                        collectAllPages="true"
+                        disableShadowing="false"
+                        structureDepth="4"
+                        structureStart="1"
+                        templateNavigationRoot="/conf/aemg-docs/settings/wcm/templates/kb-content"/>
+                    <sidebar_banners
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="sidebar-banners">
+                        <banner_1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="sidebar-banner-1">
+                            <banner_1_image
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="sidebar-banner-1-image"/>
+                            <banner_1_content
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="sidebar-banner-1-content">
+                                <banner_1_text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Please upgrade your plan to the Enterprise level&lt;/p>"
+                                    textIsRich="true"
+                                    id="sidebar-banner-1-text"/>
+                                <banner_1_link
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
+                                    textIsRich="true"
+                                    id="sidebar-banner-1-link"/>
+                            </banner_1_content>
+                        </banner_1>
+                        <banner_2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="sidebar-banner-2">
+                            <banner_2_image
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="sidebar-banner-2-image"/>
+                            <banner_2_content
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="sidebar-banner-2-content">
+                                <banner_2_text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>&lt;b>Live Demo&lt;/b>: Creating and Publishing a Content Card Campaign (11 min)&lt;/p>"
+                                    textIsRich="true"
+                                    id="sidebar-banner-2-text"/>
+                                <banner_2_link
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
+                                    textIsRich="true"
+                                    id="sidebar-banner-2-link"/>
+                            </banner_2_content>
+                        </banner_2>
+                    </sidebar_banners>
+                </minitoc_wrapper>
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
