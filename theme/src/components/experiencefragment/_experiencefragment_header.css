@@ -87,6 +87,10 @@ it.
     line-height: 1.4;
 }
 
+#header-left > .button .cmp-button__text {
+    line-height: 1;
+}
+
 #header-left > .button .cmp-button:hover {
     color: #1473E6;
 }
@@ -136,11 +140,6 @@ it.
     height: 2rem;
     align-items: center;
     min-width: 10rem;
-}
-
-#header-right .cmp-search-bar__field .cmp-search-bar__icon,
-#header-right .cmp-search-bar__field .cmp-search-bar__clear-icon {
-    top: 0.4rem;
 }
 
 /* Icons container (bell, grid, avatar) */
