@@ -255,11 +255,14 @@ it.
                 height: 3rem;
                 border: 2px solid #7A6AFD;
                 border-radius: 2rem;
-                background-color: #F5F9FF80;
+                box-shadow: 0 0 15px rgba(123, 108, 255, 0.5);
                 &:focus-within{
                     border-color: #4B75FF;
                     box-shadow: 0 0 0 3px rgba(75, 117, 255, 0.15);
                 }
+                display: flex !important;
+                flex-direction: row-reverse !important;
+                padding: 0rem 0.75rem !important;
             }
             .cmp-search-bar {
                 min-width: 12.5rem;
