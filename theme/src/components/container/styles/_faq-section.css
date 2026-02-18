@@ -272,23 +272,8 @@ it.
   background: var(--C1-Web-Accent-info-accent-light, #dedef9);
 }
 
-#faq-help-banner > .cmp-container,
-#faq-help-banner > .aem-Grid {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 0.25rem;
-  background-color: transparent;
-  border-radius: 0;
-  padding: 0 3rem;
-  width: 100%;
-  height: 100%;
-}
-
 /* Help icon via pseudo-element */
-#faq-help-banner > .cmp-container::before,
-#faq-help-banner > .aem-Grid::before {
+#faq-help-banner::before {
   content: "";
   display: inline-block;
   width: 1.5rem;
@@ -369,10 +354,6 @@ it.
     width: 100%;
     height: auto;
     min-height: 3.375rem;
-  }
-
-  #faq-help-banner > .cmp-container,
-  #faq-help-banner > .aem-Grid {
     flex-direction: column !important;
     text-align: center;
     padding: 0.75rem 1rem;

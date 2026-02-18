@@ -42,7 +42,8 @@ it.
 
   a {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    @apply focus:ring-0 focus:ring-transparent;
   }
    #topic-page .cmp-breadcrumb__item-link {
      color: #001938;

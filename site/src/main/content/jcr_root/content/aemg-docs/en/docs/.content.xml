@@ -90,7 +90,8 @@
                                 sling:resourceType="guides-components/components/searchbar"
                                 hideButton="true"
                                 resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"/>
+                                searchRoot="/content/aemg-docs/en/docs/product1"
+                                placeholder="Search for anything, instantly"/>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
