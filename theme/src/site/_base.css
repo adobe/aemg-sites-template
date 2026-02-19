@@ -60,11 +60,11 @@ select {
 }
 
 #topic-container {
-  width: 90%;
   min-height: 24.25rem;
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
+  font-family: "Adobe Clean";
+  padding: 0rem 5rem;
 }
 #topic-container .title h1 {
   margin-bottom : 0.75rem;
