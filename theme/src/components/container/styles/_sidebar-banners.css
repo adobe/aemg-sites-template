@@ -13,7 +13,6 @@
 #minitoc-wrapper {
     width: 14.25rem;
     margin-right: 2rem;
-    margin-top: 1.5rem;
     margin-left: 3rem;
     position: relative;
 }
@@ -32,7 +31,7 @@
 
 #minitoc-wrapper .cmp.cmp-mini-toc {
     width: 100% !important;
-    margin: 0 !important;
+    margin: 3rem 0rem !important;
     position: relative;
     height: auto !important;
 }

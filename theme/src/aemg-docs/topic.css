@@ -20,8 +20,6 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) abbr, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) article, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) aside, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) audio, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) b, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) big, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) blockquote, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) canvas, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) caption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) center, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) cite, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) code, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) del, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) details, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dfn, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) div, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dl, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) dt, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) em, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) embed, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) fieldset, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figcaption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figure, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) footer, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) form, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h1, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h2, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h3, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h4, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h5, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) h6, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) header, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) hgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) html, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) i, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) iframe, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) img, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ins, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) kbd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) label, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) legend, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) li, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) mark, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) menu, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) nav, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) object, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) output, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) p, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) pre, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) q, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ruby, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) s, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) samp, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) section, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) small, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) span, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) strike, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) strong, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sub, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) summary, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) sup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tbody, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) td, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tfoot, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) th, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) thead, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) time, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tr, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) tt, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) u, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ul, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) var, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) video {
-  margin: 0;
-  padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
@@ -184,11 +182,9 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .title {
-  font-size: 2em;
-  line-height: 1.2em;
-  font-weight: normal;
-  margin-top: 0.2em;
-  margin-bottom: 0.8em;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section > .title {
@@ -389,7 +385,7 @@ it.
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
   margin-bottom: 1em;
-  border: 1px solid #eee;
+  border: 1px solid #131313;
   width: 100%;
   margin-top: 0.5em;
 }
@@ -405,14 +401,16 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child {
-  font-size: 12px;
   text-align: left;
-  background: #fafafa;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  color: #888;
+  background: #EBEEFF;
+  border: 1px solid #131313;
+  color: #222222;
   line-height: 14px;
   padding: 0.5em 1em;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0%;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .strow {
@@ -420,13 +418,11 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .sthead .stentry {
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
+  border: 1px solid #131313;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .rowsep .row, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.rowsep, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .strow {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border: 1px solid #131313;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.top, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody.top {
