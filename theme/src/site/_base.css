@@ -13,6 +13,8 @@ html {
 }
 body {
   height: 100%;
+  font-family: "Adobe Clean";
+  font-size: 18px;
 }
 .root {
   height: 100%;
@@ -47,7 +49,7 @@ select {
 }
 #section-page {
   min-height: calc(100% - 18.375rem);
-  font-family: Roboto;
+  font-family: "Adobe Clean";
 }
 #section-page-content .title {
   font-weight: 900;
