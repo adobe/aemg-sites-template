@@ -400,7 +400,8 @@ it.
   margin-top: 2em;
 }
 
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child {
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:not(:has(.thead)) > .tbody > .row:first-child > .entry {
   text-align: left;
   background: #EBEEFF;
   border: 1px solid #131313;

@@ -250,9 +250,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/footer/master"/>
-            <conversationalsearch
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="guides-components/components/conversationalsearch"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
