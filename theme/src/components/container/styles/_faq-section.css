@@ -190,8 +190,8 @@ it.
   margin: 0 !important;
   padding: 0 !important;
   padding-right: 2rem !important;
-  font-size: 0.9375rem !important;
-  font-weight: 500 !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
   color: #2c2c2c !important;
   line-height: 1.5 !important;
 }
@@ -217,11 +217,12 @@ it.
 
 [id^="faq-item-"].faq-item--expanded .cmp-title {
   background-color: #f8f8f8;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
 }
 
 [id^="faq-item-"].faq-item--expanded .cmp-title__text {
   color: #2c2c2c !important;
-  font-weight: 500 !important;
 }
 
 [id^="faq-item-"].faq-item--expanded .cmp-title::after {
@@ -239,7 +240,8 @@ it.
 
 [id^="faq-item-"] .cmp-text p {
   margin: 0 !important;
-  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
   color: #2c2c2c !important;
   line-height: 1.7 !important;
 }

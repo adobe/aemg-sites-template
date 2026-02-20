@@ -207,7 +207,7 @@ it.
 #side-drawer {
     position: absolute;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     right: 0;
     top: 3.5rem;
@@ -247,15 +247,35 @@ it.
     width: fit-content;
 }
 
-/* ===== Desktop / Mobile visibility ===== */
+/* ===== Desktop / Mobile visibility (media-query defaults for FOUC prevention) ===== */
 
-/* Desktop: hide mobile containers */
+@media (min-width: 768px) {
+    #mobileview-button-container {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .cmp-experiencefragment--header #header-left > .button {
+        display: none;
+    }
+
+    .cmp-experiencefragment--header #header-right {
+        display: none;
+    }
+
+    #mobileview-button-container {
+        display: flex;
+    }
+}
+
+/* ===== JS-enhanced desktop/mobile overrides ===== */
+
 .experiencefragment.header.desktop #mobileview-button-container,
 .experiencefragment.header.desktop #side-drawer {
     display: none !important;
 }
 
-/* Mobile: hide nav buttons (keep logo), hide right column, show mobile containers */
 .experiencefragment.header.mobile #header-left > .button {
     display: none;
 }

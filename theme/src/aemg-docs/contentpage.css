@@ -51,6 +51,7 @@ it.
     }
     a {
         color: rgba(55, 142, 240, 1);
+        font-weight: 700;
     }
 }
 
@@ -90,13 +91,13 @@ it.
             margin-bottom: 0rem !important;
             color: var(--C1-Text-text, #2C2C2C);
             font-family: var(--Font-adobe-clean, "Adobe Clean");
-            font-size: 0.875rem;
+            font-size: 1rem;
             font-weight: 400;
             line-height: 1.5;
         }
 
         a {
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
 
             &:hover {
