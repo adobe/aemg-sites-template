@@ -61,11 +61,18 @@
                         sling:resourceType="guides-components/components/searchbar"
                         resultpage="/content/aemg-docs/en/search"
                         searchRoot="/content/aemg-docs/en/docs"/>
+                <askdoc_button
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AskDoc"
+                        sling:resourceType="core/wcm/components/button/v1/button"
+                        id="askdoc-header-btn"/>
+                <askdoc_panel
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/askdoc"/>
                 <container_icons
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="header-icons">
-                </container_icons>
+                        id="header-icons"/>
             </container_right>
             <container4
                         jcr:primaryType="nt:unstructured"
