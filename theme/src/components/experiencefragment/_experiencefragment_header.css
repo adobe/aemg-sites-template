@@ -125,7 +125,7 @@ it.
 #header-right {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1rem;
     flex-shrink: 0;
 }
 
@@ -140,6 +140,58 @@ it.
     height: 2rem;
     align-items: center;
     min-width: 10rem;
+}
+
+/* AskDoc button */
+#askdoc-header-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    padding: 0.25rem 0.75rem 0.25rem 0.5rem;
+    height: 2rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #2c2c2c;
+    border: 2px solid transparent;
+}
+
+#askdoc-header-btn::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 1.25rem;
+    padding: 2px;
+    background: linear-gradient(95.85deg, #D73220 0%, #D92361 33%, #7155FA 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+#askdoc-header-btn.cmp-button:hover {
+    border-color: #1473E6;
+    background-color: #f5f5f5;
+}
+
+#askdoc-header-btn .askdoc-icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+
+#askdoc-header-btn .cmp-button__text {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    line-height: 1;
 }
 
 /* Icons container (bell, grid, avatar) */

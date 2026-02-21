@@ -102,7 +102,7 @@ it.
 }
 #cmp-search-page-result{
   min-height: 36.5rem;
-  padding: 2rem 10rem;
+  padding: 2rem 0rem;
 }
 
 #cmp-search-page-result .search__field--view {
