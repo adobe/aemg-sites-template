@@ -43,7 +43,7 @@ it.
   content: none;
 }
 
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
+#topic-container.cmp-dita-topic-content table {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -445,6 +445,7 @@ it.
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry {
   padding: 0.5em 1em;
   vertical-align: top;
+  border: 1px solid #131313;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li.stepsection {
