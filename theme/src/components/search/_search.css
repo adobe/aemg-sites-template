@@ -43,6 +43,8 @@ it.
 #topic-page .cmp-search-bar__input,
 #page-content .cmp-search-bar__input {
   background: transparent;
+  -webkit-box-shadow: inset 0 0 0 9999px transparent;
+  border-radius: 2rem;
 }
 .cmp-search__loading-indicator {}
 .cmp-search__clear {}

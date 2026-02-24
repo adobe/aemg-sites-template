@@ -19,11 +19,6 @@ it.
   font-size: 16px;
 }
 
-  
-.cmp-pager__prev span,
-.cmp-pager__next span {
-  @apply hidden;
-}
 
 .cmp-pager__prev a,
 .cmp-pager__next a {
@@ -41,16 +36,7 @@ it.
   @apply flex-1 text-right ;
 }
 
-.cmp-pager__next::after {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23222222"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>');
-  margin: -3px -5px 0 2px;
-}
-
 .cmp-pager__prev {
   @apply flex-1 text-left;
 }
 
-.cmp-pager__prev::before {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23222222"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>');
-  margin: -3px 2px 0 -5px;
-}
