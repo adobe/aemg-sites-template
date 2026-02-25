@@ -14,7 +14,11 @@
     width: 14.25rem;
     margin-right: 2rem;
     margin-left: 3rem;
-    position: relative;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    overflow: auto;
 }
 
 #minitoc-wrapper > .cmp-container {
@@ -27,18 +31,6 @@
 
 #minitoc-wrapper > .cmp-container::-webkit-scrollbar {
     display: none;
-}
-
-#minitoc-wrapper .cmp.cmp-mini-toc {
-    width: 100% !important;
-    margin: 3rem 0rem !important;
-    position: relative;
-    height: auto !important;
-}
-
-#minitoc-wrapper .mini-toc-main {
-    position: relative;
-    top: 0;
 }
 
 /* === Banners container === */

@@ -250,11 +250,11 @@ select {
 /* When mini-toc is inside the wrapper, reset its sizing and sticky */
 #minitoc-wrapper .cmp.cmp-mini-toc {
   width: 100% !important;
-  margin: 0 !important;
-  margin-top: 0 !important;
-  position: relative;
-  height: auto !important;
-  min-height: 50vh;
+  margin: 3rem 0 !important;
+  height: 40vh;
+  top: 0;
+  position: sticky;
+  overflow: auto;
 }
 
 #minitoc-wrapper .mini-toc-main {
