@@ -43,7 +43,7 @@ it.
   content: none;
 }
 
-#topic-container.cmp-dita-topic-content table {
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
   border-collapse: collapse;
   border-spacing: 0;
 }
