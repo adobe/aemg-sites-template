@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>&#x1f4e6; Learn what's new in ColdFusion (2025 release)!&#xa0; &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
+                    text="&lt;p>Learn what's new in ColdFusion (2025 release)!&#xa0; &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
                     textIsRich="true"/>
                     <hero_banner
                             jcr:primaryType="nt:unstructured"
@@ -84,7 +84,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="Search through all our assets instantly"/>
+                                text="Get answers, find assets, access our help instantly"/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -95,7 +95,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/en/search"
                                     searchRoot="/content/aemg-docs/en/docs/product1"
-                                    placeholder="Search for anything, instantly"/>
+                                    placeholder="Ask anything about ColdFusion"/>
                                 <askdoc_button
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="AskDoc"
@@ -109,20 +109,26 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="What solutions help with code supply chain demands"/>
+                                    text="When should I use MCP vs direct API calls?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How does ColdFusion help in integrating my server with my client's"/>
+                                    text="When should I use MCP vs direct API calls?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How can I create professional quality codeblocks"/>
+                                    text="How do I connect to multiple MCP servers?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How can I export the code library"/>
+                                    text="Do I need an LLM to use MCP?"/>
                             </search_presets>
+                            <disclaimer_text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="search-disclaimer"
+                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;span>Terms.&lt;/span>&lt;/p>"
+                                textIsRich="true"/>
                         </container>
                     </container_482659403_>
                     <getstarted_section
