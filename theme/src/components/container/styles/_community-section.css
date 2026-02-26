@@ -13,8 +13,8 @@ it.
 #community-section {
   width: 100%;
   display: flex;
-  padding: 5rem 15% 5rem 15% !important;
-  gap: 5rem !important;
+  padding: 5rem 22.5rem !important;
+  gap: 1.5rem !important;
   background: var(--C1-Background-standard, #1E1E1E);
   box-sizing: border-box;
 }
@@ -68,8 +68,8 @@ it.
 #community-heading h2 {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 1.625rem !important;
-  font-weight: 600 !important;
+  font-size: 2.75rem !important;
+  font-weight: 700 !important;
   color: #ffffff !important;
   line-height: 1.3 !important;
 }
@@ -92,7 +92,7 @@ it.
 #community-buttons {
   margin-top: 0.5rem;
   display: flex !important;
-  gap: 2.5rem !important;
+  gap: 1rem !important;
 }
 
 #community-buttons > .cmp-container,
@@ -229,7 +229,7 @@ it.
   font-size: 0.875rem !important;
   font-weight: 400 !important;
   line-height: 1.4 !important;
-  border-radius: 9999px !important;
+  border-radius: 0.5rem !important;
   background-color: transparent !important;
   color: #ffffff !important;
   border: 1.5px solid rgba(255, 255, 255, 0.7) !important;

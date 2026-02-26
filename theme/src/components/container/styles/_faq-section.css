@@ -36,8 +36,7 @@ it.
 #faq-heading .cmp-title,
 #faq-heading .cmp-title__text,
 #faq-heading h2 {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin-bottom: 1.5rem !important;
   font-size: 2.75rem !important;
   font-weight: 700 !important;
   color: #2c2c2c !important;
@@ -93,8 +92,8 @@ it.
   align-items: center !important;
   justify-content: center !important;
   padding: 1rem 0.5rem !important;
-  font-size: 0.9375rem !important;
-  font-weight: 500 !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
   line-height: 1.6 !important;
   border-radius: 1rem !important;
   color: #000000 !important;
@@ -164,8 +163,15 @@ it.
 /* ===== FAQ Items / Accordion ===== */
 [id^="faq-item-"] {
   width: 100%;
-  border-left: 2px solid transparent;
   transition: border-color 0.2s ease;
+
+  .title {
+    border-top: 1px solid #909090 !important;
+  }
+}
+
+[id^="faq-panel-"] > div:nth-child(4) > [id^="faq-item-"] {
+  border-bottom: 1px solid #6e6e6e;
 }
 
 [id^="faq-item-"] > .cmp-container,
@@ -190,7 +196,7 @@ it.
   margin: 0 !important;
   padding: 0 !important;
   padding-right: 2rem !important;
-  font-size: 1rem !important;
+  font-size: 1.125rem !important;
   font-weight: 700 !important;
   color: #2c2c2c !important;
   line-height: 1.5 !important;
@@ -211,8 +217,8 @@ it.
 }
 
 /* Expanded state - item */
-[id^="faq-item-"].faq-item--expanded {
-  border-left: 2px solid #3b63fb;
+[id^="faq-item-"].faq-item--expanded .title{
+  border-left: 2px solid #3B63FB;
 }
 
 [id^="faq-item-"].faq-item--expanded .cmp-title {
@@ -257,7 +263,7 @@ it.
 
 /* Expanded answer */
 [id^="faq-item-"].faq-item--expanded .cmp-text {
-  max-height: 500px;
+  max-height: 68px;
   padding: 1rem !important;
 }
 
@@ -269,9 +275,17 @@ it.
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0;
+  border-radius: 0.75rem;
   height: 3.375rem;
-  background: var(--C1-Web-Accent-info-accent-light, #dedef9);
+  background: var(--C1-Web-Accent-info-accent-light, #dedef9); 
+
+  .text {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5rem !important;
+    color: #222222 !important;
+    text-decoration: none !important;
+  }
 }
 
 /* Help icon via pseudo-element */
