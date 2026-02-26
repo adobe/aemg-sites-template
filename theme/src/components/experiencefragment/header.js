@@ -66,34 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerButton.innerHTML = hamburgerOpenSvg;
   }
 
-  /* ===== Inject AskDoc sparkle icon + click handler ===== */
-  const askdocBtn = document.querySelector('#askdoc-header-btn');
-  if (askdocBtn) {
-    askdocBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      window.dispatchEvent(new CustomEvent('askdoc:open', {
-        detail: { query: '' }
-      }));
-    });
-  }
-
   /* ===== Inject right-side icons into #header-icons ===== */
   if (headerIcons) {
     headerIcons.innerHTML = bellIconSvg + gridIconSvg + avatarSvg;
-  }
-
-  /* ===== Inject chevron after "Adobe Coldfusion Family" button ===== */
-  const headerLeft = document.querySelector('#header-left');
-  if (headerLeft) {
-    // The second .button in #header-left is "Adobe Coldfusion Family"
-    const buttons = headerLeft.querySelectorAll(':scope > .button');
-    if (buttons.length >= 2) {
-      const cfFamilyBtn = buttons[0]; // 0 = brand "AEMG", 1 = "Adobe Coldfusion Family"
-      const btnLink = cfFamilyBtn.querySelector('.cmp-button');
-      if (btnLink) {
-        btnLink.insertAdjacentHTML('beforeend', chevronDownSvg);
-      }
-    }
   }
 
   /* ===== Desktop / Mobile toggle ===== */
@@ -138,3 +113,48 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 setTimeout(function () { setHeader(); }, 1000);
+
+/* ===== AskDoc / Flameback widget state & handlers ===== */
+var flamebackOpen = false;
+
+document.addEventListener('click', function (e) {
+  var btn = e.target.closest('#askdoc-header-btn, #askdoc-search-btn');
+  if (!btn) return;
+  e.preventDefault();
+  console.log('[AskDoc] Button clicked:', btn.id);
+  var searchInput = document.querySelector('.cmp-search-bar__input');
+  console.log('[AskDoc] Search input found:', !!searchInput);
+  var question = searchInput ? searchInput.value.trim() : '';
+  console.log('[AskDoc] Question:', question || '(empty)');
+  if (question) {
+    console.log('[AskDoc] Dispatching fb-widget-ask with question:', question);
+    document.dispatchEvent(new CustomEvent('fb-widget-ask', {
+      detail: { question: question }
+    }));
+    flamebackOpen = true;
+  } else if (window.FlamebackWidget) {
+    console.log('[AskDoc] Input empty — calling FlamebackWidget.toggle()');
+    window.FlamebackWidget.toggle();
+    flamebackOpen = !flamebackOpen;
+  } else {
+    console.log('[AskDoc] Input empty and FlamebackWidget not available on window');
+  }
+});
+
+document.addEventListener('fb-widget-opened', function () {
+  flamebackOpen = true;
+  console.log('[AskDoc] Widget opened — tracking state');
+});
+document.addEventListener('fb-widget-closed', function () {
+  flamebackOpen = false;
+  console.log('[AskDoc] Widget closed — tracking state');
+});
+
+document.addEventListener('click', function (e) {
+  if (!flamebackOpen || !window.FlamebackWidget) return;
+  if (e.target.closest('#askdoc-header-btn, #askdoc-search-btn')) return;
+  if (e.target.closest('iframe')) return;
+  console.log('[AskDoc] Outside click detected — calling FlamebackWidget.close()');
+  window.FlamebackWidget.close();
+  flamebackOpen = false;
+});

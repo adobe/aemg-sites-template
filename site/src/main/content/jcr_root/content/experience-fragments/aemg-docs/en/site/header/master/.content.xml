@@ -39,11 +39,6 @@
                         jcr:title="Certification"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="/content/aemg-docs/en/support"/>
-                <button4
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Help &amp; Support"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
                 <buttonFreeTrial
                         cq:styleIds="[button--Primary]"
                         jcr:primaryType="nt:unstructured"
@@ -66,9 +61,6 @@
                         jcr:title="AskDoc"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         id="askdoc-header-btn"/>
-                <askdoc_panel
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/askdoc"/>
                 <container_icons
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"

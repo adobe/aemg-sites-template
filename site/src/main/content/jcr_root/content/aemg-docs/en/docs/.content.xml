@@ -85,13 +85,23 @@
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
                                 text="Search through all our assets instantly"/>
-                            <searchbar
+                            <search_row
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/searchbar"
-                                hideButton="true"
-                                resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"
-                                placeholder="Search for anything, instantly"/>
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-row">
+                                <searchbar
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="guides-components/components/searchbar"
+                                    hideButton="true"
+                                    resultpage="/content/aemg-docs/en/search"
+                                    searchRoot="/content/aemg-docs/en/docs/product1"
+                                    placeholder="Search for anything, instantly"/>
+                                <askdoc_button
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="AskDoc"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="askdoc-search-btn"/>
+                            </search_row>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"

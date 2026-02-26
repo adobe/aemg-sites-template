@@ -60,10 +60,6 @@ it.
     align-items: center;
     gap: 1.25rem;
     flex-shrink: 0;
-
-    span {
-        margin-bottom: -3px;
-    }
 }
 
 #adobe-logo {
