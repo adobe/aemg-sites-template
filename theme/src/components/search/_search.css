@@ -38,7 +38,6 @@ it.
   &::placeholder {
     @apply italic text-gray-500;
   }
-  padding: .5rem .75rem .5rem 0 !important;
 }
 #topic-page .cmp-search-bar__input,
 #page-content .cmp-search-bar__input {
