@@ -40,7 +40,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="3"/>
+                            width="2"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
@@ -50,7 +50,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="table-of-contents-trigger">
-                </container0>
+                    </container0>
                     <container23
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/guidessidenavigation"
@@ -68,7 +68,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="9"/>
+                            width="8"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
@@ -81,10 +81,18 @@
                         hideCurrent="false"
                         showHidden="false"
                         startLevel="3"/>
-                    <title
+                    <title-bar
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/title/v2/title"
-                        id="topic-title"/>
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="topic-title-bar">
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="topic-title"/>
+                        <page-actions
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="guides-components/components/page-actions"/>
+                    </title-bar>
                     <container123
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
@@ -107,6 +115,12 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="lastUpdateBox">
+                            <meta_type
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="topic-meta-type"
+                                    text="&lt;p>User guide&lt;/p>"
+                                    textIsRich="true"/>
                             <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -145,7 +159,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="1"/>
+                            width="2"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             behavior="hide"/>
@@ -168,7 +182,8 @@
                             id="sidebar-banner-1">
                             <banner_1_image
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                fileReference="/content/dam/aemg-docs/banner-1.png"
                                 id="sidebar-banner-1-image"/>
                             <banner_1_content
                                 jcr:primaryType="nt:unstructured"
@@ -177,13 +192,13 @@
                                 <banner_1_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Please upgrade your plan to the Enterprise level&lt;/p>"
+                                    text="&lt;p>Register for &lt;b>Adobe ColdFusion Summit 2026&lt;/b>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-text"/>
                                 <banner_1_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>Register now&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-link"/>
                             </banner_1_content>
@@ -194,7 +209,8 @@
                             id="sidebar-banner-2">
                             <banner_2_image
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                fileReference="/content/dam/aemg-docs/banner-2.png"
                                 id="sidebar-banner-2-image"/>
                             <banner_2_content
                                 jcr:primaryType="nt:unstructured"
@@ -203,7 +219,7 @@
                                 <banner_2_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;b>Live Demo&lt;/b>: Creating and Publishing a Content Card Campaign (11 min)&lt;/p>"
+                                    text="&lt;p>AI TRAINING&lt;/p>&lt;p>Build ColdFusion AI workflows&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-2-text"/>
                                 <banner_2_link

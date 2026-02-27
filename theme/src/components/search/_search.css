@@ -6,16 +6,24 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
+
+.cmp-search-bar__input:-webkit-autofill,
+.cmp-search-bar__input:-webkit-autofill:hover,
+.cmp-search-bar__input:-webkit-autofill:focus,
+.cmp-search-bar__input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: #000 !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
 .cmp-search {}
 .cmp-search__form {}
 #topic-page .cmp-search__field,
 #page-content .cmp-search__field,
 #topic-page .cmp-search-bar__field,
 #page-content .cmp-search-bar__field {
-  background-color: #F5F9FF80;
   border-radius: 2rem;
-  @apply flex items-center border border-gray-400;
-  @apply focus-within:border-gray-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-blue-400;
+  @apply flex items-center;
+  @apply focus-within:border-gray-600 focus-within:outline-none focus-within:ring-2;
 }
 
 #topic-page .cmp-search__icon,
@@ -25,7 +33,6 @@ it.
 #topic-page .cmp-search-bar__clear-icon,
 #page-content .cmp-search-bar__clear-icon {
   @apply relative top-0 left-0 mx-2;
-  transform: scaleX(-1);
 }
 
 #topic-page .cmp-search__input,

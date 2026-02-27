@@ -36,6 +36,7 @@ it.
   font-family: var(--Font-adobe-clean, "Adobe Clean");
   font-size: 0.75rem;
   font-weight: 400;
+  color: #707070 !important;
   &:first-child {
     @apply pl-0;
   }
@@ -46,8 +47,8 @@ it.
     @apply focus:ring-0 focus:ring-transparent;
   }
    #topic-page .cmp-breadcrumb__item-link {
-     color: #001938;
-     font-family: Roboto;
+     color: #707070;
+     font-family: "Adobe Clean";
      font-size: 16px;
      font-weight: 400;
      line-height: 21.6px;
@@ -56,20 +57,11 @@ it.
 }
 
 #topic-page .cmp-breadcrumb__item--active {
-  font-weight: bold;
-  color: #001938;
+  color: #2c2c2c !important;
 }
 
-#topic-page .cmp-breadcrumb__item-link {
-  @apply text-gray-600;
-  @apply hover:text-gray-800;
-}
 
 #topic-page .cmp-breadcrumb__item-link::after {
-  height: 0.75rem;
-  width: 0.75rem;
-  content: "";
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23001938"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>');
-  margin: -3px -5px 0 10px;
-  top: 3px;
+  content: "/";
+  margin-left: 10px;
 }

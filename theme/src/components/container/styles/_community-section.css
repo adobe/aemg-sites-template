@@ -129,9 +129,10 @@ it.
   border-radius: 1.25rem;
   display: flex !important;
   justify-content: center !important;
-  width: 12rem;
   height: 2.5rem;
+  padding: 0 1rem !important;
   align-items: center !important;
+  padding: 0 1rem !important;
 }
 
 /* Second button in community buttons - outlined style */
@@ -140,7 +141,7 @@ it.
   border-radius: 1.25rem;
   display: flex !important;
   justify-content: center !important;
-  width: 10rem;
+  padding: 0 1rem !important;
   height: 2.5rem;
   align-items: center !important;
 }

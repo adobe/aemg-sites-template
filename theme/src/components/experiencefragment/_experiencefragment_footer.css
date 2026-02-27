@@ -136,6 +136,9 @@ it.
     margin: 0;
     a {
         display: flex !important;
+        span{
+            margin-bottom: -4px;
+        }
     }
 }
 
