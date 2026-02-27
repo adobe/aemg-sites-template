@@ -44,9 +44,57 @@ select {
 }
 
 
+#topic-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 
-#topic-title{
-  font-weight: 900;
+  .cmp-title__text {
+    font-family: "Adobe Clean";
+    font-weight: 900 !important;
+    font-size: 2.75rem !important;
+    line-height: 125%;
+
+  }
+}
+
+#topic-title-bar > .title {
+  flex: 1;
+  min-width: 0;
+}
+
+#topic-title-bar .cmp-page-actions {
+  flex-shrink: 0;
+  margin-bottom: 1.25rem;
+}
+
+#topic-title-bar .cmp-page-actions button,
+#topic-title-bar .cmp-page-actions .cmp-page-actions__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #292929;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+#topic-title-bar .cmp-page-actions button:hover,
+#topic-title-bar .cmp-page-actions .cmp-page-actions__action:hover {
+  background: #E8E8E8;
+}
+
+@media (max-width: 768px) {
+  #topic-title-bar {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
 }
 #section-page {
   min-height: calc(100% - 18.375rem);
@@ -68,10 +116,13 @@ select {
   flex-direction: column;
   font-family: "Adobe Clean";
   padding: 0rem 5rem;
+  color: #2C2C2C;
 }
 #topic-container .title h1 {
   margin-bottom : 0.75rem;
   font-size: 2.25rem;
+  font-weight: 700;
+  color: #2C2C2C;
 }
 
 .cmp-languagenavigation--langnavtoggle{
@@ -112,8 +163,9 @@ select {
 
 #page-details {
   /*height: 2.25rem;*/
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  color: #505050 !important;
   padding-bottom: 1.25rem !important;
   margin-bottom: 1.25rem !important;
 
@@ -143,9 +195,7 @@ select {
       margin-left: 0;
     }
     :first-child::before {
-      width: 0;
-      height: 0;
-      margin:0
+      margin-bottom: 4px;
     }
     .cmp.cmp-title div:first-child {
       height: 1rem;
@@ -164,17 +214,17 @@ select {
 }
 #lastUpdateBox {
   display: flex;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 #authorLabel {
   height: 1rem;
   margin-right: 0.5rem !important;
-  font-weight: 600 !important;
-
 }
 #lastUpdateLabel {
+  margin-left: 1rem !important;
   height: 1rem;
-  margin-right: 0.5rem !important;
-  font-weight: 600 !important;
+  margin-right: 0.25rem !important;
 }
 
 .new.newpar.section.aem-Grid-newComponent {
@@ -242,8 +292,8 @@ select {
 /* When mini-toc is inside the wrapper, reset its sizing and sticky */
 #minitoc-wrapper .cmp.cmp-mini-toc {
   width: 100% !important;
-  margin: 3rem 0 !important;
-  height: 40vh;
+  margin: 3rem 0 1.5rem 0 !important;
+  max-height: 30.75vh;
   top: 0;
   position: sticky;
   overflow: auto;

@@ -98,7 +98,7 @@
                                     placeholder="Ask anything about ColdFusion"/>
                                 <askdoc_button
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="AskDoc"
+                                    jcr:title="Ask AI"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="askdoc-search-btn"/>
                             </search_row>
@@ -113,7 +113,7 @@
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="When should I use MCP vs direct API calls?"/>
+                                    text="Can ColdFusion function both as MCP client and an MCP server?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -320,7 +320,8 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-1"
-                                        text="User guide"/>
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
@@ -365,7 +366,8 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-2"
-                                        text="User guide"/>
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
@@ -410,7 +412,8 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="30 min"/>
+                                        text="&lt;p>30 min&lt;/p>"
+                                        textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"

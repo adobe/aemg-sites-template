@@ -28,6 +28,7 @@ it.
         url('./resources/fonts/AdobeClean-BoldSemiCnIt.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+    font-stretch: semi-condensed;
   }
   
   @font-face {
@@ -39,6 +40,7 @@ it.
         url('./resources/fonts/AdobeClean-SemiCnIt.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+    font-stretch: semi-condensed;
   }
   
   @font-face {
@@ -105,6 +107,7 @@ it.
         url('./resources/fonts/AdobeClean-SemiCn.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-stretch: semi-condensed;
   }
   
   @font-face {
@@ -116,5 +119,6 @@ it.
         url('./resources/fonts/AdobeClean-BoldSemiCn.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-stretch: semi-condensed;
   }
 }

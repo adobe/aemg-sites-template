@@ -1,23 +1,18 @@
 /*
  * Sidebar Banners - promotional cards below mini-toc
  *
- * Generic card CSS scoped under #sidebar-banners.
- * Uses attribute selectors on the IDs defined in the XML template:
- *   [id$="-image"]    → gradient image area
- *   [id$="-content"]  → text + link wrapper
- *   [id$="-text"]     → description paragraph
- *   [id$="-link"]     → learn more link
+ * Banner 1: vertical layout  (image top → content bottom)
+ * Banner 2: horizontal layout (image left → content right)
  */
 
 /* === Wrapper: minitoc + banners === */
 #minitoc-wrapper {
     width: 14.25rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
     margin-left: 3rem;
     position: sticky;
     height: 100vh;
     top: 0;
-    position: sticky;
     overflow: auto;
 }
 
@@ -38,10 +33,10 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #E1E1E1;
 }
 
-/* Hide AEM author placeholders */
 #sidebar-banners .new.newpar.section {
     display: none !important;
 }
@@ -50,7 +45,6 @@
    Generic Banner Card
    ============================================ */
 
-/* --- Card box (banner-1, banner-2, ...) --- */
 #sidebar-banner-1,
 #sidebar-banner-2 {
     border-radius: 0.75rem;
@@ -59,25 +53,53 @@
     background: #FFFFFF;
 }
 
-/* --- Reset grid wrappers inside cards --- */
-#sidebar-banner-1 > div,
-#sidebar-banner-2 > div {
+/* Flex layout on the inner .cmp-container */
+#sidebar-banner-1 > .cmp-container,
+#sidebar-banner-2 > .cmp-container {
+    display: flex;
+}
+
+/* Reset AEM grid floats/widths on all children */
+#sidebar-banner-1 > .cmp-container > *,
+#sidebar-banner-2 > .cmp-container > * {
     float: none !important;
-    width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
 }
 
-/* --- Image area --- */
+/* --- Image component: make the <img> fill its slot --- */
 #sidebar-banners [id$="-image"] {
-    width: 100%;
-    height: 5.5rem;
+    line-height: 0;
     flex-shrink: 0;
+}
+
+#sidebar-banners [id$="-image"] .cmp-image {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar-banners [id$="-image"] img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 /* --- Content area --- */
 #sidebar-banners [id$="-content"] {
     padding: 0.75rem 0.875rem;
+}
+
+#sidebar-banners [id$="-content"] > .cmp-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-banners [id$="-content"] > .cmp-container > * {
+    float: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* --- Description text --- */
@@ -87,7 +109,7 @@
     font-size: 0.8125rem;
     font-weight: 400;
     line-height: 1.4;
-    margin-bottom: 0.375rem !important;
+    margin: 0 0 0.375rem !important;
 }
 
 #sidebar-banners [id$="-text"] b,
@@ -95,16 +117,16 @@
     font-weight: 700;
 }
 
-/* --- Learn more link --- */
+/* --- CTA link --- */
 #sidebar-banners [id$="-link"] p {
-    margin-bottom: 0 !important;
+    margin: 0 !important;
 }
 
 #sidebar-banners [id$="-link"] a {
     color: #274DEA;
     font-family: var(--Font-adobe-clean, "Adobe Clean");
-    font-size: 0.8125rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -113,18 +135,62 @@
 }
 
 /* ============================================
-   Per-banner image gradients
+   Banner 1 — Vertical card
    ============================================ */
 
+#sidebar-banner-1 > .cmp-container {
+    flex-direction: column;
+}
+
 #sidebar-banner-1-image {
-    background: linear-gradient(145deg, #6366F1 0%, #A855F7 35%, #EC4899 65%, #3B82F6 100%);
+    width: 100% !important;
+    height: 10rem;
+}
+
+#sidebar-banner-1-content {
+    width: 100% !important;
+}
+
+/* ============================================
+   Banner 2 — Horizontal card
+   ============================================ */
+
+#sidebar-banner-2.cmp-container {
+    flex-direction: row !important;
+    display: flex !important;
 }
 
 #sidebar-banner-2-image {
-    background: linear-gradient(135deg, #1a0a2e 0%, #4a1942 20%, #c62828 40%, #6a1b9a 60%, #1565c0 80%, #42a5f5 100%);
+    min-height: 8rem;
 }
 
-/* === Mobile: hide entire wrapper === */
+#sidebar-banner-2-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* "AI TRAINING" category label */
+#sidebar-banner-2-text p:first-child {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2C2C2C;
+    margin-bottom: 0.25rem !important;
+}
+
+/* Main text below the label */
+#sidebar-banner-2-text p:nth-child(2) {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 0.5rem !important;
+}
+
+/* === Mobile: hide banners === */
 @media (max-width: 768px) {
     #sidebar-banners {
         display: none;
