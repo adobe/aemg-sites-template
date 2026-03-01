@@ -53,7 +53,7 @@
                     </container0>
                     <container23
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/guidessidenavigation"
+                                sling:resourceType="guides-components/components/guidessidenavigation" expandAllText="Expand all sections"
                                 productLogo="/content/dam/aemg-docs/cf.png"
                                 productTitle="ColdFusion"
                                 appLinkText="Open app"
@@ -91,7 +91,10 @@
                             id="topic-title"/>
                         <page-actions
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/page-actions"/>
+                            sling:resourceType="guides-components/components/page-actions"
+                            mcpName="Coldfusion Documentation-Test"
+                            mcpConfig="\{&quot;url&quot;:&quot;https://guides-knowledge-graph.adobe.io/mcp&quot;,&quot;headers&quot;:\{&quot;X-Site-Id&quot;:&quot;46b038a7-9878-4c69-ac4c-001e290cb88a&quot;\}\}"
+                            mcpServer="https://guides-knowledge-graph.adobe.io/mcp"/>
                     </title-bar>
                     <container123
                         jcr:primaryType="nt:unstructured"

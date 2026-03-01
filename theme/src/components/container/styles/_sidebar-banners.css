@@ -12,7 +12,7 @@
     margin-left: 3rem;
     position: sticky;
     height: 100vh;
-    top: 0;
+    top: 2rem;
     overflow: auto;
 }
 
@@ -149,6 +149,13 @@
 
 #sidebar-banner-1-content {
     width: 100% !important;
+}
+
+#sidebar-banner-1-image {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: ;
 }
 
 /* ============================================

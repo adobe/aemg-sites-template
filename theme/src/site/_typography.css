@@ -6,38 +6,51 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
+
+#topic-title-bar {
+  h1 {
+    @apply mb-6 text-3xl;
+  }
+}
+
 .h1,
 .title--h1,
 h1 {
   @apply mb-6 text-3xl;
+  margin-top: 2rem !important;
 }
 
 .h2,
 .title--h2,
 h2 {
   @apply mb-6 text-2xl;
+  margin-top: 1.5rem !important;
 }
 
 #topic-page .h3,
 #topic-page .title--h3,
 #topic-page h3 {
   @apply mb-6 text-xl;
+  margin-top: 1rem !important;
 }
 
 .h4,
 .title--h4,
 h4 {
   @apply mb-4 text-lg;
+  margin-top: 0.5rem !important;
 }
 
 .h5,
 .title--h5,
 h5 {
   @apply mb-4 text-base;
+  margin-top: 0.5rem !important;
 }
 
 .h6,
 .title--h6,
 h6 {
   @apply mb-4 text-sm;
+  margin-top: 0.5rem !important;
 }

@@ -179,6 +179,7 @@ it.
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .p {
   margin-bottom: 1em;
+  line-height: 150%;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .title {
