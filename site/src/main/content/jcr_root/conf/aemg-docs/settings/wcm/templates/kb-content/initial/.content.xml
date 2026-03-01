@@ -94,7 +94,7 @@
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="table-of-contents-trigger">
                 </container0>
-                        <container238 jcr:primaryType="nt:unstructured" sling:resourceType="guides-components/components/guidessidenavigation">
+                        <container238 jcr:primaryType="nt:unstructured" sling:resourceType="guides-components/components/guidessidenavigation" expandAllText="Expand all sections">
                         </container238>
                     </container8>
                     </container3>

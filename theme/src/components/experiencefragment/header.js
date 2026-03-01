@@ -9,13 +9,27 @@ it.
 
 /* ===== Search-in-header visibility ===== */
 var setHeader = () => {
-  var domEl = document.querySelector("#page-with-search-in-header");
-  if (domEl) {
-    var searchEl = document.querySelector("#page-content .cmp-experiencefragment--header .searchbar");
-    if (searchEl) {
-      searchEl.style.visibility = 'visible';
-    }
+  var header = document.querySelector('.experiencefragment.header');
+  if (!header) return;
+
+  var mainSearchRow = document.querySelector('#search-row');
+
+  if (mainSearchRow) {
+    var headerHeight = header.getBoundingClientRect().height;
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          header.classList.remove('header-search-active');
+        } else {
+          header.classList.add('header-search-active');
+        }
+      });
+    }, { threshold: 0, rootMargin: '-' + headerHeight + 'px 0px 0px 0px' });
+    observer.observe(mainSearchRow);
+    return;
   }
+
+  header.classList.add('header-search-active');
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -114,47 +128,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 setTimeout(function () { setHeader(); }, 1000);
 
-/* ===== AskDoc / Flameback widget state & handlers ===== */
-var flamebackOpen = false;
+/* ===== Search-button handlers ===== */
+function triggerSearchFromButton(btn) {
+  var parent = btn.closest('.cmp-container') || btn.parentElement;
+  var searchbar = parent ? parent.querySelector('.searchbar') : null;
+  if (!searchbar) return;
+
+  var input = searchbar.querySelector('.cmp-search-bar__input');
+  if (!input) return;
+
+  var query = input.value.trim();
+  if (!query) {
+    input.focus();
+    return;
+  }
+
+  var form = input.closest('form');
+  if (form) {
+    form.requestSubmit ? form.requestSubmit() : form.submit();
+    return;
+  }
+
+  input.dispatchEvent(new KeyboardEvent('keydown', {
+    key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true
+  }));
+}
 
 document.addEventListener('click', function (e) {
   var btn = e.target.closest('#askdoc-header-btn, #askdoc-search-btn');
   if (!btn) return;
   e.preventDefault();
-  console.log('[AskDoc] Button clicked:', btn.id);
-  var searchInput = document.querySelector('.cmp-search-bar__input');
-  console.log('[AskDoc] Search input found:', !!searchInput);
-  var question = searchInput ? searchInput.value.trim() : '';
-  console.log('[AskDoc] Question:', question || '(empty)');
-  if (question) {
-    console.log('[AskDoc] Dispatching fb-widget-ask with question:', question);
-    document.dispatchEvent(new CustomEvent('fb-widget-ask', {
-      detail: { question: question }
-    }));
-    flamebackOpen = true;
-  } else if (window.FlamebackWidget) {
-    console.log('[AskDoc] Input empty — calling FlamebackWidget.toggle()');
-    window.FlamebackWidget.toggle();
-    flamebackOpen = !flamebackOpen;
-  } else {
-    console.log('[AskDoc] Input empty and FlamebackWidget not available on window');
-  }
-});
-
-document.addEventListener('fb-widget-opened', function () {
-  flamebackOpen = true;
-  console.log('[AskDoc] Widget opened — tracking state');
-});
-document.addEventListener('fb-widget-closed', function () {
-  flamebackOpen = false;
-  console.log('[AskDoc] Widget closed — tracking state');
-});
-
-document.addEventListener('click', function (e) {
-  if (!flamebackOpen || !window.FlamebackWidget) return;
-  if (e.target.closest('#askdoc-header-btn, #askdoc-search-btn')) return;
-  if (e.target.closest('iframe')) return;
-  console.log('[AskDoc] Outside click detected — calling FlamebackWidget.close()');
-  window.FlamebackWidget.close();
-  flamebackOpen = false;
+  triggerSearchFromButton(btn);
 });

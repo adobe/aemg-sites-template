@@ -172,7 +172,7 @@ a.cmp-navigation__item-link {
 }
 
 #table-of-contents {
-  top: 1.5rem !important;
+  top: 4rem !important;
   position: sticky !important;
   @apply invisible h-0 pl-12 overflow-hidden transition-transform duration-300 transform scale-0;
   width: 16rem;

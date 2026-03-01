@@ -25,10 +25,6 @@ it.
     @apply m-0 text-lg;
   }
 
-  #topic-page .cmp-searchresult-description {
-    @apply m-0;
-  }
-
   #topic-page .cmp-searchresult-link {
     &::after {
       content: none;
@@ -102,14 +98,10 @@ it.
 }
 #cmp-search-page-result{
   min-height: 36.5rem;
-  padding: 2rem 0rem;
 }
 
 #cmp-search-page-result .search__field--view {
   padding: 0 !important;
-}
-#cmp-search-page-result .cmp-searchresult-description {
-  margin-top: 0rem !important;
 }
 #cmp-search-page-result .search-result-header {
   display: flex;
