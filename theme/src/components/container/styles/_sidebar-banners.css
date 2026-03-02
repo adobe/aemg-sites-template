@@ -12,7 +12,7 @@
     margin-left: 3rem;
     position: sticky;
     height: 100vh;
-    top: 2rem;
+    top: 3rem;
     overflow: auto;
 }
 
@@ -53,6 +53,30 @@
     background: #FFFFFF;
 }
 
+#sidebar-banner-1 {
+    .image {
+        height: 111px;
+    }
+    img {
+        height: 111px;
+        width: 264px;
+    }
+}
+
+#sidebar-banner-2 {
+    height: 176px;
+    .image {
+        width: 8.25rem;
+    }
+    img {
+        width: 8.25rem;
+        height: 11rem;
+    }
+    .container {
+        width: 50%;
+    }
+}
+
 /* Flex layout on the inner .cmp-container */
 #sidebar-banner-1 > .cmp-container,
 #sidebar-banner-2 > .cmp-container {
@@ -79,8 +103,6 @@
 }
 
 #sidebar-banners [id$="-image"] img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -142,11 +164,6 @@
     flex-direction: column;
 }
 
-#sidebar-banner-1-image {
-    width: 100% !important;
-    height: 10rem;
-}
-
 #sidebar-banner-1-content {
     width: 100% !important;
 }
@@ -155,7 +172,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
-    color: ;
+    color: #2C2C2C;
 }
 
 /* ============================================
@@ -167,9 +184,6 @@
     display: flex !important;
 }
 
-#sidebar-banner-2-image {
-    min-height: 8rem;
-}
 
 #sidebar-banner-2-content {
     display: flex;
@@ -181,9 +195,11 @@
 
 /* "AI TRAINING" category label */
 #sidebar-banner-2-text p:first-child {
-    font-size: 0.75rem;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
     font-weight: 700;
-    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    line-height: 125%;
+    letter-spacing: 0;
     text-transform: uppercase;
     color: #2C2C2C;
     margin-bottom: 0.25rem !important;
@@ -191,9 +207,11 @@
 
 /* Main text below the label */
 #sidebar-banner-2-text p:nth-child(2) {
-    font-size: 1.125rem;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
     font-weight: 400;
-    line-height: 1.3;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #2C2C2C;
     margin-bottom: 0.5rem !important;
 }
 
