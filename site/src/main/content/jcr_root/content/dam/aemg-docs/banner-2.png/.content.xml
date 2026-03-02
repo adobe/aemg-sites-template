@@ -2,20 +2,20 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="e4086a77-c2df-4ceb-ac97-1e5f9e5f63d2">
+    jcr:uuid="7cb61c5a-3953-4a9c-9d09-78d191a5a790">
     <jcr:content
         dam:assetState="processed"
         guides:assetState="SUCCESS"
-        guides:lastProcessedAt="{Date}2026-02-27T11:14:28.564+05:30"
-        jcr:lastModified="{Date}2026-02-27T11:14:28.538+05:30"
+        guides:lastProcessedAt="{Date}2026-03-02T10:59:59.054+05:30"
+        jcr:lastModified="{Date}2026-03-02T10:59:59.030+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        fmPostProcessedAt="2026-02-27T11:14:26.587+05:30|e4086a77-c2df-4ceb-ac97-1e5f9e5f63d2|2026-02-27T11:14:26.586+05:30|14|0"
-        fmUuid="GUID-887ef8cb-c3f2-44d8-b60a-232af84a5b01"
+        fmPostProcessedAt="2026-03-02T10:59:58.679+05:30|7cb61c5a-3953-4a9c-9d09-78d191a5a790|2026-03-02T10:59:58.679+05:30|14|0"
+        fmUuid="GUID-e4750e57-7e00-4205-8d15-fc0ee5a43066"
         guidesNewAsset="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2026-02-27T11:14:28.195+05:30"
+            dam:extracted="{Date}2026-03-02T10:59:58.760+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -25,8 +25,8 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="93145baf5e87ad90668c251935d34fa233d98a51"
-            dam:size="{Long}2437747"
+            dam:sha1="8aa5193784459755aa41d5ef72d2292ab0c92b5b"
+            dam:size="{Long}2359855"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
