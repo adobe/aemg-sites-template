@@ -98,6 +98,9 @@
                         <container238 jcr:primaryType="nt:unstructured" 
                         sling:resourceType="guides-components/components/guidessidenavigation" expandAllText="Expand all sections">
                         </container238>
+                        <container239 jcr:primaryType="nt:unstructured" 
+                        sling:resourceType="guides-components/components/childredirect">
+                        </container239>
                     </container8>
                     </container3>
                 </container>
