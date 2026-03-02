@@ -57,7 +57,7 @@
                                 productLogo="/content/dam/aemg-docs/cf.png"
                                 productTitle="ColdFusion"
                                 appLinkText="Open app"
-                                appLinkUrl="#"/>
+                                appLinkUrl="https://www.adobe.com/products/coldfusion-family.html"/>
                 </container>
                 <container1
                     cq:styleIds="[container--aemGrid]"

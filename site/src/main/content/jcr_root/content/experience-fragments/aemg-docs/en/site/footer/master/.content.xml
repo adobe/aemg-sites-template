@@ -38,27 +38,27 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Overview"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/products/coldfusion-family.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Features"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/products/coldfusion/features.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Pricing"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/products/coldfusion-family/buying-guide.html"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Free Trial"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/products/coldfusion/download-trial/try.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Terms of Use"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/legal/terms.html"/>
                 </colColdfusion>
 
                 <!-- Column 2: Support -->
@@ -75,27 +75,27 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Download and install"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Help Center"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://helpx.adobe.com/support/coldfusion.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Adobe Support Community"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://community.adobe.com/t5/coldfusion/ct-p/ct-coldfusion"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Enterprise Support"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://helpx.adobe.com/enterprise/admin-guide.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Genuine software"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/genuine.html"/>
                 </colSupport>
 
                 <!-- Column 3: Resources + Adobe Account -->
@@ -112,12 +112,12 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Adobe Blog"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://blog.adobe.com/"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Adobe Developer"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://developer.adobe.com/"/>
                     <subheading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
@@ -127,7 +127,7 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Log in to your account"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://account.adobe.com/"/>
                 </colResources>
 
                 <!-- Column 4: Adobe -->
@@ -144,27 +144,27 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="About"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/about-adobe.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Careers"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/careers.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Newsroom"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://news.adobe.com/"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Corporate responsibility"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/corporate-responsibility.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Investor Relations"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="#"/>
+                            link="https://www.adobe.com/investor-relations.html"/>
                 </colAdobe>
             </footerLinks>
 
@@ -184,22 +184,22 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="AEM Guides"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="#"/>
+                        link="https://www.adobe.com/products/xml-documentation-for-experience-manager.html"/>
                 <product2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Captivate"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="#"/>
+                        link="https://www.adobe.com/products/captivate.html"/>
                 <product3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Learning Manager"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="#"/>
+                        link="https://www.adobe.com/products/learning-manager.html"/>
                 <product4
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Connect"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="#"/>
+                        link="https://www.adobe.com/products/adobeconnect.html"/>
             </footerProducts>
 
             <!-- ============================================ -->
@@ -227,7 +227,7 @@
                             altValueFromDAM="false"
                             fileReference="/content/dam/aemg-docs/common-images/icons/facebook dark.svg"
                             isDecorative="false"
-                            linkURL="#"
+                            linkURL="https://www.facebook.com/Adobe"
                             titleValueFromDAM="false"/>
                     <iconTwitter
                             jcr:primaryType="nt:unstructured"
@@ -236,7 +236,7 @@
                             altValueFromDAM="false"
                             fileReference="/content/dam/aemg-docs/common-images/icons/twitter dark.svg"
                             isDecorative="false"
-                            linkURL="#"
+                            linkURL="https://twitter.com/Adobe"
                             titleValueFromDAM="false"/>
                     <iconLinkedin
                             jcr:primaryType="nt:unstructured"
@@ -245,7 +245,7 @@
                             altValueFromDAM="false"
                             fileReference="/content/dam/aemg-docs/common-images/icons/linkein dark.svg"
                             isDecorative="false"
-                            linkURL="#"
+                            linkURL="https://www.linkedin.com/company/adobe"
                             titleValueFromDAM="false"/>
                     <iconYoutube
                             jcr:primaryType="nt:unstructured"
@@ -254,7 +254,7 @@
                             altValueFromDAM="false"
                             fileReference="/content/dam/aemg-docs/common-images/icons/youtube dark.svg"
                             isDecorative="false"
-                            linkURL="#"
+                            linkURL="https://www.youtube.com/user/AdobeSystems"
                             titleValueFromDAM="false"/>
                 </footerBottomLeft>
 
@@ -271,7 +271,7 @@
                     <legalLinks
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;&lt;a href='#'&gt;Privacy&lt;/a&gt; / &lt;a href='#'&gt;Terms of Use&lt;/a&gt; / &lt;a href='#'&gt;Cookie preferences&lt;/a&gt; / &lt;a href='#'&gt;Do not sell my personal information&lt;/a&gt; /&lt;/p&gt;"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/privacy.html'&gt;Privacy&lt;/a&gt; / &lt;a href='https://www.adobe.com/legal/terms.html'&gt;Terms of Use&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/cookies.html'&gt;Cookie preferences&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/us-rights.html'&gt;Do not sell my personal information&lt;/a&gt; /&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <adchoices
                             jcr:primaryType="nt:unstructured"
