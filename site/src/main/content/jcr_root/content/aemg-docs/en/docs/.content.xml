@@ -94,7 +94,7 @@
                                     sling:resourceType="guides-components/components/searchbar"
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/en/search"
-                                    searchRoot="/content/aemg-docs/en/docs/product1"
+                                    searchRoot="/content/aemg-docs/en/docs"
                                     placeholder="Ask anything about ColdFusion"/>
                                 <askdoc_button
                                     jcr:primaryType="nt:unstructured"

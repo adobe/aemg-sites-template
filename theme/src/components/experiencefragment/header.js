@@ -130,11 +130,13 @@ setTimeout(function () { setHeader(); }, 1000);
 
 /* ===== Search-button handlers ===== */
 function triggerSearchFromButton(btn) {
-  var parent = btn.closest('.cmp-container') || btn.parentElement;
-  var searchbar = parent ? parent.querySelector('.searchbar') : null;
-  if (!searchbar) return;
+  var parent = btn.closest('.cmp-container') || btn.closest('.cmp-askai__search-row') || btn.parentElement;
+  if (!parent) return;
 
-  var input = searchbar.querySelector('.cmp-search-bar__input');
+  var searchbar = parent.querySelector('.searchbar') || parent.querySelector('.cmp-askai__search-bar');
+  var input = searchbar
+    ? (searchbar.querySelector('.cmp-search-bar__input') || searchbar.querySelector('.cmp-askai__search-input'))
+    : parent.querySelector('#askai-input');
   if (!input) return;
 
   var query = input.value.trim();
@@ -155,7 +157,7 @@ function triggerSearchFromButton(btn) {
 }
 
 document.addEventListener('click', function (e) {
-  var btn = e.target.closest('#askdoc-header-btn, #askdoc-search-btn');
+  var btn = e.target.closest('#askdoc-header-btn, #askdoc-search-btn, #askai-dig-deeper');
   if (!btn) return;
   e.preventDefault();
   triggerSearchFromButton(btn);
