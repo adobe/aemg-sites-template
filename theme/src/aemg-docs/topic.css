@@ -653,13 +653,16 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeph {
-  background: #f5f5f5;
-  border: 1px solid #eee;
+  background: #E9E9E9;
+  border: 1px solid #E9E9E9;
   border-radius: 5px;
-  padding: 0.2rem 0.1rem;
+  padding: 0.125rem 0.125rem 0 0.125rem;
   font-family: monospace;
   white-space: normal;
   word-break: break-word;
+  color: #F03823;
+  font-weight: 400;
+  font-style: italic;
   /* for Internet Explorer */
   word-break: break-all;
   /* For Chrome and all */
