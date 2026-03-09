@@ -7,7 +7,7 @@
     "license": "MIT License, Copyright 2022 Adobe Systems Incorporated",
     "scripts": {
         "build": "NODE_ENV=production webpack --config ./webpack.prod.js",
-        "live": "watch 'webpack -d --env dev --config ./webpack.dev.js' src & aem-site-theme-builder live & browser-sync start --proxy 'localhost:7000' --files 'dist'"
+        "live": "webpack --watch -d --env dev --config ./webpack.dev.js & aem-site-theme-builder live & browser-sync start --proxy 'localhost:7000' --files 'dist'"
     },
     "devDependencies": {
         "@adobe/aem-site-theme-builder": "4.0.1",
