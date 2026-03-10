@@ -7,13 +7,13 @@
 
 /* === Wrapper: minitoc + banners === */
 #minitoc-wrapper {
-    width: 14.25rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    width: 100%;
+    padding: 1.5rem 3rem;
     position: sticky;
     height: 100vh;
     top: 3rem;
     overflow: auto;
+    gap: 0.5rem;
 }
 
 #minitoc-wrapper > .cmp-container {
@@ -190,7 +190,8 @@
     flex-direction: column;
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 /* "AI TRAINING" category label */

@@ -7,10 +7,6 @@ accordance with the terms of the Adobe license agreement accompanying
 it.
 */
 
-.injected-minitoc-wrapper {
-  max-width: 18.75rem !important;
-}
-
 .aem-Grid > .navigation.aem-GridColumn.aem-GridColumn--default--3 {
   @apply w-full;
 }
@@ -148,8 +144,10 @@ a.cmp-navigation__item-link {
 
 }
 #topic-page #table-of-contents, #section-page #table-of-contents{
-  margin-top: 1.5rem;
   width: 100%;
+  gap: 0.5rem;
+  height: 100vh !important;
+  overflow-y: auto;
 }
 
 #section-page {
@@ -180,7 +178,7 @@ a.cmp-navigation__item-link {
   top: 4rem !important;
   position: sticky !important;
   @apply invisible h-0 pl-12 overflow-hidden transition-transform duration-300 transform scale-0;
-  width: 16rem;
+  width: 100%;
 
   &.open {
     @apply visible h-auto overflow-visible scale-100;

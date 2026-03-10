@@ -69,10 +69,10 @@ const fixCSS = () => {
     const parent_toc_container = toc_container.parentElement;
     parent_toc_container.classList.add("injected-toc-wrapper");
     const centerWrapper = document.querySelector('.injected-center-wrapper');
-    if(centerWrapper != null) {
-      let height = centerWrapper.getBoundingClientRect().height;
-      parent_toc_container.style.minHeight = `${height}px`;
-    }
+    // if(centerWrapper != null) {
+    //   let height = centerWrapper.getBoundingClientRect().height;
+    //   parent_toc_container.style.minHeight = `${height}px`;
+    // }
   }
 
   const minitoc_container = document.querySelector('#minitoc-wrapper');
@@ -80,10 +80,10 @@ const fixCSS = () => {
     const parent_minitoc_container = minitoc_container.parentElement;
     parent_minitoc_container.classList.add("injected-minitoc-wrapper");
     const centerWrapper = document.querySelector('.injected-center-wrapper');
-    if(centerWrapper != null) {
-      let height = centerWrapper.getBoundingClientRect().height;
-      parent_minitoc_container.style.minHeight = `${height}px`;
-    }
+    // if(centerWrapper != null) {
+    //   let height = centerWrapper.getBoundingClientRect().height;
+    //   parent_minitoc_container.style.minHeight = `${height}px`;
+    // }
   }
 
 }

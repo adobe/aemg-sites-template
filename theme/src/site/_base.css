@@ -46,7 +46,7 @@ select {
 
 #topic-title-bar {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 1rem;
 
@@ -115,7 +115,7 @@ select {
   display: flex;
   flex-direction: column;
   font-family: "Adobe Clean";
-  padding: 0rem 5rem;
+  padding: 1.5rem 10rem;
   color: #2C2C2C;
 }
 #topic-container .title h1 {
@@ -267,7 +267,35 @@ select {
 
 #topic-page > .aem-Grid{
   /* height: 100%; */
+}
 
+@media (min-width: 769px) {
+  #topic-page > .aem-Grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #topic-page > .aem-Grid > .aem-GridColumn {
+    float: none !important;
+    clear: none !important;
+    width: 100% !important;
+  }
+
+  #topic-page > .aem-Grid > .aem-GridColumn:has(#table-of-contents) {
+    width: 22.5rem !important;
+    flex-shrink: 0;
+  }
+
+  #topic-page > .aem-Grid > .aem-GridColumn:has(#topic-container) {
+    flex: 1;
+    min-width: 0;
+    width: auto !important;
+  }
+
+  #topic-page > .aem-Grid > .aem-GridColumn:has(#minitoc-wrapper) {
+    width: 22.5rem !important;
+    flex-shrink: 0;
+  }
 }
 
 
@@ -280,15 +308,12 @@ select {
 
   .injected-toc-wrapper {
     width: 19.25rem !important;
-    margin-left: 3rem !important;
   }
 }
 
 .cmp.cmp-mini-toc{
-  width: 14.25rem !important;
-  margin-right: 2rem !important;
+  width: 100% !important;
   margin-top: 1.5rem !important;
-  margin-left: 3rem !important;;
   position: relative;
 }
 

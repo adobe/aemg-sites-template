@@ -47,7 +47,7 @@
                         link="https://www.adobe.com/products/coldfusion-family/certificate.html"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Help &amp; Support"
+                        jcr:title="Learn &amp; Support"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="/content/aemg-docs/en/docs"
                         id="btn-help-support"/>
@@ -132,7 +132,7 @@
                         link="https://www.adobe.com/products/coldfusion-family/certificate.html"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Help &amp; Support"
+                        jcr:title="Learn &amp; Support"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="https://helpx.adobe.com/support/coldfusion.html"/>
                 <buttonFreeTrial

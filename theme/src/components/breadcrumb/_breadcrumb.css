@@ -6,11 +6,6 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-#topic-page .cmp-breadcrumb {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
 @screen sm {
   #topic-page .cmp-breadcrumb {
     @apply pl-0;
@@ -20,7 +15,6 @@ it.
 #topic-page .cmp-breadcrumb__list {
   @apply p-0 pr-8 m-0 overflow-x-scroll text-base whitespace-nowrap;
   @apply sm:whitespace-normal sm:overflow-x-auto sm:pr-0;
-  padding: 16px 40px 8px 0px;
   text-decoration: none;
   white-space: normal;
   overflow-x: auto;

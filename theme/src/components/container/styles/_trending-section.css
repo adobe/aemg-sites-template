@@ -12,8 +12,8 @@ it.
 /* Main container */
 #trending-section {
   width: 100%;
-  padding: 2rem 3rem;
-  background-color: #ffffff;
+  padding: 3rem;
+  background-color: #F8F8F8;
   box-sizing: border-box;
 }
 
@@ -54,7 +54,7 @@ it.
   padding: 0 !important;
   color: var(--C1-Text-text, #2C2C2C);
   font-family: var(--Font-adobe-clean, "Adobe Clean");
-  font-size: var(--Typography-Heading-2xl, 2.75rem);
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: 125%; /* 3.4375rem */
@@ -151,21 +151,20 @@ it.
 
 /* ===== Tile Images ===== */
 [id^="trending-img-"] {
-  width: 100%;
   overflow: hidden;
 }
 
 [id^="trending-img-"] .cmp-image {
-  width: 100% !important;
   aspect-ratio: 16 / 10 !important;
   overflow: hidden !important;
   border-radius: 0 !important;
 }
 
 [id^="trending-img-"] .cmp-image__image {
-  width: 100% !important;
-  height: 100% !important;
+
   object-fit: cover !important;
+  height: 213px;
+  width: 100%;
   display: block !important;
 }
 
@@ -213,10 +212,10 @@ it.
   font-size: 0.75rem !important;
   font-family: var(--Font-adobe-clean, "Adobe Clean") !important;
   font-weight: 700 !important;
-  color: #6b7280 !important;
+  color: #2C2C2C !important;
   text-transform: uppercase !important;
   letter-spacing: 0.075em !important;
-  line-height: 1.4 !important;
+  line-height: 125% !important;
 }
 
 /* ===== Tile Titles ===== */
@@ -227,10 +226,10 @@ it.
   margin: 0 !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0 !important;
-  font-size: 1.5rem !important;
+  font-size: var(Typography/Heading/s, 1.25rem);
   font-weight: 700 !important;
-  color: #1a1a2e !important;
-  line-height: 1.4 !important;
+  color: #2C2C2C !important;
+  line-height: 125% !important;
   font-family: var(--Font-adobe-clean, "Adobe Clean") !important;
 }
 
@@ -239,14 +238,15 @@ it.
 [id^="trending-desc-"] .cmp-text,
 [id^="trending-desc-"] .cmp-text p,
 [id^="trending-desc-"] p {
+
   margin: 0 !important;
   padding-top: 0.375rem !important;
   padding-bottom: 0 !important;
-  color: #6b7280 !important;
+  color: #2C2C2C !important;
   font-size: 1.125rem !important;
   font-weight: 400 !important;
   font-family: var(--Font-adobe-clean, "Adobe Clean") !important;
-  line-height: 1.6 !important;
+  line-height: 150% !important;
   flex-grow: 1;
 }
 
@@ -277,9 +277,10 @@ it.
 [id^="trending-meta-type-"] p {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 0.8125rem !important;
-  color: #6b7280 !important;
-  line-height: 1.4 !important;
+  font-size: 0.75rem;
+  font-weight: 500 !important;
+  color: #2C2C2C !important;
+  line-height: 16px !important;
   display: flex !important;
   align-items: center !important;
   gap: 0.375rem !important;
@@ -318,7 +319,7 @@ it.
   margin: 0 !important;
   padding: 0 !important;
   font-size: 0.8125rem !important;
-  color: #6b7280 !important;
+  color: #2C2C2C !important;
   line-height: 1.4 !important;
 }
 
