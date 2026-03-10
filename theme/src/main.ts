@@ -16,7 +16,7 @@ import "./**/*.ts";
 
 // Flameback feedback widget
 const flamebackScript = document.createElement('script');
-flamebackScript.src = 'https://flameback.adobe.io/widget/flameback-widget-loader.js?siteId=46b038a7-9878-4c69-ac4c-001e290cb88a';
+flamebackScript.src = 'https://guidesai.adobe.io/widget/flameback-widget-loader.js?siteId=46b038a7-9878-4c69-ac4c-001e290cb88a';
 flamebackScript.defer = true;
 document.head.appendChild(flamebackScript);
 
