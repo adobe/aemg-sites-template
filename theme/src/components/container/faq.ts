@@ -95,18 +95,9 @@ const initFaq = () => {
     }
   });
 
-  // --- Default state: activate first tab + expand first item in first panel ---
+  // --- Default state: activate first tab (all items collapsed) ---
   if (tabs[0]) {
     activateTab(tabs[0], tabs, panels);
-  }
-
-  // Expand the first FAQ item of the first panel
-  const firstPanel = panels[0];
-  if (firstPanel) {
-    const firstItem = firstPanel.querySelector(`[id^="${ITEM_PREFIX}"]`);
-    if (firstItem) {
-      firstItem.classList.add(ITEM_EXPANDED_CLASS);
-    }
   }
 };
 

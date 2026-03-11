@@ -44,7 +44,7 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
-  border-collapse: collapse;
+  border-collapse: separate;
   border-spacing: 0;
 }
 
@@ -216,10 +216,10 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .shortdesc {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   color: #666;
-  line-height: 1.5em;
-  font-weight: 100;
+  /* line-height: 1.5em; */
+  /* font-weight: 100; */
   padding: 1em 0;
   margin-bottom: 0.5em;
   padding-top: 0;
@@ -387,15 +387,28 @@ it.
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
   margin-bottom: 1em;
-  border: 1px solid #131313;
+  border: 1px solid #DADADA;
   width: 100%;
   margin-top: 0.5em;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .choicetable, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
   table-layout: fixed;
   word-break: break-all;
   word-break: break-word;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
+  border: 1px solid #DADADA;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table + .table {
@@ -406,7 +419,8 @@ it.
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:not(:has(.thead)) > .tbody > .row:first-child > .entry {
   text-align: left;
   background: #EBEEFF;
-  border: 1px solid #131313;
+  border-bottom: 1px solid #DADADA;
+  border-right: 1px solid #DADADA;
   color: #222222;
   line-height: 14px;
   padding: 0.5em 1em;
@@ -421,11 +435,12 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .colsep .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .sthead .stentry {
-  border: 1px solid #131313;
+  border-bottom: 1px solid #DADADA;
+  border-right: 1px solid #DADADA;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .rowsep .row, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.rowsep, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable .strow {
-  border: 1px solid #131313;
+  border: none;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .row.top, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody.top {
@@ -447,7 +462,22 @@ it.
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry {
   padding: 0.5em 1em;
   vertical-align: top;
-  border: 1px solid #131313;
+  border-bottom: 1px solid #DADADA;
+  border-right: 1px solid #DADADA;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry:last-child,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stentry:last-child {
+  border-right: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tbody > .row:last-child > .entry,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:not(:has(.thead)):not(:has(.tbody)) > .row:last-child > .entry {
+  border-bottom: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable > .strow:last-child > .stentry {
+  border-bottom: 0;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li.stepsection {

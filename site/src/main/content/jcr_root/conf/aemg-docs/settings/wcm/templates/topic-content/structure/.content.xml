@@ -53,7 +53,7 @@
                     </container0>
                     <container23
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/guidessidenavigation" expandAllText="Expand all sections"
+                                sling:resourceType="guides-components/components/guidessidenavigation"
                                 productLogo="/content/dam/aemg-docs/cf.png"
                                 productTitle="ColdFusion"
                                 appLinkText="Open app"

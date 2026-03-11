@@ -17,6 +17,10 @@ it.
   gap: 1.5rem !important;
   background: var(--C1-Background-standard, #1E1E1E);
   box-sizing: border-box;
+
+  .container {
+    width: 100%;
+  }
 }
 
 #community-section > .cmp-container,
@@ -203,7 +207,6 @@ it.
   flex-wrap: wrap !important;
   gap: 0.625rem !important;
   height: auto !important;
-  max-width: 28rem;
 }
 
 #topics-tags > .cmp-container,
@@ -212,7 +215,6 @@ it.
   flex-direction: row !important;
   flex-wrap: wrap !important;
   gap: 0.625rem !important;
-  max-width: 28rem;
 }
 
 /* All topic tag buttons - white border pills */
