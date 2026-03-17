@@ -17,6 +17,10 @@ it.
   box-sizing: border-box;
 }
 
+#trending-header {
+  margin-bottom: 1rem;
+}
+
 #trending-section > .cmp-container,
 #trending-section > .aem-Grid {
   max-width: 1200px;
@@ -131,6 +135,7 @@ it.
   overflow: hidden;
   transition: box-shadow 0.2s ease;
   height: 100%;
+  padding-bottom: 2.25rem !important;
 }
 
 [id^="trending-tile-"]:hover {
@@ -197,8 +202,8 @@ it.
 [id^="trending-title-"],
 [id^="trending-desc-"],
 [id^="trending-meta-"] {
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
 /* ===== Category Label ===== */
@@ -226,7 +231,7 @@ it.
   margin: 0 !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0 !important;
-  font-size: var(Typography/Heading/s, 1.25rem);
+  font-size: 1.25rem !important;
   font-weight: 700 !important;
   color: #2C2C2C !important;
   line-height: 125% !important;
@@ -253,7 +258,6 @@ it.
 /* ===== Metadata Row ===== */
 [id^="trending-meta-"] {
   padding-top: 1rem !important;
-  padding-bottom: 1.25rem !important;
 }
 
 [id^="trending-meta-"] > .cmp-container,
@@ -318,7 +322,8 @@ it.
 [id^="trending-meta-level-"] p {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 0.8125rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
   color: #2C2C2C !important;
   line-height: 1.4 !important;
 }

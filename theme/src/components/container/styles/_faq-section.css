@@ -266,7 +266,7 @@ it.
 /* Expanded answer */
 [id^="faq-item-"].faq-item--expanded .cmp-text {
   max-height: 68px;
-  padding: 1rem !important;
+  padding: 1rem 1rem 28px 1rem !important
 }
 
 /* ===== Help Banner ===== */

@@ -22,7 +22,7 @@ it.
 .cmp-experiencefragment--footer {
     background-color: var(--color-gray-100, #F8F8F8) !important;
     font-size: 0.8125rem;
-    line-height: 1.6;
+    /* line-height: 1.6; */
 
     .root {
         margin-bottom: 0 !important;
@@ -53,7 +53,7 @@ it.
 .cmp-experiencefragment--footer #footer-links {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2.5rem 2rem 2rem;
+    padding: 2.5rem 2rem 5.25rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -65,7 +65,7 @@ it.
     font-size: 0.875rem;
     color: #2c2c2c;
     margin-bottom: 0.75rem;
-    line-height: 1.4;
+    /* line-height: 1.4; */
 }
 
 /* Sub-heading (e.g. "Adobe Account" in Resources column) */
@@ -93,7 +93,7 @@ it.
     text-decoration: none;
     color: #4b4b4b;
     font-size: 0.8125rem;
-    line-height: 2;
+    /* line-height: 2; */
 }
 
 .cmp-experiencefragment--footer #footer-links .button .cmp-button:hover {
@@ -128,7 +128,7 @@ it.
     color: #2c2c2c;
     white-space: nowrap;
     margin: 0;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 /* Product buttons */
@@ -137,7 +137,7 @@ it.
     a {
         display: flex !important;
         span{
-            margin-bottom: -4px;
+            /* margin-bottom: -4px; */
         }
     }
 }
@@ -195,7 +195,7 @@ it.
 .cmp-experiencefragment--footer #footer-products .button .cmp-button__text {
     font-weight: 400;
     font-size: 0.8125rem;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 /* =============================================

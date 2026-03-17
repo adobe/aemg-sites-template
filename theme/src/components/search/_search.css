@@ -36,7 +36,8 @@ it.
 #page-content .cmp-search-bar__icon,
 #topic-page .cmp-search-bar__clear-icon,
 #page-content .cmp-search-bar__clear-icon {
-  @apply relative top-0 left-0 mx-2;
+  @apply relative top-0 left-0;
+  background-repeat: no-repeat
 }
 
 #topic-page .cmp-search__input,
