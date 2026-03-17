@@ -4,14 +4,12 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-06-22T12:12:51.665+05:30"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:language="en"
+        jcr:language="ja"
         jcr:primaryType="cq:PageContent"
-        jcr:title="English"
+        jcr:title="日本語"
         sling:resourceType="guides-components/components/page"
-        pageTitle="English"
+        pageTitle="日本語"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -20,7 +18,5 @@
         </image>
     </jcr:content>
     <search/>
-    <signin/>
     <docs/>
-    <support/>
 </jcr:root>
