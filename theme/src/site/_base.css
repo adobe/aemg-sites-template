@@ -115,7 +115,7 @@ select {
   display: flex;
   flex-direction: column;
   font-family: "Adobe Clean";
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 7.5rem;
   color: #2C2C2C;
 }
 #topic-container .title h1 {

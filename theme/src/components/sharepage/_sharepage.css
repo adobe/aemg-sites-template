@@ -18,7 +18,6 @@ it.
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5rem;
     gap: 1rem;
 
     & > .cmp-container {

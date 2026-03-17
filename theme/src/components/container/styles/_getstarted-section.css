@@ -12,7 +12,7 @@ it.
 /* Main container */
 #getstarted-section {
   width: 100%;
-  padding: 5rem 0rem;
+  padding: 3.5rem 0rem 5rem 0rem;
   background-color: #ffffff;
   box-sizing: border-box;
 }
@@ -24,9 +24,11 @@ it.
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  gap: 1.5rem;
 }
 
+#getstarted-heading .cmp-title__text {
+  margin-bottom: 3rem !important;
+}
 /* ===== Heading ===== */
 #getstarted-heading,
 #getstarted-heading .cmp-title,
@@ -66,7 +68,7 @@ it.
   height: 100%;
   min-width: var(--Cards-card-width-min, 17.25rem) !important;
   max-width: var(--Cards-card-width-max, 23.625rem) !important;
-  padding: 1rem 2rem;
+  padding: 1.125rem 2rem;
   flex-direction: column !important;
   align-items: center !important;
   gap: 1rem;
@@ -103,7 +105,7 @@ it.
 [id^="getstarted-tile-"] > .aem-Grid {
   display: flex !important;
   flex-direction: column !important;
-  gap: 1rem !important;
+  gap: 1.25rem !important;
   height: 100% !important;
 }
 
@@ -164,6 +166,7 @@ it.
   font-size: var(Typography/Heading/s, 1.25rem);
   font-style: bold;
   font-weight: 700;
+  font-size: 1.25rem;
   line-height: 125%  !important;
 }
 
