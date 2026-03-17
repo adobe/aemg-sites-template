@@ -155,10 +155,3 @@ function triggerSearchFromButton(btn) {
     key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true
   }));
 }
-
-document.addEventListener('click', function (e) {
-  var btn = e.target.closest('#askdoc-header-btn, #askdoc-search-btn, #askai-dig-deeper');
-  if (!btn) return;
-  e.preventDefault();
-  triggerSearchFromButton(btn);
-});

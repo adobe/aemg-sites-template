@@ -14,6 +14,8 @@ import "./main.css";
 import "./**/*.js";
 import "./**/*.ts";
 
+declare const FlamebackWidget: { open(): void; close(): void; toggle(): void };
+
 // Flameback feedback widget
 const flamebackScript = document.createElement('script');
 flamebackScript.src = 'https://guidesai.adobe.io/widget/flameback-widget-loader.js?siteId=46b038a7-9878-4c69-ac4c-001e290cb88a';
@@ -21,11 +23,18 @@ flamebackScript.defer = true;
 document.head.appendChild(flamebackScript);
 
 document.addEventListener('click', (e) => {
+  const target = e.target as HTMLElement;
+
+  if (target.closest('#askdoc-header-btn')) {
+    FlamebackWidget.open();
+    return;
+  }
+
   const widgetRoot = document.getElementById('fb-widget-loader-root');
-  if (!widgetRoot || widgetRoot.contains(e.target as Node)) return;
+  if (!widgetRoot || widgetRoot.contains(target)) return;
 
   const iframe = widgetRoot.querySelector('iframe');
   if (iframe && iframe.style.display !== 'none') {
-    (window as any).FlamebackWidget?.close();
+    FlamebackWidget.close();
   }
 });

@@ -175,8 +175,7 @@ it.
     transition: opacity 0.15s ease;
 }
 
-.header-search-active #header-right > .searchbar,
-.header-search-active #askdoc-header-btn {
+.header-search-active #header-right > .searchbar {
     opacity: 1;
     pointer-events: auto;
 }
@@ -186,8 +185,41 @@ it.
     border: 2px solid var(--Palette-gray-300, #DADADA);
     background: var(--Palette-gray-25, #FFF);
     height: 2rem;
+    display: flex;
     align-items: center;
     min-width: 10rem;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    --tw-ring-color: transparent;
+
+    &:focus-within {
+        border-color: #4B75FF;
+        box-shadow: 0 0 0 2px rgba(75, 117, 255, 0.3);
+    }
+}
+
+#header-right .cmp-search-bar__icon,
+#header-right .cmp-search-bar__clear-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.25rem;
+}
+
+#header-right .cmp-search-bar__input {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 0.875rem;
+    height: 100%;
 }
 
 /* AskDoc button */
@@ -205,11 +237,8 @@ it.
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
     padding: 0 16px;
     justify-content: center;
-    transition: opacity 0.15s ease;
     line-height: 1;
     text-decoration: none;
 }

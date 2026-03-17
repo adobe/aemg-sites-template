@@ -46,7 +46,7 @@ select {
 
 #topic-title-bar {
   display: flex;
-  align-items: stretch;
+  align-items: anchor-center;
   justify-content: space-between;
   gap: 1rem;
 
@@ -342,4 +342,8 @@ select {
 
 .root .cmp-container .main {
   /* min-height: calc(100% - 17.0rem); */
+}
+
+#fb-widget-loader-root button[aria-label="Open chat"] {
+  display: none !important;
 }
