@@ -13,6 +13,7 @@ it.
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 .cmp-experiencefragment--header {
@@ -74,6 +75,7 @@ it.
         height: 100%;
         padding-left: 1.25rem;
         padding-right: 1.25rem;
+        line-height: 1 !important;
     }
 }
 
@@ -162,6 +164,10 @@ it.
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .cmp-button__text {
+        /* margin-bottom: -2%; */
+    }
 }
 
 #header-left > .button:last-child .cmp-button:hover {
@@ -247,7 +253,7 @@ it.
     cursor: pointer;
     padding: 0 16px;
     justify-content: center;
-    /* line-height: 1; */
+    line-height: 1;
     text-decoration: none;
 }
 
@@ -273,6 +279,7 @@ it.
     font-size: 0.875rem;
     font-weight: 700;
     color: #ffffff;
+    /* margin-bottom: -4%; */
     /* line-height: 1; */
 }
 

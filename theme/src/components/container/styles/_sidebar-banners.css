@@ -110,6 +110,7 @@
 /* --- Content area --- */
 #sidebar-banners [id$="-content"] {
     padding: 0.75rem 0.875rem;
+    height: 100%;
 }
 
 #sidebar-banners [id$="-content"] > .cmp-container {

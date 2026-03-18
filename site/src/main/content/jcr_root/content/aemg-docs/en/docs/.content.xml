@@ -116,7 +116,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="search-disclaimer"
-                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = "https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html">Terms.&lt;/a>&lt;/p>"
+                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Terms.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </container>
                     </container_482659403_>

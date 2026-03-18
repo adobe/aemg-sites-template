@@ -353,6 +353,12 @@ a.cmp-navigation__item-link {
   display: none;
 }
 
+.cmp-guidesnavigation__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 #category-page .cmp-guidesnavigation__group .cmp-guidesnavigation__item .toc-list-item {
   display: flex;
   height: fit-content;
