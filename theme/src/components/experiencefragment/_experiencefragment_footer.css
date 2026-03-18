@@ -57,6 +57,7 @@ it.
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    line-height: 2;
 }
 
 /* Column headings (first .text in each column container) */

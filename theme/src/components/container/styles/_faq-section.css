@@ -204,7 +204,7 @@ it.
   font-size: 1.125rem !important;
   font-weight: 700 !important;
   color: #2c2c2c !important;
-  line-height: 1.5 !important;
+  line-height: 1 !important;
 }
 
 /* +/- toggle icon via pseudo-element on the title container */

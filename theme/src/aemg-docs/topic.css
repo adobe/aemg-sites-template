@@ -251,7 +251,7 @@ it.
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note[data-attr-type="note"],
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip {
-  background-color: #E5F0FE;
+  background-color: #F5F9FF;
   border-left: 5px solid #3B63FB;
 }
 
@@ -286,7 +286,7 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger {
-  background-color: #FFEBE8;
+  background-color: #FFF6F5;
   border-left: 5px solid #D73220;
 }
 
@@ -318,7 +318,7 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution {
-  background-color: #fff9e5;
+  background-color: #FFF6E7;
   border-left: 5px solid #f5c823;
 }
 
@@ -350,7 +350,7 @@ it.
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning {
-  background-color: #FFECCF;
+  background-color: #FFF6E7;
   border-left: 5px solid #FC7D00;
 }
 
@@ -684,15 +684,15 @@ it.
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .codeph {
   background: #E9E9E9;
-  border: 1px solid #E9E9E9;
-  border-radius: 5px;
-  padding: 0.125rem 0.125rem 0 0.125rem;
+  border-radius: 4px;
+  padding: 2px 6px;
   font-family: monospace;
   white-space: normal;
   word-break: break-word;
-  color: #F03823;
+  color: #000000;
   font-weight: 400;
   font-style: italic;
+  font-size: 16px;
   /* for Internet Explorer */
   word-break: break-all;
   /* For Chrome and all */
