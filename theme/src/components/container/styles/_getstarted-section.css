@@ -12,7 +12,7 @@ it.
 /* Main container */
 #getstarted-section {
   width: 100%;
-  padding: 3.5rem 0rem 5rem 0rem;
+  padding: 3.5rem 5rem 5rem 5rem;
   background-color: #ffffff;
   box-sizing: border-box;
 }
@@ -24,6 +24,11 @@ it.
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
+}
+
+#getstarted-section > .aem-Grid > .aem-GridColumn {
+  /* width: auto !important; */
+  float: none !important;
 }
 
 #getstarted-heading .cmp-title__text {
@@ -46,6 +51,10 @@ it.
 /* ===== Tiles Grid ===== */
 #getstarted-tiles {
   width: 100%;
+  display: flex !important;
+  flex-wrap: row;
+  gap: 1.25rem;
+  justify-content: space-between !important;
 }
 
 #getstarted-tiles > .cmp-container,
@@ -61,23 +70,28 @@ it.
   display: none !important;
 }
 
+#getstarted-tiles > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
+}
+#getstarted-tiles > .container.responsivegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
 /* ===== Individual Tile ===== */
 [id^="getstarted-tile-"] {
   display: flex;
-  width: 17.8125rem !important;
+  padding: 2rem 1.75rem;
   height: 100%;
-  min-width: var(--Cards-card-width-min, 17.25rem) !important;
-  max-width: var(--Cards-card-width-max, 23.625rem) !important;
-  padding: 1.125rem 2rem;
   flex-direction: column !important;
-  align-items: center !important;
   gap: 1rem;
   border-radius: var(--Media-radius-large, 1rem);
   border: var(--stroke-weight, 1px) solid var(--C1-Stroke-card-merch, #E8E8E8) !important;
   color: #2C2C2C;
   .button {
     align-self: flex-end;
-    width: fit-content;
+    width: 100%;
     display: flex !important;
 
     .cmp-button {
@@ -107,6 +121,11 @@ it.
   flex-direction: column !important;
   gap: 1.25rem !important;
   height: 100% !important;
+}
+
+[id^="getstarted-tile-"] > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
 }
 
 /* ===== Tile Icons ===== */
