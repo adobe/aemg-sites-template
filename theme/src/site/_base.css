@@ -355,3 +355,46 @@ select {
 #fb-widget-loader-root button[aria-label="Open chat"] {
   display: none !important;
 }
+
+
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1439px) {
+  #topic-container {
+    padding: 1.5rem 5rem;
+  }
+  .injected-minitoc-wrapper{
+    display: none !important ;
+  }
+}
+
+/* 1024px design (768px to 1023px) */
+@media (max-width: 1023px) {
+  #topic-container {
+    padding: 1.5rem 5rem;
+  }
+  .injected-minitoc-wrapper{
+    display: none !important ;
+  }
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+  #topic-container {
+    padding: 1.5rem 5rem;
+  }
+  .injected-minitoc-wrapper{
+    display: none !important ;
+  }
+}
+
+@media (max-width: 390px) {
+  #topic-container {
+    padding: 1.5rem 2rem;
+  }
+  .injected-minitoc-wrapper{
+    display: none !important ;
+  }
+}

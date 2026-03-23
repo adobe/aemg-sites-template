@@ -90,6 +90,16 @@ it.
 }
 
 
+/* Hide hamburger container at desktop (>1440px) */
+#mobileview-button-container {
+    display: none;
+}
+
+/* Hide mobile search button (search lives in #header-right) */
+#mobile-search-button {
+    display: none;
+}
+
 #header-left > .button:nth-child(2) {
     border-left: 1px solid #E8E8E8;
     border-right: 1px solid #E8E8E8;
@@ -322,14 +332,12 @@ it.
 
 /* ===== Mobile button container ===== */
 #mobileview-button-container {
-    display: flex;
     align-items: center;
     gap: 0.5rem;
     color: #2c2c2c;
 }
 
 #mobile-search-button {
-    display: flex;
     align-items: center;
 }
 
@@ -388,53 +396,21 @@ it.
     width: fit-content;
 }
 
-/* ===== Desktop / Mobile visibility (media-query defaults for FOUC prevention) ===== */
+/* ===== Visibility defaults ===== */
+/* Hamburger is always visible; #header-right is always visible (individual children hide per breakpoint) */
 
-@media (min-width: 768px) {
-    #mobileview-button-container {
-        display: none !important;
-    }
-}
+/* ===== JS-enhanced overrides ===== */
 
-@media (max-width: 767px) {
-    .cmp-experiencefragment--header #header-left > .button {
-        display: none;
-    }
-
-    .cmp-experiencefragment--header #header-right {
-        display: none;
-    }
-
-    #mobileview-button-container {
-        display: flex;
-    }
-}
-
-/* ===== JS-enhanced desktop/mobile overrides ===== */
-
-.experiencefragment.header.desktop #mobileview-button-container,
 .experiencefragment.header.desktop #side-drawer {
     display: none !important;
 }
 
-.experiencefragment.header.mobile #header-left > .button {
-    display: none;
-}
-
-.experiencefragment.header.mobile #header-right {
-    display: none;
-}
-
-.experiencefragment.header.mobile #mobileview-button-container {
-    display: flex;
-}
-
 /* Side drawer visibility controlled by data-expanded */
-.experiencefragment.header.mobile[data-expanded="false"] #side-drawer {
+.experiencefragment.header[data-expanded="false"] #side-drawer {
     display: none !important;
 }
 
-.experiencefragment.header.mobile[data-expanded="true"] #side-drawer {
+.experiencefragment.header[data-expanded="true"] #side-drawer {
     display: flex;
 }
 
@@ -450,8 +426,35 @@ it.
     display: none;
 }
 
-/* ===== Responsive fine-tuning ===== */
-@media (max-width: 768px) {
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1439px) {
+    #header-left > .button:nth-child(2) {
+        border-left: none;
+        border-right: none;
+    }
+
+    #mobileview-button-container {
+        display: flex;
+    }
+
+    .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container > .container:nth-child(3) {
+        order: -1;
+    }
+    /* Hide all 5 nav buttons: WAP, CF Family, Buying Guide, Certification, Learn & Support */
+    #header-left > :nth-child(n+2):nth-child(-n+6) {
+        display: none;
+    }
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+    #header-right > .searchbar {
+        display: none !important;
+    }
+
     .cmp-experiencefragment--header {
         .xf-content-height {
             height: 3rem;
@@ -467,12 +470,26 @@ it.
         padding: 0 1rem;
     }
 
+    #header-left > .button:last-child {
+        display: none;
+    }
+
     #side-drawer {
         top: 3rem;
     }
 }
 
-@media (max-width: 480px) {
+/* 390px design (390px and below) */
+@media (max-width: 390px) {
+    #askdoc-header-btn .cmp-button__text {
+        display: none;
+    }
+
+    #askdoc-header-btn {
+        min-width: auto;
+        padding: 0 0.5rem;
+    }
+
     #side-drawer {
         padding: 1rem;
     }

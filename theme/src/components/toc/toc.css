@@ -146,7 +146,7 @@ a.cmp-navigation__item-link {
 #topic-page #table-of-contents, #section-page #table-of-contents{
   width: 100%;
   gap: 0.5rem;
-  height: 100vh !important;
+  /* height: 100vh !important; */
   overflow-y: auto;
 }
 
@@ -168,7 +168,7 @@ a.cmp-navigation__item-link {
   }
 }
 
-@screen sm {
+@media (min-width: 769px) {
   .toc-toggle {
     @apply hidden;
   }
@@ -185,7 +185,7 @@ a.cmp-navigation__item-link {
   }
 }
 
-@screen sm { 
+@media (min-width: 769px) { 
   #table-of-contents {
     @apply visible h-auto pl-0 overflow-visible scale-100;
   }
@@ -462,13 +462,12 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     margin-top: 0rem;
   }
 
-  #section-page .injected-toc-wrapper #table-of-contents .guides-navigation{
+  #section-page .injected-toc-wrapper #table-of-contents .cmp-guides-navigation{
     display: none;
   }
 
-  #section-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
+  #section-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
     display: block;
-    min-height: 100vh;
   }
 
   .toc-trigger-button {
@@ -529,11 +528,11 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     width: 100%;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents .guides-navigation{
+  #topic-page .injected-toc-wrapper #table-of-contents .cmp-guides-navigation{
     display: none;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
+  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
     display: block;
     min-height: 100vh;
   }

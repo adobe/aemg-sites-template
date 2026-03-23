@@ -12,7 +12,7 @@ it.
 /* Main container */
 #trending-section {
   width: 100%;
-  padding: 3rem;
+  padding: 5rem;
   background-color: #F8F8F8;
   box-sizing: border-box;
 }
@@ -28,6 +28,11 @@ it.
   display: flex !important;
   flex-direction: column !important;
   gap: 2rem;
+}
+
+#trending-section > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
 }
 
 /* ===== Header Row (Title + View All) ===== */
@@ -47,6 +52,11 @@ it.
 #trending-header > .aem-Grid::before,
 #trending-header > .aem-Grid::after {
   display: none !important;
+}
+
+#trending-header > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
 }
 
 /* ===== Section Heading ===== */
@@ -126,6 +136,11 @@ it.
   display: none !important;
 }
 
+#trending-tiles > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
+}
+
 /* ===== Individual Tile Card ===== */
 [id^="trending-tile-"] {
   background-color: #ffffff;
@@ -152,6 +167,11 @@ it.
   .container {
     margin-top: auto;
   }
+}
+
+[id^="trending-tile-"] > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
 }
 
 /* ===== Tile Images ===== */
@@ -272,6 +292,11 @@ it.
 [id^="trending-meta-"] > .aem-Grid::before,
 [id^="trending-meta-"] > .aem-Grid::after {
   display: none !important;
+}
+
+[id^="trending-meta-"] > .aem-Grid > .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
 }
 
 /* Meta type text (with icon) */

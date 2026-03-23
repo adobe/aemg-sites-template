@@ -12,7 +12,7 @@ it.
 /* Main container */
 #faq-section {
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 5rem;
   background-color: #ffffff;
   box-sizing: border-box;
 }
@@ -59,6 +59,10 @@ it.
   padding: 0rem;
   margin: 2rem 0rem;
   border-radius: 1rem;
+
+  .button {
+    max-width: 20%;
+  }
 }
 
 #faq-tabs > .cmp-container,
@@ -99,14 +103,16 @@ it.
   text-decoration: none !important;
   cursor: pointer !important;
   transition: background-color 0.2s ease, color 0.2s ease !important;
-  white-space: nowrap !important;
-  height: 57px !important;
   box-sizing: border-box !important;
   width: 14.625rem !important;
-
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
   span {
     margin-bottom: -8px !important;
   }
+  height: 100%;
 }
 
 [id^="faq-tab-"]:hover .cmp-button,
@@ -141,6 +147,8 @@ it.
 
 /* Reset AEM Grid column widths inside faq-section so panels don't get extra margin/width */
 #faq-section .aem-GridColumn {
+  width: auto !important;
+  float: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }

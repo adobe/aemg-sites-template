@@ -139,8 +139,7 @@
                             <tile_documentation
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-documentation"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-documentation">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
@@ -167,8 +166,7 @@
                             <tile_tutorials
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-tutorials"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-tutorials">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
@@ -195,8 +193,7 @@
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-community"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-community">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
@@ -223,8 +220,7 @@
                             <tile_certifications
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-certifications"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-certifications">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"

@@ -121,17 +121,6 @@ it.
     }
 }
 
-@media (max-width: 768px) {
-    #status-banner > .cmp-container {
-        padding: 0.5rem 0.75rem;
-        gap: 0.125rem;
-    }
-
-    #status-banner #status-banner-text .cmp-text p {
-        font-size: 0.75rem;
-    }
-}
-
 #hero-banner {
     display: flex;
     flex-direction: column;
@@ -141,7 +130,6 @@ it.
 }
 
 #hero-brand-row {
-            width: 100vw;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -170,6 +158,10 @@ it.
             }
         }
 
+        .container {
+            width: fit-content !important;
+        }
+
     .title {
         display: flex;
         justify-content: center;
@@ -184,16 +176,6 @@ it.
     font-style: normal !important;
     font-weight: 700 !important;
     line-height: 3.4375rem !important;
-}
-
-@media (max-width: 768px) {
-    #hero-banner {
-        padding: 2rem 1rem;
-
-        .title .cmp-title__text {
-            font-size: 26px;
-        }
-    }
 }
 
 #welcome-container-title{
@@ -241,12 +223,18 @@ it.
             line-height: 3.4375rem; 
         }
     }
+    
+    .container {
+        width: 100%;
+    }
+
     #search-container{
         margin-top: 2.25rem;
-        width: 100%;
         gap: 0.875rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        max-width: 100%;
         .title{
             &:first-child .cmp-title__text{
                 font-weight: 700;
@@ -262,6 +250,9 @@ it.
         }
         .container {
             margin-top: 1.5rem;
+            max-width: 768px;
+            width: 100%;
+
         }
         #search-row {
             display: flex !important;
@@ -269,6 +260,7 @@ it.
             justify-content: center !important;
             gap: 0.625rem;
             width: 100%;
+            max-width: 100%;
             > .cmp-container {
                 display: flex;
                 align-items: center;
@@ -298,8 +290,9 @@ it.
                 display: flex !important;
             }
             .cmp-search-bar {
-                min-width: 12.5rem;
-                width: 48rem;
+                min-width: 17.5rem;
+                max-width: 100%;
+                width: 768px;
             }
         }
 
@@ -352,9 +345,7 @@ it.
         }
         #search-presets{
             display: flex !important;
-            width: 1000px;
-            max-width: 1000px;
-            padding: 0 2.125rem;
+            max-width: 100%;
             justify-content: center !important;
             align-items: flex-start;
             align-content: flex-start;
@@ -362,7 +353,7 @@ it.
             align-self: stretch;
             flex-wrap: wrap;
             .text{
-                display: flex;
+                display: flex !important;
                 height: 2.5rem;
                 padding: 0.3125rem 1rem 0.25rem 1rem;
                 justify-content: center;
@@ -470,6 +461,10 @@ it.
 
 }
 
+#search-presets,
+#search-presets > .text {
+    display: flex !important;
+}
 
 /* ===== Topic Meta Type (document type label with icon) ===== */
 #topic-meta-type,
@@ -571,7 +566,42 @@ it.
   }
 
 
-@media (max-width: 768px) {
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1439px) {
+}
+
+/* 1024px design (768px to 1023px) */
+@media (max-width: 1023px) {
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+    #status-banner > .cmp-container {
+        padding: 0.5rem 0.75rem;
+        gap: 0.125rem;
+    }
+
+    #search-container {
+        .cmp-search-bar {
+            width: 624px;
+        }
+    }
+
+    #status-banner #status-banner-text .cmp-text p {
+        font-size: 0.75rem;
+    }
+
+    #hero-banner {
+        padding: 2rem 1rem;
+
+        .title .cmp-title__text {
+            font-size: 26px;
+        }
+    }
+
     #announcement-banner {
         font-size: 12px;
         padding: 0.4rem 0.75rem;
@@ -580,13 +610,13 @@ it.
     #welcome-container {
         padding: 2rem 1.5rem;
 
-        #search-container{
-            .title{
-                &:first-child .cmp-title__text{
+        #search-container {
+            .title {
+                &:first-child .cmp-title__text {
                     font-size: 22px;
                     line-height: 1.3;
                 }
-                &:nth-child(2) .cmp-title__text{
+                &:nth-child(2) .cmp-title__text {
                     font-size: 13px;
                 }
             }
@@ -601,7 +631,7 @@ it.
 
             #search-row .searchbar,
             .searchbar {
-                .cmp-search-bar__field{
+                .cmp-search-bar__field {
                     height: 2.75rem;
                 }
             }
@@ -611,13 +641,13 @@ it.
                 width: 100%;
                 justify-content: center;
             }
-            #search-presets{
-                .cmp-container{
+            #search-presets {
+                .cmp-container {
                     grid-template-columns: 1fr;
                     justify-content: center;
                     gap: 0.5rem;
                 }
-                .text{
+                .text {
                     font-size: 12px;
                     padding: 0.4rem 1rem;
                     white-space: normal;
@@ -625,6 +655,7 @@ it.
             }
         }
     }
+
     #welcome-container .title .cmp-title__text {
         font-size: 18px;
         font-weight: 600;
@@ -638,5 +669,15 @@ it.
         line-height: 21.6px;
         text-align: left;
         margin-bottom: 2rem;
-      }
-  }
+    }
+}
+
+/* 390px design (390px and below) */
+@media (max-width: 390px) {
+
+    #search-container {
+        .cmp-search-bar {
+            width: 286px;
+        }
+    }
+}
