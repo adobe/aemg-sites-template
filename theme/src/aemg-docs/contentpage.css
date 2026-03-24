@@ -64,7 +64,8 @@ it.
     }
     a {
         font-weight: 700;
-        color: #FFF
+        color: #FFF;
+        display: contents;
     }
 }
 
@@ -579,8 +580,8 @@ it.
 
 /* 768px design (390px to 767px) */
 @media (max-width: 767px) {
-    #status-banner > .cmp-container {
-        padding: 0.5rem 0.75rem;
+    #status-banner.cmp-container {
+        padding: 0.5rem 0.5rem;
         gap: 0.125rem;
     }
 

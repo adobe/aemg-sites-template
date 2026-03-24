@@ -382,7 +382,7 @@ select {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   #topic-container {
     padding: 1.5rem 2rem;
   }
