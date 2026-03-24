@@ -12,7 +12,7 @@ it.
 /* Main container */
 #trending-section {
   width: 100%;
-  padding: 5rem;
+  padding: 3rem 5rem;
   background-color: #F8F8F8;
   box-sizing: border-box;
 }

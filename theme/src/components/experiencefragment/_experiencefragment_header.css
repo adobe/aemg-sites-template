@@ -452,7 +452,11 @@ it.
 /* 768px design (390px to 767px) */
 @media (max-width: 767px) {
     #header-right > .searchbar {
-        display: none !important;
+        opacity: 1;
+        pointer-events: auto;
+        width: auto;
+        flex: 1;
+        min-width: 0;
     }
 
     .cmp-experiencefragment--header {
@@ -476,6 +480,29 @@ it.
 
     #side-drawer {
         top: 3rem;
+    }
+}
+
+/* 500px design (below 500px) — search bar drops to second row */
+@media (max-width: 499px) {
+    .cmp-experiencefragment--header .xf-content-height {
+        height: auto;
+    }
+
+    .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
+        height: auto;
+        position: relative;
+        padding-bottom: 3rem;
+        padding-top: 0.5rem;
+    }
+
+    #header-right > .searchbar {
+        position: absolute;
+        bottom: 0.5rem;
+        left: 1rem;
+        right: 1rem;
+        width: auto !important;
+        flex: none;
     }
 }
 

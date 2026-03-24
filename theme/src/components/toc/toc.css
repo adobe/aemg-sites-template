@@ -534,16 +534,39 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
 
   #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
     display: block;
-    min-height: 100vh;
   }
 
   #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .toc-trigger-button{
     background-color: #1532AD;
   }
 
-  @media (max-width: 768px) {
-    #topic-page #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
-      padding: 0 1rem;
-    }
+  #topic-page #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
+    padding: 0 1rem;
+  }
+
+  .cmp-guidesnavigation__group {
+    width: 100%;
+  }
+  ul.cmp-guidesnavigation__group {
+    padding: 0 3rem;
+  }
+
+  ul.cmp-guidesnavigation__group.hide-children, ul.cmp-guidesnavigation__group.show-children {
+    padding: 0;
+  }
+  
+}
+
+@media (max-width: 390px) {
+  ul.cmp-guidesnavigation__group {
+    padding: 0 1.5rem;
+  }
+
+  .cmp-guidesnav-product-header {
+    padding: 1rem 2rem;
+  }
+
+  .cmp-guidesnav-filter {
+    padding: 0.5rem;
   }
 }
