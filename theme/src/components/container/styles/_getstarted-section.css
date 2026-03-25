@@ -265,22 +265,28 @@ it.
 /* ===== Responsive - Mobile (single column) ===== */
 @media (max-width: 768px) {
   #getstarted-section {
-    padding: 0rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 
+  #getstarted-tiles > .cmp-container,
+  #getstarted-tiles > .aem-Grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  [id^="getstarted-tile-"] {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 390px) {
   #getstarted-heading,
   #getstarted-heading .cmp-title,
   #getstarted-heading .cmp-title__text,
   #getstarted-heading h2 {
     font-size: 1.5rem !important;
   }
-
   #getstarted-tiles > .cmp-container,
   #getstarted-tiles > .aem-Grid {
     grid-template-columns: 1fr !important;
-  }
-
-  [id^="getstarted-tile-"] {
-    min-height: auto;
   }
 }

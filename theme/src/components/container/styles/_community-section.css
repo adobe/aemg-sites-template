@@ -13,7 +13,7 @@ it.
 #community-section {
   width: 100%;
   display: flex;
-  padding: 5rem 22.5rem !important;
+  padding: 5rem 22.5rem;
   gap: 1.5rem !important;
   background: var(--C1-Background-standard, #1E1E1E);
   box-sizing: border-box;
@@ -75,7 +75,7 @@ it.
 #community-heading h2 {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 2.25rem !important;
+  font-size: 2.25rem;
   font-weight: 700 !important;
   color: #ffffff !important;
   line-height: 1.3 !important;
@@ -265,10 +265,17 @@ it.
 /* Default styles above target 1920px design (1440px and above) */
 /* #community-section padding: 5rem 22.5rem */
 
+@media (max-width: 1919px) {
+  #community-section {
+    padding: 5rem 7.5rem !important;
+  }
+}
+
+
 /* 1440px design (1024px to 1439px) */
 @media (max-width: 1439px) {
   #community-section {
-    padding: 5rem 7.5rem !important;
+    padding: 5rem 5rem !important;
   }
 }
 
@@ -309,5 +316,21 @@ it.
 @media (max-width: 390px) {
   #community-section {
     padding: 2.5rem 1.25rem !important;
+  }
+  #community-heading h2 {
+    font-size: 1.5rem !important;
+  }
+  #community-description p {
+    font-size: 0.875rem !important;
+  }
+  #community-buttons 
+  {
+    flex-direction: column !important;
+    .cmp-button__text {
+      font-size: 0.875rem !important;
+    }
+  }
+  #topics-tags>.button .cmp-button .cmp-button__text {
+    font-size: 0.75rem !important;
   }
 }
