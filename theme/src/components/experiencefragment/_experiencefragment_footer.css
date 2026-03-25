@@ -320,15 +320,70 @@ it.
 /* =============================================
    RESPONSIVE: Tablet / Mobile (max-width: 768px)
    ============================================= */
-@media (max-width: 768px) {
-    /* Row 1: Stack columns vertically */
+@media (max-width: 390px) {
+    /* ===== ROW 1: Accordion footer links ===== */
     .cmp-experiencefragment--footer #footer-links {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
-        padding: 2rem 1.5rem;
+        gap: 0;
+        padding: 1.5rem 1.5rem 0;
     }
 
-    /* Row 2: Stack products vertically */
+    /* Accordion heading: each .text child inside a column */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text {
+        border-top: 1px solid #292929 !important;
+        padding: 1.125rem 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+    }
+
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text .cmp-text p {
+        font-weight: 700;
+        font-size: 0.9375rem;
+        color: #2c2c2c;
+        margin: 0;
+    }
+
+    /* "+" toggle icon */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text::after {
+        content: "+";
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #6e6e6e;
+        flex-shrink: 0;
+        margin-left: 1rem;
+        line-height: 1;
+    }
+
+    /* Expanded: rotate to "−" */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text.footer-accordion-expanded::after {
+        content: "\2212";
+    }
+
+    /* Bottom border on last column to close the accordion visually */
+    /* .cmp-experiencefragment--footer #footer-links [id^="col-"]:last-child {
+        border-bottom: 1px solid #686868;
+    } */
+
+    /* Hidden accordion content */
+    .cmp-experiencefragment--footer #footer-links .footer-accordion-hidden {
+        display: none !important;
+    }
+
+    /* Expanded content spacing */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .button {
+        padding-bottom: 0.25rem;
+    }
+
+    /* Override subheading margins inside col-resources */
+    .cmp-experiencefragment--footer #col-resources > .text:not(:first-child) .cmp-text p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* ===== ROW 2: Stack products ===== */
     .cmp-experiencefragment--footer #footer-products {
         flex-direction: column;
         align-items: flex-start;
@@ -336,7 +391,7 @@ it.
         padding: 1rem 1.5rem;
     }
 
-    /* Row 3: Stack bottom bar vertically */
+    /* ===== ROW 3: Stack bottom bar ===== */
     .cmp-experiencefragment--footer #footer-bottom {
         flex-direction: column;
         align-items: flex-start;

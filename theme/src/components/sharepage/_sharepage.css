@@ -115,10 +115,15 @@ it.
    ============================================= */
 @media (max-width: 768px) {
     #share-this-page {
-        padding: 1rem 1.5rem;
 
         & > .cmp-container {
             justify-content: center;
         }
+    }
+}
+
+@media (max-width: 390px) {
+    #share-label {
+        font-size: 0.875rem !important;
     }
 }

@@ -170,7 +170,7 @@ it.
 /* 768px design (390px to 767px) */
 @media (max-width: 767px) {
   .searchresult{
-    padding: 3rem 2.5rem !important;
+    padding: 1.25rem 0.5rem !important;
   }
   #cmp-search-page-result .search__field--view {
     margin: 0;
@@ -181,7 +181,7 @@ it.
     margin: 0;
   }
   #cmp-search-page-result {
-    padding: 2rem;
+    padding: 0 2rem;
   }
   #topic-page .cmp-sort__heading {
     flex-direction: row;
@@ -189,11 +189,5 @@ it.
   }
   #topic-page .searchresult {
     flex-direction: column;
-  }
-}
-
-@media (max-width: 390px) {
-  .searchresult{
-    padding: 3rem 2.5rem !important;
   }
 }

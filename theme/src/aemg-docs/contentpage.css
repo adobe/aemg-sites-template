@@ -612,6 +612,7 @@ it.
         padding: 2rem 1.5rem;
 
         #search-container {
+            margin-top: 0;
             .title {
                 &:first-child .cmp-title__text {
                     font-size: 22px;
@@ -678,7 +679,26 @@ it.
 
     #search-container {
         .cmp-search-bar {
-            width: 286px;
+            width: 286px !important;
+            min-width: 0 !important;
         }
+    }
+
+    #hero-banner {
+        padding: 0.625rem 0 0 0 !important;
+    }
+
+    #hero-brand-row {
+        font-size: 1rem !important;
+    }
+    #brand-icon {
+        height: 24px !important;
+        width: 25px !important;
+    }
+    #welcome-container-title {
+        font-size: 1.75rem !important;
+    }
+    #topic-meta-type p {
+        font-size: 0.875rem !important;
     }
 }

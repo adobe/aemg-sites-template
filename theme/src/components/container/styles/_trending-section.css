@@ -364,15 +364,9 @@ it.
 /* ===== Responsive - Mobile (single column) ===== */
 @media (max-width: 768px) {
   #trending-section {
-    padding: 2rem 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
 
-  #trending-heading,
-  #trending-heading .cmp-title,
-  #trending-heading .cmp-title__text,
-  #trending-heading h2 {
-    font-size: 1.5rem !important;
-  }
 
   #trending-header > .cmp-container,
   #trending-header > .aem-Grid {
@@ -380,12 +374,28 @@ it.
     gap: 1rem !important;
   }
 
-  #trending-tiles > .cmp-container,
-  #trending-tiles > .aem-Grid {
-    grid-template-columns: 1fr !important;
-  }
+ 
 
   [id^="trending-img-"] .cmp-image {
     min-height: 160px !important;
   }
+}
+
+@media (max-width: 390px) {
+  #trending-tiles > .cmp-container,
+  #trending-tiles > .aem-Grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  #trending-heading,
+  #trending-heading .cmp-title,
+  #trending-heading .cmp-title__text,
+  #trending-heading h2 {
+    font-size: 1.5rem !important;
+  }
+
+  [id^=trending-desc-] p {
+    font-size: 0.875rem !important;
+  }
+  
 }
