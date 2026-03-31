@@ -50,23 +50,58 @@ document.addEventListener('DOMContentLoaded', () => {
     <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>`;
 
-  // Right-side header icons
-  const bellIconSvg = `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_2053_37663)">
-<mask id="mask0_2053_37663" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="6" y="6" width="20" height="20">
-<path d="M23.7862 18.6758C23.6177 18.3672 23.4454 18.0684 23.2749 17.7734C22.4483 16.3389 21.7339 15.1006 21.7339 13.1533C21.7339 10.0342 19.1963 7.49609 16.0767 7.49609C12.9571 7.49609 10.4195 10.0342 10.4195 13.1533C10.4195 14.9199 9.66067 16.2022 8.85745 17.5586C8.63724 17.9307 8.41604 18.3047 8.20804 18.6895C7.83206 19.3857 7.85111 20.21 8.25882 20.8936C8.67093 21.584 9.39554 21.9961 10.1973 21.9961H13.2496C13.2496 23.5127 14.483 24.7461 15.9996 24.7461C17.5162 24.7461 18.7496 23.5127 18.7496 21.9961H21.8047C22.608 21.9961 23.3326 21.583 23.7437 20.8906C24.1514 20.2031 24.1675 19.375 23.7862 18.6758ZM15.9996 23.2461C15.3101 23.2461 14.7496 22.6855 14.7496 21.9961H17.2496C17.2496 22.6855 16.689 23.2461 15.9996 23.2461ZM22.4537 20.125C22.3872 20.2363 22.1914 20.4961 21.8047 20.4961H10.1973C9.92876 20.4961 9.68559 20.3574 9.54692 20.125C9.48247 20.0166 9.35161 19.7295 9.52837 19.4023C9.72661 19.0342 9.93804 18.6777 10.148 18.3232C11.0191 16.8525 11.9195 15.3311 11.9195 13.1533C11.9195 10.8994 13.8233 8.99609 16.0767 8.99609C18.3301 8.99609 20.2339 10.8994 20.2339 13.1533C20.2339 15.502 21.1192 17.0371 21.9756 18.5225C22.1402 18.8076 22.3062 19.0957 22.4693 19.3945C22.65 19.7256 22.5186 20.0156 22.4537 20.125Z" fill="#292929"/>
+  // Language switcher configuration — add/remove languages here
+  const LANGUAGES = [
+    { code: 'en', label: 'English' },
+    { code: 'ja', label: 'Japenese' },
+  ];
+
+  const globeIconSvg = `<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_lang_globe" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<path d="M10 1.25195C5.1748 1.25195 1.25 5.17676 1.25 10.002C1.25 14.8271 5.1748 18.752 10 18.752C14.8252 18.752 18.75 14.8272 18.75 10.002C18.75 5.17675 14.8252 1.25195 10 1.25195ZM17.2109 9.25195H14.0688C13.9294 6.92163 13.1543 4.72558 11.8772 3.00708C14.7327 3.77441 16.8999 6.23828 17.2109 9.25195ZM10.0125 16.8833C8.52295 15.3462 7.5935 13.1384 7.43042 10.752H12.5696C12.4082 13.1401 11.4885 15.3452 10.0125 16.8833ZM7.43066 9.25195C7.5935 6.8645 8.52246 4.65796 10.012 3.12011C11.4888 4.65771 12.4082 6.86303 12.5696 9.25195H7.43066ZM8.14624 3.00098C6.85645 4.72119 6.07227 6.92017 5.93115 9.25196H2.78906C3.10083 6.22999 5.27929 3.76124 8.14624 3.00098ZM2.78906 10.752H5.93115C6.07226 13.0828 6.85742 15.2822 8.14721 17.0029C5.27953 16.2432 3.10107 13.7742 2.78906 10.752ZM11.8767 16.9968C13.154 15.2776 13.9294 13.0816 14.0691 10.752H17.2109C16.8999 13.7659 14.7324 16.2297 11.8767 16.9968Z" fill="#292929"/>
 </mask>
-<g mask="url(#mask0_2053_37663)">
-<rect x="6" y="6" width="20" height="20" fill="#292929"/>
+<g mask="url(#mask0_lang_globe)">
+<rect width="20" height="20" fill="currentColor"/>
 </g>
-</g>
-<defs>
-<clipPath id="clip0_2053_37663">
-<rect width="32" height="32" rx="8" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-`;
+</svg>`;
+
+  function detectCurrentLang() {
+    var pathname = window.location.pathname;
+    var codes = LANGUAGES.map(function(l) { return l.code; });
+    for (var i = 0; i < codes.length; i++) {
+      var c = codes[i];
+      if (pathname.match(new RegExp('/' + c + '(/|\\.|$)'))) {
+        return c;
+      }
+    }
+    return 'en';
+  }
+
+  function buildLangUrl(targetCode) {
+    var pathname = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    var currentCode = detectCurrentLang();
+    if (currentCode === targetCode) return null;
+
+    var newPath = pathname.replace(
+      new RegExp('/' + currentCode + '(/|\\.|$)'),
+      '/' + targetCode + '$1'
+    );
+    return newPath + search + hash;
+  }
+
+  function buildLangSwitcherHtml() {
+    var currentCode = detectCurrentLang();
+    var options = LANGUAGES.map(function(lang) {
+      var activeClass = lang.code === currentCode ? ' lang-option--active' : '';
+      return '<button class="lang-option' + activeClass + '" data-lang="' + lang.code + '">' + lang.label + '</button>';
+    }).join('');
+    return '<div id="lang-switcher">' +
+      '<button id="lang-switcher-btn" class="header-icon" aria-label="Switch language" aria-expanded="false">' + globeIconSvg + '</button>' +
+      '<div id="lang-dropdown" class="lang-dropdown">' + options + '</div>' +
+    '</div>';
+  }
 
   const gridIconSvg = `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_2053_37674" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="6" y="6" width="20" height="20">
@@ -111,7 +146,55 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== Inject right-side icons into #header-icons ===== */
   if (headerIcons) {
-    headerIcons.innerHTML = bellIconSvg + gridIconSvg + avatarSvg;
+    headerIcons.innerHTML = buildLangSwitcherHtml() + gridIconSvg + avatarSvg;
+
+    var langBtn = document.querySelector('#lang-switcher-btn');
+    var langDropdown = document.querySelector('#lang-dropdown');
+
+    if (langBtn && langDropdown) {
+      langBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = langDropdown.classList.toggle('lang-dropdown--open');
+        langBtn.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      langDropdown.querySelectorAll('.lang-option').forEach(function (opt) {
+        opt.addEventListener('click', function () {
+          var target = this.getAttribute('data-lang');
+          var url = buildLangUrl(target);
+          if (url) window.location.href = url;
+        });
+      });
+
+      document.addEventListener('click', function (e) {
+        if (!e.target.closest('#lang-switcher')) {
+          langDropdown.classList.remove('lang-dropdown--open');
+          langBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  }
+
+  /* ===== Inject language switcher into side drawer for mobile ===== */
+  var sideDrawer = document.querySelector('#side-drawer');
+  if (sideDrawer) {
+    var currentCode = detectCurrentLang();
+    var drawerLangHtml = '<div id="side-drawer-lang" class="side-drawer-lang">' +
+      '<span class="side-drawer-lang__label">' + globeIconSvg + '</span>' +
+      LANGUAGES.map(function (lang) {
+        var activeClass = lang.code === currentCode ? ' side-drawer-lang__option--active' : '';
+        return '<button class="side-drawer-lang__option' + activeClass + '" data-lang="' + lang.code + '">' + lang.label + '</button>';
+      }).join('') +
+      '</div>';
+    sideDrawer.insertAdjacentHTML('beforeend', drawerLangHtml);
+
+    sideDrawer.querySelectorAll('.side-drawer-lang__option').forEach(function (opt) {
+      opt.addEventListener('click', function () {
+        var target = this.getAttribute('data-lang');
+        var url = buildLangUrl(target);
+        if (url) window.location.href = url;
+      });
+    });
   }
 
   /* ===== Desktop / Mobile toggle ===== */
