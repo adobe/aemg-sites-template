@@ -795,6 +795,54 @@ html[lang="ja"] {
   margin-left: 1.4em;
 }
 
+/* --- dlentry accordion --- */
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl {
+  border-bottom: 1px solid #6E6E6E;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry {
+  border-top: 1px solid #6E6E6E;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry > .dt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 16px 0;
+  user-select: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry > .dt::after {
+  content: '+';
+  font-size: 24px;
+  font-weight: 300;
+  color: #333;
+  flex-shrink: 0;
+  margin-left: 16px;
+  line-height: 1;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry--expanded > .dt::after {
+  content: '\2212';
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry > .dd {
+  display: none;
+  margin-left: 0;
+  padding: 1rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry--expanded > .dd {
+  display: block;
+}
+
+/* --- end dlentry accordion --- */
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-flex {
   display: flex;
 }
