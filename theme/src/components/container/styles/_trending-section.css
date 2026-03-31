@@ -381,12 +381,14 @@ it.
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 540px) {
   #trending-tiles > .cmp-container,
   #trending-tiles > .aem-Grid {
     grid-template-columns: 1fr !important;
   }
-  
+}
+
+@media (max-width: 390px) {  
   #trending-heading,
   #trending-heading .cmp-title,
   #trending-heading .cmp-title__text,

@@ -272,7 +272,7 @@ it.
 
 /* Expanded answer */
 [id^="faq-item-"].faq-item--expanded .cmp-text {
-  max-height: 110px;
+  max-height: unset;
   padding: 1rem 1rem 28px 1rem !important
 }
 
@@ -389,7 +389,7 @@ it.
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 540px) {
   #faq-tabs {
     flex-direction: column !important;
     .button {
