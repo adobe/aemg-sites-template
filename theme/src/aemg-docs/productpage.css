@@ -579,10 +579,17 @@ it.
     }
 }
 
+@media (max-width: 540px) {
+    #kb-sidebar-cards-row {
+        flex-direction: column;
+    }
+}
+
 /* 390px */
 @media (max-width: 390px) {
-    #kb-page-container {
-        padding: 1.5rem 1rem 2rem;
+
+    #kb-promo-banner {
+        margin: 2rem;
     }
 
     #kb-content-area {

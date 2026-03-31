@@ -312,6 +312,13 @@ it.
   }
 }
 
+@media (max-width: 540px) {
+  #community-buttons 
+  {
+    flex-direction: column !important;
+  }
+}
+
 /* 390px design (390px and below) */
 @media (max-width: 390px) {
   #community-section {

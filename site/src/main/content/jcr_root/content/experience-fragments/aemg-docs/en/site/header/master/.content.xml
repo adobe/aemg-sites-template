@@ -134,7 +134,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Learn &amp; Support"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://helpx.adobe.com/support/coldfusion.html"/>
+                        link="/content/aemg-docs/en/docs"/>
                 <buttonFreeTrial
                         cq:styleIds="[button--Primary]"
                         jcr:primaryType="nt:unstructured"

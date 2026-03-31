@@ -278,15 +278,18 @@ it.
   }
 }
 
+@media (max-width: 540px) {
+  #getstarted-tiles > .cmp-container,
+  #getstarted-tiles > .aem-Grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 @media (max-width: 390px) {
   #getstarted-heading,
   #getstarted-heading .cmp-title,
   #getstarted-heading .cmp-title__text,
   #getstarted-heading h2 {
     font-size: 1.5rem !important;
-  }
-  #getstarted-tiles > .cmp-container,
-  #getstarted-tiles > .aem-Grid {
-    grid-template-columns: 1fr !important;
   }
 }
