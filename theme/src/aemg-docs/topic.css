@@ -166,6 +166,38 @@ html[lang="ja"] {
   list-style-type: lower-roman;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol.steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol.steps > li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 2.5em;
+  margin-left: 0;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) ol.steps > li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9em;
+  line-height: 1;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl {
   margin-bottom: 1em;
 }
@@ -175,7 +207,7 @@ html[lang="ja"] {
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dd {
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dthd, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .ddhd {
@@ -834,7 +866,8 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry > .dd {
   display: none;
   margin-left: 0;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry--expanded > .dd {

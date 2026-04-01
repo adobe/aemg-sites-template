@@ -80,7 +80,8 @@
                         type="h2"/>
                     <categorylist
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/categorylist"/>
+                        sling:resourceType="guides-components/components/categorylist"
+                        parentPath="/content/aemg-docs/en/docs"/>
                 </kb-content-area>
                 <kb-sidebar
                     jcr:primaryType="nt:unstructured"

@@ -378,12 +378,12 @@ it.
 
 .lang-option:hover {
     background-color: #f5f5f5;
-    color: #1473E6;
+    color: #2C2C2C;
 }
 
 .lang-option--active {
     font-weight: 700;
-    color: #1473E6;
+    color: #2C2C2C;
 }
 
 /* ===== Mobile button container ===== */
