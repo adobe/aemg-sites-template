@@ -24,7 +24,7 @@ document.head.appendChild(launchScript);
 
 // Flameback feedback widget
 const flamebackScript = document.createElement('script');
-flamebackScript.src = 'https://guidesai.adobe.io/widget/flameback-widget-loader.js?siteId=46b038a7-9878-4c69-ac4c-001e290cb88a';
+flamebackScript.src = 'https://guidesai.adobe.io/widget/flameback-widget-loader.js?apiKey=fb_sk_FZJ87HDrZ7YWssJmaz72_twxybnkN6XB3iTH1HrJwsE';
 flamebackScript.defer = true;
 document.head.appendChild(flamebackScript);
 

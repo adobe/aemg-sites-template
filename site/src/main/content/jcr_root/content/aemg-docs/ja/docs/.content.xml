@@ -479,7 +479,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>ColdFusionのインストール&lt;/a>に関するヘルプをご覧ください。&lt;a href='#'>ColdFusionダウンロードページ&lt;/a>から製品をダウンロードできます。&lt;/p>"
+                                    text="&lt;p>&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionのインストール&lt;/a>に関するヘルプをご覧ください。&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から製品をダウンロードできます。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d1>
                             <faq_item_d2
@@ -509,7 +509,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>はい、&lt;a href='#'>ColdFusionダウンロードページ&lt;/a>から30日間の無料体験版をダウンロードできます。体験版にはすべてのエンタープライズ機能が含まれています。&lt;/p>"
+                                    text="&lt;p>はい、&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から30日間の無料体験版をダウンロードできます。体験版にはすべてのエンタープライズ機能が含まれています。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d3>
                             <faq_item_d4
@@ -574,24 +574,9 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>初心者から上級者向けのビデオチュートリアル、コードサンプル、ステップバイステップガイドは&lt;a href='#'>ColdFusionラーニングセンター&lt;/a>をご覧ください。&lt;/p>"
+                                    text="&lt;p>初心者から上級者向けのビデオチュートリアル、コードサンプル、ステップバイステップガイドは&lt;a href='https://coldfusion.adobe.com/learning_hub/'>ColdFusionラーニングセンター&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs3>
-                            <faq_item_gs4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-gs4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion Builderのセットアップ方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Adobeのウェブサイトから&lt;a href='#'>ColdFusion Builder&lt;/a>をダウンロードしてください。ColdFusionサーバーとの設定方法は&lt;a href='#'>セットアップガイド&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_gs4>
                         </faq_panel_getting_started>
                         <faq_panel_developing
                             jcr:primaryType="nt:unstructured"
@@ -624,7 +609,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>人気のフレームワークには&lt;a href='#'>ColdBox&lt;/a>、FW/1、CFWheelsがあります。それぞれがMVCアーキテクチャとスケーラブルなアプリケーション構築のためのツールを提供します。&lt;/p>"
+                                    text="&lt;p>人気のフレームワークには&lt;a href='https://www.coldbox.org/'>ColdBox&lt;/a>、FW/1、CFWheelsがあります。それぞれがMVCアーキテクチャとスケーラブルなアプリケーション構築のためのツールを提供します。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev2>
                             <faq_item_dev3
@@ -654,7 +639,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Builderの組み込みデバッガを使用するか、ColdFusion Administratorで&lt;a href='#'>デバッグ出力&lt;/a>を有効にしてください。ブレークポイントとステップ実行デバッグについては&lt;a href='#'>デバッグガイド&lt;/a>をご覧ください。&lt;/p>"
+                                    text="&lt;p>詳細については、Visual Studio Code用ColdFusion Builderプラグインを使用したアプリケーションのデバッグをご覧ください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev4>
                         </faq_panel_developing>

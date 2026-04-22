@@ -45,33 +45,48 @@ jQuery(function ($: any) {
         );
     });
 
+    const $tooltip = $('<span class="share-copied-tooltip">Copied!</span>');
+    $copylink.append($tooltip);
+
     $copylink.on("click", function () {
         const url = window.location.href;
-        console.log(url);
-        if (navigator.clipboard && navigator.clipboard.writeText) {
+
+        function showCopied() {
+            $copylink.addClass("copied");
+            $tooltip.addClass("visible");
+            setTimeout(function () {
+                $tooltip.removeClass("visible");
+                $copylink.removeClass("copied");
+            }, 1500);
+        }
+
+        function fallbackCopy(text: string) {
+            const textarea = document.createElement("textarea");
+            textarea.value = text;
+            textarea.setAttribute("readonly", "");
+            textarea.style.position = "fixed";
+            textarea.style.left = "-9999px";
+            textarea.style.top = "-9999px";
+            textarea.style.opacity = "0";
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            textarea.setSelectionRange(0, text.length);
+            try {
+                var ok = document.execCommand("copy");
+                if (ok) { showCopied(); }
+            } catch (_) { /* ignore */ }
+            document.body.removeChild(textarea);
+        }
+
+        if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
             navigator.clipboard.writeText(url).then(function () {
-                $copylink.addClass("copied");
-                setTimeout(function () { $copylink.removeClass("copied"); }, 1500);
-            }).catch(function (err: any) {
-                console.error("Clipboard write failed: ", err);
+                showCopied();
+            }).catch(function () {
                 fallbackCopy(url);
             });
         } else {
             fallbackCopy(url);
-        }
-
-        function fallbackCopy(text: string) {
-            const $tempInput = $("<input>");
-            $("body").append($tempInput);
-            $tempInput.val(text).select();
-            try {
-                document.execCommand("copy");
-                $copylink.addClass("copied");
-                setTimeout(function () { $copylink.removeClass("copied"); }, 1500);
-            } catch (err) {
-                console.error("Fallback copy failed: ", err);
-            }
-            $tempInput.remove();
         }
     });
 });

@@ -33,6 +33,7 @@ html[lang="ja"] {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+  word-break: break-word;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) article, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) aside, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) details, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figcaption, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) figure, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) footer, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) header, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) hgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) menu, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) nav, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) section {
