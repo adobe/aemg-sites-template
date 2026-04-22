@@ -83,31 +83,38 @@ it.
 
 /* Copy link icon */
 #share-copylink {
+    width: 32px;
+    height: 32px;
     background-image: url("data:image/svg+xml;utf8,<svg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0_599_1542)'><mask id='mask0_599_1542' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='6' y='6' width='20' height='20'><path d='M11.3135 24.7475C10.2725 24.7475 9.23243 24.3511 8.44043 23.5591C6.85645 21.9751 6.85645 19.397 8.44043 17.812L12.3457 13.9067C13.9307 12.3227 16.5078 12.3237 18.0928 13.9067C18.3096 14.1245 18.5 14.3638 18.6592 14.6167C18.8799 14.9673 18.7744 15.4302 18.4238 15.6509C18.0713 15.8725 17.6103 15.7651 17.3896 15.4155C17.2891 15.2554 17.168 15.104 17.0303 14.9663C16.0312 13.9673 14.4053 13.9682 13.4062 14.9673L9.50098 18.8725C8.50196 19.8725 8.50196 21.4995 9.50098 22.4985C10.502 23.4995 12.1279 23.4956 13.127 22.4985L15.0791 20.5464C15.3721 20.2534 15.8467 20.2534 16.1397 20.5464C16.4326 20.8393 16.4326 21.314 16.1397 21.6069L14.1875 23.5591C13.3955 24.3511 12.3545 24.7466 11.3135 24.7475ZM19.6543 18.0923L23.5596 14.187C25.1435 12.602 25.1435 10.0239 23.5596 8.43994C21.9756 6.85596 19.3965 6.85596 17.8125 8.43994L15.8603 10.3921C15.5674 10.6851 15.5674 11.1597 15.8603 11.4526C16.1533 11.7456 16.6279 11.7456 16.9209 11.4526L18.873 9.50049C19.8721 8.50244 21.498 8.50049 22.499 9.50049C23.498 10.4995 23.498 12.1265 22.499 13.1265L18.5938 17.0317C17.5947 18.0308 15.9688 18.0317 14.9697 17.0327C14.832 16.895 14.7109 16.7437 14.6104 16.5835C14.3897 16.2339 13.9287 16.1265 13.5762 16.3481C13.2256 16.5688 13.1201 17.0317 13.3408 17.3823C13.5 17.6353 13.6904 17.8745 13.9072 18.0923C14.7002 18.8843 15.7402 19.2808 16.7813 19.2808C17.8213 19.2808 18.8623 18.8843 19.6543 18.0923Z' fill='%23292929'/></mask><g mask='url(%23mask0_599_1542)'><rect x='6' y='6' width='20' height='20' fill='%23292929'/></g></g><defs><clipPath id='clip0_599_1542'><rect width='32' height='32' rx='8' fill='white'/></clipPath></defs></svg>");
 }
 
 /* Tooltip for copy link confirmation */
 #share-copylink {
+    position: relative;
 
-    &.copied::after {
-        content: "Copied!";
-        color: #fff;
-        font-size: 0.75rem;
-        font-family: var(--Font-adobe-clean, "Adobe Clean");
-        padding: 0.25rem 0.5rem;
-        border-radius: 0.25rem;
-        white-space: nowrap;
-        pointer-events: none;
-        width: 2rem !important;
-        height: 2rem !important;    
+    &.copied {
+        opacity: 1;
     }
 }
 
-@keyframes fadeInOut {
-    0% { opacity: 0; transform: translateX(-50%) translateY(0.25rem); }
-    15% { opacity: 1; transform: translateX(-50%) translateY(0); }
-    75% { opacity: 1; transform: translateX(-50%) translateY(0); }
-    100% { opacity: 0; transform: translateX(-50%) translateY(0); }
+.share-copied-tooltip {
+    position: absolute;
+    bottom: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2C2C2C;
+    color: #fff;
+    font-size: 0.75rem;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    pointer-events: none;
+        opacity: 0;
+
+    &.visible {
+        opacity: 1;
+    }
 }
 
 /* =============================================

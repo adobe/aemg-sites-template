@@ -470,7 +470,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Get help &lt;a href='#'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='#'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Get help &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d1>
                             <faq_item_d2
@@ -500,7 +500,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Yes, you can download a free 30-day trial from the &lt;a href='#'>ColdFusion Downloads page&lt;/a>. The trial includes all enterprise features.&lt;/p>"
+                                    text="&lt;p>Yes, you can download a free 30-day trial from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>. The trial includes all enterprise features.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d3>
                             <faq_item_d4
@@ -565,24 +565,9 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Visit the &lt;a href='#'>ColdFusion Learning Center&lt;/a> for video tutorials, code samples, and step-by-step guides for beginners and advanced users.&lt;/p>"
+                                    text="&lt;p>Visit the &lt;a href='https://coldfusion.adobe.com/learning_hub/'>ColdFusion Learning Center&lt;/a> for video tutorials, code samples, and step-by-step guides for beginners and advanced users.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs3>
-                            <faq_item_gs4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-gs4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I set up ColdFusion Builder?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Download &lt;a href='#'>ColdFusion Builder&lt;/a> from the Adobe website. Follow the &lt;a href='#'>setup guide&lt;/a> to configure it with your ColdFusion server.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_gs4>
                         </faq_panel_getting_started>
                         <faq_panel_developing
                             jcr:primaryType="nt:unstructured"
@@ -615,7 +600,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Popular frameworks include &lt;a href='#'>ColdBox&lt;/a>, FW/1, and CFWheels. Each provides MVC architecture and tooling for building scalable applications.&lt;/p>"
+                                    text="&lt;p>Popular frameworks include &lt;a href='https://www.coldbox.org/'>ColdBox&lt;/a>, FW/1, and CFWheels. Each provides MVC architecture and tooling for building scalable applications.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev2>
                             <faq_item_dev3
@@ -645,7 +630,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use ColdFusion Builder's built-in debugger or enable &lt;a href='#'>debugging output&lt;/a> in the ColdFusion Administrator. The &lt;a href='#'>debugging guide&lt;/a> covers breakpoints and step-through debugging.&lt;/p>"
+                                    text="&lt;p>See debug applications using ColdFusion Builder plugin for Visual Studio code for more information.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev4>
                         </faq_panel_developing>
