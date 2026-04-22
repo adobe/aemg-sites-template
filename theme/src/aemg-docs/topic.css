@@ -427,10 +427,16 @@ html[lang="ja"] {
   margin-left: 0;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
   margin-bottom: 1em;
   border: 1px solid #DADADA;
-  width: 100%;
+  min-width: max-content;
   margin-top: 0.5em;
   border-radius: 8px;
   overflow: hidden;
