@@ -9,7 +9,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Adobe ColdFusion Documentation | Learn &amp; Support"
         sling:resourceType="guides-components/components/page"
-        pageTitle="AEMG"
+        pageTitle="Home"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">

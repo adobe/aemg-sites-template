@@ -33,7 +33,6 @@ it.
   a {
     display: flex;
     align-items: center;
-    pointer-events: none;
     @apply focus:ring-0 focus:ring-transparent;
   }
    #topic-page .cmp-breadcrumb__item-link {
