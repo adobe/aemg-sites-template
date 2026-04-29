@@ -38,7 +38,7 @@ it.
 .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
     display: flex;
     align-items: center;
-    padding: 0 2rem 0 0.75rem;
+    padding: 0 0.75rem 0 0.75rem;
     height: 100%;
     flex-wrap: nowrap;
 }
@@ -529,7 +529,7 @@ it.
 /* Default styles above target 1920px design (1440px and above) */
 
 /* 1440px design (1024px to 1439px) */
-@media (max-width: 1439px) {
+@media (max-width: 1500px) {
     #header-left > .button:nth-child(2) {
         border-left: none;
         border-right: none;
@@ -583,7 +583,7 @@ it.
 }
 
 /* 500px design (below 500px) — search bar drops to second row */
-@media (max-width: 499px) {
+@media (max-width: 515px) {
     .cmp-experiencefragment--header .xf-content-height {
         height: auto;
     }

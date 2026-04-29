@@ -14,7 +14,7 @@ html {
 body {
   height: 100%;
   font-family: "Adobe Clean";
-  font-size: 18px;
+  font-size: 16px;
 }
 .root {
   height: 100%;
@@ -53,7 +53,7 @@ select {
   .cmp-title__text {
     font-family: "Adobe Clean";
     font-weight: 700 !important;
-    font-size: 2.75rem !important;
+    font-size: 2rem !important;
     line-height: 125%;
 
   }
@@ -115,7 +115,7 @@ select {
   display: flex;
   flex-direction: column;
   font-family: "Adobe Clean";
-  padding: 1.5rem 7.5rem;
+  padding: 1.5rem 1rem;
   color: #2C2C2C;
 }
 #topic-container .title h1 {
@@ -282,7 +282,7 @@ select {
   }
 
   #topic-page > .aem-Grid > .aem-GridColumn:has(#table-of-contents) {
-    width: 22.5rem !important;
+    width: 20rem !important;
     flex-shrink: 0;
   }
 
@@ -293,7 +293,7 @@ select {
   }
 
   #topic-page > .aem-Grid > .aem-GridColumn:has(#minitoc-wrapper) {
-    width: 22.5rem !important;
+    width: 18rem !important;
     flex-shrink: 0;
   }
 }
@@ -363,7 +363,7 @@ select {
 /* 1440px design (1024px to 1439px) */
 @media (max-width: 1439px) {
   #topic-container {
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 1rem;
   }
   .injected-minitoc-wrapper{
     display: none !important ;
@@ -373,7 +373,7 @@ select {
 /* 1024px design (768px to 1023px) */
 @media (max-width: 1023px) {
   #topic-container {
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 1rem;
   }
   .injected-minitoc-wrapper{
     display: none !important ;
@@ -383,7 +383,7 @@ select {
 /* 768px design (390px to 767px) */
 @media (max-width: 767px) {
   #topic-container {
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 1rem;
   }
   .injected-minitoc-wrapper{
     display: none !important ;
@@ -392,7 +392,7 @@ select {
 
 @media (max-width: 500px) {
   #topic-container {
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1rem;
   }
   .injected-minitoc-wrapper{
     display: none !important ;

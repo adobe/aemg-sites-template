@@ -8,7 +8,7 @@
 /* === Wrapper: minitoc + banners === */
 #minitoc-wrapper {
     width: 100%;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem;
     position: sticky;
     height: 100vh;
     top: 3rem;
