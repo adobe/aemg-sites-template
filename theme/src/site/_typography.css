@@ -16,7 +16,7 @@ it.
 .h1,
 .title--h1,
 h1 {
-  @apply mb-6 text-3xl;
+  @apply text-3xl;
   margin-top: 2rem !important;
 }
 

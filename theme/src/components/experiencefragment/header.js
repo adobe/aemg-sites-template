@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ===== Initialize responsive behavior ===== */
-  const isDesktop = window.matchMedia('(min-width: 768px)');
+  const isDesktop = window.matchMedia('(min-width: 1501px)');
   header.setAttribute('data-expanded', 'false');
   toggleMenu(isDesktop.matches);
   isDesktop.addEventListener('change', () => {

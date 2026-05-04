@@ -414,7 +414,7 @@ it.
    ============================================= */
 
 #kb-promo-banner {
-    display: flex;
+    display: none;
     align-items: flex-start;
     gap: 1.25rem;
     background: linear-gradient(135deg, #EDF1FF 0%, #F0F5FF 40%, #FFFFFF 100%);

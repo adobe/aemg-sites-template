@@ -215,47 +215,22 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="footer-bottom-left">
-                    <regionText
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;地域を変更&lt;/p&gt;"
-                            textIsRich="{Boolean}true"/>
                     <iconFacebook
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/image/v2/image"
-                            alt="Facebook"
-                            altValueFromDAM="false"
-                            fileReference="/content/dam/aemg-docs/common-images/icons/facebook dark.svg"
-                            isDecorative="false"
-                            linkURL="https://www.facebook.com/AdobeJapan"
-                            titleValueFromDAM="false"/>
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-facebook"/>
                     <iconTwitter
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/image/v2/image"
-                            alt="Twitter"
-                            altValueFromDAM="false"
-                            fileReference="/content/dam/aemg-docs/common-images/icons/twitter dark.svg"
-                            isDecorative="false"
-                            linkURL="https://twitter.com/AdobeJapan"
-                            titleValueFromDAM="false"/>
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-twitter"/>
                     <iconLinkedin
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/image/v2/image"
-                            alt="LinkedIn"
-                            altValueFromDAM="false"
-                            fileReference="/content/dam/aemg-docs/common-images/icons/linkein dark.svg"
-                            isDecorative="false"
-                            linkURL="https://www.linkedin.com/company/adobe"
-                            titleValueFromDAM="false"/>
-                    <iconYoutube
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-linkedin"/>
+                    <iconInstagram
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/image/v2/image"
-                            alt="YouTube"
-                            altValueFromDAM="false"
-                            fileReference="/content/dam/aemg-docs/common-images/icons/youtube dark.svg"
-                            isDecorative="false"
-                            linkURL="https://www.youtube.com/user/AdobeJapan"
-                            titleValueFromDAM="false"/>
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-instagram"/>
                 </footerBottomLeft>
 
                 <!-- Right side: copyright + legal links -->

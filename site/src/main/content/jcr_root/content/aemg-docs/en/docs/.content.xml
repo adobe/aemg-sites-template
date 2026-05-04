@@ -78,7 +78,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="Get answers, find assets, access our help instantly"/>
+                                text="Explore tutorials, documentation, and expert resources to get the most out of ColdFusion."/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -98,19 +98,19 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="When should I use MCP vs direct API calls?"/>
+                                    text="Which AI providers and models are supported in ColdFusion?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Can ColdFusion function both as MCP client and an MCP server?"/>
+                                    text="What are the options for configuring chat memory in ColdFusion agents, including per-user and persistent memory?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How do I connect to multiple MCP servers?"/>
+                                    text="How does ColdFusion handle asynchronous ingestion and querying in RAG and vector store workflows?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Do I need an LLM to use MCP?"/>
+                                    text="Can ColdFusion function both as MCP client and an MCP server?"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
@@ -869,13 +869,13 @@
                                     jcr:title="Visit community forum"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-community-forum"
-                                    link="#"/>
+                                    link="https://community.adobe.com/coldfusion-580"/>
                                 <button_support
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Contact support"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-contact-support"
-                                    link="#"/>
+                                    link="https://helpx.adobe.com/support.html"/>
                             </buttons_container>
                         </community_left>
                         <community_right
@@ -897,31 +897,25 @@
                                     jcr:title="Server Administration"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="#"/>
+                                    link="/content/dam/coldfusion/en/Install-and-configure-ColdFusion/Configurations/using-the-coldfusion-administrator.dita"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion Builder"
+                                    jcr:title="VS Code Extension for ColdFusion Builder"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="#"/>
-                                <tag_advanced
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="Advanced Techniques"
-                                    sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-advanced-techniques"
-                                    link="#"/>
+                                    link="https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/get-started-coldfusion-builder-extension-visual-st.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Security"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="#"/>
+                                    link="/content/dam/coldfusion/en/Install-and-configure-ColdFusion/Configurations/administering-coldfusion-security.dita"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Performance"
+                                    jcr:title="Monitor Performance"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="#"/>
+                                    link="https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/overview-coldfusion-performance-monitoring-toolset.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>

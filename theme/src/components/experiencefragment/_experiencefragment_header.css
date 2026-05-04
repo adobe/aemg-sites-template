@@ -295,7 +295,7 @@ it.
 
 /* Icons container (language switcher, grid, avatar) */
 #header-icons {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 0.5rem;
 }
@@ -441,7 +441,7 @@ it.
 
 /* Language switcher inside side drawer */
 .side-drawer-lang {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 0;

@@ -98,27 +98,27 @@
                         <download-title
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="DOWNLOAD COLDFUSION TODAY"
+                            text="Download ColdFusion"
                             textIsRich="false"
                             id="kb-download-title"/>
                         <download-text
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>Visit the Adobe ColdFusion User Community to be inspired and get answers to top questions.&lt;/p>"
+                            text="&lt;p>Get the installer for the latest ColdFusion release and start building or upgrading your apps.&lt;/p>"
                             textIsRich="true"
                             id="kb-download-text"/>
                         <download-btn
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;a href='#'>Download ColdFusion&lt;/a>&lt;/p>"
+                            text="&lt;p>&lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>Download ColdFusion&lt;/a>&lt;/p>"
                             textIsRich="true"
                             id="kb-download-btn"/>
-                        <download-learn
+                        <!-- <download-learn
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
                             text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
                             textIsRich="true"
-                            id="kb-download-learn"/>
+                            id="kb-download-learn"/> -->
                     </kb-download-card>
                     <kb-sidebar-cards-row
                         jcr:primaryType="nt:unstructured"
@@ -135,19 +135,19 @@
                             <community-title
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="JOIN THE CONVERSATION"
+                                text="ColdFusion community"
                                 textIsRich="false"
                                 id="kb-community-title"/>
                             <community-text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>Visit the Adobe ColdFusion User Community to be inspired and get answers to top questions.&lt;/p>"
+                                text="&lt;p>Get answers, examples, and ideas from other developers.&lt;/p>"
                                 textIsRich="true"
                                 id="kb-community-text"/>
                             <community-link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>&lt;a href='#'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
+                                text="&lt;p>&lt;a href='https://community.adobe.com/coldfusion-580'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
                                 textIsRich="true"
                                 id="kb-community-link"/>
                         </kb-community-card>
@@ -162,19 +162,19 @@
                             <contact-title
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="CONTACT US"
+                                text="Get expert help"
                                 textIsRich="false"
                                 id="kb-contact-title"/>
                             <contact-text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>Expert support for your issues.&lt;/p>"
+                                text="&lt;p>Talk to Adobe about ColdFusion installation, licensing, and technical questions.&lt;/p>"
                                 textIsRich="true"
                                 id="kb-contact-text"/>
                             <contact-link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>&lt;a href='#'>Start now  &amp;gt;&lt;/a>&lt;/p>"
+                                text="&lt;p>&lt;a href='https://helpx.adobe.com/support.html'>Contact support &amp;gt;&lt;/a>&lt;/p>"
                                 textIsRich="true"
                                 id="kb-contact-link"/>
                         </kb-contact-card>
