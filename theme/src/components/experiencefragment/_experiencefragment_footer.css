@@ -255,23 +255,38 @@ it.
     margin-bottom: 0.125rem;
 }
 
-/* Social icons */
-.cmp-experiencefragment--footer #footer-bottom-left > .image {
+/* Social icons (rendered via CSS data-URI containers) */
+.cmp-experiencefragment--footer #footer-bottom-left > .container:has([id^="social-icon-"]) {
     flex-shrink: 0;
 }
 
-.cmp-experiencefragment--footer #footer-bottom-left .image .cmp-image__image {
+.cmp-experiencefragment--footer #footer-bottom-left [id^="social-icon-"] {
     width: 1.25rem;
     height: 1.25rem;
-    object-fit: contain;
-    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#social-icon-facebook {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 35 35'><path d='M28.438,0a6.324,6.324,0,0,1,4.637,1.925A6.324,6.324,0,0,1,35,6.563V28.438A6.574,6.574,0,0,1,28.438,35H24.154V21.442h4.535l.684-5.286H24.154V12.783a2.919,2.919,0,0,1,.535-1.914,2.657,2.657,0,0,1,2.085-.638l2.78-.023V5.492A30.537,30.537,0,0,0,25.5,5.286a6.769,6.769,0,0,0-4.956,1.823,6.892,6.892,0,0,0-1.857,5.15v3.9H14.128v5.286h4.557V35H6.563a6.324,6.324,0,0,1-4.637-1.925A6.324,6.324,0,0,1,0,28.438V6.563A6.324,6.324,0,0,1,1.925,1.925,6.324,6.324,0,0,1,6.563,0Z' fill='gray'/></svg>");
+}
+
+#social-icon-twitter {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><rect width='24' height='24' fill='%23ff13dc' opacity='0'/><path d='m13.862 10.469 7.2855-8.4687h-1.7264l-6.326 7.3533-5.0526-7.3533h-5.8275l7.6404 11.119-7.6404 8.8808h1.7265l6.6804-7.7653 5.3359 7.7653h5.8275l-7.9237-11.531zm-2.3647 2.7487-0.77413-1.1072-6.1595-8.8105h2.6518l4.9708 7.1104 0.77413 1.1072 6.4614 9.2424h-2.6518l-5.2728-7.5418z' fill='%23707070' stroke-width='.016308'/></svg>");
+}
+
+#social-icon-linkedin {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 35 35'><path d='M5.4,29.3h5.264V13.49H5.4Zm5.605-20.69a2.7,2.7,0,0,0-.82-1.96,2.906,2.906,0,0,0-2.119-.775,3.027,3.027,0,0,0-2.153.775,2.565,2.565,0,0,0-.832,1.96,2.6,2.6,0,0,0,.809,1.948A2.9,2.9,0,0,0,8,11.348h.023a3,3,0,0,0,2.165-.786A2.59,2.59,0,0,0,11.006,8.613ZM24.336,29.3H29.6V20.234a7.564,7.564,0,0,0-1.663-5.309,5.7,5.7,0,0,0-4.4-1.8,5.3,5.3,0,0,0-4.762,2.666h.046v-2.3H13.558q.068,1.5,0,15.814h5.264V20.462a3.753,3.753,0,0,1,.16-1.276,3.517,3.517,0,0,1,1.025-1.356,2.584,2.584,0,0,1,1.686-.558q2.642,0,2.643,3.577ZM35,6.563V28.438A6.574,6.574,0,0,1,28.438,35H6.563a6.324,6.324,0,0,1-4.637-1.925A6.324,6.324,0,0,1,0,28.438V6.563A6.324,6.324,0,0,1,1.925,1.925,6.324,6.324,0,0,1,6.563,0H28.438a6.324,6.324,0,0,1,4.637,1.925A6.324,6.324,0,0,1,35,6.563Z' fill='gray'/></svg>");
+}
+
+#social-icon-instagram {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35.119' height='34.9' viewBox='0 0 35.119 34.9'><path d='M460.081,313.1h25.957a4.47,4.47,0,0,1,4.581,4.581V343.42A4.473,4.473,0,0,1,486.038,348H460.081a4.47,4.47,0,0,1-4.581-4.581V317.463a4.559,4.559,0,0,1,4.581-4.362Zm21.158,3.926a1.491,1.491,0,0,0-1.527,1.527v3.708a1.491,1.491,0,0,0,1.527,1.527h3.926a1.491,1.491,0,0,0,1.527-1.527v-3.708a1.491,1.491,0,0,0-1.527-1.527Zm5.453,10.906h-3.054a12.877,12.877,0,0,1,.436,3.054,10.575,10.575,0,0,1-10.906,10.47c-5.89,0-10.906-4.8-10.906-10.47a14.725,14.725,0,0,1,.436-3.054h-3.272v14.833a1.407,1.407,0,0,0,1.309,1.309h24.212a1.257,1.257,0,0,0,1.309-1.309V327.933Zm-13.524-4.362a6.765,6.765,0,1,0,6.98,6.762,6.845,6.845,0,0,0-6.98-6.762Zm0,0' transform='translate(-455.5 -313.1)' fill='gray' fill-rule='evenodd'/></svg>");
 }
 
 /* Add a small left-separator before social icons group */
-.cmp-experiencefragment--footer #footer-bottom-left > .image:first-of-type {
+.cmp-experiencefragment--footer #footer-bottom-left > .container:has([id^="social-icon-"]):first-of-type {
     margin-left: 0.5rem;
     padding-left: 1rem;
-    border-left: 1px solid #e0e0e0;
 }
 
 /* --- Right side: Copyright + Legal Links --- */

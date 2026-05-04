@@ -235,6 +235,12 @@ html[lang="ja"] {
   line-height: 125%;
   color: #2C2C2C;
 }
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 125%;
+  color: #2C2C2C;
+}
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section > .title {
   font-size: 20px;
