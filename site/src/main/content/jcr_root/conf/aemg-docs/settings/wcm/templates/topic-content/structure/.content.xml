@@ -232,7 +232,7 @@
                                 <banner_1_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>Register now&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/'>Register now&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-link"/>
                             </banner_1_content>
@@ -259,7 +259,7 @@
                                 <banner_2_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/native-ai-training/'>Learn more&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-2-link"/>
                             </banner_2_content>
