@@ -218,15 +218,33 @@
                     <iconFacebook
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-facebook"/>
+                            id="social-icon-facebook">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://www.facebook.com/AdobeColdFusion/"
+                                accessibilityLabel="Facebook"/>
+                    </iconFacebook>
                     <iconTwitter
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-twitter"/>
+                            id="social-icon-twitter">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://x.com/coldfusion"
+                                accessibilityLabel="X (Twitter)"/>
+                    </iconTwitter>
                     <iconLinkedin
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-linkedin"/>
+                            id="social-icon-linkedin">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://www.linkedin.com/company/coldfusion-adobe/posts/?feedView=all"
+                                accessibilityLabel="LinkedIn"/>
+                    </iconLinkedin>
                     <iconInstagram
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -251,7 +269,7 @@
                     <adchoices
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;AdChoices&lt;/p&gt;"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads'&gt;AdChoices&lt;/a&gt;&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                 </footerBottomRight>
             </footerBottom>

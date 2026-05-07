@@ -306,6 +306,7 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip {
   background-color: #F5F9FF;
   border-left: 5px solid #3B63FB;
+  font-size: 14px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note[data-attr-type="note"] .prefix-content,
@@ -341,6 +342,7 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger {
   background-color: #FFF6F5;
   border-left: 5px solid #D73220;
+  font-size: 14px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger .prefix-content {
@@ -373,6 +375,7 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution {
   background-color: #FFF6E7;
   border-left: 5px solid #f5c823;
+  font-size: 14px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution .prefix-content {
@@ -405,6 +408,7 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning {
   background-color: #FFF6E7;
   border-left: 5px solid #FC7D00;
+  font-size: 14px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning .prefix-content {
@@ -441,14 +445,20 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) table {
   margin-bottom: 1em;
   border: 1px solid #DADADA;
-  width: 100%;
+  width: auto;
   margin-top: 0.5em;
   border-radius: 8px;
   overflow: hidden;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table {
+  overflow-x: auto;
+  min-width: 100%;
+  display: block;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .choicetable, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
-  table-layout: fixed;
+  table-layout: auto;
   word-break: break-all;
   word-break: break-word;
 }
@@ -459,7 +469,7 @@ html[lang="ja"] {
   border-spacing: 0;
   border-radius: 8px;
   overflow: hidden;
-  width: 100%;
+  width: auto;
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
@@ -468,8 +478,7 @@ html[lang="ja"] {
   margin-top: 2em;
 }
 
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child,
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:not(:has(.thead)) > .tbody > .row:first-child > .entry {
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .thead .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .sthead .stentry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol .entry:first-child {
   text-align: left;
   border-bottom: 1px solid #DADADA;
   border-right: 1px solid #DADADA;
@@ -480,13 +489,13 @@ html[lang="ja"] {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0%;
+  min-width: 100px;
 }
 
 /* Apply header background only when the table has more than 1 row */
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:has(.tbody > .row) > .thead .entry,
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable:has(.strow) .sthead .stentry,
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol:has(.tbody > .row ~ .row, .thead + .tbody > .row) .entry:first-child,
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup:not(:has(.thead)) > .tbody:has(.row ~ .row) > .row:first-child > .entry {
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .table.firstcol:has(.tbody > .row ~ .row, .thead + .tbody > .row) .entry:first-child {
   background: #EBEEFF;
 }
 
@@ -728,6 +737,12 @@ html[lang="ja"] {
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-inline {
   display: inline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig .placement-inline,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig .placement-break {
+  display: flex;
+  justify-content: center;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-break {

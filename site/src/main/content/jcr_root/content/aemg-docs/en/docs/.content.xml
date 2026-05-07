@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>Learn what's new in ColdFusion (2025 release)!&#xa0; &lt;a href='#'>See what's new&lt;/a>&lt;/p>"
+                    text="&lt;p>Learn what's new in ColdFusion (2025.0.08)!&#xa0; &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html'>See what's new&lt;/a>&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -289,12 +289,13 @@
                                     jcr:title="Introduction to ColdFusion"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
+                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>Explore what's new in ColdFusion 2025, system requirements, and getting started...&lt;/p>"
+                                    text="&lt;p>Explore what's new in ColdFusion 2025.0.08, enhancements, bug fixes, system requirements, and more&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -335,6 +336,7 @@
                                     jcr:title="CFML Reference Guide"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
+                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -370,23 +372,24 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-3.png"
                                     id="trending-img-3"
-                                    alt="Building REST APIs"/>
+                                    alt="Create a Chat Model"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-3"
-                                    text="TUTORIAL"/>
+                                    text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Building REST APIs"
+                                    jcr:title="Create a Chat Model"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
+                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/coldfusion-ai-guide/create-a-chat-model.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>Create and publish RESTful services with ColdFusion step by step.&lt;/p>"
+                                    text="&lt;p>A chat model is the fundamental interface for interacting with Large Language Models (LLMs).&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -397,13 +400,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="&lt;p>30 min&lt;/p>"
+                                        text="&lt;p>User guide&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-3"
-                                        text="Intermediate"/>
+                                        text="All levels"/>
                                 </meta_row>
                             </tile_rest_apis>
                         </trending_tiles>
@@ -470,7 +473,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Get help &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Get help &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/installing-the-server-configuration.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d1>
                             <faq_item_d2
@@ -485,7 +488,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Check the &lt;a href='#'>system requirements&lt;/a> and ensure your environment meets the minimum specifications. Review the &lt;a href='#'>troubleshooting guide&lt;/a> for common installation issues.&lt;/p>"
+                                    text="&lt;p>Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements_1.html'>system requirements&lt;/a> and ensure your environment meets the minimum specifications.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d2>
                             <faq_item_d3
@@ -515,7 +518,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Visit the &lt;a href='#'>Adobe Store&lt;/a> to purchase a license. Once purchased, enter your serial number in the ColdFusion Administrator to convert your trial.&lt;/p>"
+                                    text="&lt;p>At the end of the 30-day trial period, the Trial edition of ColdFusion automatically becomes the Developer edition, a free, full-featured server for development use only. If you want to build and deploy applications, purchase either ColdFusion Standard or Enterprise edition. &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements.html'>Learn more&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d4>
                         </faq_panel_download>
@@ -535,7 +538,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Follow the &lt;a href='#'>Getting Started tutorial&lt;/a> to create your first CFML page. You only need a text editor and a running ColdFusion server.&lt;/p>"
+                                    text="&lt;p>Follow the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/develop-coldfusion-applications/the-cfml-programming-language/elements-of-cfml.html'>Getting Started tutorial&lt;/a> to create your first CFML page. You only need a text editor and a running ColdFusion server.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs1>
                             <faq_item_gs2
@@ -550,7 +553,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion runs on Windows, macOS, and Linux. Check the &lt;a href='#'>system requirements page&lt;/a> for detailed hardware and software specifications.&lt;/p>"
+                                    text="&lt;p>ColdFusion runs on Windows, macOS, and Linux. Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements_1.html'>system requirements page&lt;/a> for detailed hardware and software specifications.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs2>
                             <faq_item_gs3
@@ -585,7 +588,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use the ColdFusion Administrator to create a data source. See the &lt;a href='#'>database connectivity guide&lt;/a> for supported databases and configuration steps.&lt;/p>"
+                                    text="&lt;p>Use the ColdFusion Administrator to create a data source. See the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/develop-coldfusion-applications/introduction-to-databases-and-sql.html'>database connectivity guide&lt;/a> for supported databases and configuration steps.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev1>
                             <faq_item_dev2
@@ -615,7 +618,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Deploy using CAR archives, Docker containers, or manual file copy. Refer to the &lt;a href='#'>deployment guide&lt;/a> for production best practices.&lt;/p>"
+                                    text="&lt;p>Deploy using CAR archives, Docker containers, or manual file copy. Refer to the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/deploying-coldfusion-applications.html'>deployment guide&lt;/a> for production best practices.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev3>
                             <faq_item_dev4
@@ -624,13 +627,13 @@
                                 id="faq-item-dev4">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I debug ColdFusion code?"
+                                    jcr:title="How to debug ColdFusion code?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>See debug applications using ColdFusion Builder plugin for Visual Studio code for more information.&lt;/p>"
+                                    text="&lt;p>See &lt;a href='https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/debug-applications.html'>debug applications&lt;/a> using ColdFusion Builder plugin for Visual Studio Code for more information.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_dev4>
                         </faq_panel_developing>
@@ -665,7 +668,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Key tags include &lt;code>cfquery&lt;/code>, &lt;code>cfoutput&lt;/code>, &lt;code>cfloop&lt;/code>, and &lt;code>cfcomponent&lt;/code>. See the &lt;a href='#'>CFML reference&lt;/a> for the full list.&lt;/p>"
+                                    text="&lt;p>Key tags include &lt;code>cfquery&lt;/code>, &lt;code>cfoutput&lt;/code>, &lt;code>cfloop&lt;/code>, and &lt;code>cfcomponent&lt;/code>. See the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html'>CFML reference&lt;/a> for the full list.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_cf2>
                             <faq_item_cf3
@@ -695,7 +698,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>The complete &lt;a href='#'>CFML Reference&lt;/a> is available in the official documentation, covering all tags, functions, and objects.&lt;/p>"
+                                    text="&lt;p>The complete &lt;a href='https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html'>CFML Reference&lt;/a> is available in the official documentation, covering all tags, functions, and objects.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_cf4>
                         </faq_panel_cfml>
@@ -780,7 +783,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use the built-in updater in ColdFusion Administrator or download updates from the &lt;a href='#'>Adobe Updates page&lt;/a>. Always back up your server before applying updates.&lt;/p>"
+                                    text="&lt;p>Use the built-in updater in ColdFusion Administrator or download updates from the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/coldfusion-2025-updates.html'>Adobe Updates page&lt;/a>. Always back up your server before applying updates.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_u1>
                             <faq_item_u2
@@ -795,7 +798,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Review the &lt;a href='#'>release notes&lt;/a> for a detailed list of new features, bug fixes, and security patches in each update.&lt;/p>"
+                                    text="&lt;p>Review the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/coldfusion-2025-release-notes.html'>release notes&lt;/a> for a detailed list of new features, bug fixes, and security patches in each update.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_u2>
                             <faq_item_u3
@@ -825,7 +828,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Most updates are backward compatible. Check the &lt;a href='#'>compatibility notes&lt;/a> in each release for any breaking changes or deprecated features.&lt;/p>"
+                                    text="&lt;p>Most updates are backward compatible. Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/troubleshoot-issues/backward-licensing-policy-coldfusion.html'>compatibility notes&lt;/a> in each release for any breaking changes or deprecated features.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_u4>
                         </faq_panel_updates>
@@ -837,7 +840,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="faq-help-text"
-                                text="&lt;p>Still need help? Find more &lt;a href='#'>account, billing, and plan answers.&lt;/a>&lt;/p>"
+                                text="&lt;p>Still need help? Find more &lt;a href='https://helpx.adobe.com/manage-account.html'>account, billing, and plan answers.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </faq_help>
                     </faq_section>
@@ -897,7 +900,7 @@
                                     jcr:title="Server Administration"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="/content/dam/coldfusion/en/Install-and-configure-ColdFusion/Configurations/using-the-coldfusion-administrator.dita"/>
+                                    link="https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/using-the-coldfusion-administrator.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="VS Code Extension for ColdFusion Builder"
@@ -909,7 +912,7 @@
                                     jcr:title="Security"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="/content/dam/coldfusion/en/Install-and-configure-ColdFusion/Configurations/administering-coldfusion-security.dita"/>
+                                    link="https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/administering-coldfusion-security.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Monitor Performance"

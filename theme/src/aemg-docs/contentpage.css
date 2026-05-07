@@ -76,7 +76,7 @@ it.
     height: 3.375rem;
     background-color: #EBEEFF;
     justify-content: center;
-
+    display: none;
     .container {
         display: flex;
     
