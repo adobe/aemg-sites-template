@@ -129,7 +129,7 @@
 #sidebar-banners [id$="-text"] p {
     color: #2C2C2C;
     font-family: var(--Font-adobe-clean, "Adobe Clean");
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
     margin: 0 0 0.375rem !important;

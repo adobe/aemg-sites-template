@@ -144,6 +144,45 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerButton.innerHTML = hamburgerOpenSvg;
   }
 
+  /* ===== WAP dropdown options — edit labels / URLs here ===== */
+  const WAP_OPTIONS = [
+    { label: 'Adobe ColdFusion Family',        url: 'https://www.adobe.com/products/coldfusion-family.html' },
+    { label: 'Adobe ColdFusion Enterprise', url: 'https://www.adobe.com/products/coldfusion-enterprise.html' },
+    { label: 'Adobe ColdFusion Standard', url: 'https://www.adobe.com/products/coldfusion-standard.html' },
+    { label: 'Adobe ColdFusion Builder',  url: 'https://www.adobe.com/products/coldfusion-builder.html' },
+  ];
+
+  /* ===== WAP dropdown ===== */
+  const wapBtn = document.querySelector('#btn-wap');
+  if (wapBtn) {
+    const wapWrapper = wapBtn.closest('.button');
+    if (wapWrapper) wapWrapper.style.position = 'relative';
+
+    const dropdownHtml = '<div id="wap-dropdown" class="wap-dropdown">' +
+      WAP_OPTIONS.map(function (opt) {
+        return '<a class="wap-dropdown__option" href="' + opt.url + '">' + opt.label + '</a>';
+      }).join('') +
+      '</div>';
+
+    wapBtn.insertAdjacentHTML('afterend', dropdownHtml);
+
+    const wapDropdown = (wapWrapper || wapBtn.parentElement).querySelector('#wap-dropdown');
+
+    wapBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const isOpen = wapDropdown.classList.toggle('wap-dropdown--open');
+      wapBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('#btn-wap') && !e.target.closest('#wap-dropdown')) {
+        wapDropdown.classList.remove('wap-dropdown--open');
+        wapBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   /* ===== Make Adobe logo clickable ===== */
   const adobeLogo = document.querySelector('#adobe-logo');
   if (adobeLogo) {
@@ -186,8 +225,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  /* ===== Inject language switcher into side drawer for mobile ===== */
+  /* ===== WAP sub-options inside side drawer ===== */
   var sideDrawer = document.querySelector('#side-drawer');
+  if (sideDrawer) {
+    var drawerWapBtn = sideDrawer.querySelector('.button:first-child .cmp-button');
+    if (drawerWapBtn) {
+      var drawerWapWrapper = drawerWapBtn.closest('.button');
+      var subListHtml = '<div class="wap-drawer-sub">' +
+        WAP_OPTIONS.map(function (opt) {
+          return '<a class="wap-drawer-sub__option" href="' + opt.url + '">' + opt.label + '</a>';
+        }).join('') +
+        '</div>';
+      drawerWapWrapper.insertAdjacentHTML('beforeend', subListHtml);
+      var subList = drawerWapWrapper.querySelector('.wap-drawer-sub');
+
+      drawerWapBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        subList.classList.toggle('wap-drawer-sub--open');
+      });
+    }
+  }
+
+  /* ===== Inject language switcher into side drawer for mobile ===== */
   if (sideDrawer) {
     var currentCode = detectCurrentLang();
     var drawerLangHtml = '<div id="side-drawer-lang" class="side-drawer-lang">' +
