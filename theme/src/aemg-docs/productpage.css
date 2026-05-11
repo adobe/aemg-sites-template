@@ -521,7 +521,7 @@ it.
 /* 1440px */
 @media (max-width: 1439px) {
     #kb-content-area {
-        padding: 1.5rem 5rem;
+        padding: 1.5rem 2.5rem;
     }
     #kb-title .cmp-title__text {
         font-size: 2.25rem;
@@ -542,7 +542,7 @@ it.
         width: 100% !important;
     }
     #kb-sidebar {
-        padding: 0 5rem;
+        padding: 0 2.5rem;
     }
 
     #kb-sidebar > .cmp-container {

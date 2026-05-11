@@ -146,6 +146,53 @@ it.
     background-repeat: no-repeat;
 }
 
+/* WAP dropdown panel */
+.wap-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 15rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    z-index: 1100;
+    padding: 0;
+    flex-direction: column;
+}
+
+.wap-dropdown--open {
+    display: flex;
+}
+
+.wap-dropdown__option {
+    display: block;
+    width: 100%;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    color: #4b4b4b;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    border: none;
+    border-left: 3px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    box-sizing: border-box;
+}
+
+.wap-dropdown__option:last-child {
+    border-bottom: none;
+}
+
+.wap-dropdown__option:hover {
+    background-color: #fafafa;
+    color: #2c2c2c;
+    border-left-color: #1473E6;
+}
+
 /* Border-bottom indicators */
 #btn-help-support {
     height: 100%;
@@ -428,11 +475,32 @@ it.
     font-size: 0.9375rem;
     color: #2c2c2c;
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 0;
     border: none;
     background: none;
     cursor: pointer;
     text-align: left;
+}
+
+#side-drawer > .button:first-child .cmp-button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#side-drawer > .button:first-child .cmp-button::after {
+    content: '';
+    display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none'><path d='M3 4.5L6 7.5L9 4.5' stroke='%232c2c2c' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease;
+}
+
+#side-drawer > .button:first-child:has(.wap-drawer-sub--open) .cmp-button::after {
+    transform: rotate(180deg);
 }
 
 #side-drawer .cmp-button:hover {
@@ -479,6 +547,30 @@ it.
 
 .side-drawer-lang__option--active {
     font-weight: 700;
+    color: #1473E6;
+}
+
+/* WAP sub-options inside side drawer */
+.wap-drawer-sub {
+    display: none;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.wap-drawer-sub--open {
+    display: flex;
+}
+
+.wap-drawer-sub__option {
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    text-decoration: none;
+    padding: 0.4rem 0;
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.wap-drawer-sub__option:hover {
     color: #1473E6;
 }
 
