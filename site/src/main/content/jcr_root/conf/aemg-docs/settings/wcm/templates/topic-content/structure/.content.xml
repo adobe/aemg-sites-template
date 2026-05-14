@@ -92,9 +92,9 @@
                         <page-actions
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/page-actions"
-                            mcpName="Coldfusion Documentation-Test"
-                            mcpConfig="\{&quot;url&quot;:&quot;https://guides-knowledge-graph.adobe.io/mcp&quot;,&quot;headers&quot;:\{&quot;X-Site-Id&quot;:&quot;46b038a7-9878-4c69-ac4c-001e290cb88a&quot;\}\}"
-                            mcpServer="https://guides-knowledge-graph.adobe.io/mcp"/>
+                            mcpName="Coldfusion Documentation"
+                            mcpConfig="\{&quot;url&quot;:&quot;https://guidesai.adobe.io/mcp&quot;,&quot;name&quot;:&quot;coldfusion-documentation&quot;,&quot;description&quot;:&quot;Knowledge base for coldfusion-documentation&quot;,&quot;headers&quot;:\{&quot;X-Api-Key&quot;:&quot;fb_sk_ZIIm5oNLfXLV1fQhPe84M3mOlNRV1jO6KA_8sBia5gQ&quot;\}\}"
+                            mcpServer="https://guidesai.adobe.io/mcp"/>
                     </title-bar>
                     <container123
                         jcr:primaryType="nt:unstructured"
@@ -118,12 +118,6 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="lastUpdateBox">
-                            <meta_type
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    id="topic-meta-type"
-                                    text="&lt;p>User guide&lt;/p>"
-                                    textIsRich="true"/>
                             <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"

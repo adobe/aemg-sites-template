@@ -340,11 +340,16 @@ it.
     /* line-height: 1; */
 }
 
-/* Icons container (language switcher, grid, avatar) */
+/* Icons container (language switcher, grid, avatar) — hidden by default */
 #header-icons {
     display: none;
     align-items: center;
     gap: 0.5rem;
+}
+
+/* Show icons when header-left opts in via aria-label */
+.experiencefragment.header:has(#header-left[aria-label="add-lang-select"]) #header-icons {
+    display: flex;
 }
 
 #header-icons .header-icon {
@@ -507,7 +512,7 @@ it.
     color: #1473E6;
 }
 
-/* Language switcher inside side drawer */
+/* Language switcher inside side drawer — hidden by default */
 .side-drawer-lang {
     display: none;
     align-items: center;
@@ -515,6 +520,11 @@ it.
     padding: 0.75rem 0;
     border-top: 1px solid #e8e8e8;
     margin-top: 0.5rem;
+}
+
+/* Show mobile lang switcher when header-left opts in */
+.experiencefragment.header:has(#header-left[aria-label="add-lang-select"]) .side-drawer-lang {
+    display: flex;
 }
 
 .side-drawer-lang__label {

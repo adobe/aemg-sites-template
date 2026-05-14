@@ -234,6 +234,7 @@ html[lang="ja"] {
   font-weight: 700;
   line-height: 125%;
   color: #2C2C2C;
+  margin-bottom: 0.5em;
 }
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section_title {
   font-size: 1.25rem;
@@ -273,7 +274,6 @@ html[lang="ja"] {
   color: #666;
   /* line-height: 1.5em; */
   /* font-weight: 100; */
-  padding: 1em 0;
   margin-bottom: 0.5em;
   padding-top: 0;
 }
@@ -459,8 +459,13 @@ html[lang="ja"] {
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .tgroup, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .choicetable, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
   table-layout: auto;
-  word-break: break-all;
-  word-break: break-word;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stentry {
+  box-sizing: content-box;
+  word-break: normal;
+  overflow-wrap: break-word;
+  min-width: 100px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .simpletable {
