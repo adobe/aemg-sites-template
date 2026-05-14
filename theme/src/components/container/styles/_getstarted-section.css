@@ -89,6 +89,8 @@ it.
   border-radius: var(--Media-radius-large, 1rem);
   border: var(--stroke-weight, 1px) solid var(--C1-Stroke-card-merch, #E8E8E8) !important;
   color: #2C2C2C;
+  position: relative;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
   .button {
     align-self: flex-end;
     width: 100%;
@@ -113,6 +115,12 @@ it.
       }
     }
   }
+}
+
+[id^="getstarted-tile-"]:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  cursor: pointer;
 }
 
 [id^="getstarted-tile-"] > .cmp-container,
@@ -187,6 +195,18 @@ it.
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 125%  !important;
+}
+
+[id^="getstarted-title-"] .cmp-title__link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+[id^="getstarted-title-"] .cmp-title__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 }
 
 /* ===== Tile Description Text ===== */

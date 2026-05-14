@@ -211,7 +211,7 @@
 #sidebar-banner-2-text p:nth-child(2) {
     font-family: var(--Font-adobe-clean, "Adobe Clean");
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 150%;
     color: #2C2C2C;
     margin-bottom: 0.5rem !important;

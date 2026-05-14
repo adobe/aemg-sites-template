@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>Learn what's new in ColdFusion (2025.0.08)!&#xa0; &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html'>See what's new&lt;/a>&lt;/p>"
+                    text="&lt;p>Learn &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html'>what's new&lt;/a> in ColdFusion (2025.0.08 release)!&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -98,19 +98,19 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Which AI providers and models are supported in ColdFusion?"/>
+                                    text="How do I get started with Adobe ColdFusion?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="What are the options for configuring chat memory in ColdFusion agents, including per-user and persistent memory?"/>
+                                    text="How do I secure a ColdFusion application?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How does ColdFusion handle asynchronous ingestion and querying in RAG and vector store workflows?"/>
+                                    text="What AI features are available in ColdFusion 2025.0.08?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Can ColdFusion function both as MCP client and an MCP server?"/>
+                                    text="What models and capabilities are supported in ColdFusion?"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
@@ -149,6 +149,7 @@
                                     jcr:title="Documentation"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-documentation"
+                                    linkURL="/content/aemg-docs/en/user-guides"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -176,6 +177,7 @@
                                     jcr:title="Tutorials"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
+                                    linkURL="https://coldfusion.adobe.com/learning_hub/"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -203,6 +205,7 @@
                                     jcr:title="Community"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-community"
+                                    linkURL="https://community.adobe.com/coldfusion-580"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -230,6 +233,7 @@
                                     jcr:title="Certifications"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-certifications"
+                                    linkURL="https://coldfusion.adobe.com/certificate/"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -473,7 +477,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Get help &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/installing-the-server-configuration.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Get help &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/installing-the-server-configuration.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d1>
                             <faq_item_d2
@@ -503,7 +507,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Yes, you can download a free 30-day trial from the &lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>. The trial includes all enterprise features.&lt;/p>"
+                                    text="&lt;p>Yes, you can download a free 30-day trial from the &lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>. The trial includes all enterprise features.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_d3>
                             <faq_item_d4

@@ -65,7 +65,11 @@ it.
     a {
         font-weight: 700;
         color: #FFF;
-        display: contents;
+        margin: 0 -3px;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 }
 

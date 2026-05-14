@@ -17,9 +17,10 @@ it.
   gap: 1.5rem !important;
   background: var(--C1-Background-standard, #1E1E1E);
   box-sizing: border-box;
-
+  justify-content: center;
   .container {
     width: 100%;
+    max-width: 590px;
   }
 }
 
