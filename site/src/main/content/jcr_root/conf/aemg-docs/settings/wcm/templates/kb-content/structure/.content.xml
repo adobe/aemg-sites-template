@@ -98,19 +98,19 @@
                         <download-title
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="Download ColdFusion"
+                            text="Download Product"
                             textIsRich="false"
                             id="kb-download-title"/>
                         <download-text
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>Get the installer for the latest ColdFusion release and start building or upgrading your apps.&lt;/p>"
+                            text="&lt;p>Get the installer for the latest product release and start building or upgrading your apps.&lt;/p>"
                             textIsRich="true"
                             id="kb-download-text"/>
                         <download-btn
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>Download ColdFusion&lt;/a>&lt;/p>"
+                            text="&lt;p>&lt;a href='#'>Download Product&lt;/a>&lt;/p>"
                             textIsRich="true"
                             id="kb-download-btn"/>
                         <!-- <download-learn
@@ -135,7 +135,7 @@
                             <community-title
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="ColdFusion community"
+                                text="Product community"
                                 textIsRich="false"
                                 id="kb-community-title"/>
                             <community-text
@@ -147,7 +147,7 @@
                             <community-link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>&lt;a href='https://community.adobe.com/coldfusion-580'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
+                                text="&lt;p>&lt;a href='#'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
                                 textIsRich="true"
                                 id="kb-community-link"/>
                         </kb-community-card>
@@ -168,7 +168,7 @@
                             <contact-text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>Talk to Adobe about ColdFusion installation, licensing, and technical questions.&lt;/p>"
+                                text="&lt;p>Talk to support about product installation, licensing, and technical questions.&lt;/p>"
                                 textIsRich="true"
                                 id="kb-contact-text"/>
                             <contact-link
@@ -200,7 +200,7 @@
                         <promo-title
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;b>ColdFusion 2025 update 12&lt;/b>&lt;/p>"
+                            text="&lt;p>&lt;b>Product latest update&lt;/b>&lt;/p>"
                             textIsRich="true"
                             id="kb-promo-title"/>
                         <promo-badge

@@ -32,19 +32,19 @@
                         id="btn-wap"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe Coldfusion Family"
+                        jcr:title="Product Family"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family.html#"/>
+                        link="#"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Buying Guide"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family/buying-guide.html"/>
+                        link="#"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Certification"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family/certificate.html"/>
+                        link="#"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Learn &amp; Support"
@@ -56,7 +56,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Free trial"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion/download-trial/try.html"/>
+                        link="#"/>
             </container_left>
             <!-- Right column: search + icons -->
             <container_right
@@ -117,19 +117,19 @@
                         sling:resourceType="core/wcm/components/button/v1/button"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe Coldfusion Family"
+                        jcr:title="Product Family"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family.html#"/>
+                        link="#"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Buying Guide"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family/buying-guide.html"/>
+                        link="#"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Certification"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion-family/certificate.html"/>
+                        link="#"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Learn &amp; Support"
@@ -140,7 +140,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Free trial"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/coldfusion/download-trial/try.html"/>
+                        link="#"/>
             </container7>
         </root>
     </jcr:content>

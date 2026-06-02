@@ -5,11 +5,11 @@
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="AEMGの仕組み"
+        jcr:description="製品ドキュメントとサポートハブ。チュートリアル、リファレンスガイドなどをご覧いただけます。"
         jcr:primaryType="cq:PageContent"
-        jcr:title="ドキュメント"
+        jcr:title="ドキュメント | ラーニングとサポート"
         sling:resourceType="guides-components/components/page"
-        pageTitle="AEMG"
+        pageTitle="ホーム"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>ColdFusion（2025リリース）の新機能をご紹介！&#xa0; &lt;a href='#'>新機能を見る&lt;/a>&lt;/p>"
+                    text="&lt;p>最新リリースの&lt;a href='#'>新機能&lt;/a>をご紹介！&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -58,7 +58,7 @@
                                 <brand_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Adobe ColdFusion"/>
+                                    text="製品"/>
                             </brand_row>
                         </hero_banner>
                         <container
@@ -78,7 +78,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="回答を得る、アセットを見つける、ヘルプに即座にアクセス"/>
+                                text="チュートリアル、ドキュメント、エキスパートリソースを活用して、製品を最大限に活用しましょう。"/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -89,7 +89,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/ja/search"
                                     searchRoot="/content/aemg-docs/ja/docs"
-                                    placeholder="ColdFusionについて何でも質問してください"/>
+                                    placeholder="何でも質問してください..."/>
                                 <askdoc_button
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="AIに質問"
@@ -103,19 +103,19 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="MCPと直接API呼び出しはいつ使い分けるべきですか？"/>
+                                    text="使い始めるにはどうすればよいですか？"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="ColdFusionはMCPクライアントとMCPサーバーの両方として機能できますか？"/>
+                                    text="システム要件は何ですか？"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="複数のMCPサーバーに接続するにはどうすればよいですか？"/>
+                                    text="最新リリースの新機能は何ですか？"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="MCPを使用するにはLLMが必要ですか？"/>
+                                    text="チュートリアルはどこにありますか？"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
@@ -132,7 +132,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="ColdFusionを始めよう"
+                            jcr:title="製品を始めよう"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="getstarted-heading"
                             type="h2"/>
@@ -195,7 +195,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
                                     jcr:title="チュートリアルを見る"
-                                    link="https://coldfusion.adobe.com/learning_hub/"/>
+                                    link="#"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
@@ -223,7 +223,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-community"
                                     jcr:title="コミュニティを見る"
-                                    link="https://community.adobe.com/coldfusion-580"/>
+                                    link="#"/>
                             </tile_community>
                             <tile_certifications
                                 jcr:primaryType="nt:unstructured"
@@ -251,7 +251,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-certifications"
                                     jcr:title="認定資格を見る"
-                                    link="https://coldfusion.adobe.com/certificate/"/>
+                                    link="#"/>
                             </tile_certifications>
                         </tiles_container>
                     </getstarted_section>
@@ -277,7 +277,7 @@
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="trending-tiles"
                             layout="responsiveGrid">
-                            <tile_intro_cf
+                            <tile_intro
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-1"
@@ -287,7 +287,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-1.png"
                                     id="trending-img-1"
-                                    alt="ColdFusion入門"/>
+                                    alt="入門ガイド"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -295,15 +295,16 @@
                                     text="ドキュメント"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion入門"
+                                    jcr:title="入門ガイド"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>ColdFusion 2025の新機能、システム要件、使い始め方をご紹介...&lt;/p>"
+                                    text="&lt;p>最新の機能、システム要件、使い始め方をご紹介。&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -322,8 +323,8 @@
                                         id="trending-meta-level-1"
                                         text="全レベル"/>
                                 </meta_row>
-                            </tile_intro_cf>
-                            <tile_cfml_ref
+                            </tile_intro>
+                            <tile_reference
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-2"
@@ -333,7 +334,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-2.png"
                                     id="trending-img-2"
-                                    alt="CFMLリファレンスガイド"/>
+                                    alt="リファレンスガイド"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -341,15 +342,16 @@
                                     text="ドキュメント"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLリファレンスガイド"
+                                    jcr:title="リファレンスガイド"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-2"
-                                    text="&lt;p>すべてのCFMLタグ、関数、予約変数の完全リファレンス。&lt;/p>"
+                                    text="&lt;p>すべてのAPI、関数、設定オプションの完全リファレンス。&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -368,8 +370,8 @@
                                         id="trending-meta-level-2"
                                         text="全レベル"/>
                                 </meta_row>
-                            </tile_cfml_ref>
-                            <tile_rest_apis
+                            </tile_reference>
+                            <tile_tutorial
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-3"
@@ -379,7 +381,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-3.png"
                                     id="trending-img-3"
-                                    alt="REST APIの構築"/>
+                                    alt="ステップバイステップチュートリアル"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -387,15 +389,16 @@
                                     text="チュートリアル"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="REST APIの構築"
+                                    jcr:title="ステップバイステップチュートリアル"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>ColdFusionでRESTfulサービスをステップバイステップで作成・公開する方法。&lt;/p>"
+                                    text="&lt;p>このガイド付きチュートリアルで、製品の主要な概念とワークフローを学びましょう。&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -406,15 +409,15 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="&lt;p>30分&lt;/p>"
+                                        text="&lt;p>チュートリアル&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-3"
-                                        text="中級"/>
+                                        text="全レベル"/>
                                 </meta_row>
-                            </tile_rest_apis>
+                            </tile_tutorial>
                         </trending_tiles>
                     </trending_section>
                     <faq_section
@@ -432,11 +435,11 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-tabs">
-                            <tab_download
+                            <tab_general
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="ダウンロードとインストール"
+                                jcr:title="一般"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-download"
+                                id="faq-tab-general"
                                 link="#"/>
                             <tab_getting_started
                                 jcr:primaryType="nt:unstructured"
@@ -444,90 +447,63 @@
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-getting-started"
                                 link="#"/>
-                            <tab_developing
+                            <tab_troubleshooting
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="アプリケーション開発"
+                                jcr:title="トラブルシューティング"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-developing"
-                                link="#"/>
-                            <tab_cfml
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="CFML"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-cfml"
-                                link="#"/>
-                            <tab_updates
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="アップデート"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-updates"
+                                id="faq-tab-troubleshooting"
                                 link="#"/>
                         </faq_tabs>
-                        <faq_panel_download
+                        <faq_panel_general
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-download">
-                            <faq_item_d1
+                            id="faq-panel-general">
+                            <faq_item_g1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d1">
+                                id="faq-item-g1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionのインストール方法は？"
+                                    jcr:title="この製品は何ですか？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionのインストール&lt;/a>に関するヘルプをご覧ください。&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から製品をダウンロードできます。&lt;/p>"
+                                    text="&lt;p>機能と特徴については&lt;a href='#'>製品概要&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d1>
-                            <faq_item_d2
+                            </faq_item_g1>
+                            <faq_item_g2
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d2">
+                                id="faq-item-g2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionがインストールできないのはなぜですか？"
+                                    jcr:title="システム要件は何ですか？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>システム要件&lt;/a>を確認し、環境が最低仕様を満たしているかご確認ください。一般的なインストール問題については&lt;a href='#'>トラブルシューティングガイド&lt;/a>をご覧ください。&lt;/p>"
+                                    text="&lt;p>詳細なハードウェアおよびソフトウェアの仕様については&lt;a href='#'>システム要件ページ&lt;/a>をご確認ください。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d2>
-                            <faq_item_d3
+                            </faq_item_g2>
+                            <faq_item_g3
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d3">
+                                id="faq-item-g3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionの体験版をダウンロードできますか？"
+                                    jcr:title="無料体験版を入手するには？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>はい、&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から30日間の無料体験版をダウンロードできます。体験版にはすべてのエンタープライズ機能が含まれています。&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>ダウンロードページ&lt;/a>から無料体験版をダウンロードできます。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d3>
-                            <faq_item_d4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="体験版の期限が近づいています。どうすれば変換できますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>Adobeストア&lt;/a>でライセンスをご購入ください。購入後、ColdFusion Administratorでシリアル番号を入力して体験版を変換できます。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d4>
-                        </faq_panel_download>
+                            </faq_item_g3>
+                        </faq_panel_general>
                         <faq_panel_getting_started
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -538,13 +514,13 @@
                                 id="faq-item-gs1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="最初のColdFusionアプリケーションを作成するには？"
+                                    jcr:title="製品のインストール方法は？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>入門チュートリアル&lt;/a>に従って、最初のCFMLページを作成してください。テキストエディタと実行中のColdFusionサーバーのみが必要です。&lt;/p>"
+                                    text="&lt;p>ステップバイステップの手順については&lt;a href='#'>インストールガイド&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs1>
                             <faq_item_gs2
@@ -553,13 +529,13 @@
                                 id="faq-item-gs2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="システム要件は何ですか？"
+                                    jcr:title="チュートリアルはどこにありますか？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusionはWindows、macOS、Linuxで動作します。詳細なハードウェアおよびソフトウェアの仕様については&lt;a href='#'>システム要件ページ&lt;/a>をご確認ください。&lt;/p>"
+                                    text="&lt;p>ビデオチュートリアル、コードサンプル、ステップバイステップガイドは&lt;a href='#'>ラーニングセンター&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs2>
                             <faq_item_gs3
@@ -568,211 +544,66 @@
                                 id="faq-item-gs3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="チュートリアルはどこにありますか？"
+                                    jcr:title="最初のプロジェクトを作成するには？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>初心者から上級者向けのビデオチュートリアル、コードサンプル、ステップバイステップガイドは&lt;a href='https://coldfusion.adobe.com/learning_hub/'>ColdFusionラーニングセンター&lt;/a>をご覧ください。&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>入門チュートリアル&lt;/a>に従って、最初のプロジェクトを作成してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs3>
                         </faq_panel_getting_started>
-                        <faq_panel_developing
+                        <faq_panel_troubleshooting
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-developing">
-                            <faq_item_dev1
+                            id="faq-panel-troubleshooting">
+                            <faq_item_t1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev1">
+                                id="faq-item-t1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="データベースに接続するには？"
+                                    jcr:title="現在のバージョンの確認方法は？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorを使用してデータソースを作成します。サポートされているデータベースと設定手順については&lt;a href='#'>データベース接続ガイド&lt;/a>をご覧ください。&lt;/p>"
+                                    text="&lt;p>インストール済みバージョンの確認方法については&lt;a href='#'>バージョン情報ページ&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev1>
-                            <faq_item_dev2
+                            </faq_item_t1>
+                            <faq_item_t2
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev2">
+                                id="faq-item-t2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionで使えるフレームワークは？"
+                                    jcr:title="最新バージョンへのアップデート方法は？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>人気のフレームワークには&lt;a href='https://www.coldbox.org/'>ColdBox&lt;/a>、FW/1、CFWheelsがあります。それぞれがMVCアーキテクチャとスケーラブルなアプリケーション構築のためのツールを提供します。&lt;/p>"
+                                    text="&lt;p>最新アップデートのダウンロードと適用の手順については&lt;a href='#'>アップデートページ&lt;/a>をご覧ください。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev2>
-                            <faq_item_dev3
+                            </faq_item_t2>
+                            <faq_item_t3
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev3">
+                                id="faq-item-t3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionアプリケーションのデプロイ方法は？"
+                                    jcr:title="バグの報告方法は？"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CARアーカイブ、Dockerコンテナ、または手動のファイルコピーでデプロイします。本番環境のベストプラクティスについては&lt;a href='#'>デプロイガイド&lt;/a>をご参照ください。&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>サポートポータル&lt;/a>から問題を報告してください。&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev3>
-                            <faq_item_dev4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionコードのデバッグ方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>詳細については、Visual Studio Code用ColdFusion Builderプラグインを使用したアプリケーションのデバッグをご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev4>
-                        </faq_panel_developing>
-                        <faq_panel_cfml
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-cfml">
-                            <faq_item_cf1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLとは何ですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFML（ColdFusion Markup Language）は、高速なWebアプリケーション開発のためのスクリプト言語です。HTMLとシームレスに統合し、タグベースとスクリプトベースの両方の構文をサポートしています。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf1>
-                            <faq_item_cf2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="主要なCFMLタグは何ですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>主要なタグには&lt;code>cfquery&lt;/code>、&lt;code>cfoutput&lt;/code>、&lt;code>cfloop&lt;/code>、&lt;code>cfcomponent&lt;/code>があります。完全なリストは&lt;a href='#'>CFMLリファレンス&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf2>
-                            <faq_item_cf3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLは他の言語とどう違いますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFMLはWeb開発に特化して設計されており、データベース、セッション、メール、PDF生成の組み込みサポートを提供します。他の言語ではライブラリが必要な一般的なタスクを抽象化しています。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf3>
-                            <faq_item_cf4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLリファレンスドキュメントはどこにありますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>すべてのタグ、関数、オブジェクトを網羅した完全な&lt;a href='#'>CFMLリファレンス&lt;/a>が公式ドキュメントで利用可能です。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf4>
-                        </faq_panel_cfml>
-                        <faq_panel_updates
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-updates">
-                            <faq_item_u1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionのアップデート方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorの組み込みアップデータを使用するか、&lt;a href='#'>Adobeアップデートページ&lt;/a>からアップデートをダウンロードしてください。アップデート適用前に必ずサーバーをバックアップしてください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u1>
-                            <faq_item_u2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="最新のアップデートには何が含まれていますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>各アップデートの新機能、バグ修正、セキュリティパッチの詳細リストは&lt;a href='#'>リリースノート&lt;/a>をご確認ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u2>
-                            <faq_item_u3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="現在のColdFusionバージョンの確認方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorを開き、システム情報ページを確認するか、コード内で&lt;code>server.coldfusion.productversion&lt;/code>を使用してください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u3>
-                            <faq_item_u4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="アップデートは後方互換性がありますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ほとんどのアップデートは後方互換性があります。各リリースの破壊的変更や非推奨機能については&lt;a href='#'>互換性ノート&lt;/a>をご確認ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u4>
-                        </faq_panel_updates>
+                            </faq_item_t3>
+                        </faq_panel_troubleshooting>
                         <faq_help
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -803,7 +634,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="community-description"
-                                text="Adobe ColdFusionコミュニティとつながりましょう。質問を投稿してエキスパートから回答を得ることができます。"/>
+                                text="コミュニティとつながりましょう。質問を投稿してエキスパートから回答を得ることができます。"/>
                             <buttons_container
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -836,23 +667,17 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="topics-tags">
-                                <tag_server
+                                <tag_getting_started
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="サーバー管理"
+                                    jcr:title="はじめに"
                                     sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-server-admin"
+                                    id="tag-getting-started"
                                     link="#"/>
-                                <tag_builder
+                                <tag_best_practices
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion Builder"
+                                    jcr:title="ベストプラクティス"
                                     sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-coldfusion-builder"
-                                    link="#"/>
-                                <tag_advanced
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="高度なテクニック"
-                                    sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-advanced-techniques"
+                                    id="tag-best-practices"
                                     link="#"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"

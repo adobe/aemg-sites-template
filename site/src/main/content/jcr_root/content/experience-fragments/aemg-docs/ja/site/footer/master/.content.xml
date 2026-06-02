@@ -24,42 +24,42 @@
                     sling:resourceType="core/wcm/components/container/v1/container"
                     id="footer-links">
 
-                <!-- Column 1: ColdFusion -->
-                <colColdfusion
+                <!-- Column 1: Product -->
+                <colProduct
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="col-coldfusion">
                     <heading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;ColdFusion&lt;/p&gt;"
+                            text="&lt;p&gt;製品&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
                             jcr:title="概要"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion-family.html"/>
+                            link="#"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="機能"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion/features.html"/>
+                            link="#"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
                             jcr:title="価格"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion-family/buying-guide.html"/>
+                            link="#"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="無料体験版"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion/download-trial/try.html"/>
+                            link="#"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
                             jcr:title="利用条件"
                             sling:resourceType="core/wcm/components/button/v1/button"
                             link="https://www.adobe.com/jp/legal/terms.html"/>
-                </colColdfusion>
+                </colProduct>
 
                 <!-- Column 2: Support -->
                 <colSupport
@@ -75,17 +75,17 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="ダウンロードとインストール"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/jp/coldfusion/kb/coldfusion-downloads.html"/>
+                            link="#"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="ヘルプセンター"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/jp/support/coldfusion.html"/>
+                            link="#"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobeサポートコミュニティ"
+                            jcr:title="サポートコミュニティ"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://community.adobe.com/t5/coldfusion/ct-p/ct-coldfusion"/>
+                            link="#"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="エンタープライズサポート"

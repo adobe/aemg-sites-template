@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
   </svg>`;
 
-  // Dropdown chevron for "Adobe Coldfusion Family"
+  // Dropdown chevron for product family
   const chevronDownSvg = `<svg class="header-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left:2px;">
     <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>`;
@@ -146,10 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== WAP dropdown options — edit labels / URLs here ===== */
   const WAP_OPTIONS = [
-    { label: 'Adobe ColdFusion Family',        url: 'https://www.adobe.com/products/coldfusion-family.html' },
-    { label: 'Adobe ColdFusion Enterprise', url: 'https://www.adobe.com/products/coldfusion-enterprise.html' },
-    { label: 'Adobe ColdFusion Standard', url: 'https://www.adobe.com/products/coldfusion-standard.html' },
-    { label: 'Adobe ColdFusion Builder',  url: 'https://www.adobe.com/products/coldfusion-builder.html' },
+    { label: 'Product Family',     url: '#' },
+    { label: 'Product Enterprise', url: '#' },
+    { label: 'Product Standard',   url: '#' },
   ];
 
   /* ===== WAP dropdown ===== */
