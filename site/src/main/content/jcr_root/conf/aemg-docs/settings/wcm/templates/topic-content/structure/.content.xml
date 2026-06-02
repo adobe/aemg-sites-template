@@ -54,10 +54,10 @@
                     <container23
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/guidessidenavigation"
-                                productLogo="/content/dam/aemg-docs/cf.png"
-                                productTitle="ColdFusion"
+                                productLogo="/content/dam/aemg-docs/product-logo.png"
+                                productTitle="Product"
                                 appLinkText="Open app"
-                                appLinkUrl="https://www.adobe.com/products/coldfusion-family.html"/>
+                                appLinkUrl="#"/>
                 </container>
                 <container1
                     cq:styleIds="[container--aemGrid]"
@@ -92,9 +92,9 @@
                         <page-actions
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/page-actions"
-                            mcpName="Coldfusion Documentation"
-                            mcpConfig="\{&quot;url&quot;:&quot;https://guidesai.adobe.io/mcp&quot;,&quot;name&quot;:&quot;coldfusion-documentation&quot;,&quot;description&quot;:&quot;Knowledge base for coldfusion-documentation&quot;,&quot;headers&quot;:\{&quot;X-Api-Key&quot;:&quot;fb_sk_ZIIm5oNLfXLV1fQhPe84M3mOlNRV1jO6KA_8sBia5gQ&quot;\}\}"
-                            mcpServer="https://guidesai.adobe.io/mcp"/>
+                            mcpName="Product Documentation"
+                            mcpConfig="\{&quot;url&quot;:&quot;#&quot;,&quot;name&quot;:&quot;product-documentation&quot;,&quot;description&quot;:&quot;Knowledge base for product-documentation&quot;,&quot;headers&quot;:\{\}\}"
+                            mcpServer="#"/>
                     </title-bar>
                     <container123
                         jcr:primaryType="nt:unstructured"
@@ -220,13 +220,13 @@
                                 <banner_1_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Register for &lt;b>Adobe ColdFusion Summit 2026&lt;/b>&lt;/p>"
+                                    text="&lt;p>Register for &lt;b>Product Summit&lt;/b>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-text"/>
                                 <banner_1_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/'>Register now&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>Register now&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-link"/>
                             </banner_1_content>
@@ -247,13 +247,13 @@
                                 <banner_2_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>AI TRAINING&lt;/p>&lt;p>Build ColdFusion AI workflows&lt;/p>"
+                                    text="&lt;p>AI TRAINING&lt;/p>&lt;p>Build AI workflows&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-2-text"/>
                                 <banner_2_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/native-ai-training/'>Learn more&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-2-link"/>
                             </banner_2_content>

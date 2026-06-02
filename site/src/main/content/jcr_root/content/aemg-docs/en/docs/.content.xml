@@ -5,9 +5,9 @@
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="Adobe ColdFusion documentation and support hub. Get answers, tutorials, CFML reference, and AI service integration guides. Find answers instantly with AI-powered search."
+        jcr:description="Product documentation and support hub. Get answers, tutorials, reference guides, and more. Find answers instantly with AI-powered search."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Adobe ColdFusion Documentation | Learn &amp; Support"
+        jcr:title="Documentation | Learn &amp; Support"
         sling:resourceType="guides-components/components/page"
         pageTitle="Home"
         pwaCachestrategy="staleWhileRevalidate"
@@ -33,7 +33,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>Learn &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html'>what's new&lt;/a> in ColdFusion (2025.0.08 release)!&lt;/p>"
+                    text="&lt;p>Learn &lt;a href='#'>what's new&lt;/a> in the latest release!&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -58,7 +58,7 @@
                                 <brand_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Adobe ColdFusion"/>
+                                    text="Product"/>
                             </brand_row>
                         </hero_banner>
                         <container
@@ -78,7 +78,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="Explore tutorials, documentation, and expert resources to get the most out of ColdFusion."/>
+                                text="Explore tutorials, documentation, and expert resources to get the most out of the product."/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -89,7 +89,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/en/search"
                                     searchRoot="/content/aemg-docs/en/docs"
-                                    placeholder="Ask anything about ColdFusion"/>
+                                    placeholder="Ask anything..."/>
                             </search_row>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
@@ -98,19 +98,19 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How do I get started with Adobe ColdFusion?"/>
+                                    text="How do I get started?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How do I secure a ColdFusion application?"/>
+                                    text="What are the system requirements?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="What AI features are available in ColdFusion 2025.0.08?"/>
+                                    text="What's new in the latest release?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="What models and capabilities are supported in ColdFusion?"/>
+                                    text="Where can I find tutorials?"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
@@ -127,7 +127,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Get started with ColdFusion"
+                            jcr:title="Get started"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="getstarted-heading"
                             type="h2"/>
@@ -177,7 +177,7 @@
                                     jcr:title="Tutorials"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
-                                    linkURL="https://coldfusion.adobe.com/learning_hub/"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -190,7 +190,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
                                     jcr:title="Explore tutorials"
-                                    link="https://coldfusion.adobe.com/learning_hub/"/>
+                                    link="#"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
@@ -205,7 +205,7 @@
                                     jcr:title="Community"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-community"
-                                    linkURL="https://community.adobe.com/coldfusion-580"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -218,7 +218,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-community"
                                     jcr:title="Explore community"
-                                    link="https://community.adobe.com/coldfusion-580"/>
+                                    link="#"/>
                             </tile_community>
                             <tile_certifications
                                 jcr:primaryType="nt:unstructured"
@@ -233,7 +233,7 @@
                                     jcr:title="Certifications"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-certifications"
-                                    linkURL="https://coldfusion.adobe.com/certificate/"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -246,7 +246,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-certifications"
                                     jcr:title="Explore certifications"
-                                    link="https://coldfusion.adobe.com/certificate/"/>
+                                    link="#"/>
                             </tile_certifications>
                         </tiles_container>
                     </getstarted_section>
@@ -272,7 +272,7 @@
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="trending-tiles"
                             layout="responsiveGrid">
-                            <tile_intro_cf
+                            <tile_intro
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-1"
@@ -282,7 +282,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-1.png"
                                     id="trending-img-1"
-                                    alt="Introduction to ColdFusion"/>
+                                    alt="Getting Started Guide"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -290,16 +290,16 @@
                                     text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Introduction to ColdFusion"
+                                    jcr:title="Getting Started Guide"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
-                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/whats-new.html"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>Explore what's new in ColdFusion 2025.0.08, enhancements, bug fixes, system requirements, and more&lt;/p>"
+                                    text="&lt;p>Explore the latest features, system requirements, and how to get started.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -318,8 +318,8 @@
                                         id="trending-meta-level-1"
                                         text="All levels"/>
                                 </meta_row>
-                            </tile_intro_cf>
-                            <tile_cfml_ref
+                            </tile_intro>
+                            <tile_reference
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-2"
@@ -329,7 +329,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-2.png"
                                     id="trending-img-2"
-                                    alt="CFML Reference Guide"/>
+                                    alt="Reference Guide"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -337,16 +337,16 @@
                                     text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFML Reference Guide"
+                                    jcr:title="Reference Guide"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
-                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-2"
-                                    text="&lt;p>Complete reference for all CFML tags, functions, and reserved variables.&lt;/p>"
+                                    text="&lt;p>Complete reference for all APIs, functions, and configuration options.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -365,8 +365,8 @@
                                         id="trending-meta-level-2"
                                         text="All levels"/>
                                 </meta_row>
-                            </tile_cfml_ref>
-                            <tile_rest_apis
+                            </tile_reference>
+                            <tile_tutorial
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="trending-tile-3"
@@ -376,24 +376,24 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/trending-3.png"
                                     id="trending-img-3"
-                                    alt="Create a Chat Model"/>
+                                    alt="Step-by-step Tutorial"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-3"
-                                    text="DOCUMENTATION"/>
+                                    text="TUTORIAL"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Create a Chat Model"
+                                    jcr:title="Step-by-step Tutorial"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="https://guides.adobe.com/coldfusion/en/docs/coldfusion-ai-guide/create-a-chat-model.html"
+                                    linkURL="#"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>A chat model is the fundamental interface for interacting with Large Language Models (LLMs).&lt;/p>"
+                                    text="&lt;p>Follow this guided tutorial to learn key product concepts and workflows.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -404,7 +404,7 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="&lt;p>User guide&lt;/p>"
+                                        text="&lt;p>Tutorial&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
@@ -412,7 +412,7 @@
                                         id="trending-meta-level-3"
                                         text="All levels"/>
                                 </meta_row>
-                            </tile_rest_apis>
+                            </tile_tutorial>
                         </trending_tiles>
                     </trending_section>
                     <faq_section
@@ -430,11 +430,11 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-tabs">
-                            <tab_download
+                            <tab_general
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Download &amp; Install"
+                                jcr:title="General"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-download"
+                                id="faq-tab-general"
                                 link="#"/>
                             <tab_getting_started
                                 jcr:primaryType="nt:unstructured"
@@ -442,90 +442,63 @@
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-getting-started"
                                 link="#"/>
-                            <tab_developing
+                            <tab_troubleshooting
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Developing Applications"
+                                jcr:title="Troubleshooting"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-developing"
-                                link="#"/>
-                            <tab_cfml
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="CFML"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-cfml"
-                                link="#"/>
-                            <tab_updates
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Updates"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-updates"
+                                id="faq-tab-troubleshooting"
                                 link="#"/>
                         </faq_tabs>
-                        <faq_panel_download
+                        <faq_panel_general
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-download">
-                            <faq_item_d1
+                            id="faq-panel-general">
+                            <faq_item_g1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d1">
+                                id="faq-item-g1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I install ColdFusion?"
+                                    jcr:title="What is this product?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Get help &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/installing-the-server-configuration.html'>installing ColdFusion&lt;/a>. Download the product from the &lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Visit the &lt;a href='#'>product overview&lt;/a> to learn about features and capabilities.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d1>
-                            <faq_item_d2
+                            </faq_item_g1>
+                            <faq_item_g2
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d2">
+                                id="faq-item-g2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Why won't ColdFusion install?"
+                                    jcr:title="What are the system requirements?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements_1.html'>system requirements&lt;/a> and ensure your environment meets the minimum specifications.&lt;/p>"
+                                    text="&lt;p>Check the &lt;a href='#'>system requirements page&lt;/a> for detailed hardware and software specifications.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d2>
-                            <faq_item_d3
+                            </faq_item_g2>
+                            <faq_item_g3
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d3">
+                                id="faq-item-g3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Can I download a trial copy of ColdFusion?"
+                                    jcr:title="How do I get a free trial?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Yes, you can download a free 30-day trial from the &lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>ColdFusion Downloads page&lt;/a>. The trial includes all enterprise features.&lt;/p>"
+                                    text="&lt;p>Download a free trial from the &lt;a href='#'>downloads page&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_d3>
-                            <faq_item_d4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="My trial is expiring soon. How do I convert it?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>At the end of the 30-day trial period, the Trial edition of ColdFusion automatically becomes the Developer edition, a free, full-featured server for development use only. If you want to build and deploy applications, purchase either ColdFusion Standard or Enterprise edition. &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements.html'>Learn more&lt;/a>.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d4>
-                        </faq_panel_download>
+                            </faq_item_g3>
+                        </faq_panel_general>
                         <faq_panel_getting_started
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -536,13 +509,13 @@
                                 id="faq-item-gs1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I create my first ColdFusion application?"
+                                    jcr:title="How do I install the product?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Follow the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/develop-coldfusion-applications/the-cfml-programming-language/elements-of-cfml.html'>Getting Started tutorial&lt;/a> to create your first CFML page. You only need a text editor and a running ColdFusion server.&lt;/p>"
+                                    text="&lt;p>Follow the &lt;a href='#'>installation guide&lt;/a> for step-by-step instructions.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs1>
                             <faq_item_gs2
@@ -551,13 +524,13 @@
                                 id="faq-item-gs2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="What are the system requirements?"
+                                    jcr:title="Where can I find tutorials?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion runs on Windows, macOS, and Linux. Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/system-requirements_1.html'>system requirements page&lt;/a> for detailed hardware and software specifications.&lt;/p>"
+                                    text="&lt;p>Visit the &lt;a href='#'>learning center&lt;/a> for video tutorials, code samples, and step-by-step guides.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs2>
                             <faq_item_gs3
@@ -566,276 +539,66 @@
                                 id="faq-item-gs3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Where can I find tutorials?"
+                                    jcr:title="How do I create my first project?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Visit the &lt;a href='https://coldfusion.adobe.com/learning_hub/'>ColdFusion Learning Center&lt;/a> for video tutorials, code samples, and step-by-step guides for beginners and advanced users.&lt;/p>"
+                                    text="&lt;p>Follow the &lt;a href='#'>getting started tutorial&lt;/a> to create your first project.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_gs3>
                         </faq_panel_getting_started>
-                        <faq_panel_developing
+                        <faq_panel_troubleshooting
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-developing">
-                            <faq_item_dev1
+                            id="faq-panel-troubleshooting">
+                            <faq_item_t1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev1">
+                                id="faq-item-t1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I connect to a database?"
+                                    jcr:title="How do I check my current version?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use the ColdFusion Administrator to create a data source. See the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/develop-coldfusion-applications/introduction-to-databases-and-sql.html'>database connectivity guide&lt;/a> for supported databases and configuration steps.&lt;/p>"
+                                    text="&lt;p>See the &lt;a href='#'>version information page&lt;/a> for details on how to check your installed version.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev1>
-                            <faq_item_dev2
+                            </faq_item_t1>
+                            <faq_item_t2
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev2">
+                                id="faq-item-t2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="What frameworks work with ColdFusion?"
+                                    jcr:title="How do I update to the latest version?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Popular frameworks include &lt;a href='https://www.coldbox.org/'>ColdBox&lt;/a>, FW/1, and CFWheels. Each provides MVC architecture and tooling for building scalable applications.&lt;/p>"
+                                    text="&lt;p>Visit the &lt;a href='#'>updates page&lt;/a> for instructions on downloading and applying the latest update.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev2>
-                            <faq_item_dev3
+                            </faq_item_t2>
+                            <faq_item_t3
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev3">
+                                id="faq-item-t3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I deploy a ColdFusion application?"
+                                    jcr:title="Where can I report a bug?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Deploy using CAR archives, Docker containers, or manual file copy. Refer to the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/deploying-coldfusion-applications.html'>deployment guide&lt;/a> for production best practices.&lt;/p>"
+                                    text="&lt;p>Report issues through the &lt;a href='#'>support portal&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
-                            </faq_item_dev3>
-                            <faq_item_dev4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How to debug ColdFusion code?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>See &lt;a href='https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/debug-applications.html'>debug applications&lt;/a> using ColdFusion Builder plugin for Visual Studio Code for more information.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev4>
-                        </faq_panel_developing>
-                        <faq_panel_cfml
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-cfml">
-                            <faq_item_cf1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="What is CFML?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFML (ColdFusion Markup Language) is a scripting language for rapid web application development. It integrates seamlessly with HTML and supports both tag-based and script-based syntax.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf1>
-                            <faq_item_cf2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="What are the key CFML tags?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Key tags include &lt;code>cfquery&lt;/code>, &lt;code>cfoutput&lt;/code>, &lt;code>cfloop&lt;/code>, and &lt;code>cfcomponent&lt;/code>. See the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html'>CFML reference&lt;/a> for the full list.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf2>
-                            <faq_item_cf3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How does CFML differ from other languages?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFML is designed specifically for web development with built-in support for databases, sessions, email, and PDF generation. It abstracts common tasks that require libraries in other languages.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf3>
-                            <faq_item_cf4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="Where can I find CFML reference documentation?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>The complete &lt;a href='https://guides.adobe.com/coldfusion/en/docs/cfml-reference/cfml-reference-user-guide.html'>CFML Reference&lt;/a> is available in the official documentation, covering all tags, functions, and objects.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf4>
-                        </faq_panel_cfml>
-                        <faq_panel_updates
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-updates">
-                            <faq_item_u1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I update ColdFusion?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use the built-in updater in ColdFusion Administrator or download updates from the &lt;a href='#'>Adobe Updates page&lt;/a>. Always back up your server before applying updates.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u1>
-                            <faq_item_u2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="What is included in the latest update?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Review the &lt;a href='#'>release notes&lt;/a> for a detailed list of new features, bug fixes, and security patches in each update.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u2>
-                            <faq_item_u3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I check my current ColdFusion version?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Open the ColdFusion Administrator and check the System Information page, or use &lt;code>server.coldfusion.productversion&lt;/code> in your code.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u3>
-                            <faq_item_u4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="Are updates backward compatible?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Most updates are backward compatible. Check the &lt;a href='#'>compatibility notes&lt;/a> in each release for any breaking changes or deprecated features.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u4>
-                        </faq_panel_updates>
-                         <faq_panel_updates
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-updates">
-                            <faq_item_u1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I update ColdFusion?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Use the built-in updater in ColdFusion Administrator or download updates from the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/coldfusion-2025-updates.html'>Adobe Updates page&lt;/a>. Always back up your server before applying updates.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u1>
-                            <faq_item_u2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="What is included in the latest update?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Review the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/introduction-to-coldfusion/coldfusion-2025-release-notes.html'>release notes&lt;/a> for a detailed list of new features, bug fixes, and security patches in each update.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u2>
-                            <faq_item_u3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="How do I check my current ColdFusion version?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Open the ColdFusion Administrator and check the System Information page, or use &lt;code>server.coldfusion.productversion&lt;/code> in your code.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u3>
-                            <faq_item_u4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u5">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="Are updates backward compatible?"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Most updates are backward compatible. Check the &lt;a href='https://guides.adobe.com/coldfusion/en/docs/troubleshoot-issues/backward-licensing-policy-coldfusion.html'>compatibility notes&lt;/a> in each release for any breaking changes or deprecated features.&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u4>
-                        </faq_panel_updates>
+                            </faq_item_t3>
+                        </faq_panel_troubleshooting>
                         <faq_help
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -844,7 +607,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="faq-help-text"
-                                text="&lt;p>Still need help? Find more &lt;a href='https://helpx.adobe.com/manage-account.html'>account, billing, and plan answers.&lt;/a>&lt;/p>"
+                                text="&lt;p>Still need help? Find more &lt;a href='#'>account, billing, and plan answers.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </faq_help>
                     </faq_section>
@@ -866,7 +629,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="community-description"
-                                text="Connect with the Adobe ColdFusion community. Post questions and get answers from experts."/>
+                                text="Connect with the community. Post questions and get answers from experts."/>
                             <buttons_container
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -876,13 +639,13 @@
                                     jcr:title="Visit community forum"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-community-forum"
-                                    link="https://community.adobe.com/coldfusion-580"/>
+                                    link="#"/>
                                 <button_support
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Contact support"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-contact-support"
-                                    link="https://helpx.adobe.com/support.html"/>
+                                    link="#"/>
                             </buttons_container>
                         </community_left>
                         <community_right
@@ -899,30 +662,30 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="topics-tags">
-                                <tag_server
+                                <tag_getting_started
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Server Administration"
+                                    jcr:title="Getting Started"
                                     sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-server-admin"
-                                    link="https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/using-the-coldfusion-administrator.html"/>
-                                <tag_builder
+                                    id="tag-getting-started"
+                                    link="#"/>
+                                <tag_best_practices
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="VS Code Extension for ColdFusion Builder"
+                                    jcr:title="Best Practices"
                                     sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-coldfusion-builder"
-                                    link="https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/get-started-coldfusion-builder-extension-visual-st.html"/>
+                                    id="tag-best-practices"
+                                    link="#"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Security"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="https://guides.adobe.com/coldfusion/en/docs/install-and-configure-coldfusion/administering-coldfusion-security.html"/>
+                                    link="#"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Monitor Performance"
+                                    jcr:title="Performance"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="https://guides.adobe.com/coldfusion/en/docs/coldfusion-tools/overview-coldfusion-performance-monitoring-toolset.html"/>
+                                    link="#"/>
                             </tags_container>
                         </community_right>
                     </community_section>
