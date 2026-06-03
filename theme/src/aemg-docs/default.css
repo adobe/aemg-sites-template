@@ -58,7 +58,3 @@ ul.Circle {
 ol.Decimal {
   @apply list-decimal;
 }
-
-#topic-page ::marker{
-  color: #1473E6;
-}

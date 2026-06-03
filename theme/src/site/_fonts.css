@@ -21,28 +21,6 @@ it.
   
   @font-face {
     font-family: 'Adobe Clean';
-    src: url('./resources/fonts/AdobeClean-BoldSemiCnIt.eot');
-    src: local('Adobe Clean Bold SemiCondensed Italic'), local('AdobeClean-BoldSemiCnIt'),
-        url('./resources/fonts/AdobeClean-BoldSemiCnIt.eot?#iefix') format('embedded-opentype'),
-        url('./resources/fonts/AdobeClean-BoldSemiCnIt.woff') format('woff'),
-        url('./resources/fonts/AdobeClean-BoldSemiCnIt.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: 'Adobe Clean';
-    src: url('./resources/fonts/AdobeClean-SemiCnIt.eot');
-    src: local('Adobe Clean SemiCondensed Italic'), local('AdobeClean-SemiCnIt'),
-        url('./resources/fonts/AdobeClean-SemiCnIt.eot?#iefix') format('embedded-opentype'),
-        url('./resources/fonts/AdobeClean-SemiCnIt.woff') format('woff'),
-        url('./resources/fonts/AdobeClean-SemiCnIt.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: 'Adobe Clean';
     src: url('./resources/fonts/AdobeClean-BoldIt.eot');
     src: local('Adobe Clean Bold Italic'), local('AdobeClean-BoldIt'),
         url('./resources/fonts/AdobeClean-BoldIt.eot?#iefix') format('embedded-opentype'),
@@ -96,28 +74,6 @@ it.
     font-style: italic;
   }
   
-  @font-face {
-    font-family: 'Adobe Clean';
-    src: url('./resources/fonts/AdobeClean-SemiCn.eot');
-    src: local('Adobe Clean SemiCondensed'), local('AdobeClean-SemiCn'),
-        url('./resources/fonts/AdobeClean-SemiCn.eot?#iefix') format('embedded-opentype'),
-        url('./resources/fonts/AdobeClean-SemiCn.woff') format('woff'),
-        url('./resources/fonts/AdobeClean-SemiCn.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Adobe Clean';
-    src: url('./resources/fonts/AdobeClean-BoldSemiCn.eot');
-    src: local('Adobe Clean Bold SemiCondensed'), local('AdobeClean-BoldSemiCn'),
-        url('./resources/fonts/AdobeClean-BoldSemiCn.eot?#iefix') format('embedded-opentype'),
-        url('./resources/fonts/AdobeClean-BoldSemiCn.woff') format('woff'),
-        url('./resources/fonts/AdobeClean-BoldSemiCn.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-
 }
 .hi-tech, .manufacturing-guides-topic-page, .fsi-guides-topic-page, .guides-product-page {
   font-family: 'Inter', sans-serif !important;

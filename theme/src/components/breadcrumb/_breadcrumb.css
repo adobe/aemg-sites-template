@@ -6,25 +6,15 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-#topic-page .cmp-breadcrumb {
-  @apply relative w-full pl-12 overflow-hidden;
-}
-
 @screen sm {
   #topic-page .cmp-breadcrumb {
     @apply pl-0;
   }
 }
 
-#topic-page .cmp-breadcrumb::after {
-  @apply absolute top-0 bottom-0 right-0 z-10 block w-6 h-full bg-gradient-to-r from-transparent to-white;
-  content: "";
-}
-
 #topic-page .cmp-breadcrumb__list {
-  @apply p-0 pr-8 m-0 overflow-x-scroll text-base whitespace-nowrap;
+  @apply p-0 m-0 overflow-x-scroll text-base whitespace-nowrap;
   @apply sm:whitespace-normal sm:overflow-x-auto sm:pr-0;
-  padding: 16px 40px 8px 0px;
   text-decoration: none;
   white-space: normal;
   overflow-x: auto;
@@ -32,12 +22,22 @@ it.
 
 #topic-page .cmp-breadcrumb__item {
   @apply inline-block px-1 py-2;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #707070 !important;
   &:first-child {
     @apply pl-0;
   }
+
+  a {
+    display: flex;
+    align-items: center;
+    @apply focus:ring-0 focus:ring-transparent;
+  }
    #topic-page .cmp-breadcrumb__item-link {
-     color: #001938;
-     font-family: Roboto;
+     color: #707070;
+     font-family: "Adobe Clean";
      font-size: 16px;
      font-weight: 400;
      line-height: 21.6px;
@@ -46,19 +46,11 @@ it.
 }
 
 #topic-page .cmp-breadcrumb__item--active {
-  font-weight: bold;
-  color: #001938;
+  color: #2c2c2c !important;
 }
 
-#topic-page .cmp-breadcrumb__item-link {
-  @apply text-gray-600;
-  @apply hover:text-gray-800;
-}
 
 #topic-page .cmp-breadcrumb__item-link::after {
-  @apply relative inline-block w-4 h-4 font-bold text-gray-600;
-  content: "";
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%23001938"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>');
-  margin: -3px -5px 0 5px;
-  top: 3px;
+  content: "/";
+  margin-left: 10px;
 }

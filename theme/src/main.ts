@@ -13,3 +13,34 @@ import "./main.css";
 // Javascript or Typescript
 import "./**/*.js";
 import "./**/*.ts";
+
+declare const FlamebackWidget: { open(): void; close(): void; toggle(): void };
+
+// Adobe Launch (Experience Platform Tags) – analytics & tag management
+const launchScript = document.createElement('script');
+launchScript.src = 'https://assets.adobedtm.com/d4d114c60e50/a0e989131fd5/launch-5dd5dd2177e6.min.js';
+launchScript.async = true;
+document.head.appendChild(launchScript);
+
+// Flameback feedback widget
+const flamebackScript = document.createElement('script');
+flamebackScript.src = 'https://guidesai.adobe.io/widget/flameback-widget-loader.js?apiKey=fb_sk_FZJ87HDrZ7YWssJmaz72_twxybnkN6XB3iTH1HrJwsE&newConversation=false';
+flamebackScript.defer = true;
+document.head.appendChild(flamebackScript);
+
+document.addEventListener('click', (e) => {
+  const target = e.target as HTMLElement;
+
+  if (target.closest('#askdoc-header-btn')) {
+    FlamebackWidget.open();
+    return;
+  }
+
+  const widgetRoot = document.getElementById('fb-widget-loader-root');
+  if (!widgetRoot || widgetRoot.contains(target)) return;
+
+  const iframe = widgetRoot.querySelector('iframe');
+  if (iframe && iframe.style.display !== 'none') {
+    FlamebackWidget.close();
+  }
+});

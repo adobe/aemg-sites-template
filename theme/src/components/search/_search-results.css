@@ -25,10 +25,6 @@ it.
     @apply m-0 text-lg;
   }
 
-  #topic-page .cmp-searchresult-description {
-    @apply m-0;
-  }
-
   #topic-page .cmp-searchresult-link {
     &::after {
       content: none;
@@ -102,20 +98,18 @@ it.
 }
 #cmp-search-page-result{
   min-height: 36.5rem;
-  padding: 2rem 10rem;
 }
 
 #cmp-search-page-result .search__field--view {
   padding: 0 !important;
-}
-#cmp-search-page-result .cmp-searchresult-description {
-  margin-top: 0rem !important;
 }
 #cmp-search-page-result .search-result-header {
   display: flex;
   height: 3rem;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
+  margin: 2rem 0rem;
 }
 #cmp-search-page-result .sort-btn-option {
   border: 1px solid black;
@@ -156,7 +150,28 @@ it.
 }
 
 
-@media (max-width: 768px) {
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1439px) {
+  .searchresult{
+    padding: 3rem 7.5rem !important;
+  }
+}
+
+/* 1024px design (768px to 1023px) */
+@media (max-width: 1023px) {
+  .searchresult{
+    padding: 3rem 5rem !important;
+  }
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+  .searchresult{
+    padding: 1.25rem 0.5rem !important;
+  }
   #cmp-search-page-result .search__field--view {
     margin: 0;
     width: 100%;
@@ -166,7 +181,7 @@ it.
     margin: 0;
   }
   #cmp-search-page-result {
-    padding: 2rem;
+    padding: 0 2rem;
   }
   #topic-page .cmp-sort__heading {
     flex-direction: row;

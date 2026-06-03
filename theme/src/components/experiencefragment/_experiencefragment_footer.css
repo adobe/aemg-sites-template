@@ -6,88 +6,436 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
+
+/* =============================================
+   Footer Experience Fragment — Base
+   ============================================= */
+
+.experiencefragment.footer {
+    background-color: var(--color-gray-100, #F8F8F8) !important;
+
+    .container {
+        background-color: var(--color-gray-100, #F8F8F8) !important;
+    }
+}
+
 .cmp-experiencefragment--footer {
-    border-top: 1px solid #4B75FF;
-    font-size: .8rem;
-    background-color: #ffffff !important;
-    color: #1532AD;
-    height: 12.875rem;
-    .root{
+    background-color: var(--color-gray-100, #F8F8F8) !important;
+    font-size: 0.8125rem;
+    /* line-height: 1.6; */
+
+    .root {
         margin-bottom: 0 !important;
-    }
-    .root .button {
-        margin-left: 1rem;
-    }
-    #mainDiv {
-        border-right: 2px solid;
-        height: 8.5rem;
-        border-color: #22222240;
-    }
-    .xf-content-height .root .cmp-container {
-        height: 8.5rem;
-    }
-    .xf-content-height {
-        & > .root > .cmp-container {
-            height: 100%;
-        }
-    }
-    #mainDiv .button {
-        margin-left: 0rem !important;
-    }
-
-    .cmp-text__paragraph {
-        font-weight: 500;
-        font-size: 20px;
-    }
-    .button .cmp-button__text{
-        font-weight: 300;
-        font-size: 16px;
-    }
-    .container.responsivegrid {
-        @apply px-4 mx-auto;
-        max-width: 100%;
-
-        > .cmp-container > .aem-Grid {
-            @apply flex flex-col items-center gap-4 pt-4 pb-12;
-            @apply sm:grid sm:grid-cols-4;
-
-            @screen sm {
-                grid-template-columns: 4fr 4fr 4fr 4fr;
-            }
-
-            &::before,
-            &::after {
-                content: none;
-            }
-        }
     }
 
     .xf-content-height {
         @apply m-0;
+        & > .root > .cmp-container {
+            height: 100%;
+        }
     }
 
-
-    .languagenavigation {
-        @apply flex items-center;
+    /* Remove default AEM grid clearfix pseudo-elements everywhere */
+    .aem-Grid::before,
+    .aem-Grid::after {
+        content: none;
     }
 
-    .text {
-        display: inline-flex;
-        ul{
-            display: flex;
-            text-decoration: none;
-            list-style: none;
-            li{
-                margin-right: 2rem;
-            }
+    .aem-GridColumn {
+        clear: none;
+        float: none;
+    }
+}
+
+/* =============================================
+   ROW 1: Footer Links — 4 Column Grid
+   ============================================= */
+.cmp-experiencefragment--footer #footer-links {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 5.25rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    line-height: 2;
+}
+
+/* Column headings (first .text in each column container) */
+.cmp-experiencefragment--footer #footer-links [id^="col-"] > .text:first-child .cmp-text p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    margin-bottom: 0.75rem;
+    /* line-height: 1.4; */
+}
+
+/* Sub-heading (e.g. "Adobe Account" in Resources column) */
+.cmp-experiencefragment--footer #col-resources > .text:not(:first-child) .cmp-text p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer link buttons — styled as plain text links */
+.cmp-experiencefragment--footer #footer-links .button {
+    margin: 0;
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 0.8125rem;
+    /* line-height: 2; */
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button:hover {
+    text-decoration: underline;
+}
+
+.cmp-experiencefragment--footer #footer-links .button .cmp-button__text {
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+/* =============================================
+   ROW 2: Featured Products
+   ============================================= */
+.cmp-experiencefragment--footer #footer-products {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* "Featured products" label */
+.cmp-experiencefragment--footer #footer-products > .text .cmp-text p {
+    font-weight: 700;
+    font-size: 0.8125rem;
+    color: #2c2c2c;
+    white-space: nowrap;
+    margin: 0;
+    /* line-height: 1; */
+}
+
+/* Product buttons */
+.cmp-experiencefragment--footer #footer-products > .button {
+    margin: 0;
+    a {
+        display: flex !important;
+        span{
+            /* margin-bottom: -4px; */
         }
     }
 }
 
-@media (max-width: 768px) {
-    .cmp-experiencefragment--footer #mainDiv {
-        border-right: none;
-        border-bottom: 2px solid;
-        border-color: #22222240;
+.cmp-experiencefragment--footer #footer-products .button .cmp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+}
+
+/* Shared icon styles for product buttons */
+.cmp-experiencefragment--footer #footer-products .button .cmp-button::before {
+    content: "";
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+/* AEM Guides icon (Adobe Experience Cloud — logotyp.us) */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(2) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='144 64 272 272' xmlns='http://www.w3.org/2000/svg'><g fill-rule='nonzero' transform='matrix(.635145 0 0 .635145 791.323 462.982)'><path d='m-1017.6-560.2c0-36.7 29.7-66.4 66.4-66.4h292.3c36.7 0 66.4 29.7 66.4 66.4v292.3c0 36.7-29.7 66.4-66.4 66.4h-292.3c-36.7 0-66.4-29.7-66.4-66.4z' fill='%23fa0f00'/><path d='m-771.4-530.5 102.2 233h-72.5l-63.3-144.2-38.5 87.9h45.2l24.7 56.3h-167.2l102.2-233z' fill='%23fff'/></g></svg>");
+}
+
+/* Adobe Captivate icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(3) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23012d2d' x='8' y='4' width='240' height='234' rx='42.5'/><path fill='%2303f2c4' d='M123.25,149.26v16.58A2.14,2.14,0,0,1,122,168.1a43.6,43.6,0,0,1-9.74,2.17,104.3,104.3,0,0,1-12.64.72,71.07,71.07,0,0,1-17.79-2.17,52.64,52.64,0,0,1-15.38-6.6,46.61,46.61,0,0,1-11.91-10.87,48,48,0,0,1-7.73-15A63,63,0,0,1,44,117.06q0-16.26,7.09-28.58A48.89,48.89,0,0,1,71.25,69.32q13-6.84,31.07-6.84a103.45,103.45,0,0,1,12.48.64,37.13,37.13,0,0,1,8.45,1.94,2.06,2.06,0,0,1,.81,1.93V84.7c0,1-.38,1.29-1.13,1a35,35,0,0,0-9.5-2.81A73.62,73.62,0,0,0,101.68,82q-10.79,0-18.51,4.35a30.15,30.15,0,0,0-11.92,12,37.19,37.19,0,0,0-4.19,18.11,39.07,39.07,0,0,0,2,13.21,31.42,31.42,0,0,0,5.55,9.82,27.64,27.64,0,0,0,8.05,6.6,39.51,39.51,0,0,0,9.58,3.62,42.39,42.39,0,0,0,9.9,1.21q6.12,0,10.87-.48a39.87,39.87,0,0,0,8.94-1.94c.42-.32.75-.4,1-.24S123.25,148.72,123.25,149.26Z'/><path fill='%2303f2c4' d='M172,87.76q10.62,0,18.19,3.22a35,35,0,0,1,12.56,8.77,37.56,37.56,0,0,1,7.48,12.48,42.7,42.7,0,0,1,2.5,14.65,42.65,42.65,0,0,1-4.11,19.32A39.79,39.79,0,0,1,197.47,160a49.19,49.19,0,0,1-15.86,8.3A60.58,60.58,0,0,1,163.5,171a11.84,11.84,0,0,1-1.29-.08c-.53,0-1.12-.08-1.77-.08V198.2a1.31,1.31,0,0,1-1.28,1.45q-2.41.16-5.72.48c-2.2.22-4.32.43-6.36.65s-3.81.37-5.31.48a17.78,17.78,0,0,0-2.74.32c-.64,0-1-.43-1-1.28V105.79c0-.75,0-1.83-.08-3.22s-.1-2.76-.16-4.11a31.2,31.2,0,0,0-.24-3.14.87.87,0,0,1,.65-1q4-1.45,9.25-2.9c3.49-1,7.3-1.82,11.43-2.58A73.48,73.48,0,0,1,172,87.76Zm-1.94,19a34.62,34.62,0,0,0-5,.33,39.2,39.2,0,0,0-4.67,1v44c.65.1,1.48.18,2.5.24s1.85.08,2.49.08A29,29,0,0,0,176.79,150a21.13,21.13,0,0,0,9.25-7.64q3.71-5.33,3.71-14,0-10.31-5.16-15.94T170.1,106.75Z'/></svg>");
+}
+
+/* Adobe Learning Manager icon (Adobe Experience Cloud — logotyp.us) */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(4) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='144 64 272 272' xmlns='http://www.w3.org/2000/svg'><g fill-rule='nonzero' transform='matrix(.635145 0 0 .635145 791.323 462.982)'><path d='m-1017.6-560.2c0-36.7 29.7-66.4 66.4-66.4h292.3c36.7 0 66.4 29.7 66.4 66.4v292.3c0 36.7-29.7 66.4-66.4 66.4h-292.3c-36.7 0-66.4-29.7-66.4-66.4z' fill='%23fa0f00'/><path d='m-771.4-530.5 102.2 233h-72.5l-63.3-144.2-38.5 87.9h45.2l24.7 56.3h-167.2l102.2-233z' fill='%23fff'/></g></svg>");
+}
+
+/* Adobe Connect icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(5) .cmp-button::before {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%2300261a' width='256' height='249.6' rx='45.33333'/><rect fill='%2352cca3' x='58.79681' y='147.02378' width='47.19257' height='47.19257'/><rect fill='%2352cca3' x='155.12593' y='151.86661' width='37.49226' height='37.49226'/><rect fill='%2352cca3' x='155.12593' y='60.22647' width='37.49226' height='37.49226'/><rect fill='%2352cca3' x='63.65429' y='60.39498' width='37.49226' height='37.49226'/><path fill='%23cafceb' d='M192.61818,60.22647V97.69675l-75.68053,38.34212,38.20782-75.81241h37.463m4.84283-4.84283H152.1709l-46.1815,91.645,91.47162-46.35v-45.295Z'/><path fill='%23cafceb' d='M192.61818,151.8666v37.50446H155.19187L117.68251,151.8666h74.93567m4.84284-4.84283H105.9894l47.19745,47.19258h44.27663V147.02377Z'/><path fill='%23cafceb' d='M101.14411,60.40475V135.3282L63.63964,97.81886V60.40475h37.50447m4.84284-4.84284H58.79681V99.83853l47.19258,47.18281V55.54971Z'/></svg>");
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button:hover {
+    text-decoration: underline;
+}
+
+.cmp-experiencefragment--footer #footer-products .button .cmp-button__text {
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1;
+}
+
+/* =============================================
+   ROW 3: Bottom Bar
+   ============================================= */
+.cmp-experiencefragment--footer #footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* --- Left side: Region + Social Icons --- */
+.cmp-experiencefragment--footer #footer-bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+/* Globe icon before "Change region" text */
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.75rem;
+    color: #4b4b4b;
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234b4b4b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left > .text .cmp-text p::after {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 1.5px solid #4b4b4b;
+    border-bottom: 1.5px solid #4b4b4b;
+    transform: rotate(45deg);
+    margin-left: 0.125rem;
+    margin-bottom: 0.125rem;
+}
+
+/* Social icons (rendered via CSS data-URI containers) */
+.cmp-experiencefragment--footer #footer-bottom-left > .container:has([id^="social-icon-"]) {
+    flex-shrink: 0;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-left [id^="social-icon-"] {
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cmp-experiencefragment--footer [id^="social-icon-"] > .button {
+    position: absolute;
+    inset: 0;
+}
+
+.cmp-experiencefragment--footer [id^="social-icon-"] > .button .cmp-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+#social-icon-facebook {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 35 35'><path d='M28.438,0a6.324,6.324,0,0,1,4.637,1.925A6.324,6.324,0,0,1,35,6.563V28.438A6.574,6.574,0,0,1,28.438,35H24.154V21.442h4.535l.684-5.286H24.154V12.783a2.919,2.919,0,0,1,.535-1.914,2.657,2.657,0,0,1,2.085-.638l2.78-.023V5.492A30.537,30.537,0,0,0,25.5,5.286a6.769,6.769,0,0,0-4.956,1.823,6.892,6.892,0,0,0-1.857,5.15v3.9H14.128v5.286h4.557V35H6.563a6.324,6.324,0,0,1-4.637-1.925A6.324,6.324,0,0,1,0,28.438V6.563A6.324,6.324,0,0,1,1.925,1.925,6.324,6.324,0,0,1,6.563,0Z' fill='gray'/></svg>");
+}
+
+#social-icon-twitter {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><rect width='24' height='24' fill='%23ff13dc' opacity='0'/><path d='m13.862 10.469 7.2855-8.4687h-1.7264l-6.326 7.3533-5.0526-7.3533h-5.8275l7.6404 11.119-7.6404 8.8808h1.7265l6.6804-7.7653 5.3359 7.7653h5.8275l-7.9237-11.531zm-2.3647 2.7487-0.77413-1.1072-6.1595-8.8105h2.6518l4.9708 7.1104 0.77413 1.1072 6.4614 9.2424h-2.6518l-5.2728-7.5418z' fill='%23707070' stroke-width='.016308'/></svg>");
+}
+
+#social-icon-linkedin {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 35 35'><path d='M5.4,29.3h5.264V13.49H5.4Zm5.605-20.69a2.7,2.7,0,0,0-.82-1.96,2.906,2.906,0,0,0-2.119-.775,3.027,3.027,0,0,0-2.153.775,2.565,2.565,0,0,0-.832,1.96,2.6,2.6,0,0,0,.809,1.948A2.9,2.9,0,0,0,8,11.348h.023a3,3,0,0,0,2.165-.786A2.59,2.59,0,0,0,11.006,8.613ZM24.336,29.3H29.6V20.234a7.564,7.564,0,0,0-1.663-5.309,5.7,5.7,0,0,0-4.4-1.8,5.3,5.3,0,0,0-4.762,2.666h.046v-2.3H13.558q.068,1.5,0,15.814h5.264V20.462a3.753,3.753,0,0,1,.16-1.276,3.517,3.517,0,0,1,1.025-1.356,2.584,2.584,0,0,1,1.686-.558q2.642,0,2.643,3.577ZM35,6.563V28.438A6.574,6.574,0,0,1,28.438,35H6.563a6.324,6.324,0,0,1-4.637-1.925A6.324,6.324,0,0,1,0,28.438V6.563A6.324,6.324,0,0,1,1.925,1.925,6.324,6.324,0,0,1,6.563,0H28.438a6.324,6.324,0,0,1,4.637,1.925A6.324,6.324,0,0,1,35,6.563Z' fill='gray'/></svg>");
+}
+
+#social-icon-instagram {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35.119' height='34.9' viewBox='0 0 35.119 34.9'><path d='M460.081,313.1h25.957a4.47,4.47,0,0,1,4.581,4.581V343.42A4.473,4.473,0,0,1,486.038,348H460.081a4.47,4.47,0,0,1-4.581-4.581V317.463a4.559,4.559,0,0,1,4.581-4.362Zm21.158,3.926a1.491,1.491,0,0,0-1.527,1.527v3.708a1.491,1.491,0,0,0,1.527,1.527h3.926a1.491,1.491,0,0,0,1.527-1.527v-3.708a1.491,1.491,0,0,0-1.527-1.527Zm5.453,10.906h-3.054a12.877,12.877,0,0,1,.436,3.054,10.575,10.575,0,0,1-10.906,10.47c-5.89,0-10.906-4.8-10.906-10.47a14.725,14.725,0,0,1,.436-3.054h-3.272v14.833a1.407,1.407,0,0,0,1.309,1.309h24.212a1.257,1.257,0,0,0,1.309-1.309V327.933Zm-13.524-4.362a6.765,6.765,0,1,0,6.98,6.762,6.845,6.845,0,0,0-6.98-6.762Zm0,0' transform='translate(-455.5 -313.1)' fill='gray' fill-rule='evenodd'/></svg>");
+}
+
+/* Add a small left-separator before social icons group */
+.cmp-experiencefragment--footer #footer-bottom-left > .container:has([id^="social-icon-"]):first-of-type {
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+}
+
+/* --- Right side: Copyright + Legal Links --- */
+.cmp-experiencefragment--footer #footer-bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right > .text .cmp-text p {
+    font-size: 0.6875rem;
+    color: #6e6e6e;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p a {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right .text .cmp-text p a:hover {
+    text-decoration: underline;
+}
+
+/* AdChoices — with a small triangle icon */
+.cmp-experiencefragment--footer #footer-bottom-right > .text:last-child .cmp-text p {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.cmp-experiencefragment--footer #footer-bottom-right > .text:last-child .cmp-text p::before {
+    content: "";
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23508BC9' d='M8 0l8 16H0z'/%3E%3Cpath fill='%23fff' d='M7.3 6h1.4v5H7.3zM7.3 4h1.4v1.4H7.3z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* =============================================
+   RESPONSIVE: Tablet / Mobile (max-width: 768px)
+   ============================================= */
+@media (max-width: 390px) {
+    /* ===== ROW 1: Accordion footer links ===== */
+    .cmp-experiencefragment--footer #footer-links {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 1.5rem 1.5rem 0;
     }
-  }
+
+    /* Accordion heading: each .text child inside a column */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text {
+        border-top: 1px solid #292929 !important;
+        padding: 1.125rem 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+    }
+
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text .cmp-text p {
+        font-weight: 700;
+        font-size: 0.9375rem;
+        color: #2c2c2c;
+        margin: 0;
+    }
+
+    /* "+" toggle icon */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text::after {
+        content: "+";
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #6e6e6e;
+        flex-shrink: 0;
+        margin-left: 1rem;
+        line-height: 1;
+    }
+
+    /* Expanded: rotate to "−" */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .text.footer-accordion-expanded::after {
+        content: "\2212";
+    }
+
+    /* Bottom border on last column to close the accordion visually */
+    /* .cmp-experiencefragment--footer #footer-links [id^="col-"]:last-child {
+        border-bottom: 1px solid #686868;
+    } */
+
+    /* Hidden accordion content */
+    .cmp-experiencefragment--footer #footer-links .footer-accordion-hidden {
+        display: none !important;
+    }
+
+    /* Expanded content spacing */
+    .cmp-experiencefragment--footer #footer-links [id^="col-"] > .button {
+        padding-bottom: 0.25rem;
+    }
+
+    /* Override subheading margins inside col-resources */
+    .cmp-experiencefragment--footer #col-resources > .text:not(:first-child) .cmp-text p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* ===== ROW 2: Stack products ===== */
+    .cmp-experiencefragment--footer #footer-products {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 1rem 1.5rem;
+    }
+
+    /* ===== ROW 3: Stack bottom bar ===== */
+    .cmp-experiencefragment--footer #footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 1.5rem;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-left {
+        flex-wrap: wrap;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-right {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cmp-experiencefragment--footer #footer-bottom-right > .text .cmp-text p {
+        white-space: normal;
+    }
+}

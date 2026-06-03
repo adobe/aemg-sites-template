@@ -15,127 +15,247 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid">
-            <container1
-                    cq:styleClasses="logo-container"
-                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
-                    jcr:lastModifiedBy="admin"
+
+            <!-- ============================================ -->
+            <!-- ROW 1: Footer Links - 4 Column Grid          -->
+            <!-- ============================================ -->
+            <footerLinks
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    id="mainDiv">
-                <text1
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="AEMG"/>
-                <button1
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Copyright © 2024 ADOBE"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="For help &amp; support reach out to:"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button3
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="helpdesk@tragopan.com"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-            </container1>
-            <container2
-                    cq:styleClasses="logo-container"
-                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container">
-                <text1
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="Quick links"/>
+                    id="footer-links">
 
-                <button1
+                <!-- Column 1: Product -->
+                <colProduct
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Products"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button2
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="col-coldfusion">
+                    <heading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Product&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <link1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Overview"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Features"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Pricing"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link4
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Free Trial"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link5
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Terms of Use"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/legal/terms.html"/>
+                </colProduct>
+
+                <!-- Column 2: Support -->
+                <colSupport
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="About"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button3
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="col-support">
+                    <heading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Support&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <link1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Download and install"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Help Center"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Support Community"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="#"/>
+                    <link4
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Enterprise Support"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://helpx.adobe.com/enterprise/admin-guide.html"/>
+                    <link5
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Genuine software"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/genuine.html"/>
+                </colSupport>
+
+                <!-- Column 3: Resources + Adobe Account -->
+                <colResources
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Customers"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button4
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="col-resources">
+                    <heading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Resources&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <link1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Adobe Blog"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://blog.adobe.com/"/>
+                    <link2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Adobe Developer"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://developer.adobe.com/"/>
+                    <subheading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Adobe Account&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <link3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Log in to your account"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://account.adobe.com/"/>
+                </colResources>
+
+                <!-- Column 4: Adobe -->
+                <colAdobe
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Support"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-            </container2>
-            <container3
-                    cq:styleClasses="logo-container"
-                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
-                    jcr:lastModifiedBy="admin"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="col-adobe">
+                    <heading
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Adobe&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <link1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="About"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/about-adobe.html"/>
+                    <link2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Careers"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/careers.html"/>
+                    <link3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Newsroom"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://news.adobe.com/"/>
+                    <link4
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Corporate responsibility"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/corporate-responsibility.html"/>
+                    <link5
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Investor Relations"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/investor-relations.html"/>
+                </colAdobe>
+            </footerLinks>
+
+            <!-- ============================================ -->
+            <!-- ROW 2: Featured Products (border top/bottom) -->
+            <!-- ============================================ -->
+            <footerProducts
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container">
-                <text1
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="footer-products">
+                <label
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="Other links"/>
-                <button1
+                        text="&lt;p&gt;Featured products&lt;/p&gt;"
+                        textIsRich="{Boolean}true"/>
+                <product1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Products"
+                        jcr:title="AEM Guides"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button2
+                        link="https://business.adobe.com/products/experience-manager/guides/aem-guides.html"/>
+                <product2
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="About"
+                        jcr:title="Adobe Captivate"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button3
+                        link="https://www.adobe.com/products/captivate.html"/>
+                <product3
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Customers"
+                        jcr:title="Adobe Learning Manager"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button4
+                        link="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html"/>
+                <product4
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Support"
+                        jcr:title="Adobe Connect"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-            </container3>
-            <container4
-                    cq:styleClasses="logo-container"
-                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
-                    jcr:lastModifiedBy="admin"
+                        link="https://www.adobe.com/products/adobeconnect.html"/>
+            </footerProducts>
+
+            <!-- ============================================ -->
+            <!-- ROW 3: Bottom Bar (icons left, copyright right) -->
+            <!-- ============================================ -->
+            <footerBottom
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container">
-                <text1
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="footer-bottom">
+
+                <!-- Left side: region + social icons -->
+                <footerBottomLeft
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="Other links"/>
-                <button1
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="footer-bottom-left">
+                    <iconFacebook
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-facebook"/>
+                    <iconTwitter
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-twitter"/>
+                    <iconLinkedin
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-linkedin"/>
+                    <iconInstagram
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="social-icon-instagram"/>
+                </footerBottomLeft>
+
+                <!-- Right side: copyright + legal links -->
+                <footerBottomRight
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Products"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="About"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button3
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Customers"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-                <button4
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Support"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/support"/>
-            </container4>
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="footer-bottom-right">
+                    <copyright
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;Copyright © 2026 Adobe. All rights reserved.&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <legalLinks
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/privacy.html'&gt;Privacy&lt;/a&gt; / &lt;a href='https://www.adobe.com/legal/terms.html'&gt;Terms of Use&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/cookies.html'&gt;Cookie preferences&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/us-rights.html'&gt;Do not sell my personal information&lt;/a&gt; /&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                    <adchoices
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads'&gt;AdChoices&lt;/a&gt;&lt;/p&gt;"
+                            textIsRich="{Boolean}true"/>
+                </footerBottomRight>
+            </footerBottom>
+
         </root>
     </jcr:content>
 </jcr:root>

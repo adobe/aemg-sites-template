@@ -1,13 +1,13 @@
 {
     "name": "aemg-docs-theme",
-    "version": "1.0.24",
+    "version": "1.0.15",
     "description": "Basic AEM site theme",
     "private": true,
     "main": "src/main.ts",
     "license": "MIT License, Copyright 2022 Adobe Systems Incorporated",
     "scripts": {
-        "build": "SET NODE_ENV=production webpack -p --config ./webpack.prod.js",
-        "live": "watch 'webpack -d --env dev --config ./webpack.dev.js' src & aem-site-theme-builder live & browser-sync start --proxy 'localhost:7000' --files 'dist'"
+        "build": "NODE_ENV=production webpack --config ./webpack.prod.js",
+        "live": "webpack --watch -d --env dev --config ./webpack.dev.js & aem-site-theme-builder live & browser-sync start --proxy 'localhost:7000' --files 'dist'"
     },
     "devDependencies": {
         "@adobe/aem-site-theme-builder": "4.0.1",
@@ -22,7 +22,6 @@
         "dotenv": "^8.2.0",
         "dotenv-cli": "^3.2.0",
         "html-webpack-plugin": "^3.2.0",
-        "node-sass": "^4.11.0",
         "normalize.css": "8.0.1",
         "npm-run-all": "^4.1.5",
         "optimize-css-assets-webpack-plugin": "^5.0.1",
@@ -31,12 +30,11 @@
         "postcss-loader": "^4.1.0",
         "postcss-mixins": "^7.0.2",
         "postcss-nested": "^5.0.3",
-        "sass-loader": "^7.1.0",
         "terser-webpack-plugin": "^1.4.1",
         "ts-loader": "^5.3.3",
         "tsconfig-paths-webpack-plugin": "^3.2.0",
         "tslint-webpack-plugin": "^2.0.2",
-        "typescript": "^5.6.3",
+        "typescript": "^3.3.3333",
         "watch": "^1.0.2",
         "webpack": "^4.27.1",
         "webpack-cli": "^3.1.2",

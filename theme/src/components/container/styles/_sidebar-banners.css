@@ -1,0 +1,237 @@
+/*
+ * Sidebar Banners - promotional cards below mini-toc
+ *
+ * Banner 1: vertical layout  (image top → content bottom)
+ * Banner 2: horizontal layout (image left → content right)
+ */
+
+/* === Wrapper: minitoc + banners === */
+#minitoc-wrapper {
+    width: 100%;
+    padding: 1.5rem;
+    position: sticky;
+    height: 100vh;
+    top: 3rem;
+    overflow: auto;
+    gap: 0.5rem;
+}
+
+#minitoc-wrapper > .cmp-container {
+    position: sticky;
+    top: 1.5rem;
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+#minitoc-wrapper > .cmp-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* === Banners container === */
+#sidebar-banners {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #E1E1E1;
+}
+
+#sidebar-banners .new.newpar.section {
+    display: none !important;
+}
+
+/* ============================================
+   Generic Banner Card
+   ============================================ */
+
+#sidebar-banner-1,
+#sidebar-banner-2 {
+    border-radius: 0.75rem;
+    border: 1px solid #E1E1E1;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+#sidebar-banner-1 {
+    .image {
+        height: 111px;
+    }
+    img {
+        height: 111px;
+        width: 264px;
+    }
+}
+
+#sidebar-banner-2 {
+    height: 176px;
+    .image {
+        width: 8.25rem;
+    }
+    img {
+        width: 8.25rem;
+        height: 11rem;
+    }
+    .container {
+        width: 50%;
+    }
+}
+
+/* Flex layout on the inner .cmp-container */
+#sidebar-banner-1 > .cmp-container,
+#sidebar-banner-2 > .cmp-container {
+    display: flex;
+}
+
+/* Reset AEM grid floats/widths on all children */
+#sidebar-banner-1 > .cmp-container > *,
+#sidebar-banner-2 > .cmp-container > * {
+    float: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* --- Image component: make the <img> fill its slot --- */
+#sidebar-banners [id$="-image"] {
+    line-height: 0;
+    flex-shrink: 0;
+}
+
+#sidebar-banners [id$="-image"] .cmp-image {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar-banners [id$="-image"] img {
+    object-fit: cover;
+    display: block;
+}
+
+/* --- Content area --- */
+#sidebar-banners [id$="-content"] {
+    padding: 0.75rem 0.875rem;
+    height: 100%;
+}
+
+#sidebar-banners [id$="-content"] > .cmp-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-banners [id$="-content"] > .cmp-container > * {
+    float: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* --- Description text --- */
+#sidebar-banners [id$="-text"] p {
+    color: #2C2C2C;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 0.375rem !important;
+}
+
+#sidebar-banners [id$="-text"] b,
+#sidebar-banners [id$="-text"] strong {
+    font-weight: 700;
+}
+
+/* --- CTA link --- */
+#sidebar-banners [id$="-link"] p {
+    margin: 0 !important;
+}
+
+#sidebar-banners [id$="-link"] a {
+    color: #274DEA;
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#sidebar-banners [id$="-link"] a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   Banner 1 — Vertical card
+   ============================================ */
+
+#sidebar-banner-1 > .cmp-container {
+    flex-direction: column;
+}
+
+#sidebar-banner-1-content {
+    width: 100% !important;
+}
+
+#sidebar-banner-1-image {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2C2C2C;
+}
+
+/* ============================================
+   Banner 2 — Horizontal card
+   ============================================ */
+
+#sidebar-banner-2.cmp-container {
+    flex-direction: row !important;
+    display: flex !important;
+}
+
+
+#sidebar-banner-2-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* "AI TRAINING" category label */
+#sidebar-banner-2-text p:first-child {
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 125%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #2C2C2C;
+    margin-bottom: 0.25rem !important;
+}
+
+/* Main text below the label */
+#sidebar-banner-2-text p:nth-child(2) {
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #2C2C2C;
+    margin-bottom: 0.5rem !important;
+}
+
+/* === Mobile: hide banners === */
+@media (max-width: 768px) {
+    #sidebar-banners {
+        display: none;
+    }
+
+    #minitoc-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    #minitoc-wrapper > .cmp-container {
+        position: relative;
+        top: 0;
+        max-height: none;
+        overflow: visible;
+    }
+}

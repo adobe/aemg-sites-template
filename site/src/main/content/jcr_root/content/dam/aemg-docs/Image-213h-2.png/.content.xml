@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4e0de652-912f-4416-8dbe-60276f7b6b11">
+    <jcr:content
+        dam:assetState="processed"
+        guides:assetState="SUCCESS"
+        guides:lastProcessedAt="{Date}2026-02-12T01:15:49.337+05:30"
+        jcr:lastModified="{Date}2026-02-12T01:15:49.231+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmPostProcessedAt="2026-02-12T01:15:49.099+05:30|4e0de652-912f-4416-8dbe-60276f7b6b11|2026-02-12T01:15:49.099+05:30|14|0"
+        fmUuid="GUID-2bb38e95-4fd8-4326-8975-bc189482bb81"
+        guidesNewAsset="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2026-02-12T01:15:49.149+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}2.957963705062866"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}5.263230800628662"
+            dam:Progressive="no"
+            dam:sha1="dab8159030b7147b3e487085e0157d8e1df9d391"
+            dam:size="{Long}161234"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}213"
+            tiff:ImageWidth="{Long}379"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

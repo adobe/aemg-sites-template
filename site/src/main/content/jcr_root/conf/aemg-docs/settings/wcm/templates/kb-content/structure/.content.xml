@@ -17,91 +17,243 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/header/master"/>
-            <container
+            <status-banner
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container">
-                <container_4321
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="status-banner">
+                <status-dot-icon
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    layout="responsiveGrid">
-                </container_4321>
-                <container
-                    jcr:lastModified="{Date}2021-06-21T16:12:09.559+05:30"
-                    jcr:lastModifiedBy="admin"
+                    id="status-dot-icon"/>
+                <status-banner-text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>Whatever message this page gives is out now!  &lt;a href='#'>Go check it out!&lt;/a>&lt;/p>"
+                    textIsRich="true"
+                    id="status-banner-text"/>
+            </status-banner>
+            <kb-page-container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="kb-page-container">
+                <kb-content-area
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    id="page-with-search-in-header"
-                    layout="responsiveGrid">
-                    <container3
-                        jcr:lastModified="{Date}2521-06-18T10:56:26.316+05:30"
-                        jcr:lastModifiedBy="admin"
+                    id="kb-content-area">
+                    <breadcrumb
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
+                        disableShadowing="false"
+                        hideCurrent="false"
+                        showHidden="false"
+                        startLevel="3"/>
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        id="kb-title"
+                        type="h1"/>
+                    <kb-last-update
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="cp-root-container"
-                        layout="responsiveGrid">
-                        <container_482659403_
-                        jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-17T18:58:03.313+05:30"
-                        jcr:lastModifiedBy="admin"
+                        id="kb-last-update">
+                        <last-update-label
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="Last update:"
+                            textIsRich="false"
+                            id="kb-last-update-label"/>
+                        <date
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="guides-components/components/pageproperty"
+                            property="jcr:created"/>
+                    </kb-last-update>
+                    <description
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/pageproperty"
+                        property="jcr:description"
+                        id="kb-description"/>
+                    <topics-heading
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        jcr:title="User guide topics"
+                        id="kb-topics-heading"
+                        type="h2"/>
+                    <categorylist
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/categorylist"
+                        parentPath="/content/aemg-docs/en/docs"/>
+                </kb-content-area>
+                <kb-sidebar
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-sidebar">
+                    <kb-download-card
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="welcome-container">
-                        <container
-                            jcr:created="{Date}2021-06-17T18:56:53.097+05:30"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-17T18:56:53.097+05:30"
-                            jcr:lastModifiedBy="admin"
+                        id="kb-download-card">
+                        <download-icon
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="search-container">
-                            <title
-                                jcr:created="{Date}2021-06-17T17:09:47.762+05:30"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="How can we help?"
-                                sling:resourceType="core/wcm/components/title/v2/title"
-                                type="h1"/>
-                            <searchbar
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/searchbar"
-                                hideButton="true"
-                                resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"/>
-                        </container>
-                    </container_482659403_>
-                   <container8 jcr:primaryType="nt:unstructured" 
-                   sling:resourceType="core/wcm/components/container/v1/container" 
-                   id="table-of-contents">
-                   <text
-                        jcr:created="{Date}2021-01-14T10:07:19.573-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-01-14T10:07:38.204-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="Table of contents for Product 1"
-                        textIsRich="true"/>
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default jcr:primaryType="nt:unstructured" 
-                            offset="0" width="3"/>
-                            <phone jcr:primaryType="nt:unstructured" 
-                            offset="0" width="12"/>
-                        </cq:responsive>
-                        <container0
+                            id="kb-download-icon"/>
+                        <download-title
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="Download Product"
+                            textIsRich="false"
+                            id="kb-download-title"/>
+                        <download-text
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>Get the installer for the latest product release and start building or upgrading your apps.&lt;/p>"
+                            textIsRich="true"
+                            id="kb-download-text"/>
+                        <download-btn
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>&lt;a href='#'>Download Product&lt;/a>&lt;/p>"
+                            textIsRich="true"
+                            id="kb-download-btn"/>
+                        <!-- <download-learn
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
+                            textIsRich="true"
+                            id="kb-download-learn"/> -->
+                    </kb-download-card>
+                    <kb-sidebar-cards-row
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="table-of-contents-trigger">
-                </container0>
-                        <container238 jcr:primaryType="nt:unstructured" 
-                        sling:resourceType="guides-components/components/guidessidenavigation">
-                        </container238>
-                    </container8>
-                    </container3>
-                </container>
-            </container>
+                        id="kb-sidebar-cards-row">
+                        <kb-community-card
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="kb-community-card">
+                            <community-icon
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="kb-community-icon"/>
+                            <community-title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="Product community"
+                                textIsRich="false"
+                                id="kb-community-title"/>
+                            <community-text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="&lt;p>Get answers, examples, and ideas from other developers.&lt;/p>"
+                                textIsRich="true"
+                                id="kb-community-text"/>
+                            <community-link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="&lt;p>&lt;a href='#'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
+                                textIsRich="true"
+                                id="kb-community-link"/>
+                        </kb-community-card>
+                        <kb-contact-card
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="kb-contact-card">
+                            <contact-icon
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="kb-contact-icon"/>
+                            <contact-title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="Get expert help"
+                                textIsRich="false"
+                                id="kb-contact-title"/>
+                            <contact-text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="&lt;p>Talk to support about product installation, licensing, and technical questions.&lt;/p>"
+                                textIsRich="true"
+                                id="kb-contact-text"/>
+                            <contact-link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="&lt;p>&lt;a href='https://helpx.adobe.com/support.html'>Contact support &amp;gt;&lt;/a>&lt;/p>"
+                                textIsRich="true"
+                                id="kb-contact-link"/>
+                        </kb-contact-card>
+                    </kb-sidebar-cards-row>
+                </kb-sidebar>
+            </kb-page-container>
+            <kb-promo-banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="kb-promo-banner">
+                <promo-icon
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-promo-icon"/>
+                <promo-content
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-promo-content">
+                    <promo-title-row
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="kb-promo-title-row">
+                        <promo-title
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>&lt;b>Product latest update&lt;/b>&lt;/p>"
+                            textIsRich="true"
+                            id="kb-promo-title"/>
+                        <promo-badge
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="February 2025"
+                            textIsRich="false"
+                            id="kb-promo-badge"/>
+                    </promo-title-row>
+                    <promo-description
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Major release with new licensing models, custom MCP support and a brand new code editing experience!&lt;/p>"
+                        textIsRich="true"
+                        id="kb-promo-description"/>
+                    <promo-link
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;a href='#'>View release notes&lt;/a>&lt;/p>"
+                        textIsRich="true"
+                        id="kb-promo-link"/>
+                </promo-content>
+            </kb-promo-banner>
+            <share-this-page
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="share-this-page">
+                <share-label
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="Share this page"
+                    textIsRich="false"
+                    id="share-label"/>
+                <share-facebook
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="share-facebook"/>
+                <share-x
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="share-x"/>
+                <share-linkedin
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="share-linkedin"/>
+                <share-copylink
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="share-copylink"/>
+            </share-this-page>
+            <pagefeedback
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="guides-components/components/pagefeedback"/>
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
