@@ -20,15 +20,11 @@
                     ctaLabel="Get Started"
                     ctaLink="#"
                     description="Comprehensive guides ensuring seamless integration, optimal performance, and efficient troubleshooting of advanced technologies"
-                    title="Product Documentation"
-                    bannerImage="/content/dam/aemg-docs/common-images/banner-cover.svg"/>
+                    title="Product Documentation"/>
             <product_card
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="guides-components/components/product-card"
-                    rootPath="/content/output/sites/guides/en/en_us"
-                    nextIcon="/content/dam/aemg-docs/common-images/icons/next.svg"
-                    prevIcon="/content/dam/aemg-docs/common-images/icons/previous.svg"
-                    productIconPath="/content/dam/aemg-docs/common-images/icons/product-icon.svg"/>
+                    rootPath="/content/output/sites/guides/en/en_us"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/container"
