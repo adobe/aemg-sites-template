@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2025-02-12T11:01:37.306+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/aemguidesDALP/settings/wcm/template-types/page"
+        jcr:description="Generic template for Dita Topic, Complex Layout for 3 columns."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Dita Topic"
+        status="enabled"/>
+</jcr:root>
