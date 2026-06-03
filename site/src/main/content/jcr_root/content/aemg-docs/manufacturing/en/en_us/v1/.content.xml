@@ -2,7 +2,6 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/aemg-docs/settings/wcm/templates/(?!xf-).*]"
         cq:template="/conf/aemg-docs/settings/wcm/templates/guides-product-landing"
         jcr:primaryType="cq:PageContent"
         jcr:title="v1"

@@ -8,8 +8,10 @@ it.
 */
 var setHeader = () => {
   var domEl = document.querySelector("#page-with-search-in-header")
+  console.log('out....')
   console.log(domEl)
   if (domEl) {
+    console.log('in....')
     var searchEl = document.querySelector("#page-content .cmp-experiencefragment--header .searchbar")
     console.log(searchEl)
     if (searchEl) {

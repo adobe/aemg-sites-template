@@ -27,5 +27,3 @@ hs_err_pid*
 site/target/*
 
 .idea
-nbproject
-/nbproject/private/
