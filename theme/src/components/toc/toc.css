@@ -114,7 +114,7 @@ ul.cmp-navigation__group {
   }
 }
 
-#topic-page .cmp-navigation__item--active{
+.cmp-navigation__item--active{
   display: inline;
 }
 

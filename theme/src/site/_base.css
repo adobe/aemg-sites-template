@@ -13,6 +13,7 @@ html {
 }
 body {
   height: 100%;
+  font-family: Roboto;
 }
 .root {
   height: 100%;
@@ -43,7 +44,6 @@ select {
 }
 #section-page {
   min-height: calc(100% - 18.375rem);
-  font-family: Roboto;
 }
 #section-page-content .title {
   font-weight: 900;
@@ -60,7 +60,6 @@ select {
   min-height: calc(100% - 18.375rem);
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
 }
 #topic-container .title h1 {
   margin-bottom : 0.75rem;
@@ -177,16 +176,6 @@ select {
 }
 #topic-page{
   /* height: 100%; */
-  font-family: Roboto;
-}
-#category-page {
-  font-family: Roboto;
-}
-#search-page-content {
-  font-family: Roboto;
-}
-#refs-title-container {
-  font-family: Roboto;
 }
 
 *[data-tcx-rotate = '270deg'] {
