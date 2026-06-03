@@ -59,6 +59,6 @@ ol.Decimal {
   @apply list-decimal;
 }
 
-#topic-page ::marker{
+::marker{
   color: #1473E6;
 }
