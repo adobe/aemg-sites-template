@@ -47,7 +47,10 @@ module.exports = {
                 ],
                 use: [
                     {
-                        loader: 'ts-loader'
+                        loader: 'ts-loader',
+                        options: {
+                            transpileOnly: true
+                        }
                     },
                     {
                         loader: 'webpack-import-glob-loader',
