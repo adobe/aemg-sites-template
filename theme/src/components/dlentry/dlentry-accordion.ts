@@ -19,9 +19,16 @@ function initDlentryAccordion() {
   const dlentries = scope.querySelectorAll<HTMLElement>(DLENTRY_SELECTOR);
   if (dlentries.length === 0) return;
 
+  let firstEntryOpened = false;
+
   dlentries.forEach((dlentry) => {
     const dt = dlentry.querySelector<HTMLElement>(DT_SELECTOR);
     if (!dt) return;
+
+    if (!firstEntryOpened) {
+      firstEntryOpened = true;
+      dlentry.classList.add(DL_ENTRY_EXPANDED_CLASS);
+    }
 
     dt.addEventListener('click', () => {
       dlentry.classList.toggle(DL_ENTRY_EXPANDED_CLASS);

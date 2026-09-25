@@ -167,7 +167,6 @@ a.cmp-navigation__item-link {
 #topic-page #table-of-contents, #section-page #table-of-contents{
   width: 100%;
   gap: 0.5rem;
-  /* height: 100vh !important; */
   overflow-y: auto;
 }
 
@@ -206,9 +205,27 @@ a.cmp-navigation__item-link {
   }
 }
 
-@media (min-width: 769px) { 
+@media (min-width: 769px) {
   #table-of-contents {
     @apply visible h-auto pl-0 overflow-visible scale-100;
+  }
+}
+
+
+@media (min-width: 769px) {
+  #topic-page #table-of-contents .cmp-guides-navigation,
+  #section-page #table-of-contents .cmp-guides-navigation {
+    max-height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #topic-page #table-of-contents .guides-navigation,
+  #section-page #table-of-contents .guides-navigation {
+    height: auto;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
   }
 }
 
