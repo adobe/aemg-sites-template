@@ -428,26 +428,20 @@ it.
 
   /* Interleave tabs with their panels so the active panel
      renders directly below its corresponding tab */
-  #faq-tabs > .button:has(#faq-tab-download) { 
+  #faq-tabs > .button:has(#faq-tab-common) {
     border-top-left-radius: inherit !important;
     border-top-right-radius: inherit !important;
-    order: 1; 
+    order: 1;
   }
-  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-download) { 
-    order: 2; 
+  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-common) {
+    order: 2;
   }
 
-  #faq-tabs > .button:has(#faq-tab-getting-started) { order: 3; }
-  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-getting-started) { order: 4; }
+  #faq-tabs > .button:has(#faq-tab-download) { order: 3; }
+  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-download) { order: 4; }
 
-  #faq-tabs > .button:has(#faq-tab-developing) { order: 5; }
-  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-developing) { order: 6; }
-
-  #faq-tabs > .button:has(#faq-tab-cfml) { order: 7; }
-  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-cfml) { order: 8; }
-
-  #faq-tabs > .button:has(#faq-tab-updates) { order: 9; }
-  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-updates) { order: 10; }
+  #faq-tabs > .button:has(#faq-tab-account) { order: 5; }
+  #faq-section > .aem-Grid > .aem-GridColumn:has(#faq-panel-account) { order: 6; }
 
   #faq-tabs > .button {
     width: 100% !important;
