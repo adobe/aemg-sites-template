@@ -11,6 +11,7 @@
     },
     "devDependencies": {
         "@adobe/aem-site-theme-builder": "4.0.1",
+        "@types/node": "^18.19.50",
         "autoprefixer": "^10.2.1",
         "bestzip": "^2.1.6",
         "browser-sync": "^2.26.13",

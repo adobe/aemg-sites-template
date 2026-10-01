@@ -54,6 +54,7 @@
                     <container23
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/guidessidenavigation"
+                                sitePath=""
                                 productLogo="/content/dam/aemg-docs/cf.png"
                                 productTitle="ColdFusion"
                                 appLinkText="Open app"
@@ -129,7 +130,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="guides-components/components/pageproperty"
-                                property="jcr:created"/>
+                                property="jcr:lastModified"/>
                         </container12345>
                     </container123>
                     <injected-container

@@ -65,7 +65,7 @@
                         <date
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/pageproperty"
-                            property="jcr:created"/>
+                            property="jcr:lastModified"/>
                     </kb-last-update>
                     <description
                         jcr:primaryType="nt:unstructured"
