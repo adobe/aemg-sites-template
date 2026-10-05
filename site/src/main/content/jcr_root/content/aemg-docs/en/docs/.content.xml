@@ -331,7 +331,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/trending-2.png"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-2.png"
                                     id="trending-img-2"
                                     alt="Customize Frameless Skins"/>
                                 <category
