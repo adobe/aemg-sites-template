@@ -235,6 +235,18 @@ select {
 #topic-page{
   /* height: 100%; */
   font-family: var(--Font-adobe-clean, "Adobe Clean");
+  background: #FFFFFF;
+  color: #2C2C2C;
+  min-height: 100%;
+}
+
+body:has(#topic-page),
+.root:has(#topic-page),
+#topic-page > .aem-Grid,
+#table-of-contents,
+#topic-container,
+#minitoc-wrapper {
+  background: #FFFFFF;
 }
 #category-page {
   font-family: var(--Font-adobe-clean, "Adobe Clean");
