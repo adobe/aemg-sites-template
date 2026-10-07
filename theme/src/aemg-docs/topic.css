@@ -989,8 +989,6 @@ html[lang="ja"] {
   display: block;
 }
 
-/* Every accordion block closes with a line; a block that directly follows another one drops its
-   top line so only one shows between them. Published blocks are usually one AEM text component each. */
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl > .dlentry:last-child {
   border-bottom: 1px solid #6E6E6E;
 }
