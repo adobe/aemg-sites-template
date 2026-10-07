@@ -2,7 +2,7 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="5d908e34-f69f-4ba1-a3af-df137f58cb36">
+    jcr:uuid="0602bec1-b010-4812-8932-2acd116dd65f">
     <jcr:content
         dam:assetState="processed"
         guides:assetState="SUCCESS"
@@ -10,8 +10,8 @@
         jcr:lastModified="{Date}2026-10-06T15:42:00.000+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        fmPostProcessedAt="2026-10-06T15:42:00.000+05:30|5d908e34-f69f-4ba1-a3af-df137f58cb36|2026-10-06T15:42:00.000+05:30|14|0"
-        fmUuid="GUID-7de0f418-a019-43b5-8a7e-303c46a28187"
+        fmPostProcessedAt="2026-10-06T15:42:00.000+05:30|0602bec1-b010-4812-8932-2acd116dd65f|2026-10-06T15:42:00.000+05:30|14|0"
+        fmUuid="GUID-31322a85-6f98-4606-b078-c069b1469d66"
         guidesNewAsset="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}24"
@@ -25,8 +25,8 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="18c515d195b80b1bf00f72036796d1d483aa1958"
-            dam:size="{Long}2534769"
+            dam:sha1="83715911e96755d189e81e840b1f7bfb2e6df25a"
+            dam:size="{Long}1637732"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
