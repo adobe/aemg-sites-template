@@ -580,6 +580,15 @@ html[lang="ja"] {
   border-bottom: 0;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .frame-all > .tgroup {
+  border: 1px solid #BDBDBD;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .entry > :last-child,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .stentry > :last-child {
+  margin-bottom: 0;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .li.stepsection {
   display: block;
   margin-left: -0.3em;
@@ -798,6 +807,18 @@ html[lang="ja"] {
   display: block;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig:has(+ .xref) {
+  display: inline-block;
+  padding: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig:has(+ .xref) .placement-inline {
+  display: inline;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prodinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .data-about:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .vrmlist:before {
   margin-left: -1rem;
 }
@@ -966,6 +987,17 @@ html[lang="ja"] {
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dlentry--expanded > .dd {
   display: block;
+}
+
+/* Every accordion block closes with a line; a block that directly follows another one drops its
+   top line so only one shows between them. Published blocks are usually one AEM text component each. */
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl > .dlentry:last-child {
+  border-bottom: 1px solid #6E6E6E;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .dl + .dl > .dlentry:first-child,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .text:has(.dl) + .text:has(.dl) .dl:first-child > .dlentry:first-child {
+  border-top: 0;
 }
 
 /* --- end dlentry accordion --- */
