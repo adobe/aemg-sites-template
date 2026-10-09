@@ -34,7 +34,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>Learn &lt;a href='/content/robohelp-docs/en/docs/user-guide/whats-new-robohelp-2026.html'>what's new&lt;/a> in RoboHelp (March 2026 release)&lt;/p>"
+                    text="&lt;p>Learn &lt;a href='/content/robohelp-docs/en/docs/user-guide/whats-new-robohelp-2026.html'>what's new&lt;/a> in RoboHelp (September 2026 release)!&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
