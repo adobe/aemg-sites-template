@@ -56,9 +56,9 @@
                                 sling:resourceType="guides-components/components/guidessidenavigation"
                                 sitePath=""
                                 productLogo="/content/dam/aemg-docs/cf.png"
-                                productTitle="ColdFusion"
+                                productTitle="RoboHelp"
                                 appLinkText="Open app"
-                                appLinkUrl="https://www.adobe.com/products/coldfusion-family.html"/>
+                                appLinkUrl="https://www.adobe.com/products/robohelp.html"/>
                 </container>
                 <container1
                     cq:styleIds="[container--aemGrid]"
@@ -209,11 +209,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="sidebar-banner-1">
-                            <banner_1_image
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/aemg-docs/banner-1.png"
-                                id="sidebar-banner-1-image"/>
                             <banner_1_content
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -221,44 +216,17 @@
                                 <banner_1_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Register for &lt;b>Adobe ColdFusion Summit 2026&lt;/b>&lt;/p>"
+                                    text="&lt;p>&lt;b>Adobe Technical Communication Events&lt;/b>&lt;/p>&lt;p>Join our in-person and virtual events to explore technical content and knowledge management trends, hear customer success stories, build skills, and network with peers and industry leaders.&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-text"/>
                                 <banner_1_link
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/'>Register now&lt;/a>&lt;/p>"
+                                    text="&lt;p>&lt;a href='https://www.adobe.com/products/technical-content-solutions/events.html'>Register now&lt;/a>&lt;/p>"
                                     textIsRich="true"
                                     id="sidebar-banner-1-link"/>
                             </banner_1_content>
                         </banner_1>
-                        <banner_2
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="sidebar-banner-2">
-                            <banner_2_image
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/image/v2/image"
-                                fileReference="/content/dam/aemg-docs/banner-2.png"
-                                id="sidebar-banner-2-image"/>
-                            <banner_2_content
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="sidebar-banner-2-content">
-                                <banner_2_text
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>AI TRAINING&lt;/p>&lt;p>Build ColdFusion AI workflows&lt;/p>"
-                                    textIsRich="true"
-                                    id="sidebar-banner-2-text"/>
-                                <banner_2_link
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://cfsummit.adobeevents.com/native-ai-training/'>Learn more&lt;/a>&lt;/p>"
-                                    textIsRich="true"
-                                    id="sidebar-banner-2-link"/>
-                            </banner_2_content>
-                        </banner_2>
                     </sidebar_banners>
                 </minitoc_wrapper>
             <experiencefragment-footer

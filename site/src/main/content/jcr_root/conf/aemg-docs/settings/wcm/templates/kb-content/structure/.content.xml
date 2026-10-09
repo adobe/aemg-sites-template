@@ -75,14 +75,14 @@
                     <topics-heading
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/title/v2/title"
-                        jcr:title="User guide topics"
+                        jcr:title="Help resources"
                         id="kb-topics-heading"
                         type="h2"/>
                     <categorylist
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="guides-components/components/categorylist"
-                        editable="{Boolean}true"
-                        parentPath="/content/aemg-docs/en/docs"/>
+                        parentPath="/content/aemg-docs/en/docs"
+                        editable="{Boolean}true"/>
                 </kb-content-area>
                 <kb-sidebar
                     jcr:primaryType="nt:unstructured"
@@ -99,27 +99,21 @@
                         <download-title
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="Download ColdFusion"
+                            text="Download RoboHelp"
                             textIsRich="false"
                             id="kb-download-title"/>
                         <download-text
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>Get the installer for the latest ColdFusion release and start building or upgrading your apps.&lt;/p>"
+                            text="&lt;p>Get the installers for the latest RoboHelp release and start authoring and publishing content across multiple touchpoints.&lt;/p>"
                             textIsRich="true"
                             id="kb-download-text"/>
                         <download-btn
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;a href='https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html'>Download ColdFusion&lt;/a>&lt;/p>"
+                            text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>Download RoboHelp&lt;/a>&lt;/p>"
                             textIsRich="true"
                             id="kb-download-btn"/>
-                        <!-- <download-learn
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;a href='#'>Learn more&lt;/a>&lt;/p>"
-                            textIsRich="true"
-                            id="kb-download-learn"/> -->
                     </kb-download-card>
                     <kb-sidebar-cards-row
                         jcr:primaryType="nt:unstructured"
@@ -136,19 +130,19 @@
                             <community-title
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="ColdFusion community"
+                                text="RoboHelp Community"
                                 textIsRich="false"
                                 id="kb-community-title"/>
                             <community-text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>Get answers, examples, and ideas from other developers.&lt;/p>"
+                                text="&lt;p>Join the Adobe Community to learn, create, and connect with fellow creators from around the world.&lt;/p>"
                                 textIsRich="true"
                                 id="kb-community-text"/>
                             <community-link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>&lt;a href='https://community.adobe.com/coldfusion-580'>Visit community  &amp;gt;&lt;/a>&lt;/p>"
+                                text="&lt;p>&lt;a href='https://community.adobe.com/robohelp-748'>Visit RoboHelp community &amp;gt;&lt;/a>&lt;/p>"
                                 textIsRich="true"
                                 id="kb-community-link"/>
                         </kb-community-card>
@@ -169,13 +163,13 @@
                             <contact-text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>Talk to Adobe about ColdFusion installation, licensing, and technical questions.&lt;/p>"
+                                text="&lt;p>Talk to Adobe about RoboHelp installation, licensing, and technical questions.&lt;/p>"
                                 textIsRich="true"
                                 id="kb-contact-text"/>
                             <contact-link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
-                                text="&lt;p>&lt;a href='https://helpx.adobe.com/support.html'>Contact support &amp;gt;&lt;/a>&lt;/p>"
+                                text="&lt;p>&lt;a href='https://helpx.adobe.com/tech-comm-suite/customer-support.html'>Contact support &amp;gt;&lt;/a>&lt;/p>"
                                 textIsRich="true"
                                 id="kb-contact-link"/>
                         </kb-contact-card>
