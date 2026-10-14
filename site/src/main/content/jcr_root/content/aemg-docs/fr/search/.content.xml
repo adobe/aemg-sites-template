@@ -5,12 +5,12 @@
         cq:lastModified="{Date}2021-06-22T12:23:02.167+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="Troubleshoot common questions about AEMG features."
+        jcr:description="Résolution des questions courantes sur les fonctionnalités d’AEMG."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Search"
+        jcr:title="Recherche"
         id="search-page-content"
         sling:resourceType="guides-components/components/page"
-        pageTitle="Search"
+        pageTitle="Recherche"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -45,11 +45,11 @@
                         resultsSize="10"
                         searchRoot="/content/aemg-docs/fr/docs"
                         showResultCount="true"
-                        sortTitle="Sort">
+                        sortTitle="Tri">
                         <sortItems jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                text="Relevance"
+                                text="Pertinence"
                                 value="@jcr:content/jcr:score"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
@@ -57,7 +57,7 @@
                                 value="@jcr:content/cq:lastModified"/>
                             <item2
                                 jcr:primaryType="nt:unstructured"
-                                text="Title"
+                                text="Titre"
                                 value="@jcr:content/jcr:title"/>
                         </sortItems>
                     </searchresult>

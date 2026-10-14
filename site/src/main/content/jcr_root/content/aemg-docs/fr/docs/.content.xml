@@ -6,11 +6,11 @@
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp."
+        jcr:description="Documentation et centre d’assistance Adobe RoboHelp. Trouvez des réponses, des tutoriels, de la documentation et des ressources pour tirer le meilleur parti de RoboHelp."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Adobe RoboHelp Documentation | Learn &amp; Support"
+        jcr:title="Documentation Adobe RoboHelp | Apprentissage et assistance"
         sling:resourceType="guides-components/components/page"
-        pageTitle="Home"
+        pageTitle="Accueil"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -25,17 +25,16 @@
                     cq:styleIds="[text-center]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title"/>
-
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <announcement
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/text/v2/text"
-                    id="announcement-banner"
-                    text="&lt;p>Learn &lt;a href='/content/robohelp-docs/fr/docs/user-guide/whats-new-robohelp-2026.html'>what's new&lt;/a> in RoboHelp (September 2026 release)!&lt;/p>"
-                    textIsRich="true"/>
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        id="announcement-banner"
+                        text="&lt;p>Découvrez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/whats-new-robohelp-2026.html'>les nouveautés&lt;/a> de RoboHelp (version de septembre 2026) !&lt;/p>"
+                        textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
                         jcr:createdBy="admin"
@@ -72,14 +71,14 @@
                             id="search-container">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                text="Learn and Support"
+                                text="Apprentissage et assistance"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-title"/>
                             <text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="Explore tutorials, documentation, and resources to get the most out of RoboHelp."/>
+                                text="Explorez les tutoriels, la documentation et les ressources pour tirer le meilleur parti de RoboHelp."/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -90,7 +89,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/fr/search"
                                     searchRoot="/content/aemg-docs/fr/docs"
-                                    placeholder="Ask anything about RoboHelp"/>
+                                    placeholder="Posez toutes vos questions sur RoboHelp"/>
                             </search_row>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
@@ -99,29 +98,29 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How to add a word to the user dictionary?"/>
+                                    text="Comment ajouter un mot au dictionnaire utilisateur ?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How to customize PDF template components?"/>
+                                    text="Comment personnaliser les composants du modèle PDF ?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How to split editor screen horizontally?"/>
+                                    text="Comment fractionner l’écran de l’éditeur horizontalement ?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How to prevent data loss while authoring?"/>
+                                    text="Comment éviter la perte de données pendant la rédaction ?"/>
                                 <text5
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="How to link to bookmark from another topic?"/>
+                                    text="Comment créer un lien vers un signet à partir d’une autre rubrique ?"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="search-disclaimer"
-                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Terms.&lt;/a>&lt;/p>"
+                                text="&lt;p>Les réponses de l’IA peuvent être inexactes et toutes les offres fournies sont sans engagement. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Conditions.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </container>
                     </container_482659403_>
@@ -132,7 +131,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Get started with RoboHelp"
+                            jcr:title="Prise en main de RoboHelp"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="getstarted-heading"
                             type="h2"/>
@@ -160,13 +159,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-documentation"
-                                    text="&lt;p>Access expert-made documentation, articles, and release notes&lt;/p>"
+                                    text="&lt;p>Accédez à de la documentation, à des articles et à des notes de mise à jour créés par des experts&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-documentation"
-                                    jcr:title="Explore documentation"
+                                    jcr:title="Explorer la documentation"
                                     link=""/>
                             </tile_documentation>
                             <tile_tutorials
@@ -179,7 +178,7 @@
                                     id="getstarted-icon-tutorials"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Tutorials"
+                                    jcr:title="Tutoriels"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
                                     linkURL="/content/robohelp-docs/fr/docs/tutorials/video-hub.html"
@@ -188,13 +187,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-tutorials"
-                                    text="&lt;p>Watch quick tutorials, video playlists, and how-to's created by experts&lt;/p>"
+                                    text="&lt;p>Regardez des tutoriels rapides, des listes de lecture vidéo et des guides pratiques créés par des experts&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
-                                    jcr:title="Explore tutorials"
+                                    jcr:title="Explorer les tutoriels"
                                     link="/content/robohelp-docs/fr/docs/tutorials/video-hub.html"/>
                             </tile_tutorials>
                             <tile_community
@@ -207,7 +206,7 @@
                                     id="getstarted-icon-community"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Community"
+                                    jcr:title="Communauté"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-community"
                                     linkURL="https://community.adobe.com/robohelp-748"
@@ -216,13 +215,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-community"
-                                    text="&lt;p>Connect with others to troubleshoot and grow your knowledge&lt;/p>"
+                                    text="&lt;p>Échangez avec d’autres personnes pour résoudre les problèmes et développer vos connaissances&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-community"
-                                    jcr:title="Explore community"
+                                    jcr:title="Explorer la communauté"
                                     link="https://community.adobe.com/robohelp-748"/>
                             </tile_community>
                             <tile_certifications
@@ -235,7 +234,7 @@
                                     id="getstarted-icon-certifications"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Online Training"
+                                    jcr:title="Formation en ligne"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-certifications"
                                     linkURL="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"
@@ -244,13 +243,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-certifications"
-                                    text="&lt;p>Get instant access to high-quality, on-demand training courses&lt;/p>"
+                                    text="&lt;p>Accédez instantanément à des cours de formation à la demande de haute qualité&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-certifications"
-                                    jcr:title="Explore online training"
+                                    jcr:title="Explorer la formation en ligne"
                                     link="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"/>
                             </tile_certifications>
                         </tiles_container>
@@ -267,7 +266,7 @@
                             layout="responsiveGrid">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Trending Resources"
+                                jcr:title="Ressources tendance"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="trending-heading"
                                 type="h2"/>
@@ -287,15 +286,15 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/rh-trending-1.png"
                                     id="trending-img-1"
-                                    alt="Explore RoboHelp Workspace"/>
+                                    alt="Découvrir Workspace RoboHelp"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-1"
-                                    text="DOCUMENTATION"/>
+                                    text="Documentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Explore RoboHelp Workspace"
+                                    jcr:title="Découvrir Workspace RoboHelp"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
                                     linkURL="/content/robohelp-docs/fr/docs/user-guide/workspace.html"
@@ -304,7 +303,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.&lt;/p>"
+                                    text="&lt;p>Présentation des menus, panneaux, barres d’outils et vues de RoboHelp pour la création de contenu.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -315,13 +314,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-1"
-                                        text="&lt;p>User guide&lt;/p>"
+                                        text="&lt;p>Guide d’utilisation&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-1"
-                                        text="All levels"/>
+                                        text="Tous niveaux"/>
                                 </meta_row>
                             </tile_intro_cf>
                             <tile_cfml_ref
@@ -334,15 +333,15 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/rh-trending-2.png"
                                     id="trending-img-2"
-                                    alt="Customize Frameless Skins"/>
+                                    alt="Personnaliser les skins Frameless"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-2"
-                                    text="DOCUMENTATION"/>
+                                    text="Documentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Customize Frameless Skins"
+                                    jcr:title="Personnaliser les skins Frameless"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
                                     linkURL="/content/robohelp-docs/fr/docs/user-guide/frameless-skin-editor.html"
@@ -351,7 +350,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-2"
-                                    text="&lt;p>Customize colors, layout, fonts, and branding of your Frameless output skin.&lt;/p>"
+                                    text="&lt;p>Personnalisez les couleurs, la mise en page, les polices et l’identité visuelle du skin de sortie Frameless.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -362,13 +361,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-2"
-                                        text="&lt;p>User guide&lt;/p>"
+                                        text="&lt;p>Guide d’utilisation&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-2"
-                                        text="All levels"/>
+                                        text="Tous niveaux"/>
                                 </meta_row>
                             </tile_cfml_ref>
                             <tile_rest_apis
@@ -381,15 +380,15 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/rh-trending-3.png"
                                     id="trending-img-3"
-                                    alt="Publish to Zendesk"/>
+                                    alt="Publier sur Zendesk"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-3"
-                                    text="DOCUMENTATION"/>
+                                    text="Documentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Publish to Zendesk"
+                                    jcr:title="Publier sur Zendesk"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
                                     linkURL="/content/robohelp-docs/fr/docs/user-guide/publish-zendesk.html"
@@ -398,7 +397,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>Configure output presets and publish profiles to push content to Zendesk.&lt;/p>"
+                                    text="&lt;p>Configurez les paramètres prédéfinis de sortie et les profils de publication pour envoyer du contenu vers Zendesk.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -409,13 +408,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="&lt;p>User guide&lt;/p>"
+                                        text="&lt;p>Guide d’utilisation&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-3"
-                                        text="All levels"/>
+                                        text="Tous niveaux"/>
                                 </meta_row>
                             </tile_rest_apis>
                         </trending_tiles>
@@ -427,7 +426,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Got questions? We have the answer"
+                            jcr:title="Vous avez des questions ? Nous avons la réponse"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="faq-heading"
                             type="h2"/>
@@ -437,19 +436,19 @@
                             id="faq-tabs">
                             <tab_common
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Common issues"
+                                jcr:title="Problèmes courants"
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-common"
                                 link="#"/>
                             <tab_download
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Download and Install"
+                                jcr:title="Téléchargement et installation"
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-download"
                                 link="#"/>
                             <tab_account
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Account Management"
+                                jcr:title="Gestion du compte"
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-account"
                                 link="#"/>
@@ -458,75 +457,240 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-panel-common">
-                            <faq_item_common_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-1">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the options available to host a generated output?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Output generated in RoboHelp can be hosted on any web enabled server like Apache, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-server.html'>RoboHelp Server&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-sharepoint.html'>SharePoint Online&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-zendesk.html'>Zendesk Help Center&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base&lt;/a>, and &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_common_1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-common-1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Quelles sont les options disponibles pour héberger une sortie générée ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>La sortie générée dans RoboHelp peut être hébergée sur tout serveur compatible web comme Apache, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-server.html'>RoboHelp Server&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-sharepoint.html'>SharePoint Online&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-zendesk.html'>Zendesk Help Center&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base&lt;/a> et &lt;a href='/content/robohelp-docs/fr/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_common_1>
-                            <faq_item_common_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-2">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How to use Review and where it is hosted? Is an Adobe Id required to access it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To collaborate using Review, log in using your Adobe ID as Review is hosted on the &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. For more information, view &lt;a href='/content/robohelp-docs/fr/docs/user-guide/review-process.html'>Review and Collaboration&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_common_2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-common-2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment utiliser Review et où est-il hébergé ? Un Adobe ID est-il requis pour y accéder ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Pour collaborer à l’aide de Review, connectez-vous avec votre Adobe ID, car Review est hébergé sur &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/review-process.html'>Review and Collaboration&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_common_2>
-                            <faq_item_common_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-3">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I collaborate with other authors?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Collaborate with other authors for creating, sharing, and managing reviews for your content using &lt;a href='/content/robohelp-docs/fr/docs/user-guide/git.html'>Git&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/sharepoint.html'>SharePoint online&lt;/a>, and &lt;a href='/content/robohelp-docs/fr/docs/user-guide/devops.html'>Azure DevOps&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_common_3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-common-3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment puis-je collaborer avec d’autres auteurs et autrices ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Collaborez avec d’autres auteurs et autrices pour créer, partager et gérer des révisions de votre contenu à l’aide de &lt;a href='/content/robohelp-docs/fr/docs/user-guide/git.html'>Git&lt;/a>, &lt;a href='/content/robohelp-docs/fr/docs/user-guide/sharepoint.html'>SharePoint Online&lt;/a> et &lt;a href='/content/robohelp-docs/fr/docs/user-guide/devops.html'>Azure DevOps&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_common_3>
-                            <faq_item_common_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-4">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the supported file formats in RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view &lt;a href='/content/robohelp-docs/fr/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_common_4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-common-4">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Quels sont les formats de fichier pris en charge dans RoboHelp ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>RoboHelp prend en charge un large éventail de formats de fichier, à la fois pour ouvrir des projets d’aide existants et pour importer du contenu depuis d’autres outils de création. Cela inclut des formats de projet comme HHP, XPJ et MPJ, ainsi que des formats d’importation tels que Word, PDF, FrameMaker, DITA, HTML/XML et divers fichiers image, audio et vidéo. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_common_4>
-                            <faq_item_common_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-5">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="I want to upgrade my project. What are the points that I must keep in mind?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view &lt;a href='/content/robohelp-docs/fr/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_common_5
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-common-5">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Je souhaite mettre à niveau mon projet. Quels sont les points à garder à l’esprit ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Pour mettre à niveau votre projet de RoboHelp Classic vers la version réinventée (version 2019 ou version 2020), certains points sont à prendre en compte en raison de la mise à niveau. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_common_5>
                         </faq_panel_common>
                         <faq_panel_download
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-panel-download">
-                            <faq_item_download_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-1">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="Why won't RoboHelp download?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Learn how to &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>resolve download issues&lt;/a> with RoboHelp and other Adobe apps.&lt;/p>" textIsRich="true"/>
+                            <faq_item_download_1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-download-1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Pourquoi RoboHelp ne se télécharge-t-il pas ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Découvrez comment &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>résoudre les problèmes de téléchargement&lt;/a> avec RoboHelp et d’autres applications Adobe.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_download_1>
-                            <faq_item_download_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-2">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Yes. You can &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>download&lt;/a> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view &lt;a href='https://helpx.adobe.com/creative-suite.html'>installing a trial&lt;/a>. To check if there are any updates, go to Help &amp;gt; Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>downloads&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_download_2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-download-2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Puis-je obtenir une version d’essai de RoboHelp ? Et comment rechercher et installer les mises à jour de RoboHelp ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Oui. Vous pouvez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>télécharger&lt;/a> une version d’essai gratuite entièrement fonctionnelle de 30 jours en vous connectant avec un Adobe ID et un mot de passe. Pour des instructions détaillées, consultez &lt;a href='https://helpx.adobe.com/creative-suite.html'>l’installation d’une version d’essai&lt;/a>. Pour vérifier si des mises à jour sont disponibles, accédez à Aide &amp;amp;gt; Rechercher les mises à jour dans la version actuelle de RoboHelp. Vous pouvez également les installer manuellement à partir de &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>downloads&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_download_2>
-                            <faq_item_download_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-3">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="Why am I getting an error to &quot;Update OS or Browser&quot; while installing or activating RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view &lt;a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>deprecated IE10 support&lt;/a>. Also, take a look at &lt;a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>upgrading operating system and supported browser versions&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_download_3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-download-3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Pourquoi est-ce que j’obtiens une erreur « Update OS or Browser » lors de l’installation ou de l’activation de RoboHelp ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Tous les produits Adobe recommandent d’utiliser les dernières mises à jour du système d’exploitation et du navigateur pour fonctionner efficacement. Si vous exécutez les dernières mises à jour et que l’erreur persiste, consultez &lt;a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>la prise en charge obsolète d’IE10&lt;/a> pour obtenir plus d’aide. Consultez également &lt;a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>la mise à niveau du système d’exploitation et les versions de navigateur prises en charge&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_download_3>
-                            <faq_item_download_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-4">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I install RoboHelp on another computer?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about &lt;a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>activating and deactivating Adobe apps&lt;/a>. If you need five or more licenses, consider purchasing a &lt;a href='https://www.adobe.com/products/robohelp/buying-guide.html'>volume licensing plan&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_download_4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-download-4">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Puis-je installer RoboHelp sur un autre ordinateur ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Vous pouvez installer RoboHelp sur deux ordinateurs maximum. Si vous souhaitez l’installer sur un troisième ordinateur, vous devez le désactiver sur l’une des machines précédentes. Pour en savoir plus, consultez &lt;a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>l’activation et la désactivation des applications Adobe&lt;/a>. Si vous avez besoin de cinq licences ou plus, envisagez d’acheter un &lt;a href='https://www.adobe.com/products/robohelp/buying-guide.html'>plan de licences en volume&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_download_4>
-                            <faq_item_download_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-5">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_download_5
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-download-5">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment créer et distribuer un package Adobe RoboHelp via Adobe Admin Console ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Des modèles prédéfinis sont disponibles dans l’Admin Console pour créer des packages pour Adobe RoboHelp. Pour plus de détails, consultez &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
                         <faq_panel_account
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-panel-account">
-                            <faq_item_account_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-1">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my password?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Sign in to your &lt;a href='https://account.adobe.com/security'>Adobe account&lt;/a>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to &lt;a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>reset it&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_account_1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-account-1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment puis-je modifier mon mot de passe ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Connectez-vous à votre &lt;a href='https://account.adobe.com/security'>compte Adobe&lt;/a>. Dans la section Mot de passe, sélectionnez Modifier pour Mot de passe actuel, puis suivez les instructions à l’écran. Vous avez oublié votre mot de passe ? Découvrez comment le &lt;a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>réinitialiser&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_account_1>
-                            <faq_item_account_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-2">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my credit card info?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can update your credit card information from your accounts page on &lt;a href='https://account.adobe.com/'>adobe.com&lt;/a>. For more information, view &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Payment in the Adobe Store | Online order and payment FAQ&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_account_2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-account-2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment puis-je modifier les informations de ma carte de crédit ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Vous pouvez mettre à jour les informations de carte bancaire depuis la page du compte sur &lt;a href='https://account.adobe.com/'>adobe.com&lt;/a>. Pour plus d’informations, consultez &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Paiement dans l’Adobe Store | FAQ sur les commandes et paiements en ligne&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_account_2>
-                            <faq_item_account_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-3">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="My trial expires soon. How do I renew it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from &lt;a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&amp;cli=adobe_com&amp;ctx=fp&amp;co=US&amp;lang=en'>Adobe.com&lt;/a>. For any queries, you can reach us at &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. For more information, see &lt;a href='/content/robohelp-docs/fr/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            <faq_item_account_3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-account-3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Ma version d’essai expire bientôt. Comment la renouveler ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Vous pouvez convertir la version d’essai de 30 jours d’Adobe RoboHelp en abonnement en achetant une licence sur &lt;a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&amp;cli=adobe_com&amp;ctx=fp&amp;co=US&amp;lang=en'>Adobe.com&lt;/a>. Pour toute question, vous pouvez nous contacter à l’adresse &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/rh-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ RoboHelp.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_account_3>
-                            <faq_item_account_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-4">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How do I cancel my subscription? Can I still use the software I have?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view &lt;a href='/content/robohelp-docs/fr/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            <faq_item_account_4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-account-4">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment puis-je annuler mon abonnement ? Puis-je quand même utiliser le logiciel dont je dispose ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Vous pouvez annuler l’abonnement en contactant l’assistance Adobe. Si vous annulez dans les 14 jours, vous recevez un remboursement intégral. Sinon, 50 % de l’engagement contractuel restant vous sont facturés. Vous n’aurez plus accès au logiciel par abonnement après l’annulation. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/rh-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ RoboHelp.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_account_4>
-                            <faq_item_account_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-5">
-                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I manage my licenses if they are allocated through my organization?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the &lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            <faq_item_account_5
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-account-5">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Comment puis-je gérer mes licences si elles sont attribuées par mon organisation ?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Vous pouvez contacter l’administrateur qui gère les licences de votre organisation. Si vous avez besoin d’une aide supplémentaire, l’administrateur peut créer un ticket dans l’&lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
                             </faq_item_account_5>
                         </faq_panel_account>
                         <faq_help
@@ -537,11 +701,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="faq-help-text"
-                                text="&lt;p>Still need help? Find more &lt;a href='https://helpx.adobe.com/account/individual.html'>account, billing, and plan answers.&lt;/a>&lt;/p>"
+                                text="&lt;p>Vous avez encore besoin d’aide ? Trouvez plus de &lt;a href='https://helpx.adobe.com/account/individual.html'>réponses sur le compte, la facturation et les formules.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </faq_help>
                     </faq_section>
-
                     <community_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
@@ -552,7 +715,7 @@
                             id="community-left">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Join the Conversation"
+                                jcr:title="Rejoindre la conversation"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="community-heading"
                                 type="h2"/>
@@ -560,20 +723,20 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="community-description"
-                                text="Connect with the Adobe RoboHelp community. Post questions and get answers from experts."/>
+                                text="Rejoignez la communauté Adobe RoboHelp. Posez des questions et obtenez des réponses d’experts."/>
                             <buttons_container
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="community-buttons">
                                 <button_forum
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Visit community forum"
+                                    jcr:title="Accéder au forum de la communauté"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-community-forum"
                                     link="https://community.adobe.com/robohelp-748"/>
                                 <button_support
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Contact support"
+                                    jcr:title="Contacter l’assistance"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-contact-support"
                                     link="https://helpx.adobe.com/support-logged-in.html"/>
@@ -585,7 +748,7 @@
                             id="community-right">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Popular topics"
+                                jcr:title="Rubriques populaires"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="topics-heading"
                                 type="h3"/>
@@ -595,31 +758,31 @@
                                 id="topics-tags">
                                 <tag_server
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="RoboHelp FAQs"
+                                    jcr:title="FAQ RoboHelp"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
                                     link="/content/robohelp-docs/fr/docs/user-guide/rh-faq.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Create a Project"
+                                    jcr:title="Création d’un projet"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
                                     link="/content/robohelp-docs/fr/docs/user-guide/create-project.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Import Word documents into a project"
+                                    jcr:title="Importation de documents Word dans un projet"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
                                     link="/content/robohelp-docs/fr/docs/user-guide/import-word-documents.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Format your content"
+                                    jcr:title="Mise en forme du contenu"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
                                     link="/content/robohelp-docs/fr/docs/user-guide/format-content.html"/>
                                 <tag_review
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Review and Collaboration"
+                                    jcr:title="Révision et collaboration"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
                                     link="/content/robohelp-docs/fr/docs/user-guide/review-process.html"/>
