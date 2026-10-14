@@ -9,7 +9,7 @@
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="フッター"
+        jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
@@ -32,33 +32,33 @@
                     <heading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;ColdFusion&lt;/p&gt;"
+                            text="&lt;p&gt;RoboHelp&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="概要"
+                            jcr:title="Learning Resources"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion-family.html"/>
+                            link="https://www.adobe.com/products/technicalcommunicationsuite/resources.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="機能"
+                            jcr:title="Features"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion/features.html"/>
+                            link="https://www.adobe.com/products/robohelp/features-all.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="価格"
+                            jcr:title="Buying Guide"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion-family/buying-guide.html"/>
+                            link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="無料体験版"
+                            jcr:title="Free Trial"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/products/coldfusion/download-trial/try.html"/>
+                            link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="利用条件"
+                            jcr:title="Terms of Use"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/legal/terms.html"/>
+                            link="https://www.adobe.com/legal/terms.html"/>
                 </colColdfusion>
 
                 <!-- Column 2: Support -->
@@ -69,33 +69,33 @@
                     <heading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;サポート&lt;/p&gt;"
+                            text="&lt;p&gt;Support&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="ダウンロードとインストール"
+                            jcr:title="Download and Install"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/jp/coldfusion/kb/coldfusion-downloads.html"/>
+                            link="/content/robohelp-docs/ja/docs/user-guide/robohelp-downloads.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="ヘルプセンター"
+                            jcr:title="Help Center"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/jp/support/coldfusion.html"/>
+                            link="https://helpx.adobe.com/support.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobeサポートコミュニティ"
+                            jcr:title="Adobe Community"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://community.adobe.com/t5/coldfusion/ct-p/ct-coldfusion"/>
+                            link="https://www.adobe.com/community.html"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="エンタープライズサポート"
+                            jcr:title="Enterprise support"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/jp/enterprise/admin-guide.html"/>
+                            link="https://helpx.adobe.com/enterprise/admin-guide.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="正規ソフトウェア"
+                            jcr:title="Genuine software"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/genuine.html"/>
+                            link="https://www.adobe.com/genuine.html"/>
                 </colSupport>
 
                 <!-- Column 3: Resources + Adobe Account -->
@@ -106,26 +106,26 @@
                     <heading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;リソース&lt;/p&gt;"
+                            text="&lt;p&gt;Resources&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobeブログ"
+                            jcr:title="Adobe Blog"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://blog.adobe.com/jp/"/>
+                            link="https://business.adobe.com/blog/"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobe Developer"
+                            jcr:title="Partner Portal"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://developer.adobe.com/"/>
+                            link="https://partners.adobetechcomm.com/"/>
                     <subheading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;Adobeアカウント&lt;/p&gt;"
+                            text="&lt;p&gt;Adobe Account&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="アカウントにログイン"
+                            jcr:title="Log in to your account"
                             sling:resourceType="core/wcm/components/button/v1/button"
                             link="https://account.adobe.com/"/>
                 </colResources>
@@ -142,29 +142,29 @@
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="会社概要"
+                            jcr:title="About"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/about-adobe.html"/>
+                            link="https://www.adobe.com/about-adobe.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="採用情報"
+                            jcr:title="Careers"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/careers.html"/>
+                            link="https://www.adobe.com/careers.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="ニュースルーム"
+                            jcr:title="Newsroom"
                             sling:resourceType="core/wcm/components/button/v1/button"
                             link="https://news.adobe.com/"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="社会的責任"
+                            jcr:title="Corporate responsibility"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/corporate-responsibility.html"/>
+                            link="https://www.adobe.com/corporate-responsibility.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="IR情報"
+                            jcr:title="Investor Relations"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/jp/investor-relations.html"/>
+                            link="https://www.adobe.com/investor-relations.html"/>
                 </colAdobe>
             </footerLinks>
 
@@ -178,28 +178,28 @@
                 <label
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p&gt;注目の製品&lt;/p&gt;"
+                        text="&lt;p&gt;Featured products&lt;/p&gt;"
                         textIsRich="{Boolean}true"/>
                 <product1
                         jcr:primaryType="nt:unstructured"
                         jcr:title="AEM Guides"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/jp/products/xml-documentation-for-experience-manager.html"/>
+                        link="https://business.adobe.com/products/experience-manager/guides/aem-guides.html"/>
                 <product2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Captivate"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/jp/products/captivate.html"/>
+                        link="https://www.adobe.com/products/captivate.html"/>
                 <product3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Learning Manager"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/jp/products/learning-manager.html"/>
+                        link="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html"/>
                 <product4
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Adobe Connect"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/jp/products/adobeconnect.html"/>
+                        link="https://www.adobe.com/products/adobeconnect.html"/>
             </footerProducts>
 
             <!-- ============================================ -->
@@ -218,19 +218,43 @@
                     <iconFacebook
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-facebook"/>
+                            id="social-icon-facebook">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://www.facebook.com/adobetcs/"
+                                accessibilityLabel="Facebook"/>
+                    </iconFacebook>
                     <iconTwitter
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-twitter"/>
+                            id="social-icon-twitter">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://x.com/AdobeTCS"
+                                accessibilityLabel="X (Twitter)"/>
+                    </iconTwitter>
                     <iconLinkedin
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-linkedin"/>
-                    <iconInstagram
+                            id="social-icon-linkedin">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://www.linkedin.com/company/adobetcs"
+                                accessibilityLabel="LinkedIn"/>
+                    </iconLinkedin>
+                    <iconBlog
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-instagram"/>
+                            id="social-icon-blog">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://blog.adobe.com/techcomm/"
+                                accessibilityLabel="Adobe TechComm Blog"/>
+                    </iconBlog>
                 </footerBottomLeft>
 
                 <!-- Right side: copyright + legal links -->
@@ -246,12 +270,12 @@
                     <legalLinks
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/jp/privacy.html'&gt;プライバシー&lt;/a&gt; / &lt;a href='https://www.adobe.com/jp/legal/terms.html'&gt;利用条件&lt;/a&gt; / &lt;a href='https://www.adobe.com/jp/privacy/cookies.html'&gt;Cookieの設定&lt;/a&gt; / &lt;a href='https://www.adobe.com/jp/privacy/us-rights.html'&gt;個人情報を販売しない&lt;/a&gt; /&lt;/p&gt;"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/privacy.html'&gt;Privacy&lt;/a&gt; / &lt;a href='https://www.adobe.com/legal/terms.html'&gt;Terms of Use&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/cookies.html'&gt;Cookie preferences&lt;/a&gt; / &lt;a href='https://www.adobe.com/privacy/us-rights.html'&gt;Do not sell my personal information&lt;/a&gt; /&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <adchoices
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;AdChoices&lt;/p&gt;"
+                            text="&lt;p&gt;&lt;a href='https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads'&gt;AdChoices&lt;/a&gt;&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                 </footerBottomRight>
             </footerBottom>

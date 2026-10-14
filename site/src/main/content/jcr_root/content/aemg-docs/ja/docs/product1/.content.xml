@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2021-01-14T10:34:08.992-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/kb-content"
-        jcr:title="製品1"
+        jcr:title="Product 1"
         jcr:primaryType="cq:PageContent"
         id="category-page"
         sling:resourceType="guides-components/components/page">
@@ -65,7 +65,7 @@
                                 jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="お困りですか？"
+                                jcr:title="How can we help?"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 type="h1"/>
                             <searchbar
@@ -76,8 +76,8 @@
                                 searchRoot="/content/aemg-docs/ja/docs"/>
                         </container>
                     </container_482659403_>
-                   <container8 jcr:primaryType="nt:unstructured" 
-                   sling:resourceType="core/wcm/components/container/v1/container" 
+                   <container8 jcr:primaryType="nt:unstructured"
+                   sling:resourceType="core/wcm/components/container/v1/container"
                    id="table-of-contents">
                    <text
                         jcr:created="{Date}2021-01-14T10:07:19.573-07:00"
@@ -86,12 +86,12 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="製品1の目次"
+                        text="Table of contents for Product 1"
                         textIsRich="true"/>
                         <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default jcr:primaryType="nt:unstructured" 
+                            <default jcr:primaryType="nt:unstructured"
                             offset="0" width="3"/>
-                            <phone jcr:primaryType="nt:unstructured" 
+                            <phone jcr:primaryType="nt:unstructured"
                             offset="0" width="12"/>
                         </cq:responsive>
                         <container0
@@ -99,7 +99,7 @@
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="table-of-contents-trigger">
                 </container0>
-                        <container238 jcr:primaryType="nt:unstructured" 
+                        <container238 jcr:primaryType="nt:unstructured"
                         sling:resourceType="guides-components/components/guidessidenavigation">
                         </container238>
                     </container8>

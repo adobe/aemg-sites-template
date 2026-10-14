@@ -5,12 +5,12 @@
         cq:lastModified="{Date}2021-06-22T12:23:02.167+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="AEMGの機能に関するよくある質問のトラブルシューティング。"
+        jcr:description="Troubleshoot common questions about AEMG features."
         jcr:primaryType="cq:PageContent"
-        jcr:title="検索"
+        jcr:title="Search"
         id="search-page-content"
         sling:resourceType="guides-components/components/page"
-        pageTitle="検索"
+        pageTitle="Search"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -45,19 +45,19 @@
                         resultsSize="10"
                         searchRoot="/content/aemg-docs/ja/docs"
                         showResultCount="true"
-                        sortTitle="並べ替え">
+                        sortTitle="Sort">
                         <sortItems jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                text="関連性"
+                                text="Relevance"
                                 value="@jcr:content/jcr:score"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
-                                text="日付"
+                                text="Date"
                                 value="@jcr:content/cq:lastModified"/>
                             <item2
                                 jcr:primaryType="nt:unstructured"
-                                text="タイトル"
+                                text="Title"
                                 value="@jcr:content/jcr:title"/>
                         </sortItems>
                     </searchresult>

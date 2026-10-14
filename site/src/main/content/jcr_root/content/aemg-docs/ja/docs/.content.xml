@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:allowedTemplates="[/conf/aemg-docs/settings/wcm/templates/(?!xf-).*]"
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="AEMGの仕組み"
+        jcr:description="Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp."
         jcr:primaryType="cq:PageContent"
-        jcr:title="ドキュメント"
+        jcr:title="Adobe RoboHelp Documentation | Learn &amp; Support"
         sling:resourceType="guides-components/components/page"
-        pageTitle="AEMG"
+        pageTitle="Home"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -24,7 +25,7 @@
                     cq:styleIds="[text-center]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title"/>
-                
+
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
@@ -33,7 +34,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
                     id="announcement-banner"
-                    text="&lt;p>ColdFusion（2025リリース）の新機能をご紹介！&#xa0; &lt;a href='#'>新機能を見る&lt;/a>&lt;/p>"
+                    text="&lt;p>Learn &lt;a href='/content/robohelp-docs/ja/docs/user-guide/whats-new-robohelp-2026.html'>what's new&lt;/a> in RoboHelp (September 2026 release)!&lt;/p>"
                     textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -58,7 +59,7 @@
                                 <brand_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Adobe ColdFusion"/>
+                                    text="Adobe RoboHelp"/>
                             </brand_row>
                         </hero_banner>
                         <container
@@ -71,14 +72,14 @@
                             id="search-container">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                text="ラーニングとサポート"
+                                text="Learn and Support"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-title"/>
                             <text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="回答を得る、アセットを見つける、ヘルプに即座にアクセス"/>
+                                text="Explore tutorials, documentation, and resources to get the most out of RoboHelp."/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -89,12 +90,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/ja/search"
                                     searchRoot="/content/aemg-docs/ja/docs"
-                                    placeholder="ColdFusionについて何でも質問してください"/>
-                                <askdoc_button
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="AIに質問"
-                                    sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="askdoc-search-btn"/>
+                                    placeholder="Ask anything about RoboHelp"/>
                             </search_row>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
@@ -103,25 +99,29 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="MCPと直接API呼び出しはいつ使い分けるべきですか？"/>
+                                    text="How to add a word to the user dictionary?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="ColdFusionはMCPクライアントとMCPサーバーの両方として機能できますか？"/>
+                                    text="How to customize PDF template components?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="複数のMCPサーバーに接続するにはどうすればよいですか？"/>
+                                    text="How to split editor screen horizontally?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="MCPを使用するにはLLMが必要ですか？"/>
+                                    text="How to prevent data loss while authoring?"/>
+                                <text5
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to link to bookmark from another topic?"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="search-disclaimer"
-                                text="&lt;p>AIの回答は不正確な場合があり、提供されるオファーは拘束力を持ちません。 &lt;span>利用規約&lt;/span>&lt;/p>"
+                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Terms.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </container>
                     </container_482659403_>
@@ -132,7 +132,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="ColdFusionを始めよう"
+                            jcr:title="Get started with RoboHelp"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="getstarted-heading"
                             type="h2"/>
@@ -144,114 +144,114 @@
                             <tile_documentation
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-documentation"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-documentation">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
                                     id="getstarted-icon-documentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ドキュメント"
+                                    jcr:title="Documentation"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-documentation"
+                                    linkURL=""
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-documentation"
-                                    text="&lt;p>エキスパートが作成したドキュメント、記事、リリースノートにアクセス&lt;/p>"
+                                    text="&lt;p>Access expert-made documentation, articles, and release notes&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-documentation"
-                                    jcr:title="ドキュメントを見る"
-                                    link="/content/aemg-docs/ja/docs"/>
+                                    jcr:title="Explore documentation"
+                                    link=""/>
                             </tile_documentation>
                             <tile_tutorials
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-tutorials"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-tutorials">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
                                     id="getstarted-icon-tutorials"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="チュートリアル"
+                                    jcr:title="Tutorials"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
+                                    linkURL="/content/robohelp-docs/ja/docs/tutorials/video-hub.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-tutorials"
-                                    text="&lt;p>エキスパートが作成したクイックチュートリアル、動画プレイリスト、ハウツーを視聴&lt;/p>"
+                                    text="&lt;p>Watch quick tutorials, video playlists, and how-to's created by experts&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
-                                    jcr:title="チュートリアルを見る"
-                                    link="https://coldfusion.adobe.com/learning_hub/"/>
+                                    jcr:title="Explore tutorials"
+                                    link="/content/robohelp-docs/ja/docs/tutorials/video-hub.html"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-community"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-community">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
                                     id="getstarted-icon-community"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="コミュニティ"
+                                    jcr:title="Community"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-community"
+                                    linkURL="https://community.adobe.com/robohelp-748"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-community"
-                                    text="&lt;p>他のユーザーとつながり、トラブルシューティングや知識の向上に役立てましょう&lt;/p>"
+                                    text="&lt;p>Connect with others to troubleshoot and grow your knowledge&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-community"
-                                    jcr:title="コミュニティを見る"
-                                    link="https://community.adobe.com/coldfusion-580"/>
+                                    jcr:title="Explore community"
+                                    link="https://community.adobe.com/robohelp-748"/>
                             </tile_community>
                             <tile_certifications
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
-                                id="getstarted-tile-certifications"
-                                layout="responsiveGrid">
+                                id="getstarted-tile-certifications">
                                 <icon
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/container/v1/container"
                                     id="getstarted-icon-certifications"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="認定資格"
+                                    jcr:title="Online Training"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-certifications"
+                                    linkURL="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="getstarted-desc-certifications"
-                                    text="&lt;p>専門知識を証明し、次のキャリアアップに備えましょう&lt;/p>"
+                                    text="&lt;p>Get instant access to high-quality, on-demand training courses&lt;/p>"
                                     textIsRich="true"/>
                                 <button
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-certifications"
-                                    jcr:title="認定資格を見る"
-                                    link="https://coldfusion.adobe.com/certificate/"/>
+                                    jcr:title="Explore online training"
+                                    link="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"/>
                             </tile_certifications>
                         </tiles_container>
                     </getstarted_section>
@@ -267,7 +267,7 @@
                             layout="responsiveGrid">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="トレンドリソース"
+                                jcr:title="Trending Resources"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="trending-heading"
                                 type="h2"/>
@@ -285,25 +285,26 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/trending-1.png"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-1.png"
                                     id="trending-img-1"
-                                    alt="ColdFusion入門"/>
+                                    alt="Explore RoboHelp Workspace"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-1"
-                                    text="ドキュメント"/>
+                                    text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion入門"
+                                    jcr:title="Explore RoboHelp Workspace"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
+                                    linkURL="/content/robohelp-docs/ja/docs/user-guide/workspace.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>ColdFusion 2025の新機能、システム要件、使い始め方をご紹介...&lt;/p>"
+                                    text="&lt;p>Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -314,13 +315,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-1"
-                                        text="&lt;p>ユーザーガイド&lt;/p>"
+                                        text="&lt;p>User guide&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-1"
-                                        text="全レベル"/>
+                                        text="All levels"/>
                                 </meta_row>
                             </tile_intro_cf>
                             <tile_cfml_ref
@@ -331,25 +332,26 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/trending-2.png"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-2.png"
                                     id="trending-img-2"
-                                    alt="CFMLリファレンスガイド"/>
+                                    alt="Customize Frameless Skins"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-2"
-                                    text="ドキュメント"/>
+                                    text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLリファレンスガイド"
+                                    jcr:title="Customize Frameless Skins"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
+                                    linkURL="/content/robohelp-docs/ja/docs/user-guide/frameless-skin-editor.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-2"
-                                    text="&lt;p>すべてのCFMLタグ、関数、予約変数の完全リファレンス。&lt;/p>"
+                                    text="&lt;p>Customize colors, layout, fonts, and branding of your Frameless output skin.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -360,13 +362,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-2"
-                                        text="&lt;p>ユーザーガイド&lt;/p>"
+                                        text="&lt;p>User guide&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-2"
-                                        text="全レベル"/>
+                                        text="All levels"/>
                                 </meta_row>
                             </tile_cfml_ref>
                             <tile_rest_apis
@@ -377,25 +379,26 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/trending-3.png"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-3.png"
                                     id="trending-img-3"
-                                    alt="REST APIの構築"/>
+                                    alt="Publish to Zendesk"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-cat-3"
-                                    text="チュートリアル"/>
+                                    text="DOCUMENTATION"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="REST APIの構築"
+                                    jcr:title="Publish to Zendesk"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
+                                    linkURL="/content/robohelp-docs/ja/docs/user-guide/publish-zendesk.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>ColdFusionでRESTfulサービスをステップバイステップで作成・公開する方法。&lt;/p>"
+                                    text="&lt;p>Configure output presets and publish profiles to push content to Zendesk.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -406,13 +409,13 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-type-3"
-                                        text="&lt;p>30分&lt;/p>"
+                                        text="&lt;p>User guide&lt;/p>"
                                         textIsRich="true"/>
                                     <meta_level
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="core/wcm/components/text/v2/text"
                                         id="trending-meta-level-3"
-                                        text="中級"/>
+                                        text="All levels"/>
                                 </meta_row>
                             </tile_rest_apis>
                         </trending_tiles>
@@ -424,7 +427,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="よくある質問"
+                            jcr:title="Got questions? We have the answer"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="faq-heading"
                             type="h2"/>
@@ -432,347 +435,100 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-tabs">
+                            <tab_common
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Common issues"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-common"
+                                link="#"/>
                             <tab_download
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="ダウンロードとインストール"
+                                jcr:title="Download and Install"
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-download"
                                 link="#"/>
-                            <tab_getting_started
+                            <tab_account
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="はじめに"
+                                jcr:title="Account Management"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-getting-started"
-                                link="#"/>
-                            <tab_developing
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="アプリケーション開発"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-developing"
-                                link="#"/>
-                            <tab_cfml
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="CFML"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-cfml"
-                                link="#"/>
-                            <tab_updates
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="アップデート"
-                                sling:resourceType="core/wcm/components/button/v1/button"
-                                id="faq-tab-updates"
+                                id="faq-tab-account"
                                 link="#"/>
                         </faq_tabs>
+                        <faq_panel_common
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-common">
+                            <faq_item_common_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the options available to host a generated output?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Output generated in RoboHelp can be hosted on any web enabled server like Apache, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/robohelp-server.html'>RoboHelp Server&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-sharepoint.html'>SharePoint Online&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-zendesk.html'>Zendesk Help Center&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base&lt;/a>, and &lt;a href='/content/robohelp-docs/ja/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_1>
+                            <faq_item_common_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How to use Review and where it is hosted? Is an Adobe Id required to access it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To collaborate using Review, log in using your Adobe ID as Review is hosted on the &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. For more information, view &lt;a href='/content/robohelp-docs/ja/docs/user-guide/review-process.html'>Review and Collaboration&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_2>
+                            <faq_item_common_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I collaborate with other authors?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Collaborate with other authors for creating, sharing, and managing reviews for your content using &lt;a href='/content/robohelp-docs/ja/docs/user-guide/git.html'>Git&lt;/a>, &lt;a href='/content/robohelp-docs/ja/docs/user-guide/sharepoint.html'>SharePoint online&lt;/a>, and &lt;a href='/content/robohelp-docs/ja/docs/user-guide/devops.html'>Azure DevOps&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_3>
+                            <faq_item_common_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the supported file formats in RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view &lt;a href='/content/robohelp-docs/ja/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_4>
+                            <faq_item_common_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="I want to upgrade my project. What are the points that I must keep in mind?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view &lt;a href='/content/robohelp-docs/ja/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_5>
+                        </faq_panel_common>
                         <faq_panel_download
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="faq-panel-download">
-                            <faq_item_d1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionのインストール方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionのインストール&lt;/a>に関するヘルプをご覧ください。&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から製品をダウンロードできます。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d1>
-                            <faq_item_d2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionがインストールできないのはなぜですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>システム要件&lt;/a>を確認し、環境が最低仕様を満たしているかご確認ください。一般的なインストール問題については&lt;a href='#'>トラブルシューティングガイド&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d2>
-                            <faq_item_d3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionの体験版をダウンロードできますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>はい、&lt;a href='https://helpx-internal.corp.adobe.com/content/help/en/coldfusion/kb/coldfusion-downloads.html'>ColdFusionダウンロードページ&lt;/a>から30日間の無料体験版をダウンロードできます。体験版にはすべてのエンタープライズ機能が含まれています。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d3>
-                            <faq_item_d4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-d4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="体験版の期限が近づいています。どうすれば変換できますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>Adobeストア&lt;/a>でライセンスをご購入ください。購入後、ColdFusion Administratorでシリアル番号を入力して体験版を変換できます。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_d4>
+                            <faq_item_download_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Why won't RoboHelp download?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Learn how to &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>resolve download issues&lt;/a> with RoboHelp and other Adobe apps.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_1>
+                            <faq_item_download_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Yes. You can &lt;a href='/content/robohelp-docs/ja/docs/user-guide/robohelp-downloads.html'>download&lt;/a> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view &lt;a href='https://helpx.adobe.com/creative-suite.html'>installing a trial&lt;/a>. To check if there are any updates, go to Help &amp;gt; Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from &lt;a href='/content/robohelp-docs/ja/docs/user-guide/robohelp-downloads.html'>downloads&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_2>
+                            <faq_item_download_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Why am I getting an error to &quot;Update OS or Browser&quot; while installing or activating RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view &lt;a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>deprecated IE10 support&lt;/a>. Also, take a look at &lt;a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>upgrading operating system and supported browser versions&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_3>
+                            <faq_item_download_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I install RoboHelp on another computer?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about &lt;a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>activating and deactivating Adobe apps&lt;/a>. If you need five or more licenses, consider purchasing a &lt;a href='https://www.adobe.com/products/robohelp/buying-guide.html'>volume licensing plan&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_4>
+                            <faq_item_download_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_5>
                         </faq_panel_download>
-                        <faq_panel_getting_started
+                        <faq_panel_account
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-getting-started">
-                            <faq_item_gs1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-gs1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="最初のColdFusionアプリケーションを作成するには？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='#'>入門チュートリアル&lt;/a>に従って、最初のCFMLページを作成してください。テキストエディタと実行中のColdFusionサーバーのみが必要です。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_gs1>
-                            <faq_item_gs2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-gs2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="システム要件は何ですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusionはWindows、macOS、Linuxで動作します。詳細なハードウェアおよびソフトウェアの仕様については&lt;a href='#'>システム要件ページ&lt;/a>をご確認ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_gs2>
-                            <faq_item_gs3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-gs3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="チュートリアルはどこにありますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>初心者から上級者向けのビデオチュートリアル、コードサンプル、ステップバイステップガイドは&lt;a href='https://coldfusion.adobe.com/learning_hub/'>ColdFusionラーニングセンター&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_gs3>
-                        </faq_panel_getting_started>
-                        <faq_panel_developing
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-developing">
-                            <faq_item_dev1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="データベースに接続するには？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorを使用してデータソースを作成します。サポートされているデータベースと設定手順については&lt;a href='#'>データベース接続ガイド&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev1>
-                            <faq_item_dev2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionで使えるフレームワークは？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>人気のフレームワークには&lt;a href='https://www.coldbox.org/'>ColdBox&lt;/a>、FW/1、CFWheelsがあります。それぞれがMVCアーキテクチャとスケーラブルなアプリケーション構築のためのツールを提供します。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev2>
-                            <faq_item_dev3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionアプリケーションのデプロイ方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CARアーカイブ、Dockerコンテナ、または手動のファイルコピーでデプロイします。本番環境のベストプラクティスについては&lt;a href='#'>デプロイガイド&lt;/a>をご参照ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev3>
-                            <faq_item_dev4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-dev4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionコードのデバッグ方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>詳細については、Visual Studio Code用ColdFusion Builderプラグインを使用したアプリケーションのデバッグをご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_dev4>
-                        </faq_panel_developing>
-                        <faq_panel_cfml
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-cfml">
-                            <faq_item_cf1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLとは何ですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFML（ColdFusion Markup Language）は、高速なWebアプリケーション開発のためのスクリプト言語です。HTMLとシームレスに統合し、タグベースとスクリプトベースの両方の構文をサポートしています。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf1>
-                            <faq_item_cf2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="主要なCFMLタグは何ですか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>主要なタグには&lt;code>cfquery&lt;/code>、&lt;code>cfoutput&lt;/code>、&lt;code>cfloop&lt;/code>、&lt;code>cfcomponent&lt;/code>があります。完全なリストは&lt;a href='#'>CFMLリファレンス&lt;/a>をご覧ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf2>
-                            <faq_item_cf3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLは他の言語とどう違いますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>CFMLはWeb開発に特化して設計されており、データベース、セッション、メール、PDF生成の組み込みサポートを提供します。他の言語ではライブラリが必要な一般的なタスクを抽象化しています。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf3>
-                            <faq_item_cf4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-cf4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="CFMLリファレンスドキュメントはどこにありますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>すべてのタグ、関数、オブジェクトを網羅した完全な&lt;a href='#'>CFMLリファレンス&lt;/a>が公式ドキュメントで利用可能です。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_cf4>
-                        </faq_panel_cfml>
-                        <faq_panel_updates
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="faq-panel-updates">
-                            <faq_item_u1
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u1">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusionのアップデート方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorの組み込みアップデータを使用するか、&lt;a href='#'>Adobeアップデートページ&lt;/a>からアップデートをダウンロードしてください。アップデート適用前に必ずサーバーをバックアップしてください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u1>
-                            <faq_item_u2
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u2">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="最新のアップデートには何が含まれていますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>各アップデートの新機能、バグ修正、セキュリティパッチの詳細リストは&lt;a href='#'>リリースノート&lt;/a>をご確認ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u2>
-                            <faq_item_u3
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u3">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="現在のColdFusionバージョンの確認方法は？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ColdFusion Administratorを開き、システム情報ページを確認するか、コード内で&lt;code>server.coldfusion.productversion&lt;/code>を使用してください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u3>
-                            <faq_item_u4
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="faq-item-u4">
-                                <question
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="アップデートは後方互換性がありますか？"
-                                    sling:resourceType="core/wcm/components/title/v2/title"
-                                    type="h4"/>
-                                <answer
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>ほとんどのアップデートは後方互換性があります。各リリースの破壊的変更や非推奨機能については&lt;a href='#'>互換性ノート&lt;/a>をご確認ください。&lt;/p>"
-                                    textIsRich="true"/>
-                            </faq_item_u4>
-                        </faq_panel_updates>
+                            id="faq-panel-account">
+                            <faq_item_account_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my password?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Sign in to your &lt;a href='https://account.adobe.com/security'>Adobe account&lt;/a>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to &lt;a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>reset it&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_1>
+                            <faq_item_account_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my credit card info?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can update your credit card information from your accounts page on &lt;a href='https://account.adobe.com/'>adobe.com&lt;/a>. For more information, view &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Payment in the Adobe Store | Online order and payment FAQ&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_2>
+                            <faq_item_account_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="My trial expires soon. How do I renew it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from &lt;a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&amp;cli=adobe_com&amp;ctx=fp&amp;co=US&amp;lang=en'>Adobe.com&lt;/a>. For any queries, you can reach us at &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. For more information, see &lt;a href='/content/robohelp-docs/ja/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_3>
+                            <faq_item_account_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How do I cancel my subscription? Can I still use the software I have?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view &lt;a href='/content/robohelp-docs/ja/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_4>
+                            <faq_item_account_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I manage my licenses if they are allocated through my organization?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the &lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_5>
+                        </faq_panel_account>
                         <faq_help
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
@@ -781,10 +537,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="faq-help-text"
-                                text="&lt;p>まだお困りですか？&lt;a href='#'>アカウント、請求、プランに関する回答&lt;/a>をご覧ください。&lt;/p>"
+                                text="&lt;p>Still need help? Find more &lt;a href='https://helpx.adobe.com/account/individual.html'>account, billing, and plan answers.&lt;/a>&lt;/p>"
                                 textIsRich="true"/>
                         </faq_help>
                     </faq_section>
+
                     <community_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
@@ -795,7 +552,7 @@
                             id="community-left">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="会話に参加しよう"
+                                jcr:title="Join the Conversation"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="community-heading"
                                 type="h2"/>
@@ -803,23 +560,23 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="community-description"
-                                text="Adobe ColdFusionコミュニティとつながりましょう。質問を投稿してエキスパートから回答を得ることができます。"/>
+                                text="Connect with the Adobe RoboHelp community. Post questions and get answers from experts."/>
                             <buttons_container
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
                                 id="community-buttons">
                                 <button_forum
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="コミュニティフォーラムへ"
+                                    jcr:title="Visit community forum"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-community-forum"
-                                    link="#"/>
+                                    link="https://community.adobe.com/robohelp-748"/>
                                 <button_support
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="サポートに連絡"
+                                    jcr:title="Contact support"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-contact-support"
-                                    link="#"/>
+                                    link="https://helpx.adobe.com/support-logged-in.html"/>
                             </buttons_container>
                         </community_left>
                         <community_right
@@ -828,7 +585,7 @@
                             id="community-right">
                             <title
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="人気のトピック"
+                                jcr:title="Popular topics"
                                 sling:resourceType="core/wcm/components/title/v2/title"
                                 id="topics-heading"
                                 type="h3"/>
@@ -838,34 +595,34 @@
                                 id="topics-tags">
                                 <tag_server
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="サーバー管理"
+                                    jcr:title="RoboHelp FAQs"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="#"/>
+                                    link="/content/robohelp-docs/ja/docs/user-guide/rh-faq.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="ColdFusion Builder"
+                                    jcr:title="Create a Project"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="#"/>
-                                <tag_advanced
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="高度なテクニック"
-                                    sling:resourceType="core/wcm/components/button/v1/button"
-                                    id="tag-advanced-techniques"
-                                    link="#"/>
+                                    link="/content/robohelp-docs/ja/docs/user-guide/create-project.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="セキュリティ"
+                                    jcr:title="Import Word documents into a project"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="#"/>
+                                    link="/content/robohelp-docs/ja/docs/user-guide/import-word-documents.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="パフォーマンス"
+                                    jcr:title="Format your content"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="#"/>
+                                    link="/content/robohelp-docs/ja/docs/user-guide/format-content.html"/>
+                                <tag_review
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Review and Collaboration"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-review-collaboration"
+                                    link="/content/robohelp-docs/ja/docs/user-guide/review-process.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>
