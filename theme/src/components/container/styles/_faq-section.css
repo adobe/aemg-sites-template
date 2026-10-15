@@ -278,14 +278,18 @@ it.
 
 /* ===== Help Banner ===== */
 #faq-help-banner {
-  width: 33.625rem;
+  width: fit-content;
+  min-width: 33.625rem;
   max-width: 100%;
   margin: 2.5rem auto 0;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0.75rem;
-  height: 3.375rem;
+  min-height: 3.375rem;
+  height: auto;
+  padding: 0.75rem 1.5rem;
+  box-sizing: border-box;
   background: var(--C1-Web-Accent-info-accent-light, #dedef9); 
 
   .text {
@@ -382,6 +386,7 @@ it.
 
   #faq-help-banner {
     width: 100%;
+    min-width: 0;
     height: auto;
     min-height: 3.375rem;
     flex-direction: column !important;
