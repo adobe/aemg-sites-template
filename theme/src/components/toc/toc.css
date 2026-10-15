@@ -6,7 +6,6 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-
 .aem-Grid > .navigation.aem-GridColumn.aem-GridColumn--default--3 {
   @apply w-full;
 }
@@ -14,28 +13,7 @@ ul.cmp-navigation__group .cmp-navigation__item-has-children.cmp-navigation__item
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23ffffff" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
 }
 ul.cmp-navigation__group {
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
 
-  &::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-  }
-
-  &::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, 0.35);
-  }
-}
-ul.cmp-navigation__group {
   .cmp-navigation__item-has-children{
     a::before{
       /* content:url(./resources/fonts/ch-right.svg); */
@@ -136,7 +114,7 @@ ul.cmp-navigation__group {
   }
 }
 
-#topic-page .cmp-navigation__item--active{
+.cmp-navigation__item--active{
   display: inline;
 }
 
@@ -165,9 +143,9 @@ a.cmp-navigation__item-link {
 
 }
 #topic-page #table-of-contents, #section-page #table-of-contents{
+  margin-top:24px;
   width: 100%;
-  gap: 0.5rem;
-  overflow-y: auto;
+  padding-right: 3rem;
 }
 
 #section-page {
@@ -188,44 +166,26 @@ a.cmp-navigation__item-link {
   }
 }
 
-@media (min-width: 769px) {
+@screen sm {
   .toc-toggle {
     @apply hidden;
   }
 }
 
 #table-of-contents {
-  top: 4rem !important;
+  top: 1.5rem !important;
   position: sticky !important;
   @apply invisible h-0 pl-12 overflow-hidden transition-transform duration-300 transform scale-0;
-  width: 100%;
+  width: 16rem;
 
   &.open {
     @apply visible h-auto overflow-visible scale-100;
   }
 }
 
-@media (min-width: 769px) {
+@screen sm { 
   #table-of-contents {
     @apply visible h-auto pl-0 overflow-visible scale-100;
-  }
-}
-
-
-@media (min-width: 769px) {
-  #topic-page #table-of-contents .cmp-guides-navigation,
-  #section-page #table-of-contents .cmp-guides-navigation {
-    max-height: calc(100vh - 4rem);
-    display: flex;
-    flex-direction: column;
-  }
-
-  #topic-page #table-of-contents .guides-navigation,
-  #section-page #table-of-contents .guides-navigation {
-    height: auto;
-    flex: 1 1 auto;
-    min-height: 0;
-    overflow-y: auto;
   }
 }
 
@@ -391,12 +351,6 @@ a.cmp-navigation__item-link {
   display: none;
 }
 
-.cmp-guidesnavigation__item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
 #category-page .cmp-guidesnavigation__group .cmp-guidesnavigation__item .toc-list-item {
   display: flex;
   height: fit-content;
@@ -500,12 +454,13 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     margin-top: 0rem;
   }
 
-  #section-page .injected-toc-wrapper #table-of-contents .cmp-guides-navigation{
+  #section-page .injected-toc-wrapper #table-of-contents .guides-navigation{
     display: none;
   }
 
-  #section-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
+  #section-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
     display: block;
+    min-height: 100vh;
   }
 
   .toc-trigger-button {
@@ -566,48 +521,22 @@ background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2F
     width: 100%;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents .cmp-guides-navigation{
+  #topic-page .injected-toc-wrapper #table-of-contents .guides-navigation{
     display: none;
   }
 
-  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
+  #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .guides-navigation{
     display: block;
+    min-height: 100vh;
   }
 
   #topic-page .injected-toc-wrapper #table-of-contents[data-expanded="true"] .toc-trigger-button{
     background-color: #1532AD;
   }
 
-  #topic-page #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
-    padding: 0 1rem;
-  }
-
-  .cmp-guidesnavigation__group {
-    width: 100%;
-  }
-  ul.cmp-guidesnavigation__group {
-    padding: 0 3rem;
-  }
-
-  ul.cmp-guidesnavigation__group.hide-children, ul.cmp-guidesnavigation__group.show-children {
-    padding: 0;
-  }
-  
-}
-
-@media (max-width: 390px) {
-  ul.cmp-guidesnavigation__group {
-    padding: 0 1.5rem;
-  }
-
-  .cmp-guidesnav-product-header {
-    padding: 1rem 2rem;
-  }
-
-  .cmp-guidesnav-filter {
-    padding: 0.5rem;
-  }
-  #topic-page .injected-center-wrapper {
-    padding: 0 !important;
+  @media (max-width: 768px) {
+    #topic-page #table-of-contents[data-expanded="true"] .cmp-guides-navigation{
+      padding: 0 1rem;
+    }
   }
 }

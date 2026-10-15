@@ -6,7 +6,7 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-#topic-page .searchresult {
+.searchresult {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 1rem;
@@ -21,21 +21,25 @@ it.
     }
   }
 
-  #topic-page .cmp-searchresult-title {
+  .cmp-searchresult-title {
     @apply m-0 text-lg;
   }
 
-  #topic-page .cmp-searchresult-link {
+  .cmp-searchresult-description {
+    @apply m-0;
+  }
+
+  .cmp-searchresult-link {
     &::after {
       content: none;
     }
   }
 
-  #topic-page .cmp-searchresult-date {
+  .cmp-searchresult-date {
     @apply hidden;
   }
 
-  #topic-page .cmp-searchresult-item {
+  .cmp-searchresult-item {
     @apply px-0 py-4;
     padding: 15px 0;
     a {
@@ -48,7 +52,7 @@ it.
     }
 }
 
-  #topic-page .search__results--footer {
+  .search__results--footer {
     grid-row: 2;
     grid-column: 2;
 
@@ -58,14 +62,14 @@ it.
   }
 }
 
-#topic-page .cmp-sort__heading .sort-select select,
-#topic-page .cmp-sort__heading .sort-options-select select{
+.cmp-sort__heading .sort-select select,
+.cmp-sort__heading .sort-options-select select{
   padding: 0px 12px 0px 12px;
 }
 
-#topic-page .cmp-sort__heading span,
-#topic-page .cmp-sort__heading .sort-select,
-#topic-page .cmp-search__total-records {
+.cmp-sort__heading span,
+.cmp-sort__heading .sort-select,
+.cmp-search__total-records {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -73,7 +77,7 @@ it.
   text-align: left;
 }
 
-#topic-page .cmp-sort__heading {
+.cmp-sort__heading {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -90,7 +94,7 @@ it.
   }
 }
 
-#topic-page .search__field--results {
+.search__field--results {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -98,18 +102,20 @@ it.
 }
 #cmp-search-page-result{
   min-height: 36.5rem;
+  padding: 2rem 10rem;
 }
 
 #cmp-search-page-result .search__field--view {
   padding: 0 !important;
+}
+#cmp-search-page-result .cmp-searchresult-description {
+  margin-top: 0rem !important;
 }
 #cmp-search-page-result .search-result-header {
   display: flex;
   height: 3rem;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
-  margin: 2rem 0rem;
 }
 #cmp-search-page-result .sort-btn-option {
   border: 1px solid black;
@@ -150,28 +156,7 @@ it.
 }
 
 
-/* ===== Responsive breakpoints ===== */
-/* Default styles above target 1920px design (1440px and above) */
-
-/* 1440px design (1024px to 1439px) */
-@media (max-width: 1439px) {
-  .searchresult{
-    padding: 3rem 7.5rem !important;
-  }
-}
-
-/* 1024px design (768px to 1023px) */
-@media (max-width: 1023px) {
-  .searchresult{
-    padding: 3rem 5rem !important;
-  }
-}
-
-/* 768px design (390px to 767px) */
-@media (max-width: 767px) {
-  .searchresult{
-    padding: 1.25rem 0.5rem !important;
-  }
+@media (max-width: 768px) {
   #cmp-search-page-result .search__field--view {
     margin: 0;
     width: 100%;
@@ -181,13 +166,13 @@ it.
     margin: 0;
   }
   #cmp-search-page-result {
-    padding: 0 2rem;
+    padding: 2rem;
   }
-  #topic-page .cmp-sort__heading {
+  .cmp-sort__heading {
     flex-direction: row;
     justify-content: flex-start;
   }
-  #topic-page .searchresult {
+  .searchresult {
     flex-direction: column;
   }
 }
