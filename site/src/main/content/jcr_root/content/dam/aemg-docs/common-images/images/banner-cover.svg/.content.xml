@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="422a15ab-fd3c-456f-a2a2-f06dd656d2a5">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-08-11T07:17:52.431Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        fmPostProcessedAt="2025-08-11T07:17:41.495Z|422a15ab-fd3c-456f-a2a2-f06dd656d2a5|2025-08-11T07:17:41.381Z|14|0"
+        fmUuid="GUID-7b564727-33ba-4de1-a9af-328654f0551c">
+        <metadata
+            dam:extracted="{Date}2025-08-11T07:17:48.203Z"
+            dam:sha1="c639b8915423ac80dcf18362b98dfa0ee2e018ad"
+            dam:size="{Long}5979"
+            dc:format="image/svg+xml"
+            dc:modified="{Date}2025-08-11T07:17:44.625Z"
+            jcr:lastModified="{Date}2025-08-11T07:17:44.625Z"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

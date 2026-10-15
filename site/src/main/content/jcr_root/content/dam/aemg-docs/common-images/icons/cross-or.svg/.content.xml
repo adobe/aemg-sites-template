@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:guides="http://www.adobe.com/aem_guides/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="046306ae-1b8f-457a-b405-6f14fa4d76cb">
+    <jcr:content
+        dam:assetState="processed"
+        guides:assetState="SUCCESS"
+        guides:lastProcessedAt="{Date}2025-09-15T02:19:05.628-04:00"
+        jcr:lastModified="{Date}2025-09-15T02:19:04.923-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2025-09-15T02:19:03.347-04:00|046306ae-1b8f-457a-b405-6f14fa4d76cb|2025-09-15T02:19:03.346-04:00|14|0"
+        fmUuid="GUID-9974e3a4-fe2f-4287-807e-c56ae21af78b">
+        <metadata
+            dam:extracted="{Date}2025-09-15T02:19:03.752-04:00"
+            dam:sha1="b3016cc70df93222eb01fa6bb74bde22177e9f3f"
+            dam:size="{Long}1501"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

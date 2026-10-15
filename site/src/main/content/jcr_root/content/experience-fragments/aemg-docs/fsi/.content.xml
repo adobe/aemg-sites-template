@@ -1,0 +1,10 @@
+
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    cq:allowedTemplates="/conf/aemguides/settings/wcm/templates/.*-xf-web-variation"
+    cq:conf="/conf/aemg-docs"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="AEM Guides FSI experience fragments"
+    sling:configRef="/conf/aemg-docs">
+    <en/>
+    <jcr:content/>
+</jcr:root>

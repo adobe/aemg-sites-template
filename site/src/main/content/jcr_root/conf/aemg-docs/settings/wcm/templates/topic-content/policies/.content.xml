@@ -151,7 +151,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping">
                 <container123
-                        cq:policy="core/wcm/components/container/v1/container/policy_topic_content"
+                        cq:policy="core/wcm/components/container/v1/container/policy_default"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 <injected-container

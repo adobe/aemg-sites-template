@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4501e4e1-5061-49cd-b3b9-5ae3b501b448">
+    <jcr:content
+        cq:name="search-icon.png"
+        cq:parentPath="/content/dam/fsi/fsi-assets"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2025-03-26T06:11:31.966-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        dxmlLastCreatedVersion="1.0"
+        fmPostProcessedAt="2025-03-26T06:11:16.575-04:00|4501e4e1-5061-49cd-b3b9-5ae3b501b448|2025-03-26T06:11:16.416-04:00|14|0"
+        fmUuid="GUID-f4be797a-d2e2-4918-a756-0b7e6c81469d">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2025-03-26T06:11:31.770-04:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}0.3332916796207428"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}0.3332916796207428"
+            dam:Progressive="no"
+            dam:sha1="8b9a98d3db4002333a4050ac5af264f816ff27de"
+            dam:size="{Long}554"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}24"
+            tiff:ImageWidth="{Long}24"
+            docstate="Draft"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

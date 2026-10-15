@@ -1,0 +1,22 @@
+{
+  "linkedin": {
+    "title": "On LinkedIn",
+    "icon": "/content/dam/manufacturing/common-images/icons/linkedin0.svg",
+    "url": "https://www.linkedin.com/shareArticle?mini=true&url="
+  },
+  "twitter": {
+    "title": "On X",
+    "icon": "/content/dam/manufacturing/common-images/icons/twitter.svg",
+    "url": "https://twitter.com/intent/tweet?url="
+  },
+  "facebook": {
+    "title": "On Facebook",
+    "icon": "/content/dam/manufacturing/common-images/icons/facebook.svg",
+    "url": "https://www.facebook.com/share_channel/?type=empty&source_surface=external_share&url="
+  },
+  "email": {
+    "title": "On Email",
+    "icon": "/content/dam/manufacturing/common-images/icons/email.svg",
+    "url": "mailto:?"
+  }
+}

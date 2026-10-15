@@ -12,3 +12,9 @@ it.
 .cmp-navigation__item--active {}
 /* .cmp-navigation__item--level-0 {} */
 .cmp-navigation__item-link {}
+
+@media (min-width: 1024px) {
+    body.hitech-guides-topic-page .custom-container .gu-custom-container .col-3grid .outer-container {
+		top:110px !important;
+	}
+}

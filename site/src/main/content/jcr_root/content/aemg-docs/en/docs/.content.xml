@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:allowedTemplates="[/conf/aemg-docs/settings/wcm/templates/(?!xf-).*]"
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="How AEMG works"
+        jcr:description="Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Docs"
+        jcr:title="Adobe RoboHelp Documentation | Learn &amp; Support"
         sling:resourceType="guides-components/components/page"
-        pageTitle="AEMG"
+        pageTitle="Home"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -24,10 +25,17 @@
                     cq:styleIds="[text-center]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title"/>
+                
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
+                    <announcement
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    id="announcement-banner"
+                    text="&lt;p>Learn &lt;a href='/content/robohelp-docs/en/docs/user-guide/whats-new-robohelp-2026.html'>what's new&lt;/a> in RoboHelp (September 2026 release)!&lt;/p>"
+                    textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
                         jcr:createdBy="admin"
@@ -36,6 +44,24 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="welcome-container">
+                        <hero_banner
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="hero-banner">
+                            <brand_row
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="hero-brand-row">
+                                <brand_icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="brand-icon"/>
+                                <brand_text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="Adobe RoboHelp"/>
+                            </brand_row>
+                        </hero_banner>
                         <container
                             jcr:created="{Date}2021-06-17T18:56:53.097+05:30"
                             jcr:createdBy="admin"
@@ -45,36 +71,561 @@
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="search-container">
                             <title
-                                jcr:created="{Date}2021-06-17T17:09:47.762+05:30"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Welcome to AEMG Documentation"
-                                sling:resourceType="core/wcm/components/title/v2/title"
-                                type="h1"/>
-                            <searchbar
+                                text="Learn and Support"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-title"/>
+                            <text
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/searchbar"
-                                hideButton="true"
-                                resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"/>
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-text"
+                                text="Explore tutorials, documentation, and resources to get the most out of RoboHelp."/>
+                            <search_row
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-row">
+                                <searchbar
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="guides-components/components/searchbar"
+                                    hideButton="true"
+                                    resultpage="/content/aemg-docs/en/search"
+                                    searchRoot="/content/aemg-docs/en/docs"
+                                    placeholder="Ask anything about RoboHelp"/>
+                            </search_row>
+                            <search_presets
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-presets">
+                                <text1
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to add a word to the user dictionary?"/>
+                                <text2
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to customize PDF template components?"/>
+                                <text3
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to split editor screen horizontally?"/>
+                                <text4
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to prevent data loss while authoring?"/>
+                                <text5
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How to link to bookmark from another topic?"/>
+                            </search_presets>
+                            <disclaimer_text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="search-disclaimer"
+                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Terms.&lt;/a>&lt;/p>"
+                                textIsRich="true"/>
                         </container>
                     </container_482659403_>
-                    <container_copy
-                        jcr:lastModified="{Date}2021-06-17T17:55:46.893+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/categorylist"
-                        id="tiles-container2"
-                        layout="responsiveGrid">
-                    </container_copy>
-                    <container
+                    <getstarted_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="refs-title-container"
+                        id="getstarted-section"
                         layout="responsiveGrid">
-                    </container>
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Get started with RoboHelp"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="getstarted-heading"
+                            type="h2"/>
+                        <tiles_container
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="getstarted-tiles"
+                            layout="responsiveGrid">
+                            <tile_documentation
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-documentation">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-documentation"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Documentation"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-documentation"
+                                    linkURL=""
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-documentation"
+                                    text="&lt;p>Access expert-made documentation, articles, and release notes&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-documentation"
+                                    jcr:title="Explore documentation"
+                                    link=""/>
+                            </tile_documentation>
+                            <tile_tutorials
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-tutorials">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-tutorials"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Tutorials"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-tutorials"
+                                    linkURL="/content/robohelp-docs/en/docs/tutorials/video-hub.html"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-tutorials"
+                                    text="&lt;p>Watch quick tutorials, video playlists, and how-to's created by experts&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-tutorials"
+                                    jcr:title="Explore tutorials"
+                                    link="/content/robohelp-docs/en/docs/tutorials/video-hub.html"/>
+                            </tile_tutorials>
+                            <tile_community
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-community">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-community"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Community"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-community"
+                                    linkURL="https://community.adobe.com/robohelp-748"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-community"
+                                    text="&lt;p>Connect with others to troubleshoot and grow your knowledge&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-community"
+                                    jcr:title="Explore community"
+                                    link="https://community.adobe.com/robohelp-748"/>
+                            </tile_community>
+                            <tile_certifications
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-certifications">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-certifications"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Online Training"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-certifications"
+                                    linkURL="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-certifications"
+                                    text="&lt;p>Get instant access to high-quality, on-demand training courses&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-certifications"
+                                    jcr:title="Explore online training"
+                                    link="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"/>
+                            </tile_certifications>
+                        </tiles_container>
+                    </getstarted_section>
+                    <trending_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="trending-section"
+                        layout="responsiveGrid">
+                        <trending_header
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-header"
+                            layout="responsiveGrid">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Trending Resources"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="trending-heading"
+                                type="h2"/>
+                        </trending_header>
+                        <trending_tiles
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-tiles"
+                            layout="responsiveGrid">
+                            <tile_intro_cf
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-1"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-1.png"
+                                    id="trending-img-1"
+                                    alt="Explore RoboHelp Workspace"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-1"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Explore RoboHelp Workspace"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-1"
+                                    linkURL="/content/robohelp-docs/en/docs/user-guide/workspace.html"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-1"
+                                    text="&lt;p>Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-1"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-1"
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-1"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_intro_cf>
+                            <tile_cfml_ref
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-2"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-2.png"
+                                    id="trending-img-2"
+                                    alt="Customize Frameless Skins"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-2"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Customize Frameless Skins"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-2"
+                                    linkURL="/content/robohelp-docs/en/docs/user-guide/frameless-skin-editor.html"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-2"
+                                    text="&lt;p>Customize colors, layout, fonts, and branding of your Frameless output skin.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-2"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-2"
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-2"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_cfml_ref>
+                            <tile_rest_apis
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-3"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/rh-trending-3.png"
+                                    id="trending-img-3"
+                                    alt="Publish to Zendesk"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-3"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Publish to Zendesk"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-3"
+                                    linkURL="/content/robohelp-docs/en/docs/user-guide/publish-zendesk.html"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-3"
+                                    text="&lt;p>Configure output presets and publish profiles to push content to Zendesk.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-3"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-3"
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-3"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_rest_apis>
+                        </trending_tiles>
+                    </trending_section>
+                    <faq_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="faq-section"
+                        layout="responsiveGrid">
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Got questions? We have the answer"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="faq-heading"
+                            type="h2"/>
+                        <faq_tabs
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-tabs">
+                            <tab_common
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Common issues"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-common"
+                                link="#"/>
+                            <tab_download
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Download and Install"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-download"
+                                link="#"/>
+                            <tab_account
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Account Management"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-account"
+                                link="#"/>
+                        </faq_tabs>
+                        <faq_panel_common
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-common">
+                            <faq_item_common_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the options available to host a generated output?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Output generated in RoboHelp can be hosted on any web enabled server like Apache, &lt;a href='/content/robohelp-docs/en/docs/user-guide/robohelp-server.html'>RoboHelp Server&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-sharepoint.html'>SharePoint Online&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-zendesk.html'>Zendesk Help Center&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base&lt;/a>, and &lt;a href='/content/robohelp-docs/en/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_1>
+                            <faq_item_common_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How to use Review and where it is hosted? Is an Adobe Id required to access it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To collaborate using Review, log in using your Adobe ID as Review is hosted on the &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. For more information, view &lt;a href='/content/robohelp-docs/en/docs/user-guide/review-process.html'>Review and Collaboration&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_2>
+                            <faq_item_common_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I collaborate with other authors?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Collaborate with other authors for creating, sharing, and managing reviews for your content using &lt;a href='/content/robohelp-docs/en/docs/user-guide/git.html'>Git&lt;/a>, &lt;a href='/content/robohelp-docs/en/docs/user-guide/sharepoint.html'>SharePoint online&lt;/a>, and &lt;a href='/content/robohelp-docs/en/docs/user-guide/devops.html'>Azure DevOps&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_3>
+                            <faq_item_common_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="What are the supported file formats in RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view &lt;a href='/content/robohelp-docs/en/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_4>
+                            <faq_item_common_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="I want to upgrade my project. What are the points that I must keep in mind?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view &lt;a href='/content/robohelp-docs/en/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_common_5>
+                        </faq_panel_common>
+                        <faq_panel_download
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-download">
+                            <faq_item_download_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Why won't RoboHelp download?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Learn how to &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>resolve download issues&lt;/a> with RoboHelp and other Adobe apps.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_1>
+                            <faq_item_download_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Yes. You can &lt;a href='/content/robohelp-docs/en/docs/user-guide/robohelp-downloads.html'>download&lt;/a> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view &lt;a href='https://helpx.adobe.com/creative-suite.html'>installing a trial&lt;/a>. To check if there are any updates, go to Help &amp;gt; Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from &lt;a href='/content/robohelp-docs/en/docs/user-guide/robohelp-downloads.html'>downloads&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_2>
+                            <faq_item_download_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Why am I getting an error to &quot;Update OS or Browser&quot; while installing or activating RoboHelp?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view &lt;a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>deprecated IE10 support&lt;/a>. Also, take a look at &lt;a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>upgrading operating system and supported browser versions&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_3>
+                            <faq_item_download_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="Can I install RoboHelp on another computer?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about &lt;a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>activating and deactivating Adobe apps&lt;/a>. If you need five or more licenses, consider purchasing a &lt;a href='https://www.adobe.com/products/robohelp/buying-guide.html'>volume licensing plan&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_4>
+                            <faq_item_download_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-download-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_download_5>
+                        </faq_panel_download>
+                        <faq_panel_account
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-account">
+                            <faq_item_account_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-1">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my password?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Sign in to your &lt;a href='https://account.adobe.com/security'>Adobe account&lt;/a>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to &lt;a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>reset it&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_1>
+                            <faq_item_account_2 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-2">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I change my credit card info?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can update your credit card information from your accounts page on &lt;a href='https://account.adobe.com/'>adobe.com&lt;/a>. For more information, view &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Payment in the Adobe Store | Online order and payment FAQ&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_2>
+                            <faq_item_account_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-3">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="My trial expires soon. How do I renew it?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from &lt;a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&amp;cli=adobe_com&amp;ctx=fp&amp;co=US&amp;lang=en'>Adobe.com&lt;/a>. For any queries, you can reach us at &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. For more information, see &lt;a href='/content/robohelp-docs/en/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_3>
+                            <faq_item_account_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-4">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How do I cancel my subscription? Can I still use the software I have?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view &lt;a href='/content/robohelp-docs/en/docs/user-guide/rh-faq.html'>Subscription information and pricing&lt;/a> in the RoboHelp FAQ.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_4>
+                            <faq_item_account_5 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-account-5">
+                                <question jcr:primaryType="nt:unstructured" jcr:title="How can I manage my licenses if they are allocated through my organization?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the &lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a>.&lt;/p>" textIsRich="true"/>
+                            </faq_item_account_5>
+                        </faq_panel_account>
+                        <faq_help
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-help-banner">
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="faq-help-text"
+                                text="&lt;p>Still need help? Find more &lt;a href='https://helpx.adobe.com/account/individual.html'>account, billing, and plan answers.&lt;/a>&lt;/p>"
+                                textIsRich="true"/>
+                        </faq_help>
+                    </faq_section>
+
+                    <community_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="community-section">
+                        <community_left
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-left">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Join the Conversation"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="community-heading"
+                                type="h2"/>
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="community-description"
+                                text="Connect with the Adobe RoboHelp community. Post questions and get answers from experts."/>
+                            <buttons_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="community-buttons">
+                                <button_forum
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Visit community forum"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-community-forum"
+                                    link="https://community.adobe.com/robohelp-748"/>
+                                <button_support
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Contact support"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-contact-support"
+                                    link="https://helpx.adobe.com/support-logged-in.html"/>
+                            </buttons_container>
+                        </community_left>
+                        <community_right
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-right">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Popular topics"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="topics-heading"
+                                type="h3"/>
+                            <tags_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="topics-tags">
+                                <tag_server
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="RoboHelp FAQs"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-server-admin"
+                                    link="/content/robohelp-docs/en/docs/user-guide/rh-faq.html"/>
+                                <tag_builder
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Create a Project"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-coldfusion-builder"
+                                    link="/content/robohelp-docs/en/docs/user-guide/create-project.html"/>
+                                <tag_security
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Import Word documents into a project"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-security"
+                                    link="/content/robohelp-docs/en/docs/user-guide/import-word-documents.html"/>
+                                <tag_performance
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Format your content"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-performance"
+                                    link="/content/robohelp-docs/en/docs/user-guide/format-content.html"/>
+                                <tag_review
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Review and Collaboration"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-review-collaboration"
+                                    link="/content/robohelp-docs/en/docs/user-guide/review-process.html"/>
+                            </tags_container>
+                        </community_right>
+                    </community_section>
                 </container>
             </container>
         </root>

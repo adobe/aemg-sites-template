@@ -69,15 +69,21 @@ const fixCSS = () => {
     const parent_toc_container = toc_container.parentElement;
     parent_toc_container.classList.add("injected-toc-wrapper");
     const centerWrapper = document.querySelector('.injected-center-wrapper');
-    if(centerWrapper != null) {
-      let height = centerWrapper.getBoundingClientRect().height
+    // if(centerWrapper != null) {
+    //   let height = centerWrapper.getBoundingClientRect().height;
+    //   parent_toc_container.style.minHeight = `${height}px`;
+    // }
+  }
 
-      const mini_toc: any = document.querySelector('.cmp-mini-toc');
-      if(mini_toc !== null) {
-        mini_toc.style.height = `${height}px`;
-      }
-      parent_toc_container.style.minHeight = `${height}px`;
-    }
+  const minitoc_container = document.querySelector('#minitoc-wrapper');
+  if(minitoc_container !== null) {
+    const parent_minitoc_container = minitoc_container.parentElement;
+    parent_minitoc_container.classList.add("injected-minitoc-wrapper");
+    const centerWrapper = document.querySelector('.injected-center-wrapper');
+    // if(centerWrapper != null) {
+    //   let height = centerWrapper.getBoundingClientRect().height;
+    //   parent_minitoc_container.style.minHeight = `${height}px`;
+    // }
   }
 
 }

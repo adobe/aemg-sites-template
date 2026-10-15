@@ -25,5 +25,8 @@ node_modules
 hs_err_pid*
 
 site/target/*
+*.DS_Store
 
 .idea
+nbproject
+/nbproject/private/
