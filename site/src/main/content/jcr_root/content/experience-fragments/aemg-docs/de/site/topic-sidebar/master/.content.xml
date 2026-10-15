@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:tags="[]"
+        cq:template="/conf/aemg-docs/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Themen-Seitenleiste"
+        sling:resourceType="cq/experience-fragments/components/xfpage">
+        <root jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" layout="simple">
+            <banner_1 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="sidebar-banner-1">
+                <banner_1_content jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="sidebar-banner-1-content">
+                    <banner_1_text
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Adobe Technical Communication Events&lt;/b>&lt;/p>&lt;p>Nehmen Sie an unseren Präsenz- und Online-Veranstaltungen teil, um Trends bei technischen Inhalten und Wissens-Management zu entdecken, Erfolgsgeschichten von Kundinnen und Kunden zu hören, Fähigkeiten auszubauen und sich mit Kolleginnen und Kollegen sowie Branchenführenden zu vernetzen.&lt;/p>"
+                        textIsRich="true"
+                        id="sidebar-banner-1-text"/>
+                    <banner_1_link
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;a href='https://www.adobe.com/products/technical-content-solutions/events.html'>Jetzt registrieren&lt;/a>&lt;/p>"
+                        textIsRich="true"
+                        id="sidebar-banner-1-link"/>
+                </banner_1_content>
+            </banner_1>
+        </root>
+    </jcr:content>
+</jcr:root>
