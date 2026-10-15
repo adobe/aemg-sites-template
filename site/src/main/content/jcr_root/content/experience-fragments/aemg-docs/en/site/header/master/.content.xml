@@ -15,69 +15,82 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="simple">
-            <!-- Left column: logo + nav + Free trial -->
-            <container_left
+            <container1
+                    cq:styleClasses="logo-container"
+                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    id="header-left">
-                <adobe_logo
+                    id="header-logo">
+                <image
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/container/v1/container"
-                        id="adobe-logo"
-                        link="https://www.adobe.com/"/>
-                <button_wap
+                        sling:resourceType="core/wcm/components/image/v2/image"
+                        alt="AEMG"
+                        altValueFromDAM="false"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/aemg-docs/tragopan.svg"
+                        isDecorative="false"
+                        linkURL="/content/aemg-docs/en/docs"
+                        titleValueFromDAM="true"/>
+                <button
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Technical Communication"
+                        jcr:title="AEMG"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        id="btn-wap"/>
+                        link="/content/aemg-docs/en/docs"/>
+            </container1>
+            <container2
+                    cq:styleClasses="logo-container"
+                    jcr:lastModified="{Date}2021-07-16T10:33:18.229+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="header-buttons">
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe RoboHelp"
+                        jcr:title="Products"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Buying Guide"
+                        jcr:title="About"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Online Training"
+                        jcr:title="Customers"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Learn &amp; Support"
+                        jcr:title="Support"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/docs"
-                        id="btn-help-support"/>
-                <buttonFreeTrial
-                        cq:styleIds="[button--Primary]"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Free trial"
-                        sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
-            </container_left>
-            <!-- Right column: search + icons -->
-            <container_right
+                        link="/content/aemg-docs/en/support"/>
+            </container2>
+            <container3
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    id="header-right">
+                    id="header-end">
                 <searchbar
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="guides-components/components/searchbar"
                         resultpage="/content/aemg-docs/en/search"
                         searchRoot="/content/aemg-docs/en/docs"/>
-                <askdoc_button
+                <languagenavigation
+                        jcr:created="{Date}2021-06-19T08:09:14.101+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-06-19T08:10:08.801+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Ask AI"
+                        sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
+                        navigationRoot="/content/aemg-docs"
+                        structureDepth="1"/>
+                <buttonSignIn
+                        cq:styleIds="[button--Primary]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sign up"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        id="askdoc-header-btn"/>
-                <container_icons
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/container/v1/container"
-                        id="header-icons"/>
-            </container_right>
+                        link="/content/aemg-docs/en/signin"/>
+            </container3>
             <container4
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
@@ -111,36 +124,41 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     id="side-drawer">
-                <button_wap
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Technical Communication"
-                        sling:resourceType="core/wcm/components/button/v1/button"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe RoboHelp"
+                        jcr:title="Products"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Buying Guide"
+                        jcr:title="About"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Online Training"
+                        jcr:title="Customers"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/technicalcommunicationsuite/onlinetraining.html"/>
+                        link="/content/aemg-docs/en/support"/>
                 <button4
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Learn &amp; Support"
+                        jcr:title="Support"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/aemg-docs/en/docs"/>
-                <buttonFreeTrial
+                        link="/content/aemg-docs/en/support"/>
+                <languagenavigation
+                        jcr:created="{Date}2021-06-19T08:09:14.101+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-06-19T08:10:08.801+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
+                        navigationRoot="/content/aemg-docs"
+                        structureDepth="1"/>
+                <buttonSignIn
                         cq:styleIds="[button--Primary]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Free trial"
+                        jcr:title="Sign up"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
+                        link="/content/aemg-docs/en/signin"/>
             </container7>
         </root>
     </jcr:content>

@@ -13,22 +13,17 @@ html {
 }
 body {
   height: 100%;
-  font-family: "Adobe Clean";
-  font-size: 16px;
+  font-family: Roboto;
 }
 .root {
   height: 100%;
 }
 
-.new.newpar {
-  display: none;
-}
-
-/* #topic-page button,
-#topic-page select,
-#topic-page a {
+button,
+select,
+a {
   @apply focus:ring focus:ring-blue-400 focus:ring-opacity-75 focus:outline-none;
-} */
+}
 
 select {
   @apply p-1 mx-0 my-2 text-base text-gray-600 bg-transparent border border-gray-400 rounded;
@@ -44,61 +39,11 @@ select {
 }
 
 
-#topic-title-bar {
-  display: flex;
-  align-items: anchor-center;
-  justify-content: space-between;
-  gap: 1rem;
-
-  .cmp-title__text {
-    font-family: "Adobe Clean";
-    font-weight: 700 !important;
-    font-size: 2.25rem !important;
-    line-height: 125%;
-
-  }
-}
-
-#topic-title-bar > .title {
-  flex: 1;
-  min-width: 0;
-}
-
-#topic-title-bar .cmp-page-actions {
-  flex-shrink: 0;
-  margin-bottom: 1.25rem;
-}
-
-#topic-title-bar .cmp-page-actions button,
-#topic-title-bar .cmp-page-actions .cmp-page-actions__action {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.225rem;
-  padding: 0.375rem 0.5rem;
-  color: #292929;
-  font-family: var(--Font-adobe-clean, "Adobe Clean");
-  font-size: 0.875rem;
-  font-weight: 400 !important;
-  line-height: 1.5;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.15s ease;
-}
-
-#topic-title-bar .cmp-page-actions button:hover,
-#topic-title-bar .cmp-page-actions .cmp-page-actions__action:hover {
-  background: #E8E8E8;
-}
-
-@media (max-width: 768px) {
-  #topic-title-bar {
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
+#topic-title{
+  font-weight: 900;
 }
 #section-page {
   min-height: calc(100% - 18.375rem);
-  font-family: "Adobe Clean";
 }
 #section-page-content .title {
   font-weight: 900;
@@ -111,19 +56,13 @@ select {
 }
 
 #topic-container {
-  min-height: 24.25rem;
+  width: 90%;
+  min-height: calc(100% - 18.375rem);
   display: flex;
   flex-direction: column;
-  font-family: "Adobe Clean";
-  padding: 1.5rem 2rem;
-  color: #2C2C2C;
 }
 #topic-container .title h1 {
   margin-bottom : 0.75rem;
-  margin-top: 0rem !important;
-  font-size: 2.25rem;
-  font-weight: 700;
-  color: #2C2C2C;
 }
 
 .cmp-languagenavigation--langnavtoggle{
@@ -137,7 +76,7 @@ select {
   margin-right: 1rem
 }
 
-#topic-page .cmp-languagenavigation {
+.cmp-languagenavigation {
   position: fixed;
   z-index: 1000;
   width: fit-content;
@@ -164,9 +103,9 @@ select {
 
 #page-details {
   /*height: 2.25rem;*/
-  font-weight: 400 !important;
-  font-size: 12px !important;
-  color: #505050 !important;
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 1.25rem !important;
   margin-bottom: 1.25rem !important;
 
   /*display: grid;*/
@@ -195,7 +134,9 @@ select {
       margin-left: 0;
     }
     :first-child::before {
-      margin-bottom: 4px;
+      width: 0;
+      height: 0;
+      margin:0
     }
     .cmp.cmp-title div:first-child {
       height: 1rem;
@@ -214,16 +155,17 @@ select {
 }
 #lastUpdateBox {
   display: flex;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
 }
 #authorLabel {
   height: 1rem;
   margin-right: 0.5rem !important;
+  font-weight: 600 !important;
+
 }
 #lastUpdateLabel {
   height: 1rem;
-  margin-right: 0.25rem !important;
+  margin-right: 0.5rem !important;
+  font-weight: 600 !important;
 }
 
 .new.newpar.section.aem-Grid-newComponent {
@@ -234,28 +176,6 @@ select {
 }
 #topic-page{
   /* height: 100%; */
-  font-family: var(--Font-adobe-clean, "Adobe Clean");
-  background: #FFFFFF;
-  color: #2C2C2C;
-  min-height: 100%;
-}
-
-body:has(#topic-page),
-.root:has(#topic-page),
-#topic-page > .aem-Grid,
-#table-of-contents,
-#topic-container,
-#minitoc-wrapper {
-  background: #FFFFFF;
-}
-#category-page {
-  font-family: var(--Font-adobe-clean, "Adobe Clean");
-}
-#search-page-content {
-  font-family: var(--Font-adobe-clean, "Adobe Clean");
-}
-#refs-title-container {
-  font-family: var(--Font-adobe-clean, "Adobe Clean");
 }
 
 *[data-tcx-rotate = '270deg'] {
@@ -267,46 +187,10 @@ body:has(#topic-page),
 .linkpool a {
   display: block;
 }
-.guides-base-topic-page .gu-breadcrumb_home-icon {
-  vertical-align: baseline;
-}
-
-.guides-base-topic-page .breadcrumb .gu-breadcrumb_arrow-icon {
-  display: inline-block;
-  vertical-align: baseline;
-}
 
 #topic-page > .aem-Grid{
   /* height: 100%; */
-}
 
-@media (min-width: 769px) {
-  #topic-page > .aem-Grid {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #topic-page > .aem-Grid > .aem-GridColumn {
-    float: none !important;
-    clear: none !important;
-    width: 100% !important;
-  }
-
-  #topic-page > .aem-Grid > .aem-GridColumn:has(#table-of-contents) {
-    width: 20rem !important;
-    flex-shrink: 0;
-  }
-
-  #topic-page > .aem-Grid > .aem-GridColumn:has(#topic-container) {
-    flex: 1;
-    min-width: 0;
-    width: auto !important;
-  }
-
-  #topic-page > .aem-Grid > .aem-GridColumn:has(#minitoc-wrapper) {
-    width: 18rem !important;
-    flex-shrink: 0;
-  }
 }
 
 
@@ -319,33 +203,21 @@ body:has(#topic-page),
 
   .injected-toc-wrapper {
     width: 19.25rem !important;
+    margin-left: 3rem !important;
   }
 }
 
 .cmp.cmp-mini-toc{
-  width: 100% !important;
+  width: 14.25rem !important;
+  margin-right: 2rem !important;
   margin-top: 1.5rem !important;
+  margin-left: 3rem !important;;
   position: relative;
 }
 
 .mini-toc-main {
   position: sticky;
   top: 1.5rem;
-}
-
-/* When mini-toc is inside the wrapper, reset its sizing and sticky */
-#minitoc-wrapper .cmp.cmp-mini-toc {
-  width: 100% !important;
-  margin: 1rem 0 1.5rem 0 !important;
-  max-height: 30.75vh;
-  top: 0;
-  position: sticky;
-  overflow: auto;
-}
-
-#minitoc-wrapper .mini-toc-main {
-  position: relative;
-  top: 0;
 }
 
 .cmp-page-helpful-feedback {
@@ -361,60 +233,4 @@ body:has(#topic-page),
 
 .root .cmp-container .main {
   /* min-height: calc(100% - 17.0rem); */
-}
-
-#fb-widget-loader-root button[aria-label="Open chat"] {
-  display: none !important;
-}
-
-
-/* ===== Responsive breakpoints ===== */
-/* Default styles above target 1920px design (1440px and above) */
-
-/* 1440px design (1024px to 1439px) */
-@media (max-width: 1439px) {
-  #topic-container {
-    padding: 1.5rem 2rem;
-  }
-  .injected-minitoc-wrapper{
-    display: none !important ;
-  }
-}
-
-/* 1024px design (768px to 1023px) */
-@media (max-width: 1023px) {
-  #topic-container {
-    padding: 1.5rem 1.5rem;
-  }
-  .injected-minitoc-wrapper{
-    display: none !important ;
-  }
-}
-
-/* 768px design (390px to 767px) */
-@media (max-width: 767px) {
-  #topic-container {
-    padding: 1.5rem 1rem;
-  }
-  .injected-minitoc-wrapper{
-    display: none !important ;
-  }
-}
-
-@media (max-width: 500px) {
-  #topic-container {
-    padding: 1.5rem 1rem;
-  }
-  .injected-minitoc-wrapper{
-    display: none !important ;
-  }
-}
-
-@media (max-width: 390px) {
-  body {
-    font-size: 16px;
-  }
-  #topic-container .title h1 {
-    font-size: 2.25rem !important;
-  }
 }
