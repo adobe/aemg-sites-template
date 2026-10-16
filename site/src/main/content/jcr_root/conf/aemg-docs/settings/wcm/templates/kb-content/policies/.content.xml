@@ -117,6 +117,14 @@
                     </core>
                 </container>
             </container>
+            <kb-page-container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mappings">
+                <kb-content-area
+                    cq:policy="core/wcm/components/container/v1/container/policy_topic_content"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </kb-page-container>
             <experiencefragment-footer
                 cq:policy="core/wcm/components/experiencefragment/v1/experiencefragment/policy_footer"
                 jcr:primaryType="nt:unstructured"

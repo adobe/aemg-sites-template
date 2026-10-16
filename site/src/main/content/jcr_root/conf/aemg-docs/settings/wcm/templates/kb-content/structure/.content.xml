@@ -39,7 +39,8 @@
                 <kb-content-area
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    id="kb-content-area">
+                    id="kb-content-area"
+                    editable="{Boolean}true">
                     <breadcrumb
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
