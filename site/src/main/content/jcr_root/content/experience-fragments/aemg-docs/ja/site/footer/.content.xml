@@ -5,7 +5,7 @@
         cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="フッター"
+        jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
 </jcr:root>

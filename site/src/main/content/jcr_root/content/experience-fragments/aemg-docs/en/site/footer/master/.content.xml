@@ -32,28 +32,28 @@
                     <heading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p&gt;ColdFusion&lt;/p&gt;"
+                            text="&lt;p&gt;RoboHelp&lt;/p&gt;"
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Overview"
+                            jcr:title="Learning Resources"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/products/coldfusion-family.html"/>
+                            link="https://www.adobe.com/products/technicalcommunicationsuite/resources.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Features"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/products/coldfusion/features.html"/>
+                            link="https://www.adobe.com/products/robohelp/features-all.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Pricing"
+                            jcr:title="Buying Guide"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/products/coldfusion-family/buying-guide.html"/>
+                            link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Free Trial"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://www.adobe.com/products/coldfusion/download-trial/try.html"/>
+                            link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
                     <link5
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Terms of Use"
@@ -73,22 +73,22 @@
                             textIsRich="{Boolean}true"/>
                     <link1
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Download and install"
+                            jcr:title="Download and Install"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html"/>
+                            link="/content/robohelp-docs/en/docs/user-guide/robohelp-downloads.html"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Help Center"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://guides.adobe.com/coldfusion/en/docs.html"/>
+                            link="https://helpx.adobe.com/support.html"/>
                     <link3
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobe Support Community"
+                            jcr:title="Adobe Community"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://community.adobe.com/coldfusion-580"/>
+                            link="https://www.adobe.com/community.html"/>
                     <link4
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Enterprise Support"
+                            jcr:title="Enterprise support"
                             sling:resourceType="core/wcm/components/button/v1/button"
                             link="https://helpx.adobe.com/enterprise/admin-guide.html"/>
                     <link5
@@ -112,12 +112,12 @@
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Adobe Blog"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://blog.adobe.com/"/>
+                            link="https://business.adobe.com/blog/"/>
                     <link2
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Adobe Developer"
+                            jcr:title="Partner Portal"
                             sling:resourceType="core/wcm/components/button/v1/button"
-                            link="https://developer.adobe.com/"/>
+                            link="https://partners.adobetechcomm.com/"/>
                     <subheading
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
@@ -222,7 +222,7 @@
                         <link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                link="https://www.facebook.com/AdobeColdFusion/"
+                                link="https://www.facebook.com/adobetcs/"
                                 accessibilityLabel="Facebook"/>
                     </iconFacebook>
                     <iconTwitter
@@ -232,7 +232,7 @@
                         <link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                link="https://x.com/coldfusion"
+                                link="https://x.com/AdobeTCS"
                                 accessibilityLabel="X (Twitter)"/>
                     </iconTwitter>
                     <iconLinkedin
@@ -242,13 +242,19 @@
                         <link
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/button/v1/button"
-                                link="https://www.linkedin.com/company/coldfusion-adobe/posts/?feedView=all"
+                                link="https://www.linkedin.com/company/adobetcs"
                                 accessibilityLabel="LinkedIn"/>
                     </iconLinkedin>
-                    <iconInstagram
+                    <iconBlog
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/container/v1/container"
-                            id="social-icon-instagram"/>
+                            id="social-icon-blog">
+                        <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                link="https://blog.adobe.com/techcomm/"
+                                accessibilityLabel="Adobe TechComm Blog"/>
+                    </iconBlog>
                 </footerBottomLeft>
 
                 <!-- Right side: copyright + legal links -->
