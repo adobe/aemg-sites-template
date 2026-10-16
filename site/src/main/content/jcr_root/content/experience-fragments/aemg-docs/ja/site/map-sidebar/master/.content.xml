@@ -24,7 +24,7 @@
                     <community-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-community-icon"/>
                     <community-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="RoboHelpコミュニティ" textIsRich="false" id="kb-community-title"/>
                     <community-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Adobeコミュニティに参加して、世界中のクリエイター仲間と学び、作り、つながりましょう。&lt;/p>" textIsRich="true" id="kb-community-text"/>
-                    <community-link jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='https://community.adobe.com/robohelp-748'>RoboHelp コミュニティにアクセス &amp;gt;&lt;/a>&lt;/p>" textIsRich="true" id="kb-community-link"/>
+                    <community-link jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='https://community.adobe.com/robohelp-748'>RoboHelpコミュニティにアクセス &amp;gt;&lt;/a>&lt;/p>" textIsRich="true" id="kb-community-link"/>
                 </kb-community-card>
                 <kb-contact-card jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-contact-card">
                     <contact-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-contact-icon"/>
