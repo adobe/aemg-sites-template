@@ -40,49 +40,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     id="kb-content-area"
-                    editable="{Boolean}true">
-                    <breadcrumb
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
-                        disableShadowing="false"
-                        hideCurrent="false"
-                        showHidden="false"
-                        startLevel="3"/>
-                    <title
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/title/v2/title"
-                        id="kb-title"
-                        type="h1"/>
-                    <kb-last-update
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/container/v1/container"
-                        id="kb-last-update">
-                        <last-update-label
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/text/v2/text"
-                            text="Last update:"
-                            textIsRich="false"
-                            id="kb-last-update-label"/>
-                        <date
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/pageproperty"
-                            property="jcr:created"/>
-                    </kb-last-update>
-                    <description
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/pageproperty"
-                        property="jcr:description"
-                        id="kb-description"/>
-                    <topics-heading
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/title/v2/title"
-                        jcr:title="User guide topics"
-                        id="kb-topics-heading"
-                        type="h2"/>
-                    <toclist
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/toclist"/>
-                </kb-content-area>
+                    editable="{Boolean}true"/>
                 <kb-sidebar
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
