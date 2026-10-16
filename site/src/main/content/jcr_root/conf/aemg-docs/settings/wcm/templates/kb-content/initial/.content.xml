@@ -2,6 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2021-01-14T10:07:38.207-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/kb-content"
@@ -10,18 +11,62 @@
         sling:resourceType="guides-components/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="core/wcm/components/container/v1/container">
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="simple">
             <kb-page-container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container">
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="kb-page-container">
                 <kb-content-area
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container">
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-content-area">
+                    <breadcrumb
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"
+                        disableShadowing="false"
+                        hideCurrent="false"
+                        showHidden="false"
+                        startLevel="3"/>
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        id="kb-title"
+                        type="h1"/>
+                    <kb-last-update
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="kb-last-update">
+                        <last-update-label
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="Last update:"
+                            textIsRich="false"
+                            id="kb-last-update-label"/>
+                        <date
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="guides-components/components/pageproperty"
+                            property="jcr:created"/>
+                    </kb-last-update>
                     <description
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/pageproperty"
+                        property="jcr:description"
+                        id="kb-description"/>
+                    <category-description
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         text="$category.html$"
                         textIsRich="true"/>
+                    <topics-heading
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        jcr:title="User guide topics"
+                        id="kb-topics-heading"
+                        type="h2"/>
+                    <toclist
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="guides-components/components/toclist"/>
                 </kb-content-area>
             </kb-page-container>
         </root>
