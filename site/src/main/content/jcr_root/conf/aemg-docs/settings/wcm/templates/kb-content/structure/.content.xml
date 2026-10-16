@@ -78,10 +78,9 @@
                         jcr:title="User guide topics"
                         id="kb-topics-heading"
                         type="h2"/>
-                    <categorylist
+                    <toclist
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/categorylist"
-                        parentPath="/content/aemg-docs/en/docs"/>
+                        sling:resourceType="guides-components/components/toclist"/>
                 </kb-content-area>
                 <kb-sidebar
                     jcr:primaryType="nt:unstructured"
