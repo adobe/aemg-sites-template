@@ -33,7 +33,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         id="announcement-banner"
-                        text="&lt;p>RoboHelpの&lt;a href='/content/robohelp-docs/ja/docs/user-guide/whats-new-robohelp-2026.html'>新機能&lt;/a>を学ぶ(2026年9月リリース)!&lt;/p>"
+                        text="&lt;p>RoboHelpの&lt;a href='/content/robohelp-docs/ja/docs/user-guide/whats-new-robohelp-2026.html'>新機能&lt;/a>(2026年9月リリース)を確認しましょう。&lt;/p>"
                         textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"

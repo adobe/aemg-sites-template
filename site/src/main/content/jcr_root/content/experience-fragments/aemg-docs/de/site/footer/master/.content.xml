@@ -121,7 +121,7 @@
                         textIsRich="{Boolean}true"/>
                     <link3
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Log in to your account"
+                        jcr:title="Bei deinem Konto anmelden"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="https://account.adobe.com/"/>
                 </colResources>
