@@ -137,33 +137,10 @@
                         id="kb-promo-link"/>
                 </promo-content>
             </kb-promo-banner>
-            <share-this-page
+            <localized-share-this-page
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/container/v1/container"
-                id="share-this-page">
-                <share-label
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/text/v2/text"
-                    text="Share this page"
-                    textIsRich="false"
-                    id="share-label"/>
-                <share-facebook
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    id="share-facebook"/>
-                <share-x
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    id="share-x"/>
-                <share-linkedin
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    id="share-linkedin"/>
-                <share-copylink
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    id="share-copylink"/>
-            </share-this-page>
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/share-this-page/master"/>
             <pagefeedback
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="guides-components/components/pagefeedback"/>

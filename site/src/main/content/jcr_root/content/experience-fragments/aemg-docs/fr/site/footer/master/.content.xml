@@ -256,7 +256,7 @@
                     <copyright
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Copyright © 2026 Adobe. All Rights Reserved.&lt;/p>"
+                        text="&lt;p>Copyright © 2026 Adobe. Tous droits réservés.&lt;/p>"
                         textIsRich="{Boolean}true"/>
                     <legalLinks
                         jcr:primaryType="nt:unstructured"
