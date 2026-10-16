@@ -41,6 +41,8 @@ function updateLastUpdateLabels(): void {
     const text = component.querySelector(".cmp-text__paragraph, p");
     if (text) {
       text.textContent = label;
+    } else {
+      component.textContent = label;
     }
   });
 }
