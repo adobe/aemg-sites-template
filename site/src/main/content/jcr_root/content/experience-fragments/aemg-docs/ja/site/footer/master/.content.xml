@@ -256,12 +256,12 @@
                     <copyright
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Copyright © 2026 Adobe. All rights reserved.&lt;/p>"
+                        text="&lt;p>Copyright © 2026 Adobe. 無断複写・転載を禁じます。&lt;/p>"
                         textIsRich="{Boolean}true"/>
                     <legalLinks
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>&lt;a href='https://www.adobe.com/privacy.html'>Privacy&lt;/a> / &lt;a href='https://www.adobe.com/legal/terms.html'>Terms of Use&lt;/a> / &lt;a href='https://www.adobe.com/privacy/cookies.html'>Cookie preferences&lt;/a> / &lt;a href='https://www.adobe.com/privacy/us-rights.html'>Do not sell my personal information&lt;/a> /&lt;/p>"
+                        text="&lt;p>&lt;a href='https://www.adobe.com/privacy.html'>プライバシー&lt;/a> / &lt;a href='https://www.adobe.com/legal/terms.html'>利用規約&lt;/a> / &lt;a href='https://www.adobe.com/privacy/cookies.html'>Cookieの設定&lt;/a> / &lt;a href='https://www.adobe.com/privacy/us-rights.html'>個人情報を販売しない&lt;/a> /&lt;/p>"
                         textIsRich="{Boolean}true"/>
                     <adchoices
                         jcr:primaryType="nt:unstructured"

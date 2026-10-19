@@ -137,33 +137,10 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         editable="{Boolean}true"/>
-                         <share-this-page
+                         <localized-share-this-page
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="share-this-page">
-                            <share-label
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/text/v2/text"
-                                text="Share this page"
-                                textIsRich="false"
-                                id="share-label"/>
-                            <share-facebook
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="share-facebook"/>
-                            <share-x
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="share-x"/>
-                            <share-linkedin
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="share-linkedin"/>
-                            <share-copylink
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="share-copylink"/>
-                        </share-this-page>
+                            sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                            fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/share-this-page/master"/>
                         <pagefeedback
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="guides-components/components/pagefeedback"/>
@@ -205,28 +182,10 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="sidebar-banners">
-                        <banner_1
+                        <localized-sidebar
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="core/wcm/components/container/v1/container"
-                            id="sidebar-banner-1">
-                            <banner_1_content
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="core/wcm/components/container/v1/container"
-                                id="sidebar-banner-1-content">
-                                <banner_1_text
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;b>Adobe Technical Communication Events&lt;/b>&lt;/p>&lt;p>Join our in-person and virtual events to explore technical content and knowledge management trends, hear customer success stories, build skills, and network with peers and industry leaders.&lt;/p>"
-                                    textIsRich="true"
-                                    id="sidebar-banner-1-text"/>
-                                <banner_1_link
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>&lt;a href='https://www.adobe.com/products/technical-content-solutions/events.html'>Register now&lt;/a>&lt;/p>"
-                                    textIsRich="true"
-                                    id="sidebar-banner-1-link"/>
-                            </banner_1_content>
-                        </banner_1>
+                            sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                            fragmentVariationPath="/content/experience-fragments/aemg-docs/en/site/topic-sidebar/master"/>
                     </sidebar_banners>
                 </minitoc_wrapper>
             <experiencefragment-footer

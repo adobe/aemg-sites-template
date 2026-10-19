@@ -5,4 +5,8 @@
     jcr:title="Site">
     <header/>
     <footer/>
+    <map-sidebar/>
+    <topic-sidebar/>
+    <share-this-page/>
+    <help-resources/>
 </jcr:root>

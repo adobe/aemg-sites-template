@@ -121,7 +121,7 @@
                         textIsRich="{Boolean}true"/>
                     <link3
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Log in to your account"
+                        jcr:title="Bei deinem Konto anmelden"
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="https://account.adobe.com/"/>
                 </colResources>
@@ -256,7 +256,7 @@
                     <copyright
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Copyright © 2026 Adobe. All Rights Reserved.&lt;/p>"
+                        text="&lt;p>Copyright © 2026 Adobe. Alle Rechte vorbehalten.&lt;/p>"
                         textIsRich="{Boolean}true"/>
                     <legalLinks
                         jcr:primaryType="nt:unstructured"
