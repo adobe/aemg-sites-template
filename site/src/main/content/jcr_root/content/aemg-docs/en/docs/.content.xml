@@ -392,7 +392,7 @@
                                     jcr:title="Convert Unstructured FrameMaker Files"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_structauth_sa/frm_structauth_sa-convert-unstructured-documents.html"
+                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -622,7 +622,7 @@
                                     jcr:title="Track text edits"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
-                                    link="/content/framemaker-docs/en/docs/user-guide/frm_reviewandcollaborate_re/frm_reviewandcollaborate_re-text-edit-tracking.html"/>
+                                    link="/content/framemaker-docs/en/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>
