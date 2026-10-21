@@ -24,6 +24,6 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/image/v3/image"
             altValueFromDAM="true"
-            fileReference="/content/dam/aemg-docs/robohelp-topic-thumbnail.png"/>
+            fileReference="/content/dam/aemg-docs/framemaker-topic-thumbnail.png"/>
     </jcr:content>
 </jcr:root>

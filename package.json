@@ -1,10 +1,11 @@
 {
   "name": "aemg-docs",
-  "version": "1.4.18",
+  "version": "1.4.18004",
   "description": "AEMG Docs site template",
   "license": "MIT License, Copyright 2022 Adobe Systems Incorporated",
   "scripts": {
-    "build": "aem-site-template-builder",
+    "build": "npm run validate:assets && aem-site-template-builder",
+    "validate:assets": "node scripts/validate-assets.js",
     "deploy": "curl -u admin:admin -F 'file=@aemg-docs-4.0.68.zip' http://localhost:4502/conf/global/site-templates.import.html",
     "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/aemg-docs-4.0.68"
   },

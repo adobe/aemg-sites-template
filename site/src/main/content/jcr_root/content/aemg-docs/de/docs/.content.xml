@@ -284,7 +284,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/rh-trending-1.png"
+                                    fileReference="/content/dam/aemg-docs/fm-trending-1.png"
                                     id="trending-img-1"
                                     alt="RoboHelp Workspace erkunden"/>
                                 <category
@@ -331,7 +331,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/rh-trending-2.png"
+                                    fileReference="/content/dam/aemg-docs/fm-trending-2.png"
                                     id="trending-img-2"
                                     alt="Frame-lose Skins anpassen"/>
                                 <category
@@ -378,7 +378,7 @@
                                 <image
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/image/v2/image"
-                                    fileReference="/content/dam/aemg-docs/rh-trending-3.png"
+                                    fileReference="/content/dam/aemg-docs/fm-trending-3.png"
                                     id="trending-img-3"
                                     alt="In Zendesk veröffentlichen"/>
                                 <category
