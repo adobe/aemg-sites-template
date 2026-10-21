@@ -298,7 +298,7 @@
                                     jcr:title="Explore the Book-level Templates"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
-                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_single_sourcing-templates.xml.html"
+                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -345,7 +345,7 @@
                                     jcr:title="Import Microsoft Word Files"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
-                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_text_tx-import-microsoft-word.xml.html"
+                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -392,7 +392,7 @@
                                     jcr:title="Convert Unstructured FrameMaker Files"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_structauth_sa-convert-unstructured-documents.xml.html"
+                                    linkURL="/content/framemaker-docs/en/docs/user-guide/frm_structauth_sa/frm_structauth_sa-convert-unstructured-documents.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -468,7 +468,7 @@
                             </faq_item_common_2>
                             <faq_item_common_3 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-3">
                                 <question jcr:primaryType="nt:unstructured" jcr:title="Can I import Microsoft Word files?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
-                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Yes! Learn how to &lt;a href='/content/framemaker-docs/en/docs/tutorials/import-word-content-to-dita-video.html'>smoothly import a Word document&lt;/a> in this brief tutorial. You can also follow these &lt;a href='/content/framemaker-docs/en/docs/user-guide/frm_text_tx-import-microsoft-word.xml.html'>step-by-step instructions to import Word files&lt;/a>.&lt;/p>" textIsRich="true"/>
+                                <answer jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Yes! Learn how to &lt;a href='/content/framemaker-docs/en/docs/tutorials/import-word-content-to-dita-video.html'>smoothly import a Word document&lt;/a> in this brief tutorial. You can also follow these &lt;a href='/content/framemaker-docs/en/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>step-by-step instructions to import Word files&lt;/a>.&lt;/p>" textIsRich="true"/>
                             </faq_item_common_3>
                             <faq_item_common_4 jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="faq-item-common-4">
                                 <question jcr:primaryType="nt:unstructured" jcr:title="Why can’t I generate a PDF for my FrameMaker document or book file?" sling:resourceType="core/wcm/components/title/v2/title" type="h4"/>
@@ -604,25 +604,25 @@
                                     jcr:title="Set document direction"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="/content/framemaker-docs/en/docs/user-guide/frm_basics_ba-doc-direction.xml.html"/>
+                                    link="/content/framemaker-docs/en/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Design master and reference pages"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="/content/framemaker-docs/en/docs/user-guide/frm_page_layout_pl-master-and-reference-pages.xml.html"/>
+                                    link="/content/framemaker-docs/en/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Create QR codes"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="/content/framemaker-docs/en/docs/user-guide/frm_graphics_gr-topic_graphics-qrcodes.xml.html"/>
+                                    link="/content/framemaker-docs/en/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
                                 <tag_review
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Track text edits"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
-                                    link="/content/framemaker-docs/en/docs/user-guide/frm_reviewandcollaborate_re-text-edit-tracking.xml.html"/>
+                                    link="/content/framemaker-docs/en/docs/user-guide/frm_reviewandcollaborate_re/frm_reviewandcollaborate_re-text-edit-tracking.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>
