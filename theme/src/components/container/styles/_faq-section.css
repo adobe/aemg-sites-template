@@ -183,7 +183,7 @@ it.
   }
 }
 
-[id^="faq-panel-"] > div:nth-child(4) > [id^="faq-item-"] {
+[id^="faq-panel-"] > div:last-child > [id^="faq-item-"] {
   border-bottom: 1px solid #6e6e6e;
 }
 

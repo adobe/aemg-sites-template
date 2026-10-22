@@ -437,7 +437,7 @@
                             id="faq-tabs">
                             <tab_common
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Common issues"
+                                jcr:title="Common Issues"
                                 sling:resourceType="core/wcm/components/button/v1/button"
                                 id="faq-tab-common"
                                 link="#"/>
