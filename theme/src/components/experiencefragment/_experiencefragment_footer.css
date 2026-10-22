@@ -169,23 +169,24 @@ it.
     flex-shrink: 0;
 }
 
-/* AEM Guides icon (Adobe Experience Cloud — logotyp.us) */
-.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(2) .cmp-button::before {
+/* Adobe product icon */
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(2) .cmp-button::before,
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(3) .cmp-button::before {
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='144 64 272 272' xmlns='http://www.w3.org/2000/svg'><g fill-rule='nonzero' transform='matrix(.635145 0 0 .635145 791.323 462.982)'><path d='m-1017.6-560.2c0-36.7 29.7-66.4 66.4-66.4h292.3c36.7 0 66.4 29.7 66.4 66.4v292.3c0 36.7-29.7 66.4-66.4 66.4h-292.3c-36.7 0-66.4-29.7-66.4-66.4z' fill='%23fa0f00'/><path d='m-771.4-530.5 102.2 233h-72.5l-63.3-144.2-38.5 87.9h45.2l24.7 56.3h-167.2l102.2-233z' fill='%23fff'/></g></svg>");
 }
 
 /* Adobe Captivate icon */
-.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(3) .cmp-button::before {
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(4) .cmp-button::before {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23012d2d' x='8' y='4' width='240' height='234' rx='42.5'/><path fill='%2303f2c4' d='M123.25,149.26v16.58A2.14,2.14,0,0,1,122,168.1a43.6,43.6,0,0,1-9.74,2.17,104.3,104.3,0,0,1-12.64.72,71.07,71.07,0,0,1-17.79-2.17,52.64,52.64,0,0,1-15.38-6.6,46.61,46.61,0,0,1-11.91-10.87,48,48,0,0,1-7.73-15A63,63,0,0,1,44,117.06q0-16.26,7.09-28.58A48.89,48.89,0,0,1,71.25,69.32q13-6.84,31.07-6.84a103.45,103.45,0,0,1,12.48.64,37.13,37.13,0,0,1,8.45,1.94,2.06,2.06,0,0,1,.81,1.93V84.7c0,1-.38,1.29-1.13,1a35,35,0,0,0-9.5-2.81A73.62,73.62,0,0,0,101.68,82q-10.79,0-18.51,4.35a30.15,30.15,0,0,0-11.92,12,37.19,37.19,0,0,0-4.19,18.11,39.07,39.07,0,0,0,2,13.21,31.42,31.42,0,0,0,5.55,9.82,27.64,27.64,0,0,0,8.05,6.6,39.51,39.51,0,0,0,9.58,3.62,42.39,42.39,0,0,0,9.9,1.21q6.12,0,10.87-.48a39.87,39.87,0,0,0,8.94-1.94c.42-.32.75-.4,1-.24S123.25,148.72,123.25,149.26Z'/><path fill='%2303f2c4' d='M172,87.76q10.62,0,18.19,3.22a35,35,0,0,1,12.56,8.77,37.56,37.56,0,0,1,7.48,12.48,42.7,42.7,0,0,1,2.5,14.65,42.65,42.65,0,0,1-4.11,19.32A39.79,39.79,0,0,1,197.47,160a49.19,49.19,0,0,1-15.86,8.3A60.58,60.58,0,0,1,163.5,171a11.84,11.84,0,0,1-1.29-.08c-.53,0-1.12-.08-1.77-.08V198.2a1.31,1.31,0,0,1-1.28,1.45q-2.41.16-5.72.48c-2.2.22-4.32.43-6.36.65s-3.81.37-5.31.48a17.78,17.78,0,0,0-2.74.32c-.64,0-1-.43-1-1.28V105.79c0-.75,0-1.83-.08-3.22s-.1-2.76-.16-4.11a31.2,31.2,0,0,0-.24-3.14.87.87,0,0,1,.65-1q4-1.45,9.25-2.9c3.49-1,7.3-1.82,11.43-2.58A73.48,73.48,0,0,1,172,87.76Zm-1.94,19a34.62,34.62,0,0,0-5,.33,39.2,39.2,0,0,0-4.67,1v44c.65.1,1.48.18,2.5.24s1.85.08,2.49.08A29,29,0,0,0,176.79,150a21.13,21.13,0,0,0,9.25-7.64q3.71-5.33,3.71-14,0-10.31-5.16-15.94T170.1,106.75Z'/></svg>");
 }
 
 /* Adobe Learning Manager icon (Adobe Experience Cloud — logotyp.us) */
-.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(4) .cmp-button::before {
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(5) .cmp-button::before {
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='144 64 272 272' xmlns='http://www.w3.org/2000/svg'><g fill-rule='nonzero' transform='matrix(.635145 0 0 .635145 791.323 462.982)'><path d='m-1017.6-560.2c0-36.7 29.7-66.4 66.4-66.4h292.3c36.7 0 66.4 29.7 66.4 66.4v292.3c0 36.7-29.7 66.4-66.4 66.4h-292.3c-36.7 0-66.4-29.7-66.4-66.4z' fill='%23fa0f00'/><path d='m-771.4-530.5 102.2 233h-72.5l-63.3-144.2-38.5 87.9h45.2l24.7 56.3h-167.2l102.2-233z' fill='%23fff'/></g></svg>");
 }
 
 /* Adobe Connect icon */
-.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(5) .cmp-button::before {
+.cmp-experiencefragment--footer #footer-products > .button:nth-of-type(6) .cmp-button::before {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%2300261a' width='256' height='249.6' rx='45.33333'/><rect fill='%2352cca3' x='58.79681' y='147.02378' width='47.19257' height='47.19257'/><rect fill='%2352cca3' x='155.12593' y='151.86661' width='37.49226' height='37.49226'/><rect fill='%2352cca3' x='155.12593' y='60.22647' width='37.49226' height='37.49226'/><rect fill='%2352cca3' x='63.65429' y='60.39498' width='37.49226' height='37.49226'/><path fill='%23cafceb' d='M192.61818,60.22647V97.69675l-75.68053,38.34212,38.20782-75.81241h37.463m4.84283-4.84283H152.1709l-46.1815,91.645,91.47162-46.35v-45.295Z'/><path fill='%23cafceb' d='M192.61818,151.8666v37.50446H155.19187L117.68251,151.8666h74.93567m4.84284-4.84283H105.9894l47.19745,47.19258h44.27663V147.02377Z'/><path fill='%23cafceb' d='M101.14411,60.40475V135.3282L63.63964,97.81886V60.40475h37.50447m4.84284-4.84284H58.79681V99.83853l47.19258,47.18281V55.54971Z'/></svg>");
 }
 
