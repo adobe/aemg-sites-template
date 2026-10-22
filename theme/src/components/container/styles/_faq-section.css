@@ -263,6 +263,10 @@ it.
   color: #2c2c2c !important;
 }
 
+[id^="faq-item-"] .cmp-text ol {
+  list-style-type: decimal !important;
+}
+
 [id^="faq-item-"] .cmp-text a {
   color: #274dea !important;}
 
