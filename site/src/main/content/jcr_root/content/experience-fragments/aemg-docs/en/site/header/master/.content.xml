@@ -32,14 +32,14 @@
                         id="btn-wap"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe RoboHelp"
+                        jcr:title="Adobe FrameMaker"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp.html"/>
+                        link="https://www.adobe.com/products/framemaker.html"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Buying Guide"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
+                        link="https://www.adobe.com/products/framemaker/buying-guide.html"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Online Training"
@@ -56,7 +56,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Free trial"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
+                        link="https://www.adobe.com/products/framemaker/download-trial/try.html"/>
             </container_left>
             <!-- Right column: search + icons -->
             <container_right
@@ -117,14 +117,14 @@
                         sling:resourceType="core/wcm/components/button/v1/button"/>
                 <button1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Adobe RoboHelp"
+                        jcr:title="Adobe FrameMaker"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp.html"/>
+                        link="https://www.adobe.com/products/framemaker.html"/>
                 <button2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Buying Guide"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/buying-guide.html"/>
+                        link="https://www.adobe.com/products/framemaker/buying-guide.html"/>
                 <button3
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Online Training"
@@ -140,7 +140,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Free trial"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
+                        link="https://www.adobe.com/products/framemaker/download-trial/try.html"/>
             </container7>
         </root>
     </jcr:content>

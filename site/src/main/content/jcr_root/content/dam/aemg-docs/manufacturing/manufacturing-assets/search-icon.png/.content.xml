@@ -2,8 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="4501e4e1-5061-49cd-b3b9-5ae3b501b448">
+    jcr:primaryType="dam:Asset">
     <jcr:content
         cq:name="search-icon.png"
         cq:parentPath="/content/dam/manufacturing/manufacturing-assets"
@@ -11,9 +10,7 @@
         jcr:lastModified="{Date}2025-03-26T06:11:31.966-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-03-26T06:11:16.575-04:00|4501e4e1-5061-49cd-b3b9-5ae3b501b448|2025-03-26T06:11:16.416-04:00|14|0"
-        fmUuid="GUID-f4be797a-d2e2-4918-a756-0b7e6c81469d">
+        dxmlLastCreatedVersion="1.0">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:extracted="{Date}2025-03-26T06:11:31.770-04:00"

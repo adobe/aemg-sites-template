@@ -24,19 +24,19 @@
                 <download-title
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
-                    text="Download RoboHelp"
+                    text="Download FrameMaker"
                     textIsRich="false"
                     id="kb-download-title"/>
                 <download-text
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
-                    text="&lt;p>Get the installers for the latest RoboHelp release and start authoring and publishing content across multiple touchpoints.&lt;/p>"
+                    text="&lt;p>Get the installer for the latest FrameMaker release and start authoring and publishing content across multiple touchpoints.&lt;/p>"
                     textIsRich="true"
                     id="kb-download-text"/>
                 <download-btn
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
-                    text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>Download RoboHelp&lt;/a>&lt;/p>"
+                    text="&lt;p>&lt;a href='/content/framemaker-docs/en/docs/user-guide/framemaker-downloads.html'>Download FrameMaker&lt;/a>&lt;/p>"
                     textIsRich="true"
                     id="kb-download-btn"/>
             </kb-download-card>
@@ -55,7 +55,7 @@
                     <community-title
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="RoboHelp Community"
+                        text="FrameMaker Community"
                         textIsRich="false"
                         id="kb-community-title"/>
                     <community-text
@@ -67,7 +67,7 @@
                     <community-link
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>&lt;a href='https://community.adobe.com/robohelp-748'>Visit RoboHelp community &amp;gt;&lt;/a>&lt;/p>"
+                        text="&lt;p>&lt;a href='https://community.adobe.com/framemaker-641'>Visit FrameMaker community &amp;gt;&lt;/a>&lt;/p>"
                         textIsRich="true"
                         id="kb-community-link"/>
                 </kb-community-card>
@@ -88,7 +88,7 @@
                     <contact-text
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Talk to Adobe about RoboHelp installation, licensing, and technical questions.&lt;/p>"
+                        text="&lt;p>Talk to Adobe about FrameMaker installation, licensing, and technical questions.&lt;/p>"
                         textIsRich="true"
                         id="kb-contact-text"/>
                     <contact-link
