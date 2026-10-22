@@ -9,7 +9,7 @@
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Page Root"
                 sling:resourceType="wcm/core/components/policy/policy"
-                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]">
+                components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]">
                 <jcr:content jcr:primaryType="nt:unstructured"/>
                 <cq:authoring jcr:primaryType="nt:unstructured">
                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -39,7 +39,7 @@
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Page Content"
                 sling:resourceType="wcm/core/components/policy/policy"
-                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]"
                 layoutDisabled="false">
                 <jcr:content jcr:primaryType="nt:unstructured"/>
                 <cq:authoring jcr:primaryType="nt:unstructured">
@@ -87,7 +87,7 @@
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Page Topic Content"
                 sling:resourceType="wcm/core/components/policy/policy"
-                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]"
                 cq:styleDefaultClasses="cmp-dita-topic-content"
                 layoutDisabled="false">
                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -136,7 +136,8 @@
                 jcr:description="Sets a &lt;main> element on the page content area."
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Page Main"
-                sling:resourceType="wcm/core/components/policy/policy">
+                sling:resourceType="wcm/core/components/policy/policy"
+                components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]">
                 <jcr:content jcr:primaryType="nt:unstructured"/>
             </policy_main>
             <policy_center_wrapper
@@ -144,7 +145,8 @@
                     jcr:description="Sets a &lt;main> element on the page content area."
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
-                    sling:resourceType="wcm/core/components/policy/policy">
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]">
             <jcr:content jcr:primaryType="nt:unstructured"/>
             </policy_center_wrapper>
             <policy_xf_root
@@ -152,7 +154,7 @@
                 jcr:primaryType="nt:unstructured"
                 jcr:title="XF Root"
                 sling:resourceType="wcm/core/components/policy/policy"
-                components="[group:Core Content,group:General,group:DXML Components - Structure,group:DXML Components - Content,group:DXML Components - Form ]"
+                components="[group:Core Content,group:General,group:Guides Components - Structure,group:Guides Components - Content]"
                 layoutDisabled="false">
                 <jcr:content jcr:primaryType="nt:unstructured"/>
                 <cq:authoring jcr:primaryType="nt:unstructured">

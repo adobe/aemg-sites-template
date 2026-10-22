@@ -1,0 +1,344 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+/* ===== Join the Conversation - Community Section ===== */
+
+/* Main container - dark background */
+#community-section {
+  width: 100%;
+  display: flex;
+  padding: 5rem 22.5rem;
+  gap: 1.5rem !important;
+  background: var(--C1-Background-standard, #1E1E1E);
+  box-sizing: border-box;
+  justify-content: center;
+  .container {
+    width: 100%;
+    max-width: 590px;
+  }
+}
+
+#community-section > .cmp-container,
+#community-section > .aem-Grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 5rem;
+}
+
+/* Left content area with violet accent border */
+#community-left {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem; 
+
+  title {
+    color: var(--C1-Text-inverted, #FFF);
+    text-align: center;
+
+    font-family: var(--Font-adobe-clean, "Adobe Clean");
+    font-size: var(--Typography-Heading-2xl, 2.75rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.4375rem;
+  }
+  .text {
+    white-space: normal;
+    word-break: break-word;
+    width: 100%;
+    display: flex;
+  }
+}
+
+#community-left > .cmp-container,
+#community-left > .aem-Grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.875rem;
+}
+
+/* Title - "Join the Conversation" */
+#community-heading,
+#community-heading .cmp-title,
+#community-heading .cmp-title__text,
+#community-heading h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 2.25rem;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  line-height: 1.3 !important;
+}
+
+/* Description text */
+#community-description,
+#community-description .cmp-text,
+#community-description .cmp-text p,
+#community-description p {
+  color: var(--C1-Text-inverted, #FFF);
+  font-family: var(--Font-family-Sans-serif, "Adobe Clean Spectrum VF");
+  font-size: var(--Font-size-200, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: var(--Letter-spacing, 0);
+}
+
+/* Buttons container */
+#community-buttons {
+  margin-top: 0.5rem;
+  display: flex !important;
+  gap: 1rem !important;
+}
+
+#community-buttons > .cmp-container,
+#community-buttons > .aem-Grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  align-items: center !important;
+}
+
+/* Visit community forum - white outline button */
+#btn-community-forum {
+  .cmp-button__text {
+    color: var(--C1-Text-inverted, #2C2C2C);
+    text-align: center;
+    font-family: "Adobe Clean";
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+  }
+}
+
+#btn-community-forum:hover .cmp-button,
+#btn-community-forum .cmp-button:hover,
+#btn-community-forum a:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* First button in community buttons - filled style */
+#community-buttons > :nth-child(1) {
+  background: white;
+  border-radius: 1.25rem;
+  display: flex !important;
+  justify-content: center !important;
+  height: 2.5rem;
+  padding: 0 1rem !important;
+  align-items: center !important;
+  padding: 0 1rem !important;
+}
+
+/* Second button in community buttons - outlined style */
+#community-buttons > :nth-child(2) {
+  border: 2px solid white;
+  border-radius: 1.25rem;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 1rem !important;
+  height: 2.5rem;
+  align-items: center !important;
+}
+
+#btn-contact-support {
+  .cmp-button__text {
+    color: var(--C1-Text-inverted, #FFF);
+    text-align: center;
+    font-family: "Adobe Clean";
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+  }
+}
+
+#btn-contact-support:hover .cmp-button,
+#btn-contact-support .cmp-button:hover,
+#btn-contact-support a:hover {
+  background-color: #52525b !important;
+  border-color: #52525b !important;
+}
+
+/* ===== Right content - Popular topics ===== */
+#community-right {
+  flex: 0 0 auto;
+  .title {
+    margin-bottom: 1.5rem;
+  }
+}
+
+#community-right > .cmp-container,
+#community-right > .aem-Grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.875rem;
+}
+
+/* Popular topics heading */
+#topics-heading,
+#topics-heading .cmp-title,
+#topics-heading .cmp-title__text,
+#topics-heading h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: var(--C1-Text-inverted, #FFF) !important;
+  text-align: left;
+  font-family: var(--Font-adobe-clean, "Adobe Clean");
+  font-size: 1.125rem !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 150%;
+}
+
+/* Tags container - override inline styles on #topics-tags itself */
+#topics-tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.625rem !important;
+  height: auto !important;
+}
+
+#topics-tags > .cmp-container,
+#topics-tags > .aem-Grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.625rem !important;
+}
+
+/* All topic tag buttons - white border pills */
+#topics-tags > .button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#topics-tags > .button .cmp-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  border-radius: 0.5rem !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+#topics-tags > .button .cmp-button .cmp-button__text {
+  color: var(--C1-Text-text, #FFF);
+  text-align: center;
+  font-family: "Adobe Clean";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1875rem; /* 126.667% */
+}
+
+#topics-tags > .button .cmp-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+/* #community-section padding: 5rem 22.5rem */
+
+@media (max-width: 1919px) {
+  #community-section {
+    padding: 5rem 7.5rem !important;
+  }
+}
+
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1439px) {
+  #community-section {
+    padding: 5rem 5rem !important;
+  }
+}
+
+/* 1024px design (768px to 1023px) */
+@media (max-width: 1023px) {
+  #community-section {
+    padding: 5rem 5rem !important;
+  }
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+  #community-section {
+    padding: 2.5rem 2.5rem !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #community-section > .cmp-container,
+  #community-section > .aem-Grid {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+
+  #community-description .cmp-text,
+  #community-description .cmp-text p {
+    max-width: 100%;
+  }
+
+  #topics-tags,
+  #topics-tags > .cmp-container,
+  #topics-tags > .aem-Grid {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  #community-buttons 
+  {
+    flex-direction: column !important;
+  }
+}
+
+/* 390px design (390px and below) */
+@media (max-width: 390px) {
+  #community-section {
+    padding: 2.5rem 1.25rem !important;
+  }
+  #community-heading h2 {
+    font-size: 1.5rem !important;
+  }
+  #community-description p {
+    font-size: 0.875rem !important;
+  }
+  #community-buttons 
+  {
+    flex-direction: column !important;
+    .cmp-button__text {
+      font-size: 0.875rem !important;
+    }
+  }
+  #topics-tags>.button .cmp-button .cmp-button__text {
+    font-size: 0.75rem !important;
+  }
+}

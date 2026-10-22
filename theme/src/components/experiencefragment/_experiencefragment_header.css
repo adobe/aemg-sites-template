@@ -6,190 +6,719 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
+
+/* ===== Header wrapper ===== */
+
+.experiencefragment.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #E8E8E8;
+}
+
 .cmp-experiencefragment--header {
     margin-left: auto;
     margin-right: auto;
-    font-size: 1rem;
+    font-size: 0.875rem;
     width: 100%;
     background-color: #ffffff;
-    color: #1532AD;
-    border-bottom: 1px solid #4B75FF;
+    color: #2c2c2c;
+    position: relative;
 
     .xf-content-height {
-        margin:0;
-        height: 4rem;
+        margin: 0;
+        height: 3.5rem;
         & > .root > .cmp-container {
             height: 100%;
         }
     }
-    
-    #header-end .cmp-button {
-        border-radius: 24px;
-        height: 2.5rem;
-        width: 5rem;
-        background-color: #1532AD;
-        color: #ffffff;
-        font-weight: 400;
-    }
-    #header-end {
-        width: fit-content;
-        float: right;
-        & > div {
-            flex-shrink: 0;
-        }
-    }
 }
 
-.experiencefragment.header {
-
-    /* .button{
-        &:hover{
-            @apply text-blue-400;
-        }
-    }
-    .languagenavigation {
-        a:hover{
-            @apply text-blue-400;
-        }
-    } */
-
-    .text{
-        a {
-        color: inherit;
-        font-weight: 400;
-        text-decoration: none;
-        }
-    }
-
-     /* Grid layout */
-    .cmp-container {
-        @apply grid items-center gap-y-4;
-        grid-template-columns: 12% 44% 44% 0% 0%!important;
-        padding: 0 1rem;
-        @screen sm {
-            @apply gap-y-0;
-            grid-template-columns: 1fr 2fr 2fr;
-            grid-template-rows: auto;
-        }
-
-        > .container .cmp-container {
-            @apply flex justify-end gap-x-8;
-        }
-
-        .searchbar {
-            grid-row: 2;
-            grid-column: 1 / span 2;
-        }
-        .cmp-search-bar__field{
-            border: 1px solid #CACACA;
-            color: #8E8E8E;
-            background-color: white;
-            height: 2rem;
-            align-items: unset;
-            .cmp-search-bar__icon, .cmp-search-bar__clear-icon {
-                top: 0.5rem;
-            }
-        }    
-        @screen sm {
-            .searchbar {
-                grid-row: 1;
-                grid-column: 2;
-            }
-        }
-    }
-    &.mobile {
-        .cmp-container {
-            grid-template-columns: 12% 0% 0% 88% 0% !important;
-        }
-        #header-buttons {
-            display: none;
-        }
-        #header-end {
-            display: none;
-        }
-        #side-drawer {
-            position: absolute;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            right: 0;
-            top: 3rem;
-            justify-content: flex-start;
-            gap: 1rem;
-            background: #fff;
-            z-index: 1;
-            box-shadow: 0px 4px 10px 0px #00000029;
-            padding: 1rem;
-        }
-    }
-    .cmp-image__image{
-        max-width: 4rem;
-        max-height: 4rem;
-    }
-
-    #header-logo{
-        .button{
-            font-weight: 700;
-            font-size: 1.5rem;    
-        }
-    }
-    .cmp-search-bar {
-
-    }
-    #header-buttons {
-        margin-left: 3rem;
-        float: left;
-        width: 400px;
-        justify-content: space-between;
-    }
+/* ===== Root flex container (scoped to top-level only) ===== */
+.cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem 0 0.75rem;
+    height: 100%;
+    flex-wrap: nowrap;
 }
 
-.experiencefragment.header .cmp-container > .container #header-logo {
-    justify-content: unset;
-    column-gap: 1rem;
+/* Each direct child .container wrapper of root */
+.cmp-experiencefragment--header .xf-content-height > .root > .cmp-container > .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
-.experiencefragment.header .cmp-container > .container #header-logo > .image {
-    width: 2rem;
+/* Left column wrapper grows to push right side to the edge */
+.cmp-experiencefragment--header .xf-content-height > .root > .cmp-container > .container:first-child {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Right column wrapper stays at natural size */
+.cmp-experiencefragment--header .xf-content-height > .root > .cmp-container > .container:nth-child(2) {
     flex-shrink: 0;
+    margin-left: auto;
 }
 
-.experiencefragment.header.mobile #mobileview-button-container {
-    color: #000000;
+/* ===== Left column ===== */
+#header-left {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    height: 100%;
+
+    .button {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        line-height: 1 !important;
+    }
 }
 
-.experiencefragment.header.desktop #mobileview-button-container, .experiencefragment.header.desktop #side-drawer, .experiencefragment.header.mobile[data-expanded="false"] #side-drawer {
+#adobe-logo {
+    width: 5.3125rem;
+    height: 1.4375rem;
+    flex-shrink: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg width='85' height='23' viewBox='0 0 85 23' fill='none' xmlns='http://www.w3.org/2000/svg'><rect y='0.4375' width='25' height='22.1239' fill='white'/><path d='M15.7589 0.4375H24.9992V22.5614L15.7589 0.4375Z' fill='%23EB1000'/><path d='M9.24779 0.4375H0V22.5614L9.24779 0.4375Z' fill='%23EB1000'/><path d='M12.5034 8.5918L18.3908 22.5618H14.5321L12.7713 18.1131H8.46301L12.5034 8.5918Z' fill='%23EB1000'/><path d='M42.488 14.886H38.186L37.196 17.856C37.16 17.964 37.106 18 36.998 18H35.198C35.09 18 35.054 17.946 35.072 17.82L38.78 7.272C38.852 7.092 38.906 6.912 38.942 6.3C38.942 6.228 38.978 6.174 39.05 6.174H41.552C41.642 6.174 41.66 6.192 41.678 6.282L45.836 17.838C45.854 17.946 45.836 18 45.728 18H43.712C43.622 18 43.568 17.964 43.532 17.892L42.488 14.886ZM38.762 12.924H41.912C41.534 11.736 40.688 9.234 40.328 7.974H40.31C40.022 9.18 39.302 11.286 38.762 12.924ZM51.1 18.18C48.49 18.18 46.492 16.668 46.492 13.644C46.492 11.034 48.436 8.946 51.604 8.946C51.856 8.946 52.072 8.964 52.378 9V5.31C52.378 5.22 52.414 5.184 52.486 5.184H54.448C54.538 5.184 54.538 5.22 54.538 5.292V16.164C54.538 16.524 54.574 16.992 54.61 17.316C54.61 17.406 54.592 17.442 54.502 17.478C53.332 17.982 52.18 18.18 51.1 18.18ZM52.378 16.164V10.89C52.144 10.8 51.856 10.764 51.532 10.764C49.93 10.764 48.724 11.79 48.724 13.536C48.724 15.498 49.894 16.308 51.334 16.308C51.694 16.308 52.054 16.272 52.378 16.164ZM60.6395 8.946C63.4115 8.946 64.9235 11.052 64.9235 13.518C64.9235 16.308 63.1415 18.18 60.6035 18.18C57.5975 18.18 56.2655 15.858 56.2655 13.572C56.2655 11.016 57.9395 8.946 60.6395 8.946ZM60.5315 10.764C59.3255 10.764 58.4615 11.826 58.4615 13.536C58.4615 15.192 59.2715 16.344 60.6395 16.344C61.7555 16.344 62.7095 15.426 62.7095 13.572C62.7095 12.078 62.0615 10.764 60.5315 10.764ZM66.7405 5.184H68.6305C68.7565 5.184 68.7925 5.202 68.7925 5.328L68.8105 9.198C69.2965 9.036 69.8545 8.946 70.4485 8.946C73.0405 8.946 74.6965 10.782 74.6965 13.194C74.6965 16.524 72.1045 18.18 69.4405 18.18C68.5045 18.18 67.6045 18.054 66.7405 17.784C66.6685 17.766 66.6145 17.676 66.6145 17.622V5.31C66.6145 5.22 66.6685 5.184 66.7405 5.184ZM72.4825 13.41C72.4825 11.7 71.4925 10.8 70.0705 10.8C69.4405 10.8 69.0985 10.89 68.8105 10.998V16.254C69.0625 16.326 69.3325 16.344 69.6385 16.344C71.1145 16.344 72.4825 15.408 72.4825 13.41ZM81.8205 14.058H78.1665C78.2205 15.318 79.0485 16.326 80.8845 16.326C81.6945 16.326 82.4325 16.182 83.1165 15.894C83.1705 15.858 83.2245 15.876 83.2245 15.966V17.46C83.2245 17.568 83.1885 17.622 83.1165 17.658C82.4325 17.982 81.6405 18.18 80.4165 18.18C77.1405 18.18 75.9705 15.876 75.9705 13.662C75.9705 11.16 77.4825 8.946 80.2005 8.946C82.8645 8.946 83.8905 11.034 83.8905 12.744C83.8905 13.248 83.8725 13.662 83.8185 13.86C83.8005 13.932 83.7645 13.968 83.6745 13.986C83.4225 14.04 82.7025 14.058 81.8205 14.058ZM78.1665 12.51H80.8485C81.5325 12.51 81.7665 12.51 81.8385 12.492C81.8385 12.438 81.8385 12.366 81.8385 12.348C81.8385 11.826 81.4785 10.674 80.1105 10.674C78.8685 10.674 78.3105 11.628 78.1665 12.51Z' fill='%23EB1000'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 1.25rem;
+}
+
+
+/* Hide hamburger container at desktop (>1440px) */
+#mobileview-button-container {
     display: none;
 }
 
-.experiencefragment.header.mobile #mobileview-button-container, .experiencefragment.header.mobile[data-expanded="true"] #side-drawer {
+/* Hide mobile search button (search lives in #header-right) */
+#mobile-search-button {
+    display: none;
+}
+
+#header-left > .button:nth-child(2) {
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+}
+
+/* Nav buttons (not brand, not Free trial) */
+#header-left > .button .cmp-button {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* line-height: 1.4; */
+}
+
+#header-left > .button .cmp-button__text {
+    /* line-height: 21px; */
+    /* margin-bottom: -4px; */
+}
+
+#header-left > .button .cmp-button:hover {
+    color: #1473E6;
+}
+
+/* "Web Application Platforms" button with downward chevron */
+#btn-wap {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#btn-wap::after {
+    content: '';
+    display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none'><path d='M3 4.5L6 7.5L9 4.5' stroke='%232c2c2c' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* WAP dropdown panel */
+.wap-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 15rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    z-index: 1100;
+    padding: 0;
+    flex-direction: column;
+}
+
+.wap-dropdown--open {
     display: flex;
 }
 
+.wap-dropdown__option {
+    display: block;
+    width: 100%;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    color: #4b4b4b;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    border: none;
+    border-left: 3px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    box-sizing: border-box;
+}
+
+.wap-dropdown__option:last-child {
+    border-bottom: none;
+}
+
+.wap-dropdown__option:hover {
+    background-color: #fafafa;
+    color: #2c2c2c;
+    border-left-color: #1473E6;
+}
+
+/* Border-bottom indicators */
+#btn-help-support {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--C1-Web-Gray-Scale-gray-200, #2C2C2C) !important;
+    box-sizing: border-box;
+    font-size: 0.875rem !important;
+    font-weight: 700 !important;
+}
+
+/* Free trial pill button */
+#header-left > .button:last-child .cmp-button {
+    background-color: #1473E6;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-size: 1.0625rem !important;
+    font-weight: 700;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    /* line-height: 1.4; */
+    transition: background-color 0.2s ease;
+    height: 30px;
+    width: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cmp-button__text {
+        /* margin-bottom: -2%; */
+    }
+}
+
+#header-left > .button:last-child .cmp-button:hover {
+    background-color: #0d66d0;
+}
+
+/* ===== Right column ===== */
+#header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+#header-right > .searchbar {
+    flex-shrink: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+    width: 296px;
+}
+
+.header-search-active #header-right > .searchbar {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#header-right .cmp-search-bar__field {
+    border-radius: 1rem;
+    border: 2px solid var(--Palette-gray-300, #DADADA);
+    background: var(--Palette-gray-25, #FFF);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    min-width: 10rem;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    --tw-ring-color: transparent;
+
+    &:focus-within {
+        border-color: #4B75FF;
+        box-shadow: 0 0 0 2px rgba(75, 117, 255, 0.3);
+    }
+}
+
+#header-right .cmp-search-bar__icon,
+#header-right .cmp-search-bar__clear-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+}
+
+#header-right .cmp-search-bar__input {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 0.875rem;
+    height: 100%;
+}
+
+/* AskDoc button */
+#askdoc-header-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    height: 2rem;
+    min-width: 5.825rem;
+    border: 0;
+    border-radius: 1rem;
+    background: linear-gradient(95.85deg, #d73220 0, #d92361 33%, #7155fa 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 16px;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+}
+
+#askdoc-header-btn::before {
+    content: '';
+    display: inline-block;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2226%22%20height%3D%2226%22%20viewBox%3D%220%200%2026%2026%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M12.6752%2015.9246C13.2137%2015.9246%2013.6502%2015.4881%2013.6502%2014.9496C13.6502%2014.4111%2013.2137%2013.9746%2012.6752%2013.9746C12.1367%2013.9746%2011.7002%2014.4111%2011.7002%2014.9496C11.7002%2015.4881%2012.1367%2015.9246%2012.6752%2015.9246Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M9.4252%2015.9246C9.96367%2015.9246%2010.4002%2015.4881%2010.4002%2014.9496C10.4002%2014.4111%209.96367%2013.9746%209.4252%2013.9746C8.88672%2013.9746%208.4502%2014.4111%208.4502%2014.9496C8.4502%2015.4881%208.88672%2015.9246%209.4252%2015.9246Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M6.1752%2015.9246C6.71367%2015.9246%207.1502%2015.4881%207.1502%2014.9496C7.1502%2014.4111%206.71367%2013.9746%206.1752%2013.9746C5.63672%2013.9746%205.2002%2014.4111%205.2002%2014.9496C5.2002%2015.4881%205.63672%2015.9246%206.1752%2015.9246Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M13.7143%205.69701L12.3553%204.1977L12.7831%202.21977C12.9018%201.66879%2012.653%201.10766%2012.1648%200.82582C11.678%200.546528%2011.0673%200.607459%2010.6471%200.987046L9.14845%202.34672L7.17178%201.92016C6.61763%201.79956%206.0584%202.04712%205.77593%202.53715C5.49283%203.02719%205.55821%203.63656%205.9378%204.05424L7.29683%205.55356L6.869%207.53148C6.7503%208.08372%206.99913%208.64359%207.48789%208.92543C7.69038%209.0435%207.91382%209.10063%208.13599%209.10063C8.44893%209.10063%208.75933%208.98638%209.00435%208.76421L10.5037%207.40454L12.4803%207.83109C13.0364%207.95424%2013.5937%207.70413%2013.8762%207.2141C14.1593%206.72406%2014.0933%206.11469%2013.7143%205.69701ZM10.7506%205.46341C10.2421%205.35043%209.70767%205.49389%209.32174%205.84428L9.20621%205.94838L9.23985%205.79477C9.3484%205.28697%209.20557%204.75503%208.85771%204.37162L8.75235%204.25609L8.90089%204.28782C9.4068%204.39827%209.94126%204.25735%2010.3304%203.90696L10.4459%203.8016L10.4129%203.95395C10.3025%204.46175%2010.4453%204.99496%2010.7944%205.37963L10.8998%205.49516L10.7506%205.46341Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M5.32126%209.78474L5.58469%208.56346C5.6742%208.14959%205.48631%207.72557%205.11941%207.51355C4.75379%207.30154%204.29104%207.35105%203.97683%207.63543L3.05135%208.47459L1.8307%208.20926C1.4181%208.12674%200.991534%208.30828%200.780154%208.67518C0.568137%209.04208%200.617654%209.50292%200.902029%209.81776L1.74119%2010.7432L1.47776%2011.9645C1.38826%2012.3784%201.57614%2012.8024%201.94304%2013.0144C2.09475%2013.102%202.26296%2013.1452%202.43054%2013.1452C2.66668%2013.1452%202.90153%2013.0589%203.08563%2012.8926L4.01111%2012.0534L5.23176%2012.3187C5.64182%2012.4038%206.07092%2012.2197%206.2823%2011.8528C6.49432%2011.4859%206.4448%2011.0251%206.16043%2010.7102L5.32126%209.78474Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M22.1057%2016.7514C21.9343%2016.7514%2021.7636%2016.707%2021.6106%2016.6169L19.9704%2015.6508C19.507%2015.3765%2019.3521%2014.7799%2019.6257%2014.3152C19.8986%2013.8518%2020.4966%2013.6982%2020.9606%2013.9699L21.1307%2014.0702V12.4998C21.1307%2011.9983%2021.5109%2011.5794%2022.0099%2011.5299C22.797%2011.4512%2023.3911%2010.7935%2023.3911%2010.0001V6.73613C23.3911%205.88935%2022.7018%205.2%2021.855%205.2H16.2602C15.7219%205.2%2015.2852%204.76328%2015.2852%204.225C15.2852%203.68672%2015.7219%203.25%2016.2602%203.25H21.855C23.7771%203.25%2025.3411%204.81406%2025.3411%206.73613V10.0001C25.3411%2011.4918%2024.4156%2012.7715%2023.0807%2013.2679V15.7765C23.0807%2016.1269%2022.8935%2016.4493%2022.5894%2016.6232C22.4396%2016.7083%2022.2727%2016.7514%2022.1057%2016.7514Z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M5.19053%2025.3503C5.06484%2025.3503%204.93789%2025.3261%204.81728%2025.2766C4.45293%2025.1255%204.21553%2024.7701%204.21553%2024.3753V20.9234C2.49912%2020.375%201.29053%2018.7754%201.29053%2016.9003V16.0497C1.29053%2015.5114%201.72725%2015.0747%202.26553%2015.0747C2.80381%2015.0747%203.24053%2015.5114%203.24053%2016.0497V16.9003C3.24053%2018.0746%204.12032%2019.0483%205.28638%2019.1638C5.7853%2019.2133%206.16553%2019.6323%206.16553%2020.1337V22.0215L8.72618%2019.4609C8.90898%2019.2781%209.15718%2019.1752%209.41553%2019.1752H13.3155C14.5698%2019.1752%2015.5905%2018.1545%2015.5905%2016.9002V12.6752C15.5905%2011.9364%2015.2255%2011.2394%2014.6143%2010.8116C14.1731%2010.5031%2014.0652%209.89497%2014.3737%209.45444C14.6822%209.01264%2015.2903%208.90346%2015.7314%209.2145C16.8645%2010.0067%2017.5405%2011.3003%2017.5405%2012.6752V16.9002C17.5405%2019.2298%2015.6451%2021.1252%2013.3155%2021.1252H9.81923L5.87988%2025.0646C5.69326%2025.2512%205.44379%2025.3503%205.19053%2025.3503Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#askdoc-header-btn .askdoc-icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+
+#askdoc-header-btn .cmp-button__text {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    /* margin-bottom: -4%; */
+    /* line-height: 1; */
+}
+
+/* Icons container (language switcher, grid, avatar) — hidden by default */
+#header-icons {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Show icons when header-left opts in via aria-label */
+.experiencefragment.header:has(#header-left[aria-label="add-lang-select"]) #header-icons {
+    display: flex;
+}
+
+#header-icons .header-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: #4b4b4b;
+    transition: color 0.2s ease;
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-icons .header-icon:hover {
+    color: #1473E6;
+}
+
+#header-icons .header-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #1473E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-icons .header-avatar svg {
+    width: 18px;
+    height: 18px;
+    color: #ffffff;
+}
+
+/* ===== Language switcher ===== */
+#lang-switcher {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.lang-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 8rem;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    z-index: 1100;
+    padding: 0.25rem 0;
+    flex-direction: column;
+}
+
+.lang-dropdown--open {
+    display: flex;
+}
+
+.lang-option {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.lang-option:hover {
+    background-color: #f5f5f5;
+    color: #2C2C2C;
+}
+
+.lang-option--active {
+    font-weight: 700;
+    color: #2C2C2C;
+}
+
+/* ===== Mobile button container ===== */
+#mobileview-button-container {
+    align-items: center;
+    gap: 0.5rem;
+    color: #2c2c2c;
+}
+
+#mobile-search-button {
+    align-items: center;
+}
+
+#mobile-search-button .cmp-image__image {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#mobile-hamburger-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ===== Side drawer (mobile nav) ===== */
+#side-drawer {
+    position: absolute;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    right: 0;
+    top: 3.5rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    background: #ffffff;
+    z-index: 100;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.16);
+    padding: 1rem 1.5rem;
+}
+
+#side-drawer .cmp-button {
+    font-size: 0.9375rem;
+    color: #2c2c2c;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+#side-drawer > .button:first-child .cmp-button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#side-drawer > .button:first-child .cmp-button::after {
+    content: '';
+    display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none'><path d='M3 4.5L6 7.5L9 4.5' stroke='%232c2c2c' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease;
+}
+
+#side-drawer > .button:first-child:has(.wap-drawer-sub--open) .cmp-button::after {
+    transform: rotate(180deg);
+}
+
+#side-drawer .cmp-button:hover {
+    color: #1473E6;
+}
+
+/* Language switcher inside side drawer — hidden by default */
+.side-drawer-lang {
+    display: none;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 0.5rem;
+}
+
+/* Show mobile lang switcher when header-left opts in */
+.experiencefragment.header:has(#header-left[aria-label="add-lang-select"]) .side-drawer-lang {
+    display: flex;
+}
+
+.side-drawer-lang__label {
+    display: flex;
+    align-items: center;
+    color: #4b4b4b;
+    flex-shrink: 0;
+}
+
+.side-drawer-lang__label svg {
+    width: 20px;
+    height: 20px;
+}
+
+.side-drawer-lang__option {
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.side-drawer-lang__option:hover {
+    background-color: #f5f5f5;
+    color: #1473E6;
+}
+
+.side-drawer-lang__option--active {
+    font-weight: 700;
+    color: #1473E6;
+}
+
+/* WAP sub-options inside side drawer */
+.wap-drawer-sub {
+    display: none;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.wap-drawer-sub--open {
+    display: flex;
+}
+
+.wap-drawer-sub__option {
+    font-size: 0.875rem;
+    color: #2c2c2c;
+    text-decoration: none;
+    padding: 0.4rem 0;
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.wap-drawer-sub__option:hover {
+    color: #1473E6;
+}
+
+/* Free trial inside side drawer */
+#side-drawer > .button:last-child .cmp-button {
+    background-color: #1473E6;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.5rem;
+    width: fit-content;
+}
+
+/* ===== Visibility defaults ===== */
+/* Hamburger is always visible; #header-right is always visible (individual children hide per breakpoint) */
+
+/* ===== JS-enhanced overrides ===== */
+
+.experiencefragment.header.desktop #side-drawer {
+    display: none !important;
+}
+
+/* Side drawer visibility controlled by data-expanded */
+.experiencefragment.header[data-expanded="false"] #side-drawer {
+    display: none !important;
+}
+
+.experiencefragment.header[data-expanded="true"] #side-drawer {
+    display: flex;
+}
+
+/* ===== Link styling ===== */
+.experiencefragment.header .text a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* ===== Search page: hide mobile search button ===== */
 #search-page-content #mobile-search-button {
     display: none;
 }
-@media (max-width: 768px) {
+
+/* ===== Responsive breakpoints ===== */
+/* Default styles above target 1920px design (1440px and above) */
+
+/* 1440px design (1024px to 1439px) */
+@media (max-width: 1500px) {
+    #header-left > .button:nth-child(2) {
+        border-left: none;
+        border-right: none;
+    }
+
+    #mobileview-button-container {
+        display: flex;
+    }
+
+    .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container > .container:nth-child(3) {
+        order: -1;
+    }
+    /* Hide all 5 nav buttons: WAP, CF Family, Buying Guide, Certification, Learn & Support */
+    #header-left > :nth-child(n+2):nth-child(-n+6) {
+        display: none;
+    }
+}
+
+/* 768px design (390px to 767px) */
+@media (max-width: 767px) {
+    #header-right > .searchbar {
+        opacity: 1;
+        pointer-events: auto;
+        width: auto;
+        flex: 1;
+        min-width: 0;
+    }
+
     .cmp-experiencefragment--header {
         .xf-content-height {
             height: 3rem;
-
-            #header-logo {
-                .button {
-                    font-size: 16px;
-                    font-weight: 700;
-                    line-height: 21.6px;
-                    text-align: left;
-                }
-
-                .image .cmp-image__image {
-                    width: 1.5rem;
-                    height: 1.5rem;
-                }
-            }
         }
     }
-    .experiencefragment.header .cmp-container >.container .cmp-container {
-        column-gap: 0rem;
+
+    #adobe-logo {
+        width: 4.25rem;
+        height: 1.15rem;
+    }
+
+    .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
+        padding: 0 1rem;
+    }
+
+    #header-left > .button:last-child {
+        display: none;
+    }
+
+    #side-drawer {
+        top: 3rem;
+    }
+}
+
+/* 500px design (below 500px) — search bar drops to second row */
+@media (max-width: 515px) {
+    .cmp-experiencefragment--header .xf-content-height {
+        height: auto;
+    }
+
+    .cmp-experiencefragment--header .xf-content-height > .root > .cmp-container {
+        height: auto;
+        position: relative;
+        padding-bottom: 3rem;
+        padding-top: 0.5rem;
+    }
+
+    #header-right > .searchbar {
+        position: absolute;
+        bottom: 0.5rem;
+        left: 1rem;
+        right: 1rem;
+        width: auto !important;
+        flex: none;
+    }
+}
+
+/* 390px design (390px and below) */
+@media (max-width: 390px) {
+    #askdoc-header-btn .cmp-button__text {
+        display: none;
+    }
+
+    #askdoc-header-btn {
+        min-width: auto;
+        padding: 0 0.5rem;
+    }
+
+    #side-drawer {
+        padding: 1rem;
     }
 }

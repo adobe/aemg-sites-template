@@ -6,18 +6,18 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-.cmp-search .cmp-search__results {
+#topic-page .cmp-search .cmp-search__results {
   @apply border-gray-500 rounded-b;
   
-  .cmp-search__item {
+  #topic-page .cmp-search__item {
     @apply p-2;
   }
 
-  .cmp-search__item.cmp-search__item--is-focused {
+  #topic-page .cmp-search__item.cmp-search__item--is-focused {
     @apply bg-gray-200;
   }
 
-  .cmp-search__item-mark {
+  #topic-page .cmp-search__item-mark {
     @apply text-white bg-blue-700;
   }
 }

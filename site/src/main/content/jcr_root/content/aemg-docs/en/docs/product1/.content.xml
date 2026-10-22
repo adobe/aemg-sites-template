@@ -73,7 +73,7 @@
                                 sling:resourceType="guides-components/components/searchbar"
                                 hideButton="true"
                                 resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"/>
+                                searchRoot="/content/aemg-docs/en/docs"/>
                         </container>
                     </container_482659403_>
                    <container8 jcr:primaryType="nt:unstructured" 

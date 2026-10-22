@@ -39,10 +39,87 @@ Alternatively you can build `aemg-docs-{version}.zip` locally.
 1. The site template ZIP file is now located below the template root: `aemg-docs-{version}.zip`.
 1. Upload to an AEMaaCS site creation wizard. For installing on a local cloudready development instance use `npm run deploy`.
 
-## Develop Site Template
+## Live Development (Local Sync)
 
-See: <https://github.com/adobe/aem-site-template-builder>
+Preview all changes — CSS, JS, and content XML — in real time against your local AEM instance without rebuilding or redeploying the full site template.
 
+### Prerequisites
+
+- A local AEM author instance running on `localhost:4502`
+- A site already created from this template (e.g. a site named `245`)
+- Node.js installed (v16+ recommended)
+
+### Step 1: Install theme dependencies
+
+```bash
+cd theme
+npm install
+```
+
+### Step 2: Configure the `.env` file
+
+Create a `theme/.env` file (use `theme/env_template` as reference):
+
+```
+AEM_URL=http://localhost:4502/content/<your-site>/en.html
+AEM_SITE=<your-site>
+AEM_PROXY_PORT=7000
+```
+
+Replace `<your-site>` with the site name you used when creating the site from the template (e.g. `245`).
+
+### Step 3: Start the theme live sync (CSS / JS)
+
+From the `theme/` directory:
+
+```bash
+npm run live
+```
+
+This starts three processes in parallel:
+
+| Process | What it does |
+|---|---|
+| `webpack --watch` | Watches `theme/src/` and rebuilds `dist/` on every CSS/JS/TS change |
+| `aem-site-theme-builder live` | Proxies your AEM site on **port 7000**, replacing the deployed theme with your local `dist/css/theme.css` and `dist/js/theme.js` |
+| `browser-sync` | Wraps port 7000 with auto-reload (typically on port 3000 or 3001) |
+
+### Step 4: Start the content live sync (.content.xml)
+
+The source content lives under `site/src/main/content/jcr_root/content/aemg-docs/...` but your site is at `/content/<your-site>/...`. The `sync-content.js` script watches for `.content.xml` changes, remaps the path from `aemg-docs` to your site name, and pushes the content to AEM automatically.
+
+Open a **second terminal** at the project root and run:
+
+```bash
+node sync-content.js <your-site>
+```
+
+For example:
+
+```bash
+node sync-content.js 245
+```
+
+### Step 5: Open in browser
+
+Navigate to **`http://localhost:7000/content/<your-site>/en.html`** and log in with your AEM credentials (`admin`/`admin` for local instances).
+
+You can browse any page on your site through the proxy:
+- `http://localhost:7000/content/<your-site>/en.html`
+- `http://localhost:7000/content/<your-site>/en/docs.html`
+
+### How changes appear
+
+| What you changed | Where | How it shows up |
+|---|---|---|
+| CSS / JS / TS | `theme/src/` | Auto-rebuilds and browser reloads within seconds |
+| Content XML | `site/src/main/content/jcr_root/` | Pushed to AEM within ~1 second; refresh the page to see changes |
+| Templates / XF | `site/src/main/content/jcr_root/conf/` or `.../experience-fragments/` | Same as content XML — auto-pushed, refresh to see |
+
+### Stopping the sync
+
+- Press `Ctrl+C` in each terminal to stop the theme proxy and content sync.
+- To stop all background processes: check for any lingering `webpack`, `browser-sync`, or `node sync-content` processes with `ps aux | grep -E "webpack|browser-sync|sync-content"` and kill them.
 
 ## Contributing
 

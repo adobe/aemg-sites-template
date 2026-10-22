@@ -5,11 +5,11 @@
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="How AEMG works"
+        jcr:description="Product documentation and support hub. Get answers, tutorials, reference guides, and more. Find answers instantly with AI-powered search."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Docs"
+        jcr:title="Documentation | Learn &amp; Support"
         sling:resourceType="guides-components/components/page"
-        pageTitle="AEMG"
+        pageTitle="Home"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any">
@@ -24,10 +24,17 @@
                     cq:styleIds="[text-center]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title"/>
+                
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
+                    <announcement
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    id="announcement-banner"
+                    text="&lt;p>Learn &lt;a href='#'>what's new&lt;/a> in the latest release!&lt;/p>"
+                    textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
                         jcr:createdBy="admin"
@@ -36,6 +43,24 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
                         id="welcome-container">
+                        <hero_banner
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="hero-banner">
+                            <brand_row
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="hero-brand-row">
+                                <brand_icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="brand-icon"/>
+                                <brand_text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="Product"/>
+                            </brand_row>
+                        </hero_banner>
                         <container
                             jcr:created="{Date}2021-06-17T18:56:53.097+05:30"
                             jcr:createdBy="admin"
@@ -45,36 +70,625 @@
                             sling:resourceType="core/wcm/components/container/v1/container"
                             id="search-container">
                             <title
-                                jcr:created="{Date}2021-06-17T17:09:47.762+05:30"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2021-06-17T17:10:24.689+05:30"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Welcome to AEMG Documentation"
-                                sling:resourceType="core/wcm/components/title/v2/title"
-                                type="h1"/>
-                            <searchbar
+                                text="Learn and Support"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-title"/>
+                            <text
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="guides-components/components/searchbar"
-                                hideButton="true"
-                                resultpage="/content/aemg-docs/en/search"
-                                searchRoot="/content/aemg-docs/en/docs/product1"/>
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="welcome-container-text"
+                                text="Explore tutorials, documentation, and expert resources to get the most out of the product."/>
+                            <search_row
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-row">
+                                <searchbar
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="guides-components/components/searchbar"
+                                    hideButton="true"
+                                    resultpage="/content/aemg-docs/en/search"
+                                    searchRoot="/content/aemg-docs/en/docs"
+                                    placeholder="Ask anything..."/>
+                            </search_row>
+                            <search_presets
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="search-presets">
+                                <text1
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="How do I get started?"/>
+                                <text2
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="What are the system requirements?"/>
+                                <text3
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="What's new in the latest release?"/>
+                                <text4
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="Where can I find tutorials?"/>
+                            </search_presets>
+                            <disclaimer_text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="search-disclaimer"
+                                text="&lt;p>AI responses may be inaccurate and any offers provided are non-binding. &lt;a href = &quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot;>Terms.&lt;/a>&lt;/p>"
+                                textIsRich="true"/>
                         </container>
                     </container_482659403_>
-                    <container_copy
-                        jcr:lastModified="{Date}2021-06-17T17:55:46.893+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="guides-components/components/categorylist"
-                        id="tiles-container2"
-                        layout="responsiveGrid">
-                    </container_copy>
-                    <container
+                    <getstarted_section
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="refs-title-container"
+                        id="getstarted-section"
                         layout="responsiveGrid">
-                    </container>
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Get started"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="getstarted-heading"
+                            type="h2"/>
+                        <tiles_container
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="getstarted-tiles"
+                            layout="responsiveGrid">
+                            <tile_documentation
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-documentation">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-documentation"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Documentation"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-documentation"
+                                    linkURL="/content/aemg-docs/en/user-guides"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-documentation"
+                                    text="&lt;p>Access expert-made documentation, articles, and release notes&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-documentation"
+                                    jcr:title="Explore documentation"
+                                    link="/content/aemg-docs/en/docs"/>
+                            </tile_documentation>
+                            <tile_tutorials
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-tutorials">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-tutorials"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Tutorials"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-tutorials"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-tutorials"
+                                    text="&lt;p>Watch quick tutorials, video playlists, and how-to's created by experts&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-tutorials"
+                                    jcr:title="Explore tutorials"
+                                    link="#"/>
+                            </tile_tutorials>
+                            <tile_community
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-community">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-community"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Community"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-community"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-community"
+                                    text="&lt;p>Connect with others to troubleshoot and grow your knowledge&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-community"
+                                    jcr:title="Explore community"
+                                    link="#"/>
+                            </tile_community>
+                            <tile_certifications
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="getstarted-tile-certifications">
+                                <icon
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="getstarted-icon-certifications"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Certifications"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="getstarted-title-certifications"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="getstarted-desc-certifications"
+                                    text="&lt;p>Prove your expertise and prep for your next career move&lt;/p>"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="getstarted-btn-certifications"
+                                    jcr:title="Explore certifications"
+                                    link="#"/>
+                            </tile_certifications>
+                        </tiles_container>
+                    </getstarted_section>
+                    <trending_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="trending-section"
+                        layout="responsiveGrid">
+                        <trending_header
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-header"
+                            layout="responsiveGrid">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Trending Resources"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="trending-heading"
+                                type="h2"/>
+                        </trending_header>
+                        <trending_tiles
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="trending-tiles"
+                            layout="responsiveGrid">
+                            <tile_intro
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-1"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/Image-213h-2.png"
+                                    id="trending-img-1"
+                                    alt="Getting Started Guide"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-1"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Getting Started Guide"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-1"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-1"
+                                    text="&lt;p>Explore the latest features, system requirements, and how to get started.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-1"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-1"
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-1"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_intro>
+                            <tile_reference
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-2"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/trending-2.png"
+                                    id="trending-img-2"
+                                    alt="Reference Guide"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-2"
+                                    text="DOCUMENTATION"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Reference Guide"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-2"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-2"
+                                    text="&lt;p>Complete reference for all APIs, functions, and configuration options.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-2"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-2"
+                                        text="&lt;p>User guide&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-2"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_reference>
+                            <tile_tutorial
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="trending-tile-3"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    fileReference="/content/dam/aemg-docs/trending-3.png"
+                                    id="trending-img-3"
+                                    alt="Step-by-step Tutorial"/>
+                                <category
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-cat-3"
+                                    text="TUTORIAL"/>
+                                <title
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Step-by-step Tutorial"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    id="trending-title-3"
+                                    linkURL="#"
+                                    type="h3"/>
+                                <description
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    id="trending-desc-3"
+                                    text="&lt;p>Follow this guided tutorial to learn key product concepts and workflows.&lt;/p>"
+                                    textIsRich="true"/>
+                                <meta_row
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/container/v1/container"
+                                    id="trending-meta-3"
+                                    layout="responsiveGrid">
+                                    <meta_type
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-type-3"
+                                        text="&lt;p>Tutorial&lt;/p>"
+                                        textIsRich="true"/>
+                                    <meta_level
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/text/v2/text"
+                                        id="trending-meta-level-3"
+                                        text="All levels"/>
+                                </meta_row>
+                            </tile_tutorial>
+                        </trending_tiles>
+                    </trending_section>
+                    <faq_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="faq-section"
+                        layout="responsiveGrid">
+                        <title
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Got questions? We have the answer"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            id="faq-heading"
+                            type="h2"/>
+                        <faq_tabs
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-tabs">
+                            <tab_general
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="General"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-general"
+                                link="#"/>
+                            <tab_getting_started
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Getting Started"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-getting-started"
+                                link="#"/>
+                            <tab_troubleshooting
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Troubleshooting"
+                                sling:resourceType="core/wcm/components/button/v1/button"
+                                id="faq-tab-troubleshooting"
+                                link="#"/>
+                        </faq_tabs>
+                        <faq_panel_general
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-general">
+                            <faq_item_g1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-g1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="What is this product?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Visit the &lt;a href='#'>product overview&lt;/a> to learn about features and capabilities.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_g1>
+                            <faq_item_g2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-g2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="What are the system requirements?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Check the &lt;a href='#'>system requirements page&lt;/a> for detailed hardware and software specifications.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_g2>
+                            <faq_item_g3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-g3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I get a free trial?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Download a free trial from the &lt;a href='#'>downloads page&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_g3>
+                        </faq_panel_general>
+                        <faq_panel_getting_started
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-getting-started">
+                            <faq_item_gs1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-gs1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I install the product?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Follow the &lt;a href='#'>installation guide&lt;/a> for step-by-step instructions.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_gs1>
+                            <faq_item_gs2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-gs2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Where can I find tutorials?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Visit the &lt;a href='#'>learning center&lt;/a> for video tutorials, code samples, and step-by-step guides.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_gs2>
+                            <faq_item_gs3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-gs3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I create my first project?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Follow the &lt;a href='#'>getting started tutorial&lt;/a> to create your first project.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_gs3>
+                        </faq_panel_getting_started>
+                        <faq_panel_troubleshooting
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-panel-troubleshooting">
+                            <faq_item_t1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-t1">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I check my current version?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>See the &lt;a href='#'>version information page&lt;/a> for details on how to check your installed version.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_t1>
+                            <faq_item_t2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-t2">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="How do I update to the latest version?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Visit the &lt;a href='#'>updates page&lt;/a> for instructions on downloading and applying the latest update.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_t2>
+                            <faq_item_t3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="faq-item-t3">
+                                <question
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Where can I report a bug?"
+                                    sling:resourceType="core/wcm/components/title/v2/title"
+                                    type="h4"/>
+                                <answer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>Report issues through the &lt;a href='#'>support portal&lt;/a>.&lt;/p>"
+                                    textIsRich="true"/>
+                            </faq_item_t3>
+                        </faq_panel_troubleshooting>
+                        <faq_help
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="faq-help-banner">
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="faq-help-text"
+                                text="&lt;p>Still need help? Find more &lt;a href='#'>account, billing, and plan answers.&lt;/a>&lt;/p>"
+                                textIsRich="true"/>
+                        </faq_help>
+                    </faq_section>
+                    <community_section
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="community-section">
+                        <community_left
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-left">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Join the Conversation"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="community-heading"
+                                type="h2"/>
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                id="community-description"
+                                text="Connect with the community. Post questions and get answers from experts."/>
+                            <buttons_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="community-buttons">
+                                <button_forum
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Visit community forum"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-community-forum"
+                                    link="#"/>
+                                <button_support
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Contact support"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="btn-contact-support"
+                                    link="#"/>
+                            </buttons_container>
+                        </community_left>
+                        <community_right
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container"
+                            id="community-right">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Popular topics"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                id="topics-heading"
+                                type="h3"/>
+                            <tags_container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container"
+                                id="topics-tags">
+                                <tag_getting_started
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Getting Started"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-getting-started"
+                                    link="#"/>
+                                <tag_best_practices
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Best Practices"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-best-practices"
+                                    link="#"/>
+                                <tag_security
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Security"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-security"
+                                    link="#"/>
+                                <tag_performance
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Performance"
+                                    sling:resourceType="core/wcm/components/button/v1/button"
+                                    id="tag-performance"
+                                    link="#"/>
+                            </tags_container>
+                        </community_right>
+                    </community_section>
                 </container>
             </container>
         </root>
