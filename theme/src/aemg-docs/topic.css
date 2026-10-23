@@ -908,20 +908,20 @@ html[lang="ja"] {
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig:not(:has(+ .xref)) {
   padding-bottom: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :not(.fig) > .placement-break {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .cmp-text > .placement-inline {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-inline + :is(div, ul, ol, dl, table, figure, pre) {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prodinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .data-about:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .vrmlist:before {
