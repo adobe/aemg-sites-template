@@ -309,7 +309,8 @@ html[lang="ja"] {
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip::before,
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution::before,
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.danger::before,
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning::before {
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning::before,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important::before {
   display: none;
 }
 
@@ -318,6 +319,11 @@ html[lang="ja"] {
   background-color: #F5F9FF;
   border-left: 5px solid #3B63FB;
   font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip {
+  background-color: #F3FAF6;
+  border-left-color: #12805C;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note[data-attr-type="note"] .prefix-content,
@@ -345,7 +351,7 @@ html[lang="ja"] {
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.tip .prefix-content::before {
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10%201.75A5.75%205.75%200%200%200%206.4%2012a2.4%202.4%200%200%201%20.85%201.6h5.5A2.4%202.4%200%200%201%2013.6%2012%205.75%205.75%200%200%200%2010%201.75Z%22%20fill%3D%22%233B63FB%22%2F%3E%3Cpath%20d%3D%22M7.5%2015.25h5M8.4%2017.25h3.2%22%20stroke%3D%22%233B63FB%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10%201.75A5.75%205.75%200%200%200%206.4%2012a2.4%202.4%200%200%201%20.85%201.6h5.5A2.4%202.4%200%200%201%2013.6%2012%205.75%205.75%200%200%200%2010%201.75Z%22%20fill%3D%22%2312805C%22%2F%3E%3Cpath%20d%3D%22M7.5%2015.25h5M8.4%2017.25h3.2%22%20stroke%3D%22%2312805C%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E");
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note[data-attr-type="note"] .prefix-content::after {
@@ -398,8 +404,8 @@ html[lang="ja"] {
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.caution {
-  background-color: #FFF6E7;
-  border-left: 5px solid #f5c823;
+  background-color: #FFF6F5;
+  border-left: 5px solid #D73220;
   font-size: 14px;
 }
 
@@ -416,7 +422,7 @@ html[lang="ja"] {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.0002%2018.7944C9.39911%2018.7944%208.83368%2018.5601%208.40887%2018.1353L1.86444%2011.5903C0.987978%2010.7134%200.987978%209.28564%201.86395%208.40869L8.40936%201.86377C9.25799%201.01416%2010.7419%201.01416%2011.5915%201.86377L18.1359%208.40869C19.0124%209.28564%2019.0124%2010.7134%2018.1364%2011.5903L11.591%2018.1353C11.1667%2018.5601%2010.6012%2018.7944%2010.0002%2018.7944ZM10.0002%202.70459C9.79998%202.70459%209.61151%202.78271%209.47039%202.92432L2.92498%209.46924C2.63299%209.76123%202.63299%2010.2378%202.92547%2010.5298L9.4699%2017.0747C9.7531%2017.3579%2010.2477%2017.3579%2010.53%2017.0747L17.0749%2010.5298C17.3674%2010.2378%2017.3674%209.76124%2017.0749%209.46924L10.5304%202.92432C10.3888%202.78272%2010.2004%202.70459%2010.0002%202.70459Z%22%20fill%3D%22%23f5c823%22%2F%3E%3Cpath%20d%3D%22M9.99936%2014.9983C9.76871%2015.0065%209.54398%2014.9246%209.37275%2014.77C9.04242%2014.4054%209.04242%2013.8501%209.37275%2013.4854C9.5421%2013.3271%209.76758%2013.2427%209.99939%2013.2507C10.2357%2013.2412%2010.4653%2013.3309%2010.6324%2013.4981C10.7945%2013.6658%2010.8816%2013.892%2010.8738%2014.1249C10.8862%2014.3596%2010.8042%2014.5895%2010.6461%2014.7636C10.4725%2014.9281%2010.2382%2015.0132%209.99936%2014.9983Z%22%20fill%3D%22%23f5c823%22%2F%3E%3Cpath%20d%3D%22M10%2011.625C9.58594%2011.625%209.25%2011.2891%209.25%2010.875V5.875C9.25%205.46094%209.58594%205.125%2010%205.125C10.4141%205.125%2010.75%205.46094%2010.75%205.875V10.875C10.75%2011.2891%2010.4141%2011.625%2010%2011.625Z%22%20fill%3D%22%23f5c823%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.0002%2018.7944C9.39911%2018.7944%208.83368%2018.5601%208.40887%2018.1353L1.86444%2011.5903C0.987978%2010.7134%200.987978%209.28564%201.86395%208.40869L8.40936%201.86377C9.25799%201.01416%2010.7419%201.01416%2011.5915%201.86377L18.1359%208.40869C19.0124%209.28564%2019.0124%2010.7134%2018.1364%2011.5903L11.591%2018.1353C11.1667%2018.5601%2010.6012%2018.7944%2010.0002%2018.7944ZM10.0002%202.70459C9.79998%202.70459%209.61151%202.78271%209.47039%202.92432L2.92498%209.46924C2.63299%209.76123%202.63299%2010.2378%202.92547%2010.5298L9.4699%2017.0747C9.7531%2017.3579%2010.2477%2017.3579%2010.53%2017.0747L17.0749%2010.5298C17.3674%2010.2378%2017.3674%209.76124%2017.0749%209.46924L10.5304%202.92432C10.3888%202.78272%2010.2004%202.70459%2010.0002%202.70459Z%22%20fill%3D%22%23F03823%22%2F%3E%3Cpath%20d%3D%22M9.99936%2014.9983C9.76871%2015.0065%209.54398%2014.9246%209.37275%2014.77C9.04242%2014.4054%209.04242%2013.8501%209.37275%2013.4854C9.5421%2013.3271%209.76758%2013.2427%209.99939%2013.2507C10.2357%2013.2412%2010.4653%2013.3309%2010.6324%2013.4981C10.7945%2013.6658%2010.8816%2013.892%2010.8738%2014.1249C10.8862%2014.3596%2010.8042%2014.5895%2010.6461%2014.7636C10.4725%2014.9281%2010.2382%2015.0132%209.99936%2014.9983Z%22%20fill%3D%22%23F03823%22%2F%3E%3Cpath%20d%3D%22M10%2011.625C9.58594%2011.625%209.25%2011.2891%209.25%2010.875V5.875C9.25%205.46094%209.58594%205.125%2010%205.125C10.4141%205.125%2010.75%205.46094%2010.75%205.875V10.875C10.75%2011.2891%2010.4141%2011.625%2010%2011.625Z%22%20fill%3D%22%23F03823%22%2F%3E%3C%2Fsvg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -431,8 +437,8 @@ html[lang="ja"] {
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.warning {
-  background-color: #FFF6E7;
-  border-left: 5px solid #FC7D00;
+  background-color: #FFF6F5;
+  border-left: 5px solid #D73220;
   font-size: 14px;
 }
 
@@ -449,7 +455,7 @@ html[lang="ja"] {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.0002%2018.7944C9.39911%2018.7944%208.83368%2018.5601%208.40887%2018.1353L1.86444%2011.5903C0.987978%2010.7134%200.987978%209.28564%201.86395%208.40869L8.40936%201.86377C9.25799%201.01416%2010.7419%201.01416%2011.5915%201.86377L18.1359%208.40869C19.0124%209.28564%2019.0124%2010.7134%2018.1364%2011.5903L11.591%2018.1353C11.1667%2018.5601%2010.6012%2018.7944%2010.0002%2018.7944ZM10.0002%202.70459C9.79998%202.70459%209.61151%202.78271%209.47039%202.92432L2.92498%209.46924C2.63299%209.76123%202.63299%2010.2378%202.92547%2010.5298L9.4699%2017.0747C9.7531%2017.3579%2010.2477%2017.3579%2010.53%2017.0747L17.0749%2010.5298C17.3674%2010.2378%2017.3674%209.76124%2017.0749%209.46924L10.5304%202.92432C10.3888%202.78272%2010.2004%202.70459%2010.0002%202.70459Z%22%20fill%3D%22%23FC7D00%22%2F%3E%3Cpath%20d%3D%22M9.99936%2014.9983C9.76871%2015.0065%209.54398%2014.9246%209.37275%2014.77C9.04242%2014.4054%209.04242%2013.8501%209.37275%2013.4854C9.5421%2013.3271%209.76758%2013.2427%209.99939%2013.2507C10.2357%2013.2412%2010.4653%2013.3309%2010.6324%2013.4981C10.7945%2013.6658%2010.8816%2013.892%2010.8738%2014.1249C10.8862%2014.3596%2010.8042%2014.5895%2010.6461%2014.7636C10.4725%2014.9281%2010.2382%2015.0132%209.99936%2014.9983Z%22%20fill%3D%22%23FC7D00%22%2F%3E%3Cpath%20d%3D%22M10%2011.625C9.58594%2011.625%209.25%2011.2891%209.25%2010.875V5.875C9.25%205.46094%209.58594%205.125%2010%205.125C10.4141%205.125%2010.75%205.46094%2010.75%205.875V10.875C10.75%2011.2891%2010.4141%2011.625%2010%2011.625Z%22%20fill%3D%22%23FC7D00%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.0002%2018.7944C9.39911%2018.7944%208.83368%2018.5601%208.40887%2018.1353L1.86444%2011.5903C0.987978%2010.7134%200.987978%209.28564%201.86395%208.40869L8.40936%201.86377C9.25799%201.01416%2010.7419%201.01416%2011.5915%201.86377L18.1359%208.40869C19.0124%209.28564%2019.0124%2010.7134%2018.1364%2011.5903L11.591%2018.1353C11.1667%2018.5601%2010.6012%2018.7944%2010.0002%2018.7944ZM10.0002%202.70459C9.79998%202.70459%209.61151%202.78271%209.47039%202.92432L2.92498%209.46924C2.63299%209.76123%202.63299%2010.2378%202.92547%2010.5298L9.4699%2017.0747C9.7531%2017.3579%2010.2477%2017.3579%2010.53%2017.0747L17.0749%2010.5298C17.3674%2010.2378%2017.3674%209.76124%2017.0749%209.46924L10.5304%202.92432C10.3888%202.78272%2010.2004%202.70459%2010.0002%202.70459Z%22%20fill%3D%22%23F03823%22%2F%3E%3Cpath%20d%3D%22M9.99936%2014.9983C9.76871%2015.0065%209.54398%2014.9246%209.37275%2014.77C9.04242%2014.4054%209.04242%2013.8501%209.37275%2013.4854C9.5421%2013.3271%209.76758%2013.2427%209.99939%2013.2507C10.2357%2013.2412%2010.4653%2013.3309%2010.6324%2013.4981C10.7945%2013.6658%2010.8816%2013.892%2010.8738%2014.1249C10.8862%2014.3596%2010.8042%2014.5895%2010.6461%2014.7636C10.4725%2014.9281%2010.2382%2015.0132%209.99936%2014.9983Z%22%20fill%3D%22%23F03823%22%2F%3E%3Cpath%20d%3D%22M10%2011.625C9.58594%2011.625%209.25%2011.2891%209.25%2010.875V5.875C9.25%205.46094%209.58594%205.125%2010%205.125C10.4141%205.125%2010.75%205.46094%2010.75%205.875V10.875C10.75%2011.2891%2010.4141%2011.625%2010%2011.625Z%22%20fill%3D%22%23F03823%22%2F%3E%3C%2Fsvg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -461,6 +467,61 @@ html[lang="ja"] {
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #1a1a1a;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important {
+  background-color: #FFF6E7;
+  border-left: 5px solid #FC7D00;
+  font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important .prefix-content {
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important .prefix-content::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2018%2018%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M7.84555%2C12.88618a1.13418%2C1.13418%2C0%2C0%2C1%2C1.1161-1.15195q.042-.00064.08391.00178a1.116%2C1.116%2C0%2C0%2C1%2C1.2%2C1.15017%2C1.09065%2C1.09065%2C0%2C0%2C1-1.2%2C1.11661%2C1.0908%2C1.0908%2C0%2C0%2C1-1.2-1.11661ZM10.0625%2C4.39771a.20792.20792%2C0%2C0%2C1%2C.09966.183V5.62212c0%2C1.40034-.28322%2C3.98034-.33305%2C4.48067%2C0%2C.04984-.01678.09967-.11695.09967H8.379a.11069.11069%2C0%2C0%2C1-.11695-.09967c-.03305-.46678-.3-3.0305-.3-4.43084V4.6306a.1773.1773%2C0%2C0%2C1%2C.08339-.18306%2C2.88262%2C2.88262%2C0%2C0%2C1%2C1.00017-.20033A3.27435%2C3.27435%2C0%2C0%2C1%2C10.0625%2C4.39771ZM17.50005%2C9A8.50005%2C8.50005%2C0%2C1%2C1%2C9%2C.5H9A8.50008%2C8.50008%2C0%2C0%2C1%2C17.50005%2C9ZM15.67484%2C9A6.67485%2C6.67485%2C0%2C1%2C0%2C9%2C15.6748H9A6.67479%2C6.67479%2C0%2C0%2C0%2C15.67484%2C9Z%22%20fill%3D%22%23FC7D00%22%2F%3E%3C%2Fsvg%3E");
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.important .prefix-content::after {
+  content: var(--note-label-important);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #1a1a1a;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.fastpath,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.remember,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.other {
+  background-color: #F5F9FF;
+  border-left: 5px solid #3B63FB;
+  font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.attention,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.notice,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.restriction {
+  background-color: #FFF6E7;
+  border-left: 5px solid #FC7D00;
+  font-size: 14px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note.trouble {
+  background-color: #FFF6F5;
+  border-left: 5px solid #D73220;
+  font-size: 14px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note .ul, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .note .ol {
@@ -773,6 +834,37 @@ html[lang="ja"] {
   text-decoration: none;
 }
 
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a.guides_primary_button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 30px;
+  min-width: 101px;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  background-color: #1473E6;
+  color: #ffffff;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a.guides_primary_button:hover,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a.guides_primary_button:focus-visible {
+  background-color: #0d66d0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) a.guides_primary_button:focus-visible {
+  outline: 2px solid #1473E6;
+  outline-offset: 2px;
+}
+
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .mathml {
   display: inline;
 }
@@ -817,6 +909,24 @@ html[lang="ja"] {
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig:has(+ .xref) .placement-inline {
   display: inline;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .fig:not(:has(+ .xref)) {
+  padding-bottom: 0;
+  margin-bottom: 1.25rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :not(.fig) > .placement-break {
+  margin-bottom: 1.25rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .cmp-text > .placement-inline {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .placement-inline + :is(div, ul, ol, dl, table, figure, pre) {
+  margin-top: 1.25rem;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .copyright:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .critdates:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .metadata:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .prodinfo:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .data-about:before, #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .vrmlist:before {
