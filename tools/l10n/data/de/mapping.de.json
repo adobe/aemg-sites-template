@@ -1,0 +1,1424 @@
+[
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:description",
+    "src": "Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp.",
+    "tgt": "Dokumentations- und Support-Hub für Adobe RoboHelp. Hier findet ihr Antworten, Tutorials, Dokumentation und Ressourcen, damit ihr RoboHelp optimal nutzen könnt.",
+    "stringId": "611bc33b38"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Adobe RoboHelp Documentation | Learn & Support",
+    "tgt": "Adobe RoboHelp-Dokumentation | Lernen und Support",
+    "stringId": "12c17048a0"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "pageTitle",
+    "src": "Home",
+    "tgt": "Startseite",
+    "stringId": "3b6bf70dbd"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/announcement",
+    "attr": "text",
+    "src": "<p>Learn <a href='/content/robohelp-docs/en/docs/user-guide/whats-new-robohelp-2026.html'>what's new</a> in RoboHelp (September 2026 release)!</p>",
+    "tgt": "<p>Erfahren Sie, <a href='/content/robohelp-docs/de/docs/user-guide/whats-new-robohelp-2026.html'>was es in RoboHelp (Version September 2026) Neues gibt</a>!</p>",
+    "stringId": "6b05b464d6"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/hero_banner/brand_row/brand_text",
+    "attr": "text",
+    "src": "Adobe RoboHelp",
+    "tgt": "Adobe RoboHelp",
+    "stringId": "56093d7b3d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/title",
+    "attr": "text",
+    "src": "Learn and Support",
+    "tgt": "Lernen und Support",
+    "stringId": "b5250c9171"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/text",
+    "attr": "text",
+    "src": "Explore tutorials, documentation, and resources to get the most out of RoboHelp.",
+    "tgt": "Entdecken Sie Tutorials, Dokumentation und Ressourcen, um RoboHelp optimal zu nutzen.",
+    "stringId": "4494d4b3aa"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_row/searchbar",
+    "attr": "placeholder",
+    "src": "Ask anything about RoboHelp",
+    "tgt": "Stellt beliebige Fragen zu RoboHelp",
+    "stringId": "514eb30c14"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_presets/text1",
+    "attr": "text",
+    "src": "How to add a word to the user dictionary?",
+    "tgt": "Wie wird dem Benutzerwörterbuch ein Wort hinzugefügt?",
+    "stringId": "f2db1db529"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_presets/text2",
+    "attr": "text",
+    "src": "How to customize PDF template components?",
+    "tgt": "Wie werden PDF-Vorlagenkomponenten angepasst?",
+    "stringId": "1757ad24af"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_presets/text3",
+    "attr": "text",
+    "src": "How to split editor screen horizontally?",
+    "tgt": "Wie wird der Editorbildschirm horizontal geteilt?",
+    "stringId": "76b9e1d80c"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_presets/text4",
+    "attr": "text",
+    "src": "How to prevent data loss while authoring?",
+    "tgt": "Wie wird Datenverlust beim Erstellen verhindert?",
+    "stringId": "fc511561ab"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/search_presets/text5",
+    "attr": "text",
+    "src": "How to link to bookmark from another topic?",
+    "tgt": "Wie wird ein Link von einem anderen Thema zu einem Lesezeichen eingefügt?",
+    "stringId": "bc77d11a9a"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container_482659403_/container/disclaimer_text",
+    "attr": "text",
+    "src": "<p>AI responses may be inaccurate and any offers provided are non-binding. <a href = \"https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html\">Terms.</a></p>",
+    "tgt": "<p>KI-Antworten können ungenau sein und bereitgestellte Angebote sind unverbindlich. <a href = \"https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html\">Bedingungen.</a></p>",
+    "stringId": "6ab77b3530"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/title",
+    "attr": "jcr:title",
+    "src": "Get started with RoboHelp",
+    "tgt": "Erste Schritte mit RoboHelp",
+    "stringId": "0ada8634c0"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_documentation/title",
+    "attr": "jcr:title",
+    "src": "Documentation",
+    "tgt": "Dokumentation",
+    "stringId": "8f577bfff8"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_documentation/description",
+    "attr": "text",
+    "src": "<p>Access expert-made documentation, articles, and release notes</p>",
+    "tgt": "<p>Greift auf von Expertinnen und Experten erstellte Dokumentation, Artikel und Versionshinweise zu</p>",
+    "stringId": "33994bf371"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_documentation/button",
+    "attr": "jcr:title",
+    "src": "Explore documentation",
+    "tgt": "Dokumentation erkunden",
+    "stringId": "a009274728"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_tutorials/title",
+    "attr": "jcr:title",
+    "src": "Tutorials",
+    "tgt": "Tutorials",
+    "stringId": "164384e2b2"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_tutorials/description",
+    "attr": "text",
+    "src": "<p>Watch quick tutorials, video playlists, and how-to's created by experts</p>",
+    "tgt": "<p>Seht euch kurze Tutorials, Video-Playlists und Anleitungen von Expertinnen und Experten an</p>",
+    "stringId": "685b6e8324"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_tutorials/button",
+    "attr": "jcr:title",
+    "src": "Explore tutorials",
+    "tgt": "Tutorials erkunden",
+    "stringId": "9ca89f8cee"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_community/title",
+    "attr": "jcr:title",
+    "src": "Community",
+    "tgt": "Community",
+    "stringId": "c24f33a253"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_community/description",
+    "attr": "text",
+    "src": "<p>Connect with others to troubleshoot and grow your knowledge</p>",
+    "tgt": "<p>Tauscht euch mit anderen aus, um Probleme zu beheben und euer Wissen zu erweitern</p>",
+    "stringId": "18a2822121"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_community/button",
+    "attr": "jcr:title",
+    "src": "Explore community",
+    "tgt": "Community erkunden",
+    "stringId": "300f8d445f"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_certifications/title",
+    "attr": "jcr:title",
+    "src": "Online Training",
+    "tgt": "Online-Schulung",
+    "stringId": "6dde1a2ed2"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_certifications/description",
+    "attr": "text",
+    "src": "<p>Get instant access to high-quality, on-demand training courses</p>",
+    "tgt": "<p>Erhalten Sie sofortigen Zugriff auf hochwertige On-Demand-Schulungen</p>",
+    "stringId": "0041296d45"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/getstarted_section/tiles_container/tile_certifications/button",
+    "attr": "jcr:title",
+    "src": "Explore online training",
+    "tgt": "Online-Schulungen erkunden",
+    "stringId": "7db2943523"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_header/title",
+    "attr": "jcr:title",
+    "src": "Trending Resources",
+    "tgt": "Beliebte Ressourcen",
+    "stringId": "766203c0ca"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/image",
+    "attr": "alt",
+    "src": "Explore RoboHelp Workspace",
+    "tgt": "RoboHelp Workspace erkunden",
+    "stringId": "5558c0ca7e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/category",
+    "attr": "text",
+    "src": "DOCUMENTATION",
+    "tgt": "Dokumentation",
+    "stringId": "9f158a459d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/title",
+    "attr": "jcr:title",
+    "src": "Explore RoboHelp Workspace",
+    "tgt": "RoboHelp Workspace erkunden",
+    "stringId": "5558c0ca7e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/description",
+    "attr": "text",
+    "src": "<p>Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.</p>",
+    "tgt": "<p>Überblick über Menüs, Bedienfelder, Symbolleisten und Ansichten von RoboHelp zum Erstellen von Inhalten.</p>",
+    "stringId": "59ce487cf9"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/meta_row/meta_type",
+    "attr": "text",
+    "src": "<p>User guide</p>",
+    "tgt": "<p>Benutzerhandbuch</p>",
+    "stringId": "7b0f420852"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_intro_cf/meta_row/meta_level",
+    "attr": "text",
+    "src": "All levels",
+    "tgt": "Alle Niveaustufen",
+    "stringId": "70ba666e79"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/image",
+    "attr": "alt",
+    "src": "Customize Frameless Skins",
+    "tgt": "Frame-lose Skins anpassen",
+    "stringId": "76ba1abff2"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/category",
+    "attr": "text",
+    "src": "DOCUMENTATION",
+    "tgt": "Dokumentation",
+    "stringId": "9f158a459d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/title",
+    "attr": "jcr:title",
+    "src": "Customize Frameless Skins",
+    "tgt": "Frame-lose Skins anpassen",
+    "stringId": "76ba1abff2"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/description",
+    "attr": "text",
+    "src": "<p>Customize colors, layout, fonts, and branding of your Frameless output skin.</p>",
+    "tgt": "<p>Passen Sie Farben, Layout, Schriftarten und Branding Ihres Frame-losen Ausgabe-Skins an.</p>",
+    "stringId": "22856a8dd8"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/meta_row/meta_type",
+    "attr": "text",
+    "src": "<p>User guide</p>",
+    "tgt": "<p>Benutzerhandbuch</p>",
+    "stringId": "7b0f420852"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_cfml_ref/meta_row/meta_level",
+    "attr": "text",
+    "src": "All levels",
+    "tgt": "Alle Niveaustufen",
+    "stringId": "70ba666e79"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/image",
+    "attr": "alt",
+    "src": "Publish to Zendesk",
+    "tgt": "In Zendesk veröffentlichen",
+    "stringId": "16ce11054e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/category",
+    "attr": "text",
+    "src": "DOCUMENTATION",
+    "tgt": "Dokumentation",
+    "stringId": "9f158a459d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/title",
+    "attr": "jcr:title",
+    "src": "Publish to Zendesk",
+    "tgt": "In Zendesk veröffentlichen",
+    "stringId": "16ce11054e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/description",
+    "attr": "text",
+    "src": "<p>Configure output presets and publish profiles to push content to Zendesk.</p>",
+    "tgt": "<p>Konfigurieren Sie Ausgabevorgaben und Veröffentlichungsprofile, um Inhalte an Zendesk zu übertragen.</p>",
+    "stringId": "9e1a431251"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/meta_row/meta_type",
+    "attr": "text",
+    "src": "<p>User guide</p>",
+    "tgt": "<p>Benutzerhandbuch</p>",
+    "stringId": "7b0f420852"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/trending_section/trending_tiles/tile_rest_apis/meta_row/meta_level",
+    "attr": "text",
+    "src": "All levels",
+    "tgt": "Alle Niveaustufen",
+    "stringId": "70ba666e79"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/title",
+    "attr": "jcr:title",
+    "src": "Got questions? We have the answer",
+    "tgt": "Ihr habt Fragen? Wir haben die Antwort",
+    "stringId": "80e12d469d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_tabs/tab_common",
+    "attr": "jcr:title",
+    "src": "Common issues",
+    "tgt": "Häufige Probleme",
+    "stringId": "f1686e69a0"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_tabs/tab_download",
+    "attr": "jcr:title",
+    "src": "Download and Install",
+    "tgt": "Herunterladen und installieren",
+    "stringId": "ae0719cf14"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_tabs/tab_account",
+    "attr": "jcr:title",
+    "src": "Account Management",
+    "tgt": "Kontoverwaltung",
+    "stringId": "08644e3679"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_1/question",
+    "attr": "jcr:title",
+    "src": "What are the options available to host a generated output?",
+    "tgt": "Welche Optionen stehen zum Hosten einer generierten Ausgabe zur Verfügung?",
+    "stringId": "d9ea4a7f7c"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_1/answer",
+    "attr": "text",
+    "src": "<p>Output generated in RoboHelp can be hosted on any web enabled server like Apache, <a href='/content/robohelp-docs/en/docs/user-guide/robohelp-server.html'>RoboHelp Server</a>, <a href='/content/robohelp-docs/en/docs/user-guide/publish-sharepoint.html'>SharePoint Online</a>, <a href='/content/robohelp-docs/en/docs/user-guide/publish-zendesk.html'>Zendesk Help Center</a>, <a href='/content/robohelp-docs/en/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base</a>, <a href='/content/robohelp-docs/en/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base</a>, <a href='/content/robohelp-docs/en/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base</a>, and <a href='/content/robohelp-docs/en/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager</a>.</p>",
+    "tgt": "<p>In RoboHelp generierte Ausgabe kann auf jedem webfähigen Server wie Apache, <a href='/content/robohelp-docs/de/docs/user-guide/robohelp-server.html'>RoboHelp Server</a>, <a href='/content/robohelp-docs/de/docs/user-guide/publish-sharepoint.html'>SharePoint Online</a>, <a href='/content/robohelp-docs/de/docs/user-guide/publish-zendesk.html'>Zendesk Help Center</a>, <a href='/content/robohelp-docs/de/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base</a>, <a href='/content/robohelp-docs/de/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base</a>, <a href='/content/robohelp-docs/de/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base</a> und <a href='/content/robohelp-docs/de/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager</a> gehostet werden.</p>",
+    "stringId": "877bc88938"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_2/question",
+    "attr": "jcr:title",
+    "src": "How to use Review and where it is hosted? Is an Adobe Id required to access it?",
+    "tgt": "Wie wird die Überprüfung verwendet und wo wird sie gehostet? Ist eine Adobe ID erforderlich, um darauf zuzugreifen?",
+    "stringId": "cd728df07a"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_2/answer",
+    "attr": "text",
+    "src": "<p>To collaborate using Review, log in using your Adobe ID as Review is hosted on the <a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud</a>. For more information, view <a href='/content/robohelp-docs/en/docs/user-guide/review-process.html'>Review and Collaboration</a>.</p>",
+    "tgt": "<p>Um mit Review zusammenzuarbeiten, meldet euch mit eurer Adobe ID an, da Review in der <a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud</a> gehostet wird. Weitere Informationen findet ihr unter <a href='/content/robohelp-docs/de/docs/user-guide/review-process.html'>Review und Zusammenarbeit</a>.</p>",
+    "stringId": "ae5fdbcaae"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_3/question",
+    "attr": "jcr:title",
+    "src": "How can I collaborate with other authors?",
+    "tgt": "Wie kann ich mit anderen Autorinnen und Autoren zusammenarbeiten?",
+    "stringId": "420068b226"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_3/answer",
+    "attr": "text",
+    "src": "<p>Collaborate with other authors for creating, sharing, and managing reviews for your content using <a href='/content/robohelp-docs/en/docs/user-guide/git.html'>Git</a>, <a href='/content/robohelp-docs/en/docs/user-guide/sharepoint.html'>SharePoint online</a>, and <a href='/content/robohelp-docs/en/docs/user-guide/devops.html'>Azure DevOps</a>.</p>",
+    "tgt": "<p>Arbeitet mit anderen Autorinnen und Autoren zusammen, um Reviews für eure Inhalte mit <a href='/content/robohelp-docs/de/docs/user-guide/git.html'>Git</a>, <a href='/content/robohelp-docs/de/docs/user-guide/sharepoint.html'>SharePoint Online</a> und <a href='/content/robohelp-docs/de/docs/user-guide/devops.html'>Azure DevOps</a> zu erstellen, freizugeben und zu verwalten.</p>",
+    "stringId": "2a5b79605e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_4/question",
+    "attr": "jcr:title",
+    "src": "What are the supported file formats in RoboHelp?",
+    "tgt": "Welche Dateiformate werden in RoboHelp unterstützt?",
+    "stringId": "48a8b25693"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_4/answer",
+    "attr": "text",
+    "src": "<p>RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view <a href='/content/robohelp-docs/en/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats</a>.</p>",
+    "tgt": "<p>RoboHelp unterstützt eine Vielzahl von Dateiformaten, sowohl zum Öffnen vorhandener Hilfeprojekte als auch zum Importieren von Inhalten aus anderen Authoring-Tools. Dazu gehören Projektformate wie HHP, XPJ und MPJ sowie Importformate wie Word, PDF, FrameMaker, DITA, HTML/XML und verschiedene Bild-, Audio- und Videodateien. Weitere Informationen findet ihr unter <a href='/content/robohelp-docs/de/docs/user-guide/supported-file-formats-robohelp.html'>Unterstützte Dateiformate</a>.</p>",
+    "stringId": "cdb777867e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_5/question",
+    "attr": "jcr:title",
+    "src": "I want to upgrade my project. What are the points that I must keep in mind?",
+    "tgt": "Ich möchte mein Projekt aktualisieren. Welche Punkte muss ich beachten?",
+    "stringId": "4962f9b462"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_common/faq_item_common_5/answer",
+    "attr": "text",
+    "src": "<p>To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view <a href='/content/robohelp-docs/en/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp</a>.</p>",
+    "tgt": "<p>Wenn ihr euer Projekt von RoboHelp Classic auf die neu konzipierte Version (Version 2019 oder Version 2020) aktualisiert, gibt es bestimmte Punkte zu beachten, die durch das Upgrade auftreten können. Weitere Informationen findet ihr unter <a href='/content/robohelp-docs/de/docs/user-guide/manage-projects.html'>Ein Projekt in RoboHelp aktualisieren</a>.</p>",
+    "stringId": "ef54fc14e6"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_1/question",
+    "attr": "jcr:title",
+    "src": "Why won't RoboHelp download?",
+    "tgt": "Warum wird RoboHelp nicht heruntergeladen?",
+    "stringId": "d1b91076b7"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_1/answer",
+    "attr": "text",
+    "src": "<p>Learn how to <a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>resolve download issues</a> with RoboHelp and other Adobe apps.</p>",
+    "tgt": "<p>Erfahrt, wie ihr <a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>Download-Probleme beheben</a> könnt, die bei RoboHelp und anderen Adobe-Applikationen auftreten.</p>",
+    "stringId": "798efb9ad3"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_2/question",
+    "attr": "jcr:title",
+    "src": "Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?",
+    "tgt": "Kann ich eine Testversion von RoboHelp erhalten? Und wie kann ich nach RoboHelp-Updates suchen und sie installieren?",
+    "stringId": "2503866fbd"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_2/answer",
+    "attr": "text",
+    "src": "<p>Yes. You can <a href='/content/robohelp-docs/en/docs/user-guide/robohelp-downloads.html'>download</a> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view <a href='https://helpx.adobe.com/creative-suite.html'>installing a trial</a>. To check if there are any updates, go to Help &gt; Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from <a href='/content/robohelp-docs/en/docs/user-guide/robohelp-downloads.html'>downloads</a>.</p>",
+    "tgt": "<p>Ja. Ihr könnt eine vollständig funktionsfähige, kostenlose 30-Tage-Testversion <a href='/content/robohelp-docs/de/docs/user-guide/robohelp-downloads.html'>herunterladen</a>, indem ihr euch mit einer Adobe ID und einem Passwort anmeldet. Detaillierte Anweisungen findet ihr unter <a href='https://helpx.adobe.com/creative-suite.html'>Installation einer Testversion</a>. Um zu prüfen, ob Updates verfügbar sind, geht in eurer aktuellen Version von RoboHelp zu Hilfe &amp;gt; Nach Updates suchen. Alternativ könnt ihr sie auch manuell über <a href='/content/robohelp-docs/de/docs/user-guide/robohelp-downloads.html'>Downloads</a> installieren.</p>",
+    "stringId": "e41ae51679"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_3/question",
+    "attr": "jcr:title",
+    "src": "Why am I getting an error to \"Update OS or Browser\" while installing or activating RoboHelp?",
+    "tgt": "Warum erhalte ich beim Installieren oder Aktivieren von RoboHelp den Fehler „Update OS or Browser“?",
+    "stringId": "3438e3db0f"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_3/answer",
+    "attr": "text",
+    "src": "<p>All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view <a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>deprecated IE10 support</a>. Also, take a look at <a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>upgrading operating system and supported browser versions</a>.</p>",
+    "tgt": "<p>Für alle Adobe-Produkte wird empfohlen, die neuesten Betriebssystem- und Browser-Updates zu verwenden, damit sie effizient funktionieren. Wenn ihr die neuesten Updates ausführt und der Fehler weiterhin auftritt, findet ihr weitere Hilfe unter <a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>Eingestellte IE10-Unterstützung</a>. Seht euch auch <a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>Upgrade des Betriebssystems und unterstützte Browserversionen</a> an.</p>",
+    "stringId": "5302043f52"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_4/question",
+    "attr": "jcr:title",
+    "src": "Can I install RoboHelp on another computer?",
+    "tgt": "Kann ich RoboHelp auf einem anderen Computer installieren?",
+    "stringId": "d280443dd1"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_4/answer",
+    "attr": "text",
+    "src": "<p>You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about <a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>activating and deactivating Adobe apps</a>. If you need five or more licenses, consider purchasing a <a href='https://www.adobe.com/products/robohelp/buying-guide.html'>volume licensing plan</a>.</p>",
+    "tgt": "<p>Ihr könnt RoboHelp auf bis zu zwei Computern installieren. Wenn ihr es auf einem dritten Computer installieren möchtet, müsst ihr es auf einem eurer vorherigen Geräte deaktivieren. Erfahrt mehr über das <a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>Aktivieren und Deaktivieren von Adobe-Applikationen</a>. Wenn ihr fünf oder mehr Lizenzen benötigt, solltet ihr den Kauf eines <a href='https://www.adobe.com/products/robohelp/buying-guide.html'>Volumenlizenzplans</a> in Betracht ziehen.</p>",
+    "stringId": "c2d6dce11b"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_5/question",
+    "attr": "jcr:title",
+    "src": "How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?",
+    "tgt": "Wie kann ich ein Adobe RoboHelp-Paket über Adobe Admin Console erstellen und verteilen?",
+    "stringId": "e288087314"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_download/faq_item_download_5/answer",
+    "attr": "text",
+    "src": "<p>Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view <a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages</a>.</p>",
+    "tgt": "<p>Vordefinierte Vorlagen sind in der Admin Console verfügbar, um Pakete für Adobe RoboHelp zu erstellen. Weitere Informationen findet ihr unter <a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe-Vorlagen für Pakete</a>.</p>",
+    "stringId": "5e9bc5790e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_1/question",
+    "attr": "jcr:title",
+    "src": "How can I change my password?",
+    "tgt": "Wie kann ich mein Passwort ändern?",
+    "stringId": "aef0d801eb"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_1/answer",
+    "attr": "text",
+    "src": "<p>Sign in to your <a href='https://account.adobe.com/security'>Adobe account</a>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to <a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>reset it</a>.</p>",
+    "tgt": "<p>Meldet euch bei eurem <a href='https://account.adobe.com/security'>Adobe-Konto</a> an. Wählt im Abschnitt Passwort für Aktuelles Passwort die Option Ändern aus und folgt dann den Anweisungen auf dem Bildschirm. Passwort vergessen? Erfahrt, wie ihr es <a href='https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html'>zurücksetzen</a> könnt.</p>",
+    "stringId": "c6cfd17107"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_2/question",
+    "attr": "jcr:title",
+    "src": "How can I change my credit card info?",
+    "tgt": "Wie kann ich meine Kreditkarteninformationen ändern?",
+    "stringId": "35c8b13960"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_2/answer",
+    "attr": "text",
+    "src": "<p>You can update your credit card information from your accounts page on <a href='https://account.adobe.com/'>adobe.com</a>. For more information, view <a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Payment in the Adobe Store | Online order and payment FAQ</a>.</p>",
+    "tgt": "<p>Ihr könnt eure Kreditkarteninformationen auf eurer Kontoseite auf <a href='https://account.adobe.com/'>adobe.com</a> aktualisieren. Weitere Informationen findet ihr unter <a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Zahlung im Adobe Store | FAQ zu Online-Bestellung und Zahlung</a>.</p>",
+    "stringId": "4d014fb606"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_3/question",
+    "attr": "jcr:title",
+    "src": "My trial expires soon. How do I renew it?",
+    "tgt": "Meine Testversion läuft bald ab. Wie kann ich sie verlängern?",
+    "stringId": "a14564ba22"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_3/answer",
+    "attr": "text",
+    "src": "<p>You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from <a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&cli=adobe_com&ctx=fp&co=US&lang=en'>Adobe.com</a>. For any queries, you can reach us at <a href='mailto:techcomm@adobe.com'>techcomm@adobe.com</a>. For more information, see <a href='/content/robohelp-docs/en/docs/user-guide/rh-faq.html'>Subscription information and pricing</a> in the RoboHelp FAQ.</p>",
+    "tgt": "<p>Ihr könnt die 30-Tage-Testversion von Adobe RoboHelp in ein Abonnement umwandeln, indem ihr eine Lizenz auf <a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&cli=adobe_com&ctx=fp&co=US&lang=en'>Adobe.com</a> kauft. Bei Fragen erreicht ihr uns unter <a href='mailto:techcomm@adobe.com'>techcomm@adobe.com</a>. Weitere Informationen findet ihr unter <a href='/content/robohelp-docs/de/docs/user-guide/rh-faq.html'>Abonnementinformationen und Preise</a> in den RoboHelp-FAQ.</p>",
+    "stringId": "3c62f55ce5"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_4/question",
+    "attr": "jcr:title",
+    "src": "How do I cancel my subscription? Can I still use the software I have?",
+    "tgt": "Wie kündige ich mein Abonnement? Kann ich die Software, die ich habe, weiterhin verwenden?",
+    "stringId": "0b0d954231"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_4/answer",
+    "attr": "text",
+    "src": "<p>You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view <a href='/content/robohelp-docs/en/docs/user-guide/rh-faq.html'>Subscription information and pricing</a> in the RoboHelp FAQ.</p>",
+    "tgt": "<p>Ihr könnt euer Abonnement kündigen, indem ihr euch an den Adobe-Support wendet. Wenn ihr innerhalb von 14 Tagen kündigt, erhaltet ihr eine vollständige Rückerstattung. Andernfalls werden euch 50 % eurer verbleibenden vertraglichen Verpflichtung in Rechnung gestellt. Nach der Kündigung habt ihr keinen Zugriff mehr auf eure Abonnementsoftware. Weitere Informationen findet ihr unter <a href='/content/robohelp-docs/de/docs/user-guide/rh-faq.html'>Abonnementinformationen und Preise</a> in den RoboHelp-FAQ.</p>",
+    "stringId": "717efd4634"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_5/question",
+    "attr": "jcr:title",
+    "src": "How can I manage my licenses if they are allocated through my organization?",
+    "tgt": "Wie kann ich meine Lizenzen verwalten, wenn sie über meine Organisation zugewiesen werden?",
+    "stringId": "3acc7eac21"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_panel_account/faq_item_account_5/answer",
+    "attr": "text",
+    "src": "<p>You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the <a href='https://adminconsole.adobe.com/enterprise'>Admin Console</a>.</p>",
+    "tgt": "<p>Ihr könnt euch an eure Administratorin oder euren Administrator wenden, die oder der die Lizenzen für eure Organisation verwaltet. Wenn ihr weitere Unterstützung benötigt, kann eure Administratorin oder euer Administrator ein Ticket in der <a href='https://adminconsole.adobe.com/enterprise'>Admin Console</a> erstellen.</p>",
+    "stringId": "52b06c29ed"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/faq_section/faq_help/text",
+    "attr": "text",
+    "src": "<p>Still need help? Find more <a href='https://helpx.adobe.com/account/individual.html'>account, billing, and plan answers.</a></p>",
+    "tgt": "<p>Benötigt ihr noch Hilfe? Hier findet ihr weitere <a href='https://helpx.adobe.com/account/individual.html'>Antworten zu Konto, Abrechnung und Tarif.</a></p>",
+    "stringId": "0535a1f0ff"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_left/title",
+    "attr": "jcr:title",
+    "src": "Join the Conversation",
+    "tgt": "An der Unterhaltung teilnehmen",
+    "stringId": "56cde05bbc"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_left/text",
+    "attr": "text",
+    "src": "Connect with the Adobe RoboHelp community. Post questions and get answers from experts.",
+    "tgt": "Vernetzen Sie sich mit der Adobe RoboHelp-Community. Stellen Sie Fragen und erhalten Sie Antworten von Expertinnen und Experten.",
+    "stringId": "eb8e3ace67"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_left/buttons_container/button_forum",
+    "attr": "jcr:title",
+    "src": "Visit community forum",
+    "tgt": "Community-Forum besuchen",
+    "stringId": "5f751fbbbd"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_left/buttons_container/button_support",
+    "attr": "jcr:title",
+    "src": "Contact support",
+    "tgt": "Support kontaktieren",
+    "stringId": "2355eba49f"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/title",
+    "attr": "jcr:title",
+    "src": "Popular topics",
+    "tgt": "Beliebte Themen",
+    "stringId": "28f36d3d1b"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/tags_container/tag_server",
+    "attr": "jcr:title",
+    "src": "RoboHelp FAQs",
+    "tgt": "RoboHelp-FAQ",
+    "stringId": "af1c4f0606"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/tags_container/tag_builder",
+    "attr": "jcr:title",
+    "src": "Create a Project",
+    "tgt": "Ein Projekt erstellen",
+    "stringId": "cc4e6c6044"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/tags_container/tag_security",
+    "attr": "jcr:title",
+    "src": "Import Word documents into a project",
+    "tgt": "Word-Dokumente in ein Projekt importieren",
+    "stringId": "2d065a2747"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/tags_container/tag_performance",
+    "attr": "jcr:title",
+    "src": "Format your content",
+    "tgt": "Eure Inhalte formatieren",
+    "stringId": "8867f14e0e"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/community_section/community_right/tags_container/tag_review",
+    "attr": "jcr:title",
+    "src": "Review and Collaboration",
+    "tgt": "Überprüfung und Zusammenarbeit",
+    "stringId": "291f3d9d6d"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/product1/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/product1/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Product 1",
+    "tgt": "Produkt 1",
+    "stringId": "667e3e94a8"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/product1/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/product1/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container3/container_482659403_/container/title",
+    "attr": "jcr:title",
+    "src": "How can we help?",
+    "tgt": "Wie können wir helfen?",
+    "stringId": "e509c73754"
+  },
+  {
+    "file": "content/aemg-docs/en/docs/product1/.content.xml",
+    "targetFile": "content/aemg-docs/de/docs/product1/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/container3/container8/text",
+    "attr": "text",
+    "src": "Table of contents for Product 1",
+    "tgt": "Inhaltsverzeichnis für Product 1",
+    "stringId": "61c5dbfcdf"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:description",
+    "src": "Troubleshoot common questions about AEMG features.",
+    "tgt": "Häufige Probleme mit AEMG-Funktionen beheben.",
+    "stringId": "f3b5f93af0"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Search",
+    "tgt": "Suchen",
+    "stringId": "1bca120767"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "pageTitle",
+    "src": "Search",
+    "tgt": "Suchen",
+    "stringId": "1bca120767"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/searchresult",
+    "attr": "sortTitle",
+    "src": "Sort",
+    "tgt": "Sortieren",
+    "stringId": "46d7aa2001"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/searchresult/sortItems/item0",
+    "attr": "text",
+    "src": "Relevance",
+    "tgt": "Relevanz",
+    "stringId": "1db5ef1999"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/searchresult/sortItems/item1",
+    "attr": "text",
+    "src": "Date",
+    "tgt": "Datum",
+    "stringId": "078cf96866"
+  },
+  {
+    "file": "content/aemg-docs/en/search/.content.xml",
+    "targetFile": "content/aemg-docs/de/search/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container/container/searchresult/sortItems/item2",
+    "attr": "text",
+    "src": "Title",
+    "tgt": "Titel",
+    "stringId": "0e47b2e67e"
+  },
+  {
+    "file": "content/aemg-docs/en/signin/.content.xml",
+    "targetFile": "content/aemg-docs/de/signin/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:description",
+    "src": "Learn how to start a business on AEMG and collaborate with your clients",
+    "tgt": "Erfahre, wie du auf AEMG ein Business aufbaust und mit deinen Kundinnen und Kunden zusammenarbeitest",
+    "stringId": "0f85a9ec05"
+  },
+  {
+    "file": "content/aemg-docs/en/signin/.content.xml",
+    "targetFile": "content/aemg-docs/de/signin/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Sign In",
+    "tgt": "Anmelden",
+    "stringId": "142bdb5a85"
+  },
+  {
+    "file": "content/aemg-docs/en/signin/.content.xml",
+    "targetFile": "content/aemg-docs/de/signin/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "pageTitle",
+    "src": "Create a AEMG business",
+    "tgt": "Ein AEMG-Unternehmen erstellen",
+    "stringId": "5d8e9eaaae"
+  },
+  {
+    "file": "content/aemg-docs/en/support/.content.xml",
+    "targetFile": "content/aemg-docs/de/support/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:description",
+    "src": "Download, find membership help, and learn the basics",
+    "tgt": "Herunterladen, Hilfe zur Mitgliedschaft finden und die Grundlagen kennenlernen",
+    "stringId": "11161946a0"
+  },
+  {
+    "file": "content/aemg-docs/en/support/.content.xml",
+    "targetFile": "content/aemg-docs/de/support/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Support",
+    "tgt": "Support",
+    "stringId": "8afcaed246"
+  },
+  {
+    "file": "content/aemg-docs/en/support/.content.xml",
+    "targetFile": "content/aemg-docs/de/support/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "pageTitle",
+    "src": "Captivate",
+    "tgt": "Captivate",
+    "stringId": "6b0aab896b"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Header",
+    "tgt": "Kopfzeile",
+    "stringId": "5a8a9d413a"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/button_wap",
+    "attr": "jcr:title",
+    "src": "Technical Communication",
+    "tgt": "Technische Kommunikation",
+    "stringId": "3ac682a539"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/button1",
+    "attr": "jcr:title",
+    "src": "Adobe RoboHelp",
+    "tgt": "Adobe RoboHelp",
+    "stringId": "56093d7b3d"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/button2",
+    "attr": "jcr:title",
+    "src": "Buying Guide",
+    "tgt": "Kaufleitfaden",
+    "stringId": "0824ef8e58"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/button3",
+    "attr": "jcr:title",
+    "src": "Online Training",
+    "tgt": "Online-Schulung",
+    "stringId": "6dde1a2ed2"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/button4",
+    "attr": "jcr:title",
+    "src": "Learn & Support",
+    "tgt": "Lernen und Support",
+    "stringId": "c009d46567"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_left/buttonFreeTrial",
+    "attr": "jcr:title",
+    "src": "Free trial",
+    "tgt": "Kostenlose Testversion",
+    "stringId": "07ccfe3d27"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container_right/askdoc_button",
+    "attr": "jcr:title",
+    "src": "Ask AI",
+    "tgt": "KI fragen",
+    "stringId": "e35112a5b5"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container4/container5/image",
+    "attr": "alt",
+    "src": "Search",
+    "tgt": "Suchen",
+    "stringId": "1bca120767"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/button_wap",
+    "attr": "jcr:title",
+    "src": "Technical Communication",
+    "tgt": "Technische Kommunikation",
+    "stringId": "3ac682a539"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/button1",
+    "attr": "jcr:title",
+    "src": "Adobe RoboHelp",
+    "tgt": "Adobe RoboHelp",
+    "stringId": "56093d7b3d"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/button2",
+    "attr": "jcr:title",
+    "src": "Buying Guide",
+    "tgt": "Kaufleitfaden",
+    "stringId": "0824ef8e58"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/button3",
+    "attr": "jcr:title",
+    "src": "Online Training",
+    "tgt": "Online-Schulung",
+    "stringId": "6dde1a2ed2"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/button4",
+    "attr": "jcr:title",
+    "src": "Learn & Support",
+    "tgt": "Lernen und Support",
+    "stringId": "c009d46567"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/header/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/container7/buttonFreeTrial",
+    "attr": "jcr:title",
+    "src": "Free trial",
+    "tgt": "Kostenlose Testversion",
+    "stringId": "07ccfe3d27"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content",
+    "attr": "jcr:title",
+    "src": "Footer",
+    "tgt": "Fußzeile",
+    "stringId": "0aa9d58c1f"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/heading",
+    "attr": "text",
+    "src": "<p>RoboHelp</p>",
+    "tgt": "<p>RoboHelp</p>",
+    "stringId": "d2227db5b2"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/link1",
+    "attr": "jcr:title",
+    "src": "Learning Resources",
+    "tgt": "Lernressourcen",
+    "stringId": "8b70e7ebd9"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/link2",
+    "attr": "jcr:title",
+    "src": "Features",
+    "tgt": "Funktionen",
+    "stringId": "a93241e7f4"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/link3",
+    "attr": "jcr:title",
+    "src": "Buying Guide",
+    "tgt": "Kaufleitfaden",
+    "stringId": "0824ef8e58"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/link4",
+    "attr": "jcr:title",
+    "src": "Free Trial",
+    "tgt": "Kostenlose Testversion",
+    "stringId": "4419f25d98"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colColdfusion/link5",
+    "attr": "jcr:title",
+    "src": "Terms of Use",
+    "tgt": "Nutzungsbedingungen",
+    "stringId": "07253aa552"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/heading",
+    "attr": "text",
+    "src": "<p>Support</p>",
+    "tgt": "<p>Support</p>",
+    "stringId": "8afcaed246"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/link1",
+    "attr": "jcr:title",
+    "src": "Download and Install",
+    "tgt": "Herunterladen und installieren",
+    "stringId": "ae0719cf14"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/link2",
+    "attr": "jcr:title",
+    "src": "Help Center",
+    "tgt": "Hilfe-Center",
+    "stringId": "f662821735"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/link3",
+    "attr": "jcr:title",
+    "src": "Adobe Community",
+    "tgt": "Adobe Community",
+    "stringId": "3c32579059"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/link4",
+    "attr": "jcr:title",
+    "src": "Enterprise support",
+    "tgt": "Enterprise-Support",
+    "stringId": "af214007e7"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colSupport/link5",
+    "attr": "jcr:title",
+    "src": "Genuine software",
+    "tgt": "Originalsoftware",
+    "stringId": "468889e550"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colResources/heading",
+    "attr": "text",
+    "src": "<p>Resources</p>",
+    "tgt": "<p>Ressourcen</p>",
+    "stringId": "468459da85"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colResources/link1",
+    "attr": "jcr:title",
+    "src": "Adobe Blog",
+    "tgt": "Adobe-Blog",
+    "stringId": "9ebee91796"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colResources/link2",
+    "attr": "jcr:title",
+    "src": "Partner Portal",
+    "tgt": "Partner-Portal",
+    "stringId": "8f188f524a"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colResources/subheading",
+    "attr": "text",
+    "src": "<p>Adobe Account</p>",
+    "tgt": "<p>Adobe-Konto</p>",
+    "stringId": "658e70fb84"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colResources/link3",
+    "attr": "jcr:title",
+    "src": "Log in to your account",
+    "tgt": "Bei deinem Konto anmelden",
+    "stringId": "784c701fbf"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/heading",
+    "attr": "text",
+    "src": "<p>Adobe</p>",
+    "tgt": "<p>Adobe</p>",
+    "stringId": "73bb3bc1ec"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/link1",
+    "attr": "jcr:title",
+    "src": "About",
+    "tgt": "Info",
+    "stringId": "14b325a231"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/link2",
+    "attr": "jcr:title",
+    "src": "Careers",
+    "tgt": "Karriere",
+    "stringId": "72ab78724d"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/link3",
+    "attr": "jcr:title",
+    "src": "Newsroom",
+    "tgt": "Newsroom",
+    "stringId": "8635b8f8b1"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/link4",
+    "attr": "jcr:title",
+    "src": "Corporate responsibility",
+    "tgt": "Unternehmerische Verantwortung",
+    "stringId": "8395bdf211"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerLinks/colAdobe/link5",
+    "attr": "jcr:title",
+    "src": "Investor Relations",
+    "tgt": "Investor Relations",
+    "stringId": "ee6b17dd19"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerProducts/label",
+    "attr": "text",
+    "src": "<p>Featured products</p>",
+    "tgt": "<p>Ausgewählte Produkte</p>",
+    "stringId": "db8abf23a5"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerProducts/product1",
+    "attr": "jcr:title",
+    "src": "AEM Guides",
+    "tgt": "AEM Guides",
+    "stringId": "e528301d6d"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerProducts/product2",
+    "attr": "jcr:title",
+    "src": "Adobe Captivate",
+    "tgt": "Adobe Captivate",
+    "stringId": "50da56f262"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerProducts/product3",
+    "attr": "jcr:title",
+    "src": "Adobe Learning Manager",
+    "tgt": "Adobe Learning Manager",
+    "stringId": "ba5b38cadb"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerProducts/product4",
+    "attr": "jcr:title",
+    "src": "Adobe Connect",
+    "tgt": "Adobe Connect",
+    "stringId": "20ad01b38f"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomLeft/iconFacebook/link",
+    "attr": "accessibilityLabel",
+    "src": "Facebook",
+    "tgt": "Facebook",
+    "stringId": "ddf2b2bdf8"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomLeft/iconTwitter/link",
+    "attr": "accessibilityLabel",
+    "src": "X (Twitter)",
+    "tgt": "X (Twitter)",
+    "stringId": "5332bfdfcf"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomLeft/iconLinkedin/link",
+    "attr": "accessibilityLabel",
+    "src": "LinkedIn",
+    "tgt": "LinkedIn",
+    "stringId": "79aa5a0caa"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomLeft/iconBlog/link",
+    "attr": "accessibilityLabel",
+    "src": "Adobe TechComm Blog",
+    "tgt": "Adobe TechComm-Blog",
+    "stringId": "6349d2d997"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomRight/copyright",
+    "attr": "text",
+    "src": "<p>Copyright © 2026 Adobe. All rights reserved.</p>",
+    "tgt": "<p>Copyright © 2026 Adobe. Alle Rechte vorbehalten.</p>",
+    "stringId": "42e8f2b261"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomRight/legalLinks",
+    "attr": "text",
+    "src": "<p><a href='https://www.adobe.com/privacy.html'>Privacy</a> / <a href='https://www.adobe.com/legal/terms.html'>Terms of Use</a> / <a href='https://www.adobe.com/privacy/cookies.html'>Cookie preferences</a> / <a href='https://www.adobe.com/privacy/us-rights.html'>Do not sell my personal information</a> /</p>",
+    "tgt": "<p><a href='https://www.adobe.com/privacy.html'>Datenschutz</a> / <a href='https://www.adobe.com/legal/terms.html'>Nutzungsbedingungen</a> / <a href='https://www.adobe.com/privacy/cookies.html'>Cookie-Voreinstellungen</a> / <a href='https://www.adobe.com/privacy/us-rights.html'>Meine personenbezogenen Daten nicht verkaufen</a> /</p>",
+    "stringId": "38e62fad65"
+  },
+  {
+    "file": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml",
+    "targetFile": "content/experience-fragments/aemg-docs/de/site/footer/master/.content.xml",
+    "xpath": "/jcr:root/jcr:content/root/footerBottom/footerBottomRight/adchoices",
+    "attr": "text",
+    "src": "<p><a href='https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads'>AdChoices</a></p>",
+    "tgt": "<p><a href='https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads'>AdChoices</a></p>",
+    "stringId": "da80033173"
+  }
+]

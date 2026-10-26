@@ -1,0 +1,912 @@
+{
+  "sourceLang": "en",
+  "strings": {
+    "0041296d45": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get instant access to high-quality, on-demand training courses",
+      "status": "translated",
+      "tgt": "高品質なオンデマンドトレーニングコースにすぐにアクセス"
+    },
+    "0535a1f0ff": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Still need help? Find more <a_1>account, billing, and plan answers.</a_1>",
+      "status": "translated",
+      "tgt": "まだサポートが必要ですか？<a_1>アカウント、請求、プランに関するその他の回答</a_1>を確認してください。"
+    },
+    "07253aa552": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Terms of Use",
+      "status": "translated",
+      "tgt": "利用条件"
+    },
+    "078cf96866": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Date",
+      "status": "translated",
+      "tgt": "日付"
+    },
+    "07b0a4f130": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Share this page",
+      "status": "translated",
+      "tgt": "このページを共有"
+    },
+    "07ccfe3d27": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Free trial",
+      "status": "translated",
+      "tgt": "無料体験版"
+    },
+    "0824ef8e58": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Buying Guide",
+      "status": "translated",
+      "tgt": "購入ガイド"
+    },
+    "08644e3679": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Account Management",
+      "status": "translated",
+      "tgt": "アカウント管理"
+    },
+    "0aa9d58c1f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Footer",
+      "status": "translated",
+      "tgt": "フッター"
+    },
+    "0ada8634c0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get started with RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpを使い始める"
+    },
+    "0b0d954231": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How do I cancel my subscription? Can I still use the software I have?",
+      "status": "translated",
+      "tgt": "サブスクリプションを解約するにはどうすればよいですか? 現在持っているソフトウェアは引き続き使用できますか?"
+    },
+    "0e47b2e67e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Title",
+      "status": "translated",
+      "tgt": "タイトル"
+    },
+    "0f85a9ec05": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn how to start a business on AEMG and collaborate with your clients",
+      "status": "translated",
+      "tgt": "AEMGでビジネスを始め、クライアントと連携する方法を学ぶ"
+    },
+    "11161946a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download, find membership help, and learn the basics",
+      "status": "translated",
+      "tgt": "ダウンロード、メンバーシップのヘルプの確認、基本の学習"
+    },
+    "12c17048a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp Documentation | Learn & Support",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpドキュメント | 学習とサポート"
+    },
+    "13cf1a8c7c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get the installers for the latest RoboHelp release and start authoring and publishing content across multiple touchpoints.",
+      "status": "translated",
+      "tgt": "最新のRoboHelpリリース用インストーラーを入手して、複数のタッチポイントにわたるコンテンツのオーサリングと公開を開始できます。"
+    },
+    "142bdb5a85": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sign In",
+      "status": "translated",
+      "tgt": "ログイン"
+    },
+    "14b325a231": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "About",
+      "status": "translated",
+      "tgt": "概要"
+    },
+    "164384e2b2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Tutorials",
+      "status": "translated",
+      "tgt": "チュートリアル"
+    },
+    "16ce11054e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Publish to Zendesk",
+      "status": "translated",
+      "tgt": "Zendeskに公開"
+    },
+    "16f68a9bde": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Help resources",
+      "status": "translated",
+      "tgt": "ヘルプリソース"
+    },
+    "1757ad24af": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to customize PDF template components?",
+      "status": "translated",
+      "tgt": "PDFテンプレートコンポーネントをカスタマイズする方法"
+    },
+    "18a2822121": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Connect with others to troubleshoot and grow your knowledge",
+      "status": "translated",
+      "tgt": "他のユーザーとつながってトラブルシューティングを行い、知識を深める"
+    },
+    "1bca120767": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Search",
+      "status": "translated",
+      "tgt": "検索"
+    },
+    "1db5ef1999": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Relevance",
+      "status": "translated",
+      "tgt": "関連性"
+    },
+    "20ad01b38f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Connect",
+      "status": "translated",
+      "tgt": "Adobe Connect"
+    },
+    "22856a8dd8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Customize colors, layout, fonts, and branding of your Frameless output skin.",
+      "status": "translated",
+      "tgt": "Frameless出力スキンの色、レイアウト、フォント、ブランディングをカスタマイズします。"
+    },
+    "2355eba49f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Contact support",
+      "status": "translated",
+      "tgt": "サポートに問い合わせる"
+    },
+    "2503866fbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?",
+      "status": "translated",
+      "tgt": "RoboHelpの試用版を入手できますか? また、RoboHelpのアップデートを確認してインストールするにはどうすればよいですか?"
+    },
+    "28ae04dfc6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Open app",
+      "status": "translated",
+      "tgt": "アプリを開く"
+    },
+    "28f36d3d1b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Popular topics",
+      "status": "translated",
+      "tgt": "人気のトピック"
+    },
+    "291f3d9d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Review and Collaboration",
+      "status": "translated",
+      "tgt": "レビューと共同作業"
+    },
+    "2a5b79605e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Collaborate with other authors for creating, sharing, and managing reviews for your content using <a_1>Git</a_1>, <a_2>SharePoint online</a_2>, and <a_3>Azure DevOps</a_3>.",
+      "status": "translated",
+      "tgt": "<a_1>Git</a_1>、<a_2>SharePoint Online</a_2>、<a_3>Azure DevOps</a_3>を使用して、コンテンツのレビューの作成、共有、管理を他の作成者と共同で行うことができます。"
+    },
+    "2d065a2747": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Import Word documents into a project",
+      "status": "translated",
+      "tgt": "Wordドキュメントをプロジェクトに読み込む"
+    },
+    "300f8d445f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore community",
+      "status": "translated",
+      "tgt": "コミュニティを見る"
+    },
+    "33994bf371": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Access expert-made documentation, articles, and release notes",
+      "status": "translated",
+      "tgt": "専門家が作成したドキュメント、記事、リリースノートにアクセス"
+    },
+    "3438e3db0f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Why am I getting an error to \"Update OS or Browser\" while installing or activating RoboHelp?",
+      "status": "translated",
+      "tgt": "RoboHelpのインストールまたはアクティベーション中に「Update OS or Browser」というエラーが表示されるのはなぜですか?"
+    },
+    "35c8b13960": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I change my credit card info?",
+      "status": "translated",
+      "tgt": "クレジットカード情報を変更するにはどうすればよいですか?"
+    },
+    "38e62fad65": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Privacy</a_1> / <a_2>Terms of Use</a_2> / <a_3>Cookie preferences</a_3> / <a_4>Do not sell my personal information</a_4> /",
+      "status": "translated",
+      "tgt": "<a_1>プライバシー</a_1> / <a_2>利用規約</a_2> / <a_3>Cookieの設定</a_3> / <a_4>個人情報を販売しない</a_4> /"
+    },
+    "3ac682a539": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Technical Communication",
+      "status": "translated",
+      "tgt": "テクニカルコミュニケーション"
+    },
+    "3acc7eac21": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I manage my licenses if they are allocated through my organization?",
+      "status": "translated",
+      "tgt": "組織を通じてライセンスが割り当てられている場合、ライセンスを管理するにはどうすればよいですか?"
+    },
+    "3b6bf70dbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Home",
+      "status": "translated",
+      "tgt": "ホーム"
+    },
+    "3c32579059": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Community",
+      "status": "translated",
+      "tgt": "Adobeコミュニティ"
+    },
+    "3c62f55ce5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from <a_1>Adobe.com</a_1>. For any queries, you can reach us at <a_2>techcomm@adobe.com</a_2>. For more information, see <a_3>Subscription information and pricing</a_3> in the RoboHelp FAQ.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpの30日間体験版は、<a_1>Adobe.com</a_1>からライセンスを購入することでサブスクリプションに変換できます。ご不明な点がある場合は、<a_2>techcomm@adobe.com</a_2>までお問い合わせいただけます。詳しくは、RoboHelp FAQの<a_3>サブスクリプション情報と価格</a_3>を参照してください。"
+    },
+    "40557c8e18": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Download RoboHelp</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>RoboHelpをダウンロード</a_1>"
+    },
+    "420068b226": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I collaborate with other authors?",
+      "status": "translated",
+      "tgt": "他の作成者と共同作業するにはどうすればよいですか?"
+    },
+    "42e8f2b261": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Copyright © 2026 Adobe. All rights reserved.",
+      "status": "translated",
+      "tgt": "Copyright © 2026 Adobe. 無断複写・転載を禁じます。"
+    },
+    "4419f25d98": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Free Trial",
+      "status": "translated",
+      "tgt": "無料体験版"
+    },
+    "4494d4b3aa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore tutorials, documentation, and resources to get the most out of RoboHelp.",
+      "status": "translated",
+      "tgt": "チュートリアル、ドキュメント、リソースを確認して、RoboHelpを最大限に活用しましょう。"
+    },
+    "468459da85": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Resources",
+      "status": "translated",
+      "tgt": "リソース"
+    },
+    "468889e550": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Genuine software",
+      "status": "translated",
+      "tgt": "正規ソフトウェア"
+    },
+    "46d7aa2001": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sort",
+      "status": "translated",
+      "tgt": "並べ替え"
+    },
+    "48a8b25693": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "What are the supported file formats in RoboHelp?",
+      "status": "translated",
+      "tgt": "RoboHelpでサポートされているファイル形式は何ですか?"
+    },
+    "4962f9b462": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "I want to upgrade my project. What are the points that I must keep in mind?",
+      "status": "translated",
+      "tgt": "プロジェクトをアップグレードしたいと考えています。注意すべき点は何ですか?"
+    },
+    "4d014fb606": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can update your credit card information from your accounts page on <a_1>adobe.com</a_1>. For more information, view <a_2>Payment in the Adobe Store | Online order and payment FAQ</a_2>.",
+      "status": "translated",
+      "tgt": "クレジットカード情報は、<a_1>adobe.com</a_1>のアカウントページから更新できます。詳しくは、<a_2>Adobe Storeでの支払い | オンライン注文と支払いに関するFAQ</a_2>を参照してください。"
+    },
+    "50da56f262": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Captivate",
+      "status": "translated",
+      "tgt": "Adobe Captivate"
+    },
+    "514eb30c14": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Ask anything about RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpについて何でも質問"
+    },
+    "52b06c29ed": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the <a_1>Admin Console</a_1>.",
+      "status": "translated",
+      "tgt": "組織のライセンスを管理している管理者に連絡できます。さらにサポートが必要な場合は、管理者が<a_1>Admin Console</a_1>でチケットを起票できます。"
+    },
+    "5302043f52": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view <a_1>deprecated IE10 support</a_1>. Also, take a look at <a_2>upgrading operating system and supported browser versions</a_2>.",
+      "status": "translated",
+      "tgt": "すべてのAdobe製品では、効率的に機能させるために、最新のオペレーティングシステムとブラウザーのアップデートを使用することを推奨しています。最新のアップデートを実行していてもエラーが発生する場合は、詳細について<a_1>非推奨となったIE10サポート</a_1>を参照してください。また、<a_2>オペレーティングシステムのアップグレードとサポートされるブラウザーバージョン</a_2>も確認してください。"
+    },
+    "5332bfdfcf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "X (Twitter)",
+      "status": "translated",
+      "tgt": "X (Twitter)"
+    },
+    "5558c0ca7e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore RoboHelp Workspace",
+      "status": "translated",
+      "tgt": "RoboHelp Workspaceを確認"
+    },
+    "56093d7b3d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp",
+      "status": "translated",
+      "tgt": "Adobe RoboHelp"
+    },
+    "56cde05bbc": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Join the Conversation",
+      "status": "translated",
+      "tgt": "会話に参加"
+    },
+    "59ce487cf9": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.",
+      "status": "translated",
+      "tgt": "コンテンツ作成用のRoboHelpのメニュー、パネル、ツールバー、ビューの概要。"
+    },
+    "5a8a9d413a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Header",
+      "status": "translated",
+      "tgt": "ヘッダー"
+    },
+    "5d8e9eaaae": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Create a AEMG business",
+      "status": "translated",
+      "tgt": "AEMGビジネスを作成"
+    },
+    "5e9bc5790e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view <a_1>Adobe Templates for Packages</a_1>.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpのパッケージを作成するための定義済みテンプレートをAdmin Consoleで利用できます。詳しくは、<a_1>Adobe Templates for Packages</a_1>を参照してください。"
+    },
+    "5f751fbbbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Visit community forum",
+      "status": "translated",
+      "tgt": "コミュニティフォーラムにアクセス"
+    },
+    "6117147267": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Contact support ></a_1>",
+      "status": "translated",
+      "tgt": "<a_1>サポートに問い合わせる ／</a_1>"
+    },
+    "611bc33b38": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpのドキュメントとサポートハブ。RoboHelpを最大限に活用するための回答、チュートリアル、ドキュメント、リソースを見つけましょう。"
+    },
+    "61c5dbfcdf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Table of contents for Product 1",
+      "status": "translated",
+      "tgt": "製品1の目次"
+    },
+    "6349d2d997": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe TechComm Blog",
+      "status": "translated",
+      "tgt": "Adobe TechCommブログ"
+    },
+    "6396b98406": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpをダウンロード"
+    },
+    "658e70fb84": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Account",
+      "status": "translated",
+      "tgt": "Adobeアカウント"
+    },
+    "667e3e94a8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Product 1",
+      "status": "translated",
+      "tgt": "製品1"
+    },
+    "685b6e8324": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Watch quick tutorials, video playlists, and how-to's created by experts",
+      "status": "translated",
+      "tgt": "専門家が作成したクイックチュートリアル、ビデオプレイリスト、ハウツーを見る"
+    },
+    "6ab77b3530": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "AI responses may be inaccurate and any offers provided are non-binding. <a_1>Terms.</a_1>",
+      "status": "translated",
+      "tgt": "AIの応答には不正確な内容が含まれる場合があり、提供されるオファーはいずれも拘束力を持ちません。<a_1>利用条件。</a_1>"
+    },
+    "6b05b464d6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn <a_1>what's new</a_1> in RoboHelp (September 2026 release)!",
+      "status": "translated",
+      "tgt": "RoboHelpの<a_1>新機能</a_1>(2026年9月リリース)を確認しましょう。"
+    },
+    "6b0aab896b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Captivate",
+      "status": "translated",
+      "tgt": "Captivate"
+    },
+    "6dde1a2ed2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Online Training",
+      "status": "translated",
+      "tgt": "オンライントレーニング"
+    },
+    "6f07036b6b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Talk to Adobe about RoboHelp installation, licensing, and technical questions.",
+      "status": "translated",
+      "tgt": "RoboHelpのインストール、ライセンス、技術的な質問についてAdobeに問い合わせることができます。"
+    },
+    "70ba666e79": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "All levels",
+      "status": "translated",
+      "tgt": "すべてのレベル"
+    },
+    "717efd4634": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view <a_1>Subscription information and pricing</a_1> in the RoboHelp FAQ.",
+      "status": "translated",
+      "tgt": "サブスクリプションはAdobeサポートに連絡することで解約できます。14日以内に解約した場合は、全額が返金されます。それ以外の場合は、契約上の残りの支払い義務の50%が請求されます。解約後はサブスクリプションソフトウェアにアクセスできなくなります。詳しくは、RoboHelp FAQの<a_1>サブスクリプション情報と価格</a_1>を参照してください。"
+    },
+    "72ab78724d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Careers",
+      "status": "translated",
+      "tgt": "採用情報"
+    },
+    "73bb3bc1ec": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe",
+      "status": "translated",
+      "tgt": "Adobe"
+    },
+    "766203c0ca": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Trending Resources",
+      "status": "translated",
+      "tgt": "注目のリソース"
+    },
+    "76b9e1d80c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to split editor screen horizontally?",
+      "status": "translated",
+      "tgt": "エディター画面を水平方向に分割する方法"
+    },
+    "76ba1abff2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Customize Frameless Skins",
+      "status": "translated",
+      "tgt": "Framelessスキンをカスタマイズ"
+    },
+    "784c701fbf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Log in to your account",
+      "status": "translated",
+      "tgt": "アカウントにログイン"
+    },
+    "798efb9ad3": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn how to <a_1>resolve download issues</a_1> with RoboHelp and other Adobe apps.",
+      "status": "translated",
+      "tgt": "RoboHelpや他のAdobeアプリで<a_1>ダウンロードの問題を解決する</a_1>方法を説明します。"
+    },
+    "79aa5a0caa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "LinkedIn",
+      "status": "translated",
+      "tgt": "LinkedIn"
+    },
+    "7b0f420852": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "User guide",
+      "status": "translated",
+      "tgt": "ユーザーガイド"
+    },
+    "7db2943523": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore online training",
+      "status": "translated",
+      "tgt": "オンライントレーニングを見る"
+    },
+    "80e12d469d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Got questions? We have the answer",
+      "status": "translated",
+      "tgt": "質問がありますか？お答えします"
+    },
+    "8395bdf211": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Corporate responsibility",
+      "status": "translated",
+      "tgt": "企業責任"
+    },
+    "8635b8f8b1": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Newsroom",
+      "status": "translated",
+      "tgt": "ニュースルーム"
+    },
+    "877bc88938": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Output generated in RoboHelp can be hosted on any web enabled server like Apache, <a_1>RoboHelp Server</a_1>, <a_2>SharePoint Online</a_2>, <a_3>Zendesk Help Center</a_3>, <a_4>Salesforce Knowledge Base</a_4>, <a_5>ServiceNow Knowledge Base</a_5>, <a_6>Zoho Knowledge Base</a_6>, and <a_7>Adobe Experience Manager</a_7>.",
+      "status": "translated",
+      "tgt": "RoboHelpで生成された出力は、Apache、<a_1>RoboHelp Server</a_1>、<a_2>SharePoint Online</a_2>、<a_3>Zendesk Help Center</a_3>、<a_4>Salesforce Knowledge Base</a_4>、<a_5>ServiceNow Knowledge Base</a_5>、<a_6>Zoho Knowledge Base</a_6>、<a_7>Adobe Experience Manager</a_7>など、Web対応サーバーでホストできます。"
+    },
+    "8867f14e0e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Format your content",
+      "status": "translated",
+      "tgt": "コンテンツの書式を設定"
+    },
+    "8aa90a8b25": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<p_1><b_2>Adobe Technical Communication Events</b_2></p_1><p_3>Join our in-person and virtual events to explore technical content and knowledge management trends, hear customer success stories, build skills, and network with peers and industry leaders.</p_3>",
+      "status": "translated",
+      "tgt": "<p_1><b_2>Adobe Technical Communication Events</b_2></p_1><p_3>対面イベントとバーチャルイベントに参加して、テクニカルコンテンツとナレッジ管理のトレンドを探り、顧客の成功事例を聞き、スキルを高め、同業者や業界リーダーと交流できます。</p_3>"
+    },
+    "8afcaed246": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Support",
+      "status": "translated",
+      "tgt": "サポート"
+    },
+    "8b70e7ebd9": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learning Resources",
+      "status": "translated",
+      "tgt": "学習リソース"
+    },
+    "8f188f524a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Partner Portal",
+      "status": "translated",
+      "tgt": "パートナーポータル"
+    },
+    "8f577bfff8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Documentation",
+      "status": "translated",
+      "tgt": "ドキュメント"
+    },
+    "9ca89f8cee": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore tutorials",
+      "status": "translated",
+      "tgt": "チュートリアルを見る"
+    },
+    "9e1a431251": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Configure output presets and publish profiles to push content to Zendesk.",
+      "status": "translated",
+      "tgt": "出力プリセットと公開プロファイルを設定して、コンテンツをZendeskにプッシュします。"
+    },
+    "9ebee91796": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Blog",
+      "status": "translated",
+      "tgt": "Adobe Blog"
+    },
+    "9f158a459d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "DOCUMENTATION",
+      "status": "translated",
+      "tgt": "ドキュメント"
+    },
+    "a009274728": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore documentation",
+      "status": "translated",
+      "tgt": "ドキュメントを見る"
+    },
+    "a14564ba22": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "My trial expires soon. How do I renew it?",
+      "status": "translated",
+      "tgt": "試用期間がまもなく終了します。更新するにはどうすればよいですか?"
+    },
+    "a59f77b431": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Join the Adobe Community to learn, create, and connect with fellow creators from around the world.",
+      "status": "translated",
+      "tgt": "Adobeコミュニティに参加して、世界中のクリエイター仲間と学び、作り、つながりましょう。"
+    },
+    "a93241e7f4": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Features",
+      "status": "translated",
+      "tgt": "機能"
+    },
+    "ae0719cf14": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download and Install",
+      "status": "translated",
+      "tgt": "ダウンロードとインストール"
+    },
+    "ae5fdbcaae": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "To collaborate using Review, log in using your Adobe ID as Review is hosted on the <a_1>Adobe Creative Cloud</a_1>. For more information, view <a_2>Review and Collaboration</a_2>.",
+      "status": "translated",
+      "tgt": "Reviewを使用して共同作業するには、Reviewは<a_1>Adobe Creative Cloud</a_1>でホストされているため、Adobe IDを使用してログインします。詳しくは、<a_2>Reviewと共同作業</a_2>を参照してください。"
+    },
+    "aef0d801eb": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I change my password?",
+      "status": "translated",
+      "tgt": "パスワードを変更するにはどうすればよいですか?"
+    },
+    "af1c4f0606": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp FAQs",
+      "status": "translated",
+      "tgt": "RoboHelp よくある質問"
+    },
+    "af214007e7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Enterprise support",
+      "status": "translated",
+      "tgt": "エンタープライズサポート"
+    },
+    "af47ed2bfa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp Community",
+      "status": "translated",
+      "tgt": "RoboHelpコミュニティ"
+    },
+    "b5250c9171": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn and Support",
+      "status": "translated",
+      "tgt": "学習とサポート"
+    },
+    "ba5b38cadb": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Learning Manager",
+      "status": "translated",
+      "tgt": "Adobe Learning Manager"
+    },
+    "bc77d11a9a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to link to bookmark from another topic?",
+      "status": "translated",
+      "tgt": "別のトピックからブックマークにリンクする方法"
+    },
+    "c009d46567": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn & Support",
+      "status": "translated",
+      "tgt": "学習とサポート"
+    },
+    "c24f33a253": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Community",
+      "status": "translated",
+      "tgt": "コミュニティ"
+    },
+    "c2d6dce11b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about <a_1>activating and deactivating Adobe apps</a_1>. If you need five or more licenses, consider purchasing a <a_2>volume licensing plan</a_2>.",
+      "status": "translated",
+      "tgt": "RoboHelpは最大2台のコンピューターにインストールできます。3台目のコンピューターにインストールする場合は、以前のいずれかのマシンでライセンス認証を解除する必要があります。<a_1>Adobeアプリのライセンス認証と認証解除</a_1>について詳しくは、こちらを参照してください。5つ以上のライセンスが必要な場合は、<a_2>ボリュームライセンスプラン</a_2>の購入を検討してください。"
+    },
+    "c6cfd17107": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sign in to your <a_1>Adobe account</a_1>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to <a_2>reset it</a_2>.",
+      "status": "translated",
+      "tgt": "<a_1>Adobeアカウント</a_1>にサインインします。パスワードセクションで、「現在のパスワード」の「変更」を選択し、画面の指示に従います。パスワードを忘れた場合は、<a_2>リセットする方法</a_2>を参照してください。"
+    },
+    "c927b21d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get expert help",
+      "status": "translated",
+      "tgt": "専門家のサポートを受ける"
+    },
+    "cc4e6c6044": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Create a Project",
+      "status": "translated",
+      "tgt": "プロジェクトを作成"
+    },
+    "cd728df07a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to use Review and where it is hosted? Is an Adobe Id required to access it?",
+      "status": "translated",
+      "tgt": "Reviewの使用方法とホスト場所を教えてください。アクセスするにはAdobe IDが必要ですか?"
+    },
+    "cdb777867e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view <a_1>Supported file formats</a_1>.",
+      "status": "translated",
+      "tgt": "RoboHelpは、既存のヘルププロジェクトを開く場合と、他のオーサリングツールからコンテンツを読み込む場合の両方で、幅広いファイル形式をサポートしています。これには、HHP、XPJ、MPJなどのプロジェクト形式に加え、Word、PDF、FrameMaker、DITA、HTML/XML、および各種画像、音声、動画ファイルなどの読み込み形式が含まれます。詳しくは、<a_1>サポートされるファイル形式</a_1>を参照してください。"
+    },
+    "d1b91076b7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Why won't RoboHelp download?",
+      "status": "translated",
+      "tgt": "RoboHelpをダウンロードできないのはなぜですか?"
+    },
+    "d2227db5b2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelp"
+    },
+    "d280443dd1": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Can I install RoboHelp on another computer?",
+      "status": "translated",
+      "tgt": "RoboHelpを別のコンピューターにインストールできますか?"
+    },
+    "d9ea4a7f7c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "What are the options available to host a generated output?",
+      "status": "translated",
+      "tgt": "生成された出力をホストするために利用できるオプションは何ですか?"
+    },
+    "da80033173": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>AdChoices</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>AdChoices</a_1>"
+    },
+    "db8abf23a5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Featured products",
+      "status": "translated",
+      "tgt": "注目の製品"
+    },
+    "ddf2b2bdf8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Facebook",
+      "status": "translated",
+      "tgt": "Facebook"
+    },
+    "e163cd3515": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Last update:",
+      "status": "translated",
+      "tgt": "最終更新日："
+    },
+    "e288087314": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?",
+      "status": "translated",
+      "tgt": "Adobe Admin Consoleを通じてAdobe RoboHelpパッケージを作成して配布するにはどうすればよいですか?"
+    },
+    "e35112a5b5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Ask AI",
+      "status": "translated",
+      "tgt": "AIに質問"
+    },
+    "e41ae51679": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Yes. You can <a_1>download</a_1> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view <a_2>installing a trial</a_2>. To check if there are any updates, go to Help > Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from <a_3>downloads</a_3>.",
+      "status": "translated",
+      "tgt": "はい。Adobe IDとパスワードでサインインすると、完全に機能する30日間の無償体験版を<a_1>ダウンロード</a_1>できます。詳しい手順については、<a_2>体験版のインストール</a_2>を参照してください。アップデートがあるかどうかを確認するには、現在のRoboHelpバージョンでヘルプ／アップデートの確認に移動します。または、<a_3>ダウンロード</a_3>から手動でインストールすることもできます。"
+    },
+    "e509c73754": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can we help?",
+      "status": "translated",
+      "tgt": "どのようなサポートが必要ですか？"
+    },
+    "e528301d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "AEM Guides",
+      "status": "translated",
+      "tgt": "AEM Guides"
+    },
+    "eb8e3ace67": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Connect with the Adobe RoboHelp community. Post questions and get answers from experts.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpコミュニティに参加します。質問を投稿し、エキスパートから回答を得ることができます。"
+    },
+    "ee6b17dd19": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Investor Relations",
+      "status": "translated",
+      "tgt": "投資家情報"
+    },
+    "ef54fc14e6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view <a_1>Upgrade a project in RoboHelp</a_1>.",
+      "status": "translated",
+      "tgt": "RoboHelp Classicから再設計版(2019 releaseまたは2020 release)にプロジェクトをアップグレードするには、アップグレードによって発生する可能性があるいくつかの考慮事項があります。詳しくは、<a_1>RoboHelpでプロジェクトをアップグレード</a_1>を参照してください。"
+    },
+    "f1686e69a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Common issues",
+      "status": "translated",
+      "tgt": "一般的な問題"
+    },
+    "f2db1db529": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to add a word to the user dictionary?",
+      "status": "translated",
+      "tgt": "ユーザー辞書に単語を追加する方法"
+    },
+    "f3b5f93af0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Troubleshoot common questions about AEMG features.",
+      "status": "translated",
+      "tgt": "AEMG機能に関する一般的な質問のトラブルシューティングを行います。"
+    },
+    "f47232aef7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Whatever message this page gives is out now!  <a_1>Go check it out!</a_1>",
+      "status": "translated",
+      "tgt": "このページのメッセージが公開されました。  <a_1>今すぐ確認してください。</a_1>"
+    },
+    "f662821735": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Help Center",
+      "status": "translated",
+      "tgt": "ヘルプセンター"
+    },
+    "fc511561ab": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to prevent data loss while authoring?",
+      "status": "translated",
+      "tgt": "オーサリング中のデータ損失を防ぐ方法"
+    },
+    "ffc4d74b6e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Register now</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>今すぐ登録</a_1>"
+    }
+  },
+  "targetLang": "ja"
+}
