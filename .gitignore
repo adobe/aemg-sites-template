@@ -40,5 +40,6 @@ __pycache__/
 /tools/l10n/data/translation-report.md
 /tools/l10n/data/*/vendor/translate-report.*.csv
 /tools/l10n/data/*/units.json
+/tools/l10n/data/*/mapping.*.json
 /tools/l10n/data/*/vendor/*.xlf
 /tools/l10n/data/*/vendor/glossary-do-not-translate.csv

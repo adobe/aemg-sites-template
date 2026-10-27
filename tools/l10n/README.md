@@ -27,7 +27,7 @@ tools/l10n/data/
 │   ├── vendor/                  robohelp-en-ja.xlf / .csv, glossary-do-not-translate.csv
 │   ├── units.json               written by extract
 │   ├── translations.ja.json     written by import
-│   └── mapping.ja.json          written by apply
+│   └── mapping.ja.json          written by apply (local report, not committed)
 ├── fr/   (same layout, robohelp-en-fr.*, translations.fr.json, …)
 └── de/   (same layout, robohelp-en-de.*, translations.de.json, …)
 ```
@@ -43,7 +43,7 @@ The generated site content also goes to a per-language tree: `content/aemg-docs/
   concurrent imports for one language can lose updates. Run them one after another.
 - Keep the English source stable while the languages are in progress, so every language is packaged from the same
   revision (otherwise string ids differ; see `extract --delta`).
-- `apply --dry-run` still rewrites that language's `mapping.<lang>.json`.
+- `apply --dry-run` still rewrites that language's `mapping.<lang>.json` (a local file, see below).
 
 ---
 
@@ -158,7 +158,7 @@ Files in `tools/l10n/data/<lang>/` (one folder per language):
 |---|---|---|
 | `units.json` | every location (file, xpath, attr, applyMode, src, stringId); written by `extract` | no |
 | `translations.<lang>.json` | `stringId` → `{src, tgt, status, batch}`; written by `import` | no |
-| `mapping.<lang>.json` | location → src → tgt for what was applied; written by `apply` | no |
+| `mapping.<lang>.json` | location → src → tgt for what was applied; written by `apply`. **Local report: git-ignored, not committed.** It describes one branch's content (so it differs between branches and would conflict on merge), nothing reads it, and `apply` regenerates it | no |
 | `vendor/*` | the packages above | yes |
 
 ### Rich text
