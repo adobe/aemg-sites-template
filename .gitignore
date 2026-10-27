@@ -30,3 +30,15 @@ site/target/*
 .idea
 nbproject
 /nbproject/private/
+
+# l10n tool: scratch backups, Python cache, and the translators' sheet exports (kept local, not committed)
+/tools/l10n/**/*.bak
+__pycache__/
+*.pyc
+/tools/l10n/data/*.csv
+/tools/l10n/data/*.xlsx
+/tools/l10n/data/translation-report.md
+/tools/l10n/data/*/vendor/translate-report.*.csv
+/tools/l10n/data/*/units.json
+/tools/l10n/data/*/vendor/*.xlf
+/tools/l10n/data/*/vendor/glossary-do-not-translate.csv
