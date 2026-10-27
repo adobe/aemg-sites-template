@@ -14,6 +14,7 @@
     { "path": "content/aemg-docs/en/support/.content.xml", "applyMode": "apply" },
     { "path": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml", "applyMode": "apply" },
     { "path": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml", "applyMode": "apply" },
+    { "path": "content/experience-fragments/aemg-docs/en/site/map-sidebar/master/.content.xml", "applyMode": "apply" },
     { "path": "conf/aemg-docs/settings/wcm/templates/kb-content/structure/.content.xml", "applyMode": "extract-only" },
     { "path": "conf/aemg-docs/settings/wcm/templates/topic-content/structure/.content.xml", "applyMode": "extract-only" }
   ],

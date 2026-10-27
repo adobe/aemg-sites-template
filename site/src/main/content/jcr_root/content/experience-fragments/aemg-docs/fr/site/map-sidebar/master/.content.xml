@@ -7,7 +7,7 @@
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Panneau latéral de la carte"
+        jcr:title="Map sidebar"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
@@ -17,26 +17,86 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 id="kb-download-card">
-                <download-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-download-icon"/>
-                <download-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="Télécharger RoboHelp" textIsRich="false" id="kb-download-title"/>
-                <download-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Obtenez les programmes d’installation de la dernière version de RoboHelp et commencez à créer et à publier du contenu sur plusieurs points de contact.&lt;/p>" textIsRich="true" id="kb-download-text"/>
-                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>Télécharger RoboHelp&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
+                <download-icon
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-download-icon"/>
+                <download-title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="Télécharger FrameMaker"
+                    textIsRich="false"
+                    id="kb-download-title"/>
+                <download-text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>Obtenez le programme d’installation de la dernière version de FrameMaker et commencez à créer et à publier du contenu sur plusieurs points de contact.&lt;/p>"
+                    textIsRich="true"
+                    id="kb-download-text"/>
+                <download-btn
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>&lt;a href='/content/framemaker-docs/fr/docs/user-guide/framemaker-downloads.html'>Télécharger FrameMaker&lt;/a>&lt;/p>"
+                    textIsRich="true"
+                    id="kb-download-btn"/>
             </kb-download-card>
             <kb-sidebar-cards-row
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 id="kb-sidebar-cards-row">
-                <kb-community-card jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-community-card">
-                    <community-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-community-icon"/>
-                    <community-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="Communauté RoboHelp" textIsRich="false" id="kb-community-title"/>
-                    <community-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Rejoignez la communauté Adobe pour apprendre, créer et échanger avec d’autres créateurs et créatrices du monde entier.&lt;/p>" textIsRich="true" id="kb-community-text"/>
-                    <community-link jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='https://community.adobe.com/robohelp-748'>Visiter la communauté RoboHelp &amp;gt;&lt;/a>&lt;/p>" textIsRich="true" id="kb-community-link"/>
+                <kb-community-card
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-community-card">
+                    <community-icon
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="kb-community-icon"/>
+                    <community-title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="Communauté FrameMaker"
+                        textIsRich="false"
+                        id="kb-community-title"/>
+                    <community-text
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Rejoignez la communauté Adobe pour apprendre, créer et échanger avec d’autres créateurs et créatrices du monde entier.&lt;/p>"
+                        textIsRich="true"
+                        id="kb-community-text"/>
+                    <community-link
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;a href='https://community.adobe.com/framemaker-641'>Accéder à la communauté FrameMaker &amp;gt;&lt;/a>&lt;/p>"
+                        textIsRich="true"
+                        id="kb-community-link"/>
                 </kb-community-card>
-                <kb-contact-card jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-contact-card">
-                    <contact-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-contact-icon"/>
-                    <contact-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="Obtenir l’aide d’experts" textIsRich="false" id="kb-contact-title"/>
-                    <contact-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Contactez Adobe pour toute question sur l’installation, les licences et les aspects techniques de RoboHelp.&lt;/p>" textIsRich="true" id="kb-contact-text"/>
-                    <contact-link jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='https://helpx.adobe.com/tech-comm-suite/customer-support.html'>Contacter l’assistance &amp;gt;&lt;/a>&lt;/p>" textIsRich="true" id="kb-contact-link"/>
+                <kb-contact-card
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="kb-contact-card">
+                    <contact-icon
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        id="kb-contact-icon"/>
+                    <contact-title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="Obtenir l’aide d’experts"
+                        textIsRich="false"
+                        id="kb-contact-title"/>
+                    <contact-text
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Contactez Adobe pour toute question sur l’installation, les licences et les aspects techniques de FrameMaker.&lt;/p>"
+                        textIsRich="true"
+                        id="kb-contact-text"/>
+                    <contact-link
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;a href='https://helpx.adobe.com/tech-comm-suite/customer-support.html'>Contacter l’assistance &amp;amp;gt;&lt;/a>&lt;/p>"
+                        textIsRich="true"
+                        id="kb-contact-link"/>
                 </kb-contact-card>
             </kb-sidebar-cards-row>
         </root>

@@ -109,6 +109,12 @@
       "status": "translated",
       "tgt": "マスターページと参照ページをデザイン"
     },
+    "10bdaa9823": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "<a_1>Visit FrameMaker community ></a_1>",
+      "status": "translated",
+      "tgt": "<a_1>FrameMakerコミュニティにアクセス ></a_1>"
+    },
     "10ebaf1532": {
       "batch": "framemaker-en-ja-delta.csv",
       "src": "How do I create a template in FrameMaker?",
@@ -186,6 +192,12 @@
       "src": "Connect with others to troubleshoot and grow your knowledge",
       "status": "translated",
       "tgt": "他のユーザーとつながってトラブルシューティングを行い、知識を深める"
+    },
+    "1a0d1be51b": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "<a_1>Download FrameMaker</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>FrameMakerをダウンロード</a_1>"
     },
     "1bca120767": {
       "batch": "robohelp-en-ja.csv",
@@ -817,6 +829,12 @@
       "status": "translated",
       "tgt": "<p_1>Adobe FrameMakerのフルライセンスは現在購入できません。個人利用の場合は、adobe.comのサブスクリプションプランを選択できます。</p_1><p_2>企業、中小企業、教育機関、政府機関向けには、Enterprise Term License Agreement (ETLA)やValue Incentive Program (VIP)などのボリュームライセンスプランを選択できます。</p_2><p_3>すべての購入オプションを確認するには、<a_4>購入ガイド</a_4>ページを参照するか、<a_5>techcomm@adobe.com</a_5>までメールでお問い合わせください。詳しくは、<a_6>FrameMaker FAQ</a_6>を参照してください。</p_3>"
     },
+    "911c2d75a5": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Download FrameMaker",
+      "status": "translated",
+      "tgt": "FrameMakerをダウンロード"
+    },
     "92e3f136b1": {
       "batch": "framemaker-en-ja-delta.csv",
       "src": "You can update your credit card information from your <a_1>accounts page</a_1> on adobe.com. For more information, view <a_2>Payment</a_2> in the <a_3>Adobe Store | Online order and payment FAQ</a_3>.",
@@ -1117,6 +1135,12 @@
       "status": "translated",
       "tgt": "Facebook"
     },
+    "e0ef4eebf0": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Talk to Adobe about FrameMaker installation, licensing, and technical questions.",
+      "status": "translated",
+      "tgt": "FrameMakerのインストール、ライセンス、技術的な質問についてアドビにお問い合わせください。"
+    },
     "e163cd3515": {
       "batch": "robohelp-en-ja.csv",
       "src": "Last update:",
@@ -1201,6 +1225,12 @@
       "status": "translated",
       "tgt": "ユーザー辞書に単語を追加する方法"
     },
+    "f2dbf8f54f": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "FrameMaker Community",
+      "status": "translated",
+      "tgt": "FrameMakerコミュニティ"
+    },
     "f3b5f93af0": {
       "batch": "robohelp-en-ja.csv",
       "src": "Troubleshoot common questions about AEMG features.",
@@ -1218,6 +1248,12 @@
       "src": "How do I conditionalize content in FrameMaker?",
       "status": "translated",
       "tgt": "FrameMakerでコンテンツに条件を設定するにはどうすればよいですか?"
+    },
+    "f59f12fb99": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Get the installer for the latest FrameMaker release and start authoring and publishing content across multiple touchpoints.",
+      "status": "translated",
+      "tgt": "最新のFrameMakerリリース用インストーラーを入手して、複数のタッチポイントに向けたコンテンツのオーサリングと公開を開始します。"
     },
     "f662821735": {
       "batch": "robohelp-en-ja.csv",

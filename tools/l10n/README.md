@@ -119,6 +119,32 @@ python3 tools/l10n/l10n.py --lang ja extract --delta   # package only strings th
 
 Send `<package>-delta.xlf/.csv`, then repeat from step 2.
 
+### FrameMaker sidebar supplemental batch
+
+The separate `data/<lang>/vendor/framemaker-en-<lang>-sidebar-delta.csv` files contain
+the six supplemental English sidebar text entries for `ja`, `fr`, and `de`, with
+the returned vendor translations in the target column. The three previously
+translated sidebar entries and the fragment's authoring title (`Map sidebar`) are
+excluded. The returned workbook's `jp` sheet maps to the repository's `ja` locale.
+The Japanese vendor target uses `アドビ` for `Adobe`, which triggers a
+do-not-translate warning; the vendor wording is preserved. Keep
+the `<a_1>...</a_1>` placeholders intact.
+
+These supplemental files do not replace the earlier `framemaker-en-<lang>-delta.csv`
+deliveries. Import each returned sidebar CSV with the matching language, for example:
+
+```bash
+python3 tools/l10n/l10n.py --lang ja import tools/l10n/data/ja/vendor/framemaker-en-ja-sidebar-delta.csv
+python3 tools/l10n/l10n.py --lang ja validate --allow-missing
+```
+
+Import merges non-empty targets by string ID into the existing translation store;
+unrelated entries are retained, but a returned target for an existing ID replaces
+that entry. Run imports for the same language sequentially. Ordinary
+`extract --delta` overwrites the standard delta package, not the separately named
+sidebar batch. Future extraction includes the configured sidebar fragment, including
+its authoring title.
+
 ### Other commands
 
 ```bash

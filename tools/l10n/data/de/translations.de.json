@@ -109,6 +109,12 @@
       "status": "translated",
       "tgt": "Musterseiten und Referenzseiten entwerfen"
     },
+    "10bdaa9823": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "<a_1>Visit FrameMaker community ></a_1>",
+      "status": "translated",
+      "tgt": "<a_1>FrameMaker-Community besuchen ></a_1>"
+    },
     "10ebaf1532": {
       "batch": "framemaker-en-de-delta.csv",
       "src": "How do I create a template in FrameMaker?",
@@ -186,6 +192,12 @@
       "src": "Connect with others to troubleshoot and grow your knowledge",
       "status": "translated",
       "tgt": "Tauscht euch mit anderen aus, um Probleme zu beheben und euer Wissen zu erweitern"
+    },
+    "1a0d1be51b": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "<a_1>Download FrameMaker</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>Jetzt FrameMaker herunterladen</a_1>"
     },
     "1bca120767": {
       "batch": "robohelp-en-de.csv",
@@ -823,6 +835,12 @@
       "status": "translated",
       "tgt": "<p_1>Eine Volllizenz von Adobe FrameMaker kann nicht mehr gekauft werden. Für individuelle Anforderungen könnt ihr Abonnementpläne über adobe.com wählen.</p_1><p_2>Für Unternehmen, KMU, Bildungseinrichtungen und Behörden stehen Volumenlizenzpläne wie Enterprise Term License Agreement (ETLA) und Value Incentive Program (VIP) zur Verfügung.</p_2><p_3>Um alle Kaufoptionen zu erkunden, besucht die Seite <a_4>Kaufleitfaden</a_4> oder schreibt uns an <a_5>techcomm@adobe.com</a_5>. Weitere Informationen findet ihr in den <a_6>FrameMaker-FAQ</a_6>.</p_3>"
     },
+    "911c2d75a5": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "Download FrameMaker",
+      "status": "translated",
+      "tgt": "Jetzt FrameMaker herunterladen"
+    },
     "92e3f136b1": {
       "batch": "framemaker-en-de-delta.csv",
       "src": "You can update your credit card information from your <a_1>accounts page</a_1> on adobe.com. For more information, view <a_2>Payment</a_2> in the <a_3>Adobe Store | Online order and payment FAQ</a_3>.",
@@ -1123,6 +1141,12 @@
       "status": "translated",
       "tgt": "Facebook"
     },
+    "e0ef4eebf0": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "Talk to Adobe about FrameMaker installation, licensing, and technical questions.",
+      "status": "translated",
+      "tgt": "Sprich mit Adobe über die Installation von FrameMaker, die Lizenzierung und technische Fragen."
+    },
     "e163cd3515": {
       "batch": "robohelp-en-de.csv",
       "src": "Last update:",
@@ -1207,6 +1231,12 @@
       "status": "translated",
       "tgt": "Wie wird dem Benutzerwörterbuch ein Wort hinzugefügt?"
     },
+    "f2dbf8f54f": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "FrameMaker Community",
+      "status": "translated",
+      "tgt": "FrameMaker-Community"
+    },
     "f3b5f93af0": {
       "batch": "robohelp-en-de.csv",
       "src": "Troubleshoot common questions about AEMG features.",
@@ -1224,6 +1254,12 @@
       "src": "How do I conditionalize content in FrameMaker?",
       "status": "translated",
       "tgt": "Wie versehe ich Inhalte in FrameMaker mit Bedingungen?"
+    },
+    "f59f12fb99": {
+      "batch": "framemaker-en-de-sidebar-delta.csv",
+      "src": "Get the installer for the latest FrameMaker release and start authoring and publishing content across multiple touchpoints.",
+      "status": "translated",
+      "tgt": "Hol dir das Installationsprogramm für die neueste FrameMaker-Version und beginne mit dem Erstellen und Veröffentlichen von Inhalten über mehrere Touchpoints hinweg."
     },
     "f662821735": {
       "batch": "robohelp-en-de.csv",
