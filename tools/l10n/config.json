@@ -2,7 +2,7 @@
   "sourceLang": "en",
   "targetLang": "ja",
   "languages": ["ja", "fr", "de"],
-  "packageName": "robohelp-en-{lang}",
+  "packageName": "framemaker-en-{lang}",
   "jcrRoot": "site/src/main/content/jcr_root",
   "dataDir": "tools/l10n/data",
 
