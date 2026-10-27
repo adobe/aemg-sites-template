@@ -1,11 +1,15 @@
-# RoboHelp site template – localization hand-off (en → ja, fr, de)
+# Site template localization hand-off (en → ja, fr, de)
 
-This tool takes every translatable string from the RoboHelp **English** site content, packages it for an
+This tool takes every translatable string from the **English** site content, packages it for an
 external translation vendor, and puts the vendor's translations back to generate the localized content for
 **Japanese (`ja`), French (`fr`) and German (`de`)**. Each language is processed independently, so several
 languages can be worked on at the same time.
 It does no machine translation: every translation comes from the vendor. It needs only Python 3 (standard library)
 and `git`.
+
+Which content is in scope (and how the vendor package is named) is set in `config.json`, so the same tool works on any
+branch or product. Below, `<package>` is the `packageName` from `config.json` with `{lang}` replaced by the language
+(for example `<product>-en-ja` for `ja`), and `<site>` is the content root used in `pathMap`.
 
 ---
 
@@ -24,16 +28,16 @@ Everything that belongs to one language lives in its own folder, so languages ne
 ```
 tools/l10n/data/
 ├── ja/
-│   ├── vendor/                  robohelp-en-ja.xlf / .csv, glossary-do-not-translate.csv
+│   ├── vendor/                  <package>.xlf / .csv, glossary-do-not-translate.csv
 │   ├── units.json               written by extract
 │   ├── translations.ja.json     written by import
 │   └── mapping.ja.json          written by apply (local report, not committed)
-├── fr/   (same layout, robohelp-en-fr.*, translations.fr.json, …)
-└── de/   (same layout, robohelp-en-de.*, translations.de.json, …)
+├── fr/   (same layout, <package>.*, translations.fr.json, …)
+└── de/   (same layout, <package>.*, translations.de.json, …)
 ```
 
-The generated site content also goes to a per-language tree: `content/aemg-docs/<lang>/…` and
-`content/experience-fragments/aemg-docs/<lang>/…`. The English source is shared and never modified.
+The generated site content also goes to a per-language tree: `content/<site>/<lang>/…` and
+`content/experience-fragments/<site>/<lang>/…`. The English source is shared and never modified.
 
 ### Working on several languages at once
 
@@ -49,7 +53,8 @@ The generated site content also goes to a per-language tree: `content/aemg-docs/
 
 ## Quick start
 
-Run every command from the repository root. Use the `rh-doc` branch (or a branch from it).
+Run every command from the repository root, on the branch that holds the English content you are localizing (the
+files listed under `files` in `config.json` must exist there).
 The examples use `ja`; add `--lang fr` or `--lang de` for the other languages.
 
 ### 1. Create the package for the vendor
@@ -62,9 +67,9 @@ This creates `tools/l10n/data/ja/vendor/` with:
 
 | File | Send to vendor? | What it is |
 |---|---|---|
-| `robohelp-en-ja.xlf` | yes (preferred) | XLIFF 1.2, opens in any translation (CAT) tool |
-| `robohelp-en-ja.csv` | yes (alternative) | Same strings as a spreadsheet: `id, source, target, format, context` |
-| `glossary-do-not-translate.csv` | yes | Terms to keep as-is (RoboHelp, Adobe, FrameMaker…) |
+| `<package>.xlf` | yes (preferred) | XLIFF 1.2, opens in any translation (CAT) tool |
+| `<package>.csv` | yes (alternative) | Same strings as a spreadsheet: `id, source, target, format, context` |
+| `glossary-do-not-translate.csv` | yes | Terms to keep as-is (the `doNotTranslate` list in `config.json`: brand and product names) |
 
 Send the `.xlf` **or** the `.csv` (not both) plus the glossary. Tell the vendor to:
 - fill in only the **target** (`<target>` in XLIFF, `target` column in CSV);
@@ -112,7 +117,7 @@ So a partial delivery still gives a working site.
 python3 tools/l10n/l10n.py --lang ja extract --delta   # package only strings that have no translation yet
 ```
 
-Send `robohelp-en-ja-delta.xlf/.csv`, then repeat from step 2.
+Send `<package>-delta.xlf/.csv`, then repeat from step 2.
 
 ### Other commands
 
@@ -132,10 +137,11 @@ python3 -m unittest discover -s tools/l10n/tests   # run the tests
 Attributes `jcr:title`, `jcr:description`, `pageTitle`, `text` (plain or rich HTML), `alt`, `placeholder`,
 `accessibilityLabel`, `sortTitle`, `productTitle` and `appLinkText`, in the files listed in `config.json`:
 
-- `apply` mode: `content/aemg-docs/en/{docs,docs/product1,search,signin,support}` and the experience fragments
-  `en/site/{header,footer}/master`. They are written to the matching `.../<lang>/...` path (`pathMap`).
-- `extract-only` mode: templates `kb-content` and `topic-content`. They are shared by all languages, so their strings go
-  to the vendor but are not applied.
+- `apply` mode: the site pages and experience fragments listed under `files` in `config.json` (typically the home
+  and landing pages and the header/footer fragments under `content/<site>/en/…`). They are written to the matching
+  `.../<lang>/...` path (`pathMap`).
+- `extract-only` mode: shared page templates listed in `config.json`. They are shared by all languages, so their
+  strings go to the vendor but are not applied.
 
 Skipped automatically: empty values, URLs, `#`, and `$placeholder$` values. `extract` also prints any prose-like
 attribute that is *not* in `translatableAttrs`, so nothing user-facing is silently missed.
@@ -148,7 +154,7 @@ changed EN string automatically becomes "new", and its old translation is report
 An address is `file` + JCR node-name path + `@attribute`, for example:
 
 ```
-content/aemg-docs/en/docs/.content.xml
+content/<site>/en/docs/.content.xml
 /jcr:root/jcr:content/root/container/.../search_row/searchbar  @placeholder
 ```
 
@@ -170,13 +176,13 @@ this check (the English text is kept instead).
 
 ### What `apply` also does
 
-- Rewrites locale paths in link-like values and in rich-text `href`s per `linkRewrites` (`/content/aemg-docs/en` →
-  `/<lang>`, `/content/robohelp-docs/en/` → `/<lang>/`, experience-fragment paths). External URLs are untouched.
-  Remove the `robohelp-docs` rule if that site will not have a tree for the language.
-- Sets `jcr:language` to the target language, and adds the missing child pages (`signin`, `support`) to
-  `content/aemg-docs/<lang>/.content.xml`. That parent page must already exist: `ja` does; for `fr` and `de` create
-  `content/aemg-docs/<lang>/.content.xml` first, otherwise the child pages are not registered.
-- Overwrites the existing stale ColdFusion-era `ja` pages and fragments (and any existing page of the target language).
+- Rewrites locale paths in link-like values and in rich-text `href`s per `linkRewrites` in `config.json`: each rule
+  maps an English path prefix to its `{lang}` equivalent (site content, experience-fragment paths, and any other content
+  tree the pages link to). External URLs are untouched. Remove a rule if that tree will not exist for the language.
+- Sets `jcr:language` to the target language, and adds the missing child pages to
+  `content/<site>/<lang>/.content.xml`. That parent page must already exist for the language; otherwise the child
+  pages are not registered.
+- Overwrites the existing pages and fragments of the target language.
 - Writes files in FileVault format (one attribute per line), like AEM does.
 
 ### Configuration (`config.json`)
@@ -185,7 +191,7 @@ this check (the English text is kept instead).
 |---|---|
 | `targetLang` | language used when `--lang` is omitted |
 | `languages` | supported target languages for `--lang` |
-| `packageName` | vendor package name; `{lang}` is replaced by the language (`robohelp-en-{lang}`) |
+| `packageName` | vendor package name; `{lang}` is replaced by the language (for example `<product>-en-{lang}`) |
 | `dataDir` | parent of the per-language data folders (`<dataDir>/<lang>/`) |
 | `files` | in-scope files and their `applyMode` (`apply` / `extract-only`) |
 | `pathMap` | EN → target path prefixes for generated files; use `{lang}` in the target |
