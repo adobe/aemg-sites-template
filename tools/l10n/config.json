@@ -32,6 +32,7 @@
     ["/content/aemg-docs/en/", "/content/aemg-docs/{lang}/"],
     ["/content/aemg-docs/en", "/content/aemg-docs/{lang}"],
     ["/content/robohelp-docs/en/", "/content/robohelp-docs/{lang}/"],
+    ["/content/framemaker-docs/en/", "/content/framemaker-docs/{lang}/"],
     ["/content/experience-fragments/aemg-docs/en/", "/content/experience-fragments/aemg-docs/{lang}/"]
   ],
 
