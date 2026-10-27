@@ -300,7 +300,7 @@ it.
   flex-direction: row !important;
   align-items: center !important;
   gap: 1rem !important;
-  width: 60% !important;
+  width: 100% !important;
 }
 
 [id^="trending-meta-"] > .aem-Grid::before,
@@ -327,6 +327,7 @@ it.
   display: flex !important;
   align-items: center !important;
   gap: 0.375rem !important;
+  white-space: nowrap;
 }
 
 /* Document icon for tiles 1, 2 & 3 */
@@ -354,6 +355,7 @@ it.
   font-size: 0.75rem !important;
   font-weight: 500 !important;
   color: #2C2C2C !important;
+  white-space: nowrap;
   /* line-height: 1.4 !important; */
 }
 
@@ -393,6 +395,17 @@ it.
 }
 
 @media (max-width: 390px) {  
+  [id^="trending-meta-type-"],
+  [id^="trending-meta-type-"] .cmp-text,
+  [id^="trending-meta-type-"] .cmp-text p,
+  [id^="trending-meta-type-"] p,
+  [id^="trending-meta-level-"],
+  [id^="trending-meta-level-"] .cmp-text,
+  [id^="trending-meta-level-"] .cmp-text p,
+  [id^="trending-meta-level-"] p {
+    white-space: normal;
+  }
+
   #trending-heading,
   #trending-heading .cmp-title,
   #trending-heading .cmp-title__text,
