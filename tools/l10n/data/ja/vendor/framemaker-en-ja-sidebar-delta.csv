@@ -1,7 +1,0 @@
-﻿id,source,target,format,context
-911c2d75a5,Download FrameMaker,FrameMakerをダウンロード,text,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-download-card/download-title @text [text]
-f59f12fb99,Get the installer for the latest FrameMaker release and start authoring and publishing content across multiple touchpoints.,最新のFrameMakerリリース用インストーラーを入手して、複数のタッチポイントに向けたコンテンツのオーサリングと公開を開始します。,text,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-download-card/download-text @text [text]
-1a0d1be51b,<a_1>Download FrameMaker</a_1>,<a_1>FrameMakerをダウンロード</a_1>,html,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-download-card/download-btn @text [text]
-f2dbf8f54f,FrameMaker Community,FrameMakerコミュニティ,text,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-sidebar-cards-row/kb-community-card/community-title @text [text]
-10bdaa9823,<a_1>Visit FrameMaker community ></a_1>,<a_1>FrameMakerコミュニティにアクセス ></a_1>,html,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-sidebar-cards-row/kb-community-card/community-link @text [text]
-e0ef4eebf0,"Talk to Adobe about FrameMaker installation, licensing, and technical questions.",FrameMakerのインストール、ライセンス、技術的な質問についてアドビにお問い合わせください。,text,content/experience-fragments/aemg-docs/en/site/map-sidebar/master :: /jcr:root/jcr:content/root/kb-sidebar-cards-row/kb-contact-card/contact-text @text [text]
