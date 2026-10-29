@@ -119,6 +119,34 @@ python3 tools/l10n/l10n.py --lang ja extract --delta   # package only strings th
 
 Send `<package>-delta.xlf/.csv`, then repeat from step 2.
 
+### FrameMaker consolidated delta batch
+
+Each `data/<lang>/vendor/framemaker-en-<lang>-delta.csv` contains the 56 original
+entries plus the six sidebar entries for `ja`, `fr`, and `de`, with returned vendor
+translations in the target column (62 unique strings per language). Only this
+consolidated delta CSV is retained per language. The three previously
+translated sidebar entries and the fragment's authoring title (`Map sidebar`) are
+excluded. The returned workbook's `jp` sheet maps to the repository's `ja` locale.
+The Japanese vendor target uses `アドビ` for `Adobe`, which triggers a
+do-not-translate warning; the vendor wording is preserved. Keep
+the `<a_1>...</a_1>` placeholders intact.
+
+Import the consolidated CSV with the matching language, for example:
+
+```bash
+python3 tools/l10n/l10n.py --lang ja import tools/l10n/data/ja/vendor/framemaker-en-ja-delta.csv
+python3 tools/l10n/l10n.py --lang ja validate --allow-missing
+```
+
+Import merges non-empty targets by string ID into the existing translation store;
+unrelated entries are retained, but a returned target for an existing ID replaces
+that entry. Run imports for the same language sequentially. Existing translation
+entries retain their original import batch names as historical provenance, even
+when the source CSVs have been consolidated. Ordinary `extract --delta` overwrites
+the consolidated delta package, so archive it before extracting again if needed.
+Future extraction includes the configured sidebar fragment, including its authoring
+title.
+
 ### Other commands
 
 ```bash

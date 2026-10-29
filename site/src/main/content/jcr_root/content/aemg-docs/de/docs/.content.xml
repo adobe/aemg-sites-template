@@ -6,9 +6,9 @@
         cq:lastModified="{Date}2021-07-22T12:35:50.074+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemg-docs/settings/wcm/templates/page-content"
-        jcr:description="Dokumentations- und Support-Hub für Adobe RoboHelp. Hier findet ihr Antworten, Tutorials, Dokumentation und Ressourcen, damit ihr RoboHelp optimal nutzen könnt."
+        jcr:description="Dokumentations- und Support-Hub für Adobe FrameMaker. Hier findet ihr Antworten, Tutorials, Dokumentation und Ressourcen, um FrameMaker optimal zu nutzen."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Adobe RoboHelp-Dokumentation | Lernen und Support"
+        jcr:title="Adobe FrameMaker-Dokumentation | Informationen und Support"
         sling:resourceType="guides-components/components/page"
         pageTitle="Startseite"
         pwaCachestrategy="staleWhileRevalidate"
@@ -33,7 +33,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         id="announcement-banner"
-                        text="&lt;p>Erfahren Sie, &lt;a href='/content/robohelp-docs/de/docs/user-guide/whats-new-robohelp-2026.html'>was es in RoboHelp (Version September 2026) Neues gibt&lt;/a>!&lt;/p>"
+                        text="&lt;p>Erfahrt, &lt;a href='/content/framemaker-docs/de/docs/user-guide/fixed-issues.html'>was neu ist&lt;/a> in FrameMaker (Version September 2026)!&lt;/p>"
                         textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -58,7 +58,7 @@
                                 <brand_text
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Adobe RoboHelp"/>
+                                    text="Adobe FrameMaker"/>
                             </brand_row>
                         </hero_banner>
                         <container
@@ -78,7 +78,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="welcome-container-text"
-                                text="Entdecken Sie Tutorials, Dokumentation und Ressourcen, um RoboHelp optimal zu nutzen."/>
+                                text="Entdeckt Tutorials, Dokumentation und Ressourcen von Expertinnen und Experten, um FrameMaker optimal zu nutzen."/>
                             <search_row
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -89,7 +89,7 @@
                                     hideButton="true"
                                     resultpage="/content/aemg-docs/de/search"
                                     searchRoot="/content/aemg-docs/de/docs"
-                                    placeholder="Stellt beliebige Fragen zu RoboHelp"/>
+                                    placeholder="Stellt beliebige Fragen zu FrameMaker"/>
                             </search_row>
                             <search_presets
                                 jcr:primaryType="nt:unstructured"
@@ -98,23 +98,23 @@
                                 <text1
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Wie wird dem Benutzerwörterbuch ein Wort hinzugefügt?"/>
+                                    text="Welche verschiedenen Erstellungsmodi werden in FrameMaker unterstützt?"/>
                                 <text2
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Wie werden PDF-Vorlagenkomponenten angepasst?"/>
+                                    text="Wie erstelle ich eine Vorlage in FrameMaker?"/>
                                 <text3
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Wie wird der Editorbildschirm horizontal geteilt?"/>
+                                    text="Wie füge ich eine Tabelle in ein strukturiertes FrameMaker-Dokument ein?"/>
                                 <text4
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Wie wird Datenverlust beim Erstellen verhindert?"/>
+                                    text="Wie versehe ich Inhalte in FrameMaker mit Bedingungen?"/>
                                 <text5
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="Wie wird ein Link von einem anderen Thema zu einem Lesezeichen eingefügt?"/>
+                                    text="So erzeugst du eine responsive HTML-Ausgabe"/>
                             </search_presets>
                             <disclaimer_text
                                 jcr:primaryType="nt:unstructured"
@@ -131,7 +131,7 @@
                         layout="responsiveGrid">
                         <title
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Erste Schritte mit RoboHelp"
+                            jcr:title="Erste Schritte mit FrameMaker"
                             sling:resourceType="core/wcm/components/title/v2/title"
                             id="getstarted-heading"
                             type="h2"/>
@@ -181,7 +181,7 @@
                                     jcr:title="Tutorials"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
-                                    linkURL="/content/robohelp-docs/de/docs/tutorials/video-hub.html"
+                                    linkURL="/content/framemaker-docs/de/docs/tutorials/video-hub.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -194,7 +194,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
                                     jcr:title="Tutorials erkunden"
-                                    link="/content/robohelp-docs/de/docs/tutorials/video-hub.html"/>
+                                    link="/content/framemaker-docs/de/docs/tutorials/video-hub.html"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
@@ -209,7 +209,7 @@
                                     jcr:title="Community"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-community"
-                                    linkURL="https://community.adobe.com/robohelp-748"
+                                    linkURL="https://community.adobe.com/framemaker-641"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -222,7 +222,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-community"
                                     jcr:title="Community erkunden"
-                                    link="https://community.adobe.com/robohelp-748"/>
+                                    link="https://community.adobe.com/framemaker-641"/>
                             </tile_community>
                             <tile_certifications
                                 jcr:primaryType="nt:unstructured"
@@ -286,7 +286,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/fm-trending-1.png"
                                     id="trending-img-1"
-                                    alt="RoboHelp Workspace erkunden"/>
+                                    alt="Die Vorlagen auf Buch-Ebene kennenlernen"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -294,16 +294,16 @@
                                     text="Dokumentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="RoboHelp Workspace erkunden"
+                                    jcr:title="Die Vorlagen auf Buch-Ebene kennenlernen"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
-                                    linkURL="/content/robohelp-docs/de/docs/user-guide/workspace.html"
+                                    linkURL="/content/framemaker-docs/de/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-1"
-                                    text="&lt;p>Überblick über Menüs, Bedienfelder, Symbolleisten und Ansichten von RoboHelp zum Erstellen von Inhalten.&lt;/p>"
+                                    text="&lt;p>Erfahre, wie du Variablen und bedingte Tags in einem Buch intelligent verwaltest.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -333,7 +333,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/fm-trending-2.png"
                                     id="trending-img-2"
-                                    alt="Frame-lose Skins anpassen"/>
+                                    alt="Microsoft Word-Dateien importieren"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -341,16 +341,16 @@
                                     text="Dokumentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Frame-lose Skins anpassen"
+                                    jcr:title="Microsoft Word-Dateien importieren"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
-                                    linkURL="/content/robohelp-docs/de/docs/user-guide/frameless-skin-editor.html"
+                                    linkURL="/content/framemaker-docs/de/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-2"
-                                    text="&lt;p>Passen Sie Farben, Layout, Schriftarten und Branding Ihres Frame-losen Ausgabe-Skins an.&lt;/p>"
+                                    text="&lt;p>Erfahre, wie du Microsoft Word-Dokumente in FrameMaker importierst.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -380,7 +380,7 @@
                                     sling:resourceType="core/wcm/components/image/v2/image"
                                     fileReference="/content/dam/aemg-docs/fm-trending-3.png"
                                     id="trending-img-3"
-                                    alt="In Zendesk veröffentlichen"/>
+                                    alt="Unstrukturierte FrameMaker-Dateien konvertieren"/>
                                 <category
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
@@ -388,16 +388,16 @@
                                     text="Dokumentation"/>
                                 <title
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="In Zendesk veröffentlichen"
+                                    jcr:title="Unstrukturierte FrameMaker-Dateien konvertieren"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="/content/robohelp-docs/de/docs/user-guide/publish-zendesk.html"
+                                    linkURL="/content/framemaker-docs/de/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
                                     id="trending-desc-3"
-                                    text="&lt;p>Konfigurieren Sie Ausgabevorgaben und Veröffentlichungsprofile, um Inhalte an Zendesk zu übertragen.&lt;/p>"
+                                    text="&lt;p>Konvertiere unstrukturierte FrameMaker-Dateien in strukturierte Dokumente.&lt;/p>"
                                     textIsRich="true"/>
                                 <meta_row
                                     jcr:primaryType="nt:unstructured"
@@ -463,13 +463,13 @@
                                 id="faq-item-common-1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Welche Optionen stehen zum Hosten einer generierten Ausgabe zur Verfügung?"
+                                    jcr:title="Wie kann ich ein Adobe FrameMaker-Paket über Adobe Admin Console erstellen und verteilen?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>In RoboHelp generierte Ausgabe kann auf jedem webfähigen Server wie Apache, &lt;a href='/content/robohelp-docs/de/docs/user-guide/robohelp-server.html'>RoboHelp Server&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-sharepoint.html'>SharePoint Online&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-zendesk.html'>Zendesk Help Center&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-salesforce.html'>Salesforce Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-servicenow.html'>ServiceNow Knowledge Base&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-zoho.html'>Zoho Knowledge Base&lt;/a> und &lt;a href='/content/robohelp-docs/de/docs/user-guide/publish-adobe-experience-manager.html'>Adobe Experience Manager&lt;/a> gehostet werden.&lt;/p>"
+                                    text="&lt;p>In Admin Console sind vordefinierte Vorlagen verfügbar, mit denen Pakete für Adobe FrameMaker erstellt werden können. Weitere Informationen findet ihr unter &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-updates/customize-end-user-experience/customize-using-managed-packages.html'>Adobe-Vorlagen für Pakete&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_1>
                             <faq_item_common_2
@@ -478,13 +478,13 @@
                                 id="faq-item-common-2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Wie wird die Überprüfung verwendet und wo wird sie gehostet? Ist eine Adobe ID erforderlich, um darauf zuzugreifen?"
+                                    jcr:title="Warum wird beim Speichern eines Dokuments als PDF der Fehler „Distiller fehlt“ angezeigt?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Um mit Review zusammenzuarbeiten, meldet euch mit eurer Adobe ID an, da Review in der &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a> gehostet wird. Weitere Informationen findet ihr unter &lt;a href='/content/robohelp-docs/de/docs/user-guide/review-process.html'>Review und Zusammenarbeit&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Die mit dem Installer gebündelte Distiller-Anwendung benötigt Visual C-Laufzeitbibliotheken für die Installation und Ausführung. Manchmal erkennt die Distiller-Anwendung die Visual C-Laufzeitbibliotheken nicht, auch wenn sie auf eurem System installiert sind. Wenn diese Visual C-Laufzeiten nicht erkannt werden, schlägt die Installation des PDF Creation Add-on fehl. Eine Problemumgehung für dieses Problem findet ihr im Artikel &lt;a href='/content/framemaker-docs/de/docs/troubleshooting/unable-install-pdf-creation-add-on.html'>Fehler „Distiller fehlt“ beim Speichern eines Dokuments als PDF&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_2>
                             <faq_item_common_3
@@ -493,13 +493,13 @@
                                 id="faq-item-common-3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Wie kann ich mit anderen Autorinnen und Autoren zusammenarbeiten?"
+                                    jcr:title="Kann ich Microsoft Word-Dateien importieren?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Arbeitet mit anderen Autorinnen und Autoren zusammen, um Reviews für eure Inhalte mit &lt;a href='/content/robohelp-docs/de/docs/user-guide/git.html'>Git&lt;/a>, &lt;a href='/content/robohelp-docs/de/docs/user-guide/sharepoint.html'>SharePoint Online&lt;/a> und &lt;a href='/content/robohelp-docs/de/docs/user-guide/devops.html'>Azure DevOps&lt;/a> zu erstellen, freizugeben und zu verwalten.&lt;/p>"
+                                    text="&lt;p>Ja! In diesem kurzen Tutorial erfahrt ihr, wie ihr &lt;a href='/content/framemaker-docs/de/docs/tutorials/import-word-content-to-dita-video.html'>ein Word-Dokument problemlos importiert&lt;/a>. Ihr könnt auch diese &lt;a href='/content/framemaker-docs/de/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>Schritt-für-Schritt-Anweisungen zum Importieren von Word-Dateien&lt;/a> befolgen.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_3>
                             <faq_item_common_4
@@ -508,13 +508,13 @@
                                 id="faq-item-common-4">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Welche Dateiformate werden in RoboHelp unterstützt?"
+                                    jcr:title="Warum kann ich für mein FrameMaker-Dokument oder meine Buchdatei kein PDF erzeugen?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>RoboHelp unterstützt eine Vielzahl von Dateiformaten, sowohl zum Öffnen vorhandener Hilfeprojekte als auch zum Importieren von Inhalten aus anderen Authoring-Tools. Dazu gehören Projektformate wie HHP, XPJ und MPJ sowie Importformate wie Word, PDF, FrameMaker, DITA, HTML/XML und verschiedene Bild-, Audio- und Videodateien. Weitere Informationen findet ihr unter &lt;a href='/content/robohelp-docs/de/docs/user-guide/supported-file-formats-robohelp.html'>Unterstützte Dateiformate&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Für diesen Fehler kann es mehrere Gründe geben. Lösungen findet ihr im Artikel &lt;a href='/content/framemaker-docs/de/docs/troubleshooting/cannot-generate-pdf-doc-book.html'>PDF von FrameMaker-Dokumenten oder -Büchern kann nicht erzeugt werden&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_4>
                             <faq_item_common_5
@@ -523,13 +523,13 @@
                                 id="faq-item-common-5">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Ich möchte mein Projekt aktualisieren. Welche Punkte muss ich beachten?"
+                                    jcr:title="Wie wird das MIF Wash Utility in FrameMaker verwendet?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Wenn ihr euer Projekt von RoboHelp Classic auf die neu konzipierte Version (Version 2019 oder Version 2020) aktualisiert, gibt es bestimmte Punkte zu beachten, die durch das Upgrade auftreten können. Weitere Informationen findet ihr unter &lt;a href='/content/robohelp-docs/de/docs/user-guide/manage-projects.html'>Ein Projekt in RoboHelp aktualisieren&lt;/a>.&lt;/p>"
+                                    text="&lt;p>FrameMaker enthält das MIF Wash Utility zum Batch-Konvertieren von Buchdateien, zum Unterdrücken von Warnungen zu fehlenden Schriftarten oder Bildern und zum Reparieren beschädigter Dateien. Anweisungen zur Einrichtung und Verwendung findet ihr im Artikel &lt;a href='/content/framemaker-docs/de/docs/troubleshooting/how-to-use-mifwash-utility-in-framemaker.html'>Verwendung des MIF Wash Utility in FrameMaker&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_5>
                         </faq_panel_common>
@@ -543,13 +543,13 @@
                                 id="faq-item-download-1">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Warum wird RoboHelp nicht heruntergeladen?"
+                                    jcr:title="Kann ich eine Volllizenz / unbefristete Lizenz (mit Seriennummer) der neuesten Version von Adobe FrameMaker kaufen?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Erfahrt, wie ihr &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>Download-Probleme beheben&lt;/a> könnt, die bei RoboHelp und anderen Adobe-Applikationen auftreten.&lt;/p>"
+                                    text="&lt;p>Eine Volllizenz von Adobe FrameMaker kann nicht mehr gekauft werden. Für individuelle Anforderungen könnt ihr Abonnementpläne über adobe.com wählen.&lt;/p>&lt;p>Für Unternehmen, KMU, Bildungseinrichtungen und Behörden stehen Volumenlizenzpläne wie Enterprise Term License Agreement (ETLA) und Value Incentive Program (VIP) zur Verfügung.&lt;/p>&lt;p>Um alle Kaufoptionen zu erkunden, besucht die Seite &lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>Kaufleitfaden&lt;/a> oder schreibt uns an &lt;a href='mailto:mtechcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Weitere Informationen findet ihr in den &lt;a href='/content/framemaker-docs/de/docs/user-guide/fm-faq.html'>FrameMaker-FAQ&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_1>
                             <faq_item_download_2
@@ -558,13 +558,13 @@
                                 id="faq-item-download-2">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Kann ich eine Testversion von RoboHelp erhalten? Und wie kann ich nach RoboHelp-Updates suchen und sie installieren?"
+                                    jcr:title="Warum wird FrameMaker nicht heruntergeladen?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ja. Ihr könnt eine vollständig funktionsfähige, kostenlose 30-Tage-Testversion &lt;a href='/content/robohelp-docs/de/docs/user-guide/robohelp-downloads.html'>herunterladen&lt;/a>, indem ihr euch mit einer Adobe ID und einem Passwort anmeldet. Detaillierte Anweisungen findet ihr unter &lt;a href='https://helpx.adobe.com/creative-suite.html'>Installation einer Testversion&lt;/a>. Um zu prüfen, ob Updates verfügbar sind, geht in eurer aktuellen Version von RoboHelp zu Hilfe &amp;amp;gt; Nach Updates suchen. Alternativ könnt ihr sie auch manuell über &lt;a href='/content/robohelp-docs/de/docs/user-guide/robohelp-downloads.html'>Downloads&lt;/a> installieren.&lt;/p>"
+                                    text="&lt;p>Erfahrt, wie ihr &lt;a href='https://helpx.adobe.com/download-install/apps/troubleshoot/download-failure/troubleshoot-download-problems.html'>Download-Probleme behebt&lt;/a> bei FrameMaker und anderen Adobe-Applikationen.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_2>
                             <faq_item_download_3
@@ -573,13 +573,13 @@
                                 id="faq-item-download-3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Warum erhalte ich beim Installieren oder Aktivieren von RoboHelp den Fehler „Update OS or Browser“?"
+                                    jcr:title="Wie kaufe und installiere ich FrameMaker?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Für alle Adobe-Produkte wird empfohlen, die neuesten Betriebssystem- und Browser-Updates zu verwenden, damit sie effizient funktionieren. Wenn ihr die neuesten Updates ausführt und der Fehler weiterhin auftritt, findet ihr weitere Hilfe unter &lt;a href='https://helpx.adobe.com/tech-comm-suite/kb/deprecated-internet-explorer-10-with-ims.html'>Eingestellte IE10-Unterstützung&lt;/a>. Seht euch auch &lt;a href='https://helpx.adobe.com/account/individual/communications-and-preferences/received-warning-to-update-browser.html#fix-error'>Upgrade des Betriebssystems und unterstützte Browserversionen&lt;/a> an.&lt;/p>"
+                                    text="&lt;p>Ihr könnt FrameMaker im Online-&lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe Store&lt;/a> kaufen oder telefonisch unter +1-866-647-1213 bestellen. Informiert euch über &lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>weitere Möglichkeiten zum Kauf von FrameMaker&lt;/a>, einschließlich des direkten Kaufs bei Adobe, des Kaufs über autorisierte Wiederverkäufer oder des Kaufs mit Bildungsrabatten. Um den Kauf abzuschließen und das Produkt herunterzuladen, müsst ihr euch mit einer Adobe ID und einem Passwort anmelden. Hilfe beim Herunterladen und Installieren der Applikation nach dem Kauf findet ihr unter &lt;a href='https://helpx.adobe.com/x-productkb/global/find-downloaded-file-app.html'>Heruntergeladene Applikationen und Dateien finden&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_3>
                             <faq_item_download_4
@@ -588,13 +588,13 @@
                                 id="faq-item-download-4">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Kann ich RoboHelp auf einem anderen Computer installieren?"
+                                    jcr:title="Wie rufe ich meine Adobe ID oder mein Passwort ab?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ihr könnt RoboHelp auf bis zu zwei Computern installieren. Wenn ihr es auf einem dritten Computer installieren möchtet, müsst ihr es auf einem eurer vorherigen Geräte deaktivieren. Erfahrt mehr über das &lt;a href='https://helpx.adobe.com/download-install/apps/licensing-activation/activate-deactivate-apps/activation-deactivation-overview.html'>Aktivieren und Deaktivieren von Adobe-Applikationen&lt;/a>. Wenn ihr fünf oder mehr Lizenzen benötigt, solltet ihr den Kauf eines &lt;a href='https://www.adobe.com/products/robohelp/buying-guide.html'>Volumenlizenzplans&lt;/a> in Betracht ziehen.&lt;/p>"
+                                    text="&lt;p>Lest diese &lt;a href='https://helpx.adobe.com/manage-account/kb/account-password-sign-help.html'>einfachen Lösungen für häufige Probleme mit Adobe ID und Anmeldung&lt;/a>, um wieder Zugriff auf euer Konto zu erhalten.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_4>
                             <faq_item_download_5
@@ -603,13 +603,13 @@
                                 id="faq-item-download-5">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Wie kann ich ein Adobe RoboHelp-Paket über Adobe Admin Console erstellen und verteilen?"
+                                    jcr:title="FrameMaker wird in einem anderen Gebietsschema gestartet. Warum kann ich FrameMaker nicht in mehreren Gebietsschemata auf demselben System installieren?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Vordefinierte Vorlagen sind in der Admin Console verfügbar, um Pakete für Adobe RoboHelp zu erstellen. Weitere Informationen findet ihr unter &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe-Vorlagen für Pakete&lt;/a>.&lt;/p>"
+                                    text="&lt;p>FrameMaker unterstützt die Installation in mehreren Gebietsschemata auf demselben System nicht. Wenn ihr FrameMaker in mehreren Gebietsschemata installiert habt, wird es möglicherweise in einem anderen Gebietsschema gestartet als dem von euch gewünschten. So behebt ihr das Problem:&lt;/p>&lt;ol>&lt;li>Deinstalliert FrameMaker.&lt;/li>&lt;li>&lt;a href='/content/framemaker-docs/de/docs/user-guide/framemaker-downloads.html'>Jetzt herunterladen&lt;/a> und FrameMaker in dem von euch benötigten Gebietsschema installieren.&lt;/li>&lt;/ol>"
                                     textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
@@ -644,7 +644,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ihr könnt eure Kreditkarteninformationen auf eurer Kontoseite auf &lt;a href='https://account.adobe.com/'>adobe.com&lt;/a> aktualisieren. Weitere Informationen findet ihr unter &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Zahlung im Adobe Store | FAQ zu Online-Bestellung und Zahlung&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Ihr könnt eure Kreditkarteninformationen auf eurer &lt;a href='https://account.adobe.com/'>Kontoseite&lt;/a> auf adobe.com aktualisieren. Weitere Informationen findet ihr unter &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html#payment'>Zahlung&lt;/a> in den &lt;a href='https://helpx.adobe.com/account/individual/billing-and-payments/payment-methods/online-order-and-payment-faq.html'>Adobe Store | FAQ zu Online-Bestellungen und Zahlungen&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_2>
                             <faq_item_account_3
@@ -653,13 +653,13 @@
                                 id="faq-item-account-3">
                                 <question
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Meine Testversion läuft bald ab. Wie kann ich sie verlängern?"
+                                    jcr:title="Meine Testversion läuft bald ab. Wie kann ich sie umwandeln?"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     type="h4"/>
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ihr könnt die 30-Tage-Testversion von Adobe RoboHelp in ein Abonnement umwandeln, indem ihr eine Lizenz auf &lt;a href='https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C57069B2C97BEB5DC3A073D30CCB3206&amp;cli=adobe_com&amp;ctx=fp&amp;co=US&amp;lang=en'>Adobe.com&lt;/a> kauft. Bei Fragen erreicht ihr uns unter &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Weitere Informationen findet ihr unter &lt;a href='/content/robohelp-docs/de/docs/user-guide/rh-faq.html'>Abonnementinformationen und Preise&lt;/a> in den RoboHelp-FAQ.&lt;/p>"
+                                    text="&lt;p>Ihr könnt die 30-Tage-Testversion von Adobe FrameMaker in ein Abonnement umwandeln, indem ihr eine Lizenz auf &lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe.com&lt;/a> kauft. Bei Fragen erreicht ihr uns unter &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Weitere Informationen findet ihr unter &lt;a href='/content/framemaker-docs/de/docs/user-guide/fm-faq.html'>Abonnementinformationen und Preise&lt;/a> in den FrameMaker-FAQ.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_3>
                             <faq_item_account_4
@@ -674,7 +674,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ihr könnt euer Abonnement kündigen, indem ihr euch an den Adobe-Support wendet. Wenn ihr innerhalb von 14 Tagen kündigt, erhaltet ihr eine vollständige Rückerstattung. Andernfalls werden euch 50 % eurer verbleibenden vertraglichen Verpflichtung in Rechnung gestellt. Nach der Kündigung habt ihr keinen Zugriff mehr auf eure Abonnementsoftware. Weitere Informationen findet ihr unter &lt;a href='/content/robohelp-docs/de/docs/user-guide/rh-faq.html'>Abonnementinformationen und Preise&lt;/a> in den RoboHelp-FAQ.&lt;/p>"
+                                    text="&lt;p>Ihr könnt euer Abonnement kündigen, indem ihr Adobe Support kontaktiert. Wenn ihr innerhalb von 14 Tagen kündigt, erhaltet ihr eine vollständige Rückerstattung. Andernfalls werden euch 50 % der verbleibenden Vertragspflicht berechnet. Nach der Kündigung habt ihr keinen Zugriff mehr auf eure Abonnementsoftware. Weitere Informationen findet ihr unter &lt;a href='/content/framemaker-docs/de/docs/user-guide/fm-faq.html'>Abonnementinformationen und Preise&lt;/a> in den FrameMaker-FAQ.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_4>
                             <faq_item_account_5
@@ -689,7 +689,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Ihr könnt euch an eure Administratorin oder euren Administrator wenden, die oder der die Lizenzen für eure Organisation verwaltet. Wenn ihr weitere Unterstützung benötigt, kann eure Administratorin oder euer Administrator ein Ticket in der &lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a> erstellen.&lt;/p>"
+                                    text="&lt;p>Ihr könnt euch an eure Administratorin oder euren Administrator wenden, die oder der die Lizenzen für eure Organisation verwaltet. Wenn ihr weitere Unterstützung benötigt, kann eure Administratorin oder euer Administrator in &lt;a href='https://adminconsole.adobe.com/enterprise'>Admin Console&lt;/a> ein Ticket erstellen.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_5>
                         </faq_panel_account>
@@ -723,7 +723,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/text/v2/text"
                                 id="community-description"
-                                text="Vernetzen Sie sich mit der Adobe RoboHelp-Community. Stellen Sie Fragen und erhalten Sie Antworten von Expertinnen und Experten."/>
+                                text="Tauscht euch mit der Adobe FrameMaker-Community aus. Stellt Fragen und erhaltet Antworten von Expertinnen und Experten."/>
                             <buttons_container
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -733,7 +733,7 @@
                                     jcr:title="Community-Forum besuchen"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="btn-community-forum"
-                                    link="https://community.adobe.com/robohelp-748"/>
+                                    link="https://community.adobe.com/framemaker-641"/>
                                 <button_support
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Support kontaktieren"
@@ -758,34 +758,34 @@
                                 id="topics-tags">
                                 <tag_server
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="RoboHelp-FAQ"
+                                    jcr:title="FrameMaker-FAQ"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="/content/robohelp-docs/de/docs/user-guide/rh-faq.html"/>
+                                    link="/content/framemaker-docs/de/docs/user-guide/fm-faq.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Ein Projekt erstellen"
+                                    jcr:title="Dokumentrichtung festlegen"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="/content/robohelp-docs/de/docs/user-guide/create-project.html"/>
+                                    link="/content/framemaker-docs/de/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Word-Dokumente in ein Projekt importieren"
+                                    jcr:title="Musterseiten und Referenzseiten entwerfen"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="/content/robohelp-docs/de/docs/user-guide/import-word-documents.html"/>
+                                    link="/content/framemaker-docs/de/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Eure Inhalte formatieren"
+                                    jcr:title="QR-Codes erstellen"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="/content/robohelp-docs/de/docs/user-guide/format-content.html"/>
+                                    link="/content/framemaker-docs/de/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
                                 <tag_review
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Überprüfung und Zusammenarbeit"
+                                    jcr:title="Textbearbeitungen nachverfolgen"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
-                                    link="/content/robohelp-docs/de/docs/user-guide/review-process.html"/>
+                                    link="/content/framemaker-docs/de/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>
