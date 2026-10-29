@@ -62,7 +62,9 @@ it.
   border-radius: 1rem;
 
   .button {
-    width: 20%;
+    width: auto;
+    flex: 1 1 0;
+    min-width: 0;
   }
 }
 
