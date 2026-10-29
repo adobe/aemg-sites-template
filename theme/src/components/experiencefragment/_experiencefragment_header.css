@@ -226,7 +226,7 @@ it.
     justify-content: center;
 
     .cmp-button__text {
-        /* margin-bottom: -2%; */
+        line-height: 30px;
     }
 }
 
