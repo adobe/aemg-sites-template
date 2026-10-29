@@ -113,26 +113,26 @@
                         <promo-title
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="&lt;p>&lt;b>ColdFusion 2025 update 12&lt;/b>&lt;/p>"
+                            text="&lt;p>&lt;b>FrameMaker September 2026 release&lt;/b>&lt;/p>"
                             textIsRich="true"
                             id="kb-promo-title"/>
                         <promo-badge
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="core/wcm/components/text/v2/text"
-                            text="February 2025"
+                            text="September 2026"
                             textIsRich="false"
                             id="kb-promo-badge"/>
                     </promo-title-row>
                     <promo-description
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Major release with new licensing models, custom MCP support and a brand new code editing experience!&lt;/p>"
+                        text="&lt;p>Explore the fixes and improvements available in the latest FrameMaker release.&lt;/p>"
                         textIsRich="true"
                         id="kb-promo-description"/>
                     <promo-link
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>&lt;a href='#'>View release notes&lt;/a>&lt;/p>"
+                        text="&lt;p>&lt;a href='/content/framemaker-docs/en/docs/user-guide/fixed-issues.html'>View release notes&lt;/a>&lt;/p>"
                         textIsRich="true"
                         id="kb-promo-link"/>
                 </promo-content>

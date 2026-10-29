@@ -1,0 +1,48 @@
+{
+  "sourceLang": "en",
+  "targetLang": "ja",
+  "languages": ["ja", "fr", "de"],
+  "packageName": "framemaker-en-{lang}",
+  "jcrRoot": "site/src/main/content/jcr_root",
+  "dataDir": "tools/l10n/data",
+
+  "files": [
+    { "path": "content/aemg-docs/en/docs/.content.xml", "applyMode": "apply" },
+    { "path": "content/aemg-docs/en/docs/product1/.content.xml", "applyMode": "apply" },
+    { "path": "content/aemg-docs/en/search/.content.xml", "applyMode": "apply" },
+    { "path": "content/aemg-docs/en/signin/.content.xml", "applyMode": "apply" },
+    { "path": "content/aemg-docs/en/support/.content.xml", "applyMode": "apply" },
+    { "path": "content/experience-fragments/aemg-docs/en/site/header/master/.content.xml", "applyMode": "apply" },
+    { "path": "content/experience-fragments/aemg-docs/en/site/footer/master/.content.xml", "applyMode": "apply" },
+    { "path": "content/experience-fragments/aemg-docs/en/site/map-sidebar/master/.content.xml", "applyMode": "apply" },
+    { "path": "conf/aemg-docs/settings/wcm/templates/kb-content/structure/.content.xml", "applyMode": "extract-only" },
+    { "path": "conf/aemg-docs/settings/wcm/templates/topic-content/structure/.content.xml", "applyMode": "extract-only" }
+  ],
+
+  "pathMap": [
+    ["content/aemg-docs/en/", "content/aemg-docs/{lang}/"],
+    ["content/experience-fragments/aemg-docs/en/", "content/experience-fragments/aemg-docs/{lang}/"]
+  ],
+
+  "translatableAttrs": [
+    "jcr:title", "jcr:description", "pageTitle", "text", "alt", "placeholder",
+    "accessibilityLabel", "sortTitle", "productTitle", "appLinkText"
+  ],
+
+  "linkRewrites": [
+    ["/content/aemg-docs/en/", "/content/aemg-docs/{lang}/"],
+    ["/content/aemg-docs/en", "/content/aemg-docs/{lang}"],
+    ["/content/robohelp-docs/en/", "/content/robohelp-docs/{lang}/"],
+    ["/content/framemaker-docs/en/", "/content/framemaker-docs/{lang}/"],
+    ["/content/experience-fragments/aemg-docs/en/", "/content/experience-fragments/aemg-docs/{lang}/"]
+  ],
+
+  "unclassifiedIgnoreXpaths": ["/cq:responsive/"],
+
+  "languageAttrs": ["jcr:language"],
+
+  "doNotTranslate": [
+    "RoboHelp", "Adobe", "FrameMaker", "Captivate", "Zendesk", "AEM Guides",
+    "Adobe Connect", "Adobe Learning Manager"
+  ]
+}

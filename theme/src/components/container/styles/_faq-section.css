@@ -62,7 +62,9 @@ it.
   border-radius: 1rem;
 
   .button {
-    width: 20%;
+    width: auto;
+    flex: 1 1 0;
+    min-width: 0;
   }
 }
 
@@ -183,7 +185,7 @@ it.
   }
 }
 
-[id^="faq-panel-"] > div:nth-child(4) > [id^="faq-item-"] {
+[id^="faq-item-"][id$="-5"] {
   border-bottom: 1px solid #6e6e6e;
 }
 
@@ -261,6 +263,10 @@ it.
   font-weight: 400 !important;
   font-size: 1rem !important;
   color: #2c2c2c !important;
+}
+
+[id^="faq-item-"] .cmp-text ol {
+  list-style-type: decimal !important;
 }
 
 [id^="faq-item-"] .cmp-text a {

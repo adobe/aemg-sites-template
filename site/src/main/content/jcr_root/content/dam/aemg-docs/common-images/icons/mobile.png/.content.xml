@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="04b37ad5-c947-45be-b715-6c75564c3559">
+    jcr:primaryType="dam:Asset">
     <jcr:content
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-09-15T09:49:15.493Z"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        fmPostProcessedAt="2025-09-15T09:49:15.017Z|04b37ad5-c947-45be-b715-6c75564c3559|2025-09-15T09:49:15.017Z|14|0"
-        fmUuid="GUID-1a554378-f0c4-49f2-a4b1-0bd2a052b306">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:extracted="{Date}2025-09-15T09:49:15.362Z"
