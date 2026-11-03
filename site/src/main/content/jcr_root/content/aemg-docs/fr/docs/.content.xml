@@ -484,7 +484,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Pour collaborer à l’aide de Review, connectez-vous avec votre Adobe ID, car Review est hébergé sur &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/review-process.html'>Review and Collaboration&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Pour collaborer à l’aide de Review, connectez-vous avec votre Adobe ID, car Review est hébergé sur &lt;a href='http://adobe.com/download/creative-cloud'>Adobe Creative Cloud&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/review-process.html'>Review et collaboration&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_2>
                             <faq_item_common_3
@@ -514,7 +514,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>RoboHelp prend en charge un large éventail de formats de fichier, à la fois pour ouvrir des projets d’aide existants et pour importer du contenu depuis d’autres outils de création. Cela inclut des formats de projet comme HHP, XPJ et MPJ, ainsi que des formats d’importation tels que Word, PDF, FrameMaker, DITA, HTML/XML et divers fichiers image, audio et vidéo. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/supported-file-formats-robohelp.html'>Supported file formats&lt;/a>.&lt;/p>"
+                                    text="&lt;p>RoboHelp prend en charge un large éventail de formats de fichier, à la fois pour ouvrir des projets d’aide existants et pour importer du contenu depuis d’autres outils de création. Cela inclut des formats de projet comme HHP, XPJ et MPJ, ainsi que des formats d’importation tels que Word, PDF, FrameMaker, DITA, HTML/XML et divers fichiers image, audio et vidéo. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/supported-file-formats-robohelp.html'>Formats de fichier pris en charge&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_4>
                             <faq_item_common_5
@@ -529,7 +529,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Pour mettre à niveau votre projet de RoboHelp Classic vers la version réinventée (version 2019 ou version 2020), certains points sont à prendre en compte en raison de la mise à niveau. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/manage-projects.html'>Upgrade a project in RoboHelp&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Pour mettre à niveau votre projet de RoboHelp Classic vers la version réinventée (version 2019 ou version 2020), certains points sont à prendre en compte en raison de la mise à niveau. Pour plus d’informations, consultez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/manage-projects.html'>Mettre à niveau un projet dans RoboHelp&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_5>
                         </faq_panel_common>
@@ -564,7 +564,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Oui. Vous pouvez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>télécharger&lt;/a> une version d’essai gratuite entièrement fonctionnelle de 30 jours en vous connectant avec un Adobe ID et un mot de passe. Pour des instructions détaillées, consultez &lt;a href='https://helpx.adobe.com/creative-suite.html'>l’installation d’une version d’essai&lt;/a>. Pour vérifier si des mises à jour sont disponibles, accédez à Aide &amp;amp;gt; Rechercher les mises à jour dans la version actuelle de RoboHelp. Vous pouvez également les installer manuellement à partir de &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>downloads&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Oui. Vous pouvez &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>télécharger&lt;/a> une version d’essai gratuite entièrement fonctionnelle de 30 jours en vous connectant avec un Adobe ID et un mot de passe. Pour des instructions détaillées, consultez &lt;a href='https://helpx.adobe.com/creative-suite.html'>l’installation d’une version d’essai&lt;/a>. Pour vérifier si des mises à jour sont disponibles, accédez à Aide &amp;amp;gt; Rechercher les mises à jour dans la version actuelle de RoboHelp. Vous pouvez également les installer manuellement à partir de &lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>téléchargements&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_2>
                             <faq_item_download_3
@@ -609,7 +609,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Des modèles prédéfinis sont disponibles dans l’Admin Console pour créer des packages pour Adobe RoboHelp. Pour plus de détails, consultez &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Des modèles prédéfinis sont disponibles dans l’Admin Console pour créer des packages pour Adobe RoboHelp. Pour plus de détails, consultez &lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Modèles Adobe pour les packages&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
