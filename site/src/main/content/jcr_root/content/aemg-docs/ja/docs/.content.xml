@@ -609,7 +609,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Adobe RoboHelpのパッケージを作成するための定義済みテンプレートをAdmin Consoleで利用できます。詳しくは、&lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>Adobe Templates for Packages&lt;/a>を参照してください。&lt;/p>"
+                                    text="&lt;p>Adobe RoboHelpのパッケージを作成するための定義済みテンプレートをAdmin Consoleで利用できます。詳しくは、&lt;a href='https://helpx.adobe.com/business/enterprise/deploy-apps-and-updates/create-packages/manage-pre-generated-packages/package-templates.html'>パッケージ用Adobeテンプレート&lt;/a>を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
