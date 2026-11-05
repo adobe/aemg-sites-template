@@ -20,7 +20,7 @@
                 <download-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-download-icon"/>
                 <download-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="Télécharger RoboHelp" textIsRich="false" id="kb-download-title"/>
                 <download-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Obtenez les programmes d’installation de la dernière version de RoboHelp et commencez à créer et à publier du contenu sur plusieurs points de contact.&lt;/p>" textIsRich="true" id="kb-download-text"/>
-                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>Télécharger RoboHelp&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
+                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/robohelp-docs/fr/docs/user-guide/robohelp-downloads.html'>Télécharger RoboHelp&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
             </kb-download-card>
             <kb-sidebar-cards-row
                 jcr:primaryType="nt:unstructured"
