@@ -271,14 +271,10 @@ html[lang="ja"] {
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section > .title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 1em;
   margin-bottom: 0.5em;
-}
-
-#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .section > .title.section_heading {
-  font-size: 22px;
 }
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .example > .title {
@@ -1129,6 +1125,37 @@ html[lang="ja"] {
 }
 
 /* --- end dlentry accordion --- */
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).h2 {
+  font-size: 22.5px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).h3 {
+  font-size: 18.5px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).h4 {
+  font-size: 16.5px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).section_title.h2 {
+  font-size: 26px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).section_heading.h2,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).section-title.section-title--collapsible.h2 {
+  font-size: 24px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).section_heading.h3,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).section_title.h3,
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).subsection-title.h3 {
+  font-size: 20px;
+}
+
+#topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) :is(.title, .dt, .p).task-title.h5 {
+  font-size: 16px;
+}
 
 #topic-container .cmp-dita-topic-content:not(:has(.markdown-content)) .display-flex {
   display: flex;
