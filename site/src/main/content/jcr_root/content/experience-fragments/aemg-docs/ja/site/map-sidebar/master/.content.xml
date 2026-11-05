@@ -17,7 +17,7 @@
                 <download-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-download-icon"/>
                 <download-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="RoboHelpをダウンロード" textIsRich="false" id="kb-download-title"/>
                 <download-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>最新のRoboHelpリリース用インストーラーを入手して、複数のタッチポイントにわたるコンテンツのオーサリングと公開を開始できます。&lt;/p>" textIsRich="true" id="kb-download-text"/>
-                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>RoboHelpをダウンロード&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
+                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/robohelp-docs/ja/docs/user-guide/robohelp-downloads.html'>RoboHelpをダウンロード&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
             </kb-download-card>
             <kb-sidebar-cards-row jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-sidebar-cards-row">
                 <kb-community-card jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-community-card">

@@ -23,8 +23,13 @@
                 <adobe_logo
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/container/v1/container"
-                        id="adobe-logo"
-                        link="https://www.adobe.com/"/>
+                        id="adobe-logo">
+                    <adobe_link
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Adobe"
+                            sling:resourceType="core/wcm/components/button/v1/button"
+                            link="https://www.adobe.com/"/>
+                </adobe_logo>
                 <button_wap
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Technical Communication"
@@ -142,6 +147,31 @@
                         sling:resourceType="core/wcm/components/button/v1/button"
                         link="https://www.adobe.com/products/robohelp/download-trial/try.html"/>
             </container7>
+            <wap_options
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="wap-options">
+                <robohelp
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="RoboHelp"
+                        sling:resourceType="core/wcm/components/button/v1/button"
+                        link="https://www.adobe.com/products/robohelp.html"/>
+                <framemaker
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="FrameMaker"
+                        sling:resourceType="core/wcm/components/button/v1/button"
+                        link="https://www.adobe.com/products/framemaker.html"/>
+                <technical_communication_suite
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Technical Communication Suite"
+                        sling:resourceType="core/wcm/components/button/v1/button"
+                        link="https://www.adobe.com/products/technicalcommunicationsuite.html"/>
+                <aem_guides
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Adobe Experience Manager Guides"
+                        sling:resourceType="core/wcm/components/button/v1/button"
+                        link="https://business.adobe.com/products/experience-manager/guides/aem-guides.html"/>
+            </wap_options>
         </root>
     </jcr:content>
 </jcr:root>

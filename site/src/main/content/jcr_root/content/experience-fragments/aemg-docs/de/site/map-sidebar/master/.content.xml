@@ -17,7 +17,7 @@
                 <download-icon jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-download-icon"/>
                 <download-title jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="RoboHelp herunterladen" textIsRich="false" id="kb-download-title"/>
                 <download-text jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>Holen Sie sich die Installer für die neueste RoboHelp-Version und beginnen Sie mit dem Erstellen und Veröffentlichen von Touchpoint-übergreifenden Inhalten.&lt;/p>" textIsRich="true" id="kb-download-text"/>
-                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/dam/robohelp/en/user-guide/introduction/robohelp-downloads.dita'>RoboHelp herunterladen&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
+                <download-btn jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/text/v2/text" text="&lt;p>&lt;a href='/content/robohelp-docs/de/docs/user-guide/robohelp-downloads.html'>RoboHelp herunterladen&lt;/a>&lt;/p>" textIsRich="true" id="kb-download-btn"/>
             </kb-download-card>
             <kb-sidebar-cards-row jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-sidebar-cards-row">
                 <kb-community-card jcr:primaryType="nt:unstructured" sling:resourceType="core/wcm/components/container/v1/container" id="kb-community-card">

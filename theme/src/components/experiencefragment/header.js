@@ -144,13 +144,25 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerButton.innerHTML = hamburgerOpenSvg;
   }
 
-  /* ===== WAP dropdown options — edit labels / URLs here ===== */
-  const WAP_OPTIONS = [
-    { label: 'RoboHelp', url: 'https://www.adobe.com/products/robohelp.html' },
-    { label: 'FrameMaker', url: 'https://www.adobe.com/products/framemaker.html' },
-    { label: 'Technical Communication Suite', url: 'https://www.adobe.com/products/technicalcommunicationsuite.html' },
-    { label: 'Adobe Experience Manager Guides',  url: 'https://business.adobe.com/products/experience-manager/guides/aem-guides.html' },
-  ];
+  const WAP_OPTIONS = Array.prototype.map.call(
+    document.querySelectorAll('#wap-options a.cmp-button'),
+    function (link) {
+      return { label: link.textContent.trim(), url: link.getAttribute('href') };
+    }
+  );
+
+  function buildWapOptions(className, optionClassName) {
+    const list = document.createElement('div');
+    list.className = className;
+    WAP_OPTIONS.forEach(function (opt) {
+      const option = document.createElement('a');
+      option.className = optionClassName;
+      option.href = opt.url;
+      option.textContent = opt.label;
+      list.appendChild(option);
+    });
+    return list;
+  }
 
   /* ===== WAP dropdown ===== */
   const wapBtn = document.querySelector('#btn-wap');
@@ -158,15 +170,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const wapWrapper = wapBtn.closest('.button');
     if (wapWrapper) wapWrapper.style.position = 'relative';
 
-    const dropdownHtml = '<div id="wap-dropdown" class="wap-dropdown">' +
-      WAP_OPTIONS.map(function (opt) {
-        return '<a class="wap-dropdown__option" href="' + opt.url + '">' + opt.label + '</a>';
-      }).join('') +
-      '</div>';
-
-    wapBtn.insertAdjacentHTML('afterend', dropdownHtml);
-
-    const wapDropdown = (wapWrapper || wapBtn.parentElement).querySelector('#wap-dropdown');
+    const wapDropdown = buildWapOptions('wap-dropdown', 'wap-dropdown__option');
+    wapDropdown.id = 'wap-dropdown';
+    wapBtn.insertAdjacentElement('afterend', wapDropdown);
 
     wapBtn.addEventListener('click', function (e) {
       e.preventDefault();
@@ -185,12 +191,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== Make Adobe logo clickable ===== */
   const adobeLogo = document.querySelector('#adobe-logo');
-  if (adobeLogo) {
+  const adobeLogoLink = adobeLogo && adobeLogo.querySelector('a.cmp-button');
+  if (adobeLogoLink) {
+    const adobeLogoUrl = adobeLogoLink.getAttribute('href');
     adobeLogo.style.cursor = 'pointer';
     adobeLogo.setAttribute('role', 'link');
     adobeLogo.setAttribute('aria-label', 'Adobe');
     adobeLogo.addEventListener('click', function () {
-      window.open('https://www.adobe.com/', '_blank', 'noopener');
+      window.open(adobeLogoUrl, '_blank', 'noopener');
     });
   }
 
@@ -231,13 +239,8 @@ document.addEventListener('DOMContentLoaded', () => {
     var drawerWapBtn = sideDrawer.querySelector('.button:first-child .cmp-button');
     if (drawerWapBtn) {
       var drawerWapWrapper = drawerWapBtn.closest('.button');
-      var subListHtml = '<div class="wap-drawer-sub">' +
-        WAP_OPTIONS.map(function (opt) {
-          return '<a class="wap-drawer-sub__option" href="' + opt.url + '">' + opt.label + '</a>';
-        }).join('') +
-        '</div>';
-      drawerWapWrapper.insertAdjacentHTML('beforeend', subListHtml);
-      var subList = drawerWapWrapper.querySelector('.wap-drawer-sub');
+      var subList = buildWapOptions('wap-drawer-sub', 'wap-drawer-sub__option');
+      drawerWapWrapper.appendChild(subList);
 
       drawerWapBtn.addEventListener('click', function (e) {
         e.preventDefault();

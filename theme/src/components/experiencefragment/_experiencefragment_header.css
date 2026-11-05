@@ -89,6 +89,11 @@ it.
     margin: 0 1.25rem;
 }
 
+#adobe-logo .button,
+.container:has(> #wap-options) {
+    display: none;
+}
+
 
 /* Hide hamburger container at desktop (>1440px) */
 #mobileview-button-container {

@@ -45,4 +45,27 @@
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
+    <com.adobe.guides.aem.components.core.linklocalization.LinkLocalizationConfig
+        jcr:primaryType="nt:unstructured"
+        excludedLinkAttributes="[data-attr-href]"
+        excludedUrls="[https://www.adobe.com/products/technical-content-solutions/events.html,https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads,https://www.adobe.com/privacy/us-rights.html]"/>
+    <com.adobe.guides.aem.components.core.linklocalization.LinkLocalizationRule
+        jcr:primaryType="nt:unstructured">
+        <adobe
+            jcr:primaryType="nt:unstructured"
+            hosts="[www.adobe.com,business.adobe.com,helpx.adobe.com]"
+            localeCodes="[ja=jp,de=de,fr=fr]"
+            pattern="PATH_PREFIX"/>
+        <news
+            jcr:primaryType="nt:unstructured"
+            hosts="[news.adobe.com]"
+            localeCodes="[ja=ja,de=de,fr=fr]"
+            pattern="PATH_PREFIX"/>
+        <lang-parameter
+            jcr:primaryType="nt:unstructured"
+            hosts="[account.adobe.com,community.adobe.com]"
+            localeCodes="[ja=ja,de=de,fr=fr]"
+            pattern="QUERY_PARAMETER"
+            queryParameter="lang"/>
+    </com.adobe.guides.aem.components.core.linklocalization.LinkLocalizationRule>
 </jcr:root>
