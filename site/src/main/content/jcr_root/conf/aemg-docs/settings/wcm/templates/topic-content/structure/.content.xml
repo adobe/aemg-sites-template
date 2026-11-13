@@ -92,10 +92,7 @@
                             id="topic-title"/>
                         <page-actions
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="guides-components/components/page-actions"
-                            mcpName="FrameMaker Documentation"
-                            mcpConfig="\{&quot;url&quot;:&quot;https://guidesai.adobe.io/mcp&quot;,&quot;name&quot;:&quot;framemaker-documentation&quot;,&quot;description&quot;:&quot;Knowledge base for framemaker-documentation&quot;,&quot;headers&quot;:\{&quot;X-Api-Key&quot;:&quot;fb_sk_ZIIm5oNLfXLV1fQhPe84M3mOlNRV1jO6KA_8sBia5gQ&quot;\}\}"
-                            mcpServer="https://guidesai.adobe.io/mcp"/>
+                            sling:resourceType="guides-components/components/page-actions"/>
                     </title-bar>
                     <container123
                         jcr:primaryType="nt:unstructured"
