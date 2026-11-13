@@ -2,16 +2,13 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="ebe72ae1-8040-434a-ae56-d6d1613a651a">
+    jcr:primaryType="dam:Asset">
     <jcr:content
         dam:assetState="processed"
         jcr:lastModified="{Date}2025-05-14T05:45:51.471-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-05-14T05:45:51.127-04:00|ebe72ae1-8040-434a-ae56-d6d1613a651a|2025-05-14T05:45:51.126-04:00|14|0"
-        fmUuid="GUID-b010ad0c-6ab5-46c7-898b-6f8b5a1b773f">
+        dxmlLastCreatedVersion="1.0">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:extracted="{Date}2025-05-14T05:45:51.229-04:00"

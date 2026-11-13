@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
   </svg>`;
 
-  // Dropdown chevron for "Adobe RoboHelp"
+  // Dropdown chevron for the active product
   const chevronDownSvg = `<svg class="header-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left:2px;">
     <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>`;
@@ -146,8 +146,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ===== WAP dropdown options — edit labels / URLs here ===== */
   const WAP_OPTIONS = [
-    { label: 'RoboHelp', url: 'https://www.adobe.com/products/robohelp.html' },
     { label: 'FrameMaker', url: 'https://www.adobe.com/products/framemaker.html' },
+    { label: 'RoboHelp', url: 'https://www.adobe.com/products/robohelp.html' },
     { label: 'Technical Communication Suite', url: 'https://www.adobe.com/products/technicalcommunicationsuite.html' },
     { label: 'Adobe Experience Manager Guides',  url: 'https://business.adobe.com/products/experience-manager/guides/aem-guides.html' },
   ];

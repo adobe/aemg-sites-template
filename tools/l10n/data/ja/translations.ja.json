@@ -1,0 +1,1284 @@
+{
+  "sourceLang": "en",
+  "strings": {
+    "0041296d45": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get instant access to high-quality, on-demand training courses",
+      "status": "translated",
+      "tgt": "高品質なオンデマンドトレーニングコースにすぐにアクセス"
+    },
+    "0535a1f0ff": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Still need help? Find more <a_1>account, billing, and plan answers.</a_1>",
+      "status": "translated",
+      "tgt": "まだサポートが必要ですか？<a_1>アカウント、請求、プランに関するその他の回答</a_1>を確認してください。"
+    },
+    "0599f23bec": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Connect with the Adobe FrameMaker community. Post questions and get answers from experts.",
+      "status": "translated",
+      "tgt": "Adobe FrameMakerコミュニティに参加しましょう。質問を投稿して、専門家から回答を得ることができます。"
+    },
+    "06631b41fd": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "<p_1>FrameMaker does not support installation in multiple locales on the same system. If you have installed FrameMaker in multiple locales, it may launch in a locale different from your intended preference. To resolve the issue:</p_1><ol_2><li_3>Uninstall FrameMaker.</li_3><li_4><a_5>Download</a_5> and install FrameMaker in your required locale.</li_4></ol_2>",
+      "status": "translated",
+      "tgt": "<p_1>FrameMakerは、同じシステムへの複数ロケールでのインストールをサポートしていません。FrameMakerを複数のロケールでインストールしている場合、意図した設定とは異なるロケールで起動することがあります。問題を解決するには：</p_1><ol_2><li_3>FrameMakerをアンインストールします。</li_3><li_4><a_5>ダウンロード</a_5>して、必要なロケールでFrameMakerをインストールします。</li_4></ol_2>"
+    },
+    "07253aa552": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Terms of Use",
+      "status": "translated",
+      "tgt": "利用条件"
+    },
+    "078cf96866": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Date",
+      "status": "translated",
+      "tgt": "日付"
+    },
+    "07b0a4f130": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Share this page",
+      "status": "translated",
+      "tgt": "このページを共有"
+    },
+    "07ccfe3d27": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Free trial",
+      "status": "translated",
+      "tgt": "無料体験版"
+    },
+    "0824ef8e58": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Buying Guide",
+      "status": "translated",
+      "tgt": "購入ガイド"
+    },
+    "08644e3679": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Account Management",
+      "status": "translated",
+      "tgt": "アカウント管理"
+    },
+    "0936cbd965": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "You can buy FrameMaker through the online <a_1>Adobe Store</a_1> or by calling: +1-866-647-1213. Learn about <a_2>other ways to buy FrameMaker</a_2>, including buying directly from Adobe or through authorized resellers or purchasing with education discounts. You'll need to sign in with an Adobe ID and password to complete the purchase and download the product. For help downloading and installing the app after purchase, view <a_3>Find downloaded apps and files</a_3>.",
+      "status": "translated",
+      "tgt": "FrameMakerはオンラインの<a_1>Adobe Store</a_1>から購入するか、+1-866-647-1213に電話して購入できます。Adobeから直接購入する方法、認定販売店経由での購入、教育機関向け割引での購入など、<a_2>FrameMakerのその他の購入方法</a_2>について確認してください。購入を完了して製品をダウンロードするには、Adobe IDとパスワードでサインインする必要があります。購入後のアプリのダウンロードとインストールについては、<a_3>ダウンロードしたアプリとファイルを見つける</a_3>を参照してください。"
+    },
+    "0a35037a47": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Ask anything about FrameMaker",
+      "status": "translated",
+      "tgt": "FrameMakerについて何でも質問してください"
+    },
+    "0aa9d58c1f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Footer",
+      "status": "translated",
+      "tgt": "フッター"
+    },
+    "0ada8634c0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get started with RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpを使い始める"
+    },
+    "0b0d954231": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How do I cancel my subscription? Can I still use the software I have?",
+      "status": "translated",
+      "tgt": "サブスクリプションを解約するにはどうすればよいですか? 現在持っているソフトウェアは引き続き使用できますか?"
+    },
+    "0e47b2e67e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Title",
+      "status": "translated",
+      "tgt": "タイトル"
+    },
+    "0f85a9ec05": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn how to start a business on AEMG and collaborate with your clients",
+      "status": "translated",
+      "tgt": "AEMGでビジネスを始め、クライアントと連携する方法を学ぶ"
+    },
+    "1098513a74": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Design master and reference pages",
+      "status": "translated",
+      "tgt": "マスターページと参照ページをデザイン"
+    },
+    "10bdaa9823": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "<a_1>Visit FrameMaker community ></a_1>",
+      "status": "translated",
+      "tgt": "<a_1>FrameMakerコミュニティにアクセス ></a_1>"
+    },
+    "10ebaf1532": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How do I create a template in FrameMaker?",
+      "status": "translated",
+      "tgt": "FrameMakerでテンプレートを作成するにはどうすればよいですか?"
+    },
+    "11161946a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download, find membership help, and learn the basics",
+      "status": "translated",
+      "tgt": "ダウンロード、メンバーシップのヘルプの確認、基本の学習"
+    },
+    "12c17048a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp Documentation | Learn & Support",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpドキュメント | 学習とサポート"
+    },
+    "13855d9129": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "<a_1>View release notes</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>リリースノートを表示</a_1>"
+    },
+    "13cf1a8c7c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get the installers for the latest RoboHelp release and start authoring and publishing content across multiple touchpoints.",
+      "status": "translated",
+      "tgt": "最新のRoboHelpリリース用インストーラーを入手して、複数のタッチポイントにわたるコンテンツのオーサリングと公開を開始できます。"
+    },
+    "142bdb5a85": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sign In",
+      "status": "translated",
+      "tgt": "ログイン"
+    },
+    "14b325a231": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "About",
+      "status": "translated",
+      "tgt": "概要"
+    },
+    "164384e2b2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Tutorials",
+      "status": "translated",
+      "tgt": "チュートリアル"
+    },
+    "16ce11054e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Publish to Zendesk",
+      "status": "translated",
+      "tgt": "Zendeskに公開"
+    },
+    "16f68a9bde": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Help resources",
+      "status": "translated",
+      "tgt": "ヘルプリソース"
+    },
+    "1757ad24af": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to customize PDF template components?",
+      "status": "translated",
+      "tgt": "PDFテンプレートコンポーネントをカスタマイズする方法"
+    },
+    "1850fd496e": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Learn <a_1>what's new</a_1> in FrameMaker (September 2026 release)!",
+      "status": "translated",
+      "tgt": "FrameMakerの<a_1>新機能</a_1>(2026年9月リリース)を確認しましょう。"
+    },
+    "18a2822121": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Connect with others to troubleshoot and grow your knowledge",
+      "status": "translated",
+      "tgt": "他のユーザーとつながってトラブルシューティングを行い、知識を深める"
+    },
+    "1a0d1be51b": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "<a_1>Download FrameMaker</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>FrameMakerをダウンロード</a_1>"
+    },
+    "1bca120767": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Search",
+      "status": "translated",
+      "tgt": "検索"
+    },
+    "1bd388e4af": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "FrameMaker",
+      "status": "translated",
+      "tgt": "FrameMaker"
+    },
+    "1db5ef1999": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Relevance",
+      "status": "translated",
+      "tgt": "関連性"
+    },
+    "1df07dc999": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Learn how to smartly manage variables and conditional tags in a book.",
+      "status": "translated",
+      "tgt": "ブック内の変数と条件タグを効率的に管理する方法を学びます。"
+    },
+    "20ad01b38f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Connect",
+      "status": "translated",
+      "tgt": "Adobe Connect"
+    },
+    "214e366bb7": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Convert unstructured FrameMaker files into structured documents.",
+      "status": "translated",
+      "tgt": "非構造化FrameMakerファイルを構造化ドキュメントに変換します。"
+    },
+    "22856a8dd8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Customize colors, layout, fonts, and branding of your Frameless output skin.",
+      "status": "translated",
+      "tgt": "Frameless出力スキンの色、レイアウト、フォント、ブランディングをカスタマイズします。"
+    },
+    "2355eba49f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Contact support",
+      "status": "translated",
+      "tgt": "サポートに問い合わせる"
+    },
+    "2503866fbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Can I get a trial version of RoboHelp? Also, how can I check for and install RoboHelp updates?",
+      "status": "translated",
+      "tgt": "RoboHelpの試用版を入手できますか? また、RoboHelpのアップデートを確認してインストールするにはどうすればよいですか?"
+    },
+    "28ae04dfc6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Open app",
+      "status": "translated",
+      "tgt": "アプリを開く"
+    },
+    "28f36d3d1b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Popular topics",
+      "status": "translated",
+      "tgt": "人気のトピック"
+    },
+    "291f3d9d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Review and Collaboration",
+      "status": "translated",
+      "tgt": "レビューと共同作業"
+    },
+    "2a5b79605e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Collaborate with other authors for creating, sharing, and managing reviews for your content using <a_1>Git</a_1>, <a_2>SharePoint online</a_2>, and <a_3>Azure DevOps</a_3>.",
+      "status": "translated",
+      "tgt": "<a_1>Git</a_1>、<a_2>SharePoint Online</a_2>、<a_3>Azure DevOps</a_3>を使用して、コンテンツのレビューの作成、共有、管理を他の作成者と共同で行うことができます。"
+    },
+    "2d065a2747": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Import Word documents into a project",
+      "status": "translated",
+      "tgt": "Wordドキュメントをプロジェクトに読み込む"
+    },
+    "2ecac5cc14": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Adobe Experience Manager Guides",
+      "status": "translated",
+      "tgt": "Adobe Experience Manager Guides"
+    },
+    "2f1ef71b7f": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Why can’t I generate a PDF for my FrameMaker document or book file?",
+      "status": "translated",
+      "tgt": "FrameMakerドキュメントまたはブックファイルのPDFを生成できないのはなぜですか?"
+    },
+    "2fb7c6e8d3": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How to generate a responsive HTML output?",
+      "status": "translated",
+      "tgt": "レスポンシブHTML出力を生成する方法"
+    },
+    "300f8d445f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore community",
+      "status": "translated",
+      "tgt": "コミュニティを見る"
+    },
+    "33994bf371": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Access expert-made documentation, articles, and release notes",
+      "status": "translated",
+      "tgt": "専門家が作成したドキュメント、記事、リリースノートにアクセス"
+    },
+    "3438e3db0f": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Why am I getting an error to \"Update OS or Browser\" while installing or activating RoboHelp?",
+      "status": "translated",
+      "tgt": "RoboHelpのインストールまたはアクティベーション中に「Update OS or Browser」というエラーが表示されるのはなぜですか?"
+    },
+    "35c8b13960": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I change my credit card info?",
+      "status": "translated",
+      "tgt": "クレジットカード情報を変更するにはどうすればよいですか?"
+    },
+    "38e62fad65": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Privacy</a_1> / <a_2>Terms of Use</a_2> / <a_3>Cookie preferences</a_3> / <a_4>Do not sell my personal information</a_4> /",
+      "status": "translated",
+      "tgt": "<a_1>プライバシー</a_1> / <a_2>利用規約</a_2> / <a_3>Cookieの設定</a_3> / <a_4>個人情報を販売しない</a_4> /"
+    },
+    "3a2b40123f": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "There are pre-defined templates that are available in the Admin Console to create packages for Adobe FrameMaker. For more details, see <a_1>Adobe Templates for Packages</a_1>.",
+      "status": "translated",
+      "tgt": "Admin Consoleには、Adobe FrameMaker用のパッケージを作成するために使用できる定義済みテンプレートがあります。詳しくは、<a_1>パッケージ用Adobeテンプレート</a_1>を参照してください。"
+    },
+    "3ac682a539": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Technical Communication",
+      "status": "translated",
+      "tgt": "テクニカルコミュニケーション"
+    },
+    "3acc7eac21": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I manage my licenses if they are allocated through my organization?",
+      "status": "translated",
+      "tgt": "組織を通じてライセンスが割り当てられている場合、ライセンスを管理するにはどうすればよいですか?"
+    },
+    "3b6bf70dbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Home",
+      "status": "translated",
+      "tgt": "ホーム"
+    },
+    "3c32579059": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Community",
+      "status": "translated",
+      "tgt": "Adobeコミュニティ"
+    },
+    "3c62f55ce5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can convert the 30-day trial version of Adobe RoboHelp into a subscription by purchasing a license from <a_1>Adobe.com</a_1>. For any queries, you can reach us at <a_2>techcomm@adobe.com</a_2>. For more information, see <a_3>Subscription information and pricing</a_3> in the RoboHelp FAQ.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpの30日間体験版は、<a_1>Adobe.com</a_1>からライセンスを購入することでサブスクリプションに変換できます。ご不明な点がある場合は、<a_2>techcomm@adobe.com</a_2>までお問い合わせいただけます。詳しくは、RoboHelp FAQの<a_3>サブスクリプション情報と価格</a_3>を参照してください。"
+    },
+    "40557c8e18": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Download RoboHelp</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>RoboHelpをダウンロード</a_1>"
+    },
+    "40a27286fa": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Can I import Microsoft Word files?",
+      "status": "translated",
+      "tgt": "Microsoft Wordファイルを読み込むことはできますか?"
+    },
+    "420068b226": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I collaborate with other authors?",
+      "status": "translated",
+      "tgt": "他の作成者と共同作業するにはどうすればよいですか?"
+    },
+    "4228e06fd4": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Get started with FrameMaker",
+      "status": "translated",
+      "tgt": "FrameMakerを使い始める"
+    },
+    "42e8f2b261": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Copyright © 2026 Adobe. All rights reserved.",
+      "status": "translated",
+      "tgt": "Copyright © 2026 Adobe. 無断複写・転載を禁じます。"
+    },
+    "4419f25d98": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Free Trial",
+      "status": "translated",
+      "tgt": "無料体験版"
+    },
+    "4494d4b3aa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore tutorials, documentation, and resources to get the most out of RoboHelp.",
+      "status": "translated",
+      "tgt": "チュートリアル、ドキュメント、リソースを確認して、RoboHelpを最大限に活用しましょう。"
+    },
+    "468459da85": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Resources",
+      "status": "translated",
+      "tgt": "リソース"
+    },
+    "468889e550": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Genuine software",
+      "status": "translated",
+      "tgt": "正規ソフトウェア"
+    },
+    "46d7aa2001": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sort",
+      "status": "translated",
+      "tgt": "並べ替え"
+    },
+    "48a8b25693": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "What are the supported file formats in RoboHelp?",
+      "status": "translated",
+      "tgt": "RoboHelpでサポートされているファイル形式は何ですか?"
+    },
+    "4928af5acc": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "The Distiller application bundled with the installer needs Visual C runtime libraries to install and run. Sometimes, the Distiller application does not recognize the Visual C runtime libraries even if they are installed on your system. This failure to detect the Visual C runtimes causes the installation of PDF Creation Add-on to fail. A workaround for this issue is available in the <a_1>Missing Distiller error on saving a document as PDF</a_1> article.",
+      "status": "translated",
+      "tgt": "インストーラーに含まれているDistillerアプリケーションをインストールして実行するには、Visual Cランタイムライブラリが必要です。システムにインストールされていても、DistillerアプリケーションがVisual Cランタイムライブラリを認識しない場合があります。このVisual Cランタイムの検出失敗により、PDF Creation Add-onのインストールが失敗します。この問題の回避策は、<a_1>ドキュメントをPDFとして保存するときのDistillerが見つからないエラー</a_1>の記事で確認できます。"
+    },
+    "4962f9b462": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "I want to upgrade my project. What are the points that I must keep in mind?",
+      "status": "translated",
+      "tgt": "プロジェクトをアップグレードしたいと考えています。注意すべき点は何ですか?"
+    },
+    "4d014fb606": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can update your credit card information from your accounts page on <a_1>adobe.com</a_1>. For more information, view <a_2>Payment in the Adobe Store | Online order and payment FAQ</a_2>.",
+      "status": "translated",
+      "tgt": "クレジットカード情報は、<a_1>adobe.com</a_1>のアカウントページから更新できます。詳しくは、<a_2>Adobe Storeでの支払い | オンライン注文と支払いに関するFAQ</a_2>を参照してください。"
+    },
+    "4db2e49370": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Adobe FrameMaker documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of FrameMaker.",
+      "status": "translated",
+      "tgt": "Adobe FrameMakerのドキュメントとサポートのハブ。FrameMakerを最大限に活用するための回答、チュートリアル、ドキュメント、リソースを見つけることができます。"
+    },
+    "50da56f262": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Captivate",
+      "status": "translated",
+      "tgt": "Adobe Captivate"
+    },
+    "514eb30c14": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Ask anything about RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpについて何でも質問"
+    },
+    "52b06c29ed": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then your Administrator can raise a ticket in the <a_1>Admin Console</a_1>.",
+      "status": "translated",
+      "tgt": "組織のライセンスを管理している管理者に連絡できます。さらにサポートが必要な場合は、管理者が<a_1>Admin Console</a_1>でチケットを起票できます。"
+    },
+    "5302043f52": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "All Adobe products recommend using the latest Operating System and browser updates to function efficiently. If you are running the latest updates and still facing the error, then for more help view <a_1>deprecated IE10 support</a_1>. Also, take a look at <a_2>upgrading operating system and supported browser versions</a_2>.",
+      "status": "translated",
+      "tgt": "すべてのAdobe製品では、効率的に機能させるために、最新のオペレーティングシステムとブラウザーのアップデートを使用することを推奨しています。最新のアップデートを実行していてもエラーが発生する場合は、詳細について<a_1>非推奨となったIE10サポート</a_1>を参照してください。また、<a_2>オペレーティングシステムのアップグレードとサポートされるブラウザーバージョン</a_2>も確認してください。"
+    },
+    "5332bfdfcf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "X (Twitter)",
+      "status": "translated",
+      "tgt": "X (Twitter)"
+    },
+    "553188f608": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Learn how to import Microsoft Word documents in FrameMaker.",
+      "status": "translated",
+      "tgt": "FrameMakerでMicrosoft Wordドキュメントを読み込む方法を学びます。"
+    },
+    "5558c0ca7e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore RoboHelp Workspace",
+      "status": "translated",
+      "tgt": "RoboHelp Workspaceを確認"
+    },
+    "56093d7b3d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp",
+      "status": "translated",
+      "tgt": "Adobe RoboHelp"
+    },
+    "56419f99ba": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Convert Unstructured FrameMaker Files",
+      "status": "translated",
+      "tgt": "非構造化FrameMakerファイルを変換"
+    },
+    "56cde05bbc": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Join the Conversation",
+      "status": "translated",
+      "tgt": "会話に参加"
+    },
+    "586f2222e9": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How do I insert a table in a structured FrameMaker document?",
+      "status": "translated",
+      "tgt": "構造化FrameMakerドキュメントに表を挿入するにはどうすればよいですか?"
+    },
+    "59858d3edc": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Can I buy a full / Perpetual license (with serial key) of the latest release of Adobe FrameMaker?",
+      "status": "translated",
+      "tgt": "Adobe FrameMakerの最新リリースのフルライセンス／永続ライセンス(シリアルキー付き)を購入できますか?"
+    },
+    "59ce487cf9": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Overview of RoboHelp's menus, panels, toolbars, and views for authoring content.",
+      "status": "translated",
+      "tgt": "コンテンツ作成用のRoboHelpのメニュー、パネル、ツールバー、ビューの概要。"
+    },
+    "5a8a9d413a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Header",
+      "status": "translated",
+      "tgt": "ヘッダー"
+    },
+    "5d8e9eaaae": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Create a AEMG business",
+      "status": "translated",
+      "tgt": "AEMGビジネスを作成"
+    },
+    "5e9bc5790e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Pre-defined templates are available in the Admin Console to create packages for Adobe RoboHelp. For more details, view <a_1>Adobe Templates for Packages</a_1>.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpのパッケージを作成するための定義済みテンプレートをAdmin Consoleで利用できます。詳しくは、<a_1>Adobe Templates for Packages</a_1>を参照してください。"
+    },
+    "5f751fbbbd": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Visit community forum",
+      "status": "translated",
+      "tgt": "コミュニティフォーラムにアクセス"
+    },
+    "6117147267": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Contact support ></a_1>",
+      "status": "translated",
+      "tgt": "<a_1>サポートに問い合わせる ／</a_1>"
+    },
+    "611bc33b38": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe RoboHelp documentation and support hub. Find answers, tutorials, documentation, and resources to get the most out of RoboHelp.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpのドキュメントとサポートハブ。RoboHelpを最大限に活用するための回答、チュートリアル、ドキュメント、リソースを見つけましょう。"
+    },
+    "61c5dbfcdf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Table of contents for Product 1",
+      "status": "translated",
+      "tgt": "製品1の目次"
+    },
+    "6349d2d997": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe TechComm Blog",
+      "status": "translated",
+      "tgt": "Adobe TechCommブログ"
+    },
+    "6396b98406": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelpをダウンロード"
+    },
+    "64ea66b311": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "FrameMaker FAQs",
+      "status": "translated",
+      "tgt": "FrameMaker FAQ集"
+    },
+    "658e70fb84": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Account",
+      "status": "translated",
+      "tgt": "Adobeアカウント"
+    },
+    "667e3e94a8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Product 1",
+      "status": "translated",
+      "tgt": "製品1"
+    },
+    "66f462dc67": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "September 2026",
+      "status": "translated",
+      "tgt": "2026年9月"
+    },
+    "685b6e8324": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Watch quick tutorials, video playlists, and how-to's created by experts",
+      "status": "translated",
+      "tgt": "専門家が作成したクイックチュートリアル、ビデオプレイリスト、ハウツーを見る"
+    },
+    "6992d569cd": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Import Microsoft Word Files",
+      "status": "translated",
+      "tgt": "Microsoft Wordファイルを読み込む"
+    },
+    "69ff815111": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "You can convert the 30-day trial version of Adobe FrameMaker into a subscription by purchasing a license from <a_1>Adobe.com</a_1>. For any queries, you can reach us at <a_2>techcomm@adobe.com</a_2>. For more information, see <a_3>Subscription information and pricing</a_3> in the FrameMaker FAQ.",
+      "status": "translated",
+      "tgt": "Adobe FrameMakerの30日間体験版は、<a_1>Adobe.com</a_1>でライセンスを購入することでサブスクリプションに変換できます。質問がある場合は、<a_2>techcomm@adobe.com</a_2>までお問い合わせください。詳しくは、FrameMaker FAQの<a_3>サブスクリプション情報と価格</a_3>を参照してください。"
+    },
+    "6ab77b3530": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "AI responses may be inaccurate and any offers provided are non-binding. <a_1>Terms.</a_1>",
+      "status": "translated",
+      "tgt": "AIの応答には不正確な内容が含まれる場合があり、提供されるオファーはいずれも拘束力を持ちません。<a_1>利用条件。</a_1>"
+    },
+    "6b05b464d6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn <a_1>what's new</a_1> in RoboHelp (September 2026 release)!",
+      "status": "translated",
+      "tgt": "RoboHelpの<a_1>新機能</a_1>(2026年9月リリース)を確認しましょう。"
+    },
+    "6b0aab896b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Captivate",
+      "status": "translated",
+      "tgt": "Captivate"
+    },
+    "6dde1a2ed2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Online Training",
+      "status": "translated",
+      "tgt": "オンライントレーニング"
+    },
+    "6f07036b6b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Talk to Adobe about RoboHelp installation, licensing, and technical questions.",
+      "status": "translated",
+      "tgt": "RoboHelpのインストール、ライセンス、技術的な質問についてAdobeに問い合わせることができます。"
+    },
+    "70ba666e79": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "All levels",
+      "status": "translated",
+      "tgt": "すべてのレベル"
+    },
+    "717efd4634": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view <a_1>Subscription information and pricing</a_1> in the RoboHelp FAQ.",
+      "status": "translated",
+      "tgt": "サブスクリプションはAdobeサポートに連絡することで解約できます。14日以内に解約した場合は、全額が返金されます。それ以外の場合は、契約上の残りの支払い義務の50%が請求されます。解約後はサブスクリプションソフトウェアにアクセスできなくなります。詳しくは、RoboHelp FAQの<a_1>サブスクリプション情報と価格</a_1>を参照してください。"
+    },
+    "72ab78724d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Careers",
+      "status": "translated",
+      "tgt": "採用情報"
+    },
+    "73bb3bc1ec": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe",
+      "status": "translated",
+      "tgt": "Adobe"
+    },
+    "766203c0ca": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Trending Resources",
+      "status": "translated",
+      "tgt": "注目のリソース"
+    },
+    "7697048d3a": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "My trial expires soon. How do I convert it?",
+      "status": "translated",
+      "tgt": "試用版の期限がまもなく切れます。変換するにはどうすればよいですか?"
+    },
+    "76b9e1d80c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to split editor screen horizontally?",
+      "status": "translated",
+      "tgt": "エディター画面を水平方向に分割する方法"
+    },
+    "76ba1abff2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Customize Frameless Skins",
+      "status": "translated",
+      "tgt": "Framelessスキンをカスタマイズ"
+    },
+    "784c701fbf": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Log in to your account",
+      "status": "translated",
+      "tgt": "アカウントにログイン"
+    },
+    "798efb9ad3": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn how to <a_1>resolve download issues</a_1> with RoboHelp and other Adobe apps.",
+      "status": "translated",
+      "tgt": "RoboHelpや他のAdobeアプリで<a_1>ダウンロードの問題を解決する</a_1>方法を説明します。"
+    },
+    "79aa5a0caa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "LinkedIn",
+      "status": "translated",
+      "tgt": "LinkedIn"
+    },
+    "7b0f420852": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "User guide",
+      "status": "translated",
+      "tgt": "ユーザーガイド"
+    },
+    "7db2943523": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore online training",
+      "status": "translated",
+      "tgt": "オンライントレーニングを見る"
+    },
+    "80e12d469d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Got questions? We have the answer",
+      "status": "translated",
+      "tgt": "質問がありますか？お答えします"
+    },
+    "8395bdf211": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Corporate responsibility",
+      "status": "translated",
+      "tgt": "企業責任"
+    },
+    "8635b8f8b1": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Newsroom",
+      "status": "translated",
+      "tgt": "ニュースルーム"
+    },
+    "877bc88938": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Output generated in RoboHelp can be hosted on any web enabled server like Apache, <a_1>RoboHelp Server</a_1>, <a_2>SharePoint Online</a_2>, <a_3>Zendesk Help Center</a_3>, <a_4>Salesforce Knowledge Base</a_4>, <a_5>ServiceNow Knowledge Base</a_5>, <a_6>Zoho Knowledge Base</a_6>, and <a_7>Adobe Experience Manager</a_7>.",
+      "status": "translated",
+      "tgt": "RoboHelpで生成された出力は、Apache、<a_1>RoboHelp Server</a_1>、<a_2>SharePoint Online</a_2>、<a_3>Zendesk Help Center</a_3>、<a_4>Salesforce Knowledge Base</a_4>、<a_5>ServiceNow Knowledge Base</a_5>、<a_6>Zoho Knowledge Base</a_6>、<a_7>Adobe Experience Manager</a_7>など、Web対応サーバーでホストできます。"
+    },
+    "8867f14e0e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Format your content",
+      "status": "translated",
+      "tgt": "コンテンツの書式を設定"
+    },
+    "8aa90a8b25": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<p_1><b_2>Adobe Technical Communication Events</b_2></p_1><p_3>Join our in-person and virtual events to explore technical content and knowledge management trends, hear customer success stories, build skills, and network with peers and industry leaders.</p_3>",
+      "status": "translated",
+      "tgt": "<p_1><b_2>Adobe Technical Communication Events</b_2></p_1><p_3>対面イベントとバーチャルイベントに参加して、テクニカルコンテンツとナレッジ管理のトレンドを探り、顧客の成功事例を聞き、スキルを高め、同業者や業界リーダーと交流できます。</p_3>"
+    },
+    "8afcaed246": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Support",
+      "status": "translated",
+      "tgt": "サポート"
+    },
+    "8b70e7ebd9": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learning Resources",
+      "status": "translated",
+      "tgt": "学習リソース"
+    },
+    "8b8907766e": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "There could be multiple reasons for this failure. See the <a_1>Cannot generate PDF of FrameMaker documents or books</a_1> article for solutions.",
+      "status": "translated",
+      "tgt": "この失敗には複数の原因が考えられます。解決策については、<a_1>FrameMakerドキュメントまたはブックのPDFを生成できない</a_1>の記事を参照してください。"
+    },
+    "8dd0a28830": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "FrameMaker launches in a different locale. Why can't I install FrameMaker in multiple locales on the same system?",
+      "status": "translated",
+      "tgt": "FrameMakerが別のロケールで起動します。同じシステムに複数のロケールでFrameMakerをインストールできないのはなぜですか?"
+    },
+    "8ecaa2c01c": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Explore the fixes and improvements available in the latest FrameMaker release.",
+      "status": "translated",
+      "tgt": "最新のFrameMakerリリースで利用できる修正と改善点を確認しましょう。"
+    },
+    "8f188f524a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Partner Portal",
+      "status": "translated",
+      "tgt": "パートナーポータル"
+    },
+    "8f577bfff8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Documentation",
+      "status": "translated",
+      "tgt": "ドキュメント"
+    },
+    "8f7e6a7ed0": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Yes! Learn how to <a_1>smoothly import a Word document</a_1> in this brief tutorial. You can also follow these <a_2>step-by-step instructions to import Word files</a_2>.",
+      "status": "translated",
+      "tgt": "この短いチュートリアルで、<a_1>Wordドキュメントをスムーズに読み込む方法</a_1>を学びます。また、<a_2>Wordファイルを読み込むための手順別の説明</a_2>に従うこともできます。"
+    },
+    "90aba2e877": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "<p_1>Full license of Adobe FrameMaker is no longer available for purchase. For individual needs, you can opt for subscription plans via adobe.com.</p_1><p_2>For enterprises, SMBs, Education and Government segments, one can opt for volume licensing plans like Enterprise Term License Agreement (ETLA) and Value Incentive Program (VIP).</p_2><p_3>To explore all the buying options, visit the <a_4>Buying guide</a_4> page or write to us at <a_5>techcomm@adobe.com</a_5>. For more information, view the <a_6>FrameMaker FAQ</a_6>.</p_3>",
+      "status": "translated",
+      "tgt": "<p_1>Adobe FrameMakerのフルライセンスは現在購入できません。個人利用の場合は、adobe.comのサブスクリプションプランを選択できます。</p_1><p_2>企業、中小企業、教育機関、政府機関向けには、Enterprise Term License Agreement (ETLA)やValue Incentive Program (VIP)などのボリュームライセンスプランを選択できます。</p_2><p_3>すべての購入オプションを確認するには、<a_4>購入ガイド</a_4>ページを参照するか、<a_5>techcomm@adobe.com</a_5>までメールでお問い合わせください。詳しくは、<a_6>FrameMaker FAQ</a_6>を参照してください。</p_3>"
+    },
+    "911c2d75a5": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Download FrameMaker",
+      "status": "translated",
+      "tgt": "FrameMakerをダウンロード"
+    },
+    "92e3f136b1": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "You can update your credit card information from your <a_1>accounts page</a_1> on adobe.com. For more information, view <a_2>Payment</a_2> in the <a_3>Adobe Store | Online order and payment FAQ</a_3>.",
+      "status": "translated",
+      "tgt": "クレジットカード情報は、adobe.comの<a_1>アカウントページ</a_1>から更新できます。詳しくは、<a_3>Adobe Store | オンライン注文と支払いに関するFAQ</a_3>の<a_2>支払い</a_2>を参照してください。"
+    },
+    "93180eed71": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How to use MIF Wash Utility in FrameMaker?",
+      "status": "translated",
+      "tgt": "FrameMakerでMIF Wash Utilityを使用する方法"
+    },
+    "9410fb16e2": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Explore tutorials, documentation, and expert resources to get the most out of FrameMaker.",
+      "status": "translated",
+      "tgt": "FrameMakerを最大限に活用するためのチュートリアル、ドキュメント、専門家のリソースを確認しましょう。"
+    },
+    "9b5bf01d7f": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Why do I get the missing Distiller error on saving a document as PDF?",
+      "status": "translated",
+      "tgt": "ドキュメントをPDFとして保存するときにDistillerが見つからないというエラーが表示されるのはなぜですか?"
+    },
+    "9ca89f8cee": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore tutorials",
+      "status": "translated",
+      "tgt": "チュートリアルを見る"
+    },
+    "9e1a431251": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Configure output presets and publish profiles to push content to Zendesk.",
+      "status": "translated",
+      "tgt": "出力プリセットと公開プロファイルを設定して、コンテンツをZendeskにプッシュします。"
+    },
+    "9ebee91796": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Blog",
+      "status": "translated",
+      "tgt": "Adobe Blog"
+    },
+    "9f158a459d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "DOCUMENTATION",
+      "status": "translated",
+      "tgt": "ドキュメント"
+    },
+    "a009274728": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Explore documentation",
+      "status": "translated",
+      "tgt": "ドキュメントを見る"
+    },
+    "a14564ba22": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "My trial expires soon. How do I renew it?",
+      "status": "translated",
+      "tgt": "試用期間がまもなく終了します。更新するにはどうすればよいですか?"
+    },
+    "a59f77b431": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Join the Adobe Community to learn, create, and connect with fellow creators from around the world.",
+      "status": "translated",
+      "tgt": "Adobeコミュニティに参加して、世界中のクリエイター仲間と学び、作り、つながりましょう。"
+    },
+    "a5eb99ebf5": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Set document direction",
+      "status": "translated",
+      "tgt": "ドキュメントの方向を設定"
+    },
+    "a93241e7f4": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Features",
+      "status": "translated",
+      "tgt": "機能"
+    },
+    "a93444b9f1": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Common Issues",
+      "status": "translated",
+      "tgt": "一般的な問題"
+    },
+    "ab32ebe6d2": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How do I retrieve my Adobe ID or password?",
+      "status": "translated",
+      "tgt": "Adobe IDまたはパスワードを取得し直すにはどうすればよいですか?"
+    },
+    "ac410a95e6": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Adobe FrameMaker Documentation | Learn & Support",
+      "status": "translated",
+      "tgt": "Adobe FrameMakerドキュメント | 学習とサポート"
+    },
+    "ae0719cf14": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Download and Install",
+      "status": "translated",
+      "tgt": "ダウンロードとインストール"
+    },
+    "ae5fdbcaae": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "To collaborate using Review, log in using your Adobe ID as Review is hosted on the <a_1>Adobe Creative Cloud</a_1>. For more information, view <a_2>Review and Collaboration</a_2>.",
+      "status": "translated",
+      "tgt": "Reviewを使用して共同作業するには、Reviewは<a_1>Adobe Creative Cloud</a_1>でホストされているため、Adobe IDを使用してログインします。詳しくは、<a_2>Reviewと共同作業</a_2>を参照してください。"
+    },
+    "aef0d801eb": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I change my password?",
+      "status": "translated",
+      "tgt": "パスワードを変更するにはどうすればよいですか?"
+    },
+    "af1c4f0606": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp FAQs",
+      "status": "translated",
+      "tgt": "RoboHelp よくある質問"
+    },
+    "af214007e7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Enterprise support",
+      "status": "translated",
+      "tgt": "エンタープライズサポート"
+    },
+    "af47ed2bfa": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp Community",
+      "status": "translated",
+      "tgt": "RoboHelpコミュニティ"
+    },
+    "b5250c9171": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn and Support",
+      "status": "translated",
+      "tgt": "学習とサポート"
+    },
+    "b5d8c78f86": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How can I create and distribute Adobe FrameMaker package through Adobe Admin Console?",
+      "status": "translated",
+      "tgt": "Adobe Admin ConsoleでAdobe FrameMakerパッケージを作成して配布する方法"
+    },
+    "b7cd21478c": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Track text edits",
+      "status": "translated",
+      "tgt": "テキスト編集を追跡"
+    },
+    "ba5b38cadb": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Adobe Learning Manager",
+      "status": "translated",
+      "tgt": "Adobe Learning Manager"
+    },
+    "bbd2c3bbf6": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How do I purchase and install FrameMaker?",
+      "status": "translated",
+      "tgt": "FrameMakerを購入してインストールするにはどうすればよいですか?"
+    },
+    "bc77d11a9a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to link to bookmark from another topic?",
+      "status": "translated",
+      "tgt": "別のトピックからブックマークにリンクする方法"
+    },
+    "bf3f7cf836": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "You can cancel your subscription by contacting Adobe Support. If you cancel within 14 days, you receive a full refund. Otherwise, you are billed 50% of your remaining contract obligation. You will not have access to your subscription software after you cancel. For more information, view <a_1>Subscription information and pricing</a_1> in the FrameMaker FAQ.",
+      "status": "translated",
+      "tgt": "サブスクリプションはAdobeサポートに連絡して解約できます。14日以内に解約した場合は全額返金されます。それ以外の場合は、残りの契約義務の50%が請求されます。解約後はサブスクリプションソフトウェアにアクセスできなくなります。詳しくは、FrameMaker FAQの<a_1>サブスクリプション情報と価格</a_1>を参照してください。"
+    },
+    "c009d46567": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Learn & Support",
+      "status": "translated",
+      "tgt": "学習とサポート"
+    },
+    "c24f33a253": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Community",
+      "status": "translated",
+      "tgt": "コミュニティ"
+    },
+    "c2d6dce11b": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "You can install RoboHelp on up to two computers. If you want to install it on a third computer, you need to deactivate it on one of your previous machines. Learn more about <a_1>activating and deactivating Adobe apps</a_1>. If you need five or more licenses, consider purchasing a <a_2>volume licensing plan</a_2>.",
+      "status": "translated",
+      "tgt": "RoboHelpは最大2台のコンピューターにインストールできます。3台目のコンピューターにインストールする場合は、以前のいずれかのマシンでライセンス認証を解除する必要があります。<a_1>Adobeアプリのライセンス認証と認証解除</a_1>について詳しくは、こちらを参照してください。5つ以上のライセンスが必要な場合は、<a_2>ボリュームライセンスプラン</a_2>の購入を検討してください。"
+    },
+    "c6cfd17107": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Sign in to your <a_1>Adobe account</a_1>. Under the Password section, select Change for Current Password, and then follow the onscreen instructions. Forgot your password? Learn how to <a_2>reset it</a_2>.",
+      "status": "translated",
+      "tgt": "<a_1>Adobeアカウント</a_1>にサインインします。パスワードセクションで、「現在のパスワード」の「変更」を選択し、画面の指示に従います。パスワードを忘れた場合は、<a_2>リセットする方法</a_2>を参照してください。"
+    },
+    "c877095795": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Adobe FrameMaker",
+      "status": "translated",
+      "tgt": "Adobe FrameMaker"
+    },
+    "c927b21d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Get expert help",
+      "status": "translated",
+      "tgt": "専門家のサポートを受ける"
+    },
+    "cc4e6c6044": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Create a Project",
+      "status": "translated",
+      "tgt": "プロジェクトを作成"
+    },
+    "cd728df07a": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to use Review and where it is hosted? Is an Adobe Id required to access it?",
+      "status": "translated",
+      "tgt": "Reviewの使用方法とホスト場所を教えてください。アクセスするにはAdobe IDが必要ですか?"
+    },
+    "cd8d8591d5": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "You can get in touch with your Administrator who manages licenses for your organization. In case you need more assistance, then you can raise a ticket in the <a_1>Admin Console</a_1> by your Administrator.",
+      "status": "translated",
+      "tgt": "組織のライセンスを管理している管理者に連絡できます。さらにサポートが必要な場合は、管理者が<a_1>Admin Console</a_1>でチケットを作成できます。"
+    },
+    "cdb777867e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp supports a wide range of file formats for both opening existing Help projects and importing content from other authoring tools. This includes project formats like HHP, XPJ, and MPJ, as well as import formats such as Word, PDF, FrameMaker, DITA, HTML/XML, and various image, audio, and video files. For more information, view <a_1>Supported file formats</a_1>.",
+      "status": "translated",
+      "tgt": "RoboHelpは、既存のヘルププロジェクトを開く場合と、他のオーサリングツールからコンテンツを読み込む場合の両方で、幅広いファイル形式をサポートしています。これには、HHP、XPJ、MPJなどのプロジェクト形式に加え、Word、PDF、FrameMaker、DITA、HTML/XML、および各種画像、音声、動画ファイルなどの読み込み形式が含まれます。詳しくは、<a_1>サポートされるファイル形式</a_1>を参照してください。"
+    },
+    "d1b91076b7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Why won't RoboHelp download?",
+      "status": "translated",
+      "tgt": "RoboHelpをダウンロードできないのはなぜですか?"
+    },
+    "d2227db5b2": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "RoboHelp",
+      "status": "translated",
+      "tgt": "RoboHelp"
+    },
+    "d280443dd1": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Can I install RoboHelp on another computer?",
+      "status": "translated",
+      "tgt": "RoboHelpを別のコンピューターにインストールできますか?"
+    },
+    "d35610ca4f": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Learn how to <a_1>resolve download issues</a_1> with FrameMaker and other Adobe apps.",
+      "status": "translated",
+      "tgt": "FrameMakerやその他のAdobeアプリの<a_1>ダウンロードの問題を解決する方法</a_1>を学びます。"
+    },
+    "d5dba42393": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Explore the Book-level Templates",
+      "status": "translated",
+      "tgt": "ブックレベルテンプレートを確認"
+    },
+    "d6572082ec": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Why won't FrameMaker download?",
+      "status": "translated",
+      "tgt": "FrameMakerをダウンロードできないのはなぜですか?"
+    },
+    "d9ea4a7f7c": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "What are the options available to host a generated output?",
+      "status": "translated",
+      "tgt": "生成された出力をホストするために利用できるオプションは何ですか?"
+    },
+    "da80033173": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>AdChoices</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>AdChoices</a_1>"
+    },
+    "db8abf23a5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Featured products",
+      "status": "translated",
+      "tgt": "注目の製品"
+    },
+    "dc0876277b": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Read these <a_1>simple solutions to common Adobe ID and sign in issues</a_1> to regain access to your account.",
+      "status": "translated",
+      "tgt": "アカウントへのアクセスを回復するには、<a_1>Adobe IDとサインインに関する一般的な問題の簡単な解決策</a_1>を確認してください。"
+    },
+    "ddf2b2bdf8": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Facebook",
+      "status": "translated",
+      "tgt": "Facebook"
+    },
+    "e0ef4eebf0": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Talk to Adobe about FrameMaker installation, licensing, and technical questions.",
+      "status": "translated",
+      "tgt": "FrameMakerのインストール、ライセンス、技術的な質問についてアドビにお問い合わせください。"
+    },
+    "e163cd3515": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Last update:",
+      "status": "translated",
+      "tgt": "最終更新日："
+    },
+    "e288087314": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can I create and distribute Adobe RoboHelp package through Adobe Admin Console?",
+      "status": "translated",
+      "tgt": "Adobe Admin Consoleを通じてAdobe RoboHelpパッケージを作成して配布するにはどうすればよいですか?"
+    },
+    "e35112a5b5": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Ask AI",
+      "status": "translated",
+      "tgt": "AIに質問"
+    },
+    "e3e2b419bf": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "<b_1>FrameMaker September 2026 release</b_1>",
+      "status": "translated",
+      "tgt": "<b_1>FrameMaker 2026年9月リリース</b_1>"
+    },
+    "e41ae51679": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Yes. You can <a_1>download</a_1> a fully functional, 30-day complimentary trial version by signing in with an Adobe ID and password. For detailed instructions, view <a_2>installing a trial</a_2>. To check if there are any updates, go to Help > Check for Updates in your current version of RoboHelp. Alternately, you can also manually install them from <a_3>downloads</a_3>.",
+      "status": "translated",
+      "tgt": "はい。Adobe IDとパスワードでサインインすると、完全に機能する30日間の無償体験版を<a_1>ダウンロード</a_1>できます。詳しい手順については、<a_2>体験版のインストール</a_2>を参照してください。アップデートがあるかどうかを確認するには、現在のRoboHelpバージョンでヘルプ／アップデートの確認に移動します。または、<a_3>ダウンロード</a_3>から手動でインストールすることもできます。"
+    },
+    "e42075087f": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "Create QR codes",
+      "status": "translated",
+      "tgt": "QRコードを作成"
+    },
+    "e509c73754": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How can we help?",
+      "status": "translated",
+      "tgt": "どのようなサポートが必要ですか？"
+    },
+    "e528301d6d": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "AEM Guides",
+      "status": "translated",
+      "tgt": "AEM Guides"
+    },
+    "eb8e3ace67": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Connect with the Adobe RoboHelp community. Post questions and get answers from experts.",
+      "status": "translated",
+      "tgt": "Adobe RoboHelpコミュニティに参加します。質問を投稿し、エキスパートから回答を得ることができます。"
+    },
+    "ee6b17dd19": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Investor Relations",
+      "status": "translated",
+      "tgt": "投資家情報"
+    },
+    "ef54fc14e6": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "To upgrade your project from RoboHelp Classic to reimagined version (2019 release or 2020 release), there are certain points to consider which might occur due to the upgrade. For more information, view <a_1>Upgrade a project in RoboHelp</a_1>.",
+      "status": "translated",
+      "tgt": "RoboHelp Classicから再設計版(2019 releaseまたは2020 release)にプロジェクトをアップグレードするには、アップグレードによって発生する可能性があるいくつかの考慮事項があります。詳しくは、<a_1>RoboHelpでプロジェクトをアップグレード</a_1>を参照してください。"
+    },
+    "f1686e69a0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Common issues",
+      "status": "translated",
+      "tgt": "一般的な問題"
+    },
+    "f2193cf826": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "FrameMaker includes the MIF Wash Utility to batch-convert book files, suppress missing font or image warnings, and repair corrupted files. See the <a_1>How to use MIF Wash Utility in FrameMaker</a_1> article for setup and usage instructions.",
+      "status": "translated",
+      "tgt": "FrameMakerには、ブックファイルの一括変換、不足しているフォントや画像の警告の抑制、破損ファイルの修復を行うためのMIF Wash Utilityが含まれています。設定と使用方法については、<a_1>FrameMakerでMIF Wash Utilityを使用する方法</a_1>の記事を参照してください。"
+    },
+    "f2db1db529": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to add a word to the user dictionary?",
+      "status": "translated",
+      "tgt": "ユーザー辞書に単語を追加する方法"
+    },
+    "f2dbf8f54f": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "FrameMaker Community",
+      "status": "translated",
+      "tgt": "FrameMakerコミュニティ"
+    },
+    "f3b5f93af0": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Troubleshoot common questions about AEMG features.",
+      "status": "translated",
+      "tgt": "AEMG機能に関する一般的な質問のトラブルシューティングを行います。"
+    },
+    "f47232aef7": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Whatever message this page gives is out now!  <a_1>Go check it out!</a_1>",
+      "status": "translated",
+      "tgt": "このページのメッセージが公開されました。  <a_1>今すぐ確認してください。</a_1>"
+    },
+    "f48f52e1ac": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "How do I conditionalize content in FrameMaker?",
+      "status": "translated",
+      "tgt": "FrameMakerでコンテンツに条件を設定するにはどうすればよいですか?"
+    },
+    "f59f12fb99": {
+      "batch": "framemaker-en-ja-sidebar-delta.csv",
+      "src": "Get the installer for the latest FrameMaker release and start authoring and publishing content across multiple touchpoints.",
+      "status": "translated",
+      "tgt": "最新のFrameMakerリリース用インストーラーを入手して、複数のタッチポイントに向けたコンテンツのオーサリングと公開を開始します。"
+    },
+    "f662821735": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "Help Center",
+      "status": "translated",
+      "tgt": "ヘルプセンター"
+    },
+    "f9b07383a7": {
+      "batch": "framemaker-en-ja-delta.csv",
+      "src": "What are the different authoring modes supported in FrameMaker?",
+      "status": "translated",
+      "tgt": "FrameMakerでサポートされているさまざまなオーサリングモードには何がありますか?"
+    },
+    "fc511561ab": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "How to prevent data loss while authoring?",
+      "status": "translated",
+      "tgt": "オーサリング中のデータ損失を防ぐ方法"
+    },
+    "ffc4d74b6e": {
+      "batch": "robohelp-en-ja.csv",
+      "src": "<a_1>Register now</a_1>",
+      "status": "translated",
+      "tgt": "<a_1>今すぐ登録</a_1>"
+    }
+  },
+  "targetLang": "ja"
+}

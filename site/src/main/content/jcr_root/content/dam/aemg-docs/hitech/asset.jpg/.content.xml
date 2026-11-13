@@ -2,8 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="d661e98a-39a1-4a90-a784-7131b6a9849a">
+    jcr:primaryType="dam:Asset">
     <jcr:content
         cq:isDelivered="{Boolean}false"
         cq:lastReplicated="{Date}2025-03-06T05:08:39.744-05:00"
@@ -17,9 +16,7 @@
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        dxmlLastCreatedVersion="1.0"
-        fmPostProcessedAt="2025-03-26T06:11:06.917-04:00|d661e98a-39a1-4a90-a784-7131b6a9849a|2025-03-26T06:11:06.881-04:00|14|0"
-        fmUuid="GUID-6e00efda-0268-4953-9232-6ac1972e2603">
+        dxmlLastCreatedVersion="1.0">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"

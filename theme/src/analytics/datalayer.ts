@@ -3,10 +3,10 @@
  *
  * Populates window.adobeDataLayer (Adobe Client Data Layer) with the
  * props, eVars, and page-level dimensions defined in the Global Production
- * analytics SDR for helpx / ColdFusion documentation.
+ * analytics SDR for helpx / FrameMaker documentation.
  *
  * The AEM Core Components Data Layer (already enabled via Sling CA-config)
- * pushes base page metadata; this module adds ColdFusion-specific context
+ * pushes base page metadata; this module adds FrameMaker-specific context
  * that Adobe Launch rules map to the final AppMeasurement variables.
  *
  * Mapping reference (SDR → data layer key):
@@ -51,10 +51,10 @@ function getLanguage(): string {
   return first || 'en';
 }
 
-/** Read product from <meta name="product"> or fall back to ColdFusion. */
+/** Read product from <meta name="product"> or fall back to FrameMaker. */
 function getProduct(): string {
   var meta = document.querySelector('meta[name="product"]') as HTMLMetaElement;
-  return (meta && meta.content) ? meta.content : 'ColdFusion';
+  return (meta && meta.content) ? meta.content : 'FrameMaker';
 }
 
 /**

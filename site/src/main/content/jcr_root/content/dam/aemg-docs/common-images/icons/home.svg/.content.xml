@@ -2,8 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
-    jcr:primaryType="dam:Asset"
-    jcr:uuid="353aed42-1f19-418b-9893-b71eaa9bc9ea">
+    jcr:primaryType="dam:Asset">
     <jcr:content
         dam:assetState="unprocessed"
         jcr:lastModified="{Date}2025-02-07T15:33:18.280+05:30"
