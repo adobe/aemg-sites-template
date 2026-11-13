@@ -36,7 +36,7 @@
                 <download-btn
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/text/v2/text"
-                    text="&lt;p>&lt;a href='/content/framemaker-docs/de/docs/user-guide/framemaker-downloads.html'>Jetzt FrameMaker herunterladen&lt;/a>&lt;/p>"
+                    text="&lt;p>&lt;a href='/content/framemaker/de/docs/user-guide/framemaker-downloads.html'>Jetzt FrameMaker herunterladen&lt;/a>&lt;/p>"
                     textIsRich="true"
                     id="kb-download-btn"/>
             </kb-download-card>

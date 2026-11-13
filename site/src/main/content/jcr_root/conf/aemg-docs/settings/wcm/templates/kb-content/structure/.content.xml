@@ -132,7 +132,7 @@
                     <promo-link
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>&lt;a href='/content/framemaker-docs/en/docs/user-guide/fixed-issues.html'>View release notes&lt;/a>&lt;/p>"
+                        text="&lt;p>&lt;a href='/content/framemaker/en/docs/user-guide/fixed-issues.html'>View release notes&lt;/a>&lt;/p>"
                         textIsRich="true"
                         id="kb-promo-link"/>
                 </promo-content>

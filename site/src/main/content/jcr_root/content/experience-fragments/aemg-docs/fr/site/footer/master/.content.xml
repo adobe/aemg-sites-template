@@ -72,7 +72,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Téléchargement et installation"
                         sling:resourceType="core/wcm/components/button/v1/button"
-                        link="/content/framemaker-docs/fr/docs/user-guide/framemaker-downloads.html"/>
+                        link="/content/framemaker/fr/docs/user-guide/framemaker-downloads.html"/>
                     <link2
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Centre d’aide"

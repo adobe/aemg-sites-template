@@ -33,7 +33,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         id="announcement-banner"
-                        text="&lt;p>Découvrez les &lt;a href='/content/framemaker-docs/fr/docs/user-guide/fixed-issues.html'>nouveautés&lt;/a> de FrameMaker (version de septembre 2026) !&lt;/p>"
+                        text="&lt;p>Découvrez les &lt;a href='/content/framemaker/fr/docs/user-guide/fixed-issues.html'>nouveautés&lt;/a> de FrameMaker (version de septembre 2026) !&lt;/p>"
                         textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -181,7 +181,7 @@
                                     jcr:title="Tutoriels"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
-                                    linkURL="/content/framemaker-docs/fr/docs/tutorials/video-hub.html"
+                                    linkURL="/content/framemaker/fr/docs/tutorials/video-hub.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -194,7 +194,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
                                     jcr:title="Explorer les tutoriels"
-                                    link="/content/framemaker-docs/fr/docs/tutorials/video-hub.html"/>
+                                    link="/content/framemaker/fr/docs/tutorials/video-hub.html"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
@@ -297,7 +297,7 @@
                                     jcr:title="Découverte des modèles au niveau du livre"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
-                                    linkURL="/content/framemaker-docs/fr/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
+                                    linkURL="/content/framemaker/fr/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -344,7 +344,7 @@
                                     jcr:title="Importation de fichiers Microsoft Word"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
-                                    linkURL="/content/framemaker-docs/fr/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
+                                    linkURL="/content/framemaker/fr/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -391,7 +391,7 @@
                                     jcr:title="Conversion de fichiers FrameMaker non structurés"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="/content/framemaker-docs/fr/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
+                                    linkURL="/content/framemaker/fr/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -484,7 +484,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>L’application Distiller fournie avec le programme d’installation nécessite les bibliothèques d’exécution Visual C pour s’installer et s’exécuter. Il arrive que l’application Distiller ne reconnaisse pas les bibliothèques d’exécution Visual C même si elles sont installées sur le système. Cet échec de détection des environnements d’exécution Visual C entraîne l’échec de l’installation du module complémentaire PDF Creation. Une solution de contournement pour ce problème est disponible dans l’article &lt;a href='/content/framemaker-docs/fr/docs/troubleshooting/unable-install-pdf-creation-add-on.html'>Erreur Distiller manquant lors de l’enregistrement d’un document au format PDF&lt;/a>.&lt;/p>"
+                                    text="&lt;p>L’application Distiller fournie avec le programme d’installation nécessite les bibliothèques d’exécution Visual C pour s’installer et s’exécuter. Il arrive que l’application Distiller ne reconnaisse pas les bibliothèques d’exécution Visual C même si elles sont installées sur le système. Cet échec de détection des environnements d’exécution Visual C entraîne l’échec de l’installation du module complémentaire PDF Creation. Une solution de contournement pour ce problème est disponible dans l’article &lt;a href='/content/framemaker/fr/docs/troubleshooting/unable-install-pdf-creation-add-on.html'>Erreur Distiller manquant lors de l’enregistrement d’un document au format PDF&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_2>
                             <faq_item_common_3
@@ -499,7 +499,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Oui ! Découvrez comment &lt;a href='/content/framemaker-docs/fr/docs/tutorials/import-word-content-to-dita-video.html'>importer facilement un document Word&lt;/a> dans ce bref tutoriel. Vous pouvez également suivre ces &lt;a href='/content/framemaker-docs/fr/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>instructions détaillées pour importer des fichiers Word&lt;/a>.&lt;/p>"
+                                    text="&lt;p>Oui ! Découvrez comment &lt;a href='/content/framemaker/fr/docs/tutorials/import-word-content-to-dita-video.html'>importer facilement un document Word&lt;/a> dans ce bref tutoriel. Vous pouvez également suivre ces &lt;a href='/content/framemaker/fr/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>instructions détaillées pour importer des fichiers Word&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_3>
                             <faq_item_common_4
@@ -514,7 +514,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Cet échec peut avoir plusieurs causes. Consultez l’article &lt;a href='/content/framemaker-docs/fr/docs/troubleshooting/cannot-generate-pdf-doc-book.html'>Impossible de générer le PDF de documents ou de livres FrameMaker&lt;/a> pour découvrir les solutions.&lt;/p>"
+                                    text="&lt;p>Cet échec peut avoir plusieurs causes. Consultez l’article &lt;a href='/content/framemaker/fr/docs/troubleshooting/cannot-generate-pdf-doc-book.html'>Impossible de générer le PDF de documents ou de livres FrameMaker&lt;/a> pour découvrir les solutions.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_4>
                             <faq_item_common_5
@@ -529,7 +529,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>FrameMaker inclut MIF Wash Utility pour convertir par lots des fichiers livre, supprimer les avertissements de polices ou d’images manquantes et réparer les fichiers corrompus. Consultez l’article &lt;a href='/content/framemaker-docs/fr/docs/troubleshooting/how-to-use-mifwash-utility-in-framemaker.html'>Comment utiliser MIF Wash Utility dans FrameMaker&lt;/a> pour obtenir les instructions de configuration et d’utilisation.&lt;/p>"
+                                    text="&lt;p>FrameMaker inclut MIF Wash Utility pour convertir par lots des fichiers livre, supprimer les avertissements de polices ou d’images manquantes et réparer les fichiers corrompus. Consultez l’article &lt;a href='/content/framemaker/fr/docs/troubleshooting/how-to-use-mifwash-utility-in-framemaker.html'>Comment utiliser MIF Wash Utility dans FrameMaker&lt;/a> pour obtenir les instructions de configuration et d’utilisation.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_5>
                         </faq_panel_common>
@@ -549,7 +549,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>La licence complète d’Adobe FrameMaker n’est plus disponible à l’achat. Pour les besoins individuels, vous pouvez choisir des formules d’abonnement via adobe.com.&lt;/p>&lt;p>Pour les entreprises, les PME, les secteurs de l’éducation et de l’administration, vous pouvez choisir des plans de licence en volume comme Enterprise Term License Agreement (ETLA) et Value Incentive Program (VIP).&lt;/p>&lt;p>Pour découvrir toutes les options d’achat, consultez la page &lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>Guide d’achat&lt;/a> ou écrivez-nous à &lt;a href='mailto:mtechcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Pour plus d’informations, consultez la &lt;a href='/content/framemaker-docs/fr/docs/user-guide/fm-faq.html'>FAQ FrameMaker&lt;/a>.&lt;/p>"
+                                    text="&lt;p>La licence complète d’Adobe FrameMaker n’est plus disponible à l’achat. Pour les besoins individuels, vous pouvez choisir des formules d’abonnement via adobe.com.&lt;/p>&lt;p>Pour les entreprises, les PME, les secteurs de l’éducation et de l’administration, vous pouvez choisir des plans de licence en volume comme Enterprise Term License Agreement (ETLA) et Value Incentive Program (VIP).&lt;/p>&lt;p>Pour découvrir toutes les options d’achat, consultez la page &lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>Guide d’achat&lt;/a> ou écrivez-nous à &lt;a href='mailto:mtechcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Pour plus d’informations, consultez la &lt;a href='/content/framemaker/fr/docs/user-guide/fm-faq.html'>FAQ FrameMaker&lt;/a>.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_1>
                             <faq_item_download_2
@@ -609,7 +609,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>FrameMaker ne prend pas en charge l’installation dans plusieurs langues sur le même système. Si vous avez installé FrameMaker dans plusieurs langues, il peut se lancer dans une langue différente de celle souhaitée. Pour résoudre le problème :&lt;/p>&lt;ol>&lt;li>Désinstallez FrameMaker.&lt;/li>&lt;li>&lt;a href='/content/framemaker-docs/fr/docs/user-guide/framemaker-downloads.html'>Téléchargez&lt;/a> et installez FrameMaker dans la langue requise.&lt;/li>&lt;/ol>"
+                                    text="&lt;p>FrameMaker ne prend pas en charge l’installation dans plusieurs langues sur le même système. Si vous avez installé FrameMaker dans plusieurs langues, il peut se lancer dans une langue différente de celle souhaitée. Pour résoudre le problème :&lt;/p>&lt;ol>&lt;li>Désinstallez FrameMaker.&lt;/li>&lt;li>&lt;a href='/content/framemaker/fr/docs/user-guide/framemaker-downloads.html'>Téléchargez&lt;/a> et installez FrameMaker dans la langue requise.&lt;/li>&lt;/ol>"
                                     textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
@@ -659,7 +659,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Vous pouvez convertir la version d’essai de 30 jours d’Adobe FrameMaker en abonnement en achetant une licence sur &lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe.com&lt;/a>. Pour toute question, vous pouvez nous contacter à l’adresse &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/framemaker-docs/fr/docs/user-guide/fm-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ FrameMaker.&lt;/p>"
+                                    text="&lt;p>Vous pouvez convertir la version d’essai de 30 jours d’Adobe FrameMaker en abonnement en achetant une licence sur &lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe.com&lt;/a>. Pour toute question, vous pouvez nous contacter à l’adresse &lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>. Pour plus d’informations, consultez &lt;a href='/content/framemaker/fr/docs/user-guide/fm-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ FrameMaker.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_3>
                             <faq_item_account_4
@@ -674,7 +674,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Vous pouvez annuler l’abonnement en contactant l’assistance Adobe. Si vous annulez dans les 14 jours, vous recevez un remboursement intégral. Sinon, 50 % de l’obligation contractuelle restante vous sont facturés. Vous n’aurez plus accès au logiciel par abonnement après l’annulation. Pour plus d’informations, consultez &lt;a href='/content/framemaker-docs/fr/docs/user-guide/fm-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ FrameMaker.&lt;/p>"
+                                    text="&lt;p>Vous pouvez annuler l’abonnement en contactant l’assistance Adobe. Si vous annulez dans les 14 jours, vous recevez un remboursement intégral. Sinon, 50 % de l’obligation contractuelle restante vous sont facturés. Vous n’aurez plus accès au logiciel par abonnement après l’annulation. Pour plus d’informations, consultez &lt;a href='/content/framemaker/fr/docs/user-guide/fm-faq.html'>Informations sur l’abonnement et tarifs&lt;/a> dans la FAQ FrameMaker.&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_4>
                             <faq_item_account_5
@@ -761,31 +761,31 @@
                                     jcr:title="FAQ FrameMaker"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="/content/framemaker-docs/fr/docs/user-guide/fm-faq.html"/>
+                                    link="/content/framemaker/fr/docs/user-guide/fm-faq.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Définition du sens du document"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="/content/framemaker-docs/fr/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
+                                    link="/content/framemaker/fr/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Conception des pages maîtres et de référence"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="/content/framemaker-docs/fr/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
+                                    link="/content/framemaker/fr/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Création de codes QR"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="/content/framemaker-docs/fr/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
+                                    link="/content/framemaker/fr/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
                                 <tag_review
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Suivi des modifications de texte"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
-                                    link="/content/framemaker-docs/fr/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
+                                    link="/content/framemaker/fr/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>

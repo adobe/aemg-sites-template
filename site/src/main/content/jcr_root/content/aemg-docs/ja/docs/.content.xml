@@ -33,7 +33,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         id="announcement-banner"
-                        text="&lt;p>FrameMakerの&lt;a href='/content/framemaker-docs/ja/docs/user-guide/fixed-issues.html'>新機能&lt;/a>(2026年9月リリース)を確認しましょう。&lt;/p>"
+                        text="&lt;p>FrameMakerの&lt;a href='/content/framemaker/ja/docs/user-guide/fixed-issues.html'>新機能&lt;/a>(2026年9月リリース)を確認しましょう。&lt;/p>"
                         textIsRich="true"/>
                     <container_482659403_
                         jcr:created="{Date}2021-06-17T17:09:33.275+05:30"
@@ -181,7 +181,7 @@
                                     jcr:title="チュートリアル"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="getstarted-title-tutorials"
-                                    linkURL="/content/framemaker-docs/ja/docs/tutorials/video-hub.html"
+                                    linkURL="/content/framemaker/ja/docs/tutorials/video-hub.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -194,7 +194,7 @@
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="getstarted-btn-tutorials"
                                     jcr:title="チュートリアルを見る"
-                                    link="/content/framemaker-docs/ja/docs/tutorials/video-hub.html"/>
+                                    link="/content/framemaker/ja/docs/tutorials/video-hub.html"/>
                             </tile_tutorials>
                             <tile_community
                                 jcr:primaryType="nt:unstructured"
@@ -297,7 +297,7 @@
                                     jcr:title="ブックレベルテンプレートを確認"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-1"
-                                    linkURL="/content/framemaker-docs/ja/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
+                                    linkURL="/content/framemaker/ja/docs/user-guide/frm_single_sourcing/frm_single_sourcing-templates.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -344,7 +344,7 @@
                                     jcr:title="Microsoft Wordファイルを読み込む"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-2"
-                                    linkURL="/content/framemaker-docs/ja/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
+                                    linkURL="/content/framemaker/ja/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -391,7 +391,7 @@
                                     jcr:title="非構造化FrameMakerファイルを変換"
                                     sling:resourceType="core/wcm/components/title/v2/title"
                                     id="trending-title-3"
-                                    linkURL="/content/framemaker-docs/ja/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
+                                    linkURL="/content/framemaker/ja/docs/user-guide/frm_structauth_sa/wsc37a86fa-54bf-417b-b2ae-17009d223804_ver12-0.html"
                                     type="h3"/>
                                 <description
                                     jcr:primaryType="nt:unstructured"
@@ -484,7 +484,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>インストーラーに含まれているDistillerアプリケーションをインストールして実行するには、Visual Cランタイムライブラリが必要です。システムにインストールされていても、DistillerアプリケーションがVisual Cランタイムライブラリを認識しない場合があります。このVisual Cランタイムの検出失敗により、PDF Creation Add-onのインストールが失敗します。この問題の回避策は、&lt;a href='/content/framemaker-docs/ja/docs/troubleshooting/unable-install-pdf-creation-add-on.html'>ドキュメントをPDFとして保存するときのDistillerが見つからないエラー&lt;/a>の記事で確認できます。&lt;/p>"
+                                    text="&lt;p>インストーラーに含まれているDistillerアプリケーションをインストールして実行するには、Visual Cランタイムライブラリが必要です。システムにインストールされていても、DistillerアプリケーションがVisual Cランタイムライブラリを認識しない場合があります。このVisual Cランタイムの検出失敗により、PDF Creation Add-onのインストールが失敗します。この問題の回避策は、&lt;a href='/content/framemaker/ja/docs/troubleshooting/unable-install-pdf-creation-add-on.html'>ドキュメントをPDFとして保存するときのDistillerが見つからないエラー&lt;/a>の記事で確認できます。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_2>
                             <faq_item_common_3
@@ -499,7 +499,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>この短いチュートリアルで、&lt;a href='/content/framemaker-docs/ja/docs/tutorials/import-word-content-to-dita-video.html'>Wordドキュメントをスムーズに読み込む方法&lt;/a>を学びます。また、&lt;a href='/content/framemaker-docs/ja/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>Wordファイルを読み込むための手順別の説明&lt;/a>に従うこともできます。&lt;/p>"
+                                    text="&lt;p>この短いチュートリアルで、&lt;a href='/content/framemaker/ja/docs/tutorials/import-word-content-to-dita-video.html'>Wordドキュメントをスムーズに読み込む方法&lt;/a>を学びます。また、&lt;a href='/content/framemaker/ja/docs/user-guide/frm_text_tx/frm_text_tx-importing-and-linking/frm_text_tx-import-microsoft-word.html'>Wordファイルを読み込むための手順別の説明&lt;/a>に従うこともできます。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_3>
                             <faq_item_common_4
@@ -514,7 +514,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>この失敗には複数の原因が考えられます。解決策については、&lt;a href='/content/framemaker-docs/ja/docs/troubleshooting/cannot-generate-pdf-doc-book.html'>FrameMakerドキュメントまたはブックのPDFを生成できない&lt;/a>の記事を参照してください。&lt;/p>"
+                                    text="&lt;p>この失敗には複数の原因が考えられます。解決策については、&lt;a href='/content/framemaker/ja/docs/troubleshooting/cannot-generate-pdf-doc-book.html'>FrameMakerドキュメントまたはブックのPDFを生成できない&lt;/a>の記事を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_4>
                             <faq_item_common_5
@@ -529,7 +529,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>FrameMakerには、ブックファイルの一括変換、不足しているフォントや画像の警告の抑制、破損ファイルの修復を行うためのMIF Wash Utilityが含まれています。設定と使用方法については、&lt;a href='/content/framemaker-docs/ja/docs/troubleshooting/how-to-use-mifwash-utility-in-framemaker.html'>FrameMakerでMIF Wash Utilityを使用する方法&lt;/a>の記事を参照してください。&lt;/p>"
+                                    text="&lt;p>FrameMakerには、ブックファイルの一括変換、不足しているフォントや画像の警告の抑制、破損ファイルの修復を行うためのMIF Wash Utilityが含まれています。設定と使用方法については、&lt;a href='/content/framemaker/ja/docs/troubleshooting/how-to-use-mifwash-utility-in-framemaker.html'>FrameMakerでMIF Wash Utilityを使用する方法&lt;/a>の記事を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_common_5>
                         </faq_panel_common>
@@ -549,7 +549,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Adobe FrameMakerのフルライセンスは現在購入できません。個人利用の場合は、adobe.comのサブスクリプションプランを選択できます。&lt;/p>&lt;p>企業、中小企業、教育機関、政府機関向けには、Enterprise Term License Agreement (ETLA)やValue Incentive Program (VIP)などのボリュームライセンスプランを選択できます。&lt;/p>&lt;p>すべての購入オプションを確認するには、&lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>購入ガイド&lt;/a>ページを参照するか、&lt;a href='mailto:mtechcomm@adobe.com'>techcomm@adobe.com&lt;/a>までメールでお問い合わせください。詳しくは、&lt;a href='/content/framemaker-docs/ja/docs/user-guide/fm-faq.html'>FrameMaker FAQ&lt;/a>を参照してください。&lt;/p>"
+                                    text="&lt;p>Adobe FrameMakerのフルライセンスは現在購入できません。個人利用の場合は、adobe.comのサブスクリプションプランを選択できます。&lt;/p>&lt;p>企業、中小企業、教育機関、政府機関向けには、Enterprise Term License Agreement (ETLA)やValue Incentive Program (VIP)などのボリュームライセンスプランを選択できます。&lt;/p>&lt;p>すべての購入オプションを確認するには、&lt;a href='https://www.adobe.com/products/framemaker/buying-guide.html'>購入ガイド&lt;/a>ページを参照するか、&lt;a href='mailto:mtechcomm@adobe.com'>techcomm@adobe.com&lt;/a>までメールでお問い合わせください。詳しくは、&lt;a href='/content/framemaker/ja/docs/user-guide/fm-faq.html'>FrameMaker FAQ&lt;/a>を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_download_1>
                             <faq_item_download_2
@@ -609,7 +609,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>FrameMakerは、同じシステムへの複数ロケールでのインストールをサポートしていません。FrameMakerを複数のロケールでインストールしている場合、意図した設定とは異なるロケールで起動することがあります。問題を解決するには：&lt;/p>&lt;ol>&lt;li>FrameMakerをアンインストールします。&lt;/li>&lt;li>&lt;a href='/content/framemaker-docs/ja/docs/user-guide/framemaker-downloads.html'>ダウンロード&lt;/a>して、必要なロケールでFrameMakerをインストールします。&lt;/li>&lt;/ol>"
+                                    text="&lt;p>FrameMakerは、同じシステムへの複数ロケールでのインストールをサポートしていません。FrameMakerを複数のロケールでインストールしている場合、意図した設定とは異なるロケールで起動することがあります。問題を解決するには：&lt;/p>&lt;ol>&lt;li>FrameMakerをアンインストールします。&lt;/li>&lt;li>&lt;a href='/content/framemaker/ja/docs/user-guide/framemaker-downloads.html'>ダウンロード&lt;/a>して、必要なロケールでFrameMakerをインストールします。&lt;/li>&lt;/ol>"
                                     textIsRich="true"/>
                             </faq_item_download_5>
                         </faq_panel_download>
@@ -659,7 +659,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>Adobe FrameMakerの30日間体験版は、&lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe.com&lt;/a>でライセンスを購入することでサブスクリプションに変換できます。質問がある場合は、&lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>までお問い合わせください。詳しくは、FrameMaker FAQの&lt;a href='/content/framemaker-docs/ja/docs/user-guide/fm-faq.html'>サブスクリプション情報と価格&lt;/a>を参照してください。&lt;/p>"
+                                    text="&lt;p>Adobe FrameMakerの30日間体験版は、&lt;a href='https://www.adobe.com/go/buyframemaker'>Adobe.com&lt;/a>でライセンスを購入することでサブスクリプションに変換できます。質問がある場合は、&lt;a href='mailto:techcomm@adobe.com'>techcomm@adobe.com&lt;/a>までお問い合わせください。詳しくは、FrameMaker FAQの&lt;a href='/content/framemaker/ja/docs/user-guide/fm-faq.html'>サブスクリプション情報と価格&lt;/a>を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_3>
                             <faq_item_account_4
@@ -674,7 +674,7 @@
                                 <answer
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="core/wcm/components/text/v2/text"
-                                    text="&lt;p>サブスクリプションはAdobeサポートに連絡して解約できます。14日以内に解約した場合は全額返金されます。それ以外の場合は、残りの契約義務の50%が請求されます。解約後はサブスクリプションソフトウェアにアクセスできなくなります。詳しくは、FrameMaker FAQの&lt;a href='/content/framemaker-docs/ja/docs/user-guide/fm-faq.html'>サブスクリプション情報と価格&lt;/a>を参照してください。&lt;/p>"
+                                    text="&lt;p>サブスクリプションはAdobeサポートに連絡して解約できます。14日以内に解約した場合は全額返金されます。それ以外の場合は、残りの契約義務の50%が請求されます。解約後はサブスクリプションソフトウェアにアクセスできなくなります。詳しくは、FrameMaker FAQの&lt;a href='/content/framemaker/ja/docs/user-guide/fm-faq.html'>サブスクリプション情報と価格&lt;/a>を参照してください。&lt;/p>"
                                     textIsRich="true"/>
                             </faq_item_account_4>
                             <faq_item_account_5
@@ -761,31 +761,31 @@
                                     jcr:title="FrameMaker FAQ集"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-server-admin"
-                                    link="/content/framemaker-docs/ja/docs/user-guide/fm-faq.html"/>
+                                    link="/content/framemaker/ja/docs/user-guide/fm-faq.html"/>
                                 <tag_builder
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="ドキュメントの方向を設定"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-coldfusion-builder"
-                                    link="/content/framemaker-docs/ja/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
+                                    link="/content/framemaker/ja/docs/user-guide/frm_basics_ba/frm_basics_ba-doc-direction.html"/>
                                 <tag_security
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="マスターページと参照ページをデザイン"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-security"
-                                    link="/content/framemaker-docs/ja/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
+                                    link="/content/framemaker/ja/docs/user-guide/frm_page_layout_pl/frm_page_layout_pl-master-and-reference-pages.html"/>
                                 <tag_performance
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="QRコードを作成"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-performance"
-                                    link="/content/framemaker-docs/ja/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
+                                    link="/content/framemaker/ja/docs/user-guide/frm_graphics_gr/frm_graphics_gr-topic_graphics-qrcodes.html"/>
                                 <tag_review
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="テキスト編集を追跡"
                                     sling:resourceType="core/wcm/components/button/v1/button"
                                     id="tag-review-collaboration"
-                                    link="/content/framemaker-docs/ja/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
+                                    link="/content/framemaker/ja/docs/user-guide/frm_reviewandcollaborate_re/text-edit-tracking_ws2d2a17056e2191986e1cd0ed14583.html"/>
                             </tags_container>
                         </community_right>
                     </community_section>
