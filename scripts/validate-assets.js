@@ -36,9 +36,9 @@ const forbiddenAssets = [
 const forbiddenIdentityPattern = /\b(?:jcr:uuid|fmUuid|fmPostProcessedAt)=/;
 const sourceContentLinkPattern = /\/content\/dam\/framemaker\/en\//;
 const flatFrameMakerTopicLinkPattern =
-    /\/content\/framemaker-docs\/en\/docs\/user-guide\/frm_[^/"'<\s]+\.html/;
+    /\/content\/framemaker\/en\/docs\/user-guide\/frm_[^/"'<\s]+\.html/;
 const xmlFrameMakerTopicLinkPattern =
-    /\/content\/framemaker-docs\/en\/docs\/user-guide\/[^"'<\s]+\.xml\.html/;
+    /\/content\/framemaker\/en\/docs\/user-guide\/[^"'<\s]+\.xml\.html/;
 const errors = [];
 
 function walk(directory) {
