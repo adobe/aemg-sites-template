@@ -48,7 +48,7 @@
     <com.adobe.guides.aem.components.core.linklocalization.LinkLocalizationConfig
         jcr:primaryType="nt:unstructured"
         excludedLinkAttributes="[data-attr-href]"
-        excludedUrls="[https://www.adobe.com/products/technical-content-solutions/events.html,https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads,https://www.adobe.com/privacy/us-rights.html]"/>
+        excludedUrls="[https://www.adobe.com/go/buyframemaker,https://www.adobe.com/products/technical-content-solutions/events.html,https://www.adobe.com/in/privacy/opt-out.html#interest-based-ads,https://www.adobe.com/privacy/us-rights.html]"/>
     <com.adobe.guides.aem.components.core.linklocalization.LinkLocalizationRule
         jcr:primaryType="nt:unstructured">
         <adobe
