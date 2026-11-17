@@ -5,14 +5,14 @@
     <jcr:content
         dam:assetState="processed"
         guides:assetState="SUCCESS"
-        guides:lastProcessedAt="{Date}2026-10-06T15:42:00.000+05:30"
-        jcr:lastModified="{Date}2026-10-06T15:42:00.000+05:30"
+        guides:lastProcessedAt="{Date}2026-11-17T13:14:00.000+05:30"
+        jcr:lastModified="{Date}2026-11-17T13:14:00.000+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         guidesNewAsset="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2026-10-06T15:42:00.000+05:30"
+            dam:extracted="{Date}2026-11-17T13:14:00.000+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -22,13 +22,13 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="fbaa4f312798b6dcf2c89d9304a4598b27ab3a46"
-            dam:size="{Long}1389219"
+            dam:sha1="265d93c5931f9e7dee04af6eece2ed1c1a318fbf"
+            dam:size="{Long}1550518"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}887"
-            tiff:ImageWidth="{Long}1774"
+            tiff:ImageLength="{Long}941"
+            tiff:ImageWidth="{Long}1671"
             docstate="Draft"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
