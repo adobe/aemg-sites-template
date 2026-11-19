@@ -90,8 +90,9 @@ it.
 }
 
 #adobe-logo .button,
-.container:has(> #wap-options) {
-    display: none;
+#adobe-logo .cmp-button,
+#wap-options {
+    display: none !important;
 }
 
 /* Hide hamburger container at desktop (>1440px) */
