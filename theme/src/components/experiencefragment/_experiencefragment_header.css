@@ -90,7 +90,8 @@ it.
 }
 
 #adobe-logo .button,
-.container:has(> #wap-options) {
+#wap-options,
+.container:has(#wap-options) {
     display: none;
 }
 
